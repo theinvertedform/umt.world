@@ -1,0 +1,81 @@
+# Site settings
+title: Personal Website of Uriah Marc Todoroff
+author:
+  name: Uriah Marc Todoroff
+  email: um.todoroff@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the personal website of Uriah Marc Todoroff.
+baseurl: ""
+url: "" # http://example.com
+twitter_username: theinvertedform
+github_username:  theinvertedform
+permalink: /:categories/:title
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+# collections:
+#   tags:
+#     name: true
+#  authors:
+#    output: false
+#    permalink: authors#/:short_name
+
+# Arhives
+# jekyll-archives:
+#   enabled: all
+#   layout: archive
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "blog"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      #  - scope:
+      #      path: "_posts/*.md"
+      #    values:
+      #      category: "blog"
+      #  - scope:
+      #      path: ""
+      #      type: "authors"
+      #    values:
+      #      layout: "author"
+      #      url: "/authors#/{{ short_name }}"
+
+# Minima
+header_pages:
+  - resume.md
+  - blog.md
+  - gallery.md
+  - about.md
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - TODO.md

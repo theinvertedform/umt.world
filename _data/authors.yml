@@ -1,0 +1,30 @@
+iskra:
+  name: "The Editorial Board of Iskra"
+  short_name: iskra
+  bio: Iskra (Spark) was the early journal of the Russian communist party.
+
+lenin:
+  name: Vladimir Ilyich Ulyanov
+  short_name: lenin
+  bio: Lenin was the head of the Bolsheviks and leader of the Russian Revolution.
+
+mao:
+  name: Mao Tse-tung
+  short_name: mao
+  bio: Mao was a Chinese revolutionary.
+
+marx:
+  name: Karl Marx
+  short_name: marx
+  bio: Marx is the writer whose critical theory forms the basis of communist revolution.
+
+hegel:
+  name: Georg Wilhelm Friedrich Hegel
+  short_name: hegel
+  bio: Hegel reached too high in his phenomenology of *Geist*, and Marx needed to bring him down from the stars.
+
+webmaster:
+  name: The Webmaster
+  short_name: webmaster
+  bio: Runs the smithohj.info web experience.
+  url: authors#webmaster
