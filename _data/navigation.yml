@@ -1,8 +1,0 @@
-- name: Home
-  link: /
-- name: About
-  link: /about
-- name: Masthead
-  link: /about#masthead
-- name: Blog
-  link: /blog

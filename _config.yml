@@ -1,5 +1,5 @@
 # Site settings
-title: Personal Website of Uriah Marc Todoroff
+title: umt.world
 author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
@@ -12,7 +12,7 @@ github_username:  theinvertedform
 permalink: /:categories/:title
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -44,6 +44,20 @@ defaults:
     values:
       layout: "post"
       category: "blog"
+  - scope:
+      path: "_posts/film criticism/"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "film criticism"
+      permalink: reviews/:title
+  - scope:
+      path: "_posts/art criticism/"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "art criticism"
+      #permalink: reviews/:title
   - scope:
       path: ""
     values:
