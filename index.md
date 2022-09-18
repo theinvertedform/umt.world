@@ -1,26 +1,28 @@
 ---
 title: index
+abstract: This is the personal website of **Uriah Marc Todoroff**.
 ---
 
-This is the personal website of Uriah Marc Todoroff.
+<article id="index">
 
-<section id="new" class="index-category">
-<h3>New</h3>
+<div class="abstract">{{ page.abstract | markdownify }}</div>
+
+<section id="newest">
+<h1>New</h1>
 <ul>
 {% for post in site.posts %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-<p><emph>{{ post.excerpt | strip_html | truncate: 156 }}</emph></p>
+<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title | markdownify }}</a>
+{% if post.lede %}<p><em>{{ post.lede }}</em></p>{% endif %}
 </li>
 {% endfor %}
 </ul>
 </section>
 
-<section id="blog" class="index-category">
-<h3>Blog</h3>
+<section id="blog">
+<h1>Blog</h1>
 <ul>
 {% for post in site.categories.blog %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-<p><emph>{{ post.excerpt | strip_html | truncate: 156 }}</emph></p>
 </li>
 {% endfor %}
 </ul>
@@ -29,16 +31,16 @@ This is the personal website of Uriah Marc Todoroff.
 {% for category in site.categories %}
 {% unless category contains "blog" %}
 
-<section id="{{ category[0] }}" class="index-category">
-<h3>{{ category[0] | capitalize }}</h3>
+<section id="{{ category[0] }}">
+<h1>{{ category[0] | capitalize }}</h1>
 <ul>
 {% for post in category[1] %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.last_revision %} Originally published {{ post.last_revision | date: "%b %-d, %Y"}}.{% endif %}
-<p><emph>{{ post.excerpt | strip_html | truncate: 280 }}</emph></p>
 </li>
 {% endfor %}
 </ul>
 </section>
 {% endunless %}
 {% endfor %}
+</article>

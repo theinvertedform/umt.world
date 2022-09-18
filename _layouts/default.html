@@ -14,21 +14,20 @@
         <meta name="description" content="The personal website and repository of Uriah Marc Todoroff.">
     </head>
     <body>
-        <div id ="navigation">
-            <h1><a href="/">umt.world</a></h1>
-            <a href="/about">About</a>
-            <a href="/blog">Blog</a>
-            <a href="/photos">Photos</a>
-            <a href="/links">Links</a>
-            <hr>
-            <a href="http://github.com/theinvertedform">GitHub</a>
-            <a href="http://twitter.com/theinvertedform">Twitter</a>
-            <a href="http://letterboxd.com/theinvertedform">Letterboxd</a>
-        </div>
+		<main>
+        <nav id="sidebar">
+			<a id="logo" href="/index"><img src="/assets/images/logo.png" alt=""/></a>
+			<div id="sidebar-links">
+            	<a href="/about">About</a>
+            	<a href="/links">Links</a>
+            	<a href="/changelog">Changes</a>
+            	<a href="/photos">Photos</a>
+			</div>
+        </nav>
 
-		<div id ="content">
 		{{ content }}
-		</div>
+
+		</main>
 
     </body>
 </html>

@@ -1,38 +1,35 @@
 ---
 layout: default
 ---
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+	<div class="page-metadata">
+			<div id="page-description"><em>{{ page.lede }}</em></div>
+	{% assign words = page.category | split: ' ' %}
+	<div id="page-category"><a href="#">{% for word in words %}
+		{{ word | capitalize | replace: 'The', 'the' }}
+	{% endfor %}</a></div>
+{% if page.tags.size > 0 %}
+	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}
+{% endif %}
+	</p>
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-		{% assign author = site.data.authors[page.author] %}
-      	{% if author %}
-	  • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/authors#{{ page.author | slugify }}">{{ author.name }}</a></span></span>
-		{% else %}
-		• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><a href="/about">{{ site.author.name }}</a></span></span>
-      {%- endif -%}
-{% if page.tags.size > 0 %}
-• <span itemprop="category" itemscope itemtype="http://schema.org/Category"><span class="p-author h-card" itemprop="category">Tag{% if page.tags.size > 1 %}s{% endif %}</span></span>:
-	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}&nbsp;</a>{% endfor %}
-{% endif %}
-	</p>
-  </header>
-
+  </div>
 
   <div class="post-content e-content" itemprop="articleBody">
+		  <div class="TOC">
+		  {% toc %} 
+		  </div>
+		  <div class="abstract"><blockquote>{{ page.abstract | markdownify }}</blockquote></div>
     {{ content }}
 
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

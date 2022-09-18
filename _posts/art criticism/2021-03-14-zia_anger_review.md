@@ -1,14 +1,23 @@
 ---
-author: Uriah Marc Todoroff
-title: Review of Zia Anger's <i>My First Film</i>
+title: "Review of Zia Anger's *My First Film*"
+lede: On the relationship between performance and video in the early Pandemic Age.
+tags:
+  - review
+  - video
+  - performance
+  - digital culture
+
+abstract: Zia Anger's performance piece was particularly suited to online adaptation; and in the early days of the pandemic, it felt like an exciting exploration of the possibilities of digital platforms.
 ---
 
+# Introduction
 After wrapping production on her first film in 2012, alternately titled <i>Gray</i> and <i>Always All Ways, Anne Marie,</i> Zia Anger submitted it to 40 different film festivals and did not gain entry into any. When she tried to have the credit's "post-production" status removed from <a href="https://www.imdb.com/name/nm2851641/">her IMDB profile</a>, "it just wrote “abandoned”...because I had never premiered them at a festival, films I had made were considered abandoned." This is the inciting incident that sets off the narrative of <i>My First Film</i>, a hybrid form of new media, artist talk, and theatrical performance that ran at Metrograph before winding up as a livestream performance at the beginning of the Pandemic Age. <i>My First Film</i> recycles the body of Anger's "abandoned" crowd-funded feature, creating a new work exploring institutional power while pushing the boundaries of streaming content.
 
 The performance event was promoted by the artist's personal Twitter account during the first months of the pandemic, offering tickets on a first-come, first-served basis that would reach capacity within minutes. I followed the URL emailed to me, and full-screened the private YouTube Live video. The screen of my ThinkPad becomes a window into Anger's MacBook. Screen-sharing has become more common, but in May 2020, the transformation of my own desktop into that of another's retained the shock of intimacy at the beginning of mass social isolation.
 
 Anger opens Apple's Messages application and starts to send out video clips to whoever texts the email written alongside a introductory guide contained in the frame of a text editor. She encourages the audience to communicate with each other, sharing the clips with any potential Android users who are locked out of this proprietary software-mediated exchange. The phone numbers of the audience are all visible in the notifications continually bubbling to the surface of Anger's interface. In traditional live performances, the initial experience will always involve the sensation of sharing space and participating in an event with others.
 
+# Online performance
 It took me some time to appreciate just how well-crafted this overture was; in the moment, all I felt was a deep sensation of anxiety. I have not owned a smartphone in 5 years, and I have not regularly used any proprietary software in almost as long. At the same time, I have developed a deep and personal connection to the computer interface that I have developed through editing the source code of free software. The sudden introduction of the Other into my quarantine pod was something of a rude jar. On top of this, I feel disoriented by the sudden transformation of my own interface into the heavily designed, slick contours of MacOS. I had to ask my girlfriend what was going on, because even after several minutes I could barely parse what was transpiring, and how exactly people were using their phones. Anger has very cleverly used this part of the performance to simulate the sensation of audience spectatorship, something that she writes about as an intrinsic aspect of the experience of cinema that she holds dear [citation needed].
 
 [video clip picture]
@@ -23,7 +32,7 @@ Following this introduction, the bulk of the stream consists of Anger moving thr
 
 The work is emotionally resonant, and very effectively executed, combining live improvisation in Anger's presentation of her inner monologue. At certain points during the performance, she moves from the film to the Internet, digging up some website to make sure her audience understands how she is framing her own work. The two most important formal concepts that I want to explore from this piece are: 1) how the artist making a piece about their own work, drawing on their own archive, is formally innovative and represents a breakdown in the need for gatekeepers. 2) the Possibility of this move toward a limited autonomy is, in fact, the result of material developments in technology. The Internet and its (limited) democracy is just the latest development in a process that Benjamin describes in his essay on mechanical reproduction: just like photography at its advent was an ambiguous technology, hovering between radical proletarianization that Benjamin was optimistic about, and the complete deadening and commodification of culture that Adorno was depressed about, the Internet is just a further stripping-away of the aura.
 
-In the context of the film industry, where digital reproduction has existed for decades, aura has been maintained through a strict guardianship of legitimacy. IMDB may seem like a minor, unimportant signifier of legitimacy, but Anger's case proves to us that it is in fact a major factor in whether one is accepted by the mainstream, and whether one can break into the same kind of world and opportunities that the mainstream presents. Anger wants to make a film for $1 million, but there is no contemporary precedent for filmmakers having access to those kinds of resources without working their way up through the institution.
+In the context of the film industry, where digital reproduction has existed for decades, aura has been maintained through a strict guardianship of legitimacy. IMDB may seem like a minor, unimportant signifier of legitimacy, but Anger's case proves to us that it is in fact a major factor in whether one is accepted by the mainstream, and whether one can break into the same kind of world and opportunities that the mainstream presents. Anger wants to make a film for \$1 million, but there is no contemporary precedent for filmmakers having access to those kinds of resources without working their way up through the institution.
 
 The form of My First Film has not changed significantly from its initial theatre run, beginning in 2018 and continuing through 2019. At Metrograph, the artist sat in the front row, typing her commentary into a laptop connected to the projector. Now she substitutes the auditorium for a private YouTube link, shared to those lucky--or extremely online enough to have acquired a ticket. Turning the video full-screen had an added layer in the context of the pandemic. I am used to screensharing and having access to the inside of people's laptops, but always for some functional or pedagogical purpose. Now that I had been alone at home for nearly two months at that point, relegated to exclusively-online social interactions, a once-banal activity took on new significance. My First Film became far more intimate in that regard, and revealed a new use for my laptop that I had not yet been made aware of.
 
@@ -39,9 +48,13 @@ During the promotion of her most recent short, "<a href="https://vimeo.com/20169
 
 Who knows if Anger's sense for new media and the Internet would be as finely-tuned as it is, had her first film been picked up, and if she had been integrated into the industry at an earlier age. What "My First Film" does is revisit the body of the earlier work, updating it by typing alongside it and moving through the Internet, and her computer, bringing us into the experience written by her life at the time of its making.
 
+# Being Online
+
 In the early months of the Pandemic Age, Anger promoted a livestreamed version of her performance "My First Film" on Twitter, offering limited seating on a first-come, first-served basis. I was lucky enough to grab a ticket during the final week of performances. I received a link to a private YouTube livestream, where I found myself with approximately 60 others. When the stream begins, my laptop became a portal into Anger's. At this point I have become somewhat inured to the novelty of zoom conferences, and I am used to watching screencasts. This hits differently, perhaps because I use a highly customized, linux-based desktop environment, and she uses the proprietary Mac OS environment, which takes me by surprise. But regardless of why, the effect of the stream is far more emotional than any other similarly-framed piece of "content" that I have seen.
 
 The real purpose of this essay is to try to identify the aspects of the performance that really close it off as something "elevated" beyond your typical livestream. The second part is to show how the technology that permits this performances is ambiguous, but has historically been overtaken by capitalist institutions (After Benjamin). The third part is to try to identify something about these films that can impact how we understand Content. What is important and relevant about this particular work in an age when Online Content is blowing up to an insane extent.
+
+## Trying to go Deeper
 
 The argument is using Benjamin's concept of the aura, but applied to the institutions that have built up around certain forms--for example, the American filmmaking system. The possibilities of using new media to explore the artist's archive are an extension of how Benjamin understood photography in "The Work of Art in the Age of Mechanical Reproduction." There is the possibility for "the feature film" to become more democratic on the Internet; at the same time, there is an integration of performance, which is a hallmark of online production.
 

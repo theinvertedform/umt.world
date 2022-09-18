@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-toc
 
 # Collections
 # collections:
@@ -44,6 +45,7 @@ defaults:
     values:
       layout: "post"
       category: "blog"
+      toc: true
   - scope:
       path: "_posts/film criticism/"
       type: "posts"
