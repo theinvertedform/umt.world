@@ -9,9 +9,6 @@ layout: default
 	<div class="page-metadata">
 			<div id="page-description"><em>{{ page.lede }}</em></div>
 	{% assign words = page.category | split: ' ' %}
-	<div id="page-category"><a href="#">{% for word in words %}
-		{{ word | capitalize | replace: 'The', 'the' }}
-	{% endfor %}</a></div>
 {% if page.tags.size > 0 %}
 	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}
 {% endif %}
