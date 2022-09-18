@@ -8,15 +8,13 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="page-metadata">
 			<div id="page-description"><em>{{ page.lede }}</em></div>
-	{% assign words = page.category | split: ' ' %}
 {% if page.tags.size > 0 %}
 	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}
 {% endif %}
 	</p>
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
+		{{ page.date | date: date_format }} {% if page.last_revision %} &mdash; {{ page.last_revision }}</time> {% endif %} &mdash; {{ page.status }}
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -25,7 +23,6 @@ layout: default
 		  </div>
 		  <div class="abstract"><blockquote>{{ page.abstract | markdownify }}</blockquote></div>
     {{ content }}
-
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

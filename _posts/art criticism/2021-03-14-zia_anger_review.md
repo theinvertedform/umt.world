@@ -8,6 +8,7 @@ tags:
   - digital culture
 
 abstract: Zia Anger's performance piece was particularly suited to online adaptation; and in the early days of the pandemic, it felt like an exciting exploration of the possibilities of digital platforms.
+status: rough draft
 ---
 
 # Introduction

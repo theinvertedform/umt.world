@@ -22,6 +22,19 @@ ul {
     padding-left: 18px;
 }
 
+ol {
+	counter-reset: count;
+	list-style-type: decimal;
+}
+
+li {
+	counter-increment: count;
+	}
+
+ol li::marker {
+	content: counters(count, ".", decimal) ". ";
+	}
+
 a {
     color: #111;
     text-decoration: none;
@@ -78,7 +91,7 @@ div.page-metadata {
 }
 
 article #page-description {
-	text-align: center;
+		margin: 0 auto 0.75em auto;
 	}
 
 article#index {

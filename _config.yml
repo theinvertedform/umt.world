@@ -19,6 +19,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
+toc:
+  ordered_list: true
+  list-class: toc-list
+  list-subclass: toc-sublist
+
 # Collections
 # collections:
 #   tags:
