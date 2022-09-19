@@ -5,14 +5,14 @@ abstract: This is the personal website of **Uriah Marc Todoroff**.
 
 <article id="index">
 
-<div class="abstract">{{ page.abstract | markdownify }}</div>
+<aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="newest">
 <h1>New</h1>
 <ul>
-{% for post in site.posts %}
+{% for post in site.posts limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title | markdownify }}</a>
-{% if post.lede %}<p><em>{{ post.lede }}</em></p>{% endif %}
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -21,7 +21,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**.
 <section id="blog">
 <h1>Blog</h1>
 <ul>
-{% for post in site.categories.blog %}
+{% for post in site.categories.blog limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 </li>
 {% endfor %}
@@ -34,9 +34,9 @@ abstract: This is the personal website of **Uriah Marc Todoroff**.
 <section id="{{ category[0] }}">
 <h1>{{ category[0] | capitalize }}</h1>
 <ul>
-{% for post in category[1] %}
+{% for post in category[1] limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.last_revision %} Originally published {{ post.last_revision | date: "%b %-d, %Y"}}.{% endif %}
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
 </ul>

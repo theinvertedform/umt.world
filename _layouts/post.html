@@ -14,14 +14,12 @@ layout: default
 	</p>
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-		{{ page.date | date: date_format }} {% if page.last_revision %} &mdash; {{ page.last_revision }}</time> {% endif %} &mdash; {{ page.status }}
+		{{ page.date | date: date_format }} {% if page.modified %} &mdash; {{ page.modified | date: date_format }}</time>{% endif %} {% if page.status %} &bull; Status: <em>{{ page.status }}</em>{% endif %}
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
-		  <div class="TOC">
-		  {% toc %} 
-		  </div>
-		  <div class="abstract"><blockquote>{{ page.abstract | markdownify }}</blockquote></div>
+		  {% if page.toc %}<aside class="TOC">{% toc %}</aside>{% endif %}
+		  {% if page.abstract %}<aside class="abstract"><blockquote>{{ page.abstract | markdownify }}</blockquote></aside>{% endif %}
     {{ content }}
   </div>
 

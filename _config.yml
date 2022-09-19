@@ -9,10 +9,9 @@ baseurl: ""
 url: "" # http://example.com
 twitter_username: theinvertedform
 github_username:  theinvertedform
-permalink: /:categories/:title
+permalink: /:slugified_categories/:title
 
 # Build settings
-#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -21,27 +20,15 @@ plugins:
 
 toc:
   ordered_list: true
-  list-class: toc-list
-  list-subclass: toc-sublist
 
 # Collections
-# collections:
+collections:
+collections_dir: collections
 #   tags:
 #     name: true
 #  authors:
 #    output: false
 #    permalink: authors#/:short_name
-
-# Arhives
-# jekyll-archives:
-#   enabled: all
-#   layout: archive
-#   permalinks:
-#     year: '/:year/'
-#     month: '/:year/:month/'
-#     day: '/:year/:month/:day/'
-#     tag: '/tag/:name/'
-#     category: '/category/:name/'
 
 defaults:
   - scope:
@@ -49,43 +36,35 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      category: "blog"
-      toc: true
-  - scope:
-      path: "_posts/film criticism/"
-      type: "posts"
-    values:
-      layout: "post"
-      category: "film criticism"
-      permalink: reviews/:title
-  - scope:
-      path: "_posts/art criticism/"
-      type: "posts"
-    values:
-      layout: "post"
-      category: "art criticism"
-      #permalink: reviews/:title
+      #category: "blog"
+      #      toc: true
+      #  - scope:
+      #      path: "_posts/film criticism/"
+      #      type: "posts"
+      #    values:
+      #      layout: "post"
+      #      category: "film criticism"
+      #      permalink: reviews/:title
+      #  - scope:
+      #      path: "_posts/art criticism/"
+      #      type: "posts"
+      #    values:
+      #      layout: "post"
+      #      category: "art criticism"
   - scope:
       path: ""
     values:
       layout: "default"
-      #  - scope:
-      #      path: "_posts/*.md"
-      #    values:
-      #      category: "blog"
+  - scope:
+      path: "_posts/"
+    values:
+      category: "blog"
       #  - scope:
       #      path: ""
       #      type: "authors"
       #    values:
       #      layout: "author"
       #      url: "/authors#/{{ short_name }}"
-
-# Minima
-header_pages:
-  - resume.md
-  - blog.md
-  - gallery.md
-  - about.md
 
 exclude:
   - .sass-cache/
