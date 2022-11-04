@@ -23,6 +23,8 @@ toc:
 
 # Collections
 collections:
+  footnotes-to-endnotes:
+    output: false
 collections_dir: collections
 #   tags:
 #     name: true
@@ -59,7 +61,7 @@ defaults:
   - scope:
       path: "collections/blog/_posts/"
     values:
-      category: "Blog"
+      category: "blog"
       #  - scope:
       #      path: ""
       #      type: "authors"

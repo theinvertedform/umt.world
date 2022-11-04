@@ -31,7 +31,6 @@ toc: false
 
 {% for category in site.categories %}
 {% unless category contains "blog" %}
-
 <section id="{{ category[0] }}">
 <h1>{{ category[0] | capitalize }}</h1>
 <ul>
