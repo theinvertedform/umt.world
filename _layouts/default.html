@@ -12,6 +12,11 @@
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
         <meta name="description" content="The personal website and repository of Uriah Marc Todoroff.">
+
+		<!-- Google Analytics -->
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+		{% endif %}
     </head>
     <body>
 		<main>

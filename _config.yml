@@ -67,6 +67,9 @@ defaults:
       #      layout: "author"
       #      url: "/authors#/{{ short_name }}"
 
+# Google analytics
+google_analytics: G-5NHX2XP9H3
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

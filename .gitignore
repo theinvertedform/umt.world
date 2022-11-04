@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 Gemfile.lock
+_assets/audio/
 vendor
-=======
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
->>>>>>> 0cbc2df94d368b58d5574ff3c20d11bedda94f15
