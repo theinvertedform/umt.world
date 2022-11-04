@@ -10,8 +10,88 @@ html {
 
 body {
     color: #333;
-	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 15px;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+}
+
+#sidebar {
+	display: flex;
+    justify-content: center;
+	margin: 0.75em 0 0.5em 0;
+	font-variant: small-caps;
+}
+
+#sidebar a#logo {
+    border: none;
+	margin: 0.5em;
+	max-width: 75px;
+	min-width: 75px;
+}
+
+#sidebar-links {
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 1 100%;
+}
+
+#sidebar-links a {
+	border: 1px dotted;
+	padding: 0.5em 0.5em;
+	text-align: center;
+	margin: 1px;
+	flex: 1 1 40%;
+}
+
+header h1 {
+	margin: 0.75em 0;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 2.5em;
+	line-height: 1.15;
+	font-weight: 600;
+	letter-spacing: -1px;
+	}
+
+#page-metadata {
+	line-height: 1.5;
+	margin: 0 0 2rem 0;
+}
+
+#markdownBody {
+	overflow-wrap: break-word;
+	}
+
+#page-description {
+		margin: 0 auto 0.75em auto;
+	}
+
+/*article {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2em;
+	grid-row-gap: 0.5em;
+	}
+*/
+
+/*
+article aside#abstract {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	}
+*/
+
+article p {
+		display: inline;
+}
+
+p {
+	hyphens: none;
+	margin: 0;
 }
 
 img {
@@ -46,6 +126,8 @@ h1 {
 	line-height: 1.125;
 	text-align: left;
 	font-weight: bold;
+	letter-spacing: -0.75px;
+	font-variant: small-caps;
 }
 
 h2 {
@@ -56,119 +138,79 @@ h3 {
     font-size: 18px;
 }
 
-nav#sidebar {
-    background: #f3f3f3 url("../images/header.png") repeat-x left bottom;
-    text-align: center;
+aside.abstract blockquote {
+	margin: 0 0 1.5em 0;
+	padding: 0.9rem 1.25rem 0.95rem 1.25rem;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+	overflow: hidden;
 }
 
-nav#sidebar a {
-    border: none;
-}
-
-main {
-	min-height: 100vh;
+aside#TOC {
+	max-width: 205px;
+	margin: 0 2rem 1.5rem 0;
+	padding: 0.5em 0.5em 0.75em 0.75em;
 	position: relative;
-	right: 40px;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+	z-index: 11;
+	line-height: 1.25;
 }
 
-header {
-	margin-left: 155px;
+@media all and (min-width: 650px) {
+	header {
+		margin-left: 155px;
 	}
 
-header h1 {
-	margin: 0.75em 0;
-	text-align: center;
-	font-variant: small-caps;
-	font-size: 2.5em;
-	line-height: 1.15;
-	font-weight: 600;
-	letter-spacing: -1px;
-	}
-
-div.page-metadata {
-	line-height: 1.5;
-	margin: 0 0 2rem 0;
-}
-
-article #page-description {
-		margin: 0 auto 0.75em auto;
-	}
-
-article#index {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 2em;
-	grid-row-gap: 0.5em;
-	}
-
-article#index aside#abstract {
-	grid-column-start: 1;
-	grid-column-end: -1;
-	}
-
-article#index p {
-		display: inline;
-}
-
-@media all and (min-width: 822px) {
-    html {
-    }
-
-	body {
-	}
-
-    nav#sidebar {
+    #sidebar {
 		position: absolute;
-        background: none;
-        max-width: 102px;
+        width: 100px;
+		display: block;
     }
 
-    nav#sidebar h1, nav#sidebar a {
+	#sidebar-links a {
+		border: none;
+		margin: 0;
+	}
+
+	#sidebar a#logo {
+		width: 100%;
+	}
+
+	#sidebar a#logo img {
+		max-width: 75px;
+	}
+
+    #sidebar h1, #sidebar a {
         display: block;
         text-align: left;
     }
 
-    nav#sidebar a {
-        color: #333;
-    }
-
-	nav#sidebar a#logo {
-}
-
 	article {
-		margin-left: 155px;
-}
-
-	article#index {
+		margin-left: 100px;
 		padding-top: 15px;
-}
+		flex: 1 1 auto;
+		max-width: 1000px; /* figure out where the width goes; how to grow space on left side of screen. */
+	}
+
+	.markdownBody {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+		grid-row-gap: 0.5em;
+		line-height: 1.55;
+	}
+
+	aside#TOC {
+		float: left;
+	}
 
 	aside.abstract {
 		grid-column-start: 1;
 		grid-column-end: -1;
-		margin: 0 2rem 1.5rem 0;
-		position: relative;
+		margin: 0;
+		padding: 0;
 		overflow-wrap: break-word;
-}
-
-	aside.abstract blockquote {
-		margin: 0 0 1.5em 0;
-		padding: 0.9rem 1.25rem 0.95rem 1.25rem;
-		border: 1px solid #ccc;
-		background-color: #f8f8f8;
-		overflow: hidden;
-}
-
-	aside.TOC {
-		float: left;
-		max-width: 205px;
-		margin: 0 2rem 1.5rem 0;
-		padding: 0.5em 0.5em 0.75em 0.75em;
-		position: relative;
-		border: 1px solid #ccc;
-		background-color: #f8f8f8;
-		z-index: 11;
-		line-height: 1.25;
-}
+	}
 
 }

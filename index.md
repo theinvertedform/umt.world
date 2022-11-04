@@ -1,10 +1,11 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher whose critical practise covers film, art, literature, and popular culture. I also write fiction.
+toc: false
 ---
 
-<article id="index">
-
+<article>
+<div class="markdownBody" id="markdownBody">
 <aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="newest">
@@ -43,4 +44,6 @@ abstract: This is the personal website of **Uriah Marc Todoroff**.
 </section>
 {% endunless %}
 {% endfor %}
+
+</div>
 </article>

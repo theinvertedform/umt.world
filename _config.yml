@@ -36,6 +36,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+        #toc: "true"
       #category: "blog"
       #      toc: true
       #  - scope:
@@ -56,9 +57,9 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_posts/"
+      path: "collections/blog/_posts/"
     values:
-      category: "blog"
+      category: "Blog"
       #  - scope:
       #      path: ""
       #      type: "authors"

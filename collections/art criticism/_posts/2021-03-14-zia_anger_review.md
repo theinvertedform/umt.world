@@ -1,12 +1,11 @@
 ---
-title: "Review of Zia Anger's *My First Film*"
+title: Review of Zia Anger's My First Film
 description: On the relationship between performance and video in the early Pandemic Age.
 tags:
   - review
   - video
   - performance
   - digital culture
-
 abstract: Zia Anger's performance piece was particularly suited to online adaptation; and in the early days of the pandemic, it felt like an exciting exploration of the possibilities of digital platforms.
 status: rough draft
 modified: 2021-04-24

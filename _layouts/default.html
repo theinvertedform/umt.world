@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 
-		<title>umt.world - {{ title }}</title>
+		<title>{{ page.title }} - umt.world</title>
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
@@ -16,18 +16,23 @@
     <body>
 		<main>
         <nav id="sidebar">
-			<a id="logo" href="/index"><img src="/assets/images/logo.png" alt=""/></a>
+			<a id="logo" href="/index"><img src="/assets/images/logo.png" alt="umt.world logo, taken from a photo of a test of the atom bomb near Trinity, NM."/></a>
 			<div id="sidebar-links">
             	<a href="/about">About</a>
             	<a href="/links">Links</a>
             	<a href="/changelog">Changes</a>
-            	<a href="/photos">Photos</a>
+            	<a href="/news">News</a>
+				<!--<a href="/photos">Photos</a>--!>
 			</div>
         </nav>
-
+		
 		{{ content }}
 
 		</main>
+
+		<footer>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Submit feedback.</a>
+		</footer>
 
     </body>
 </html>

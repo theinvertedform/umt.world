@@ -1,5 +1,12 @@
 ---
 title: Categories
+layout: post
+description: Archive of posts sorted by category. This is identical to the index page.
+abstract: The category system is a combination of standardized descriptions, and the concept of a column.
+tags:
+  - meta
+  - bibliography
+toc: true
 ---
 
 {% assign sorted_categories = site.categories | sort %}
