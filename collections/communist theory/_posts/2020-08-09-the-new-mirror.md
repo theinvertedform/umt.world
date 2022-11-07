@@ -13,6 +13,8 @@ tags:
   - The New Mirror
   - Voice of Montréal
 description: A fantastical confusion of the early 20th century revolutionary press, and the late 20th century alternative press.
+status: nonsense
+abstract: The overall ambition of this article is to research publishing practises in relation to revolutionary communist movements. But as well, in the Chinese context, print media has an inextricable connection to study groups, which are themselves a structural element in Maoist theory. The conceit of the article was originally meant to draw an ironic parallel between these revolutionary newsprint activities, and the underground press that emerged out of the counterculture of the 60s, becoming the corporatized alt weekly that I remember from my millenial adolescence. As it stands, this article is quite bad.
 ---
 
 Lenin became a leader as the 19th century gave way to the 20th, when revolutionary consciousness in Russia was at a high point. A statement credited to a group including Georgi Plekhanov, Vera Zasulich, Pavel Axelrod, Julius Martov, Vladimir Ilyich (Lenin) and his younger brother Dmitri Ilyich Ulyanov, read "we are passing through an extremely important period in the history of the Russian working-class movement...The past few years have been marked by an astonishingly rapid spread of Social-Democratic ideas among our intelligentsia, and meeting this trend in social ideas is an independent movement of the industrial proletariat..."
