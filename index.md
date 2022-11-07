@@ -1,6 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher whose critical practise covers film, art, literature, and popular culture. I also write fiction.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher whose practise is predicated on a continuous encounter with the real of contemporary culture. I cover a range of media including film, art, literature, and popular culture, in their emerging form as well as their history. I also write fiction.
 toc: false
 ---
 

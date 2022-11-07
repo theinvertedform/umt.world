@@ -1,6 +1,5 @@
 ---
 title: The New Mirror
-author: Uriah Marc Todoroff
 tags:
   - alternative press
   - Arthur Schopenhauer
@@ -15,7 +14,6 @@ tags:
   - Voice of Montréal
 description: A fantastical confusion of the early 20th century revolutionary press, and the late 20th century alternative press.
 ---
-
 
 Lenin became a leader as the 19th century gave way to the 20th, when revolutionary consciousness in Russia was at a high point. A statement credited to a group including Georgi Plekhanov, Vera Zasulich, Pavel Axelrod, Julius Martov, Vladimir Ilyich (Lenin) and his younger brother Dmitri Ilyich Ulyanov, read "we are passing through an extremely important period in the history of the Russian working-class movement...The past few years have been marked by an astonishingly rapid spread of Social-Democratic ideas among our intelligentsia, and meeting this trend in social ideas is an independent movement of the industrial proletariat..."
 

@@ -12,14 +12,14 @@ modified: 2021-04-24
 toc: true
 ---
 
-# Introduction
 After wrapping production on her first film in 2012, alternately titled <i>Gray</i> and <i>Always All Ways, Anne Marie,</i> Zia Anger submitted it to 40 different film festivals and did not gain entry into any. When she tried to have the credit's "post-production" status removed from <a href="https://www.imdb.com/name/nm2851641/">her IMDB profile</a>, "it just wrote “abandoned”...because I had never premiered them at a festival, films I had made were considered abandoned." This is the inciting incident that sets off the narrative of <i>My First Film</i>, a hybrid form of new media, artist talk, and theatrical performance that ran at Metrograph before winding up as a livestream performance at the beginning of the Pandemic Age. <i>My First Film</i> recycles the body of Anger's "abandoned" crowd-funded feature, creating a new work exploring institutional power while pushing the boundaries of streaming content.
 
 The performance event was promoted by the artist's personal Twitter account during the first months of the pandemic, offering tickets on a first-come, first-served basis that would reach capacity within minutes. I followed the URL emailed to me, and full-screened the private YouTube Live video. The screen of my ThinkPad becomes a window into Anger's MacBook. Screen-sharing has become more common, but in May 2020, the transformation of my own desktop into that of another's retained the shock of intimacy at the beginning of mass social isolation.
 
 Anger opens Apple's Messages application and starts to send out video clips to whoever texts the email written alongside a introductory guide contained in the frame of a text editor. She encourages the audience to communicate with each other, sharing the clips with any potential Android users who are locked out of this proprietary software-mediated exchange. The phone numbers of the audience are all visible in the notifications continually bubbling to the surface of Anger's interface. In traditional live performances, the initial experience will always involve the sensation of sharing space and participating in an event with others.
 
-# Online performance
+# The Performance
+
 It took me some time to appreciate just how well-crafted this overture was; in the moment, all I felt was a deep sensation of anxiety. I have not owned a smartphone in 5 years, and I have not regularly used any proprietary software in almost as long. At the same time, I have developed a deep and personal connection to the computer interface that I have developed through editing the source code of free software. The sudden introduction of the Other into my quarantine pod was something of a rude jar. On top of this, I feel disoriented by the sudden transformation of my own interface into the heavily designed, slick contours of MacOS. I had to ask my girlfriend what was going on, because even after several minutes I could barely parse what was transpiring, and how exactly people were using their phones. Anger has very cleverly used this part of the performance to simulate the sensation of audience spectatorship, something that she writes about as an intrinsic aspect of the experience of cinema that she holds dear [citation needed].
 
 [video clip picture]
@@ -56,7 +56,7 @@ In the early months of the Pandemic Age, Anger promoted a livestreamed version o
 
 The real purpose of this essay is to try to identify the aspects of the performance that really close it off as something "elevated" beyond your typical livestream. The second part is to show how the technology that permits this performances is ambiguous, but has historically been overtaken by capitalist institutions (After Benjamin). The third part is to try to identify something about these films that can impact how we understand Content. What is important and relevant about this particular work in an age when Online Content is blowing up to an insane extent.
 
-## Trying to go Deeper
+## Deeper into Video
 
 The argument is using Benjamin's concept of the aura, but applied to the institutions that have built up around certain forms--for example, the American filmmaking system. The possibilities of using new media to explore the artist's archive are an extension of how Benjamin understood photography in "The Work of Art in the Age of Mechanical Reproduction." There is the possibility for "the feature film" to become more democratic on the Internet; at the same time, there is an integration of performance, which is a hallmark of online production.
 
