@@ -9,7 +9,7 @@ baseurl: ""
 url: "" # http://example.com
 twitter_username: theinvertedform
 github_username:  theinvertedform
-permalink: /:slugified_categories/:title
+permalink: /:title
 
 # Build settings
 plugins:
@@ -68,12 +68,14 @@ defaults:
       path: "collections/blog/_posts/"
     values:
       category: "blog"
-      #  - scope:
-      #      path: ""
-      #      type: "authors"
-      #    values:
-      #      layout: "author"
-      #      url: "/authors#/{{ short_name }}"
+  - scope:
+      path: "collections/reviews/"
+    values:
+      permalink: "/:slugified_categories/:title"
+  - scope:
+      path: "collections/Footnotes to Endnotes/_posts"
+    values:
+      output: false
 
 # Google analytics
 google_analytics: G-5NHX2XP9H3
