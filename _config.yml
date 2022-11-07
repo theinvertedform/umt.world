@@ -18,6 +18,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
+feed:
+  categories:
+    newsletter:
+      path: "/newsletter.atom"
+posts_limit: 20
+
 toc:
   ordered_list: true
 
