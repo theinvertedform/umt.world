@@ -1,6 +1,6 @@
 ---
-title: About
-description: A page about this website. 
+title: About This Website
+description: A page describing the technical, aesthetic, and political dimensions of umt.world. 
 abstract: Including more details on what gets collected on this website, and what are the methods used for that collection; what are the design principles, inspirations, ambitions.
 layout: meta
 toc: true
@@ -10,7 +10,7 @@ tags:
   - web design
 ---
 
-As technical literacy decreases in inverse proportion to our society's increased reliance on the internet, it becomes ever more urgent to retain independent control of one's content online. What follows is a comprehensive program for a Web-based self-publishing platform. At its heart is a website that functions as a single corpus, a statically-generated *Weltanschauung*. Connecting this work to the social web are two avenues of communication: a newsletter, and automated syndication across social media. The technical implementation of an integrated writing environment and publishing platform enables a form of writing whose distinct literary form is untouched by the article-form of traditional publishing. Over the past six consecutive years, I have been developing a writing environment that I hope to unify and organize into a single work that is both software and writing. This project involves the design and technical implementation of a complete archival system. 
+Through technical means, we can directly manipulate the material of new media. Unfortunately, since the onset of the digital age, untold resources have been poured directly into suppressing technical literacy. The evolution of the internet as a social mediator through handheld computer devices has created a digital economy that largely depends on compliant consumption, rather than creative use. Applications abstract away from technology, imprisoning pure mutability and aesthetic potential in graphical interfaces---limited frameworks confined to another's vision. The challenge is to fight for our own use of new media on our own terms; rather than using other peoples' platforms, confining our aesthetic works within the horizon of FAANG allows us to claim the internet, the dominant social medium, and use technical means for our own aesthetic ends. What follows is a comprehensive program for a Web-based self-publishing platform. At its heart is a website that functions as a single corpus, a statically-generated *Weltanschauung*. Connecting this work to the social web are two avenues of communication: a newsletter, and automated syndication across social media. The technical implementation of an integrated writing environment and publishing platform enables a form of writing whose distinct literary form is untouched by the article-form of traditional publishing. Over the past six consecutive years, I have been developing a writing environment that I hope to unify and organize into a single work that is both software and writing. This project involves the design and technical implementation of a complete archival system. 
 
 The structure and contents of the proposed website mirror the writer's personal archive. Updates and revisions are automatically scheduled, and changes are tracked and accessible. Pages grow over time, repositories of information and references on a topic and organized into sections. Together, the hyperlinked topics, sections, and resources together all represent an articulation of thought that grows over the course of a lifetime.
 
@@ -52,3 +52,15 @@ My writing practise includes critical writing, research, and fiction. The first 
 A core element of this publishing strategy is a political desire to retain independent control of my work. However, given that my work is conceptual and relies on context, my suspicion is that conventional SEO strategies will do little to generate discovery (this is an unverified claim; more research needs to be done). My goal is to develop a plugin for the SSG that automatically syndicates content across social media as part of the automated publication process. In order to promote engagement, relevant pieces of content will be posted across platforms (i.e. updates on Twitter, film reviews on Letterboxd, etc). Commenting and "calls to action" will be funnelled to external social media platforms in order to drive discoverability.
 
 The second element of my outreach program is a newsletter. This database, which must be hosted independently of commercial services like Substack or Mailchimp (a daunting technical challenge), represents a direct line of communication with my audience, and is therefore of great importance to the overall project. The newsletter is still roughly conceived. One idea is a "Culture Diary," a weekly/bi-weekly, informal log of my encounters with culture. However, I feel like this may be too ambitious, and I might be better off simply using the very simple form of categorized lists. The style/tone of writing and its position with respect to the website is still an open question. I may end up with two mailing lists: one unscheduled, used for promotional updates; another structured and posted on a schedule.
+
+# To do
+
+* Blog logic and changelog page integration. Misc blog posts, almost always short form, should be added to the top of a single blog file and displayed alongside automated updates, on the [changelog](/changelog) page. In order to integrate git changes into the changelog, we will need to start scripting the publishing process.
+
+* The *Footnotes to Endnotes* podcast needs to be one page, which subsections for new episodes, listed in chronological order. We need external hosting for the podcast files now that we have moved to netlify's free hosting.
+
+* Tag and category page anchors do not currently work. They also need to be alphabetized. There's more that can be done with tagging and categorizing, but that's also a quite daunting task.
+
+* Page content needs to be centred / somewhat right-aligned.
+
+* Citation is not set up at all. Jekyll has historically resisted integration with Pandoc, but we will need to figure out how it's going to work on the back-end---but also how it's going to work on the front-end, in terms of CSS design, anchor links, etc etc (this is not even addressing side-notes).
