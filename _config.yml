@@ -73,7 +73,7 @@ defaults:
     values:
       permalink: "/:slugified_categories/:title"
   - scope:
-      path: "collections/Footnotes to Endnotes/_posts"
+      path: "collections/podcast/_posts"
     values:
       output: false
 
