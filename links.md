@@ -9,24 +9,24 @@ tags:
   - personal
 ---
 
-This page is all about me. Links to social media around the website; psychological, sociological, and typological profiles; methodological interests; biases; likes and dislikes; as well as information on the material elements of my practise and my research.
+This page is all about me. Links to social media around the internet; quiz data forthcoming; methodological interests; known biases; likes and dislikes; as well as information on the material elements of my practise and my research.
 
 # Links
 
-These are the social media that I am active on, ranked in terms of how much I actually engage with them. I can be reached through direct message on any of these platforms; if you prefer, you can also [email me](mailto:um.todoroff@gmail.com).
+These are the social media that I am active on, ranked in terms of use. I can be reached through direct message on any of these platforms; if you prefer, you can also [email me](mailto:um.todoroff@gmail.com).
 
 1. [Twitter](https://twitter.com/theinvertedform)
 2. [Letterboxd](https://letterboxd.com/theinvertedform)
 3. [Reddit](https://reddit.com/r/umtworld)
 4. [Substack](https://substack/com/umtworld)
-4. [Patreon](https://patreon.com/umtworld]
-4. [Goodreads](https://goodreads.com/)
+4. [Patreon](https://patreon.com/umtworld)
+4. [Goodreads](https://www.goodreads.com/user/show/122256622-uriah-marc-todoroff)
 
 # Formation
 
 ## Astrological chart
 
-I am a Scorpio (b. Nov 17, 1990), rising Sagittarius. Full chart forthcoming. Although Mars dominates my chart, I have always preferred Pluto as my personal icon. I have thought extensively about astrology, about its metaphysical justifications and its utility as a framework for emotional processing. Although my interest in astrology is unfortunately tinged with an element of irony, it is a sincere interest, and you can read more on the topic [here](https://umt.world/astrology).
+Scorpio, rising Sagittarius. Full chart forthcoming. Although Mars dominates my chart, I have always preferred Pluto as a personal icon. I like astrology as a symbolic language; I like the materialism of astrological metaphysics, and it has always been a useful tool for processing emotions. I have not studied astrophysics, I know barely anything about the history of astrology, and I am not even familiar with the signs, except for in a superficial way (it's on my [to-do list](/about#to-do). My interest in astrology has an element of irony, and my knowledge is superficial, but it is a sincere interest.
 
 ## Education
 
@@ -37,23 +37,15 @@ I am a Scorpio (b. Nov 17, 1990), rising Sagittarius. Full chart forthcoming. Al
 * David & Mary Thompson Collegiate Institute (Toronto)
 * Concordia University (Montréal)
 
-## Prejudices
+## Philosophy
 
-Some of my dispositions:
+Some keywords.
 
-1. Cosmology: Epicurus
+1. Cosmology: Epicurean atomism
 2. Metaphysics: materialist
 3. Ontology: force
 3. Ethics: virtue ethics
 4. Politics: Maoist
-
-## Likes
-
-Underdogs.
-
-## Dislikes
-
-Foucault, liberals.
 
 # Things I Use
 
