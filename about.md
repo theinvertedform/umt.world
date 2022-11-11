@@ -55,12 +55,46 @@ The second element of my outreach program is a newsletter. This database, which 
 
 # To do
 
+## Structural
+
 * Blog logic and changelog page integration. Misc blog posts, almost always short form, should be added to the top of a single blog file and displayed alongside automated updates, on the [changelog](/changelog) page. In order to integrate git changes into the changelog, we will need to start scripting the publishing process.
 
 * The *Footnotes to Endnotes* podcast needs to be one page, which subsections for new episodes, listed in chronological order. We need external hosting for the podcast files now that we have moved to netlify's free hosting.
 
 * Tag and category page anchors do not currently work. They also need to be alphabetized. There's more that can be done with tagging and categorizing, but that's also a quite daunting task.
 
-* Page content needs to be centred / somewhat right-aligned.
-
 * Citation is not set up at all. Jekyll has historically resisted integration with Pandoc, but we will need to figure out how it's going to work on the back-end---but also how it's going to work on the front-end, in terms of CSS design, anchor links, etc etc (this is not even addressing side-notes).
+
+* Reviews section on index page has subsections with second-order lists. Section will need to be arbitrary length. Directory structure: collections/reviews/{film,books}#{exhibition}
+
+The question still remains how to organize art reviews. It's difficult to standardize reviews that cover multiple artists. The best options seem to be to either group them under the heading of a column; or to organize shows seen in person under the title of a location. There's no way to standardize art reviews. However, there might be a way to do it through some bibliographic approach---but I don't know enough. There needs to be a way to do random pieces of writing. They won't be that long. I think it's best to just keep shows to a location.
+
+Reviews
+  Film Reviews
+    Triangle of Sadness (2022)
+	Damnation (1988)
+	The Matrix (1999)
+  Art
+    Diane Arbus at the MBAM
+	Basquiat at the MBAM
+	Mikka Rottenberg at the MAC
+  Books
+    Thus Spoke Zarathustra by Friedrich Nietzsche
+	Absalom, Absalom by William Faulkner
+	Orlando by Virginia Woolf
+
+## Design
+
+* Style header text (smallcaps, weight, size, spacing)
+* Section header links
+* Offset headers by 1
+* Centre footer element, add a bit of spacing
+* Font size and line spacing settings for the different viewport sizes
+* Three column wide screen index page
+* Page content centred / somewhat right-aligned
+* Clean up the logo
+* Indent non-leading paragraphs, no line breaks.
+* Style and indent lists
+* Style for epigraphs
+* Style for code (inline and block)
+* Style endnotes and bibliography
