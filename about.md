@@ -69,19 +69,19 @@ The second element of my outreach program is a newsletter. This database, which 
 
 The question still remains how to organize art reviews. It's difficult to standardize reviews that cover multiple artists. The best options seem to be to either group them under the heading of a column; or to organize shows seen in person under the title of a location. There's no way to standardize art reviews. However, there might be a way to do it through some bibliographic approach---but I don't know enough. There needs to be a way to do random pieces of writing. They won't be that long. I think it's best to just keep shows to a location.
 
-Reviews
-  Film Reviews
-    Triangle of Sadness (2022)
-	Damnation (1988)
-	The Matrix (1999)
-  Art
-    Diane Arbus at the MBAM
-	Basquiat at the MBAM
-	Mikka Rottenberg at the MAC
-  Books
-    Thus Spoke Zarathustra by Friedrich Nietzsche
-	Absalom, Absalom by William Faulkner
-	Orlando by Virginia Woolf
+* Reviews
+	* Film Reviews
+		* Triangle of Sadness (2022)
+		* Damnation (1988)
+		* The Matrix (1999)
+	* Art
+		* Diane Arbus at the MBAM
+		* Basquiat at the MBAM
+		* Mikka Rottenberg at the MAC
+	* Books
+		* Thus Spoke Zarathustra by Friedrich Nietzsche
+		* Absalom, Absalom by William Faulkner
+		* Orlando by Virginia Woolf
 
 ## Design
 
