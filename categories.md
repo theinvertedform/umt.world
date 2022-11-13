@@ -1,7 +1,7 @@
 ---
 title: Categories
 layout: post
-description: Archive of posts sorted by category. This is identical to the index page.
+description: Archive of posts sorted by category. Functionally identical to the index page.
 abstract: The category system is a combination of standardized descriptions, and the concept of a column.
 tags:
   - meta
