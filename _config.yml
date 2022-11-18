@@ -73,11 +73,11 @@ defaults:
       path: "collections/reviews/"
     values:
       permalink: "/:slugified_categories/#:title"
-  - scope:
-      path: "collections/reviews/films"
-    values:
-      permalink: "/:slugified_categories/#:title"
-      category: "film review"
+        #- scope:
+        #    path: "collections/reviews/films"
+        #  values:
+        #    permalink: "/:slugified_categories/#:title"
+        #    category: "film review"
   - scope:
       path: "collections/podcast/_posts"
     values:
