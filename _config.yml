@@ -69,10 +69,10 @@ defaults:
     values:
       category: "blog"
       permalink: /blog/:title
-  - scope:
-      path: "collections/reviews/"
-    values:
-      permalink: "/:slugified_categories/#:title"
+        #- scope:
+        #    path: "collections/reviews/"
+        #  values:
+        #    permalink: "/:slugified_categories/#:title"
         #- scope:
         #    path: "collections/reviews/films"
         #  values:
