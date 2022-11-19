@@ -5,7 +5,6 @@ date: '2020-12-07T06:05:57-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=211'
-permalink: /bonus-episode-communization-and-the-abolition-of-gender/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep17.mp3\n59611005\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes17.jpg

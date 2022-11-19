@@ -5,7 +5,6 @@ date: '2020-11-09T06:00:37-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=180'
-permalink: /episode-3-6-the-limit-point-of-capitalist-equality/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.6.mp3\n48630097\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes3.6.jpg

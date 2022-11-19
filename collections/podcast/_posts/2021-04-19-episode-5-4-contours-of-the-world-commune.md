@@ -5,7 +5,6 @@ date: '2021-04-19T22:21:03-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=309'
-permalink: /episode-5-4-contours-of-the-world-commune/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep5.4.mp3\n71749935\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes5.4.jpg

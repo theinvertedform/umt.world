@@ -5,7 +5,6 @@ date: '2021-02-01T06:00:27-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=252'
-permalink: /episode-4-5-the-rise-and-fall-of-the-workers-movement-1883-1982-pt-3/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.3.mp3\n62164325\naudio/mpeg\n"
     - "https://umt.world/wp-content/uploads/ep4.5.mp3\n59695391\naudio/mpeg\n"

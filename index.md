@@ -9,7 +9,7 @@ toc: false
 <aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="newest">
-<h1>New</h1>
+<h1><a href="/changes">New</a></h1>
 <ul>
 {% for post in site.posts limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title | markdownify }}</a>
@@ -20,7 +20,7 @@ toc: false
 </section>
 
 <section id="blog">
-<h1>Blog</h1>
+<h1><a href="/blog">Blog</a></h1>
 <ul>
 {% for post in site.categories.blog limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
@@ -29,8 +29,20 @@ toc: false
 </ul>
 </section>
 
+<section id="podcast">
+<h1><a href="/podcast">Podcast</a></h1>
+<ul>
+{% for post in site.categories.podcast limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+
 {% for category in site.categories %}
 {% unless category contains "blog" %}
+{% unless category contains "Footnotes to Endnotes" %}
+{% unless category contains "podcast" %}
 <section id="{{ category[0] }}">
 <h1>{{ category[0] | capitalize }}</h1>
 <ul>
@@ -41,6 +53,8 @@ toc: false
 {% endfor %}
 </ul>
 </section>
+{% endunless %}
+{% endunless %}
 {% endunless %}
 {% endfor %}
 

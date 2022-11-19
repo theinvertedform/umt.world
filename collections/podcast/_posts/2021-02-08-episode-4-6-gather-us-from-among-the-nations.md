@@ -5,7 +5,6 @@ date: '2021-02-08T10:35:55-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=259'
-permalink: /episode-4-6-gather-us-from-among-the-nations/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.6.mp3\r\n59222522\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes4.6.jpg

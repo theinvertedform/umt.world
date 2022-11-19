@@ -5,7 +5,6 @@ date: '2020-11-02T06:00:12-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=171'
-permalink: /episode-3-5-logistics-counterlogistics-and-the-communist-prospect/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.5.mp3\n80622102\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes3.5.jpg

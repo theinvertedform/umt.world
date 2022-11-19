@@ -5,7 +5,6 @@ date: '2020-10-01T20:34:13-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=140'
-permalink: /episode-2-7-sleep-workers-enquiry/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.7.mp3\r\n56172811\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes2.7.jpg

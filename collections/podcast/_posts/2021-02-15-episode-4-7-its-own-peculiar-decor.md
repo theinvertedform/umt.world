@@ -5,7 +5,6 @@ date: '2021-02-15T12:57:15-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=264'
-permalink: /episode-4-7-its-own-peculiar-decor/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.7.mp3\n61968364\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes4.7.jpg

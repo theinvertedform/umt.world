@@ -5,7 +5,6 @@ date: '2021-03-01T13:44:07-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=273'
-permalink: /bonus-episode-crisis-and-immiseration-critical-theory-today/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep25.mp3\n71838584\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes25.jpg

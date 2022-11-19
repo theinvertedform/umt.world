@@ -5,7 +5,6 @@ date: '2020-08-24T14:13:46-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=108'
-permalink: /episode-2-2-misery-and-debt/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.2.mp3\r\n62246856\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes2.2.jpg

@@ -5,7 +5,6 @@ date: '2021-02-22T10:40:43-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=271'
-permalink: /episode-4-8-an-identical-abject-subject/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.8.mp3\n63450369\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes4.8.jpg

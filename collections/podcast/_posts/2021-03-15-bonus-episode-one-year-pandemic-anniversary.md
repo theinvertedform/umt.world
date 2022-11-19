@@ -5,7 +5,6 @@ date: '2021-03-15T13:41:18-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=285'
-permalink: /bonus-episode-one-year-pandemic-anniversary/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep27.mp3\n71636008\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes27.jpg

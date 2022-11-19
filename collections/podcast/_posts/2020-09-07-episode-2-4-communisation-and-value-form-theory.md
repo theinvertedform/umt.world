@@ -5,7 +5,6 @@ date: '2020-09-07T23:53:33-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=122'
-permalink: /episode-2-4-communisation-and-value-form-theory/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.4.mp3\n81376075\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes2.4.jpg

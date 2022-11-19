@@ -5,7 +5,6 @@ date: '2020-11-30T11:43:49-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=201'
-permalink: /bonus-episode-tending-the-revolutionary-garden-with-jasper-bernes/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep16.mp3\n75421568\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes16.jpg

@@ -5,7 +5,6 @@ date: '2020-10-19T14:45:53-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=160'
-permalink: /episode-3-3-the-logic-of-gender/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.3.mp3\r\n47117916\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes3.3.jpg

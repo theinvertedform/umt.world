@@ -5,7 +5,6 @@ date: '2021-01-11T09:11:36-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=240'
-permalink: /episode-4-2-brown-v-ferguson/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.2.mp3\n63356740\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes4.2.jpg

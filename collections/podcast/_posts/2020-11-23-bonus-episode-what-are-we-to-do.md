@@ -5,7 +5,6 @@ date: '2020-11-23T06:00:41-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=193'
-permalink: /bonus-episode-what-are-we-to-do/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep15.mp3\n65362854\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes15.jpg
