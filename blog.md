@@ -11,9 +11,8 @@ toc: true
 permalink: /blog
 ---
 
-{% assign sorted_posts = site.posts %}
+{% assign sorted_posts = site.blog | sort %}
 {% for post in sorted_posts %}
-{% if post.category == "blog" %}
 <h1><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h1>
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -27,5 +26,4 @@ permalink: /blog
 
 {{ post.content }}
 
-{% endif %}
 {% endfor %}
