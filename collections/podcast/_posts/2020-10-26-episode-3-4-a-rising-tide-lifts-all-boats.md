@@ -5,7 +5,6 @@ date: '2020-10-26T03:00:59-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=166'
-permalink: /episode-3-4-a-rising-tide-lifts-all-boats/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.4.mp3\r\n60257316\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes3.4.jpg

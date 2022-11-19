@@ -5,7 +5,6 @@ date: '2021-01-18T12:29:21-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=246'
-permalink: /episode-4-3-a-history-of-separation-the-rise-and-fall-of-the-workers-movement-1883-1982/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.3.mp3\n62164325\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes4.3.jpg

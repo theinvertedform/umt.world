@@ -5,7 +5,6 @@ date: '2020-12-21T06:00:50-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=228'
-permalink: /bonus-episode-mapping-the-european-commie-scene-with-ben-noys/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep19.mp3\n99563426\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes19.jpg

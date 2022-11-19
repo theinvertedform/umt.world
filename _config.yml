@@ -3,8 +3,7 @@ title: umt.world
 author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Uriah Marc Todoroff.
+description: This is the personal website of Uriah Marc Todoroff.
 baseurl: ""
 url: "" # http://example.com
 twitter_username: theinvertedform
@@ -68,7 +67,7 @@ defaults:
       path: "collections/blog/_posts/"
     values:
       category: "blog"
-      permalink: /blog/:title
+      permalink: "/blog#:title"
         #- scope:
         #    path: "collections/reviews/"
         #  values:
@@ -81,7 +80,7 @@ defaults:
   - scope:
       path: "collections/podcast/_posts"
     values:
-      output: false
+      permalink: "/podcast#:title"
 
 # Google analytics
 google_analytics: G-5NHX2XP9H3

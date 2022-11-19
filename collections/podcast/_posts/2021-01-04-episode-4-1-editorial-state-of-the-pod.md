@@ -5,7 +5,6 @@ date: '2021-01-04T06:00:38-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=234'
-permalink: /episode-4-1-editorial-state-of-the-pod/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep4.1.mp3\n54298159\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes4.1.jpg

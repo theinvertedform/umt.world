@@ -5,7 +5,6 @@ date: '2020-09-21T12:07:36-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=131'
-permalink: /episode-2-6-the-history-of-subsumption/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.6.mp3\r\n58917739\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes2.6.jpg

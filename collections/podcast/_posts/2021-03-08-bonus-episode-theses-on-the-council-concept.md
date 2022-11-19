@@ -5,7 +5,6 @@ date: '2021-03-08T09:35:15-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=281'
-permalink: /bonus-episode-theses-on-the-council-concept/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep26.mp3\n64591826\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes26.jpg

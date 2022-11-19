@@ -5,7 +5,6 @@ date: '2020-11-16T06:00:34-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=187'
-permalink: /episode-3-7-spontaneity-mediation-rupture/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.7.mp3\n69550825\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes3.7.jpg

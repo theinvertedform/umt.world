@@ -5,7 +5,6 @@ date: '2020-10-12T14:10:13-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=155'
-permalink: /episode-3-2-the-holding-pattern/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.2.mp3\r\n53839819\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes3.2.jpg

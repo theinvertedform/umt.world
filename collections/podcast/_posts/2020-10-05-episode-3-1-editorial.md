@@ -5,7 +5,6 @@ date: '2020-10-05T13:01:13-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=149'
-permalink: /episode-3-1-editorial/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep3.1.mp3\r\n60548875\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes3.1.jpg

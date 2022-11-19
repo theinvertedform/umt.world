@@ -5,7 +5,6 @@ date: '2021-04-12T13:33:28-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=303'
-permalink: /episode-5-3-error/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep5.3.mp3\n71218152\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes5.3.jpg

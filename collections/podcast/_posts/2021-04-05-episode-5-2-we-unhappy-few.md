@@ -5,7 +5,6 @@ date: '2021-04-05T13:47:23-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=296'
-permalink: /episode-5-2-we-unhappy-few/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep5.2.mp3\n84813658\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes5.2.jpg

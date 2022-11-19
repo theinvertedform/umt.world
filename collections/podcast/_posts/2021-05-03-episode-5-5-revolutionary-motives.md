@@ -5,7 +5,6 @@ date: '2021-05-03T20:22:07-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=314'
-permalink: /episode-5-5-revolutionary-motives/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep5.5.mp3\n62693889\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes5.5.jpg

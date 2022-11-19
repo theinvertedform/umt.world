@@ -5,7 +5,6 @@ date: '2020-09-14T15:30:13-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=126'
-permalink: /episode-2-5-the-moving-contradiction/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.5.mp3\r\n57178459\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes2.5.jpg

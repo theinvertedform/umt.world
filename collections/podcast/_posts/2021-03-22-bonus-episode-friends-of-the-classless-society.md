@@ -5,7 +5,6 @@ date: '2021-03-22T11:02:25-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=290'
-permalink: /bonus-episode-friends-of-the-classless-society/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep28.mp3\n78294815\naudio/mpeg\n"
 category:

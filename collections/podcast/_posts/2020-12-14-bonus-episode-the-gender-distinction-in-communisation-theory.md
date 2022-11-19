@@ -5,7 +5,6 @@ date: '2020-12-14T06:00:00-08:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=220'
-permalink: /bonus-episode-the-gender-distinction-in-communisation-theory/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep18.mp3\n57429426\naudio/mpeg\n"
 image: /wp-content/uploads/footnotes18.jpg

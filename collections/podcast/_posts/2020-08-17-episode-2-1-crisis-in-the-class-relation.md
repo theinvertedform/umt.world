@@ -3,9 +3,7 @@ id: 98
 title: 'Episode 2.1: Crisis in the Class Relation'
 date: '2020-08-17T12:42:59-07:00'
 author: 'Uriah Marc Todoroff'
-layout: post
 guid: 'https://umt.world/?p=98'
-permalink: /episode-2-1-crisis-in-the-class-relation/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.1.mp3\r\n60794664\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/2020/08/footnotes2.1.jpg

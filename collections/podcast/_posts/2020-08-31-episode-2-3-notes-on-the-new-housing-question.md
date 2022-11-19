@@ -5,7 +5,6 @@ date: '2020-08-31T13:01:46-07:00'
 author: 'Uriah Marc Todoroff'
 layout: post
 guid: 'https://umt.world/?p=115'
-permalink: /episode-2-3-notes-on-the-new-housing-question/
 enclosure:
     - "https://umt.world/wp-content/uploads/ep2.3.mp3\r\n63066787\r\naudio/mpeg\r\n"
 image: /wp-content/uploads/footnotes2.3.jpg
