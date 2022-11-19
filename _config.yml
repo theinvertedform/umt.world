@@ -17,20 +17,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
 
-feed:
-  categories:
-    newsletter:
-      path: "/newsletter.atom"
-posts_limit: 20
+    #feed:
+    #  categories:
+    #    newsletter:
+    #      path: "/newsletter.atom"
+    #posts_limit: 20
 
 toc:
   ordered_list: true
 
 # Collections
 collections:
-  footnotes-to-endnotes:
-    output: false
-collections_dir: collections
+  blog:
+collections_dir: "collections"
 #   tags:
 #     name: true
 #  authors:
@@ -64,9 +63,8 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "collections/blog/_posts/"
+      path: "collections/_blog/"
     values:
-      category: "blog"
       permalink: "/blog#:title"
         #- scope:
         #    path: "collections/reviews/"
@@ -77,10 +75,10 @@ defaults:
         #  values:
         #    permalink: "/:slugified_categories/#:title"
         #    category: "film review"
-  - scope:
-      path: "collections/podcast/_posts"
-    values:
-      permalink: "/podcast#:title"
+        # - scope:
+        #     path: "collections/podcast/_posts"
+        #   values:
+        #     permalink: "/podcast#:title"
 
 # Google analytics
 google_analytics: G-5NHX2XP9H3
