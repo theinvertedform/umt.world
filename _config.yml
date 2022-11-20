@@ -32,6 +32,7 @@ collections:
     permalink: "/blog#:title"
   podcast:
     permalink: "/podcast#:title"
+    sort_by: "date"
   philosophy:
     output: true
     permalink: "/:title"
@@ -51,7 +52,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "collections/"
+      path: "collections"
     values:
       layout: "post"
         #- scope:
