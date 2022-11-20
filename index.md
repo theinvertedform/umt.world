@@ -1,8 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher whose practise is predicated on a continuous encounter with the real of contemporary culture. I cover a range of media including film, art, literature, and popular culture, in their emerging form as well as their history. I also write fiction.
-toc: false
-layout: default
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher researching German Idealism and the Marxist philosophy of art; I am an historical researcher interested in modern aesthetics; and I am a writer with a critical practise based on a continuous encounter with contemporary art, film, and literature. I also write fiction.
 ---
 
 <article>
