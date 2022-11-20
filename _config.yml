@@ -29,7 +29,16 @@ toc:
 # Collections
 collections:
   blog:
-collections_dir: "collections"
+    permalink: "/blog#:title"
+  podcast:
+    permalink: "/podcast#:title"
+  philosophy:
+    output: true
+    permalink: "/:title"
+  reviews:
+    permalink: "/reviews/films#:title"
+    group_by: "film review"
+collections_dir: "collections/"
 #   tags:
 #     name: true
 #  authors:
@@ -39,33 +48,12 @@ collections_dir: "collections"
 defaults:
   - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-        #toc: "true"
-      #category: "blog"
-      #      toc: true
-      #  - scope:
-      #      path: "_posts/film criticism/"
-      #      type: "posts"
-      #    values:
-      #      layout: "post"
-      #      category: "film criticism"
-      #      permalink: reviews/:title
-      #  - scope:
-      #      path: "_posts/art criticism/"
-      #      type: "posts"
-      #    values:
-      #      layout: "post"
-      #      category: "art criticism"
-  - scope:
-      path: ""
     values:
       layout: "default"
   - scope:
-      path: "collections/_blog/"
+      path: "collections/"
     values:
-      permalink: "/blog#:title"
+      layout: "post"
         #- scope:
         #    path: "collections/reviews/"
         #  values:
