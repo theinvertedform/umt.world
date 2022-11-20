@@ -11,10 +11,8 @@ toc: true
 permalink: /podcast
 ---
 
-{% assign sorted_posts = site.posts %}
-{% for post in sorted_posts %}
-{% if post.category == "podcast" %}
-<h1><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h1>
+{% for post in site.podcast reversed %}
+<h1 id="{{ post.title | slugify }}"><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h1>
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
 {% unless forloop.last %}&nbsp;{% endunless %}
@@ -27,5 +25,5 @@ permalink: /podcast
 
 {{ post.content }}
 
-{% endif %}
 {% endfor %}
+

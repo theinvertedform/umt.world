@@ -9,12 +9,14 @@ tags:
 toc: true
 ---
 
-{% assign sorted_tags = site.tags | sort %}
-{% for tag in sorted_tags %}
-<h1>{{ tag[0] | capitalize }}</h1>
-<ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+{% assign tags = site.documents | map: 'tags' | uniq | sort_natural %}
+{% for tag in tags %}
+  <h1 id="{{ tag | slugify }}">{{ tag | capitalize }}</h1>
+  <ul>
+  {% for post in site.documents %}
+    {% if post.tags contains tag %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 {% endfor %}

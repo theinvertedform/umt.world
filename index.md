@@ -2,19 +2,22 @@
 title: index
 abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher whose practise is predicated on a continuous encounter with the real of contemporary culture. I cover a range of media including film, art, literature, and popular culture, in their emerging form as well as their history. I also write fiction.
 toc: false
+layout: default
 ---
 
 <article>
 <div class="markdownBody" id="markdownBody">
 <aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
-<section id="newest">
+<section id="new">
 <h1><a href="/changes">New</a></h1>
 <ul>
-{% for post in site.posts limit: 10 %}
+{% for collection in site.collections %}
+{% for post in site[collection.label] limit: 5 %}
 <li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title | markdownify }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
+{% endfor %}
 {% endfor %}
 </ul>
 </section>
@@ -22,8 +25,9 @@ toc: false
 <section id="blog">
 <h1><a href="/blog">Blog</a></h1>
 <ul>
-{% for post in site.categories.blog limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% for post in site.blog limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -32,31 +36,46 @@ toc: false
 <section id="podcast">
 <h1><a href="/podcast">Podcast</a></h1>
 <ul>
-{% for post in site.categories.podcast limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
-</section>
-
-{% for category in site.categories %}
-{% unless category contains "blog" %}
-{% unless category contains "Footnotes to Endnotes" %}
-{% unless category contains "podcast" %}
-<section id="{{ category[0] }}">
-<h1>{{ category[0] | capitalize }}</h1>
-<ul>
-{% for post in category[1] limit: 10 %}
+{% for post in site.podcast limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
 </ul>
 </section>
-{% endunless %}
-{% endunless %}
-{% endunless %}
-{% endfor %}
 
+<section id="reviews">
+{% assign film_reviews = site.reviews | where:"grouped_by","film review" %}
+<h1><a href="/index#reviews">Reviews</a></h1>
+<ul>
+{% for post in film_reviews limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="philosophy">
+<h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
+<ul>
+{% for post in site.philosophy limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="communism">
+<h1 id="communism"><a href="/index#communism">Communism</a></h1>
+<ul>
+{% for post in site.communism limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
 </div>
 </article>
