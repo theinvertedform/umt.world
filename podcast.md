@@ -2,7 +2,8 @@
 title: Podcast
 layout: post
 description: Footnotes to Endnotes is your communizer radio hour.
-abstract: A podcast collaboration between myself and Owen Gilbride. Episodes are currently offline, but efforts are underway to re-upload them.
+abstract: A podcast collaboration between myself and Owen Gilbride. Episodes are currently offline, but I'm working on getting things back. Someday I hope to return as an irregular interview show.
+status: on hiatus
 tags:
   - communism
   - audio
