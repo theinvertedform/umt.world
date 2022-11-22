@@ -57,13 +57,22 @@ The second element of my outreach program is a newsletter. This database, which 
 
 ## Structural
 
-* Blog logic and changelog page integration. Misc blog posts, almost always short form, should be added to the top of a single blog file and displayed alongside automated updates, on the [changelog](/changelog) page. In order to integrate git changes into the changelog, we will need to start scripting the publishing process.
+* ~~Blog logic and changelog page integration.~~ Single blog file with anchor links for posts, each added to the index and accessed on the changelog.
+	* Still need to add changes to the source code, which is changing all the time. Must begin scripting the publishing process.
 
-* The *Footnotes to Endnotes* podcast needs to be one page, which subsections for new episodes, listed in chronological order. We need external hosting for the podcast files now that we have moved to netlify's free hosting.
+* ~~*Footnotes to Endnotes* podcast single page.~~ 
+	* External hosting for podcast files. Links need to be programmatically inserted. My awk is quite poor, but I will need to start.
+	* Having a hard time displaying the most recent ten episodes in the index.
+	* I would like to remove "episode" from the title, and add that to metadata.
 
-* Tag and category page anchors do not currently work. They also need to be alphabetized. There's more that can be done with tagging and categorizing, but that's also a quite daunting task.
+* ~~Tag and category pages.~~ They work the same as any other collection.
+	* Lots more to be done with tags.
 
-* Citation is not set up at all. Jekyll has historically resisted integration with Pandoc, but we will need to figure out how it's going to work on the back-end---but also how it's going to work on the front-end, in terms of CSS design, anchor links, etc etc (this is not even addressing side-notes).
+* RSS Feeds
+	* Need a feed for the blog page, changes page, and podcast page.
+
+* Citation. In truth, I haven't played with it at all.
+	* Add links to the referenced item, and return links in the bibliography.
 
 * Reviews section on index page has subsections with second-order lists. Section will need to be arbitrary length. Directory structure: collections/reviews/{film,books}#{exhibition}
 
@@ -85,16 +94,90 @@ The question still remains how to organize art reviews. It's difficult to standa
 
 ## Design
 
-* Style header text (smallcaps, weight, size, spacing)
-* Section header links
+* Style header text (smallcaps, weight, size, spacing, right side)
+* Add links to section headers
+* Add a graphic icon to section header
 * Offset headers by 1
-* Centre footer element, add a bit of spacing
-* Font size and line spacing settings for the different viewport sizes
+* Centre footer element, add spacing, graphics
+* Font and line spacing settings for the different viewport sizes
 * Three column wide screen index page
 * Page content centred / somewhat right-aligned
 * Clean up the logo
-* Indent non-leading paragraphs, no line breaks.
+* Indent non-leading paragraphs, no line breaks
 * Style and indent lists
 * Style for epigraphs
 * Style for code (inline and block)
+* Style for block quotes
 * Style endnotes and bibliography
+
+## Content
+
+* Philosophy
+	* Marxism
+		* Analytic Marxism
+		* The metabolic rift
+		* Aesthetics
+		* Cosmology
+	
+	* Foucault
+		* Biography
+		* Genealogical method
+		* Foucault and Nietzsche
+	
+	* Nietzsche
+
+	* Kierkegaard
+
+	* Existentialism and Men
+	
+	* Kant
+	
+	* Hegel
+	
+	* Glissant
+
+	* Adorno
+
+* Art History
+	* Realism
+		* Courbet
+	* Surrealism
+		* Breton vs Bataille
+		* Masson
+		* *Nadja*
+		* Alleged communism
+	* Picasso's communism
+	* Lettrism
+	* Situationist International
+
+	* Socialist Realism in USSR
+
+	* Socialist Realism in China
+
+* Film History
+	* Film Noir
+	
+	* The French New Wave
+
+	* New German Cinema
+
+	* Cinematic Modernism
+
+	* Hollywood is God
+
+	* Béla Tarr
+
+	* Jean-Luc Godard
+
+	* Pier Paolo Pasolini
+
+	* Fassbinder
+
+	* Lucrecia Martel
+
+* Journalism
+	* The story of Lufa Farms
+
+	* Concordia's Art History Department
+
+	* 
