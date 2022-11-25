@@ -2,7 +2,7 @@
 title: Tags
 layout: meta
 description: Archive of posts sorted by tags.
-abstract: The tagging system is based off of some protocol standard.
+abstract: The tagging system is currently non-standardized, and will need to be pruned at some point.
 tags:
   - meta
   - bibliography

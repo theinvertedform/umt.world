@@ -18,9 +18,9 @@ These are the social media that I am active on, ranked in terms of use. I can be
 1. [Twitter](https://twitter.com/theinvertedform)
 2. [Letterboxd](https://letterboxd.com/theinvertedform)
 3. [Reddit](https://reddit.com/r/umtworld)
-4. [Substack](https://substack/com/umtworld)
+4. [Substack](https://umtworld.substack.com)
 4. [Patreon](https://patreon.com/umtworld)
-4. [Goodreads](https://www.goodreads.com/user/show/122256622-uriah-marc-todoroff)
+4. [Goodreads](https://www.goodreads.com/user/show/122256622)
 
 # Formation
 
@@ -39,7 +39,7 @@ Scorpio, rising Sagittarius. Full chart forthcoming. Although Mars dominates my 
 
 ## Philosophy
 
-Some keywords.
+Some keywords for you:
 
 1. Cosmology: Epicurean atomism
 2. Metaphysics: materialist
