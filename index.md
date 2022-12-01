@@ -1,6 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher researching German Idealism and the Marxist philosophy of art; I am an historical researcher interested in modern aesthetics; and I am a writer with a critical practise based on a continuous encounter with contemporary art, film, and literature. I also write fiction.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the status of the modern in contemporary visual aesthetics; and I am a critical writer on contemporary culture. This website is a new media experiment, using literature and [technical means](/about) to develop what Walter Benjamin called a *dialetical image* of the present. I also write fiction and take photographs.
 ---
 
 <article>
