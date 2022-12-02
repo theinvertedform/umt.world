@@ -112,6 +112,8 @@ The question still remains how to organize art reviews. It's difficult to standa
 
 ## Content
 
+### Philosophy, etc
+
 * Philosophy
 	* Marxism
 		* Analytic Marxism

@@ -32,7 +32,6 @@ collections:
     permalink: "/blog#:title"
   podcast:
     permalink: "/podcast#:title"
-    sort_by: "date"
   philosophy:
     output: true
     permalink: "/:title"

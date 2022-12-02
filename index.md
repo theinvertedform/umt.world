@@ -1,6 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the status of the modern in contemporary visual aesthetics; and I am a critical writer on contemporary culture. This website is a new media experiment, using literature and [technical means](/about) to develop what Walter Benjamin called a *dialetical image* of the present. I also write fiction and take photographs.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the status of the modern in contemporary visual culture; and I am a critical writer on contemporary culture. This website is a new media experiment, using literature and [technical means](/about) to develop what Walter Benjamin called a *dialetical image* of the present. I also write fiction and take photographs.
 ---
 
 <article>
@@ -9,13 +9,12 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 
 <section id="new">
 <h1><a href="/changes">New</a></h1>
-<ul>
-{% for collection in site.collections %}
-{% for post in site[collection.label] reversed limit: 5 %}
-<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title | markdownify }}</a>
+<ul class="section-link-list">
+{% assign sorted = site.documents | sort: 'date' | reverse %}
+{% for post in sorted limit: 15 %}
+<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
-{% endfor %}
 {% endfor %}
 </ul>
 </section>
