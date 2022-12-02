@@ -23,7 +23,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/blog">Blog</a></h1>
 <ul>
 {% for post in site.blog reversed limit: 10 %}
-<li><a href="{{ post.title | slugified }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="blog#{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
