@@ -86,12 +86,20 @@ article aside#abstract {
 */
 
 article p {
-		display: inline;
 }
 
 p {
 	hyphens: none;
 	margin: 0;
+}
+
+p + p {
+	text-indent: 2.5em;
+	margin-top: 0;
+}
+
+p.caption {
+	text-indent: 0;
 }
 
 img {
@@ -101,6 +109,12 @@ img {
 ul {
     padding-left: 18px;
 }
+
+ul.section-link-list {
+	margin: 1em 3em 0 0;
+	padding: 0 0 0 1.375em;
+}
+
 
 ol {
 	counter-reset: count;
@@ -131,12 +145,33 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	padding: 0 0.5em 2px 0;
+	line-height: 1.25;
+	font-weight: bold;
+	margin: 1.25em 0 0.5em -0.75rem;
+	position: relative;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.125em;
+	margin: 1.25em 0 0.5em -0.75rem;
+	font-weight: bold;
+	position: relative;
+	font-variant: small-caps;
+	text-transform: uppercase;
 }
+
+header.post-header {
+	margin: 0;
+	}
+
+footer {
+	text-align: center;
+	margin: 3em 0 0 0;
+	}
 
 aside.abstract blockquote {
 	margin: 0 0 1.5em 0;
