@@ -4,8 +4,8 @@ author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
 description: This is the personal website of Uriah Marc Todoroff.
-baseurl: ""
-url: "" # http://example.com
+baseurl: "/"
+url: "https://umt.world" # http://example.com
 twitter_username: theinvertedform
 github_username:  theinvertedform
 permalink: /:title
@@ -33,7 +33,7 @@ pandoc:
   format: html5
   extensions:
     - csl: "assets/csl/chicago-author-date.csl"
-    - bibliography: bibliography.bib
+    - bibliography: "assets/bibliography.bib"
     - citeproc
 
 # Collections
