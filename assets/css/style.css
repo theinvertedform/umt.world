@@ -66,6 +66,12 @@ header h1 {
 	overflow-wrap: break-word;
 	}
 
+#markdownBody blockquote {
+	font-style: italic;
+	margin: 2em;
+	padding: 0.5em 2.5em 0.375em 2.5em;
+}	
+
 #page-description {
 		margin: 0 auto 0.75em auto;
 	}

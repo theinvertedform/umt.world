@@ -4,6 +4,7 @@ description: Rolling list of updates posted to umt.world.
 layout: meta
 abstract: Changes posted to the umt.world website. This is a complicated page that I am not close to figuring out. It will need to include full-text of short-form blog posts that I can ideally enter into a single file...but it will also need to collate content posted from around the website. In its current form, it is only a dated list of all posts, across categories.
 toc: true
+status: ongoing
 ---
 
 {% assign postsByYear = site.documents | sort | group_by_exp:"post", "post.date | date: '%Y'" %}

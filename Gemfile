@@ -11,6 +11,9 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-toc"
+  #gem "jekyll-scholar"
+  gem "jekyll-pandoc"
+  #gem "pandoc-ruby"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

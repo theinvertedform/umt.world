@@ -16,6 +16,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-toc
+  - jekyll-pandoc
+    #- jekyll-scholar
 
     #feed:
     #  categories:
@@ -25,6 +27,20 @@ plugins:
 
 toc:
   ordered_list: true
+
+scholar:
+  style: chicago-fullnote-bibliography
+  source: assets
+  bibliography: bibliography.bib
+
+markdown: Pandoc
+
+pandoc:
+  format: html5
+  extensions:
+    - csl: "assets/csl/chicago-author-date.csl"
+    - bibliography: "assets/bibliography.bib"
+    - citeproc
 
 # Collections
 collections:
@@ -36,8 +52,8 @@ collections:
     output: true
     permalink: "/:title"
   reviews:
-    permalink: "/reviews/films#:title"
-    group_by: "film review"
+    film review: true
+    permalink: "/reviews#:title"
 collections_dir: "collections/"
 #   tags:
 #     name: true
@@ -54,10 +70,11 @@ defaults:
       path: "collections"
     values:
       layout: "post"
-        #- scope:
-        #    path: "collections/reviews/"
-        #  values:
-        #    permalink: "/:slugified_categories/#:title"
+  - scope:
+      path: "collections/_reviews/films/"
+    values:
+      film review: true
+      itemtype: "film review"
         #- scope:
         #    path: "collections/reviews/films"
         #  values:
