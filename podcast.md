@@ -6,7 +6,6 @@ abstract: A podcast collaboration between myself and Owen Gilbride. Episodes are
 status: on hiatus
 tags:
   - communism
-  - audio
   - podcast
 toc: true
 permalink: /podcast

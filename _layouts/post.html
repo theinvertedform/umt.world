@@ -9,17 +9,17 @@ layout: default
 	<div id="page-metadata">
 		<div id="page-description">
 				<p><em>{{ page.description }}</em></p></div>
-		<div id="link-tags">
 			{% if page.tags.size > 0 %}
+		<div id="link-tags">
 				{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
 					{% unless forloop.last %}&nbsp;{% endunless %}
 				{% endfor %}
-			{% endif %}
 		</div>
+			{% endif %}
 		<div id="page-metadata-block">
       		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-				{{ page.date | date: date_format }} {% if page.modified %} &mdash; {{ page.modified | date: date_format }}</time>{% endif %} {% if page.status %} &bull; Status: <em>{{ page.status }}</em>{% endif %}
+        		{%- assign date_format = "%b %-d, %Y" -%}
+				{{ page.date | date: date_format }} {% if page.modified %} &mdash; {{ page.modified | date: date_format }}{% endif %}</time> {% if page.status %} &bull; Status: <em>{{ page.status }}</em>{% endif %}
 		</div>
 	</div>
 

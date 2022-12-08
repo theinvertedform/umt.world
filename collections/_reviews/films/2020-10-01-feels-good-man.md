@@ -10,4 +10,5 @@ review: "A sequel to TFW No GF, but from the perspective of the opposite side--t
 The problem is that the explorations are not satisfyingly deep, and a narrative is imposed with a somewhat heavy hand on the documentary material. Additionally, the film lacks a satisfying conclusion to the character arc. The open-endedness of the future of Pepe was a strong aspect of the film, but the cast of characters is not as interesting to me as those in TFW No GF."
 tags:
 watched Date: 2020-09-30
+film review: true
 ---

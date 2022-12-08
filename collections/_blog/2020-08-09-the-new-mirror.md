@@ -1,17 +1,11 @@
 ---
 title: The New Mirror
 tags:
-  - alternative press
-  - Arthur Schopenhauer
-  - COINTELPRO
-  - communism
-  - Iskra
-  - Lenin
-  - media
+  - the underground press
   - publishing
-  - The Montréal Mirror
-  - The New Mirror
-  - Voice of Montréal
+  - lenin
+  - montreal
+  - history
 description: A fantastical confusion of the early 20th century revolutionary press, and the late 20th century alternative press.
 status: nonsense
 abstract: The overall ambition of this article is to research publishing practises in relation to revolutionary communist movements. But as well, in the Chinese context, print media has an inextricable connection to study groups, which are themselves a structural element in Maoist theory. The conceit of the article was originally meant to draw an ironic parallel between these revolutionary newsprint activities, and the underground press that emerged out of the counterculture of the 60s, becoming the corporatized alt weekly that I remember from my millenial adolescence. As it stands, this article is quite bad.
