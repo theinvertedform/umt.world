@@ -17,7 +17,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-pandoc
-    #- jekyll-scholar
 
     #feed:
     #  categories:
@@ -28,18 +27,13 @@ plugins:
 toc:
   ordered_list: true
 
-scholar:
-  style: chicago-fullnote-bibliography
-  source: assets
-  bibliography: bibliography.bib
-
 markdown: Pandoc
 
 pandoc:
   format: html5
   extensions:
     - csl: "assets/csl/chicago-author-date.csl"
-    - bibliography: "assets/bibliography.bib"
+    - bibliography: bibliography.bib
     - citeproc
 
 # Collections
