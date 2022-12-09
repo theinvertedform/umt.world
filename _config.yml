@@ -4,7 +4,7 @@ author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
 description: This is the personal website of Uriah Marc Todoroff.
-baseurl: "/"
+baseurl: ""
 url: "https://umt.world" # http://example.com
 twitter_username: theinvertedform
 github_username:  theinvertedform
@@ -62,6 +62,7 @@ defaults:
       layout: "default"
   - scope:
       path: "collections"
+      type: "documents"
     values:
       layout: "post"
   - scope:

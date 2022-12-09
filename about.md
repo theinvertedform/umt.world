@@ -22,22 +22,22 @@ The structure and contents of the proposed website mirror the writer's personal 
 	* Technical implementation depends on the version control system (VCS) used. The general idea is a summary of changes to the website; short, uncategorised posts: as well as a log of achievements, publications, and notable activity. A cross between a changelog and a blog, a single long page with posts under yearly / monthly headings.
 * umt.world/about --- About page with practitioner's statement, followed by a longer essay on the content and form of writing found on the website; notes on design.
 * umt.world/links --- Links page with information on technical features of my tools and processes (computer, OS, writing environment, archival practises, writing habits, lifestyle, other hobbies, etc), as well as external links.
-* umt.world/{page} --- (for long-term stability, each page should have a one word URL)
+* umt.world/{page} --- (for long-term stability, each page should have a 1-2 word URL)
 	* Page header metadata in proposed order of appearance:
 		* index page category ("Art Criticism", "Film Criticism", "Philosophy", "Communist Theory")
 		* Page title
-		* Date posted / date updated (how to implement a revision history TBD)
-		* tags, based on a set of archival standards (e.g. MARC Standards)
-		* 1 sentence description (used for social media posts)
+		* Date posted / date updated
+		* tags, based on a set of archival standards
+		* 1 sentence description
 		* abstract
 		* table of contents
 	* Page footer:
-		* link to guestbook (anonymous, general feedback)
-		* link to the page's canonical social media posts (redirect commenting to social media, generating algorithmic engagement)
+		* link to the page's canonical social media posts
+		* link to send feedback
 
 # Content
 
-My writing practise includes critical writing, research, and fiction. The first depends on a constant, renewed encounter with primary works. My research into the history of film and art is centred around the concept of the avant-garde. My philosophical research into debates on the relationship between art and society. debates in the history of film and art, as well as engagement with philosophy. second involves works primarily represented on this website.
+My writing practise includes critical writing, research, and fiction. The first depends on a constant, renewed encounter with primary works. My research into the history of art is focused on modernism and contemporary digital culture. All of my writing is informed by philosophical research. Second involves works primarily represented on this website.
 
 * Research-based content
 	* umt.world/marxism --- Collecting everything I know about Marxism (sections: "value", "commodity fetishism", "metabolic rift", etc). Annotated bibliography.
@@ -48,7 +48,7 @@ My writing practise includes critical writing, research, and fiction. The first 
 	* umt.world/{venue}#{show} --- Reviews of art shows is another important part of my practise. Online organization of this practise is under development. The current idea is to use the venue as the main one word page, with some introductory / non-review writing on the architecture, curatorial direction, history, etc; the page will be separated into sections for the individual show or item(s) in the permanent collection that I am writing about. Example: umt.world/mac#points-of-light for my review of the show *Points of Light* (2020) at the Musée d'art contemporain (MAC).
 	* umt.world/books#{book-title} --- Book reviews will (most likely) be treated in a similar way to films. Refer also to "Newsletter" and "Cross-posting" sections below.
 
-# Outreach
+# Outreach Plugins
 
 A core element of this publishing strategy is a political desire to retain independent control of my work. However, given that my work is conceptual and relies on context, my suspicion is that conventional SEO strategies will do little to generate discovery (this is an unverified claim; more research needs to be done). My goal is to develop a plugin for the SSG that automatically syndicates content across social media as part of the automated publication process. In order to promote engagement, relevant pieces of content will be posted across platforms (i.e. updates on Twitter, film reviews on Letterboxd, etc). Commenting and "calls to action" will be funnelled to external social media platforms in order to drive discoverability.
 
@@ -56,7 +56,7 @@ The second element of my outreach program is a newsletter. This database, which 
 
 # To do
 
-## Structural
+## Algorithmic
 
 * ~~Blog logic and changelog page integration.~~ Single blog file with anchor links for posts, each added to the index and accessed on the changelog.
 	* Still need to add changes to the source code, which is changing all the time. Must begin scripting the publishing process.
@@ -95,51 +95,40 @@ The question still remains how to organize art reviews. It's difficult to standa
 
 ## Design
 
-* Style header text (smallcaps, weight, size, spacing, right side)
+* Style header text (~~smallcaps,~~ ~~weight,~~ ~~size,~~ ~~spacing~~, right side alignment)
 * Add links to section headers
-* Add a graphic icon to section header
+* Add an icon to section header
 * Offset headers by 1
-* Centre footer element, add spacing, graphics
+* Footer element: ~~centre,~~ graphic, spacing
 * Font and line spacing settings for the different viewport sizes
 * Three column wide screen index page
-* Page content centred / somewhat right-aligned
+* Page content centred with slight rightward bias
 * Clean up the logo
-* Indent non-leading paragraphs, no line breaks
-* Style and indent lists
-* Style for epigraphs
+~~* Indent non-leading paragraphs, no line breaks~~
+* Lists: ~~indent,~~ custom bullet item
+* Epigraphs: ~~emph text,~~ quotation graphics, pandoc syntax
 * Style for code (inline and block)
-* Style for block quotes
-* Style endnotes and bibliography
+* Block quotes? Are they different from epigraphs?
+* Author-date citation format, but style the quotes so they're less disruptive to the text flow?
 
 ## Content
 
-### Philosophy, etc
-
 * Philosophy
-	* Marxism
-		* Analytic Marxism
+	* Marx
 		* The metabolic rift
 		* Aesthetics
 		* Cosmology
-	
+	* Hegel
+	* Glissant
+	* Walter Benjamin
+	* Adorno
 	* Foucault
 		* Biography
 		* Genealogical method
 		* Foucault and Nietzsche
-	
 	* Nietzsche
-
 	* Kierkegaard
-
-	* Existentialism and Men
-	
 	* Kant
-	
-	* Hegel
-	
-	* Glissant
-
-	* Adorno
 
 * Art History
 	* Realism
@@ -152,35 +141,26 @@ The question still remains how to organize art reviews. It's difficult to standa
 	* Picasso's communism
 	* Lettrism
 	* Situationist International
-
+	* Art & Language
 	* Socialist Realism in USSR
-
 	* Socialist Realism in China
 
 * Film History
 	* Film Noir
-	
 	* The French New Wave
-
+		* Mainstream Canon
+		* Alternative Canon
 	* New German Cinema
-
 	* Cinematic Modernism
-
 	* Hollywood is God
-
 	* Béla Tarr
-
-	* Jean-Luc Godard
-
-	* Pier Paolo Pasolini
-
-	* Fassbinder
-
+	* Jean-Luc Godard: The Complete Oeuvre
+	* Pier Paolo Pasolini's Communism
+	* Fassbinder's relationship to socialism
 	* Lucrecia Martel
+	* Scripted project: generate year lists with every film viewed, and start sorting them.
 
 * Journalism
 	* The story of Lufa Farms
-
 	* Concordia's Art History Department
-
-	* 
+	* Existentialism and Men
