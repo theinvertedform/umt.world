@@ -48,6 +48,7 @@ collections:
   reviews:
     film review: true
     permalink: "/reviews#:title"
+    output: true
 collections_dir: "collections/"
 #   tags:
 #     name: true
