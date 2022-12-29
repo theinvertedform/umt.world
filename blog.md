@@ -1,14 +1,14 @@
 ---
 title: Blog
 layout: post
-description: A diary-style collection of short posts. Generally, longer writings will find their way into another category.
-abstract: I have been blogging for a long time. My earliest posts were on MySpace, but I quickly started a blogspot, which  I was active on for several years. I had some posts on LiveJournal, a xanga, and elsewhere. Archives of alt.conform, Total Cinema, The Vernissage Report, and everything else is forthcoming.
+description: Short diary posts and low-stakes writing exercises.
+abstract: I have been blogging for a long time. I posted a few times on MySpace, which was the first social network I used to communicate with friends circa 2004--2005. I started a blogspot soon thereafter, where I was active for several years. I made a few posts on LiveJournal, Xanga, and elsewhere. I kept a film review blog for several months around 2009--2010. Someday I will get around to making all these archives public.
 tags:
   - personal
   - blog
   - diary
+  - writing exercises
 toc: true
-permalink: /blog
 status: ongoing
 ---
 
@@ -16,8 +16,13 @@ status: ongoing
 > 
 > [W.N.P Barbellion](https://en.wikipedia.org/wiki/W._N._P._Barbellion),_ [*Journal of a Disappointed Man*](https://www.pseudopodium.org/barbellionblog/books.html)
 
-{% for post in site.blog reversed %}
-<h1 id="{{ post.title | slugify }}"><a href="blog#{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h1>
+{% assign postsByYear = site.blog | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear reversed %}
+<h1 id="{{ year.name }}"><a href="/blog#{{ year.name }}">{{ year.name }}</a></h1>
+{% assign postsByMonth = year.items | sort | group_by_exp:"post", "post.date | date: '%B'" %}
+{% for month in postsByMonth reversed %}
+{% for post in month.items reversed %}
+<h2 id="{{ year.name }}-{{ post.title | slugify }}"><a href="/blog#{{ year.name }}-{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h2>
 <header class="post-header">
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -27,13 +32,19 @@ status: ongoing
 {% endif %}
 <time itemprop="datePublished">
 {%- assign date_format =  "%b %-d, %Y" -%}
-{{ post.date | date: date_format }} {% if post.modified %} &mdash; {{ post.modified | date: date_format }}{% endif %} &mdash;
+{{ post.date | date: date_format }} &mdash; {% if post.modified %}  {{ post.modified | date: date_format }}{% endif %} 
 </time>
 {% if post.description %}
 <em>{{ post.description }}</em>
+{% endif %}
+{% if post.abstract %}
+<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>
 {% endif %}
 </header>
 
 {{ post.content }}
 
 {% endfor %}
+{% endfor %}
+{% endfor %}
+
