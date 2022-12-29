@@ -39,7 +39,7 @@ pandoc:
 # Collections
 collections:
   blog:
-    permalink: "/blog#:title"
+    permalink: "/blog#:year-:title"
   podcast:
     permalink: "/podcast#:title"
   philosophy:
