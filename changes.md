@@ -15,7 +15,7 @@ status: ongoing
 <h2>{{ month.name }}</h2>
 <ul>
 {% for post in month.items reversed %}
-<li>{% if post.collection %}<a href="/categories#{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="blog#{{ post.title | slugify }}">{{ post.title }}</a></li>
+<li>{% if post.collection %}<a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="{{ post.url }}">{{ post.title }}</a></li>
 {% if post.modified %} Originally published on {{ post.date | date: "%b %-d, %Y" }}; last modified {{ post.modified | date: "%b %-d, %Y"}}.{% endif %}
 {% if post.abstract %}<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>{% endif %}
 {% endfor %}
