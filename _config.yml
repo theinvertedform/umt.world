@@ -47,7 +47,7 @@ collections:
     permalink: "/:title"
   reviews:
     permalink: "/reviews#:title"
-    output: true
+      #output: true
 collections_dir: "collections/"
 #   tags:
 #     name: true
