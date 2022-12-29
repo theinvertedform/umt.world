@@ -46,8 +46,8 @@ collections:
     output: true
     permalink: "/:title"
   reviews:
-    permalink: "/reviews#:title"
-      #output: true
+    permalink: "reviews/:slug"
+    output: true
 collections_dir: "collections/"
 #   tags:
 #     name: true

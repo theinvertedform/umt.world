@@ -15,7 +15,7 @@ toc: true
   <ul>
   {% for post in site.documents %}
     {% if post.tags contains tag %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
   </ul>

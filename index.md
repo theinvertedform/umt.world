@@ -1,6 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the status of the modern in contemporary visual culture; and I am a critical writer on contemporary culture. This website is a new media experiment, using literature and [technical means](/about) to develop what Walter Benjamin called a *dialetical image* of the present. I also write fiction and take photographs.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the status of the modern in visual culture; and I am a critical writer of the contemporary. This website is a new media experiment, combining literary and [technical means](/about) to develop what Walter Benjamin called a *dialetical image* of the present.
 ---
 
 <article>
@@ -12,7 +12,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul class="section-link-list">
 {% assign sorted = site.documents | sort: 'date' | reverse %}
 {% for post in sorted limit: 15 %}
-<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>{% endif %}
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -35,7 +35,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/podcast">Podcast</a></h1>
 <ul>
 {% for post in episodes reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -47,7 +47,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/index#reviews">Reviews</a></h1>
 <ul>
 {% for post in film_reviews reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -58,7 +58,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
 <ul>
 {% for post in site.philosophy reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -69,7 +69,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="communism"><a href="/index#communism">Communism</a></h1>
 <ul>
 {% for post in site.communism reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
