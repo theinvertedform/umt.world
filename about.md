@@ -1,5 +1,5 @@
 ---
-title: About This Website
+title: About the Website
 description: A page describing the aesthetic goals, content, and technical implementation of umt.world. 
 abstract: A short essay about new media and literature. Schematic lists on how the URLs should be structured; methods used for that collection; the design principles, inspirations, ambitions.
 layout: meta
