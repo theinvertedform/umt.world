@@ -6,7 +6,6 @@ abstract: List of books and articles I hope to read in the year 2023. More than 
 tags:
   - reading
 status: log
-permalink: /reading
 toc: true
 ---
 
