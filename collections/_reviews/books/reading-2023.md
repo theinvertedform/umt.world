@@ -16,6 +16,11 @@ toc: true
 * Emily Brontë (30 July 1818--19 December 1848)
 	* *Wuthering Heights* (1847)
 
+* Henry James (15 April 1843--28 February 1916)
+	* *The Portrait of a Lady* (1881)
+	* *The Turn of the Screw* (1898)
+	* *Selected Tales* (2001)
+
 ## Denmark
 
 * Karl Ove Knausgård (6 December 1968-- )
