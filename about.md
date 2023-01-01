@@ -77,12 +77,15 @@ The second element of my outreach program is the newsletter. This database of em
 * Blog page
 	* ~~single page with anchor links,~~ ~~post metadata class,~~ description inline with date, add spacing to bottom of tags
 	* Automatic date:time for posts
-	* Automatic modified time for posts
+	* Modified time for posts
+	* What kind of astrological information can be included?
 	* Chronological TOC that still has room for post titles.
 	* Automatically-generated metadata that situates me in the environment. "Posted from {location profile}, {weather description}." The date should include the time and the amount of hours:minutes spent writing the post.
-	* If a post is over a certain length, it gets a collapsible frame. If text up to first section break is less than the max text length, show it; otherwise, show text up to the max text length.
+	* Posts over a certain length get a collapsible frame.
+	* TOC: Year - Month (# of posts). Month section can be expanded to show a list of titles.
 * Changelog page
 	* Integrate with the git log.
+	* Template for writing git commit -m automatically.
 	* Category links don't work.
 	* Add descriptions as well as abstracts.
 	* We may want to add events to the log, e.g. to mark a calendar event, without needing to write a blog post?
