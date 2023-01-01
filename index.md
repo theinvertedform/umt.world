@@ -1,6 +1,6 @@
 ---
 title: index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in revolution and the philosophy of art; I am an historical researcher interested in the social history of visual culture; and I am a critical writer of the contemporary. This website is a new media experiment, combining literary and [technical means](/about) to develop a *[dialetical image](/benjamin#dialectical-image)* of the present.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the Marxist tradition and the philosophy of art; I am an historical researcher charting the social history of visual culture; and I am a [critical writer of the contemporary](/reviews). This website is a new media experiment, combining literary and [technical means](/about) to develop a [dialetical image](/benjamin#dialectical-image) of the present.
 ---
 
 <article>
