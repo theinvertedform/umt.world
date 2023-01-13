@@ -16,35 +16,36 @@ status: ongoing
 > 
 > [W.N.P Barbellion](https://en.wikipedia.org/wiki/W._N._P._Barbellion),_ [*Journal of a Disappointed Man*](https://www.pseudopodium.org/barbellionblog/books.html)
 
+{% assign date_format =  "%b %e, %Y" %}
 {% assign postsByYear = site.blog | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear reversed %}
 <h1 id="{{ year.name }}"><a href="/blog#{{ year.name }}">{{ year.name }}</a></h1>
 {% assign postsByMonth = year.items | sort | group_by_exp:"post", "post.date | date: '%B'" %}
+{% assign mostRecentPost = nil %}
 {% for month in postsByMonth reversed %}
 {% for post in month.items reversed %}
-<h2 id="{{ year.name }}-{{ post.title | slugify }}"><a href="/blog#{{ year.name }}-{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h2>
-<header class="post-header">
-{% if post.tags.size > 0 %}
-<div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
-{% unless forloop.last %}&nbsp;{% endunless %}
-{% endfor %}
-</div>
+<div class="blog-post">
+{% if post.date > mostRecentPost.date or mostRecentPost == nil %}
+{% assign mostRecentPost = post %}
 {% endif %}
-<time itemprop="datePublished">
-{%- assign date_format =  "%b %-d, %Y" -%}
-{{ post.date | date: date_format }} &mdash; {% if post.modified %}  {{ post.modified | date: date_format }}{% endif %} 
-</time>
-{% if post.description %}
-<em>{{ post.description }}</em>
+
+{% if post == mostRecentPost %}
+<h2 id="{{ post.date | date: "%b-%Y" | slugify }}" class="blog-post-header">
+<a href="/blog#{{ post.date | date: "%b-%Y" | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y" }}">
+<time itemprop="datePublished">{{ post.date | date: date_format }}</time>
+</a>
+</h2>
+{% else %}
+<h2 id="{{ post.date | date: date_format | slugify }}" class="blog-post-header">
+<a href="/blog#{{ post.date | date: date_format | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y" }}">
+<time itemprop="datePublished">{{ post.date | date: date_format }}</time>
+</a>
+</h2>
 {% endif %}
-{% if post.abstract %}
-<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>
-{% endif %}
-</header>
 
 {{ post.content }}
 
+</div>
 {% endfor %}
 {% endfor %}
 {% endfor %}
-

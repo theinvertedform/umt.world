@@ -3,9 +3,9 @@
 html {
     background-color: #fff;
     line-height: 1.60;
-	font-family: Source Pro;
 	font-size: 1rem;
 	font-weight: 400;
+	font-family: Source Pro;
 }
 
 body {
@@ -48,13 +48,7 @@ main {
 }
 
 header h1 {
-	margin: 0.75em 0;
-	text-align: center;
-	font-variant: small-caps;
 	font-size: 2.5em;
-	line-height: 1.15;
-	font-weight: 600;
-	letter-spacing: -1px;
 	}
 
 #page-metadata {
@@ -67,9 +61,13 @@ header h1 {
 	}
 
 #markdownBody blockquote {
+	margin: 0 0 1.5em 0;
+	padding: 1rem 1.25rem 1rem 1.25rem;
+	border: 1px solid #ccc;
+	background-color: #f8f8f8;
+	overflow: hidden;
+	position: relative;
 	font-style: italic;
-	margin: 2em;
-	padding: 0.5em 2.5em 0.375em 2.5em;
 }	
 
 #page-description {
@@ -90,9 +88,6 @@ article aside#abstract {
 	grid-column-end: -1;
 	}
 */
-
-article p {
-}
 
 p {
 	hyphens: none;
@@ -142,12 +137,13 @@ a {
 }
 
 h1 {
-    font-size: 1.5em;
-	line-height: 1.125;
-	text-align: left;
-	font-weight: bold;
-	letter-spacing: -0.75px;
+	margin: 0.75em 0;
+	text-align: center;
 	font-variant: small-caps;
+	font-size: 2em;
+	line-height: 1.15;
+	font-weight: 700;
+	letter-spacing: -1px;
 }
 
 h2 {
@@ -198,9 +194,49 @@ aside#TOC {
 	line-height: 1.25;
 }
 
+.blog-post {
+	padding-bottom: 1.5em;
+}
+
+.blog-post h2 {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.blog-post-header {
+	font-variant: small-caps;
+	font-style: italic;
+    line-height: 1.60;
+	font-size: 1rem;
+	font-weight: 700;
+	z-index: 11;
+}
+
+.blog-post-header::before {
+	content: "§";
+	font-style: normal;
+	font-weight: bold;
+    color: #111;
+    text-decoration: none;
+}
+
+.blog-post-header::after {
+	content: "—";
+	font-style: normal;
+    text-decoration: none;
+	padding: 0.5rem;
+}
+
 @media all and (min-width: 650px) {
+	body {
+		margin: 0 auto;
+		max-width: 1000px;
+}
+
 	header {
-		margin-left: 155px;
+		margin-left: 100px;
 	}
 
     #sidebar {
