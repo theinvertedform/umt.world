@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-toc"
   #gem "jekyll-scholar"
   gem "jekyll-pandoc"
+  gem "jekyll-last-modified-at"
   #gem "pandoc-ruby"
 end
 

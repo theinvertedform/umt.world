@@ -36,7 +36,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/podcast">Podcast</a></h1>
 <ul>
 {% for post in episodes reversed limit: 10 %}
-<li><a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
+<li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}

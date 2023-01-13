@@ -45,6 +45,8 @@ status: ongoing
 
 {{ post.content }}
 
+{% last_modified_at %}
+
 </div>
 {% endfor %}
 {% endfor %}
