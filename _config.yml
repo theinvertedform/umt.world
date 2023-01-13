@@ -17,12 +17,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-pandoc
+  - jekyll-last-modified-at
 
     #feed:
     #  categories:
     #    newsletter:
     #      path: "/newsletter.atom"
     #posts_limit: 20
+    #
+
+last-modified-at:
+  date-format: "%b %e, %Y"
 
 toc:
   ordered_list: true
@@ -39,7 +44,7 @@ pandoc:
 # Collections
 collections:
   blog:
-    permalink: "/blog#:year-:title"
+    permalink: "/blog#:short_month-:i_day-:year"
   podcast:
     permalink: "/podcast#:title"
   philosophy:
