@@ -65,6 +65,7 @@ defaults:
       type: "documents"
     values:
       layout: "post"
+      date_format: "%b %-d, %Y"
         # - scope:
         #     path: "collections/_reviews/films/"
         #   values:

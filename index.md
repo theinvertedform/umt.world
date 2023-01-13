@@ -2,6 +2,7 @@
 title: index
 abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the Marxist tradition and the philosophy of art; I am an historical researcher charting the social history of visual culture; and I am a [critical writer of the contemporary](/reviews). This website is a new media experiment, combining literary and [technical means](/about) to develop a [dialetical image](/benjamin#dialectical-image) of the present.
 ---
+{%- assign date_format =  "%b %-d, %Y" -%}
 
 <article>
 <div class="markdownBody" id="markdownBody">
@@ -12,7 +13,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul class="section-link-list">
 {% assign sorted = site.documents | sort: 'date' | reverse %}
 {% for post in sorted limit: 15 %}
-<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>{% endif %}
+<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ page.date | date: site.date_format }}">{{ post.title }}</a>{% endif %}
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -23,7 +24,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/blog">Blog</a></h1>
 <ul>
 {% for post in site.blog reversed limit: 10 %}
-<li><a href="blog#{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="blog#{{ post.date | date: date_format | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.date | date: date_format }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
@@ -35,7 +36,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/podcast">Podcast</a></h1>
 <ul>
 {% for post in episodes reversed limit: 10 %}
-<li><a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
 {% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 </li>
 {% endfor %}
