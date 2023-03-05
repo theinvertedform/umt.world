@@ -13,8 +13,8 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul class="section-link-list">
 {% assign sorted = site.documents | sort: 'date' | reverse %}
 {% for post in sorted limit: 15 %}
-<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ page.date | date: site.date_format }}">{{ post.title }}</a>{% endif %}
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ page.date | date: site.date_format }}.">{{ post.title }}</a>{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -25,7 +25,8 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul>
 {% for post in site.blog reversed limit: 10 %}
 <li><a href="blog#{{ post.date | date: date_format | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.date | date: date_format }}</a>
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+{% if post.title %}{{ post.title }}{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -37,7 +38,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul>
 {% for post in episodes reversed limit: 10 %}
 <li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -49,7 +50,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul>
 {% for post in film_reviews reversed limit: 10 %}
 <li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -60,7 +61,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul>
 {% for post in site.philosophy reversed limit: 10 %}
 <li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -71,7 +72,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul>
 {% for post in site.communism reversed limit: 10 %}
 <li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
