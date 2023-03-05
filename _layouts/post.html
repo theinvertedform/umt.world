@@ -7,13 +7,12 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 	<div id="page-metadata">
-		<div id="page-description">
-				<p><em>{{ page.description }}</em></p></div>
-			{% if page.tags.size > 0 %}
+		<div id="page-description">{{ page.description }}</div>
+	{% if page.tags.size > 0 %}
 		<div id="link-tags">
-				{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
-					{% unless forloop.last %}&nbsp;{% endunless %}
-				{% endfor %}
+	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
+		{% unless forloop.last %}&nbsp;{% endunless %}
+	{% endfor %}
 		</div>
 			{% endif %}
 		<div id="page-metadata-block">

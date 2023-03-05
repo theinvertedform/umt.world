@@ -8,7 +8,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 	<div id="page-metadata">
 		<div id="page-description">
-			<p id="page-description"><em>{{ page.description | markdownify }}</em></p></div>
+			{{ page.description | markdownify }}</div>
 		<div id="link-tags">
 			{% if page.tags.size > 0 %}
 				{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
