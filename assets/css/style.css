@@ -1,5 +1,10 @@
 /* base features */
 
+@font-face {
+	font-family: "Source Sans", sans-serif;
+	src: url("../assets/fonts/SourceSans3-Regular");
+}
+
 html {
     background-color: #fff;
     line-height: 1.60;
@@ -61,15 +66,9 @@ article aside#abstract {
 */
 
 #markdownBody {
-	padding-top: 15px;
 	line-height: 1.45;
 	overflow-wrap: break-word;
 	}
-
-/* aside .abstract {
- *
- * } 
- * */
 
 a {
     color: #111;
@@ -86,10 +85,6 @@ p + p {
 	margin-top: 0;
 }
 
-/* section {
-
-} */
-
 section h1 {
 	border-bottom: 1px dotted;
 	margin: 1.125em 0 0 0;
@@ -102,7 +97,7 @@ section h1 {
 	letter-spacing: -0.75px;
 }
 
-.markdownBody section > :first-child > a {
+section > :first-child > a {
 	border-bottom: none;
 }
 
@@ -114,6 +109,14 @@ section h1 {
 	line-height: 1.65;
 	padding: 1px 0;
 	margin: 2px 0 0 0;
+	}
+
+#markdownBody #blog .section-link-list li a {
+	font-family: sans-serif;
+}
+
+.section-link-list-post-title {
+	font-variant: small-caps;
 	}
 
 footer {
@@ -130,23 +133,64 @@ header.post-header {
 #page-metadata {
 	line-height: 1.5;
 	margin: 0 0 2rem 0;
+	font-family: sans-serif;
 }
 
 #page-description {
 	margin: 0 auto 1em auto;
 	font-style: italic;
 	text-align: justify;
+	font-family: Source Serif;
 	}
 
-aside#TOC {
-	max-width: 205px;
-	margin: 0 2rem 1.5rem 0;
-	padding: 0.5em 0.5em 0.75em 0.75em;
-	position: relative;
+#TOC {
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
 	z-index: 11;
 	line-height: 1.25;
+	padding: 0.5em 0.5em 0.5em 0.625em;
+	margin: 2em auto;
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+
+#TOC > ul {
+	column-count: 2;
+	margin: 0;
+	column-gap: 1.25em;
+	list-style-type: none;
+	padding: 0;
+}
+
+.section-nav > ul {
+	counter-reset: htoc_1;
+	list-style-type: none;
+}
+
+.section-nav ul {
+	text-indent: 0;
+	padding: 0;
+	overflow: unset;
+	list-style-type: none;
+	padding-left: 0.7em;
+	padding-top: 0.25em;
+	margin-top: 0.1em;
+}
+
+.section-nav li {
+	font-weight: bold;
+	margin: 0 0 0.5em 0;
+	position: relative;
+	overflow-wrap: break-word;
+	font-size: 0.9em;
+}
+
+.section-nav li li {
+	font-weight: normal;
+}
+
+.section-nav a {
+	border: none;
 }
 
 .blog-post {
@@ -185,7 +229,7 @@ aside#TOC {
 }
 
 /* misc elements*/
-#markdownBody blockquote {
+blockquote {
 	margin: 0 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
 	border: 1px solid #ccc;
@@ -227,14 +271,17 @@ h1 {
 }
 
 h2 {
+	margin: 0.75em 0;
+	text-align: center;
 	font-variant: small-caps;
-	text-transform: uppercase;
 	font-size: 1.25em;
-	padding: 0 0.5em 2px 0;
-	line-height: 1.25;
-	font-weight: bold;
-	margin: 1.25em 0 0.5em -0.75rem;
+	line-height: 1.15;
+	font-weight: 600;
 	position: relative;
+}
+
+h2 a {
+	border: none;
 }
 
 h3 {
@@ -246,12 +293,13 @@ h3 {
 	text-transform: uppercase;
 }
 
-aside.abstract blockquote {
+.abstract blockquote {
 	margin: 0 0 1.5em 0;
-	padding: 0.9rem 1.25rem 0.95rem 1.25rem;
+	padding-top: 0.9em;
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
 	overflow: hidden;
+	font-style: normal;
 }
 
 @media all and (min-width: 650px) {
@@ -287,6 +335,10 @@ aside.abstract blockquote {
 		max-width: 1000px; /* figure out where the width goes; how to grow space on left side of screen. */
 	}
 
+	#markdownBody {
+		padding-top: 0;
+	}
+
 	.markdownBody {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -302,8 +354,23 @@ aside.abstract blockquote {
 		padding: 0 0 0 1.375em;
 	}
 
-	aside#TOC {
+	#TOC {
+		max-width: 285px;
+		margin: 0 2rem 1.5rem 0;
+		padding: 0.5em 0.5em 0.75em 0.75em;
+		position: relative;
 		float: left;
+	}
+
+	#TOC > ul {
+		column-count: 1;
+	}
+
+	.section-nav ul {
+		margin-top: 0.2em;
+		text-indent: 0;
+		padding-left: 0.7em;
+		padding-top: 0.25em;
 	}
 
 	aside.abstract {

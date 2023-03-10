@@ -1,12 +1,10 @@
 ---
-title: About the Website
-description: A page describing the aesthetic goals, content, and technical implementation of umt.world. 
-abstract: A short essay about new media and literature. Schematic lists on how the URLs should be structured; methods used for that collection; the design principles, inspirations, ambitions.
+title: About This Website
+description: Inspiration, theorization, technical implementation, and goals for this website. 
+abstract: This website is a literary project, but it is also an attempt to creatively design a new media work. This page presents some of the research I have undertaken to develop my understanding of what a website can be. The principles and inspiration behind the web design, the structure, and the critical mission. This is also where I collect technical information and logs.
 layout: meta
 toc: true
 tags:
-  - umt.world
-  - personal
   - web design
   - new media
 status: active development
@@ -75,29 +73,19 @@ The second element of my outreach program is the newsletter. This database of em
 ## Programmatic
 
 * Blog page
-	* ~~single page with anchor links,~~ ~~post metadata class,~~ description inline with date, add spacing to bottom of tags
 	* Automatic date:time for posts
 	* Modified time for posts
-	* What kind of astrological information can be included?
-	* Chronological TOC that still has room for post titles.
-	* Automatically-generated metadata that situates me in the environment. "Posted from {location profile}, {weather description}." The date should include the time and the amount of hours:minutes spent writing the post.
 	* Posts over a certain length get a collapsible frame.
-	* TOC: Year - Month (# of posts). Month section can be expanded to show a list of titles.
 * Changelog page
-	* Integrate with the git log.
-	* Template for writing git commit -m automatically.
-	* Category links don't work.
-	* Add descriptions as well as abstracts.
-	* We may want to add events to the log, e.g. to mark a calendar event, without needing to write a blog post?
-* Permalink for collections
-	* Need to be able to insert links to collection URLs (e.g. on the changelog page), whether they have a page or just an anchor link on the index.
+	* Automatic integration with git log.
+	* Template for writing git commit messages automatically.
+	* Format abstracts, descriptions, wordcounts, dates---everything.
 * ~~*Footnotes to Endnotes* podcast single page.~~ 
 	* External hosting for podcast files. Links need to be programmatically inserted (AWK).
 	* Bug: shows first 10 episodes in index, rather than most recent 10.
 	* Remove "episode" from title, add to metadata; number the episodes consecutively(?)
 * ~~Tag and category pages.~~ They work the same as any other collection.
 	* Bug: tags from "meta" files (non-collections) not added to tag index.
-	* Category page currently non-functional.
 * RSS Feeds
 	* Changelog, podcast, blog
 * ~~Pandoc~~
@@ -130,20 +118,15 @@ Walter Benjamin's reviews did not follow a standardized format; he didn't write 
 
 ## Design
 
-* Style header text (~~smallcaps,~~ ~~weight,~~ ~~size,~~ ~~spacing~~, right side alignment)
+* Links still need hover & click responses
 * Add links to section headers
 * Add an icon to section header
 * Offset headers by 1
-* Footer element: ~~centre,~~ graphic, spacing
-* Font and line spacing settings for the different viewport sizes
+* Footer element graphic separation
 * Three column wide screen index page
-* Page content centred with slight rightward bias
-* Clean up the logo
-* ~~Indent non-leading paragraphs, no line breaks~~
-* Lists: ~~indent,~~ custom bullet item
+* Custom graphics for bulleted lists
 * Epigraphs: ~~emph text,~~ quotation graphics, pandoc syntax
 * Style for code (inline and block)
-* Block quotes? Are they different from epigraphs?
 * Author-date citation format, but style the quotes so they're less disruptive to the text flow?
 
 ## Proposed Research Topics
