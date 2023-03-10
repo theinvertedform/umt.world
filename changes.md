@@ -9,16 +9,23 @@ status: ongoing
 
 {% assign postsByYear = site.documents | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear reversed %}
-<h1>{{ year.name }}</h1>
+<section id="{{ year.name }}">
+<h1 id="{{ year.name }}"><a href="#{{ year.name }}">{{ year.name }}</a></h1>
 {% assign postsByMonth = year.items | sort | group_by_exp:"post", "post.date | date: '%B'" %}
 {% for month in postsByMonth reversed %}
-<h2>{{ month.name }}</h2>
+<section id="{{ year.name }}-{{ month.name | date: '%m' }}">
+<h2 id="{{ year.name }}-{{ month.name | date: '%m' }}"><a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a></h2>
 <ul>
 {% for post in month.items reversed %}
-<li>{% if post.collection %}<a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="{{ post.url  }}">{{ post.title }}</a>{{ post.content | number_of_words }}</li>
-{% if post.modified %} Originally published on {{ post.date | date: "%b %-d, %Y" }}; last modified {{ post.modified | date: "%b %-d, %Y"}}.{% endif %}
+<li>{% if post.collection == "blog" %}<a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% else %}<a href="/index#{{post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %}{{ post.description }}{% endif %}
+{{ post.content | number_of_words }} words</li>
+{% if post.modified %} Originally published on {{ post.date | date: "%A, %B %d, %Y" }}; last modified {{ post.modified | date: "%b %-d, %Y"}}.
+{% else %}{{ post.date | date: "%A, %B %d, %Y" }}.
+{% endif %}
 {% if post.abstract %}<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>{% endif %}
 {% endfor %}
 </ul>
+</section>
 {% endfor %}
+</section>
 {% endfor %}
