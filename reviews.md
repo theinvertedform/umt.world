@@ -12,8 +12,8 @@ status: ongoing
 ---
 
 {% assign film_reviews = site.documents | group_by: "film review" %}
-{% for post in film_reviews reversed %}
-<h1 id="{{ post.title | slugify }}"><a href="reviews#{{ post.title | slugify }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.name }} ({{ post.year }})</a></h1>
+{% for post in site.reviews reversed %}
+<h1><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }} ({{ post.date | date: '%Y' }})</a></h1>
 <header class="post-header">
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -29,7 +29,5 @@ status: ongoing
 <em>{{ post.description }}</em>
 {% endif %}
 </header>
-
-{{ post.content }}
 
 {% endfor %}
