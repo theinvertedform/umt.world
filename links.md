@@ -69,6 +69,8 @@ I default to introverted, but am secretly gregarious. I am emotionally unstable,
 
 How can you know me, without knowing what I look like? Here is a description of my style, how I comport myself; I will also collect photographs to construct a chronological visual narrative.
 
+![The author circa 2011.](assets/images/pixxx\ 005.jpg)
+
 ### Astrological chart
 
 ![Natal chart.](assets/images/chart.gif)
