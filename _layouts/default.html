@@ -23,7 +23,7 @@
 		{% endif %}
 		<!-- end of Twitter cards -->
 
-		<title>{{ page.title }} - umt.world</title>
+		<title>{{ page.title | markdownify | strip_html }} - umt.world</title>
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
