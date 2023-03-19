@@ -9,7 +9,7 @@ url: "https://umt.world" # http://example.com
 twitter_username: theinvertedform
 github_username:  theinvertedform
 permalink: /:title
-logo: assets/images/logo.png
+logo: /assets/images/logo.png
 
 # Build settings
 plugins:
