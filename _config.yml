@@ -17,7 +17,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-pandoc
-    #- jekyll-last-modified-at
 
     #feed:
     #  categories:
