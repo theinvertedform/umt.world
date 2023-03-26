@@ -11,9 +11,16 @@ permalink: /reviews
 status: ongoing
 ---
 
-{% assign film_reviews = site.documents | group_by: "film review" %}
+<h2>Categories</h2>
+{%- assign categories = site.categories -%}
+{% for category in categories %}
+    <h3>category title: {{ category.title }}</h3>
+{% endfor %}
+
+{% assign reviews = site.documents %}
 {% for post in site.reviews reversed %}
-<h1><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }} ({{ post.date | date: '%Y' }})</a></h1>
+<h1>cats</h1>
+<h2><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }} ({{ post.date | date: '%Y' }})</a></h2>
 <header class="post-header">
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -29,5 +36,9 @@ status: ongoing
 <em>{{ post.description }}</em>
 {% endif %}
 </header>
+
+{% if post.review %}
+{{ post.review }}
+{% endif %}
 
 {% endfor %}

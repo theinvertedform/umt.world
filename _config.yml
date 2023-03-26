@@ -67,13 +67,19 @@ defaults:
       layout: "default"
   - scope:
       path: "collections"
-      type: "documents"
+        #type: "documents"
     values:
       layout: "post"
   - scope:
-      path: "collections/_reviews/films/"
+      path: ""
+      type: "reviews"
     values:
-      itemtype: "film review"
+      category: "film_review"
+  - scope:
+      path: "collections/_reviews/books/"
+      type: "reviews"
+    values:
+      category: "book_review"
         #- scope:
         #    path: "collections/reviews/films"
         #  values:
