@@ -25,7 +25,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul class="section-link-list">
 {% assign sortedPosts = site.blog | sort: 'date' | reverse %}
 {% for post in sortedPosts limit: 10 %}
-<li>{% if post.title %}<span class="section-link-list-post-title"><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.title }}</a></span>{% endif %}
+<li>{% if post.title %}<a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.title }}</a>{% endif %}
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}

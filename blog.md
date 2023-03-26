@@ -1,8 +1,8 @@
 ---
 title: Blog
 layout: post
-description: Short diary posts and writing exercises.
-abstract: I posted a few times on MySpace, which was the first social network I used to communicate with friends circa 2004--2005. I started a blogspot soon thereafter, where I was active for several years. I made a few posts on LiveJournal, Xanga, and elsewhere. I kept a film review blog for several months around 2009--2010. Someday I will get around to making all these archives public. For now this functions as a space for "social postings" that are too serious to give to Twitter.
+description: "My diary falls open on the table for you to read: a practise of writing and an ongoing picture of my emotional state."
+abstract: My blogging habits go back to a few initial posts on MySpace circa 2004--2005. These then evolved into alt.conform, a project hosted on Blogspot for many of my early teenage years. These writings are in addition to a constant practise of writing in notebooks and journals, some of which I occasionally transcribe and post here. My film review blog "Total Cinema" is archived over with my [reviews](/reviews). My approach with maintaing this blog page now is to use it to focus on maintaining my writing habit; and it also records an unbearably honest emotional record.
 tags:
   - personal
   - writing
@@ -22,14 +22,21 @@ status: ongoing
 {% assign postsByMonth = year.items | sort | group_by_exp:"post", "post.date | date: '%B'" %}
 {% for month in postsByMonth reversed %}
 <section id="{{ year.name }}-{{ month.name | date: '%m' }}">
-<h2 id="{{ year.name }}-{{ month.name | date: '%m' }}"><a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a></h2>
+<h2 id="{{ year.name }}-{{ month.name | date: '%m' }}">
+	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a>
+</h2>
 {% for post in month.items reversed %}
-<section id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
-<h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-header">
-<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y" }}">
-<time itemprop="datePublished">{{ post.date | date: date_format }}</time>
-</a>
+<section class="blog-post" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+<div class="blog-post-header">
+<h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
+	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y" }}">
+		<time itemprop="datePublished">{{ post.date | date: date_format }}</time>
+	</a>
 </h3>
+<span class="blog-post-title">{{ post.title }}</span>
+{% if post.description %}<span class="blog-post-description">{{ post.description }}</span>{% endif %}
+
+</div>
 
 {{ post.content }}
 

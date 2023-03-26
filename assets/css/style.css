@@ -197,23 +197,18 @@ header.post-header {
 	padding-bottom: 1.5em;
 }
 
-.blog-post h2 {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	float: left;
-}
-
 .blog-post-header {
-	font-variant: small-caps;
-	font-style: italic;
+	padding-bottom: 1em;
+	}
+
+.blog-post-date {
     line-height: 1.60;
-	font-size: 1rem;
+	font-size: 18px;
 	font-weight: 700;
-	z-index: 11;
+	display: inline;
 }
 
-.blog-post-header::before {
+.blog-post-date::before {
 	content: "§";
 	font-style: normal;
 	font-weight: bold;
@@ -221,12 +216,38 @@ header.post-header {
     text-decoration: none;
 }
 
-.blog-post-header::after {
+.blog-post-title {
+	font-size: 18px;
+	font-weight: 700;
+	font-variant: small-caps;
+}
+
+.blog-post-title::before {
 	content: "—";
 	font-style: normal;
     text-decoration: none;
 	padding: 0.5rem;
+	font-size: 18px;
+	font-weight: 700;
+	}
+
+div.blog-post-header p {
+	display: inline;
 }
+
+.blog-post-description {
+	font-style: italic;
+}
+
+.blog-post-description::before {
+	content: "—";
+	font-style: normal;
+    text-decoration: none;
+	padding: 0.5rem;
+	font-size: 18px;
+	font-weight: 700;
+	}
+
 
 /* misc elements*/
 blockquote {
@@ -242,6 +263,11 @@ blockquote {
 p.caption {
 	text-indent: 0;
 }
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+	}
 
 li {
 	counter-increment: count;
