@@ -1,13 +1,14 @@
 ---
 title: About the Author
 description: Links and information describing me.
-abstract: I am a writer, philosopher, historical researcher, and fiction writer. I am interested in questions of modernity, society, and the contemporary visual regime of digital life; philosophically, I am interested in Marxism and the philosophy of art. The basis of my critical practise is an ongoing encounter with contemporary culture, the exploratory edge of my philosophical worldview. My literary process offers my own aesthetic representation of the present. My practise as an artist is influenced by generic conventions, and the potential of narrative to provoke emotional reflection in the reader. My writing attempts to express what is at stake in the structuring concerns common to the present. Narrative techniques are the organizing principle of my practise, all of which constitutes a totality that moves dialectically between rhetorical and narrative modes.
+abstract: "I am a communist writer, researcher, and critic of contemporary culture. My historical research is provoked by an analysis of emergent tendencies in contemporary culture, focusing on the visual, and always done in service of a better analysis of our shared present. Growing up alongside the digital, my interest in the Contemporary as a discrete social and cultural paradigm centres on questions including: the history and theory of new media forms; digital life and its technologically-mediated precedents; and the politics of aesthetics. My motivation to grasp the world began, as it does for all of us, upon learning that it is unjust. I have since developed my commitment to an alliance with the wretched of the earth and to the abolition of capital. I claim this as the fundamental a priori of all my striving for clarity of thought and for literary expression, hence why political questions are only occasionally explicit in my writing. My philosophical research tends to gravitate towards the German tradition on both sides of Marx (Kant/Hegel, Adorno/Benjamin/Lukacs); but the questions I have learned to ask of history and of politics are reflected in my ongoing encounter with the avant-garde, as well as the thick middle of mass media. My work represents an ongoing trace of the chaotic, yet motionless vortex of the Contemporary."
 layout: post
 toc: true
 tags:
   - meta
   - personal
 ---
+
 
 This page is all about me. It contains links to my social media around the internet; profiles and typological data (forthcoming); methodology; known biases; likes and dislikes; as well as information on the material elements of my practise and my research.
 
