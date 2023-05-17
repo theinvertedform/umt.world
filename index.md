@@ -12,7 +12,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1><a href="/changes">New</a></h1>
 <ul class="section-link-list">
 {% assign sorted = site.documents | sort: 'date' | reverse %}
-{% for post in sorted limit: 15 %}
+{% for post in sorted limit: 10 %}
 <li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ page.date | date: site.date_format }}.">{{ post.title }}</a>{% endif %}
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>

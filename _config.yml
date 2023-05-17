@@ -53,6 +53,11 @@ collections:
   reviews:
     permalink: "reviews/:slug"
     output: true
+  film_reviews:
+    output: true
+    category: "film_review"
+      # book_reviews:
+      #   output: true
 collections_dir: "collections/"
 #   tags:
 #     name: true
@@ -72,12 +77,16 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+    values:
       type: "reviews"
+      #category: "film_review"
+  - scope:
+      path: "collections/_reviews/films"
     values:
       category: "film_review"
   - scope:
       path: "collections/_reviews/books/"
-      type: "reviews"
+      type: "review"
     values:
       category: "book_review"
         #- scope:
