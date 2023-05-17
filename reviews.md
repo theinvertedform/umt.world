@@ -5,40 +5,32 @@ description: Master list of reviews.
 abstract: Mostly film reviews, but also art and books reviews. Occasionally talking about random works.
 tags:
   - review
-  - critique
+  - criticism
 toc: true
 permalink: /reviews
 status: ongoing
 ---
 
-<h2>Categories</h2>
-{%- assign categories = site.categories -%}
-{% for category in categories %}
-    <h3>category title: {{ category.title }}</h3>
-{% endfor %}
-
-{% assign reviews = site.documents %}
-{% for post in site.reviews reversed %}
-<h1>cats</h1>
-<h2><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }} ({{ post.date | date: '%Y' }})</a></h2>
+{% assign film_reviews = site.reviews | where: "category","film_review" %}
+{% for film_review in film_reviews%}
+<h2><a href="{{ film_review.url }}" title="{{ film_review.title }}, posted on {{ film_review.date | date: "%b %-d, %Y" }}">{{ film_review.title }} ({{ film_review.date | date: '%Y' }})</a></h2>
 <header class="post-header">
-{% if post.tags.size > 0 %}
-<div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
+{% if film_review.tags.size > 0 %}
+<div class="link-tags">{% for tag in film_review.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
 {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 </div>
 {% endif %}
 <time itemprop="datePublished">
 {%- assign date_format =  "%b %-d, %Y" -%}
-{{ post.date | date: date_format }} {% if post.modified %} &mdash; {{ post.modified | date: date_format }}{% endif %} &mdash;
+{{ post.date | date: date_format }} {% if post.modified %} &mdash; {{ post.modified | date: date_format }} &mdash; {% endif %} 
 </time>
 {% if post.description %}
 <em>{{ post.description }}</em>
 {% endif %}
 </header>
-
-{% if post.review %}
-{{ post.review }}
+{% if film_review %}
+{{ film_review.review }}
 {% endif %}
 
 {% endfor %}
