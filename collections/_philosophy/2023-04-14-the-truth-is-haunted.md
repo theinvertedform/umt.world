@@ -1,12 +1,12 @@
 ---
 title: The Truth is Haunted
 layout: post
-description: Essay about phantasmagoria and early modernism.
+description: Technology sutures the gap between faith and Enlightenment, but the uncanny seeps through nonetheless.
 tags:
   - visual culture
   - modernity
   - technology
-abstract: Quantitative versus qualitative reasoning. Enlightenment versus faith. Digital life, mass culture, technological mediation.
+abstract: Quantitative versus qualitative reasoning. Enlightenment versus faith. Early modernity, digital life, mass culture, technological mediation.
 ---
 
 Competition within academia has led the humanities to apply scientific rationality to aesthetic experience. In The New Yorker, Nathan Heller analyses the present state of academia "in a quantitative society for which optimization...has become a self-evident good" [@heller2023]. State policy and private sponsorship have favoured STEM since the end of the Cold War. The CIA and its predecessor organizations have long been involved in funding art and cultural discourse. However, investment in culture through the Congress for Cultural Freedom has generally declined since the heyday of the 60s. According to The New Yorker, enrollment in humanities programs has similarly been in decline since the end of the Cold War. Meanwhile, STEM departments across the United States receive lavish endowments. Scientific research, even at its most abstract, is associated with instrumental application and technology development. Technology can be used to increase profits, either by reducing labour and economizing on production---or through the design of commodities. Theoretical tendencies within the cultural discourses of the 20th century have also had an impact on the quantification of the humanities. Structuralist and post-structuralist thought promote a disenchanted form of study, where art is seen as something like a node in a tissue of connections (Barthes); or a product of an ideological state apparatus (Althusser). By contrast, Nabokov "famously" taught the novel by paying attention to "form, references, style, and special marks of authorial genius...an intensification of the way the reader on the subway experiences the book" [@heller2023]. 
