@@ -7,6 +7,7 @@ tags:
   - history of philosophy
 status: nothing yet
 layout: meta
+published: false
 ---
 
 I first read the *Phenomenology of Spirit* in Winter 2020, in an online seminar led by Nathan Brown at the CEP. It was okay, but I didn't retain all that much.
