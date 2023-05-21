@@ -1,5 +1,5 @@
 ---
-title: index
+title: Index
 abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the Marxist tradition and the philosophy of art; I am an historical researcher charting the social history of visual culture; and I am a [critical writer of the contemporary](/reviews). This website is a new media experiment, combining literary and [technical means](/about) to develop a [dialetical image](/benjamin#dialectical-image) of the present.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
@@ -11,10 +11,21 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <section id="new">
 <h1><a href="/changes">New</a></h1>
 <ul class="section-link-list">
-{% assign sorted = site.documents | sort: 'date' | reverse %}
-{% for post in sorted limit: 10 %}
-<li>{% if post.url %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ page.date | date: site.date_format }}.">{{ post.title }}</a>{% endif %}
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+{% assign all_documents = "" %}
+{% for collection in site.collections %}
+{% unless collection.label == "blog" %}
+{% assign all_documents = all_documents | concat: collection.docs %}
+{% endunless %}
+{% endfor %}
+{% assign sorted = all_documents | sort: 'date' | reverse | slice: 0, 10 %}
+{% for post in sorted %}
+<li>
+{% if post.url %}
+<a href="{{ post.url }}">{{ post.title }}</a>
+{% else %}
+<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
+{% endif %}
+{% if post.collection != 'blog' %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
@@ -44,12 +55,22 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 </ul>
 </section>
 
-<section id="reviews">
-{% assign film_reviews = site.reviews | where:"grouped_by","film review" %}
-<h1><a href="/index#reviews">Reviews</a></h1>
+<section id="film">
+<h1 id="film"><a href="/index#film">Film</a></h1>
 <ul class="section-link-list">
-{% for post in film_reviews reversed limit: 10 %}
-<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% for post in site.film reversed limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.title }}</a> ({{ post.year }})
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="art">
+<h1 id="art"><a href="/index#art">Art</a></h1>
+<ul class="section-link-list">
+{% for post in site.art reversed limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
@@ -60,7 +81,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
 <ul class="section-link-list">
 {% for post in site.philosophy reversed limit: 10 %}
-<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
@@ -71,11 +92,12 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="communism"><a href="/index#communism">Communism</a></h1>
 <ul class="section-link-list">
 {% for post in site.communism reversed limit: 10 %}
-<li><a href="{{ post.slug }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
 </section>
+
 </div>
 </article>

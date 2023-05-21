@@ -50,14 +50,15 @@ collections:
   philosophy:
     output: true
     permalink: "/:title"
-  reviews:
-    permalink: "reviews/:slug"
+  art:
     output: true
-  film_reviews:
+    permalink: "/reviews/:title"
+  film:
     output: true
-    category: "film_review"
-      # book_reviews:
-      #   output: true
+    permalink: "/reviews/:title"
+  books:
+    output: true
+    permalink: "/reviews/:title"
 collections_dir: "collections/"
 #   tags:
 #     name: true
@@ -81,23 +82,10 @@ defaults:
       type: "reviews"
       #category: "film_review"
   - scope:
-      path: "collections/_reviews/films"
-    values:
-      category: "film_review"
-  - scope:
       path: "collections/_reviews/books/"
       type: "review"
     values:
       category: "book_review"
-        #- scope:
-        #    path: "collections/reviews/films"
-        #  values:
-        #    permalink: "/:slugified_categories/#:title"
-        #    category: "film review"
-        # - scope:
-        #     path: "collections/podcast/_posts"
-        #   values:
-        #     permalink: "/podcast#:title"
 
 # Google analytics
 google_analytics: G-5NHX2XP9H3
@@ -115,3 +103,4 @@ exclude:
   - vendor/ruby/
   - README.md
   - TODO.md
+  - collections/_films/reviews.csv
