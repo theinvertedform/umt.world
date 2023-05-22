@@ -11,7 +11,6 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <section id="new">
 <h1><a href="/changes">New</a></h1>
 <ul class="section-link-list">
-{% assign all_documents = "" %}
 {% for collection in site.collections %}
 {% unless collection.label == "blog" %}
 {% assign all_documents = all_documents | concat: collection.docs %}
@@ -25,7 +24,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 {% else %}
 <a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
 {% endif %}
-{% if post.collection != 'blog' %}<em>{{ post.description }}</em>{% endif %}
+<em>{{ post.description }}</em>
 </li>
 {% endfor %}
 </ul>
@@ -81,17 +80,6 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
 <ul class="section-link-list">
 {% for post in site.philosophy reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
-</li>
-{% endfor %}
-</ul>
-</section>
-
-<section id="communism">
-<h1 id="communism"><a href="/index#communism">Communism</a></h1>
-<ul class="section-link-list">
-{% for post in site.communism reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>

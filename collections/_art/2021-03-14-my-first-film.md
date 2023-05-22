@@ -1,19 +1,19 @@
 ---
-title: Review of Zia Anger's My First Film
-description: On the relationship between performance and video in the early Pandemic Age.
+title: My First Film
+description: Zia Anger's online performance-video in the early Pandemic Age.
 tags:
   - review
   - video
   - performance
   - digital culture
-abstract: Zia Anger's performance piece was particularly suited to online adaptation; and in the early days of the pandemic, it felt like an exciting exploration of the possibilities of digital platforms.
+abstract: Zia Anger's performance piece was particularly suited to online adaptation; and in the early days of the pandemic, it felt like an exciting exploration of the possibilities of digital platforms. The work combines cinema with new media-based performance.
 status: rough draft
 modified: 2021-04-24
 toc: true
 layout: post
 ---
 
-After wrapping production on her first film in 2012, alternately titled <i>Gray</i> and <i>Always All Ways, Anne Marie,</i> Zia Anger submitted it to 40 different film festivals and did not gain entry into any. When she tried to have the credit's "post-production" status removed from <a href="https://www.imdb.com/name/nm2851641/">her IMDB profile</a>, "it just wrote “abandoned”...because I had never premiered them at a festival, films I had made were considered abandoned." This is the inciting incident that sets off the narrative of <i>My First Film</i>, a hybrid form of new media, artist talk, and theatrical performance that ran at Metrograph before winding up as a livestream performance at the beginning of the Pandemic Age. <i>My First Film</i> recycles the body of Anger's "abandoned" crowd-funded feature, creating a new work exploring institutional power while pushing the boundaries of streaming content.
+After wrapping production on her first film in 2012, alternately titled *Gray* and *Always All Ways, Anne Marie*, Zia Anger submitted it to 40 different film festivals and did not gain entry into any. When she tried to have the credit's "post-production" status removed from [her IMDB profile](https://www.imdb.com/name/nm2851641/), "it just wrote “abandoned”...because I had never premiered them at a festival, films I had made were considered abandoned." This is the inciting incident that sets off the narrative of *My First Film*, a hybrid form of new media, artist talk, and theatrical performance that ran at Metrograph before winding up as a livestream performance at the beginning of the Pandemic Age. *My First Film* recycles the body of Anger's "abandoned" crowd-funded feature, creating a new work exploring institutional power while pushing the boundaries of streaming content.
 
 The performance event was promoted by the artist's personal Twitter account during the first months of the pandemic, offering tickets on a first-come, first-served basis that would reach capacity within minutes. I followed the URL emailed to me, and full-screened the private YouTube Live video. The screen of my ThinkPad becomes a window into Anger's MacBook. Screen-sharing has become more common, but in May 2020, the transformation of my own desktop into that of another's retained the shock of intimacy at the beginning of mass social isolation.
 
@@ -22,8 +22,6 @@ Anger opens Apple's Messages application and starts to send out video clips to w
 # The Performance
 
 It took me some time to appreciate just how well-crafted this overture was; in the moment, all I felt was a deep sensation of anxiety. I have not owned a smartphone in 5 years, and I have not regularly used any proprietary software in almost as long. At the same time, I have developed a deep and personal connection to the computer interface that I have developed through editing the source code of free software. The sudden introduction of the Other into my quarantine pod was something of a rude jar. On top of this, I feel disoriented by the sudden transformation of my own interface into the heavily designed, slick contours of MacOS. I had to ask my girlfriend what was going on, because even after several minutes I could barely parse what was transpiring, and how exactly people were using their phones. Anger has very cleverly used this part of the performance to simulate the sensation of audience spectatorship, something that she writes about as an intrinsic aspect of the experience of cinema that she holds dear [citation needed].
-
-[video clip picture]
 
 The video clips passing around the crowd are deleted Instagram Stories. Anger explains, typing into a text box, that it was an arduous task to retrieve them because the company doesn't want people to think that Stories do, in fact, continue to reside in Facebook's coffers after they are automatically removed from the network. This introduces us to the political theme that runs throughout the film: Anger's rejection by the film industry, and her eventual defection.
 
@@ -47,17 +45,13 @@ The other aspect of this introduction should be belaboured. It involved all of t
 
 whose run of the American theatre circuit began in 2018. Performances continued through 2019, and the performance found a brief new home online at the beginning of the Pandemic Age. Anger revisited the work from 8 years prior, which she admits was bad and from which she has grown significantly, using the story of its production to at once critique the elitism of the film industry--and to offer a new vision for content in an exploding age of Online Content.
 
-During the promotion of her most recent short, "<a href="https://vimeo.com/201699985">My Last Film</a>," which premiered at the 53rd New York Film Festival in 2015, Anger found that the experience of producing an independent film on her own, as a sort of initiatory rite of passage, had not registered on her resume because it had not found distribution. "I made [Gray], it didn't go anywhere, and I felt really bad...I made a couple of short films, they got recognized...and then people started to talk to me about making my “first feature”...all these really great filmmakers were telling me, “You should go and make a film for $20,000 with your friends as your first feature. Go make a mumblecore film.” I would try to tell people, “I did that already, and I didn't get any recognition, and actually now I want to make something for $1 million.”"
+During the promotion of her most recent short, [*My Last Film*](https://vimeo.com/201699985), which premiered at the 53rd New York Film Festival in 2015, Anger found that the experience of producing an independent film on her own, as a sort of initiatory rite of passage, had not registered on her resume because it had not found distribution. "I made [Gray], it didn't go anywhere, and I felt really bad...I made a couple of short films, they got recognized...and then people started to talk to me about making my “first feature”...all these really great filmmakers were telling me, “You should go and make a film for \$20,000 with your friends as your first feature. Go make a mumblecore film.” I would try to tell people, “I did that already, and I didn't get any recognition, and actually now I want to make something for \$1 million.”"
 
 Who knows if Anger's sense for new media and the Internet would be as finely-tuned as it is, had her first film been picked up, and if she had been integrated into the industry at an earlier age. What "My First Film" does is revisit the body of the earlier work, updating it by typing alongside it and moving through the Internet, and her computer, bringing us into the experience written by her life at the time of its making.
-
-# Being Online
 
 In the early months of the Pandemic Age, Anger promoted a livestreamed version of her performance "My First Film" on Twitter, offering limited seating on a first-come, first-served basis. I was lucky enough to grab a ticket during the final week of performances. I received a link to a private YouTube livestream, where I found myself with approximately 60 others. When the stream begins, my laptop became a portal into Anger's. At this point I have become somewhat inured to the novelty of zoom conferences, and I am used to watching screencasts. This hits differently, perhaps because I use a highly customized, linux-based desktop environment, and she uses the proprietary Mac OS environment, which takes me by surprise. But regardless of why, the effect of the stream is far more emotional than any other similarly-framed piece of "content" that I have seen.
 
 The real purpose of this essay is to try to identify the aspects of the performance that really close it off as something "elevated" beyond your typical livestream. The second part is to show how the technology that permits this performances is ambiguous, but has historically been overtaken by capitalist institutions (After Benjamin). The third part is to try to identify something about these films that can impact how we understand Content. What is important and relevant about this particular work in an age when Online Content is blowing up to an insane extent.
-
-## Deeper into Video
 
 The argument is using Benjamin's concept of the aura, but applied to the institutions that have built up around certain forms--for example, the American filmmaking system. The possibilities of using new media to explore the artist's archive are an extension of how Benjamin understood photography in "The Work of Art in the Age of Mechanical Reproduction." There is the possibility for "the feature film" to become more democratic on the Internet; at the same time, there is an integration of performance, which is a hallmark of online production.
 
