@@ -17,11 +17,13 @@ status: ongoing
 <h2 id="{{ year.name }}-{{ month.name | date: '%m' }}"><a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a></h2>
 <ul>
 {% for post in month.items reversed %}
-<li>{% if post.collection == "blog" %}<a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% else %}<a href="/index#{{post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %}{{ post.description }}{% endif %}
-{{ post.content | number_of_words }} words</li>
+<li class="blog-post" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+{% if post.collection == "blog" %}<a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% else %}<a href="/index#{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; {% endif %}<a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %}<em>{{ post.description }}</em>
 {% if post.modified %} Originally published on {{ post.date | date: "%A, %B %d, %Y" }}; last modified {{ post.modified | date: "%b %-d, %Y"}}.
-{% else %}{{ post.date | date: "%A, %B %d, %Y" }}.
+{% else %}{{ post.date | date: "%A, %B %d, %Y" }}. {{ post.content | number_of_words }} words
 {% endif %}
+{% endif %}
+</li>
 {% if post.abstract %}<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>{% endif %}
 {% endfor %}
 </ul>

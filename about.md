@@ -1,12 +1,13 @@
 ---
 title: About This Website
-description: Inspiration, theorization, technical implementation, and goals for this website. 
-abstract: This website is a literary project, but it is also an attempt to creatively design a new media work. This page presents some of the research I have undertaken to develop my understanding of what a website can be. The principles and inspiration behind the web design, the structure, and the critical mission. This is also where I collect technical information and logs.
+description:  Theorization, inspiration, technical implementation, and future projections. 
+abstract: This website is a literary project, but it is also a visual project. The design includes web design, information design, and the design of a hypermedia production environment. The principles and inspiration behind the web design, the structure, and the critical mission. This is also where I collect technical information and logs.
 layout: meta
 toc: true
 tags:
   - web design
   - new media
+  - hypermedia
 status: active development
 ---
 
@@ -22,47 +23,31 @@ The structure and contents of the proposed website, the published face of the pr
 
 [^1]: "'Here we have a man whose job it is to gather the day’s refuse in the capital. Everything that the big city has thrown away, everything it has lost, everything it has scorned, everything it has crushed underfoot he catalogues and collects. He collates the annals of intemperance, the capharnaum of waste. He sorts things out and selects judiciously: he collects like a miser like a miser guarding a treasure, refuse which will assume the shape of useful or gratifying objects between the jaws of the goddess of Industry.' This description is one extended metaphor for the poetic method, as Baudelaire practiced it. Ragpicker and poet: both are concerned with refuse." [@benjamin1938, 48]
 
-## URL Schema, Page Structure & Metadata
+## URL Schema
 
-The archive is made up of textual units, all of whose location and content are in flux. However, the URL schema must be absolutely rigid. Preference for single words. Subsections of the page might be re-located, but URLs must be stable; page structure and cross-referencing will get the reader where they need to go, in the event that information moves around.
+[Cosma's website](http://bactra.org/) has many pages, but the URLs are all quite schematic. To my mind, they are unattractive and old-fashioned, clashing with what we expect from websites nowadays. I like the effect these incongruous URLs produce---but to a somewhat more limited extent than Baktra.
 
-* umt.world/index --- Category-organized index page; min-width columnar lists up to ~15 titles per category
-- umt.world/changes --- Summary of updates and additions to the website (content as well as source code)
-* umt.world/about --- About the website, followed by a longer essay giving some background on its contents; notes on design and implementation; any statistical data
-* umt.world/links --- About the author; information on technical features of my tools and processes (computer, OS, writing environment, archival practises, writing habits, interests, hobbies); links to social media; surveys; psychological, typographic, evaluative profiles.
-* umt.world/{page} --- (for long-term stability, each page should have a one word URL)
-	* Page header metadata in proposed order of appearance:
-		* page title
-		* date posted / date updated (revision history ongoing)
-		* tags, based on some set of archival standards
-		* 1 sentence description (used for social media posts)
-		* abstract
-		* table of contents
-		* status: ongoing / rough draft / nothing yet / fever dream
-	* Page footer:
-		* link to the page's canonical social media posts (redirect commenting to social media to promote engagement)
-		* link to guestbook (anonymous, general feedback)
-* umt.world/films#{movie-title} --- Writing about films is a constant part of my writing practise. Implementation is still under development. I am also undecided about the form of writing about films: whether to try to write canonical "reviews," or a more impressionistic column, which seems to be more popular these days. Refer also to "Newsletter" and "Cross-posting" sections below.
-* umt.world/{venue}#{show} --- Reviews of art shows is another important part of my practise. Online organization of these are also under development. The question is how to synthesize a non-formulaic title with stable URLs. The current idea is to use the venue as the main one-word page, which would therefore allow space for extended writing on the institution; the page will be separated into sections for the individual show or item(s) in the permanent collection that I am writing about. Example: umt.world/mac#points-of-light for my review of the show *Points of Light* (2020) at the Musée d'art contemporain (MAC).
-* umt.world/books#{book-title} --- Book reviews will (most likely) be treated in a similar way to films. Refer also to "Newsletter" and "Cross-posting" sections below.
+Gwern's website represents a good balance of idiosyncratic URLs, and predictable categorization.
 
+Social media was not a concern for Cosma and other, older Web pioneers. Unfortunately, I have to prioritize short URLs.
 
-## Content of the website
+The archive is made up of textual units, all of whose location and content are in flux. However, the URL schema must be absolutely rigid. Preference for single words. Subsections of the page might be re-located, but URLs should be stable for long-term reference. I am quite bad at this, and still figuring things out. page structure and cross-referencing will get the reader where they need to go, in the event that information moves around.
+
+## Page Structure
+
+One of the classic things that hypertext theorists love to talk about is linking. In many case studies of hypertextual works, pages tend to be designed for a single viewport. In contrast to this, Gwern's website is structured around "long" pages. The idea here is to create sections that can be linked to. The problem here is that style tends to gravitate towards singular works. Sub-sectioning is a challenging proposition, but it's an important part of creating linkable units.
+
+## Metadata
+
+Like the URL, metadata is another aesthetic element of the website as an artwork. We want to think up metadata categories that can be used to genuinely reflect the stages in the production of a work. Of course, this demands an intimate knowledge of one's own process.
+
+# Content of the website
 
 My writing practise includes critical writing, research, and fiction. The last is conceived of as belonging to traditional publishing, and as of yet is only a part of the website project through what influence it may have on my style. The first depends on a constant, renewed encounter with primary works, which itself is a pragmatic reminder to avoid settling into a scholarly mindset. I am interested in the political--economic character expressed in culture. My research into the history of art is the case-work of my philosophical research into the relationship between art and society. I follow an intuition that there is an avenue through culture for the optimism of the revolutionary. 
 
 I am always interested in critical modernism, as well as the precursors to digital aesthetics that I have found in conceptual art and video work. I have a major interest in new media, and am working to develop an historical materialist understanding of digital culture, or the technologically-mediated, neurotically-reinforced visual paradigm. My literary interests are in writers who move between philosophy and fiction. Dostoyevsky, Bolano, and Thomas Mann represent the height of what I have seen in literature; their accomplishment depends critically on the depth of their philosophical feeling. Nietzsche and Kierkegaard were two formative writers who showed me that it was also possible to move in the opposite direction, using literary devices in service of the medium of thought. I am interested in writers whose style shifts between philosophy and narrative, a diaristic first-person and literary narration; writers like W.G. Sebald, Maggie Nelson, Ben Lerner, and Jean-Jacques Rousseau.
 
-* Research-based content
-	* umt.world/marxism --- Collecting everything I know about Marxism (sections: "value", "commodity fetishism", "metabolic rift", etc). Annotated bibliography.
-	* umt.world/masson --- All of my research into the Surrealist painter Andre Masson ("Relationship with Lacan", "Independent invention of automatism", "Nietzschean influence").
-	* umt.world/surrealism --- Everything I know about Surrealism ("Bresson vs. Bataille", "Automatism", "communism").
-* Critical content
-	* umt.world/films#{movie-title} --- Writing about films is a big part of my writing practise. Online organization is still under development. I am currently trying to reconcile having a canonical review that is edited; or a more diaristic format, where impressions are recorded on each viewing, preserved as the record of an impression, and multiplied on each additional viewing of the film. Refer also to "Newsletter" and "Cross-posting" sections below.
-	* umt.world/{venue}#{show} --- Reviews of art shows is another important part of my practise. Online organization of this practise is under development. The current idea is to use the venue as the main one word page, with some introductory / non-review writing on the architecture, curatorial direction, history, etc; the page will be separated into sections for the individual show or item(s) in the permanent collection that I am writing about. Example: umt.world/mac#points-of-light for my review of the show *Points of Light* (2020) at the Musée d'art contemporain (MAC).
-	* umt.world/books#{book-title} --- Book reviews will (most likely) be treated in a similar way to films. Refer also to "Newsletter" and "Cross-posting" sections below.
-
-## Outreach Plugins
+## Tentacular Plugins
 
 The project that I have described has a political valence that need not be overstated. It is true that technical literacy is poor, especially relative to how popular technology is. It is non-trivial that the proletariat is exploited in virtue of its subjectively-gratifying relationship to technology; however, one artist combining their writing practise with a contingent aesthetic attraction to computer systems is not politically important. My own feelings on the matter are that the entire digital social structure ought to be abolished. The pragmatism of controlling the centre of one's existence online is especially relevant, given the present instability of the platforms we might have once taken for granted. However, a website still needs to be connected to the web. An essential aspect of the project is pre-formatted syndication across social media platforms using a plugin system. Pieces of code can be added to the website that will allow for either scraping content from an external source (i.e. film reviews from Letterboxd), or posting content to social media automatically. The goal is to collect statistical data that will help me maximize an instrumental use of social media. This will not be enough to drive engagement absent my own meaningful participation in any online networks, but it's something to start with.
 
@@ -130,6 +115,8 @@ Walter Benjamin's reviews did not follow a standardized format; he didn't write 
 * Author-date citation format, but style the quotes so they're less disruptive to the text flow?
 
 ## Proposed Research Topics
+
+This is a big list of things I have studied in the past, and that remain an enduring interest.
 
 * Philosophy
 	* The Philosophy of Karl Marx
