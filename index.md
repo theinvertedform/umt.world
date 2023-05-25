@@ -58,7 +58,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <h1 id="film"><a href="/index#film">Film</a></h1>
 <ul class="section-link-list">
 {% for post in site.film reversed limit: 20 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.title }}</a> ({{ post.year }})
+<li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.name }}</a> ({{ post.year }})
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
