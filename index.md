@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the Marxist tradition and the philosophy of art; I am an historical researcher charting the social history of visual culture; and I am a critical writer of contemporary art and cinema. This website is a new media experiment, combining literary and [technical means](/about) to develop a *dialetical image* of the present.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the German tradition and the philosophy of art; I am a critic of contemporary art and cinema, and an historical researcher of modern visual culture. This website is an experiment in new media, combining literary and [technical means](/about) to develop an outsider's *dialetical image* of the present.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
@@ -42,18 +42,6 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 </ul>
 </section>
 
-<section id="podcast">
-{% assign episodes = site.podcast %}
-<h1><a href="/podcast">Podcast</a></h1>
-<ul class="section-link-list">
-{% for post in episodes reversed limit: 10 %}
-<li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
-</li>
-{% endfor %}
-</ul>
-</section>
-
 <section id="film">
 <h1 id="film"><a href="/index#film">Film</a></h1>
 <ul class="section-link-list">
@@ -81,6 +69,18 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 <ul class="section-link-list">
 {% for post in site.philosophy reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="podcast">
+{% assign episodes = site.podcast %}
+<h1><a href="/podcast">Podcast</a></h1>
+<ul class="section-link-list">
+{% for post in episodes reversed limit: 10 %}
+<li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
