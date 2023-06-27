@@ -8,7 +8,8 @@ rewatch:
 review:
 tags:
 watched_Date:
-layout: post
+layout: film
+poster: /assets/images/the-lady-vanishes.jpg
 ---
 
 *This review was originally written in 2009 for a blog I kept called Total Cinema.*
