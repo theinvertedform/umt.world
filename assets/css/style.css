@@ -286,6 +286,10 @@ img {
     max-width: 100%;
 }
 
+figure {
+	text-align: center;
+	}
+
 h1 {
 	margin: 0.75em 0;
 	text-align: center;
