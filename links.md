@@ -1,88 +1,132 @@
 ---
 title: About the Author
-description: Links and information describing me.
-abstract: "I am a communist writer, researcher, and critic of contemporary culture. My historical research is provoked by an analysis of emergent tendencies in contemporary culture, focusing on the visual, and always done in service of a better analysis of our shared present. Growing up alongside the digital, my interest in the Contemporary as a discrete social and cultural paradigm centres on questions including: the history and theory of new media forms; digital life and its technologically-mediated precedents; and the politics of aesthetics. My motivation to grasp the world began, as it does for all of us, upon learning that it is unjust. I have since developed my commitment to an alliance with the wretched of the earth and to the abolition of capital. I claim this as the fundamental a priori of all my striving for clarity of thought and for literary expression, hence why political questions are only occasionally explicit in my writing. My philosophical research tends to gravitate towards the German tradition on both sides of Marx (Kant/Hegel, Adorno/Benjamin/Lukacs); but the questions I have learned to ask of history and of politics are reflected in my ongoing encounter with the avant-garde, as well as the thick middle of mass media. My work represents an ongoing trace of the chaotic, yet motionless vortex of the Contemporary."
+description: "My entire life story: everywhere I ever worked, every school I went to; a tour of my 'studio' and working methods; psychological profile, politics, and philosophical worldview tests; summary of my tastes."
+abstract: "I am a communist writer, philosopher, and critic of contemporary culture. My area of historical interest is modern visual culture and media theory; I am working on the historical evolution of our present digital paradigm. Some of my questions include: how does media change, and what is its history? what is the relation between media and technology? how does digital life stand in relation to precedents in modern culture? what is the relation between the modes of production, and the aesthetic and social lives of a given period? My other area of interest is the field of Marxism, German Idealism, the Frankfurt School, and communist theory."
 layout: post
 toc: true
 tags:
-  - meta
-  - personal
+  - biography
+  - contact
 ---
 
+How do you get to know a man? Through his choice of self-presentation? What constitutes an introduction? In the abstract of this page, I include my practitioner's statement. It is intended to describe how I see myself---what I want to be as an artist and a scholar. Some of the sections on this page deal with my tastes in certain domains; some of them attempt to quantify my personality and worldview; still others describe my tools and workflows. However, the most important parts, in my view, are the biographical overview and the photos that I will endeavour to add.
 
-This page is all about me. It contains links to my social media around the internet; profiles and typological data (forthcoming); methodology; known biases; likes and dislikes; as well as information on the material elements of my practise and my research.
+# Biographical summary
 
-# Personal
+## 1990--2004
 
-## Work
+I was born on November 17, 1990 and given the name Uriah Marc Todoroff. Marc is for my mother's brother, who died in Saskatchewan when he was only 13 years old. He's buried there next to his parents, Norman and Georgette Raymond. That's where my mother grew up with her three sisters and three brothers---until one of them died, of course. Dad grew up around Gravenhurst, Ontario. Now it's cottage country, where those of his six sisters who still live are retired. They're all over six feet tall, like a family of giants. His dad came from Bulgaria and died before I came on the scene. I met his mother once, maybe around 3 or 4. A memory of nothing but her blind hands on my face. Old Isabella, who came over from Scotland. Dad died April 5, 2005. My mother gave my sister and three brothers French names. She let him give me my first name, and he rewarded us both by selecting one of the rarest names out there.
 
-I spent my 20s working in restaurants. It's a living, just another trade (even when you're working in fancy restaurants).
+I grew up in Toronto. It says East York on my birth certificate, but that place-name has since been amalgamated into the GTA. We moved a few times throughout my childhood, each time further east, eventually settling in Scarborough. I used to steal cigarettes from my dad, smoke cigarette butts, shoplift candy, skip school a lot, start fires, run around in parking garages, throw rocks at cars off of overpasses, run around with gangs of kids getting into fights with other gangs of kids, breaking every window in the school, terrorizing small business owners, throwing eggs at buses, playing Nicky Nicky Nine Doors, stealing the bulbs from Christmas lights and smashing them.
 
-## Links
+## 2005--2009
 
-These are the social media that I am active on, ranked in terms of use. I can be reached through direct message on any of these platforms; if you prefer, you can also [email me](mailto:um.todoroff@gmail.com).
+I wasn't in school, I wasn't really doing anything when dad started dying. This is the first major dark period in my life. I was highly emotional---used to write poetry madly, then hurl the book against the wall and burst into tears. I took the option of moving to Montréal. I lived with my aunt and started attending an "alternative" high school that she had found. I started off quite poorly socialized, but eventually fell in with another gang in the tiny school. Typical teenage boy behaviour of drinking, smoking, listening to music, shoplifting, climbing things, saying stupid things, vandalizing things, falling in love, not having sex, yearning to be a great writer and not practicing enough. I kept it up for a few years---moved between a few high schools in Montréal before going back to Toronto to try the classic big high school experience. I guess I made it about a year before I finally dropped out to work at a 24-hour burger joint. T-Bones, on Eglinton. This would be in 2007, at the age of 16.
 
-I have had many usernames over the years. My current one is theinvertedform, a phrase that emerged to me out of my first reading of [*Capital*](/marx). Somewhere in the section on commodity fetishism, the words "inverted form" appear in some close proximity. It wasn't until years later, when reading [*The Phenomenology of Spirit*](/hegel), that I came across the related phrase "the inverted world." Marx's phrase "the inverted form" is a reference to that concept taken from Hegel. I may use "The Inverted World" as a title for something, someday (podcast?).
+The next major stage of development occurs around 2008--09, when I was around 18--19 years old. I moved to Stanstead, QC, in the Eastern Townships. Right on the border of Vermont. I worked for Sunset Pictures and Bashar Shbib, a major influence in my life that I can't talk about right now.
 
-I like "theinvertedform," especially as it's typeset. It's a bit emo, a bit 2000s-era punk; "the inverted world" even more so.
+After that it's living on Greene with Jesse, Luke and Cal. 
 
-The URL for this website is simply my initials (Uriah Marc Todoroff). I don't quite recall if I chose the .world TLD as a reference to the concept from Hegel, but the timeline definitely matches up. For branding purposes, I have attempted to simplify and streamline: umt.world/umtworld is my cross-platform identifier; theinvertedform is my username.
+Then, onto welfare and living alone by Parc Lafontaine. The second major darkness. I was only there for about 8 months, even though it felt like forever.
 
-1. [Twitter](https://twitter.com/theinvertedform)
-2. [Letterboxd](https://letterboxd.com/theinvertedform)
-2. [Github](https://github.com/theinvertedform)
-3. [Reddit](https://reddit.com/r/umtworld)
-4. [Substack](https://umtworld.substack.com)
-4. [Patreon](https://patreon.com/umtworld)
-4. [Goodreads](https://www.goodreads.com/user/show/122256622)
+## 2010--2014
 
+After that, returning to Toronto and starting to pull myself together. The years of Marc's Flyer. Living alone, supporting myself through the constant hustle. Introduction to Outlier. Maggie.
 
-## Material Cultures
+The travelling years.
 
-### Technical setup
+Return to Montréal. Starting at Lawrence. Noelle.
 
-* Thinkpad X1 Carbon (5th gen). This is my main computer. I have a desktop that I use as a media server and as a backup. The laptop is starting to show its age. I yearn for a fully-modded Thinkpad X220.
+## 2015--2019
+
+Centre Saint-Louis. Eden. Noelle, concluded. Summer spent in Halifax micro-dosing on LSD. Starting at Concordia.
+
+## 2020--2022
+
+## 2023--*present*
+
+# Professional Experience
+
+A chronological list of every job I have held, with dates given when known. This does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
+
+* Flyer delivery for friends of my parents (circa 1995--1999)
+* Helping my dad out on job sites (circa 1995--2003)
+* Shovelling neighbours' walks (circa 1997--2003)
+* Working for other bricklayers, including Edmund Yee, Shane Oake, Clint Turnbull (circa 2001--2021)
+* T-Bones on Eglinton (2007--2008)
+* The Bowl on Yonge near Wellesley (2007--2008)
+* Oxford Cafe on Ste-Catherines
+* M-Burger
+* Bofinger's, downtown Montréal
+* Folding boxes for a startup
+* Delivering flyers in Thorn Hill for a real estate agent
+* Melanie's Bistro
+* Lawrence / Larrys (2014--2020)
+* Cafe Guerrero (2021)
+* Cafe Lucy on Bernard
+* Bar Bara (June--July 2022)
+* McKiernan's (June--September 2022)
+* Reservoir (June 2023--*present*)
+
+* SOPHIA Concordia
+* Sorting tax documents for the Church of Scientology
+* The Sophia Review
+* Fantasia
+
+# Education
+
+* [Secord Elementary](https://torontolife.com/city/toronto-is-failing-me-my-kids-school-is-a-disgrace/) (Toronto, circa 1993--1998, 1999)
+* General Crerar Primary (Toronto, circa 2001)
+* [MIND High School](https://en.wikipedia.org/wiki/MIND_High_School) (Montréal, circa 2004--2005; 2007)
+* Options II (Montréal, circa 2006--2007)
+* David & Mary Thompson Collegiate Institute (Toronto, circa 2007--2008)
+* Concordia University (Montréal, 2016--2019; 2021-2023)
+
+# The Artist's Studio
+
+## My computer
+
+* ThinkPad X1 Carbon (5th gen). This is my main computer. I have a desktop that I use as a media server and as a backup. The laptop is starting to show its age. I yearn for a fully-modded Thinkpad X220.
 * Gentoo Linux since roughly Summer 2020. Arch Linux for years before then. A brief spell of using Windows on a laptop, preceded by not having one. I first started experimenting with Linux around the age of 16, using Slackware and Ubuntu for a number of years.
 * Vim. Against my best intentions, this editor has become a significant part of my identity and a crucial part of how I understand new media from a research--creation perspective.
 * I have a generic 60% mechanical keyboard with Cherry MX Brown switches. I like it and I like the tactility, but I hope to one day upgrade to either a vintage IBM Model M, or its continuation, the Mini-M.
 * I run a [fork](https://github.com/theinvertedform/dwm) of the [dwm](https://dwm.suckless.org) window manager, alongside a [fork](https://github.com/theinvertedform/st) of the [simple/suckless terminal](https://st.suckless.org)
 
-### Note-taking
+## Note-taking and study methods
 
 Studying is particular, and I am by no means claiming to be an expert. I like the system I have developed: it's quite simple, and makes sense to me. I try to remove as many arbitrary obstacles as possible. Basically, that means keeping lecture notes on loose-leaf, three-ring punch paper---the most common type of paper, in my experience. Notes use a simple indentation system, where I write the main point or concept, and track an argument through levels of indentation.
 
 Recently, in my final semester, I learned about the concept of Zettelkasten, or the systematic use of index cards as a technique for organizing notes. I learned about it from my research into Walter Benjamin's practises. More information on this is forthcoming when I gain more experience on the matter.
 
-## Education
+## The process of writing
 
-* Laura Secord Elementary (Toronto, circa 1993--1998, 1999)
-* General Crerar Primary (Toronto, circa 2001)
-* MIND High School (Montréal, circa 2004--2005; 2007)
-* Options II (Montréal, circa 2006--2007)
-* David & Mary Thompson Collegiate Institute (Toronto, circa 2007--2008)
-* Concordia University (Montréal, 2016--2019; 2021-2023)
+Gass called it "a life in the chair," the parallel being to the electric chair. A life spent at the fatal terminus of punishment.
 
-## Profile
+# Profile
 
-I default to introverted, but am secretly gregarious. I am emotionally unstable, highly sensitive---but implacable.
+I default to introverted, but am secretly gregarious. I am emotionally unstable, highly sensitive---and yet, annoyingly implacable.
 
-### Appearance
+## Lifestyle
+
+![Osaka trying to stretch.](/assets/images/osakastretch.gif)
+
+## Appearance
 
 How can you know me, without knowing what I look like? Here is a description of my style, how I comport myself; I will also collect photographs to construct a chronological visual narrative.
 
 ![The author circa 2011.](assets/images/pixxx\ 005.jpg)
 
-### Astrological chart
+## Astrological chart
 
 ![Natal chart.](assets/images/chart.gif)
 
 Scorpio, rising Sagittarius. Full chart and reading forthcoming. Mars dominates my chart, but I have always preferred Pluto as a personal icon. I like astrology as a symbolic language, and a future project will be to analyze statistical correlations in certain readings. I like the materialism of astrological metaphysics...of course, I should admit as well that it has always been a useful tool for processing emotions. I have not studied astrophysics, I know barely anything about the history of astrology, and I am not even familiar with the signs, except for in a superficial way. Although my knowledge is superficial, my interest is genuine.
 
-### Personality
+## Personality
 
 Data forthcoming. I took the MBTI once when I was 18, and remember that I was an INTJ. We'll see how I compare these days.
 
-### Morals
+## Morals and philosophy
 
 Some keywords for you:
 
@@ -92,6 +136,32 @@ Some keywords for you:
 3. Ethics: virtue ethics
 4. Politics: Maoist
 
+## Tastes
+
+### Music
+
+### Films
+
+### Books
+
+### Art
+
+
 # Contact
 
-I love feedback, and you are welcome to get in touch. You can try sending me a direct message on any of the social media profiles linked above; otherwise, you are welcome to contact me directly by [email](mailto:um.todoroff@gmail.com).
+!["I am a part of all living things!"](/assets/images/robo.png)
+
+Here are links to my social media accounts, ranked in terms of activity. I can be reached through direct message on any of these platforms, and I encourage you to give me a follow. If you prefer, you can [email me](mailto:um.todoroff@gmail.com) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform). I read everything and it brings me great joy to hear from people. I respond when I can---I think we are all familiar with the obstacle of maintaining our inboxes.
+
+My current username is theinvertedform, a phrase that emerged to me out of my first reading of [*Capital*](/marx). Somewhere in the section on commodity fetishism, the words "inverted form" appear in close proximity. It wasn't until years later, when reading [*The Phenomenology of Spirit*](/hegel), that I came across the related phrase "the inverted world." I like "theinvertedform," especially as it's typeset. It's a bit emo; "the inverted world" perhaps even more so. Needless to say, I am claiming both of these as my titles, the latter for an as-yet unrealized project.
+
+The URL for this website is simply my initials (Uriah Marc Todoroff). I chose the .world TLD as a reference to the concept from Hegel, and because I conceived of this website as being an entry-point into my world.
+
+1. [Twitter](https://twitter.com/theinvertedform)
+2. [Letterboxd](https://letterboxd.com/theinvertedform)
+3. [Last.fm](https://www.last.fm/user/aeymxq)
+3. [Reddit](https://reddit.com/r/umtworld)
+4. [Goodreads](https://www.goodreads.com/user/show/122256622)
+2. [Github](https://github.com/theinvertedform)
+4. [Substack](https://umtworld.substack.com)
+4. [Patreon](https://patreon.com/umtworld)
