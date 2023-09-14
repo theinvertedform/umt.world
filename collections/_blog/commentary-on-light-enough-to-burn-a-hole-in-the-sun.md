@@ -1,4 +1,6 @@
 ---
+description: 
+published: no
 ---
 
 On 31 August 2023, *Apocalypse Confidential* published their third special of the year: [DUST---JOHN FORD AND THE SPACE AGE](). I submitted an essay written specifically in response to the theme proposal. *Light Enough to Burn a Hole in the Sun*, a title I came up with early in the writing process and thought was good enough to not worry about changing, was written over roughly two weeks towards the end of August. Possibly a week before that was spent gestating. I had only heard about the publication in the month or so prior. My memory is that I saw an old crush tweeting about them, but it's possible that is a fabulation and I found them through conventional means (i.e. I was presented with a stranger tweeting about them). The memory is hazy enough that it could go either way. However, from the outset, APCON stood apart in my mind as a venue worthy of my esteem through this initial association.
