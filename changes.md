@@ -7,7 +7,7 @@ toc: true
 status: ongoing
 ---
 
-{% assign postsByYear = site.documents | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.documents | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear reversed %}
 <section id="{{ year.name }}">
 <h1 id="{{ year.name }}"><a href="#{{ year.name }}">{{ year.name }}</a></h1>
