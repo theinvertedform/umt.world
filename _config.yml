@@ -18,6 +18,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-pandoc
+  - jekyll-redirect-from
 
     #feed:
     #  categories:
@@ -57,6 +58,9 @@ collections:
     output: true
     permalink: "/reviews/:title"
   books:
+    output: true
+    permalink: "/reviews/:title"
+  criticism:
     output: true
     permalink: "/reviews/:title"
 collections_dir: "collections/"

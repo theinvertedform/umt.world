@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-toc"
+  gem 'jekyll-redirect-from'
   #gem "jekyll-scholar"
   gem "jekyll-pandoc"
   #gem "pandoc-ruby"

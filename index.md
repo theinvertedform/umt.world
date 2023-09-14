@@ -64,6 +64,17 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philos
 </ul>
 </section>
 
+<section id="literary-criticism">
+<h1 id="literary-criticism"><a href="/index#literary-criticism">Literary Criticism</a></h1>
+<ul class="section-link-list">
+{% for post in site.criticism reversed limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
 <section id="philosophy">
 <h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
 <ul class="section-link-list">
