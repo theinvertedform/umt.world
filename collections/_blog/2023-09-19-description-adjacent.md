@@ -1,6 +1,6 @@
 ---
 title: "On the Occasion of Checking my Inbox, or, Why Phones Aren't Allowed at Work"
-description: "Prompt: Description, adjacent"
+description: "Writing Prompt: Description, adjacent"
 tags:
   - "ASEM 2023"
 ---
