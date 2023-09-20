@@ -38,7 +38,7 @@ markdown: Pandoc
 pandoc:
   format: html5
   extensions:
-    - csl: "assets/csl/chicago-author-date.csl"
+    - csl: "assets/csl/chicago-fullnote-bibliography.csl"
     - bibliography: "assets/bibliography.bib"
     - citeproc
 
