@@ -149,7 +149,7 @@ Some keywords for you:
 
 # Contact
 
-!["I am a part of all living things!"](/assets/images/robo.png)
+!["I am a part of all living things!"](/assets/images/robo.jpg)
 
 Here are links to my social media accounts, ranked in terms of activity. I can be reached through direct message on any of these platforms, and I encourage you to give me a follow. If you prefer, you can [email me](mailto:um.todoroff@gmail.com) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform). I read everything and it brings me great joy to hear from people. I respond when I can---I think we are all familiar with the obstacle of maintaining our inboxes.
 
