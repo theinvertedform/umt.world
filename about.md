@@ -15,11 +15,11 @@ Technical literacy declines as digital life grows ever more powerful. Social lif
 
 Life has always been mediated by technology. History, the record of civilization back to the first cave paintings in 35,000 BCE, is the unfolding of the process of the species' relationship to technology. How do we evaluate our present relationship to technology, with respect to the past? Has technology always been leading to cyborg transhumanism? No matter what, we should not convict the fallacy that Hume identified so well:
 
-> Correlation does not equal causation. [@hume]
+> Correlation does not equal causation. [@hume1995]
 
 The fact that technology has always been present; that "recorded history" as such is coterminous with technology---this does not necessarily mean that technology *should* be there. Dragging alongside humanity like a parasite. The fact that technology has always existed in some form, everywhere, is a strong argument for its necessary relation to society. However, this tells us nothing about the forms of technology we live with today. The Digital Age has such a brief lifespan so far that it is easy enough to see it as the work of the bourgeoisie, whose interests are contrary to the working class. But
 
-![Cave paintings are the origin of graphic design. They represent a "technology" in the sense that they are accomplished by means of a tool to join two separate things. Tablets are especially important in the history of art-as-technology, in my view, because they represent the invention of a new medium of art through the synthesis of two previously separate entities.]()
+![Cave paintings are the origin of graphic design. They represent a "technology" in the sense that they are accomplished by means of a tool to join two separate things. Tablets are especially important in the history of art-as-technology, in my view, because they represent the invention of a new medium of art through the synthesis of two previously separate entities. [@meggs2012, 11]](/assets/images/blau.png)
 
 What follows is a comprehensive program for a web-based self-publishing platform. For years now I have been engrossed in the attempt to use the tools and systems of software development in service of a literary project. It started with learning vim, "a highly configurable text editor built to make creating and changing any kind of text very efficient." The editor is a hand-tool that opened me up to a whole new technological ecosystem that is gradually coming together as more than an accidental element of my writing. I would not claim more than the minimum, being technically literate due to the practise of systems administration; and from of using vim alongside things like Git (a version control system); LaTeX/Pandoc markdown (a typesetting programming language and interpreter); and Jekyll (a static website generator), an entire practise that is not discussed in the humanities. My personally-configured computer system is the writing implement of a new media-based literary practise. I am a cyber-skeptic at heart, but one who is strongly drawn to technical computer work. My use of computers is *aesthetic*.
 
@@ -173,4 +173,4 @@ This is a big list of things I have studied in the past, and that remain an endu
 	* Existentialism and Men
 	* Corresponding Toxicities in Nietzsche and Kierkegaard
 
-# Bibliography
+# Works Cited
