@@ -1,8 +1,6 @@
 ---
 title: Commentary on *Light Enough to Burn a Hole in the Sun*
-description: 
-status: published
-published: no
+description: Sources and inspiration.
 ---
 
 On 31 August 2023, *Apocalypse Confidential* published their third special of the year: [DUST---JOHN FORD & THE ATOMIC FRONTIER](https://apocalypse-confidential.com/2023/08/31/a-special-presentation-dust-john-ford-the-atomic-frontier/). Included in the "non-fiction" section was an essay I wrote in response to the prompt. *Light Enough to Burn a Hole in the Sun*, a title I came up with early in the writing process and thought was good enough to not worry about changing, was written over roughly two weeks towards the end of August 2023. I spent around a week gestating in advance. I had only heard about the publication in the month or so prior. My memory is that I saw an old crush tweeting about them, but it's possible that memory is a fabulation and I found them through conventional means (i.e. the platform's timeline presented me with a stranger tweeting about them).
@@ -25,13 +23,13 @@ One major element of the "literary" philosophical essay style, in my mind, is re
 
 4. The next important ingredient is the photo of the Trinity test. This is also one of the few things that I started off knowing that I wanted to write about. Is the essay more a review of *Oppenheimer*, or more an analysis of this photo? You may notice that the colophon for this website is the "dark protozoic organism" that represents an "absence of medium." This photo has been my banner image for years. I lifted it from an art history course I took in Winter 2018, led by Tal-Or Ben-Choreen. As I recall, she used it in the context of discussing what constitutes art: is this photo, taken for mechanical/scientific purposes, an artwork? She and I both stole it from [*The New Yorker*](https://www.newyorker.com/tech/annals-of-technology/the-first-light-of-the-trinity-atomic-test), which remains the only source for the image online (as far as I can tell). I have not now and did not then read the article, only scrolled to steal the photo (in the pdf I submitted to APCON, I included a caption with citation details).
 
-![Photograph of Trinity, the first recorded test of a nuclear detonation. Taken in New Mexico at 5:29am on July 16, 1945.](/assets/images/trinity.jpg)
+	![Photograph of Trinity, the first recorded test of a nuclear detonation. Taken in New Mexico at 5:29am on July 16, 1945.](/assets/images/trinity.jpg)
 
 5. Past the halfway point, I added in yet another metaphor: the core of the earth is a "hollow world," where cro-magnon man stalks pre-historic creatures. This is another fantasy image that I feel is so generic I don't have a specific reference for it. My intuition from the outset is that ultimately comes from something by Edgar Rice Burroughs. Like the Lovecraft, another inheritance from my father. In doing research for this post, I discovered that ERB wrote a series about [Pellucidar](https://en.wikipedia.org/wiki/Pellucidar), which Tarzan visits in [*Tarzan at the Earth's Core*](http://edgar-rice-burroughs-ebooks.blogspot.com/).
 
-![Cover of *Tarzan at the Earth's Core*, published by blah in XXXX](/assets/images/tarzan-at-the-earths-core.jpg)
+	![Cover of *Tarzan at the Earth's Core*.](/assets/images/tarzan-at-the-earths-core.jpg)
 
-As a teenager, I used to write stories set at in the Hollow World about a pirate ornithopter, as big as a frigate, crewed by an assortment of intelligent animals. The main character was Hrothgrar, an "albino spirit bear," whose name is an osmotic corruption of the Danish king Hrothgar. My best guess on how that word entered my consciousness is through [*Bulfinch's Mythology*](https://en.wikipedia.org/wiki/Bulfinch%27s_Mythology). A combination of Redwall and Elric of Melniboné. The idea was that, spirit bears being all white, the albino version would be all black; and, spirit bears being the most rare type of bear, their culture would be highly refined: the wizards of bears. But my Hrothgrar, being an albino (the inverted form), would be huge and inarticulate, showing the influence of The Incredible Hulk, yet another childhood favourite.
+	As a teenager, I used to write stories set at in the Hollow World about a pirate ornithopter, as big as a frigate, crewed by an assortment of intelligent animals. The main character was Hrothgrar, an "albino spirit bear," whose name is an osmotic corruption of the Danish king Hrothgar. My best guess on how that word entered my consciousness is through [*Bulfinch's Mythology*](https://en.wikipedia.org/wiki/Bulfinch%27s_Mythology). A combination of Redwall and Elric of Melniboné. The idea was that, spirit bears being all white, the albino version would be all black; and, spirit bears being the most rare type of bear, their culture would be highly refined: the wizards of bears. But my Hrothgrar, being an albino (the inverted form), would be huge and inarticulate, showing the influence of The Incredible Hulk, yet another childhood favourite.
 
 6. "The layers of the earth weigh on Spirit's head like a nightmare" is a spin on Marx's famous line from a pamphlet published in 1852.
 
@@ -39,32 +37,44 @@ As a teenager, I used to write stories set at in the Hollow World about a pirate
 
 7. The reference to "conquering reason" is an explicit reference to Glissant, who is himself referencing Deleuze \& Guattari.
 
->Summarizing what we know concerning the varieties of identity, we arrive at the following:
->
->*Root identity*
->
->- is founded in the distant past in a vision, a myth of the creation of the world;
->- is sanctified by the hidden violence of a filiation that strictly follows from this founding episode;
->- is ratified by a claim to legitimacy that allows a community to proclaim its entitlement to the possession of a land, which thus becomes a territory;
->- is preserved by being projected onto other territories, making their conquest legitimate---and through the project of a discursive knowledge.
->
->Root identity therefore rooted the thought of self and of territory and set in motion the thought of the other and of voyage.
->
->*Relation identity*
->
->- is linked not to a creation of the world but to the conscious and contradictory experience of contacts among cultures;
->- is produced in the chaotic network of Relation and not in the hidden violence of filiation;
->- does not devise any legitimacy as its guarantee of entitlement, but circulates, newly extended;
->- does not think of a land as a territory from which to project toward other territories but as a place where one gives-on-and-with rather than grasps
->
->Relation identity exults the thought of errantry and of totality. --- [@glissant1997, 143--144]
+   > Summarizing what we know concerning the varieties of identity, we arrive at the following:
+   >
+   > *Root identity*
+   >
+   > 1. is founded in the distant past in a vision, a myth of the creation of the world;
+   > 1. is sanctified by the hidden violence of a filiation that strictly follows from this founding episode;
+   > 1. is ratified by a claim to legitimacy that allows a community to proclaim its entitlement to the possession of a land, which thus becomes a territory;
+   > 1. is preserved by being projected onto other territories, making their conquest legitimate---and through the project of a discursive knowledge.
+   >
+   >Root identity therefore rooted the thought of self and of territory and set in motion the thought of the other and of voyage.
+   >
+   > *Relation identity*
+   > 
+   > 2. is linked not to a creation of the world but to the conscious and contradictory experience of contacts among cultures;
+   > 2. is produced in the chaotic network of Relation and not in the hidden violence of filiation;
+   > 2. does not devise any legitimacy as its guarantee of entitlement, but circulates, newly extended;
+   > 2. does not think of a land as a territory from which to project toward other territories but as a place where one gives-on-and-with rather than grasps
+   > 
+   > Relation identity exults the thought of errantry and of totality. --- [@glissant1997, 143--144]
 
 9. In the sections where I discuss cinema more explicitly, I reference the "transcendental perspective of the camera." This concept is taken from Christian Metz, who writes that the most basic pleasure of cinema comes not through identification with characters or narrative---but from identification with the perspective of the camera itself.
 
-10. Around this same section, I refer to Denis Villeneuve and Christopher Nolan as the two fathers of the "house Netflix style." I can't provide a citation from this, but I do not claim this to be original. I mean it 100%.
+	> In other words, the spectator *identifies with himself*, with himself as a pure act of perception (as wakefulness, alertness): as the condition of possibility of the perceived and hence as a kind of transcendental subject, which comes before every *there is*. --- [@metz_is, 49]
 
-8. The idea of climbing up the sides of the ziggurat to become one with the sun is an image I have been playing with for a while. It's in another piece of writing that I am currently working on. It is a vague reference to Aztec cultures, more so than to the Old Kingdoms of Egypt. It's almost certainly an image taken from some racist text, but hopefully its origin in antiquity is enough to cancel out any cancellable offense. I will not be surrendering the ziggurat, no matter how much the woke mob might clamour of my blood.
+10. Around this same section, I refer to Denis Villeneuve and Christopher Nolan as the two fathers of the "house Netflix style." I didn't come up with this: I think it was my professor Luca Caminati. I think it is 100% true.
+
+8. The idea of climbing up the sides of the ziggurat to become one with the sun is an image that keeps returning to me. It's in another piece of writing that I am currently working on. It references Aztec cultures more so than to the Old Kingdoms of Egypt. It's almost certainly an image taken from some racist text, but hopefully its origin in antiquity is neutral enough to cancel out any cancellable offense. I will not be surrendering the ziggurat, no matter how much the woke mob might clamour of my blood.
+
+	![One of the stairways on the [Ziggurat of Ur](https://www.penn.museum/sites/journal/1235/), circa 2100 BCE.](/assets/images/zig03.jpg)
+
+12. The idea that modern art is characterized by an "absolutely subjective, arbitrary [aesthetic] vocabulary" is an idea I took from the book *The Crisis of Ugliness*, a book by the Soviet art critic Mikhail Lifshitz.
+
+	> Cubism is characterized by its incursions into the field of the theory of knowledge.
+	> 
+	> It sees the greatest danger in the visual perception of the real world. If the world is bad, it is vision that is to blame for reproducing it to us again and again. In its assumption that visual perception gives us images of the real world, the old painting attempted to convey these images with the greatest possible fidelity and fullness. The modernist schools reach for exactly the opposite result: all their discoveries are a 'sum of destructions' aimed against the perception of the ordinary person. **Things-in-themselves do not exist or are unknowable to us; truth consists in the artist's subjective experience.** Properly speaking, this false axiom was already found by the predecessors of the Cubists, who now only had to make the next step: from the simple negation of 'naïve realism' to the total rejection of vision as the basis of painting. --- [@lifshitz2019, 84]
+
+	The "predecessors" of cubism here are all the various styles of modern art that had already flourished throughout Europe by the turn of the 20th century. Although this essay is a study of cubism, the book is generally concerned with the "crisis of ugliness," i.e. the loss of mimesis and the turn towards conceptual art in modern culture generally. What I find to be so special about this book, aside from Lifshitz's extremely erudite analysis and excoriating remarks on art critics and theorists, is its outsider perspective. The book comes not only from another time, but from a world that no longer exists (the USSR).
 
 11. "A new religion of art." At the end of the *Phenomenology*, Hegel describes how the stage beyond the current can only theoretically be realized in the form of religion, the path to absolute knowing. Religion in the sense we know it, as in worship of the divine; or a religion of art. Both seem to be valid.
 
-12. The idea that modern art is characterized by an "absolutely subjective, arbitrary [aesthetic] vocabulary" is an idea I took from the book *The Crisis of Ugliness*, a book by the Soviet art critic Mikhail Lifshitz.
+	> In the condition of right or law, then, the ethical world and the religion of that world are submerged and lost in the comic consciousness, and the Unhappy Consciousness is the knowledge of this *total* loss. It has lost both the worth it attached to its immediate personality and the worth attached to its personality as mediated, as *thought*. Trust in the eternal laws of the gods has vanished, and the Oracles, which pronounced on particular questions, are dumb. The statues are now only stones from which the living soul has flown, just as the hymns are words from which belief has gone. The tables of the gods provide no spiritual food and drink, and in his games and festivals man no longer recovers the joyful consciousness of his unity with the divine. The works of the Muse now lack the power of the Spirit, for the  Spirit has gained its certainty of itself from the crushing of gods and men. They have become what they are for us now---beautiful fruit already picked from the tree, which a friendly Fate has offered us, as a girl might set the fruit before us. It cannot give us the actual life in which they existed, not the tree that bore them, not the earth and the elements which constituted their substance, not the climate which gave them their peculiar character, nor the cycle of the changing seasons that governed the process of their growth. So Fate does not restore their world to us along with the works of antique Art, it gives not the spring and summer of the ethical life in which they blossomed and ripened, but only the veiled recollection of that actual world. Our active enjoyment of them is therefore not an act of divine worship through which our consciousness might come to its perfect truth and fulfilment; it is an external activity---the wiping-off of some drops of rain or specks of dust from these fruits, so to speak---one which erects an intricate scaffolding of the dead elements of their outward existence---the language, the historical circumstances, etc. in place of the inner elements of the ethical life which environed, created, and inspired them. And all this we do, not in order to enter into their very life but only to possess an idea of them in our imagination. But, just as the girl who offers us the plucked fruits is more than the Nature which directly provides them---the Nature diversified into their conditions and elements, the tree, air, light, and so on---because she sums all this up in a higher mode, in the gleam of her self-conscious eye and in the gesture with which she offers them, so, too, the Spirit of the Fate that presents us with those works of art is more than the ethical life and the actual world of that nation, for it is the *inwardizing* in us of the Spirit which in them was still [only] *outwardly* manifested; it is the Spirit of the tragic Fate which gathers all those individual gods and attributes of the [divine] substance into one pantheon, into the Spirit that is itself conscious of itself as Spirit. --- [@hegel1977, 455--456 / M753]

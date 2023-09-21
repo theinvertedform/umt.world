@@ -122,6 +122,20 @@ section > :first-child > a {
 footer {
 	text-align: center;
 	margin: 3em 0;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	}
+
+.end-ornament {
+	max-width: 250px;
+	min-width: 75px;
+	grid-row: 1/2;
+	padding-bottom: 1.25em;
+	}
+
+.footer a {
+	grid-row: 2/3;
 	}
 
 /* post layout */
@@ -194,7 +208,8 @@ header.post-header {
 }
 
 .blog-post {
-	padding-bottom: 1.5em;
+	padding: 1.5em 0;
+	border-bottom: 5px double black;
 }
 
 .blog-post-header {
@@ -248,10 +263,9 @@ div.blog-post-header p {
 	font-weight: 700;
 	}
 
-
 /* misc elements*/
 blockquote {
-	margin: 0 0 1.5em 0;
+	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
@@ -271,7 +285,12 @@ figcaption {
 
 li {
 	counter-increment: count;
+	padding: 0 0 0.65em 0;
 }
+
+#TOC li {
+	padding: 0;
+	}
 
 ol {
 	counter-reset: count;
@@ -331,6 +350,20 @@ h3 {
 	overflow: hidden;
 	font-style: normal;
 }
+
+div#refs::before {
+	content: "Works Cited";
+	font-variant: small-caps;
+	font-size: 2em;
+	line-height: 1.65;
+	font-weight: 700;
+	letter-spacing: -0.75px;
+	}
+
+div.csl-entry {
+	padding-top: 0.75em;
+	text-indent: 1.75em;
+	}
 
 @media all and (min-width: 650px) {
 	body {
@@ -413,5 +446,24 @@ h3 {
 
 	footer {
 		margin: 3em 0 3em 100px;
+	}
+}
+
+@media all and (min-width: 1770px ) {
+	.markdownBody {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 2em;
+		grid-row-gap: 0.5em;
+	}
+
+	article {
+		margin-left: 155px;
+		padding-top: 15px;
+		width: 1250px;
+	}
+
+	article.post {
+		max-width: 75ch;
 	}
 }
