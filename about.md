@@ -173,4 +173,3 @@ This is a big list of things I have studied in the past, and that remain an endu
 	* Existentialism and Men
 	* Corresponding Toxicities in Nietzsche and Kierkegaard
 
-# Works Cited
