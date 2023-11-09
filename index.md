@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a philosopher interested in the German tradition and the philosophy of art; I am a critic of contemporary art and cinema, and an historical researcher of modern visual culture. This website is an experiment in new media, combining literary and [technical means](/about) to develop an outsider's *dialetical image* of the present.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in politics and art. I publish critical writing on contemporary culture; historical research on our modern origins; and literary non-fiction about what matters most to life. This website is a frequently-updated experiment in new media design, combining literary and [technical means](/about) to develop an outsider's *dialetical image of the present*.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 

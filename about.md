@@ -1,7 +1,7 @@
 ---
 title: About This Website
 description: An artistic manifesto. Theorization, technical implementation, and road-mapping. 
-abstract: "This website is a hypertext experiment. It has a literary dimension; an aspect of visual design; and a structural--technical implementation, all of which are essential. It is important to begin with a discussion of technology and its role in human society. Other concepts that are important to the theoretical basis of this website include: theories of the avant-garde, outsider art, digital culture, the social function of art criticism, and the sociology of the artworld. New media and hypermedia are discussed, before the technical details of the website and the idealized form of the knowledge management architecture are described in detail."
+abstract: "As a hypertext experiment, this website combines literature, visual design, and technical implementation. My interest in hypermedia (and digital culture generally) is the extension of a longtime affinity for computer systems and digital life. This has not blinded me to the problem of technology and its relationship to society. Another set of concepts that inform my political--theoretical interest in hypermedia are theories of the avant-garde, outsider culture, and institutional critique. My goal with this website is to use design, technical implementation, and literary form to create a work of socially-committed art criticism from the outsider position of digital life, rather than institutional life. This page discusses new media and hypermedia; the technical details of the website's implementation and design; and an aspirational form of knowledge management architecture."
 layout: meta
 toc: true
 tags:
@@ -11,7 +11,7 @@ tags:
 status: incomplete
 ---
 
-Technical literacy declines as digital life grows ever more powerful. Social life is increasingly enacted in virtual worlds; interfaces have come to replace social codes and good ol' fashioned bureaucracies. The screens and sensors of networked computer devices are everywhere. Technological mediation is fundamental to the lives of people born into the digital age---it's a basic element in the lives of virtually everyone living---and it is no coincidence that there is a powerful incentive for those who profit from technology to restrict mass understanding of the devices they take for granted. Digital culture and all its social potential has been confined to a set of terms strictly delineated by the ruling class. Tech conglomerates and hardware manufacturers have more power than states, but without the encumbrance of needing to represent an historical identity. Digital life doesn't exist without personal computers and platform monopolies---without generating profit for the ruling class, even as they viciously exploit the commons for their singular benefit.
+Technical literacy declines as the digital grows ever more powerful. Sociality is increasingly facilitated by virtuality; the interface has replaced social codes and the bureaucracies of yesteryear. Screens and sensors are everywhere. Technological mediation is an *a priori* for those born into the digital age---for those who choose to not struggle against the chloroform of *ataraxia*. It is no coincidence that there is a powerful incentive for those who profit from technology to restrict mass understanding of the devices that have become another organ of their body. Digital culture and all its social potential has been confined to a set of terms strictly delineated by the ruling class. Tech conglomerates and hardware manufacturers have more power than states, but without the encumbrance of needing to represent an historical identity. Digital life doesn't exist without personal computers and platform monopolies---without generating profit for the ruling class, even as they viciously exploit the commons for their singular benefit.
 
 Life has always been mediated by technology. History, the record of civilization back to the first cave paintings in 35,000 BCE, is the unfolding of the process of the species' relationship to technology. How do we evaluate our present relationship to technology, with respect to the past? Has technology always been leading to cyborg transhumanism? No matter what, we should not convict the fallacy that Hume identified so well:
 
@@ -71,7 +71,7 @@ One of the classic things that hypertext theorists love to talk about is linking
 
 Like the URL, metadata is another aesthetic element of the website as an artwork. We want to think up metadata categories that can be used to genuinely reflect the stages in the production of a work. Of course, this demands an intimate knowledge of one's own process.
 
-# This Website is my Corpus
+# This Website is my Corpse
 
 # To do
 
