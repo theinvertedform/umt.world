@@ -1,8 +1,8 @@
 ---
 title: Blog
 layout: post
-description: "My diary falls open on the table for you to read: a practise of writing and an ongoing picture of my emotional state."
-abstract: My blogging habits go back to a few initial posts on MySpace circa 2004--2005. These then evolved into alt.conform, a project hosted on Blogspot for many of my early teenage years. These writings are in addition to a constant practise of writing in notebooks and journals, some of which I occasionally transcribe and post here. My film review blog "Total Cinema" is archived over with my [reviews](/reviews). My approach with maintaing this blog page now is to use it to focus on maintaining my writing habit; and it also records an unbearably honest emotional record.
+description: "Selections from my diary and other sundry one-offs."
+abstract: My blogging habits go back to a few initial posts on MySpace circa 2004--2005. These then evolved into [alt.conform](https://altdotconform.blogspot.com), a teenage project hosted on Blogspot. In addition to these writings is a constant practise of writing in notebooks and journals, some of which I occasionally transcribe and post here. My [film diary](https://letterboxd.com/user/theinvertedform/films/diary) has a certain diaristic element to it. Diary writing is an interesting form that I continue to explore.
 tags:
   - personal
   - writing
@@ -30,7 +30,7 @@ status: ongoing
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y." }}">
-		<time itemprop="datePublished">{{ post.date | date: date_format }}</time>
+		<time itemprop="datePublished">{{ post.date | date: '%A' }}</time>
 	</a>
 </h3>
 <span class="blog-post-title">{{ post.title }}</span>
