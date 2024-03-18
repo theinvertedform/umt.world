@@ -1,5 +1,6 @@
 ---
 title: Whinge Report
+date: 2023-01-28
 ---
 
 Leave it all behind and start again. Save for a few years, practise on the side; when it comes time, retreat again even further. That's what it takes to write a book. I should be on my third or fourth book by the time I'm in my mid-thirties. Each one closer to publishing. Keep it up during work-time because I have nothing else. Encountering no-one but---myself. It sounds like a nightmarish torture; she said she was doing me a favour, and that I would be glad to be alone after she left me.

@@ -3,6 +3,7 @@ title: "On the Occasion of Checking my Inbox, or, Why Phones Aren't Allowed at W
 description: "Writing Prompt: Description, adjacent"
 tags:
   - "ASEM 2023"
+date: 2023-09-19
 ---
 
 Sometimes I am so drawn into the pleasure of my sensing-body that I lapse into idyll, and therefore need to be reminded of my facticity. The scorching ray of an all-seeing eye falls on me, and I am brought crashing back down into my paper-body. Who I have been---and by some vague extension, not lacking in a Protestant ethic, who I am privileged to be now.

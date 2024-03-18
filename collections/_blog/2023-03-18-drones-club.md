@@ -1,6 +1,7 @@
 ---
 title: Return to Drones Club
 description: A Montréal after-hours that was once the centre of my universe.
+date: 2023-03-18
 ---
 
 Went to a rave at The Silver Door (Torn Curtain / Drones Club / Cyberia) last Saturday. First time I've been there in a long time. The event was called: [Bubble Bath](https://www.instagram.com/bubblebathmtl/) x [Service de Garde](https://www.instagram.com/servicedegarde/). The DJs listed are: [Ma Sha (NYC)](https://soundcloud.com/masha-ny) and [Martyn Bootyspoon](https://soundcloud.com/mbootyspoon). I have definitely seen him somewhere or other.

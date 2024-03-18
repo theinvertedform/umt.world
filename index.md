@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in art and history. I publish critical writing on modern culture and its origins, and stories about how it feels to live in the contemporary. This website is an evolving experiment in new media design. It combines literary and [technical means](/about) to develop an outsider's *dialetical image of the present*.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in art, history, and the present. I publish critical writing on modern culture and its origins, and stories about how it feels to live in the contemporary Now. [This website](/about#evolution) is an evolving experiment in new media design. It combines literary and [technical means](/about) to develop a *dialetical image* of the present from the outside.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
@@ -43,7 +43,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 </section>
 
 <section id="film">
-<h1 id="film"><a href="/index#film">Film</a></h1>
+<h1 id="film"><a href="https://letterboxd.com/theinvertedform/films/diary">Film Diary</a></h1>
 <ul class="section-link-list">
 {% for post in site.film reversed limit: 20 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.name }}</a> ({{ post.year }})
@@ -68,6 +68,17 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 <h1 id="literary-criticism"><a href="/index#literary-criticism">Literary Criticism</a></h1>
 <ul class="section-link-list">
 {% for post in site.criticism reversed limit: 10 %}
+<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
+{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="marxism">
+<h1 id="marxism"><a href="/index#marxism">Marxism</a></h1>
+<ul class="section-link-list">
+{% for post in site.marxism reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>

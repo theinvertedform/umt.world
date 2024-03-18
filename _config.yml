@@ -5,11 +5,12 @@ author:
   email: um.todoroff@gmail.com
 description: This is the personal website of Uriah Marc Todoroff.
 baseurl: ""
-url: "https://umt.world" # http://example.com
+url: "https://umt.world"
 twitter_username: theinvertedform
 github_username:  theinvertedform
 permalink: /:title
 logo: /assets/images/logo.png
+iis_slider_array: []
 
 # Build settings
 plugins:
@@ -51,6 +52,9 @@ collections:
   philosophy:
     output: true
     permalink: "/:title"
+  marxism:
+    output: true
+    permalink: "/:title"
   art:
     output: true
     permalink: "/reviews/:title"
@@ -80,16 +84,6 @@ defaults:
         #type: "documents"
     values:
       layout: "post"
-  - scope:
-      path: ""
-    values:
-      type: "reviews"
-      #category: "film_review"
-  - scope:
-      path: "collections/_reviews/books/"
-      type: "review"
-    values:
-      category: "book_review"
 
 # Google analytics
 google_analytics: G-5NHX2XP9H3
@@ -108,3 +102,5 @@ exclude:
   - README.md
   - TODO.md
   - collections/_films/reviews.csv
+  - bower.json
+  - bower_components/
