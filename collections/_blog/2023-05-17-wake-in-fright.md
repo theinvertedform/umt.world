@@ -1,6 +1,7 @@
 ---
 title: Wake in Fright
 description: The curse my father handed down to me.
+date: 2023-05-17
 ---
 
 Last night, I woke up in the dark and perceived something hovering over and to the left of me. My body was frozen, but the thing's presence was so horrible and filled me with such terror that I could do nothing but---scream. It wouldn't come, I couldn't move, but the shadow crept closer and closer; and in response to the looming malevolence, my breathing became heavier and heavier. With great effort, I wrenched my gasps into something like a scream, but even in my ears then sounding more like a harsh groan: *no, no, no!* was the best resistance I could wrench forth after great effort. This mewling cry was enough to allow my consciousness to regain control of my body, and I began to shake violently. The dark presence was still there, hovering to the left of me when I rolled over onto my right side, turning my back on the unknown power in hopes that it would disappear of its own accord. I lay there shaking, and feeling the phantom presence of the woman who used to lie next to me; who used to shake me gently, her shining face casting radiance into the dark vortex of the unknown thing waiting for me.

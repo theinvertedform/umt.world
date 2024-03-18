@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+		<title>{{ page.title | markdownify | strip_html }} - umt.world</title>
+
 		<!-- Twitter cards -->
 		<meta name="twitter:site"    content="@{{ site.twitter_username }}">
 		<meta name="twitter:creator" content="{{ site.author.name }}">
@@ -21,15 +23,33 @@
 		<meta name="twitter:card"  content="summary">
 		<meta name="twitter:image" content="https://umt.world/assets/images/twitter-card.png">
 		{% endif %}
-		<!-- end of Twitter cards -->
-
-		<script src="/assets/js/sidenotes.js" async></script>
-
-		<title>{{ page.title | markdownify | strip_html }} - umt.world</title>
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 		<link rel="shortcut icon" type="image/svg" href="favicon.svg">
+
+{% if page.image_sliders or layout.image_sliders or page.image_sliders_load_all -%}
+		<!-- Slider CSS -->
+		<link rel="stylesheet" href="{{ "/assets/css/slider/ideal-image-slider.css" | relative_url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/slider/themes/default.css" | relative_url }}">
+{% endif %}
+
+{% if page.iis_slider_active %}
+		<!-- Slider -->
+		<script src="{{ "/assets/js/slider/ideal-image-slider.min.js" }}"></script>
+		<script src="{{ "/assets/js/slider/extensions/iis-bullet-nav.js" }}"></script>
+		<script src="{{ "/assets/js/slider/extensions/iis-captions.js" }}"></script>
+		<!-- Sliders on pages -->
+		{% for script in page.iis_slider_scripts %}
+			{{ script }}
+		{% endfor %}
+  <!-- Sliders on indexes -->
+  {% for post in paginator.posts %}
+    {% for script in post.iis_slider_scripts %}
+      {{ script }}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
 
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
@@ -45,8 +65,8 @@
         <nav id="sidebar">
 			<a id="logo" href="/index"><img src="/assets/images/logo.png" title="umt.world logo, taken from a photo of a test of the atom bomb near Trinity, NM."/></a>
 			<div id="sidebar-links">
-            	<a href="/about">About</a>
-            	<a href="/links">Links</a>
+            	<a href="/about">Website</a>
+            	<a href="/links">Author</a>
             	<a href="/changes">Changes</a>
             	<a href="/news">News</a>
 				{% if page.title != 'Index' %}
@@ -64,6 +84,7 @@
 
 		</main>
 
+		<!-- {% include slider_scripts.html %} --!>
 
     </body>
 </html>

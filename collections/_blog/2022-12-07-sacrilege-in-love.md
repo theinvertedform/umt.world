@@ -5,6 +5,7 @@ tags:
   - personal
   - women
   - emo
+date: 2022-12-07
 ---
 
 Hopping the chain link fence late one night at Parc Jarry, skinny dipping in the pool. Sitting on the beach next to Lac Wapizagonk at night, buzzing on mushrooms, sipping a fancy beer, trying to describe the clouds rolling in. Road trip through the eastern provinces. Parking on a lawn next to a lake out in Newfoundland, the sky open and striated pink and blue as the sun set. Screwing so hard in the back of the car I thought it would roll off, then watching *Casablanca* and eating Ryvita and cheese. "Dance with your left hand." The moon phase of the relationship. Etc etc.

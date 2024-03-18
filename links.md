@@ -1,12 +1,14 @@
 ---
 title: About the Author
-description: "My entire life story: everywhere I ever worked, every school I went to; a tour of my 'studio' and working methods; psychological profile, politics, and philosophical worldview tests; summary of my tastes."
+description: "My entire life story: everywhere I ever worked, every school I went to; every friend, lover, and enemy; a tour of my studio and working methods; psychological profiles, political profiles, and philosophical worldview tests; data representing my tastes and media consumption."
 abstract: "I am a communist writer, philosopher, and critic of contemporary culture. My area of historical interest is the modern leading into the contemporary; my object of study is visual culture. My research is focused on creating an historical overview of the interplay between mass media and the avant-garde, relying on philosophies of technology, media theory, and historical materialism. Some of my questions include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to precedents in modern culture? What is the relation between the modes of production, and the aesthetic and social lives of a given period? My theoretical research is in the fields of Marxism, German Idealism, Frankfurt School critical theory, and communist theory."
 layout: post
 toc: true
 tags:
   - biography
   - contact
+image_sliders:
+  - example_slider
 ---
 
 Things I like: the Thinkpad X220, whistling into a payphone to get free calls, vim, flip-phones; the technologism of *Vampyr* and *Nosferatu*; John Carpenter's atmospheric filmmaking; *Garten der Unbewusstheit*; *sprezzatura*, gentlemen hoboes, vintage militaria, Sly's workout fits in the first *Rocky*; black A6 notebooks, every line filled with writing, a red fountain pen, binders filled with pages of notes collected over years, binders filled with negatives, bundles of letters; obsolete visions of an alternative future; forgotten books, looking at adjacent titles in the library stacks; systems for organizing information; tried-and-true techniques, things that haven't changed, the *via negativa*; Kierkegaard more than Nietzsche, Hegel more than Kant, Marx more than anyone; creation stories; modernism in the early 20th century, "Kafkaesque" used to describe a warm and cozy bar; lovesickness, heartbreak, the pain that comes with being alive; natural wines, pasta carbonara, kombucha, yogurt, chocolate, a coffee with some milk; Courbet, Manet, Degas, Breton, Masson; Duchamp, Warhol, Beeple; Judd, Lewitt; Freud, Bacon, Bourgeois, Eamon; Burtynsky; The Replacements; squats, overhead press, pushing the weight sled; toxic shades of purple and green;
@@ -55,6 +57,8 @@ End of the good years; yet another period of darkness. I suspect this one will l
 
 A chronological list of every job I have held, with dates given when known. This does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
 
+## Jobs Held
+
 * Flyer delivery for friends of my parents (circa 1995--1999)
 * Helping my dad out on job sites (circa 1995--2003)
 * Shovelling neighbours' walks (circa 1997--2003)
@@ -73,6 +77,10 @@ A chronological list of every job I have held, with dates given when known. This
 * Bar Bara (June--July 2022)
 * McKiernan's (June--September 2022)
 * Reservoir (June 2023--October 2023)
+* Darna Bistroquet (November 2023--*present*)
+* [Atelier--Galerie A. Piroir](https://piroir.com) (January 2024--*present)
+
+## Volunteer Experience
 
 * SOPHIA Concordia
 * Sorting tax documents for the Church of Scientology
@@ -116,11 +124,16 @@ I default to introverted, but am secretly gregarious. I am emotionally unstable,
 
 ![Osaka trying to stretch.](/assets/images/osakastretch.gif)
 
-## Appearance
+## Photographic portraits
 
 How can you know me, without knowing what I look like? Here is a description of my style, how I comport myself; I will also collect photographs to construct a chronological visual narrative.
 
-![The author circa 2011.](assets/images/pixxx\ 005.jpg)
+{% include slider.html selector="example_slider" %}
+
+{% slider %}
+![The author circa 2011.](assets/images/me/pixxx\ 005.jpg)
+![The author circa 2011.](assets/images/me/mesmiling_jed.jpg)
+{% endslider %}
 
 ## Astrological chart
 

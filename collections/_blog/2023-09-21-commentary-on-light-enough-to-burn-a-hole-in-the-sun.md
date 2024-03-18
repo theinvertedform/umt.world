@@ -1,6 +1,7 @@
 ---
 title: Commentary on *Light Enough to Burn a Hole in the Sun*
 description: Sources and inspiration.
+date: 2023-09-21
 ---
 
 On 31 August 2023, *Apocalypse Confidential* published their third special of the year: [DUST---JOHN FORD & THE ATOMIC FRONTIER](https://apocalypse-confidential.com/2023/08/31/a-special-presentation-dust-john-ford-the-atomic-frontier/). Included in the "non-fiction" section was an essay I wrote in response to the prompt. *Light Enough to Burn a Hole in the Sun*, a title I came up with early in the writing process and thought was good enough to not worry about changing, was written over roughly two weeks towards the end of August 2023. I spent around a week gestating in advance. I had only heard about the publication in the month or so prior. My memory is that I saw an old crush tweeting about them, but it's possible that memory is a fabulation and I found them through conventional means (i.e. the platform's timeline presented me with a stranger tweeting about them).

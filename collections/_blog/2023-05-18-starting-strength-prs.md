@@ -1,6 +1,7 @@
 ---
 title: Minimalist to Maximalist Training
 description: Personal bests achieved through terrible training methods.
+date: 2023-05-18
 ---
 
 The first weightlifting program I followed was the [Reg Parks Beginner Routine](https://oldschooltrainer.com/reg-parks-beginner-routine/), which I began circa 2015 and ran for an unknown length of time. My logging was terrible back then: I'm pretty sure I was training by memory alone. The only documentation I have is the following screenshot of my Symmetrical Strength profile.

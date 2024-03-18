@@ -1,8 +1,8 @@
 ---
 title: Blog
 layout: post
-description: "Selections from my diary and other sundry one-offs."
-abstract: My blogging habits go back to a few initial posts on MySpace circa 2004--2005. These then evolved into [alt.conform](https://altdotconform.blogspot.com), a teenage project hosted on Blogspot. In addition to these writings is a constant practise of writing in notebooks and journals, some of which I occasionally transcribe and post here. My [film diary](https://letterboxd.com/user/theinvertedform/films/diary) has a certain diaristic element to it. Diary writing is an interesting form that I continue to explore.
+description: "Selections from my diary and assorted writing experiments."
+abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences baring my soul on the Internet without considering the consequences, and feeling the shock of being read. To this day, I am still caught off guard when held to account for what I write about my inner life. Why do I describe my feelings and emotional life with such precision and detail, especially when I am so reserved in person? What does the diary as a literary genre do? The MySpace blog evolved into [alt.conform](https://altdotconform.blogspot.com), a blog I kept throughout my teenagehood. These days, I concentrate my diaristic impulses into writing in an actual diary, which I periodically transcribe, bowdlerize, and publish here.
 tags:
   - personal
   - writing
@@ -33,7 +33,7 @@ status: ongoing
 		<time itemprop="datePublished">{{ post.date | date: '%A' }}</time>
 	</a>
 </h3>
-<span class="blog-post-title">{{ post.title }}</span>
+{% if post.title %}<span class="blog-post-title">{{ post.title }}</span>{% endif %}
 {% if post.description %}<span class="blog-post-description">{{ post.description }}</span>{% endif %}
 
 </div>
