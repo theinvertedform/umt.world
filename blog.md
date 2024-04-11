@@ -30,7 +30,7 @@ status: ongoing
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y." }}">
-		<time itemprop="datePublished">{{ post.date | date: '%d' }}, {{ post.title }}</time>
+		<time itemprop="datePublished">{{ post.date | date: '%d' }}</time>
 	</a>
 </h3>
 {% if post.title %}<span class="blog-post-title">{{ post.title }}</span>{% endif %}
