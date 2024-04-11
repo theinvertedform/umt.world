@@ -2,7 +2,7 @@
 title: Blog
 layout: post
 description: "Selections from my diary and assorted writing experiments."
-abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences baring my soul on the Internet without considering the consequences, and feeling the shock of being read. To this day, I am still caught off guard when held to account for what I write about my inner life. Why do I describe my feelings and emotional life with such precision and detail, especially when I am so reserved in person? What does the diary as a literary genre do? The MySpace blog evolved into [alt.conform](https://altdotconform.blogspot.com), a blog I kept throughout my teenagehood. These days, I concentrate my diaristic impulses into writing in an actual diary, which I periodically transcribe, bowdlerize, and publish here.
+abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences baring my soul on the Internet without considering the consequences of being read. I am still caught off guard when held to account for what I write about my inner life. Why do I describe my emotional life with such precision and detail, when I am so reserved in person? Is the diary a literary genre like autofiction, or a kind of autobiographical journalism? The MySpace blog evolved into [alt.conform](https://altdotconform.blogspot.com), a diary I kept throughout my teenagehood. These days, I concentrate my diaristic impulses into writing in an actual diary, which I will periodically transcribe, bowdlerize, and publish here.
 tags:
   - personal
   - writing
@@ -30,7 +30,7 @@ status: ongoing
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y." }}">
-		<time itemprop="datePublished">{{ post.date | date: '%A' }}</time>
+		<time itemprop="datePublished">{{ post.date | date: '%d' }}, {{ post.title }}</time>
 	</a>
 </h3>
 {% if post.title %}<span class="blog-post-title">{{ post.title }}</span>{% endif %}
