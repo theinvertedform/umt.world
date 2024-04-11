@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in art, history, and the present. I publish critical writing on modern culture and its origins, and stories about how it feels to live in the contemporary Now. [This website](/about#evolution) is an evolving experiment in new media design. It combines literary and [technical means](/about) to develop a *dialetical image* of the present from the outside.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in visual culture, history, and the Contemporary. I publish critical writing on [films](/index#film) and [art](/index#art), and occasional confessions from my [diary](/blog). [This website](/about#evolution) is an evolving experiment in *new media design*. It combines literary and [technical means](/about) to develop a *dialetical image* of the present, taken from the outside.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
@@ -54,7 +54,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 </section>
 
 <section id="art">
-<h1 id="art"><a href="/index#art">Art</a></h1>
+<h1 id="art"><a href="/index#art">Art Criticism</a></h1>
 <ul class="section-link-list">
 {% for post in site.art reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
