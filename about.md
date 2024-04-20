@@ -1,14 +1,14 @@
 ---
 title: About This Website
 description: An artistic manifesto. Theorization, technical implementation, and road-mapping. 
-abstract: "As a hypertext experiment, this website combines literature, visual design, and technical implementation. My interest in hypermedia (and digital culture generally) is the extension of a longtime affinity for computer systems and digital life. This has not blinded me to the problem of technology and its relationship to society. Another set of concepts that inform my political--theoretical interest in hypermedia are theories of the avant-garde, outsider culture, and institutional critique. My goal with this website is to use design, technical implementation, and literary form to create a work of socially-committed art criticism from the outsider position of digital life, rather than institutional life. This page discusses new media and hypermedia; the technical details of the website's implementation and design; and an aspirational form of knowledge management architecture."
+abstract: "As a hypermedia experiment, this website combines literary forms and visual design together with a technical implementation. My interest in hypermedia (and digital culture generally) is the extension of a longtime affinity for computer systems. I have always been cautious about the problems of digital life and its relationship to both the individual, and to society at large. Another set of concepts that inform my political--theoretical interest in hypermedia are theories of the avant-garde, outsider culture, and institutional critique. My goal with this website is to use design, programmatic architecture, and literary forms to create a work of socially-committed art criticism from the outsider position of the digital. This is in opposition to institutional valorization: *we must commit to the Outside*. This page discusses new media and hypermedia; the technical details of the website's implementation and design; and an aspirational form of knowledge management architecture."
 layout: meta
 toc: true
 tags:
   - outsider art
   - new media
   - hypermedia
-status: incomplete
+status: extremely rough
 ---
 
 Technical literacy is on the decline, even as the digital grows more powerful. Sociality is increasingly facilitated by virtuality; the interface has replaced social codes and the bureaucracies of yesteryear. Screens and sensors are everywhere. Technological mediation is an *a priori* for those born in the digital age---for those who choose to not struggle against the chloroform of *ataraxia*. It is no coincidence that there is a powerful incentive for those who profit from technology to restrict mass understanding of devices that have become another organ of their body. Digital culture and all its social potential has been confined to a set of terms strictly delineated by the ruling class. Tech conglomerates and hardware manufacturers have more power than states, but without the encumbrance of needing to represent an historical identity. Digital life doesn't exist without personal computers and platform monopolies---without generating profit for the ruling class, even as they viciously exploit the commons for their singular benefit.
