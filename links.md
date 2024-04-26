@@ -7,8 +7,6 @@ toc: true
 tags:
   - biography
   - contact
-image_sliders:
-  - example_slider
 ---
 
 Things I like: the Thinkpad X220, whistling into a payphone to get free calls, vim, flip-phones; the technologism of *Vampyr* and *Nosferatu*; John Carpenter's atmospheric filmmaking; *Garten der Unbewusstheit*; *sprezzatura*, gentlemen hoboes, vintage militaria, Sly's workout fits in the first *Rocky*; black A6 notebooks, every line filled with writing, a red fountain pen, binders filled with pages of notes collected over years, binders filled with negatives, bundles of letters; obsolete visions of an alternative future; forgotten books, looking at adjacent titles in the library stacks; systems for organizing information; tried-and-true techniques, things that haven't changed, the *via negativa*; Kierkegaard more than Nietzsche, Hegel more than Kant, Marx more than anyone; creation stories; modernism in the early 20th century, "Kafkaesque" used to describe a warm and cozy bar; lovesickness, heartbreak, the pain that comes with being alive; natural wines, pasta carbonara, kombucha, yogurt, chocolate, a coffee with some milk; Courbet, Manet, Degas, Breton, Masson; Duchamp, Warhol, Beeple; Judd, Lewitt; Freud, Bacon, Bourgeois, Eamon; Burtynsky; The Replacements; squats, overhead press, pushing the weight sled; toxic shades of purple and green;
@@ -27,6 +25,8 @@ I grew up in Toronto. It says East York on my birth certificate, but that place-
 
 I wasn't in school, I wasn't really doing anything when dad started dying. This is the first major dark period in my life. I was highly emotional---used to write poetry like mad, then throw the book against the wall and burst into tears. I took the option of moving to Montréal. Anything was better than nothing. I lived with my aunt Lorraine and started attending an "alternative" high school that she had found. I started off quite poorly socialized, but eventually fell in with another gang in the tiny school. Typical teenage behaviour of drinking, smoking, listening to music, shoplifting, doing whatever drugs I could get my hands on, climbing things, saying stupid things, vandalizing things, falling in love, not having sex, yearning to be a writer but not practicing enough. I kept it up for a few years---moved between a few high schools in Montréal before going back to Toronto to try the classic big high school experience. I made it less than a year before I finally dropped out to work at a 24-hour burger joint. T-Bones, on Eglinton. Everything around there has changed, but T-Bones is somehow still there. This would be in 2007, at the age of 16.
 
+![The author circa 2010.](assets/images/me/pixxx\ 005.jpg)
+
 The next major stage of development occurs around 2008--09, when I was around 18--19 years old. I moved to Stanstead, QC, in the Eastern Townships. Right on the border of Vermont. I worked for Sunset Pictures and Bashar Shbib, a major influence in my life that I can't talk about right now.
 
 After that it's living on Greene with Jesse, Luke and Cal. That's where I lost my virginity at the age of 19. Laurin Liu, who holds the record for youngest member of parliament.
@@ -35,7 +35,7 @@ Then, onto welfare and living alone by Parc Lafontaine. The second major darknes
 
 ## 2010--2014
 
-![Marc's Flyer logo](assets/images/marcsflyer.jpg)
+![Marc's Flyer business card, designed by Olive Hine.](assets/images/marcsflyer.jpg)
 
 After that, I returned to Toronto and started to pull myself together. Through happenstance, I found myself delivering flyers for a real estate agent. I really liked it and endeavoured to make a job out of it. I was successful for about a year or so, and lived in the only apartments I ever held in Toronto. They were both in Little Portugal, about a block from each other. Both rooms in boarding houses. The first was in the basement right off Dufferin and Alma. The place reeked of cat piss from the upstairs lady's million cats. A hoarder who had been living there alone had just died, or gone to jail; the apartment was overflowing with crap, but there was no-one. I lived there for a couple months until things got heated. Managed to find a room in a nicer rooming house just a few blocks away. I was able to take a shopping cart from the No Frills around the corner and move my things in one trip. My brother has a condo a stone's throw from there; my sister has lived on Lansdowne and Queen for over a decade.
 
@@ -45,29 +45,31 @@ Spent about six months in British Columbia. Four months living on the streets of
 
 That's when I moved into Hutchison. At that point it was Alex, Devin, Charise and myself. In December of 2014, I started working at Lawrence. Around the same time---before the New Year---I had met Noelle.
 
-## 2015--2019
+## 2015--2016
 
 We started dating in the Winter of 2015. She changed my life, of course. In the Summer, she went to Campbellton, New Brunswick for a journalism internship. I visited her once, just for a few days; then I visited her again for an entire month. That was both a very exciting time, and a very miserable time. Lots of fighting. I started taking French lessons at the Centre Saint-Louis in the summer of 2015. That was around the same time that Jera and Hannah moved in. My relationship with Noelle continued in a very unpleasant on-again, off-again manner into the winter. It was snowy when I met Eden at La plante.
+
+![The author circa 2015.](assets/images/me/mesmiling_jed.jpg)
 
 At some point in the first half of 2016, I applied to Concordia in the Philosophy program. I took another month off to go to Halifax and micro-dose LSD on the beach. I got the news that I had been accepted into Concordia while I was out there. Eden and I were still together at this point---I have a postcard from her congratulating me---but it would be over by the time I start at Concordia in September.
 
 ## 2016---2019
 
-This is Concordia phase one.
+Thus begins Concordia (phase one).
 
 ## 2020--2022
 
-The Rachelle Years. The good years.
+The Rachelle Years.
 
 ## 2023--*present*
 
-End of the good years; perhaps the longest period of darkness yet. It feels so much more fatal than it used to. I fear this one will last forever.
+End of the good years; perhaps the longest period of darkness yet. It feels sharper than it used to.
 
 # Professional Experience
 
-A chronological list of every job I have held, with dates given when known. This does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
+The following list of work experience does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
 
-## Jobs Held
+## Work Experience
 
 * Flyer delivery for friends of my parents (circa 1995--1999)
 * Helping my dad out on job sites (circa 1995--2003)
@@ -111,38 +113,16 @@ A chronological list of every job I have held, with dates given when known. This
 
 ## My computer
 
-* ThinkPad X1 Carbon (5th gen). This is my main computer. I have a desktop that I use as a media server and as a backup. The laptop is starting to show its age. I yearn for a fully-modded Thinkpad X220.
-* Gentoo Linux since roughly Summer 2020. Arch Linux for years before then. A brief spell of using Windows on a laptop, preceded by not having one. I first started experimenting with Linux around the age of 16, using Slackware and Ubuntu for a number of years.
-* Vim. Against my best intentions, this editor has become a significant part of my identity and a crucial part of how I understand new media from a research--creation perspective.
-* I have a generic 60% mechanical keyboard with Cherry MX Brown switches. I like it and I like the tactility, but I hope to one day upgrade to either a vintage IBM Model M, or its continuation, the Mini-M.
-* I run a [fork](https://github.com/theinvertedform/dwm) of the [dwm](https://dwm.suckless.org) window manager, alongside a [fork](https://github.com/theinvertedform/st) of the [simple/suckless terminal](https://st.suckless.org)
+Learning to use developer tools was an instrumental factor in developing my appreciation for hypermedia. Now I am able to edit the text of my website at the same time as its structure. This website is a work composed in different languages written alongside each other. The programming language is read by the audience as the visual design of the page; the other language is read in text and images. You may not like it, but this is what peak performance looks like.
 
-## Note-taking and study methods
-
-Studying is particular, and I am by no means claiming to be an expert. I like the system I have developed: it's quite simple, and makes sense to me. I try to remove as many arbitrary obstacles as possible. Basically, that means keeping lecture notes on loose-leaf, three-ring punch paper---the most common type of paper, in my experience. Notes use a simple indentation system, where I write the main point or concept, and track an argument through levels of indentation.
-
-Recently, in my final semester, I learned about the concept of Zettelkasten, or the systematic use of index cards as a technique for organizing notes. I learned about it from my research into Walter Benjamin's practises. More information on this is forthcoming when I gain more experience on the matter.
+My computer is a ThinkPad X1 Carbon (5th gen) that I've had since circa 2017. It's run Linux for most of its life. Arch, then Gentoo since Summer 2020.  I run a [fork](https://github.com/theinvertedform/dwm) of the [dwm](https://dwm.suckless.org) window manager, alongside a [fork](https://github.com/theinvertedform/st) of the [simple/suckless terminal](https://st.suckless.org)
 
 ## The process of writing
 
-Gass called it "a life in the chair," the parallel being to the electric chair. A life spent at the fatal terminus of punishment.
-
-# Profile
-
-## Lifestyle
+Gass called it "a life in the chair," making a parallel to the electric chair. A life spent under the gallows.
 
 ![Osaka trying to stretch.](/assets/images/osakastretch.gif)
 
-## Photographic portraits
-
-How can you know me, without knowing what I look like? Here is a description of my style, how I comport myself; I will also collect photographs to construct a chronological visual narrative.
-
-{% include slider.html selector="example_slider" %}
-
-{% slider %}
-![The author circa 2011.](assets/images/me/pixxx\ 005.jpg)
-![The author circa 2011.](assets/images/me/mesmiling_jed.jpg)
-{% endslider %}
 
 ## Astrological chart
 
