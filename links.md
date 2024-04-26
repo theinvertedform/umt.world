@@ -35,15 +35,23 @@ Then, onto welfare and living alone by Parc Lafontaine. The second major darknes
 
 ## 2010--2014
 
-After that, returning to Toronto and starting to pull myself together. The years of Marc's Flyer. Living alone, supporting myself through the constant hustle. Introduction to Outlier. Maggie.
+After that, I returned to Toronto and started to pull myself together. Through happenstance, I found myself delivering flyers for a real estate agent. I really liked it and endeavoured to make a job out of it. I was successful for about a year or so, and lived in the only apartments I ever held in Toronto. They were both in Little Portugal, about a block from each other. Both rooms in boarding houses. The first was in the basement right off Dufferin and Alma. The place reeked of cat piss from the upstairs lady's million cats. A hoarder who had been living there alone had just died, or gone to jail; the apartment was overflowing with crap, but there was no-one. I lived there for a couple months until things got heated. Managed to find a room in a nicer rooming house just a few blocks away. I was able to take a shopping cart from the No Frills around the corner and move my things in one trip. My brother has a condo a stone's throw from there; my sister has lived on Lansdowne and Queen for over a decade.
 
-The travelling years.
+I got a girlfriend from OkCupid. My first real girlfriend. Her name was Maggie. It was intense. I got restless after reading *Thus Spoke Zarathustra* and *On the Road* and became convinced that the "mountain-top" I needed to climb, after Zarathustra's injunction, involved a Kerouac style hobo sojourn. I worked extra hard for a bit, got my first ultralight kit together, and went to New Jersey. Maggie came with me and we had a little visit to New York City. I stayed at my father-in-law Daniel's place. Maggie and I broke up before I left heading to New Orleans. My first nights camping out, I was crying hopelessly. There were adventures out on the road. I visited Ecuador and Peru during this time, thanks to my friend Oliver.
 
-Return to Montréal. Starting at Lawrence. Noelle.
+Spent about six months in British Columbia. Four months living on the streets of Vancouver while working full-time as a pressure washer; and then in the kitchen at a summer camp near Squamish. There were some people I met, and days when things happened with such ease, that made me feel as though I had been transported into the 60s. It was all a function of living in the most yuppie of all the provinces. The same struggles carried with me, and after so long gone---in Toronto; then on the road---I decided that I needed to return home. I needed to return to the only friends I had ever had. I needed to return to Montréal.
+
+That's when I moved into Hutchison. At that point it was Alex, Devin, Charise and myself. In December of 2014, I started working at Lawrence. Around the same time---before the New Year---I had met Noelle.
 
 ## 2015--2019
 
-Centre Saint-Louis. Eden. Noelle, concluded. Summer spent in Halifax micro-dosing on LSD. Starting at Concordia.
+We started dating in the Winter of 2015. She changed my life, of course. In the Summer, she went to Campbellton, New Brunswick for a journalism internship. I visited her once, just for a few days; then I visited her again for an entire month. That was both a very exciting time, and a very miserable time. Lots of fighting. I started taking French lessons at the Centre Saint-Louis in the summer of 2015. That was around the same time that Jera and Hannah moved in. My relationship with Noelle continued in a very unpleasant on-again, off-again manner into the winter. It was snowy when I met Eden at La plante.
+
+At some point in the first half of 2016, I applied to Concordia in the Philosophy program. I took another month off to go to Halifax and micro-dose LSD on the beach. I got the news that I had been accepted into Concordia while I was out there. Eden and I were still together at this point---I have a postcard from her congratulating me---but it would be over by the time I start at Concordia in September.
+
+## 2016---2019
+
+This is Concordia phase one.
 
 ## 2020--2022
 
@@ -51,7 +59,7 @@ The Rachelle Years. The good years.
 
 ## 2023--*present*
 
-End of the good years; yet another period of darkness. I suspect this one will last forever.
+End of the good years; perhaps the longest period of darkness yet. It feels so much more fatal than it used to. I fear this one will last forever.
 
 # Professional Experience
 
@@ -86,6 +94,7 @@ A chronological list of every job I have held, with dates given when known. This
 * Sorting tax documents for the Church of Scientology
 * The Sophia Review
 * Fantasia
+* Festival du Nouveau Cinema
 
 # Education
 
@@ -117,8 +126,6 @@ Recently, in my final semester, I learned about the concept of Zettelkasten, or 
 Gass called it "a life in the chair," the parallel being to the electric chair. A life spent at the fatal terminus of punishment.
 
 # Profile
-
-I default to introverted, but am secretly gregarious. I am emotionally unstable, highly sensitive---and yet, annoyingly implacable.
 
 ## Lifestyle
 
@@ -154,17 +161,6 @@ Some keywords for you:
 3. Ontology: force
 3. Ethics: virtue ethics
 4. Politics: Maoist
-
-## Tastes
-
-### Music
-
-### Films
-
-### Books
-
-### Art
-
 
 # Contact
 
