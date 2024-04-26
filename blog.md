@@ -1,8 +1,8 @@
 ---
 title: Blog
 layout: post
-description: "Selections from my diary, confessions, fragments, gossip, notes, and writing experiments."
-abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences baring my soul on the Internet without considering the consequences of being read. I am still caught off guard when held to account for what I write about my inner life. Why do I describe my emotional life with such open detail, when I am so reserved in person? Is the diary a literary genre like autofiction, or a kind of autobiographical journalism? The MySpace blog evolved into [alt.conform](https://altdotconform.blogspot.com), a diary I kept throughout my teenagehood. These days, I concentrate my diaristic impulses into writing in an actual diary, which I will periodically transcribe, bowdlerize, and publish here.
+description: "Selections from my diary---highly confessional emotional processing, fragments, gossip, writing notes and experiments."
+abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences publishing my confessions on the basis of an instinct, without considering the consequences. Why do I publish such detail as you will find here, when I am generally reserved in person? Is the diary a literary genre like autofiction, something like autobiographical journalism? A large part of a diary's utility is therapeutic, and its contents can be said to reflect the mind that writes it. Here you will find the patterns of thought that my mind is inclined to---in all their negativity.
 tags:
   - personal
   - writing

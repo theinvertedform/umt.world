@@ -78,7 +78,7 @@ A chronological list of every job I have held, with dates given when known. This
 * McKiernan's (June--September 2022)
 * Reservoir (June 2023--October 2023)
 * Darna Bistroquet (November 2023--*present*)
-* [Atelier--Galerie A. Piroir](https://piroir.com) (January 2024--*present)
+* [Atelier--Galerie A. Piroir](https://piroir.com) (January 2024--*present*)
 
 ## Volunteer Experience
 
