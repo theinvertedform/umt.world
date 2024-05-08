@@ -209,7 +209,7 @@ header.post-header {
 
 .blog-post {
 	padding: 1.5em 0;
-	border-bottom: 5px double black;
+	border-bottom: 1px solid black;
 }
 
 .blog-post-header {

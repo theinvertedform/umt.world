@@ -20,6 +20,7 @@ plugins:
   - jekyll-toc
   - jekyll-pandoc
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 
     #feed:
     #  categories:
@@ -33,6 +34,9 @@ plugins:
 
 toc:
   ordered_list: false
+
+last-modified-at:
+  date-format: "%b %-d, %Y"
 
 markdown: Pandoc
 
