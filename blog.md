@@ -1,13 +1,11 @@
 ---
 title: Blog
 layout: post
-description: "Selections from my diary---highly confessional emotional processing, fragments, gossip, writing notes and experiments."
-abstract: In 2004--2005, I shocked and embarrassed classmates with the excessive candour of my MySpace blog posts. That was one of my earliest experiences publishing my confessions on the basis of an instinct, without considering the consequences. Why do I publish such detail as you will find here, when I am generally reserved in person? Is the diary a literary genre like autofiction, something like autobiographical journalism? A large part of a diary's utility is therapeutic, and its contents can be said to reflect the mind that writes it. Here you will find the patterns of thought that my mind is inclined to---in all their negativity.
-tags:
-  - personal
-  - writing
+description: "Selections from my diary---emotional processing, fragments of ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
+abstract: "In the ninth grade, I shocked and embarrassed classmates with the excessive candour of my blog posts on MySpace. I published my confessions following an instinct and without considering the consequences. I still publish my diary today as an experiment in narrative construction. This page takes influence from aphoristic writing, New Narrative, fragmentary writing, the diary, the autobiography, online writing, art criticism, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
 toc: true
 status: ongoing
+date: 2020-07-31
 ---
 
 > I toss these pages in the faces of timid, furtive, respectable people and say: ‘There! that’s me! You may like it or lump it, but it’s true. And I challenge you to follow suit, to flash the searchlight of your self-consciousness into every remotest corner of your life and invite everybody’s inspection. Be candid, be honest, break down the partitions of your cubicle, come out of your burrow, little worm.’ As we are all such worms we should at least be honest worms.

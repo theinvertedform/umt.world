@@ -18,7 +18,7 @@ layout: default
 		<div id="page-metadata-block">
       		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         		{%- assign date_format = "%b %-d, %Y" -%}
-				{{ page.date | date: date_format }} {% if page.modified %} &mdash; {{ page.modified | date: date_format }}{% endif %}</time> {% if page.status %} &bull; Status: <em>{{ page.status }}</em>{% endif %}
+				{{ page.date | date: date_format }} {% if page.last_modified_at %} &mdash; {{ page.last_modified_at | date: date_format }} &bull; {% endif %}</time> {% if page.status %}Status: <em>{{ page.status }}</em>{% endif %}
 		</div>
 	</div>
 

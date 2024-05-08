@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-toc"
   gem 'jekyll-redirect-from'
+  gem 'jekyll-last-modified-at'
   #gem "jekyll-scholar"
   gem "jekyll-pandoc"
   #gem "pandoc-ruby"
