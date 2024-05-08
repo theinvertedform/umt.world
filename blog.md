@@ -13,8 +13,6 @@ date: 2020-07-31
 > [W.N.P Barbellion](https://en.wikipedia.org/wiki/W._N._P._Barbellion),_ [*Journal of a Disappointed Man*](https://www.pseudopodium.org/barbellionblog/books.html)
 
 {% assign date_format = "%b %d %Y" %}
-{% assign date = blog.posts | sort: date | cut: 1 %}
-{%- assign last_modified_at = site.collection.blog | sort: reverse | cut: 1 -%}
 
 {% assign postsByYear = site.blog | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear reversed %}
