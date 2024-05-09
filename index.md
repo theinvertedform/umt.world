@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer and philosopher interested in visual culture, history, and the Contemporary. I publish critical writing on [films](/index#film) and [art](/index#art), and occasional confessions from my [diary](/blog). [This website](/about#evolution) is an evolving experiment in *new media design*. It combines literary and [technical means](/about) to develop a *dialetical image* of the present, taken from the outside.
+abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in the history of modern culture and contemporary digital life. I publish critical writing on [films](/index#film) and [art](/index#art), and occasional confessions from my [diary](/blog). [This website](/about) is an evolving experiment that combines *new media design* and *experimental writing*. Its goal is to combine outsider literature, philosophical and historical research, and the technical possibilities of hypermedia to develop a *dialetical image* of the present.
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
