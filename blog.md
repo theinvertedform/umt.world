@@ -2,7 +2,7 @@
 title: Blog
 layout: post
 description: "Selections from my diary---emotional processing, fragments of ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
-abstract: "In the ninth grade, I shocked and embarrassed classmates with the excessive candour of my blog posts on MySpace. I published my confessions following an instinct and without considering the consequences. I still publish my diary today as an experiment in narrative construction. This page takes influence from aphoristic writing, New Narrative, fragmentary writing, the diary, the autobiography, online writing, art criticism, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my blog posts on MySpace. I published the truth of how I felt without considering the consequences. What I have learned since then is that the words we write can't represent how we truly feel. The diary that I publish today is part of an ongoing experiment in autofictional narrativization---not a work until it's done, and until then a residue of my process---of art, of living. Nothing should be taken as true, but everything is based in reality. This page takes influence from aphoristic writing, New Narrative, collage, online writing, the diary, the autobiography, art criticism, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
 toc: true
 status: ongoing
 date: 2020-07-31
@@ -19,6 +19,13 @@ I toss these pages in the faces of timid, furtive, respectable people and say: â
 I IX (*1914*)---In complete helplessness wrote barely 2 pages. I have retreated considerably today, even though I had slept well. But I know that I must not yield, if I want to rise above the lowest woes of my writing, which is already held down by the rest of my way of life, into the greater freedom that might be waiting for me. The old dullness has not yet completely left me I realize and the coldness of my heart might never leave me. The fact that I recoil from no humiliation can just as well mean hopelessness as give hope.
 
 --- [@kafka2022, 356]
+
+</blockquote>
+
+<blockquote class="epigraph">
+You adulturate the truth as you write. There isn't any pretense that you try to arrive at the literal truth. And the only consolation when you confess to this flaw is that you are seeking to arrive at poetic truth, which can be reached only through fabrication, imagination, stylization. What I'm striving for is authenticity; none of it is real.
+
+--- [@shields2010, 62]
 
 </blockquote>
 
