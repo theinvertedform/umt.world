@@ -5,31 +5,27 @@ date: February 3, 2024--\today
 description: Daniella and Marc are two millennials trying to find love in a post-millennial, Contemporary world. She's economizing, and he's holding out for the big payday. How does it affect their friendship?
 ---
 
-# Introduction
+The Crystal Palace was designed by a rough-hewn engineer in hopsack and a newsboy, a rectangular cube of a man who elbowed his way to the front of the crowd and, with sweat standing out on his age-lined brow, drew up a blueprint using compass and square. Before the Palace would be relocated to where it would burn to the ground, Eiffel had already began his erection. The two buildings resemble each other, having been conceived by the hard labour of men who essentially resemble each other. Men who rose through the ranks of the technical college---unlike the architect, who spent his studies dreaming. He had been sat atop his pedestal, calmly awaiting inspiration, when the hard men pulled him down to where he now lies in the dust at the feet of the mob. The St. Lawrence Warehouse was constructed nearly a century later, made from brick and with no windows on the outside, so that it appears like a sealed-up tomb compared to the Palace's interior echoing with luminosity. The Warehouse stands hulking and abandoned above the viaduct where citizens still pass today. The engineering-based style established by our swarthy engineer is a series of electricity towers strung together by thick, buzzing cables. Mini-Eiffels, spread throughout the land; a crutch that supports a world unable to support itself. All these electrical towers have been submerged by rising sea levels. Melting ice in Antarctica mingles with another, more aggressively transparent substance, thick and viscous like a humour. A crystalline bile that regulates the mood of all of us who swim through its matrix.
 
-The Crystal Palace was designed by a rough-hewn engineer in hopsack and a newsboy; a big square of a man who elbowed his way to the front of the crowd and, with sweat standing out on his prematurely-lined forehead, drew up a blueprint using compass and square. Before his Palace was relocated to where it could burn to the ground, Eiffel had already began his erection. The two are icons of modern architecture, but also of the modern era. Their indefinite volumes and cutting-edge building materials established the template for art over the next two centuries. The St Lawrence Warehouse is completely unlike the Crystal Palace---in certain ways. Built of brick and with very few windows to break up its hard outline, it stands hulking and abandoned above the viaduct. And yet, the negation is still defined in relation to the centre. The ultimate end of the style established by our swarthy engineer is a series of electricity towers strung together by thick, buzzing cables. These once-great Signs of the Modern Era are now drowned by rising sea levels. Not just from the melting ice in Antarctica: the world is drowned in an aggressively transparent substance, thick and viscous like a humour. A crystalline bile responsible for regulating the mood of all of us hanging suspended in its matrix.
+Certain members of our species have evolved a secret organ that allows them to breathe through this invisible substance. Our most advanced modern subjects have begun to grow gills, to breathe through the ectoplasm; so too have they grown webbed toes and fingers, allowing them to swim along the boulevards---to sit and enjoy the sunshine from a park bench, with their flippered feet buoyed before them. Distance brought on by money, by a screen---by two worlds in imperfect alignment. The transparency of the medium allures Spirit with possibility; *what would it take to break through*?
 
-What would we have if not for the warm rooms of polished concrete, succulents, and marble table-tops? The ectoplasm of two centuries of modernity seeps through the pores of concrete blocks and human flesh, saturating plate glass and iron beams. It sits in an infra-thin layer on top of our phones; as we dip our fingers in, it crawls up our arm, auto-tuning screams into pleasant melodies.
-
-Certain members of our species have evolved a secret organ that allows them to breathe through this invisible substance. Our most advanced modern subjects have begun to grow gills, to breathe through the ectoplasm; so too have they grown webbed toes and fingers, allowing them to swim along the boulevards---to sit and enjoy the sunshine from a park bench. Distance brought on by money, by a screen---by two worlds in imperfect alignment. The transparency of the medium allures Spirit with possibility; what would it take to break through?
-
-# 2024: Trivia Night 1: Audrey
+***
 
 Work was done, they had all punched out and were changing shoes for boots, pulling on hats and scarves and coats. Luis, who worked on the cold side of the kitchen, asked Marc what he was up to that evening.
 
-"I'm meeting a friend for dinner, but I'll just wander around until then and try to avoid going home. How about you?"
+"I'm supposed to meet my friend Daniella for dinner, but I don't know if she'll show. I feel restless, so I'll just wander around until then and try to avoid going home. How about you?"
 
 "Well, I'll wait for Abraham to finish, then we'll smoke a joint, have a few more beers, as we are normally doing."
 
-Luis smiled easily at Marc as he tore on his jacket. Audrey stood between them putting on her things, innocent as Helen. The three guys had hung around together one Sunday a few weeks ago, when they drank a Corona out in the alley, smoking one of Luis's huge joints; but the cold wind and the snow had driven them to take the scenic route across the train tracks back to Marc's apartment. He expected it to become a tradition, but by the end of the Sunday shift his field of vision narrowed to the point of a telescope and he lost sight of everything---everyone save one.
+Luis smiled easily at Marc as he tore on his jacket. The three of them had hung around together a few Sundays ago, when the cold wind had driven them through the streets until Marc invited them up to his apartment. There was no reason for it not to become a tradition, other than that Audrey was now standing between them, putting on her things, innocent as Helen. By the end of the Sunday shift his field of vision narrowed to the point of a telescope and he lost sight of everything and everyone except her.
 
-In those last moments of the day, he felt like he was in a knife fight with a combatant who did nothing but feint and smile casually---as though he didn't notice the blade he was tossing from hand to hand. The thought that pushed everything else aside was: *how can I walk those last few blocks with Audrey?* That crucial moment when each would voluntarily prolong their obligatory time together---when they could be in private together, out on the street. He could count on a few more laughs before they parted at her corner.
+In those last moments of the day, he felt like he was in a knife fight with a combatant who did nothing but feint and smile casually as though unaware of the blade they were tossing from hand to hand. He was unsure whether his combatant was the man, his competition; or the woman, his desire. *How can I walk those last few blocks with her?* It was the crucial moment when each would voluntarily prolong their obligatory time together. Outside of work, out in the street, they were in private together. He could count on a few more laughs before they parted at her corner; and in her farewell would be enough to occupy him until next Sunday.
 
-He walked alone down Beaubien into a late winter sun that shone in his eyes, so that the crowds became like distant silhouettes. Nostalgia had once been the signature aesthetic mode of the millennial, the product of growing up during the irrevocable breakdown of linear time. The younger generation grew up in the ruins of history, and consequently had developed the power to self-declare their own relationship to authenticity. Millennial aesthetics were eclectic, disorganized and overwhelmed. There was never any claim to authenticity. The Young Ones made their home in free-fall, plucking elements suspended in egalitarian stasis to produce an aesthetic that was unified, even if arbitrary. The sun settled below the buildings lining St-Laurent, but the water tower on top of the old brick warehouse was still lit up against the darkening sky.
+He walked alone down Beaubien into a late winter sun that shone low in his eyes, so that the crowds looked like distant silhouettes. The millennial had been known for its aesthetic of nostalgia, the product of growing up during the then-ongoing breakdown of linear time. The younger generation grew up in the ruins of history, and consequently had evolved into a new relationship with authenticity. Millennial aesthetics were eclectic, disorganized and overwhelmed, never claiming authenticity. The Young Ones made their home in free-fall, plucking elements suspended in egalitarian stasis to produce a unified aesthetic, even if it was arbitrary. The sun settled below the buildings lining St-Laurent, but the water tower on top of the old brick warehouse was still lit up against the darkening sky.
 
-The door of Pastel Rita scraped against the floor as he entered, a gust of cold air announcing his presence to Leo, who stood pouring a cappuccino on the other side of the dark green bar. The room was filled with girls with bare arms defiant against the momentary chill Marc carried from outside.
+The door of the cafe scraped against the floor as he entered, a gust of cold air announcing his presence to Leo, who stood pouring a cappuccino on the other side of the dark green bar. The room was filled with bare arms defiant against the momentary chill Marc carried from outside.
 
-"I'll take a grog, please," Marc said as he shed his coat and sat at the dark green bar.
+"I'll take a grog, please," Marc said as he shed his coat and sat at one of the barstools.
 
 Leo stared at him without understanding.
 
@@ -39,35 +35,35 @@ Leo stared at him without understanding.
 
 "Ohh---a grog. Yes, of course. Sorry, I just didn't understand you."
 
-The drink was hot and spicy. His phone vibrated. It was Daniella.
+The drink was hot and spicy. Leo and Malika were both kept busy by the parade of people ordering coffee and wine, so Marc had to entertain himself. The crystal bile that he reached through was particularly thick today, and he reached out only to himself. He tried to read, but the anxiety of the evening's ambiguity yawned at him. His phone vibrated. It was Daniella.
 
 *what are we doing tonight??*
 
-*it's trivia night at Bishop, want to come?*
+*it's trivia night at Bishop,* he repeated. *let's go !!*
 
 *i'm down, meet there are at 7?*
 
 *i'll see you there*
 
-After paying Leo, Marc said good-bye and walked off down Bernard. As he passed by the corner with the building he lived in, he looked only up at the third floor, the one above his own where the girls lived. The thoughts took the form of a spiral, where the weight of one pulled down on the others that followed it so that the whole chain was dragged further and further downwards. Ritual was the only thing that kept him upright. Nothing so secular as a habit or a schedule: each repetition was a prayer to something that could keep away the Nothing that blacked out the edges of his vision. In his worst moments of anguish, the Nothing would render him completely blind. Sometimes, his altered perception had the effect of releasing him from gravity's hold. In those moments when he was completely blind, his traction on the earth would slip away and he would become unable to move forward. He would start to spin weightlessly. The fear came heavy as an anchor forcing him back to the ground. Ritual kept him weighted down---an enclosure that made the world more manageable. In the transitional limbo between the end of Sunday's shift and the beginning of Monday's productive day off, he felt more acutely than ever the haunting presence of the Nothing blackening the edges of his vision.
+After paying Leo, Marc said good-bye and swam off down Bernard. His place was only a block away, and as he passed by the corner where he lived, his thoughts took the form of a spiral, where the weight of one pulled down on the others that followed it so that the whole chain would sink lower and lower. Ritual was the only thing that kept him upright. To the secular mind, mere habit or routine; but each repetition was a prayer to keep away the Nothing that blacked out the edges of his vision. In his worst moments, it would render him completely blind. Even worse, his altered perception could have the effect of releasing him from gravity's hold. In those moments when he was completely blind, his traction through the gooey humour of the modern world would fade away. He was unable to move forward. The harder he paddled his webbed hands, the more he would spin weightlessly in place. Fear came heavy as an anchor and forced him by iron goad back to the earth. Ritual worked better to keep him weighted down. A false enclosure that nonetheless made life more manageable. In the limbo between the end of Sunday's shift and the beginning of Monday's productive day off, he felt more acutely than ever the haunting presence of Nothing blackening the edges of his vision---without even a single point to focus on.
 
-He kept walking, killing time before his meeting with Daniella. Down to the mountain---just far enough to breathe in the air of its earthy lawn before turning back up Clark. It had been much colder when he last saw her. He had visited her at home, where she showed him a book that had a tarot reading for each day of the year. As usual with systems of divination, he found it highly persuasive. The occasion of this visit had been to pick up a jacket he had left at a party she had a few weeks prior. The jacket was an expensive down layer, thin and lightweight, designed by the British company Mountain Hardwear for serious hikers. It was an important part of his winter ensemble, and the few weeks it took for him to arrange to meet her to pick it up had been cold weeks.
+He kept moving, killing time before dinner. It had been much colder when he last saw Daniella. He had visited her at home. The occasion of his visit had been to pick up a jacket left behind at a party she had a few weeks prior. It was an expensive down hoodie, thin and lightweight, designed by a British company for serious hikers. The weeks it took for him to arrange a meeting with her had been cold weeks.
 
 "Eric tried it on. He said the feathers are flat. He said you should put it in the dryer to fluff it up again."
 
 Inside Bishop, he stood by the door and waited for the server to notice him.
 
-"We're in a bit of a transitional period." She spoke to him with familiarity, a foot and a half shorter. "Most of the room is reserved, but a lot of these people here are about to leave. I'll have a table for you in a couple minutes."
+"We're in a bit of a transitional period." She spoke to him with familiarity from a foot and a half down. "Most of the room is reserved, but a lot of these people here are about to leave. I'll have a table for you in a couple minutes."
 
 Marc sat at one of the bars that divided the room in two and waited. Two men sat next to him, also waiting. A group of six got up to leave. The server was joined by the tall, thin bartender wearing suspenders and their round-faced busboy, thick stock who looked fresh off the farm from southern Ontario. The three of them dragged the tables around before quickly cleaning and re-setting each one with water glasses and a QR code.
 
-"You can choose a table," the server told him. He took the one next to the window and facing the door. It was 7pm. He knew there was no chance Daniella would be on time. He sat there nervously as the pub began to fill up, and concentrated on not looking at the people around him. Daniella was a valuable friend, but even though she had just texted him that she was on her way, he did not take it for granted that she would actually show up.
+"You can choose a table," the server told him. He took the one next to the window and facing the door. It was 7pm. There was no chance Daniella would be on time. He sat there nervously as the pub began to fill up, and concentrated on not looking at the people around him. Daniella was a valuable friend, but even though she had just texted him that she was on her way, he did not take it for granted that she would actually show up.
 
 She did, only 20 minutes late.
 
 "Here you go! Happy birthday slash Christmas!" She handed him a bag, its contents loosely covered by a single piece of tissue paper.
 
-Inside were three items: a dual-language edition of poems by Pier Paolo Pasolini; a pair of large black insulated mittens; and a cycling cap with the familiar Mountain Hardwear logo. The hat didn't fit, but he was overcome with shock as he looked at it. He had been unsure if she would even show up---and not only had she shown up with gifts, but it was a gift referencing their history together.
+Inside were three items: a book of poems by Pier Paolo Pasolini; a pair of large black insulated mittens; and a cycling cap with the familiar British company's logo. The hat didn't fit, but he was shocked to see it. He had been unsure if she would even show up---and not only had she shown up with gifts, but it was a gift referencing their history together.
 
 "It's over with Eric," Daniella began. "I have to tell you this crazy story. So he was texting this girl all day while we're together, but then I got a call from Caitlin telling me that our friend John died. He and I were supposed to hang out at my place, but then Caitlin, Jane and MJ came over too. We're all grieving together, and meanwhile, Eric, who barely even acknowledges the fact that I just learned that my friend killed himself, is still texting this girl. He literally asks me if he can invite her over, so I said yeah, sure, of course."
 
@@ -80,8 +76,6 @@ Inside were three items: a dual-language edition of poems by Pier Paolo Pasolini
 At that moment, the music awkwardly broke from background-level classic rock to the first bars of "Small Things." Just a snatch at five times the volume, causing everyone in the bar to jump in shock before it dropped back down and the hostess's voice cut through.
 
 "(Sorry about that...) Alright everybody! It's time to get started."
-
-# 2015: Noelle is Non-monogamous
 
 Marc showed up with his backpack over his shoulder and several months' beard on his face. His sneakers were soaked through from the slush outside. Vito barked and wagged his tail, wanting to know who was there.
 
@@ -124,8 +118,6 @@ It was spring now, and most of what they did together was walk around the city. 
 She interrupted him with a kiss.
 
 "Look," she said, smiling shyly. "I'm not really into monogamous relationships...."
-
-# 2016: Eden and La plante
 
 Winter came and went and came around again. Snow was falling softly as he sat in an alley writing her long text messages. She had blocked his number, and he wrote because he knew she would not receive them. The MDMA was hitting. He was only a block away from Duffy's place, although it had since been expropriated by the landlord and the entire building evacuated for renovations. Tonight he was going to a show at La Plante, a loft in the commercial buildings on the north side of the street, bordered to the north by the train tracks.
 
@@ -172,8 +164,6 @@ He had never known anyone to embody the idea of emotional intelligence as aptly 
 At Cafe Olimpico, she spelled it all out for him.
 
 "If you're in an open relationship...then you can only ever be in relationships with other people in open relationships..." she said. "You aren't increasing your chances, you're limiting them. You're trying to have your cake and eat it, too, by having the fulfillment of a relationship without the constraint of being sexually or emotionally committed to one person. It seems like you're opening yourself up to more possibility, but you're really just reducing your chance of connection to a minority subset of the population. It seems Enlightened to be able to not experience jealousy at the thought of your lover with someone else, but really it's just a half-assed form of loving that insulates you from pain, maybe, in the best case---but it also prevents you from experiencing the joyful peaks of love."
-
-# 2024: Eric's Last Stand
 
 "For our first question, I'm going to hand out a sheet with pictures of houses. You have to identify what movie or show the houses are from."
 
@@ -248,8 +238,6 @@ Daniella stuck her head out the door and caught on eyeful of Eric and Melissa, s
 "I mean, what kind of girl even does that?" Erika said, bringing up the obvious.
 
 "I know!" Heather was sitting on the edge of her bed, typing furiously into her phone, appraising her boyfriend of everything that was happening.
-
-# 2024: Trivia Night 2: Superbowl
 
 *"Hey, do you want to hang out?"*
 
