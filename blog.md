@@ -1,8 +1,8 @@
 ---
 title: Blog
 layout: post
-description: "Selections from my diary---emotional processing, fragments of ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
-abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my blog posts on MySpace. I published the truth of how I felt without considering the consequences. What I have learned since then is that the words we write can't represent how we truly feel. The diary that I publish today is part of an ongoing experiment in autofictional narrativization---not a work until it's done, and until then a residue of my process---of art, of living. Nothing should be taken as true, but everything is based in reality. This page takes influence from aphoristic writing, New Narrative, collage, online writing, the diary, the autobiography, art criticism, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
+description: "Selections from my diary edited together to construct a fictional narrative. Emotions, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my blog posts on MySpace. I published the truth of how I felt without considering the consequences. The words we use cannot represent how we feel. The diary that I publish today is an ongoing experiment in autofictional narrativization---not a work until it's done, and until then a residue of my process---of art, of living. Nothing should be taken as true, but everything is based in reality. This page is influenced by aphoristic writing, New Narrative, online writing, diary writing, the autobiography, contemporary art, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
 toc: true
 status: ongoing
 date: 2020-07-31
@@ -25,7 +25,7 @@ I IX (*1914*)---In complete helplessness wrote barely 2 pages. I have retreated 
 <blockquote class="epigraph">
 You adulturate the truth as you write. There isn't any pretense that you try to arrive at the literal truth. And the only consolation when you confess to this flaw is that you are seeking to arrive at poetic truth, which can be reached only through fabrication, imagination, stylization. What I'm striving for is authenticity; none of it is real.
 
---- [@shields2010, 62]
+--- W. G. Sebald, quoted in [@shields2010, 62]
 
 </blockquote>
 
