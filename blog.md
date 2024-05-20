@@ -1,8 +1,10 @@
 ---
 title: Blog
 layout: post
-description: "Selections from my diary edited together to construct a fictional narrative. Emotions, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
-abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my blog posts on MySpace. I published the truth of how I felt without considering the consequences. The words we use cannot represent how we feel. The diary that I publish today is an ongoing experiment in autofictional narrativization---not a work until it's done, and until then a residue of my process---of art, of living. Nothing should be taken as true, but everything is based in reality. This page is influenced by aphoristic writing, New Narrative, online writing, diary writing, the autobiography, contemporary art, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
+description: "Selections from my diary, edited to construct a fictional narrative. Emotions, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt before considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---not a work until it's done, and until then a residue of my process of art, and of living. Nothing should be taken as true, but everything is based in reality. 
+
+This page is influenced by aphoristic writing, New Narrative, online writing, diary writing, the autobiography, contemporary art, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
 toc: true
 status: ongoing
 date: 2020-07-31
