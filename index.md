@@ -31,7 +31,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 </section>
 
 <section id="blog">
-<h1><a href="/blog">Blog</a></h1>
+<h1><a href="/blog">Diaries</a></h1>
 <ul class="section-link-list">
 {% assign sortedPosts = site.blog | sort: 'date' | reverse %}
 {% for post in sortedPosts limit: 10 %}
