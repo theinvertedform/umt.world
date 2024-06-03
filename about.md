@@ -2,7 +2,7 @@
 title: About This Website
 description: An artistic manifesto. Theorization, technical implementation, and road-mapping. 
 abstract: "This website is conceived of as a hypermedia literary experiment. It begins with my writing environment and its technical implementation; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* involves literary forms that are themselves experimental. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine interface design, web design, and literary form to create a new kind of book, at once memoir and socially-committed cultural critique."
-layout: meta
+layout: post
 toc: true
 tags:
   - outsider art
@@ -16,6 +16,7 @@ tags:
   - archival systems
   - library sciences
 status: extremely rough
+date: 2022-09-11
 ---
 
 Technical literacy is on the decline, even as we have never been more dependent on complex machines. The social is facilitated by the virtual---conventions of the interface have replaced traditional social codes---start-up companies have replaced institutional bureaucracies. Screens and sensors are everywhere: when John Anderton goes on the lam in *Minority Report* (2002), he needs to undergo surgery to replace his eyeballs because of the omnipresent retinal scanner. Technological mediation is an *a priori* for those born into the Digital Age. An ever-increasing crisis of alienation has led the population at large to desperately gasp for the numbing ether of *ataraxia*. A smoothness brought on by technical optimization of all aspects of daily life. There is a powerful incentive for those who profit from technology to limit mass understanding of the same devices that have become another bodily organ. Digital culture and all its social potential has been confined to a set of terms strictly delineated by the ruling class. Tech conglomerates and hardware manufacturers have more power than states, but without the hindrance of historical precedent. Digital life exists because the manufacture of personal computers and online platforms is highly profitable.

@@ -1,8 +1,8 @@
 ---
 title: Diaries
 layout: post
-description: "Selections from my diaries, edited into a fictional work. Emotional patterns, ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
-abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir, an aestheticized residue of a process of art and living---unfinished until the *point final*. Nothing here should be taken as 'true,' but everything is based in reality.
+description: "Selections from a diary. Emotional patterns, ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of art and living---unfinished until the *point final*. Nothing here should be taken as 'true,' but everything is based in reality.
 
 
 The writing on this page is influenced by New Narrative, online writing, diary writing, the autobiography, contemporary art and cinema, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
