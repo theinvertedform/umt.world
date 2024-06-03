@@ -1,17 +1,24 @@
 ---
 title: About the Author
-description: "My entire life story: everywhere I ever worked, every school I went to; every friend, lover, and enemy; a tour of my studio and working methods; psychological profiles, political profiles, and philosophical worldview tests; data representing my tastes and media consumption."
-abstract: "I am a communist writer, philosopher, and critic of contemporary culture. My area of historical interest is the modern leading into the contemporary; my object of study is visual culture. My research is focused on creating an historical overview of the interplay between mass media and the avant-garde, relying on philosophies of technology, media theory, and historical materialism. Some of my questions include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to precedents in modern culture? What is the relation between the modes of production, and the aesthetic and social lives of a given period? My theoretical research is in the fields of Marxism, German Idealism, Frankfurt School critical theory, and communist theory."
+description: "My entire life story: everywhere I ever worked, every school I went to; every friend, lover, and enemy; psychological profiles, political profiles, and philosophical worldview tests; data representing my tastes and media consumption."
+abstract: "I am a communist writer, philosopher, and critic of contemporary culture. My area of historical interest is the modern leading into the contemporary; my object of study is visual culture. My research is focused on creating an historical overview of the interplay between mass media and the avant-garde, relying on philosophies of technology, media theory, and historical materialism. Some of my questions include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to historical precedents? What is the relation between the modes of production, and the aesthetic and social lives of a given period? I work in the traditions associated with German Idealism, Marxism, Frankfurt School critical theory, and value-form theory."
 layout: post
 toc: true
 tags:
   - biography
   - contact
+date: 2022-11-04
 ---
 
-Things I like: the Thinkpad X220, whistling into a payphone to get free calls, vim, flip-phones; the technologism of *Vampyr* and *Nosferatu*; John Carpenter's atmospheric filmmaking; *Garten der Unbewusstheit*; *sprezzatura*, gentlemen hoboes, vintage militaria, Sly's workout fits in the first *Rocky*; black A6 notebooks, every line filled with writing, a red fountain pen, binders filled with pages of notes collected over years, binders filled with negatives, bundles of letters; obsolete visions of an alternative future; forgotten books, looking at adjacent titles in the library stacks; systems for organizing information; tried-and-true techniques, things that haven't changed, the *via negativa*; Kierkegaard more than Nietzsche, Hegel more than Kant, Marx more than anyone; creation stories; modernism in the early 20th century, "Kafkaesque" used to describe a warm and cozy bar; lovesickness, heartbreak, the pain that comes with being alive; natural wines, pasta carbonara, kombucha, yogurt, chocolate, a coffee with some milk; Courbet, Manet, Degas, Breton, Masson; Duchamp, Warhol, Beeple; Judd, Lewitt; Freud, Bacon, Bourgeois, Eamon; Burtynsky; The Replacements; squats, overhead press, pushing the weight sled; toxic shades of purple and green;
+The Thinkpad X230, whistling into a payphone to get free calls, vim, flip-phones; the technologism of *Vampyr* and *Nosferatu*; [John Carpenter](https://letterboxd.com/theinvertedform/list/john-carpenter-ranked)'s atmospheric filmmaking; *[Garten der Unbewusstheit](https://youtu.be/3t5aDYQsnUI?si=B6qcCsH7rfh2pLZ4)*; *sprezzatura*, gentlemen hoboes, vintage militaria, Sly's workout fits in the first *Rocky*; black A6 notebooks, every line filled with writing, a red fountain pen, binders filled with pages of notes collected over years, binders filled with negatives, bundles of letters, *Zettelkasten*; [obsolete visions of an alternative future](https://en.wikipedia.org/wiki/Project_Xanadu); forgotten books, looking at adjacent titles in the library stacks; systems for organizing information; tried-and-true techniques, things that haven't changed, the *via negativa*; Kierkegaard more than Nietzsche, Hegel more than Kant, Marx more than anyone; creation stories; modernism in the early 20th century, "Kafkaesque" used to describe a warm and cozy bar; lovesickness, heartbreak, the pain that comes with being alive; natural wines, pasta carbonara, kombucha, yogurt, chocolate, a coffee with some milk; Courbet, Manet, Degas, Breton, Masson; Duchamp, Warhol, Beeple; Judd, Lewitt; Freud, Bacon, Bourgeois, Eamon; Burtynsky, Michael Snow; Hong Sang-soo, Samira Makhmalbaf, Joanna Hogg, The Replacements; squats, overhead press, pushing the weight sled; toxic shades of purple and green ...
 
-How do you get to know a man? Through his choice of self-presentation? What constitutes an introduction? In the abstract of this page, I include my practitioner's statement. It is intended to describe how I see myself---what I want to be as an artist and a scholar. Some of the sections on this page deal with my tastes in certain domains; some of them attempt to quantify my personality and worldview; still others describe my tools and workflows. However, the most important parts, in my view, are the biographical overview and the photos that I will endeavour to add.
+\
+
+![](/assets/images/ornaments/band.png)
+
+\
+
+How do you get to know a man? The abstract of this page describes my academic research page. The introduction paints a picture of my aesthetic. This page includes a biographical summary, a list of work experience, surveys on my politics, personality, and philosophical worldview; it includes astrological readings, data on my listening, viewing, and reading habits; a rundown of my lifestyle, and many photos...but is it adequate to understand who I am?
 
 # Biographical summary
 
@@ -109,20 +116,11 @@ The following list of work experience does not include one-off, freelance, or vo
 * David & Mary Thompson Collegiate Institute (Toronto, circa 2007--2008)
 * Concordia University (Montréal, 2016--2019; 2021-2023)
 
-# The Artist's Studio
-
-## My computer
-
-Learning to use developer tools was an instrumental factor in developing my appreciation for hypermedia. Now I am able to edit the text of my website at the same time as its structure. This website is a work composed in different languages written alongside each other. The programming language is read by the audience as the visual design of the page; the other language is read in text and images. You may not like it, but this is what peak performance looks like.
-
-My computer is a ThinkPad X1 Carbon (5th gen) that I've had since circa 2017. It's run Linux for most of its life. Arch, then Gentoo since Summer 2020.  I run a [fork](https://github.com/theinvertedform/dwm) of the [dwm](https://dwm.suckless.org) window manager, alongside a [fork](https://github.com/theinvertedform/st) of the [simple/suckless terminal](https://st.suckless.org)
-
-## The process of writing
+# Personality Data
 
 Gass called it "a life in the chair," making a parallel to the electric chair. A life spent under the gallows.
 
 ![Osaka trying to stretch.](/assets/images/osakastretch.gif)
-
 
 ## Astrological chart
 
@@ -130,19 +128,13 @@ Gass called it "a life in the chair," making a parallel to the electric chair. A
 
 Scorpio, rising Sagittarius. Full chart and reading forthcoming. Mars dominates my chart, but I have always preferred Pluto as a personal icon. I like astrology as a symbolic language, and a future project will be to analyze statistical correlations in certain readings. I like the materialism of astrological metaphysics...of course, I should admit as well that it has always been a useful tool for processing emotions. I have not studied astrophysics, I know barely anything about the history of astrology, and I am not even familiar with the signs, except for in a superficial way. Although my knowledge is superficial, my interest is genuine.
 
-## Personality
+## Personality Tests
 
-Data forthcoming. I took the MBTI once when I was 18, and remember that I was an INTJ. We'll see how I compare these days.
 
-## Morals and philosophy
-
-Some keywords for you:
-
-1. Cosmology: Epicurean atomism
-2. Metaphysics: materialist
-3. Ontology: force
-3. Ethics: virtue ethics
-4. Politics: Maoist
+* [YourMorals.org Moral Foundations Questionnaire-2](/assets/documents/mfq2-2022.pdf) (2022)
+* [Relationship Survey](/assets/documents/relationship-survey-2022.pdf) (2022)
+* 16Personalities: "Advocate" (INFJ-T)
+*Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.*
 
 # Contact
 
