@@ -1,6 +1,9 @@
 ---
 title: Index
-abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The index below includes critical writing on [films](/index#film) and [art](/index#art); essays and interviews on philosophy and politics; and a fictionalized [diary](/blog). [This website](/about) is an experiment that combines *new media design* and *experimental writing*.
+abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website itself is an experiment in new media design and experimental writing.
+
+
+For more about the philosophy of the website, visit the [*About*](/about) page; for more about me, and for contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes critical writing on [films](/index#film) and [art](/index#art); essays and interviews on philosophy and politics; and a fictionalized [diary](/blog)."
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
@@ -9,7 +12,7 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 <aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="new">
-<h1><a href="/changes">New</a></h1>
+<h1><a href="/changes">Newest</a></h1>
 <ul class="section-link-list">
 {% for collection in site.collections %}
 {% unless collection.label == "blog" %}
@@ -24,9 +27,34 @@ abstract: This is the personal website of **Uriah Marc Todoroff**. I am a writer
 {% else %}
 <a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
 {% endif %}
-<em>{{ post.description }}</em>
 </li>
 {% endfor %}
+</ul>
+</section>
+
+<section id="notable">
+<h1><a href="#notable">Notable</a></h1>
+<ul class="section-link-list">
+<li>
+<a href="/reviews/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
+</li>
+<li>
+<a href="/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
+<em>Interview with Jasper Bernes</em>
+</li>
+<li>
+<a href="/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
+<em>Interview with Erin Manning and Brian Massumi</em>
+</li>
+<li>
+<a href="/blog#2023-03-18">Return to Drones</a>
+</li>
+<li>
+<a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
+</li>
+<li>
+<a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
+</li>
 </ul>
 </section>
 

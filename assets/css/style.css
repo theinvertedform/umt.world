@@ -76,6 +76,10 @@ a {
     border-bottom: 1px solid #555;
 }
 
+.markdownBody a {
+	color: #111;
+}
+
 p {
 	margin: 0;
 }
