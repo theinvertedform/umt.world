@@ -76,9 +76,47 @@ a {
     border-bottom: 1px solid #555;
 }
 
+.markdownBody a:hover {
+	color: #999;
+	}
+
+#markdownBody a:hover {
+	color: #999;
+	}
+
 .markdownBody a {
 	color: #111;
+
+/*	--link-underline-background-color: #161616;
+	--link-underline-gradient-line-color: currentColor;
+	background-image: linear-gradient(var(--link-underline-gradient-line-color),
+									 var(--link-underline-gradient-line-color));
+	background-size: 1px 1px;
+	background-repeat: repeat-x;
+	background-position: 0% calc(100% - 0.1em); */
+
+	/*  Disable oldstyle nums in underlined links because the oldstyle nums are almost subscript-like and overlap */
+
+	font-variant-numeric: lining-nums;
 }
+
+a.footnote-ref {
+	vertical-align: super;
+	line-height: 0.3;
+	position: relative;
+	top: 0.05em;
+	padding: 0 0.05em;
+	margin-left: 0.125em;
+	font-variant-numeric: lining-nums;
+	font-weight: 600;
+	z-index: 1;
+}
+
+.footnote-back {
+	padding: 0 0.05em;
+	margin-left: 0.125em;
+	font-weight: 600;
+	}
 
 p {
 	margin: 0;
@@ -148,17 +186,32 @@ header.post-header {
 	margin: 0;
 	}
 
+header {
+	padding: 0 2em;
+	}
+
+header h1 {
+	text-align: center;
+	}
+
 #page-metadata {
 	line-height: 1.5;
 	margin: 0 0 2rem 0;
 	font-family: sans-serif;
+	text-align: center;
 }
 
 #page-description {
 	margin: 0 auto 1em auto;
 	font-style: italic;
-	text-align: justify;
+	text-align: center;
 	font-family: Source Serif;
+	}
+
+div#link-tags {
+	margin: 0 auto 1em auto;
+	font-family: monospace;
+	text-align: center;
 	}
 
 #TOC {
@@ -406,6 +459,30 @@ div.csl-entry {
 	padding-top: 0.75em;
 	text-indent: 1.75em;
 	}
+
+section#footnotes {
+	margin-top: 3.5em;
+	}
+
+section#footnotes hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+section#footnotes hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
 
 @media all and (min-width: 650px) {
 	body {
