@@ -7,7 +7,6 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 	<div id="page-metadata">
-		<div id="page-description">{{ page.description | markdownify }}</div>
 	{% if page.tags.size > 0 %}
 		<div id="link-tags">
 	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -15,10 +14,11 @@ layout: default
 	{% endfor %}
 		</div>
 			{% endif %}
+		<div id="page-description">{{ page.description | markdownify }}</div>
 		<div id="page-metadata-block">
       		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         		{%- assign date_format = "%b %-d, %Y" -%}
-				{{ page.date | date: date_format }} {% if page.last_modified_at %} &mdash; {{ page.last_modified_at | date: date_format }} &bull; {% endif %}</time> {% if page.status %}Status: <em>{{ page.status }}</em>{% endif %}
+				{{ page.date | date: date_format }} {% if page.last_modified_at %} &ndash; {{ page.last_modified_at | date: date_format }} {% endif %}</time> {% if page.status %} &bull; Status: <em>{{ page.status }}</em>{% endif %}
 		</div>
 	</div>
 
