@@ -1,0 +1,11 @@
+---
+title:
+date: 2024-06-11--\today
+published: no
+---
+
+Of the women I have known, more than one enjoyed listening to Tinashe as we made love---but it is the Poetess most of all whom I associate as the principal antagonist in this tale of madness brought on through naked exposure to the Divine Feminine. It was she who would queue up several of the artist's songs before we began the first, angular circle in our keratinous fricassee. When everything began to thicken and run together, my mind would consequently strive to keep itself from dissolving by wandering to external sensations. When her queue reached its conclusion, the auto-configurator reliably brought us back to some other Man (most commonly The Weeknd). The transition was wilting, for the simultaneity of the physical act and the aesthetic identification with the Song constituted a totalizing envelopment within femininity. The bestial language the Poetess taught me---and at once, encasement within the crystal matrix of culture wherein Tinashe leads us to the throne of the universal. When I returned to this memory mere months ago, I am able to track the slow degradation that I have wrought on myself in the intervening years.
+
+It wasn't until years after the Poetess left my corpse---mercifully, where no-one could find it---that I returned to Tinashe. The singer returned to me through the divine chance of *Shuffle All Songs*. I thought, with some nostalgia, that I could return to at least half the height of sensation that I once had---but I instantly knew that my need for Tinashe had the character of desperation. I would listen to one song, "Bouncin'", using the arcane ritual of *Repeat*. A device but rarely employed.
+
+In this song, I have returned to my original conclusion that my encounter with the Divine Feminine through immersion in the body of a woman as figurative as the Poetess---and simultaneously with the work of Tinashe---was no accident. In reality, Tinashe has the unique and enviable power of capturing something essential about the heart of the modern woman. "Bouncin'", then, represents the secret desire of so many: to find someone who can *match* one's level of erotic play. To find someone who can withstand and overcome the test that comes from below.
