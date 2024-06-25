@@ -1,43 +1,41 @@
 ---
-title: Modern Love
+title: The Crystal Palace Underwater
 author: Uriah Marc Todoroff
 date: February 3, 2024--\today
-description: Daniella and Marc are two millennials trying to find love in a post-millennial, Contemporary world. She's economizing, and he's holding out for the big payday. How does it affect their friendship?
+description:
 ---
 
-The Crystal Palace was designed by some rough-hewn engineer in hopsack, a rectangular man who elbowed his way to the front of the crowd and, with sweat beading on his corduroy brow, drew up a blueprint using compass and square. Before the Palace would be relocated to where it could burn to the ground, Eiffel had already began his erection. The two buildings were conceived by the laborious assiduity of men who never in their lives felt the warmth of the divine spark. Men who rose through the hard ranks of the technical college---unlike the architect, who spent his studies dreaming. He had been sat atop his pedestal in calm reverie when the engineers sent him roughly sprawling to the dust at the feet of the mob.
+The Crystal Palace was designed by some rough-hewn engineer in hopsack, a rectangular man who elbowed his way to the front of the crowd and, with sweat beading on his corduroy brow, drew up a blueprint using compass and square. Before the Palace had even been relocated to where it could burn to the ground, Eiffel had already began his construction. The two buildings were conceived by the laborious assiduity of men who never in their lives warmed by the divine spark. They were men who forced their way through the hard ranks of the technical college---unlike the architect, who spent his studies at the Royal Academy in idyll daydream. He had been sat atop his pedestal in calm reverie when the engineers knocked him roughly sprawling to the feet of the mob.
 
-The St. Lawrence Warehouse was constructed nearly a century on from the Crystal Palace, bricked up with no windows, like a sealed-up tomb compared to the Palace's echoing luminosity. The sarcophagus stands hulking and abandoned above the viaduct where citizens stroll today. The architectural style of the engineer is unadorned geometry, a love of triangles and raw materials---a style arrived at through process of elimination; a style that naturally finds its culmination in a series of electricity towers strung together by thick, buzzing cables. Mini-Eiffels, spread over the surface of the earth, a crutch supporting a world unable to stand on its own. All these electrical towers are now submerged by rising sea levels. Melting ice in Antarctica mingles with another, more aggressively transparent substance, thick and viscous like a humour. A crystalline bile that regulates the mood of all of those swimming through its matrix.
+The heirs of these tradesmen are the same ones responsible for the St. Lawrence Warehouse, constructed nearly a century later. Bricked up and windowless, the warehouse is a sealed tomb designed to conceal, whereas the Palace's echoing luminosity was intended to reveal. A sarcophagus, hulking and abandoned above the viaduct where citizens stroll today. The engineer's style is plain geometry, a love of triangles and unadorned materials---a style arrived at through process of elimination; a style that naturally finds its culmination in a spiderweb of warehouses, or an endless chain of electricity towers strung together by thick, buzzing cables. Mini-Eiffels and mini-Palaces spread over the surface of the earth, the crutches that support a world unable to stand on its own. All these electrical towers are now submerged by rising sea levels. Runoff from melting icecaps mingle with another substance. Aggressively transparent, thick and viscous like a humour, a crystalline bile that regulates the mood of all of those swimming through the matrix of the modern world.
 
-Certain members of our species have evolved a secret organ that allows them to breathe through this invisible substance. Our most advanced modern specimens have begun to grow gills permitting them to breathe through the ectoplasm. So too have they grown webbed toes and fingers, allowing them to swim along the boulevards---to sit and enjoy the sunshine from a park bench, with their flippered feet stretched out buoyantly before them. We are all separated by a distance brought on by money, by a screen---by two worlds in imperfect alignment. The transparency of the medium allures Spirit with possibility; *what would it take to break through*?
+Certain members of our species have evolved a secret organ that allows them to breathe through this invisible substance. These are the most advanced specimens, who have begun to grow gills that permit them to breathe through the ectoplasm drowning the world. They have even grown webbed toes and fingers that allow them to swim along the boulevards---to sit and enjoy the sunshine from a park bench, flippered feet stretched out buoyantly before them. These are the blessed ones who don't feel the distance brought on by money, by a screen---by two worlds in imperfect alignment. The transparency of the medium allures Spirit with possibility; *what would it take to break through*?
 
 ***
 
-Work was done, they had all punched out and were changing shoes for boots, pulling on hats and scarves and coats. Luis, who worked on the cold side of the kitchen, asked Marc what he was up to that evening.
+Work was finished, they had all punched out and were changing shoes for boots, pulling on hats and scarves and coats. L-- asked Marc what he was doing that evening.
 
-"I'm supposed to meet my friend Daniella for dinner, but I don't know if she'll show. I'll just wander around until then and try to avoid going home. How about you?"
+"I'm meeting my friend Daniella for dinner, but I don't know if she'll show. I'll just wander around until then and avoid going home. How about you?"
 
-"Well, I'll wait for Abraham to finish, then we'll smoke a joint, have a few more beers, as we are normally doing."
+"Well, I'll wait for B-- to finish, then we'll smoke a joint, have a few more beers, as we are normally doing."
 
-Luis smiled easily at Marc as he tore on his jacket. The three of them had hung around together a few Sundays ago, when the cold wind had driven them through the streets and up into Marc's apartment. There was no reason for it not to become a tradition other than that Audrey stood between them, putting on her things, innocent as Helen. By the end of the Sunday shift, Marc's field of vision narrowed to the point of a telescope and he lost sight of everything and everyone except her.
+L-- smiled easily at Marc and tore on his jacket. The three men had hung around together a few Sundays ago, when the cold wind had blown them through the streets and up into Marc's apartment. The invitation stood open, but A-- stood between them putting on her things, as innocently as Helen. Those moments were like a knife fight with a combatant who did nothing but feint and smile as though unaware of the blade they were tossing from hand to hand. It was not clear whether his combatant was the man, with whom he imagined himself to be competing; or the woman, the prize that reduced his vision to a point. Those last few blocks were the crucial moment when each would voluntarily prolong their obligatory time together. Out in the street, they could be in private together. There would be a few more laughs before they parted at her corner, and the ambiguity of her farewell would be enough to occupy him until next Sunday.
 
-Those last moments of the day were like a knife fight with a combatant who did nothing but feint and smile casually, as though unaware of the blade they were tossing from hand to hand. He was unsure whether his combatant was the man, his competition; or the woman, his desire. *How can I walk those last few blocks with her?* It was the crucial moment when each would voluntarily prolong their obligatory time together. Outside of work, out in the street, they were in private together. He could count on a few more laughs before they parted at her corner; and in her farewell would be enough to occupy him until next Sunday.
+He walked down Beaubien into a late winter sun shining low in his eyes, the crowds turned into indistinct silhouettes. The millennial generation made their name with an aesthetic of nostalgia, the product of growing up during what was then still the ongoing breakdown of linear time. The younger generation grew up amidst the ruins of history, and consequently had evolved a new relationship to authenticity. Millennial aesthetics were eclectic, disorganized and overwhelmed, caught in the trap of irony and unable, unwilling to make any claims to authenticity. The Young Ones made their home in free-fall, plucking preferences suspended in egalitarian stasis, producing a unified aesthetic out of arbitrary-selected elements. The sun settled below the buildings lining St-Laurent, but the water tower on top of the old brick warehouse was still lit up against the darkening sky.
 
-He walked down Beaubien into a late winter sun shining low in his eyes, so that the crowds looked like distant silhouettes. The millennial generation had been known for an aesthetic of nostalgia, the product of growing up during what was then still an ongoing breakdown of linear time. The younger generation grew up in the ruins of history, and consequently had evolved into a new relationship with authenticity. Millennial aesthetics were eclectic, disorganized and overwhelmed, never claiming authenticity. The Young Ones made their home in free-fall, plucking elements suspended in egalitarian stasis to produce a unified aesthetic, even if it was arbitrary. The sun settled below the buildings lining St-Laurent, but the water tower on top of the old brick warehouse was still lit up against the darkening sky.
-
-The door of the cafe scraped against the floor as he entered, a gust of cold air announcing his presence to Leo, who stood pouring a cappuccino on the other side of the dark green bar. The room was filled with bare arms defiant against the momentary chill Marc carried from outside.
+The door of the cafe scraped against the floor as he entered, a gust of cold air announcing his presence to L--, who stood pouring a cappuccino on the other side of the dark green bar. The room was filled with bare arms defiant against the momentary chill Marc carried with him.
 
 "I'll take a grog, please," he said as he shed his coat and sat at one of the barstools.
 
-Leo stared at him without understanding.
+L-- stared at him without understanding.
 
 "A *what*?"
 
 "A *grog*," he repeated, hitting the final "g." 
 
-"Ohh---a grog. Yes, of course. Sorry, I just didn't understand you."
+"Ah---a grog. Yes, of course. Sorry, I just didn't understand you."
 
-The drink was hot and spicy. Leo and Malika were both kept busy by a parade of people ordering coffee and wine, so Marc had to entertain himself. The crystal bile that suffused his world felt particularly thick today, and he felt that it was impossible to reach through. He tried to read, but the anxiety of the evening's ambiguity yawned at him. His phone vibrated. It was Daniella.
+The drink was hot and spicy. L-- was kept busy by a parade of people wanting to place orders, so Marc had to entertain himself. The crystal bile he clumsily waded through made it impossible to so much as raise his hand in salutation to those around him. He tried to read, but the anxiety of the evening's ambiguity yawned at him. His phone vibrated. It was Daniella.
 
 *what are we doing tonight??*
 
@@ -47,238 +45,122 @@ The drink was hot and spicy. Leo and Malika were both kept busy by a parade of p
 
 *i'll see you there*
 
-After paying Leo, Marc said good-bye and swam off down Bernard. His thoughts took the form of a spiral, the weight of one pulling down on the next so that the whole chain sank lower and lower. How does one relax, he thought, how does one have fun? I have no ideas other than to pay someone to pay attention to me. All this ritual, all this work I have given myself, it's all a coping mechanism for the loneliness. I am bent like a tree that grew up under an overhang, and has consequently become bent over. The ritual is a crutch, marionette strings keeping me upright. Each repetition was like a prayer to keep away the absence blacking out the edges of his vision. Sometimes it completely blinded him. His altered perception could even have the effect of releasing him from gravity's hold. In those moments, when he was struck sightless, his traction through the gooey humour of the modern world would fade away. He was unable to move forward. The harder he paddled, the more he would spin weightlessly in place. Fear came heavy as an anchor and forced him by iron goad back into the gravity well. Ritual was more bearable than fear as means to keep him weighted down. In this limbo, he felt more acutely than ever the haunting presence of Nothing blackening the edges of his vision.
+After paying L--, Marc said good-bye and paddled off down Bernard. His thoughts took the form of a spiral, the weight of one pulling down on the next so that the whole chain sank lower and lower. How does one relax, he thought, how does one have fun? I have no ideas other than to pay someone to pay attention to me. All this ritual, all this work I set for myself, it's all just a coping mechanism. The ritual is a crutch, marionette strings that keep me upright. 
 
-He kept moving, killing time. It had been much colder when he last saw Daniella. He had visited her at home to pick up a jacket left behind at her party from a few weeks prior. It was an expensive down hoodie designed by a British company for serious hikers. The weeks it took for him to arrange their meeting had been the first seriously cold weeks of the year.
+Each repetition was a prayer keeping away the absence that blacked out the edges of his vision. Sometimes his vision narrowed to a point so fine that he couldn't see a thing. His altered perception could even have the effect of releasing him from gravity's hold. In those moments when he was struck blind, his traction on the world would fade away. He was unable to move forward. The more frantically he paddled, the more he would spin weightlessly in place. Panic rose in his throat, heavy as an anchor, forcing him by iron goad back into gravity's well. Ritual was more reliable than fear as a means to keep him weighted down. In this limbo, he felt more acutely than ever the haunting presence of the Nothing that blackened the edges of his vision.
 
-"Eric tried it on. He said the feathers are flat. He said you should put it in the dryer to fluff it up again."
+He kept moving, killing time. It had been much colder when he last saw Daniella. He had visited her at home to pick up a jacket he had left behind at a party so warm and festive, it had brought him out into the cold before he could think of being properly attired. The weeks it took for him to arrange their meeting had been the first seriously cold weeks of the year.
+
+"E-- tried it on. He said the feathers are flat. He said you should put it in the dryer to fluff it up again."
 
 Eventually he wound up at Bishop \& Bagg, where he stood by the door and waited for the server to notice him.
 
-"We're in a bit of a transitional period." She spoke to him with familiarity, and he thought for a moment that he saw the air shimmer between them, as when you throw a small stone into a pool whose stillness mirrors the sky. "Most of the room is reserved, but a lot of these people here are about to leave. I'll have a table for you in a couple minutes."
+"We're in a bit of a transitional period." She motioned him behind the bar and indicated the screen showing their flooring plan. Her casual familiarity brought the blood to his head, and for a moment he saw the air shimmer between them as when you throw a stone into a still pool. "Most of the room is reserved, but a lot of these people here are about to leave. I'll have a table for you in a couple minutes."
 
-Marc sat at one of the bars that divided the room in two and waited. Two men sat next to him and waited. A group of six got up to leave. The server was joined by the tall, thin bartender and their round-faced busboy. The three of them dragged the tables around before quickly cleaning and re-setting each one with water glasses and a QR code.
+Marc sat at one of the bars that divided the room in two and waited. Two men sat next to him and joined him in waiting. A group of six got up to leave. The server, the tall bartender and their round-faced busboy dragged the tables around, cleaned and re-set each one with water glasses and a QR code.
 
-"You can pick a table," she told him. He took the one next to the window and facing the door. It was 7pm. There was no chance Daniella would be on time. He sat there nervously as the pub began to fill up, and concentrated on not looking at the people around him. Daniella was a valuable friend, but even though she had just texted him that she was on her way, he did not take it for granted that she would actually show up.
+"You can take either one of these tables," she told him. He took the one next to the window and sat facing the door. It was 7pm. There was no chance Daniella would be on time. He sat on the edge of his seat across from the empty chair as the pub began to fill up, concentrating on not looking at the people around him. Daniella was a valuable friend, but even though she had just texted him that she was on her way, he did not take it for granted that she would actually make it there.
 
 She did, only 20 minutes late.
 
-"Here you go! Happy birthday slash Christmas!" She handed him a bag, its contents loosely covered by a single piece of tissue paper.
+"Here you go! Happy birthday slash Christmas!" It was January, and he was a Scorpio. She handed him a bag, its contents loosely covered by a single piece of tissue paper.
 
-Inside were three items: a book of poems by Pier Paolo Pasolini; a pair of large black insulated mittens; and a cycling cap with the same logo as was on his down jacket. The hat didn't fit, but he was shocked to recognize the label. He had been unsure if she would even show up, and here she came bearing gifts that referenced their history together.
+Inside was a cycling cap with the same logo as the one on the jacket that hung on the chair behind him. It didn't fit, but he was shocked to recognize the label. He had been unsure if she would show up, and here she came with a gift calling back to their history together.
 
-"It's over with Eric," she began. "I have to tell you this crazy story. So he was texting this girl all day while we're together, but then I got a call from Caitlin telling me that our friend John died. Eric and I were supposed to hang out at my place alone, but then Caitlin, Jane and MJ came over too. We're all grieving together, and meanwhile, Eric, who barely even acknowledges the fact that I just learned that my friend killed himself, is still texting this girl. He literally asks me if he can invite her over, so I said yeah, sure, of course."
+"It's over with E--," she began. "I have to tell you this crazy story." Marc braced himself. "He was texting this girl all day while we're together, but then I got a call from C-- telling me that our friend John died. E-- and I were supposed to hang out at my place alone, but then C--, J-- and M-- came over. We're all grieving together, and meanwhile, E--, who barely even acknowledges the fact that my friend is dead, is still texting this girl. He literally asks me if he can invite her over, so I said yeah, sure, of course."
 
 "Why would you say yes?"
 
-"I wanted to see if he would! And he did, and she comes over. So MJ and Caitlin and Jane I are all in my room, and he's just out there making out with her on my couch. At one point she comes up to me and asks if it's okay. And I tell her, I'm ethically non-monogamous, Eric and I are in an open relationship. It doesn't bother me. So my boyfriend is making out with someone else on my couch the same night that I learned that my friend just died. And later that night, when everyone's gone, we had a huge fight. And now we're broken up. Again."
+"I wanted to see if he would! And he did, and she comes over. So we're all in my room, and he's just out there making out with her on my couch. At one point she comes up to me and asks if it's okay. And I tell her, I'm ethically non-monogamous, E-- and I are in an open relationship. It doesn't bother me. So my boyfriend is making out with someone else on my couch the same night that I learned that my friend just died. And later that night, when everyone's gone, we had a huge fight. And now we're broken up. Again. But this time it's for real, I swear. You're both Scorpios---explain to me what he's thinking!"
 
-"You're being cruel to him, and he's being cruel back. He's not going to end it. It's more in his interest to cling to hope. You should do the right thing: take him out back and put a bullet in his head. Start over with someone else and learn from your mistakes. Ethical non-monogamy is a terrible foundation for relationships. For something casual, sure, it's a fine approach---but it doesn't set you up for the big score."
+"You're being cruel to him, and he's being cruel back. We Scorpios are called toxic by those who do not understand us, but we are most poisonous towards ourselves. You should do the right thing: take him out back and put a bullet in his head. Start over with someone else and learn from your mistakes. Ethical non-monogamy is a terrible foundation for a relationship. For something casual, sure, whatever---but it doesn't set you up for the big score. I know you want a stable, loving, reliable relationship. I know that you have a hard time letting people go and saying no. But until you learn how to do both of those things, you'll give away too much of yourself. It feels like I'm watching someone self-harm."
 
-At that moment, the music awkwardly broke from background-level classic rock to the first bars of "Small Things." Just a snatch at five times the volume, causing everyone in the bar to jump before it dropped back down and the hostess's voice cut through.
+At that moment, the music awkwardly broke from background-level classic rock to the first bars of blink-182's "Small Things." Just a snatch at five times the volume, causing everyone in the bar to jump before it dropped back down and the hostess's voice cut through.
 
-"(Sorry about that...) Alright everybody! It's time to get started."
-
-***
-
-Marc showed up with his backpack over his shoulder and several months' beard on his face. His sneakers were soaked through from the slush outside. Vito barked and wagged his tail, wanting to know who was there.
-
-"It's just me," he said. "Boy, you got big!"
-
-Alex Hine and Emma Boorman were sitting on the couch in the living room under a blanket. It was November and the heating was turned to the max, but it wasn't enough to warm, just to slowly dry out skin and hair. They looked over at him awkwardly. Marc didn't know Emma; Alex, his best friend, was acting like he hadn't just showed up suddenly after being gone for five years. Like he wasn't returning from a year's long voyage out on the road.
-
-"There's a show at Duffy's place tonight," Alex said. Duffy and his "place" were also both new. When the three of them made their way there several hours later, it turned out to be an apartment on Van Horne. Early in the morning, the shadow of the St. Lawrence Warehouse extended to the same front door that was ajar this winter night. Duffy's place was auspiciously located on an acutely-angled corner, next to no-one, on a narrow industrial thoroughfare. Duffy had committed his place to the lifestyle. The parties went late, they were intentionally chaotic, and the apartment itself was a kind of shrine to Dionysus. The walls and ceiling of one room were entirely lined in solver foil, torn and marked at points of easy contact. The bathtub was filled with beer cans and cigarette butts, and the door had been removed to leave no doubt that there would be no privacy here, no escape from the party.
-
-They showed up early, before the bands started. It was still possible to carry on a conversation. Marc was sitting on the floor in front of the couch where two girls were perched. One had blonde hair and a European accent; the other was dark, with a wide face and the abrupt movements of a scarecrow. They were discussing films.
-
-"I'm a simple guy. I like to laugh, so I like a Woody Allen movie."
-
-It was 2015. Knowledge of Woody Allen's marriage to his adopted step-daughter was common knowledge, but the depths of his depravity had not yet been reported by Ronan Farrow and all the subsequent documentaries. He was unpopular, but not at the height of his infamy. It was an odd choice to bring him up at a party. Deep interest in the mainstream was a form of edginess that originated out of critical theory, but it took a millennial to turn love of popular art into a Möbius strip of ironic rebellion.
-
-"But my first film, really, the one that opened my eyes up, was *Breathless*. I found it by accident. Bought a copy of the Criterion DVD when I was 14, with money from my part-time job. I had no idea what it was, but I watched it endlessly. That's how I learned what it meant to be cool."
-
-The blonde was named June; she laughed when Marc tried to pronounce Godard, but seemed otherwise to be utterly disinterested in him. The brunette was named Noelle. She was more open to what he was saying. About 30 minutes after they left, he could no longer contain himself.
-
-"I'll be back in a bit," he told Alex. The party was just getting beginning to find its rhythm. One band had played in the living room, and the crowd was achieving a critical mass.
-
-Marc ran home, only about fifteen minutes at normal walking speed. Vito *woofed* when he opened the door, but wagged his tail after smelling who was there. On the Facebook event page for the party, he scrolled quickly past the description, which he barely registered was written in an alien gibberish. He found the list of everyone who had clicked Attending, Maybe, and Not Interested. He kept scrolling through it until he saw her. *Noelle*.
-
-"Hey, I wanted to talk to you more before you left, but it's too late. Maybe we can meet up some time?"
-
-With that, he closed the laptop and walked quickly back to the party. He could hear it from half a block away. There were a few groups of people straggling outside, but most people preferred to smoke inside. A red balloon was tied to the chain-link fence.
-
-***
-
-A few months later, he was leaving her apartment in the morning.
-
-"There's something I need to talk to you about," he said.
-
-"I'll walk with you a bit," she said. 
-
-It was spring now, and most of what they did together was walk around the city. They made it to the corner, where they sat on some wooden benches next to a mostly-melted pile of snow.
-
-"I need to tell you that---I want to kiss you, but I'm afraid, I really don't know how---"
-
-She interrupted him with a kiss.
-
-"Look," she said, smiling shyly. "I'm not really into monogamous relationships...."
-
-Winter came and went and came around again. Snow was falling softly as he sat in an alley writing her long text messages. She had blocked his number; he wrote because he knew she would not receive them. The MDMA was hitting. He was only a block away from Duffy's place, although it had since been expropriated by the landlord and the entire building evacuated for renovations. Tonight he was going to a show at La Plante, a loft in the commercial buildings on the north side of the street.
-
-Radiant Baby stood onstage, gyrating his hips, makeup and sequins glowing in the lights. As Marc stood by himself in the dark crowd, moving and feeling a profound connection to what he knew was just kitsch, someone tapped him on the shoulder.
-
-"Don't I know you?" she asked.
-
-"Uh..." he looked at her closely, difficult in the dark and with his vision swimming from the drugs. A vertigo overtook him, but at this point connections still felt possible. The city was still new; everything happened so fast and furiously that he almost took it for granted. This level of socializing was his only frame of reference, so for him it felt possible that he could go out alone, without any explicit intentions of meeting someone---just to be around people---and that a pretty girl could tap him on the shoulder in the dark and start talking to him out of her own volition.
-
-"I don't think so," he said.
-
-"Yeah, aren't you taking French lessons? Don't you go to the Centre Saint-Louis?"
-
-"Wow, that's right, I do!" He was more surprised at being recognized than by being approached. Even with his small frame of reference---even feeling like it's normal that a woman would come up and talk to him, the fact of being recognized was not normal. Even now, at 25, in his glory years, he still conceived of himself as being invisible and anonymous.
-
-"Wow! Yes, that's right!" He studied her face again. Curly dark hair down to her ears, high cheekbones and a sharp nose. He liked it.
-
-"I recognized you," she told him.
-
-They chatted as Radiant Baby continued through his set. Her name was Eden, and she knew the artist, which is what brought her to the event that night. She was there with friends.
-
-"Who are you here with?"
-
-"Just myself."
-
-She seemed impressed instead of disgusted, as he assumed she would be. Rather than think *loser with no friends*, which is how he felt, she interpreted it as an *intentional decision*. The show was wrapping up and it wasn't even midnight.
-
-"Any plans after this?" she asked him.
-
-"I heard there was a show going on at Brasserie Beaubien, I might go to that," he said. "Want to come check it out?"
-
-"Yeah, that sounds fun," she smiled.
-
-When he opened the door to Brasserie Beaubien, it was still and empty. The bartender was sweeping the floor; she glared at the two of them.
-
-"Oh, well, I guess not," he said. "We could just go across the street to NDQ and get a drink?"
-
-"Okay!" she said, still charitable. Luckily he had cash in his pocket, enough to pay for a Dark and Stormy. At the end of the night, he got her number. A few nights later, they slept in the same bed together, and he was able to kiss her. Noelle had texted him the day previously that she had tested positive for chlamydia, and he was still waiting on his own test results. Eden didn't seem bothered when he told her. It wasn't until a few months into it that she revealed more of the context around their encounter. She had been dating the guy from Ought---the frontman of a sensational new rock band making international headlines---and he had broken her heart. Marc was Eden's rebound, but it turned into something more complex than she had expected.
-
-"You're not basic," she told him. It was the nicest thing anyone had ever said to him.
-
-He had never known anyone to embody the idea of emotional intelligence as aptly as she. She had the power to see through anything, to reveal motivations that became clear to him as she though she were shining a lantern into his soul. He never would have dreamed that his body language was as transparent as she could reveal it to be. Everything became legible as she pulled the wool from his eyes; even his desire to maintain two relationships simultaneously, she saw, generously, as a symptom of the virtue of loyalty. She was generous with him---always interpreting his actions as the misguided expression of a higher virtue. *Loyal to a fault.*
-
-At Cafe Olimpico, she spelled it all out for him.
-
-"If you're in an open relationship...then you can only ever be in relationships with other people in open relationships..." she said. "You aren't increasing your chances, you're limiting them. You're trying to have your cake and eat it, too, by having the fulfillment of a relationship without the constraint of being sexually or emotionally committed to one person. It seems like you're opening yourself up to more possibility, but you're really just reducing your chance of connection to a minority subset of the population. It seems Enlightened to be able to not experience jealousy at the thought of your lover with someone else, but really it's just a half-assed form of loving that insulates you from pain, maybe, in the best case---but it also prevents you from experiencing the joyful peaks of love."
-
-***
-
-"For our first question, I'm going to hand out a sheet with pictures of houses. You have to identify what movie or show the houses are from."
+"(Sorry about that...) Alright everybody! It's time to get started. For our first question, I'm going to hand out a sheet with pictures of houses. You have to identify what movie or show the houses are from."
 
 "Okay, number five is *Breaking Bad* and number seven is *Twilight*. Or is it *Ferris Bueller*?"
 
-"Can't be---that's an 80s movie, and this is millennial trivia. It must be *Twilight*."
+"Can't be---that's an 80s movie, and this is millennial trivia. I say it's *Twilight*."
 
 "Is it really millennial themed?"
 
-"Everyone here is a millennial; they're playing classic millennial music---and every other question has been millennial-based."
+"Everyone here is a millennial; they're playing classic millennial music---and every other question has been based on millennial culture."
 
 "Okay, I'm putting *Twilight*."
 
 ***
 
-A bubble appeared from out of the circuit. "John's died," it said. Daniella's chest contracted.
+Electricity moves through the cables suspended between a network of mini-Eiffels, charging the crystal matrix. Bodies hanging in suspended proximity twitch and quiver as though alive. A bubble appears from out of the circuit. "John's died," it said. Daniella's vision narrowed to the point at the end of a telescope.
 
-It turned out that he had died over a month ago, and his parents were only now beginning to circulate the news. It had only been a month and a half since she last saw him. Just before Christmas. She had visited his small studio apartment in the Mile Ex. The condo was brand new and sparkling clean. It could only have been his parents who paid for it, since he didn't work and his art didn't sell. Just spent all day at home, playing video games between working on his paintings. Sometimes they might meet in a park or pop into a store during the summer, but they rarely saw each other in public.
+It turned out that he had died over a month ago, and his parents were only now circulating the news. It had been a month and a half since she last saw him, just before Christmas. Daniella had visited him at home. The condo was brand new and sparkling clean. It could only have been his parents who paid for it, since he didn't work and his art didn't sell. Instead, he spent all day at home, watching movies and painting.
 
-"What have you been up to?" Daniella asked, standing next to the linoleum counter-top. She opened the wood-and-glass cupboard, pulled one of four glasses out and filled it from the Brita filter on the counter-top. Meanwhile, John sat in the Plang by the window and put his feet up. Daniella took her place on the futon opposite him and looked at her reflection in the dark surface of the TV. The pale yellow light of a floor lamp in the corner lit up their faces with an aggravating lack of shadows.
+"What have you been up to?" Daniella asked. She opened the glass cupboard, pulled one of four glasses out and filled it from the Brita jug standing on the counter-top. Meanwhile, John sat in the Plang by the window and put his feet up. Daniella took her place on the futon opposite him and looked at her reflection in the dark surface of the TV. The pale yellow light of a floor lamp in the corner lit up their faces with an aggravating lack of shadows.
 
 "I've been working," he said.
 
-"Working where?"
+"Working---? Where!" For a moment her heart soared at the thought of how much good a job might do him.
 
-"Here---I stopped renting the studio. It was just a waste of money, since I have a spare room here anyway. I'm working on a new series based on the representation of the female nude in Hollywood films."
+"Here---I stopped renting the studio. I figured it was just a waste of money, since I have a spare room here anyway. I'm working on a new series about the female nude in Hollywood cinema."
 
-"Oh, that sounds...so much like you." She couldn't help thinking to herself that such a series would not actually require him to interact with any aspect of the feminine that he couldn't reach from home. She wouldn't be surprised if it turned out to be his most successful work, since it was based on a lifetime of organic research.
+"Oh, that sounds...so much like you." Of course, he would not actually need to interact with any aspect of the feminine that he couldn't reach from home. She wouldn't be surprised if it turned out to be his most successful series yet, based as it was on a lifetime of organic research.
 
-Now he was dead, and who knows what had happened to his paintings. The message came from Lindsay, who knew his parents and was spreading the word among his friends. John's parents didn't mention the cause of death, but she speculated on the phone.
+Now he was dead, and who knows what had happened to his paintings. The message came from C--, who knew his parents and was spreading word among his friends. John's parents didn't mention the cause of death, but she speculated on the phone.
 
-"It must have been suicide," said the voice in her ears. Daniella was sitting at her desk at work. Smooth wood, a wireless chiclet-style keyboard and matching wireless mouse, two monitors suspended invisibly in front of her. She didn't know where the computer itself was---could feel something blow air on her legs during the summer when she wore a skirt, but never heard it and never had cause to go looking for it.
+"It must have been suicide," said the voice in her ears. Daniella was sitting at her desk at work. Smooth wood, a wireless keyboard and matching wireless mouse, two monitors suspended invisibly in front of her. She sometimes felt air blowing on her legs and guessed that it was her computer, but she never heard it make a sound and never had reason to go looking for it.
 
 "Do you really think he would do that? I spoke to him just a few weeks before he died, he didn't seem suicidal."
 
-"I spoke to him like, two days before he died. He wasn't acting like the Joker or anything, he wasn't being over the top, but when I think back, he just seemed so numb---like he was removed from everything. Like he had given up."
+"I spoke to him like, two days before he died. He wasn't acting like the Joker or anything, but when I think back, he just seemed so numb---like he was removed from everything. Like he had given up."
 
-"Maybe you're right," Daniella said. She spun the wheel of her mouse, smoothly scrolling up and down and aimlessly around her spreadsheets. Not looking for anything, just moving the mouse while her mind wandered. The monitor on the left had her boss's expenses, the other had the company's expenses. It was her job to manage the purchasing and to make sure that each expenditure was documented and brought into the equation.
+"Maybe you're right," Daniella said. She spun the wheel of her mouse, scrolling up and down her spreadsheets. Not looking for anything, just moving the mouse while her mind wandered. The monitor on the left had her boss's expenses, the other had the company's expenses. It was her job to manage the purchasing and to make sure that each expenditure was documented and brought into the equation.
 
-A few more minutes passed before she said goodbye. She tapped the phone lying in front of her to hang up. And now that she was touching it, she pulled up her messages and texted Eric:
+A few more minutes passed before she said goodbye. She tapped the phone lying in front of her to hang up. And now that she was touching it, she might as well pull up her messages and text E--.
 
 "My friend just died. I need to see you tonight."
 
-She called Marc, but he didn't pick up and she wondered: if she felt numb now, and John had felt numb before he decided to end his life, did that mean she was feeling suicidal? Numbness is a sign of something bad. Giving up and shock are close to the same thing.
+She called Marc, but as usual he didn't pick up. If she felt numb now, and John had felt numb before he decided to end his life, did that mean she was close to suicidal? The numbness is a bridge between shock and defeat. She could see a whole new territory just beyond.
 
-Hours passed as she sat at her desk, spinning the mouse wheel, occasionally getting up to drink some water or use the bathroom or even to just look out the window, where the sun was already down and she saw nothing but halogen streetlights shining on dirty piles of snow. Then she found herself at home, with her friends all around her. Eric sat on the white leather couch next to her; Ophelia purred behind them. Heather was in the kitchen pouring tea.
+Hours passed as she sat at her desk, spinning the mouse wheel, occasionally getting up to move around aimlessly and stare blindly at her surroundings. The sun had already set and she knew that outside there was nothing but halogen streetlights shining on dirty piles of snow. Then she found herself at home, with her friends all around her. Eric sat on the white leather couch next to her; Ophelia purred behind them. C-- was in the kitchen making tea.
 
-"You were wanting to be in an open relationship. You wanted me to meet Yas, so it's okay if you meet her, right?" Eric was speaking quietly into her ear. Daniella barely heard him. She didn't understand why he was speaking so quietly. She was still at her desk, scrolling unseeingly through spreadsheets and data forms.
+"You were wanting to be in an open relationship. You wanted me to meet Y--, so it's okay if you meet her, right?" E-- was speaking quietly into her ear. Daniella barely heard him. She didn't understand why he was speaking so quietly. She was still at her desk, scrolling unseeingly through spreadsheets and data forms.
 
-"You're right, it's fine," she said blandly, not understanding what she was saying yes to.
+"You're right, it's fine," she said blandly.
 
-Heather entered, and her eyes immediately narrowed into slits when she saw the two of them there. Her friend was sat unblinking, staring straight ahead like she had just come back from war, while some man she didn't know was curled up next to her, whispering into her ear. He had the very posture of a wormtongue. 
+C-- entered, and her eyes immediately narrowed when she saw the two of them there. Her friend sat unblinking, staring straight ahead like she had just come back from war while some man she didn't know was curled up next to her, whispering into her ear.
 
-"Here, take this," she declared forcefully, shoving the hot mug into her friend's hands. She sat next to her, using the weight of her body to move Daniella's centre of gravity in her direction, away from Eric. They made eye contact, and for a moment it seemed like she could see her at the end of a long corridor.
+"Here, take this," she said forcefully, shoving the hot mug into Daniella's hands. She sat next to her, using the weight of her body to shift Daniella's centre of gravity on the couch in her direction, away from E--. They made eye contact, and for a moment it seemed like Daniella was looking back at her as though from a great distance.
 
 "Hey," she said, a smile moving her cheeks.
 
-An hour or so later, there was a knock at the door. Eric jumped up. By that time, Erika and Jane had joined, and the atmosphere was becoming more festive. Daniella had music playing on the speaker and was holding forth animatedly to her friends. When Eric re-joined them with Melissa, things took another turn, and together with Heather and Jane she retreated into her bedroom.
+An hour later, there was a knock at the door. E-- jumped up. By that time, M-- and J-- had joined, and the atmosphere was becoming more festive. The Deftones were playing on the stereo, and Daniella was holding forth animatedly to her friends. When E-- re-joined them with the girl he had invited, things took another turn, and the girls retreated into Daniella's room.
 
-"What the fuck is going on out there?" Jane asked.
+"What the fuck is going on out there?" J-- asked.
 
-"More of this open relationship bullshit," Heather said, eyes rolling angrily. The two of them were not well-disposed towards their friend's style of building relationships, even if they were supportive in her efforts to find love. It wasn't that either of them had particular cause to distrust Eric---sometimes, Heather even felt bad for him: it wasn't his fault, after all; he was just playing along with the terms Daniella set---but she wasn't loyal to him. She thought Daniella ought to lose him once and for all, and then move on to a more healthy and conventional relationship style. But it wasn't for her to say.
+"More of this open relationship bullshit," C-- said, rolling her eyes angrily. The two were not well-disposed towards their friend's style of relationship-building, even if they were supportive in her efforts to find love. It wasn't that either of them had particular cause to distrust E-- ---sometimes, C-- even felt bad for him. It wasn't his fault, after all; he was just playing along with the terms Daniella set---but she wasn't loyal to him. She thought Daniella ought to lose him once and for all, and then move on to a more healthy and conventional relationship style. But it wasn't for her to say.
 
 "It's fine," Daniella said, fixing her makeup in front of the wardrobe mirror. "I said he could have her over."
 
-"You're fine with your boyfriend making out with some slut, in your apartment, the same day you hear about your friend dying?" Jane said, pulling her head back in from a peek out the door. "Because that's what's happening, girl."
+"You're fine with your boyfriend making out with some slut, in your apartment, the same day you hear about your friend dying?" J-- said, pulling her head back in from a peek out the door. "Because that's what's happening, girl."
 
 "Really?"
 
-Daniella stuck her head out the door and caught on eyeful of Eric and Melissa, sitting on the couch with their arms wrapped around each other, faces pressed against each other.
+Daniella stuck her head out the door and caught on eyeful of E and the girl, sitting on the couch with faces pressed against each other.
 
-"I mean, what kind of girl even does that?" Erika said, bringing up the obvious.
+"I mean, what kind of girl even does that?" J-- said, bringing up the obvious.
 
-"I know!" Heather was sitting on the edge of her bed, typing furiously into her phone, appraising her boyfriend of everything that was happening.
-
-*"Hey, do you want to hang out?"*
-
-*"What's going on?"*
-
-*"What are you up to tonight?"*
-
-*"Working, as usual."*
-
-*"Marc, call me. SOS."*
-
-*"I'm at work. I can't go out, I have to get up early to go to work."*
+"I know!" C-- was sitting on the edge of her bed, typing furiously into her phone. Her boyfriend wanted to know what was happening.
 
 ***
 
-Charles tells Marc a story from Edmonton.
+"It's Spring Break," A-- was saying. "I thought I would do something crazy tonight and go to the cinema."
 
-"At some point, I remembered that I was just one of at least five guys this woman kept in her orbit, each one to perform a different function. She called me to come across town to pick her up one night because I was the reliable one. That was my function. Because that's what women do: they keep men around them, alluring them with small graces of their femininity, all in order to make themselves feel better."
+"Oh---I want to come!" Marc said.
 
-They were sitting on St-Laurent in front of Cafe Bravo. It had been neither of their idea to meet there, but after much back-and-forth with Daniella, Marc had finally arranged a meeting in order to catch up. He invited Charles to join them because he knew that she would not be on time and he felt like talking. He was wearing a vintage brown wool suit that he had picked up from Chainon earlier that week in anticipation of Audrey's birthday dinner at Salle Climatisee. The ostensible focus of this meeting was to get feedback on his outfit. He, being a millennial, felt that it was too serious, too intentional, and was desperate to find a way to undercut it. At the moment, he wore a floppy patchwork baseball cap and hiking shoes. The highlights in the shoes were orange, which matched both the suit and the cafe. Perhaps it was for that reason that multiple people stopped to take photos of the two of them. Perhaps it was just the Spirit of spring.
+"Okay...well, *Les jours parfait* is playing at 9:10 at Cinema Beaubien. We can meet there at 9 o'clock---sharp! Don't be late."
 
-Daniella was an hour late, and Charles's story had Marc thinking.
+The snow was falling gently as he walked along Beaubien. The crowds were dispersed, the sun long set. The old couple sat in front of them moved to a seat several rows down because they couldn't stop talking through the previews. The film was written and directed by an old German man, starring an old Japanese man. His character woke up on his tatami mat and watered his plant cuttings. He bought a coffee from the vending machine in the courtyard of his small apartment building, listened to music on cassettes as he drove his van into Tokyo. There, he dedicated himself with loving assiduity to a humble task, sometimes pausing to enjoy the spectacle of sun and wind through the trees. He stayed open to the opportunities for play that emerged out of the unpredictable movements of the city. 
 
-"You know that I used to associate myself with incels---only a few short months ago, in fact. Not subjectively, because I have never identified with any aspect of incel ideology, which is all quite hateful and reactionary. But objectively I felt like an incel, in the sense that I felt cut off from the world and incapable of ever forming a connection with it. I felt like an involuntary celibate. And one part of the incel worldview, a toxic part, is that women take men for granted because they live in abundance; while men often tend towards supplication because we are conditioned to perceive the world in terms of scarcity. That is the framing, and as a framing, it does not actually correspond to external reality. It can certainly correspond to an inner reality. But our internal framings of external reality are conditioned by contemporary modernity, which is sick and twisted and designed to work against our interests. It seems easy enough to say that women are *conditioned* to take men for granted, and that men are conditioned to be spiteful. Daniella is someone who has fully given herself to the Contemporary. Like Cipher in *The Matrix*, she's eating the steak and selling out her friends. She was born before the seismic shift of the internet-age---she's older than us, for God's sake, she remembers it better---and yet she asked to be *put back in* the pod. She's got the gills and she's breathing through the goo of modern alienation. Daniella has in fact accepted and embraced her conditioning; she took Eric for granted, perhaps rightfully so given everything I've learned about him; and she's taking us for granted right now. As long as I've known her, I've tried to be understanding of her character---she's flighty, she can't seem to retain anything that I tell her. I've tried to forgive and appreciate her for what she is and not put any undue expectations on her...but as we're sitting here, waiting for her, and she's an hour late, I have to accept that it is not simply that she is ditzy: she's taking us for granted. And I am not a suitor, not a lover, merely her friend---and we still cannot get to a place of mutual respect."
+Then the plot picked up; "some people live in different worlds," the old man explained to his niece in one of his few lines of dialogue. She had appeared on his doorstep without warning, fleeing her rich, domineering mother. A man dying from cancer appears, and he and the old man played a game of dancing on each other's shadows. The ending came unexpectedly, but it hit Marc with a force that the ending was there---absent any resolution, the plot having passed like a dream. The close-up image of an old guy hovering on the edge of laughing and crying. A life reduced to nothing but ritual, not through love of it but through necessity. A life completely knocked off balance by the introduction of chaos represented by the niece. This being the basis of life, the lesson of the film is that the man's life was misaligned.
 
-***
-
-"It's Spring Break," Audrey was saying. "I thought I would do something crazy tonight and go see a movie."
-
-"Oh---I want to come!"
-
-"Okay...well, *Jours parfait* is playing at 9:10 at Cinema Beaubien. We can meet there at 9 o'clock---sharp! Don't be late."
-
-The snow was falling gently as he walked along. She wore a bright green knit that complemented her complexion. The old couple in front of them moved to a seat several rows down because they couldn't stop talking through the previews. It was an old man's film, made by a man in his 80s and whose narrative revolved around another old man. He wasn't surprised when, as the credits began to roll, she let out an exasperated "*interminable*." He himself had related intensely to the story of a man who lived a lonely life, transplanted from another, more authentic era into this modern world of crystal palaces and Eiffel towers. An old man who used ritual to get him through the day: a routine that, once destabilized even by a rising action as subtle as that of this film, reveals just how precarious a life that lies balanced on external supports truly is. But what kind of life is not balanced by external supports? As they walked along the quiet street, late on a Sunday night, as much as he was focused on following her---as much as he was drowning in the pleasure of their time together---the other part of his mind could not stop. Which part of the man's life was he not supposed to emulate? Which aspect of his life reveals that it is not, in fact, the good life?
-
-"The loneliness," is the conclusion he reached. Not the calmness, not the stillness or quietude; but just the fact that the man's life was evidently not able to tolerate any degree of chaotic incursion without initiating a break down. He looked at Audrey as they were stopped on the corner of her street, where he had walked with her after work many times. She handed him her phone so he could enter his number. Here was chaos; here, he knew, was life and death all wrapped up in one. The roiling turmoil beneath the surface of Being, out of which life emerged and into which life disintegrated. His job was to channel that directionless energy. To clip the leaf of the tree so that, ten years down the line, it would grow in a particular direction. Her curls glinted as she handed him her phone.
-
-"Give me your number."
+Marc wasn't surprised when, as the credits began to roll, A-- let out an exasperated "*interminable*." Although he had related intensely to the old man living his quiet, lonely life---transplanted from another era, drowning in the modern world of crystal palaces and Eiffel towers. An old man who used ritual to get him through the day: a routine that, once destabilized even by a rising action as subtle as this film's plot, reveals just how precarious a life that lies balanced on external supports truly is. But what kind of life is not balanced by external supports? As they walked down the quiet street, late on a Sunday night, as much as he was focused on following her---as much as he was drowning in the pleasure of their time together---the other part of his mind could not stop. Which part of the man's life was he not supposed to emulate? Which aspect reveals that he was not, in fact, living the good life? Only the final image of a face hovering between crying and laughing.
