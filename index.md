@@ -40,11 +40,9 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </li>
 <li>
 <a href="/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
-<em>Interview with Jasper Bernes</em>
 </li>
 <li>
 <a href="/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
-<em>Interview with Erin Manning and Brian Massumi</em>
 </li>
 <li>
 <a href="/blog#2023-03-18">Return to Drones</a>

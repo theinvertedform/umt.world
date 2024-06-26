@@ -1,7 +1,7 @@
 ---
 title: The Truth is Haunted
 layout: post
-description: Technology sutures the gap between faith and Enlightenment, but the uncanny still seeps through.
+description: Technology sutures the gap between faith and Enlightenment, but the uncanny seeps through.
 tags:
   - visual culture
   - modernity
