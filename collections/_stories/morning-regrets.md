@@ -2,7 +2,6 @@
 title: The Path to Self-Consciousness
 description: Fear of life at the moment between sleep and waking.
 published: no
-date:
 ---
 
 Children cry upon waking, to be dragged unwilling from the womb of sleep and forced to face the world again. Men with uneven temperaments will wake up bitter. Relationships fall apart at the seams when his morning grumpiness reveals a dissatisfaction that betrays the implicit premise of love. Love should be light enough to orient the soul; enough to lighten the pale triviality of everything that weighs down the day. Work is put in its proper place as nothing other than a means of expressing love. If the besotted wakes up unhappy one day, such a mood reveals that he has turned his back on the nominal centre of his life and fallen into idolatry. Money, health, ambition: love gives us respite from our unfortunate obligation to these instruments, whose function is to cleave a place in the world. A bower fit to shade the beloved, a shelter from cruel necessity where love's flourishing promises an earthly paradise.

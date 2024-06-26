@@ -1,9 +1,9 @@
 ---
 title: Index
-abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website itself is an experiment in new media design and experimental writing.
+abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website is an experiment in new media design and experimental writing.
 
 
-For more about the philosophy of the website, visit the [*About*](/about) page; for more about me, and for contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes critical writing on [films](/index#film) and [art](/index#art); essays and interviews on philosophy and politics; and a fictionalized [diary](/blog)."
+For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes critical writing on [films](/index#film) and [art](/index#art); essays and interviews on philosophy and politics; and a fictionalized [diary](/blog)."
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
@@ -71,7 +71,7 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </section>
 
 <section id="film">
-<h1 id="film"><a href="https://letterboxd.com/theinvertedform/films/diary">Film Diary</a></h1>
+<h1 id="film"><a href="https://letterboxd.com/theinvertedform/films/diary">My Life in Movies</a></h1>
 <ul class="section-link-list">
 {% for post in site.film reversed limit: 20 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.name }}</a> ({{ post.year }})
@@ -81,10 +81,10 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </ul>
 </section>
 
-<section id="art">
-<h1 id="art"><a href="/index#art">Art Criticism</a></h1>
+<section id="essays">
+<h1 id="essays"><a href="/index#essays">Essays</a></h1>
 <ul class="section-link-list">
-{% for post in site.art reversed limit: 10 %}
+{% for post in site.essays reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
@@ -92,10 +92,10 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </ul>
 </section>
 
-<section id="literary-criticism">
-<h1 id="literary-criticism"><a href="/index#literary-criticism">Literary Criticism</a></h1>
+<section id="reviews">
+<h1 id="reviews"><a href="/index#reviews">Reviews</a></h1>
 <ul class="section-link-list">
-{% for post in site.criticism reversed limit: 10 %}
+{% for post in site.reviews reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
@@ -103,10 +103,10 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </ul>
 </section>
 
-<section id="marxism">
-<h1 id="marxism"><a href="/index#marxism">Marxism</a></h1>
+<section id="interviews">
+<h1 id="interviews"><a href="/index#interviews">Interviews</a></h1>
 <ul class="section-link-list">
-{% for post in site.marxism reversed limit: 10 %}
+{% for post in site.interviews reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
@@ -114,16 +114,18 @@ For more about the philosophy of the website, visit the [*About*](/about) page; 
 </ul>
 </section>
 
-<section id="philosophy">
-<h1 id="philosophy"><a href="/index#philosophy">Philosophy</a></h1>
+<!--
+<section id="stories">
+<h1 id="stories"><a href="/index#stories">Stories</a></h1>
 <ul class="section-link-list">
-{% for post in site.philosophy reversed limit: 10 %}
+{% for post in site.stories reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
 {% endfor %}
 </ul>
 </section>
+-->
 
 <section id="podcast">
 {% assign episodes = site.podcast %}

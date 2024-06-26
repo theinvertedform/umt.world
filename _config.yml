@@ -53,22 +53,19 @@ collections:
     permalink: "/blog#:year-:month-:day"
   podcast:
     permalink: "/podcast#:title"
-  philosophy:
+  stories:
     output: true
     permalink: "/:title"
-  marxism:
+  interviews:
     output: true
-    permalink: "/:title"
-  art:
+    permalink: "/interviews/:title"
+  essays:
     output: true
-    permalink: "/reviews/:title"
+    permalink: ":title"
   film:
     output: true
     permalink: "/reviews/:title"
-  books:
-    output: true
-    permalink: "/reviews/:title"
-  criticism:
+  reviews:
     output: true
     permalink: "/reviews/:title"
 collections_dir: "collections/"

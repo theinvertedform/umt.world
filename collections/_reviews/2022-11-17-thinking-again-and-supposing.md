@@ -1,7 +1,7 @@
 ---
 title: Thinking Again and Supposing
 layout: post
-description: Conceptual drawings and installation photography by [Sarah Greig](http://www.sarahgreig.ca/) and [Therese Mastroiacovo](https://fonderiedarling.org/en/th%C3%A9r%C3%A8se-mastroiacovo) at the Leonard and Bina Ellen Gallery.
+description: Conceptual drawings and installation photography by [Sarah Greig](http://www.sarahgreig.ca/) and Therese Mastroiacovo.
 abstract:
 tags:
   - reviews
