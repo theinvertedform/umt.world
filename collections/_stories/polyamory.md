@@ -3,6 +3,7 @@ title: The Crystal Palace Underwater
 author: Uriah Marc Todoroff
 date: February 3, 2024--\today
 description:
+published: no
 ---
 
 The Crystal Palace was designed by some rough-hewn engineer in hopsack, a rectangular man who elbowed his way to the front of the crowd and, with sweat beading on his corduroy brow, drew up a blueprint using compass and square. Before the Palace had even been relocated to where it could burn to the ground, Eiffel had already began his construction. The two buildings were conceived by the laborious assiduity of men who never in their lives warmed by the divine spark. They were men who forced their way through the hard ranks of the technical college---unlike the architect, who spent his studies at the Royal Academy in idyll daydream. He had been sat atop his pedestal in calm reverie when the engineers knocked him roughly sprawling to the feet of the mob.
