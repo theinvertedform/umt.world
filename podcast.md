@@ -1,5 +1,5 @@
 ---
-title: *Footnotes to Endnotes*
+title: Footnotes to Endnotes
 description: Footnotes to Endnotes is your communizer radio hour.
 abstract: A podcast collaboration between myself and Owen Gilbride. Episodes are currently offline, but I'm working on getting things back. Someday I hope to return as an irregular interview show.
 status: on hiatus

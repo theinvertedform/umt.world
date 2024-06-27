@@ -1,6 +1,5 @@
 ---
 title: Tags
-layout: meta
 description: Archive of posts sorted by tags.
 abstract: The tagging system is currently BROKEN!
 tags:
