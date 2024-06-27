@@ -2,7 +2,6 @@
 title: About This Website
 description: An artistic manifesto. Theorization, technical implementation, and road-mapping. 
 abstract: "This website is conceived of as a hypermedia literary experiment. It begins with my writing environment and its technical implementation; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* involves literary forms that are themselves experimental. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine interface design, web design, and literary form to create a new kind of book, at once memoir and socially-committed cultural critique."
-layout: post
 toc: true
 tags:
   - outsider art

@@ -6,7 +6,6 @@ tags:
   - German Idealism
   - history of philosophy
 status: nothing yet
-layout: meta
 published: false
 ---
 

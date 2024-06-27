@@ -1,6 +1,5 @@
 ---
 title: A Squat Foundation for the Base
-layout: newsletter
 toc: true
 ---
 

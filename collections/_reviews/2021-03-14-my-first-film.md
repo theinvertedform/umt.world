@@ -10,7 +10,6 @@ abstract: Zia Anger's performance piece was particularly suited to online adapta
 status: rough draft
 modified: 2021-04-24
 toc: true
-layout: post
 ---
 
 After wrapping production on her first film in 2012, alternately titled *Gray* and *Always All Ways, Anne Marie*, Zia Anger submitted it to 40 different film festivals and did not gain entry into any. When she tried to have the credit's "post-production" status removed from [her IMDB profile](https://www.imdb.com/name/nm2851641/), "it just wrote “abandoned”...because I had never premiered them at a festival, films I had made were considered abandoned." This is the inciting incident that sets off the narrative of *My First Film*, a hybrid form of new media, artist talk, and theatrical performance that ran at Metrograph before winding up as a livestream performance at the beginning of the Pandemic Age. *My First Film* recycles the body of Anger's "abandoned" crowd-funded feature, creating a new work exploring institutional power while pushing the boundaries of streaming content.

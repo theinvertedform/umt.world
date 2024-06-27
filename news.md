@@ -2,7 +2,6 @@
 title: News
 description: Act fast and sign up for the newsletter [here](https://umtworld.substack.com)!
 abstract: The newsletter proposes a regular account of updates and additions to the archive. It is the ongoing documentation of my own practise, focused around the collection and curation of a digital archive.
-layout: meta
 ---
 
 The newsletter will track additions and modifications to my general archive, including research as well as personal effects. The website is only intended to be the synthetic product of a general collection. The current technical plan is to use version control to track all my personal files. Documents, photos, screenshots, downloads (music, movies, software, random files/meme images), bibliographic entries, configuration files, public repos like the website... Each directory has its own index cataloging every item in the directory, using variables from the documents, but also including data either collected in the index file, or drawn from a bibliography. The point being to track additions of binary files, and to document what they are. All of these files are tracked using git, so that at the end of the month we can just generate a diff that will show us what has been added, what modified. The directories function as section headings. The newsletter itself gives us an occasion to comment on the changing nature of the archive, the direction we are moving in, etc.
