@@ -1,8 +1,8 @@
 ---
 title: Diaries
 layout: post
-description: "Selections from a diary. Emotional patterns, ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
-abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of art and living---unfinished until the *point final*. Nothing here should be taken as 'true,' but everything is based in reality.
+description: "Selections from a diary. Patterns, ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality.
 
 
 The writing on this page is influenced by New Narrative, online writing, diary writing, the autobiography, contemporary art and cinema, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
@@ -45,12 +45,12 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a>
 </h2>
 {% for post in month.items reversed %}
-<section class="blog-post" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+<section class="blog-post" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %e, %Y." }}">
-		<time itemprop="datePublished">{{ post.date | date: '%d (%a)' }}</a>
-{% if post.title %}<span class="blog-post-title">{{ post.title }}</span>{% endif %}
+		<time itemscope itemprop="datePublished">{{ post.date | date: '%d (%a)' }}</a>
+{% if post.title %}<span class="blog-post-title" itemscope itemprop="title">{{ post.title }}</span>{% endif %}
  		</time>
 </h3>
 {% if post.description %}<span class="blog-post-description">{{ post.description }}</span>{% endif %}
