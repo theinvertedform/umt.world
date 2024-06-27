@@ -81,7 +81,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "collections"
+      path: ""
         #type: "documents"
     values:
       layout: "post"

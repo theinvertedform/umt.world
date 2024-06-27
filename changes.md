@@ -1,7 +1,6 @@
 ---
 title: Changelog
 description: Rolling list of updates posted to umt.world.
-layout: meta
 abstract: Changes posted to the umt.world website. This is a complicated page that I hope to one day integrate with github. I am not close to figuring it out. A known bug is that blog post.url doesn't work correctly. The concept of the page is loose, as well, but to make it at all worthwhile, it needs to include data on modifications to the source code. We also need to programatically set the categories. It's a mess.
 toc: true
 status: ongoing

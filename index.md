@@ -4,6 +4,7 @@ abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a write
 
 
 For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes critical writing on [films](/index#film) and [art](/index#art); essays and interviews on philosophy and politics; and a fictionalized [diary](/blog)."
+layout: home
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 

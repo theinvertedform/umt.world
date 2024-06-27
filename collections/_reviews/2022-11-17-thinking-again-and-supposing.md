@@ -1,6 +1,5 @@
 ---
 title: Thinking Again and Supposing
-layout: post
 description: Conceptual drawings and installation photography by [Sarah Greig](http://www.sarahgreig.ca/) and Therese Mastroiacovo.
 abstract:
 tags:

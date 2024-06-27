@@ -2,7 +2,6 @@
 title: About the Author
 description: "My life story, work and academic experience; psychological profiles, political profiles, and philosophical worldview; data representing my tastes and media consumption."
 abstract: "I am a communist writer, philosopher, and critic of contemporary culture. My area of historical interest is the modern leading into the contemporary; my object of study is visual culture. My research is focused on creating an historical overview of the interplay between mass media and the avant-garde, relying on philosophies of technology, media theory, and historical materialism. Some of my questions include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to historical precedents? What is the relation between the modes of production, and the aesthetic and social lives of a given period? I work in the traditions associated with German Idealism, Marxism, Frankfurt School critical theory, and value-form theory."
-layout: post
 toc: true
 tags:
   - biography

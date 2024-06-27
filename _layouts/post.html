@@ -16,12 +16,12 @@ layout: default
 		</div>
 			{% endif %}
 		<div id="page-metadata-block">
-      		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">
+      		<time class="dt-published" datetime="{{ page.date }}" itemprop="dateCreated">
         		{%- assign date_format = "%b %-d, %Y" -%}
 				{{ page.date | date: date_format }}
 			</time>
 			{% if page.last_modified_at %} &ndash; 
-      		<time class="dt-modified" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+      		<time class="dt-modified" datetime="{{ page.last_modified_at }}" itemprop="dateModified">
 			{{ page.last_modified_at | date: date_format }} 
 			</time>
 			{% endif %}
