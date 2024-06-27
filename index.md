@@ -13,7 +13,7 @@ layout: home
 <aside class="abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="new">
-<h1><a href="/changes">Newest</a></h1>
+<h1><a href="/changes" title="Reverse chronological list of additions to my published canon.">Newest</a></h1>
 <ul class="section-link-list">
 {% for collection in site.collections %}
 {% unless collection.label == "blog" %}
@@ -34,7 +34,7 @@ layout: home
 </section>
 
 <section id="notable">
-<h1><a href="#notable">Notable</a></h1>
+<h1><a href="#notable" title="Writing and other media that I am most proud of, and which is most representative of my project.">Notable</a></h1>
 <ul class="section-link-list">
 <li>
 <a href="/reviews/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
@@ -58,7 +58,7 @@ layout: home
 </section>
 
 <section id="blog">
-<h1><a href="/blog">Diaries</a></h1>
+<h1><a href="/blog" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
 {% assign sortedPosts = site.blog | sort: 'date' | reverse %}
 {% for post in sortedPosts limit: 10 %}
@@ -70,7 +70,7 @@ layout: home
 </section>
 
 <section id="film">
-<h1 id="film"><a href="https://letterboxd.com/theinvertedform/films/diary">My Life in Movies</a></h1>
+<h1 id="film"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
 <ul class="section-link-list">
 {% for post in site.film reversed limit: 20 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.name }}</a> ({{ post.year }})
@@ -81,7 +81,7 @@ layout: home
 </section>
 
 <section id="essays">
-<h1 id="essays"><a href="/index#essays">Essays</a></h1>
+<h1 id="essays"><a href="/index#essays" title="Essays are more concerned with a topic than a specific object.">Essays</a></h1>
 <ul class="section-link-list">
 {% for post in site.essays reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
@@ -92,7 +92,7 @@ layout: home
 </section>
 
 <section id="reviews">
-<h1 id="reviews"><a href="/index#reviews">Reviews</a></h1>
+<h1 id="reviews"><a href="/index#reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
 <ul class="section-link-list">
 {% for post in site.reviews reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
@@ -103,7 +103,7 @@ layout: home
 </section>
 
 <section id="interviews">
-<h1 id="interviews"><a href="/index#interviews">Interviews</a></h1>
+<h1 id="interviews"><a href="/index#interviews" title="Interviews conducted by me, and of me.">Interviews</a></h1>
 <ul class="section-link-list">
 {% for post in site.interviews reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
@@ -128,7 +128,7 @@ layout: home
 
 <section id="podcast">
 {% assign episodes = site.podcast %}
-<h1><a href="/podcast">Podcast</a></h1>
+<h1><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
 <ul class="section-link-list">
 {% for post in episodes reversed limit: 10 %}
 <li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
