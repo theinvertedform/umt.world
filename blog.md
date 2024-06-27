@@ -45,11 +45,12 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a>
 </h2>
 {% for post in month.items reversed %}
-<section class="blog-post e-content" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="blog-post e-content" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/blog#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
-		<time itemprop="datePublished" datetime="{{ post.date }}">{{ post.date | date: '%d (%a)' }}</a>
+		<time class="dt-published" itemprop="datePublished" datetime="{{ post.date }}">{{ post.date | date: '%d (%a)' }}
+	</a>
 {% if post.title %}<span class="blog-post-title" itemprop="name">{{ post.title }}</span>{% endif %}
  		</time>
 </h3>
