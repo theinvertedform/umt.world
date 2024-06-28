@@ -87,16 +87,6 @@ a {
 .markdownBody a {
 	color: #111;
 
-/*	--link-underline-background-color: #161616;
-	--link-underline-gradient-line-color: currentColor;
-	background-image: linear-gradient(var(--link-underline-gradient-line-color),
-									 var(--link-underline-gradient-line-color));
-	background-size: 1px 1px;
-	background-repeat: repeat-x;
-	background-position: 0% calc(100% - 0.1em); */
-
-	/*  Disable oldstyle nums in underlined links because the oldstyle nums are almost subscript-like and overlap */
-
 	font-variant-numeric: lining-nums;
 }
 
@@ -132,12 +122,14 @@ section h1 {
 	margin: 1.125em 0 0 0;
 	font-size: 1.5em;
 	line-height: 1.125;
-	box-shadow: none;
 	text-align: left;
-	font-weight: bold;
 	padding: 0;
 	letter-spacing: -0.75px;
 }
+
+h1.heading {
+	text-align: right;
+	}
 
 section > :first-child > a {
 	border-bottom: none;
@@ -153,8 +145,8 @@ section > :first-child > a {
 	margin: 2px 0 0 0;
 	}
 
-#markdownBody #blog .section-link-list li a {
-	font-family: sans-serif;
+#markdownBody #blog .section-link-list li {
+	list-style-type: square;
 }
 
 .section-link-list-post-title {
@@ -181,18 +173,6 @@ footer {
 	}
 
 /* post layout */
-
-header.post-header {
-	margin: 0;
-	}
-
-header {
-	padding: 0 2em;
-	}
-
-header h1 {
-	text-align: center;
-	}
 
 #page-metadata {
 	line-height: 1.5;
@@ -227,6 +207,7 @@ span.page-status {
 	margin: 2em auto;
 	font-size: 1rem;
 	font-family: sans-serif;
+	box-shadow: -1rem 0 0 0 #fff, 2.25rem 0 0 0 #fff;
 }
 
 #TOC > ul {
@@ -396,10 +377,6 @@ li {
 	padding: 0 0 0.65em 0;
 }
 
-#TOC li {
-	padding: 0;
-	}
-
 ol {
 	counter-reset: count;
 	list-style-type: decimal;
@@ -427,14 +404,15 @@ h1 {
 	letter-spacing: -1px;
 }
 
-h2 {
+h2.heading {
 	margin: 0.75em 0;
-	text-align: center;
+	text-align: left;
 	font-variant: small-caps;
 	font-size: 1.25em;
 	line-height: 1.15;
 	font-weight: 600;
 	position: relative;
+	border-bottom: 1px dotted #888;
 }
 
 h2 a {
@@ -533,7 +511,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 	#TOC {
 		max-width: 285px;
-		margin: 0 2rem 1.5rem 0;
+		margin: 0 2.5rem 1.5rem 0;
 		padding: 0.5em 0.5em 0.75em 0.75em;
 		position: relative;
 		float: left;
@@ -542,6 +520,11 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	#TOC > ul {
 		column-count: 1;
 	}
+
+	#TOC li {
+		padding: 0;
+	}
+
 
 	.section-nav ul {
 		margin-top: 0.2em;
