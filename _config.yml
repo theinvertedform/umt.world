@@ -1,13 +1,15 @@
 # Site settings
 title: umt.world
+description: The website of Uriah Marc Todoroff, a writer interested in contemporary life. Combines hypertext design and experimental writing.
 author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
-description: This is the personal website of Uriah Marc Todoroff.
+twitter:
+  username: theinvertedform
+  card: summary
+github_username:  theinvertedform
 baseurl: ""
 url: "https://umt.world"
-twitter_username: theinvertedform
-github_username:  theinvertedform
 permalink: /:title
 logo: /assets/images/logo.png
 iis_slider_array: []
