@@ -48,6 +48,8 @@ pandoc:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
     - bibliography: "assets/bibliography.bib"
     - citeproc
+    - from: "markdown+gfm_auto_identifiers"
+    - section_divs
 
 # Collections
 collections:

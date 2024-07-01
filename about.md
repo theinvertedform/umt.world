@@ -20,6 +20,8 @@ date: 2022-09-11
 
 Technical literacy is on the decline, even as we have never been more dependent on complex machines. The social is facilitated by the virtual---conventions of the interface have replaced traditional social codes---start-up companies have replaced institutional bureaucracies. Screens and sensors are everywhere: when John Anderton goes on the lam in *Minority Report* (2002), he needs to undergo surgery to replace his eyeballs because of the omnipresent retinal scanner. Technological mediation is an *a priori* for those born into the Digital Age. An ever-increasing crisis of alienation has led the population at large to desperately gasp for the numbing ether of *ataraxia*. A smoothness brought on by technical optimization of all aspects of daily life. There is a powerful incentive for those who profit from technology to limit mass understanding of the same devices that have become another bodily organ. Digital culture and all its social potential has been confined to a set of terms strictly delineated by the ruling class. Tech conglomerates and hardware manufacturers have more power than states, but without the hindrance of historical precedent. Digital life exists because the manufacture of personal computers and online platforms is highly profitable.
 
+# Origins of Language and the Graphic Arts {.heading}
+
 And yet---life has always been mediated by technology. The record of civilization going back to the first cave paintings in 35,000 BCE is the unfolding of the process of society's relationship to technology. How do we evaluate our present dependence without falling into the trap of thinking that the past was somehow better? Are we on a natural path to cyborg transhumanism? Is Spirit doomed to self-alienation? No matter what, we should not convict the fallacy that Hume identified so well: *correlation does not equal causation* [@hume1995]. The fact of technology does not mean that all technologies are good.
 
 The thing is attached to society like a parasite. The fact that technology has always existed in some form, everywhere, is a strong argument for its necessary relation to society. However, this tells us nothing about the forms of technology we live with today. For those for whom the Digital Age is *a posteriori*, it may be easy to see it is just another product sold to the proletariat against its own interests. But how do we remain progressive, while acknowledging decline?
@@ -32,27 +34,19 @@ I do not claim more than a minimum degree of technical literacy acquired through
 
 [^1]: “Vim - the Ubiquitous Text Editor.” welcome home : vim online. Accessed June 3, 2024. https://www.vim.org/.
 
-# What kind of book is a website?
+# Writing Online {.heading}
 
 My writing practise includes critical writing, research, and fiction. The last is conceived of as belonging to traditional publishing, and as of yet is only a part of the website project through what influence it may have on my style. The first depends on a constant, renewed encounter with primary works, which itself is a pragmatic reminder to avoid settling into a scholarly mindset. I am interested in the political--economic character expressed in culture. My research into the history of art is the case-work of my philosophical research into the relationship between art and society. I follow an intuition that there is an avenue through culture for the optimism of the revolutionary. 
 
 I am always interested in critical modernism, as well as the precursors to digital aesthetics that I have found in conceptual art and video work. I have a major interest in new media, and am working to develop an historical materialist understanding of digital culture, or the technologically-mediated, neurotically-reinforced visual paradigm. My literary interests are in writers who move between philosophy and fiction. Dostoyevsky, Bolano, and Thomas Mann represent the height of what I have seen in literature; their accomplishment depends critically on the depth of their philosophical feeling. Nietzsche and Kierkegaard were two formative writers who showed me that it was also possible to move in the opposite direction, using literary devices in service of the medium of thought. I am interested in writers whose style shifts between philosophy and narrative, a diaristic first-person and literary narration; writers like W.G. Sebald, Maggie Nelson, Ben Lerner, and Jean-Jacques Rousseau.
 
-## Tentacles
+## Tentacles {.heading}
 
-The project that I have described has a political valence that need not be overstated. It is true that technical literacy is poor, especially relative to how popular technology is. It is non-trivial that the proletariat is exploited in virtue of its subjectively-gratifying relationship to technology; however, one artist combining their writing practise with a contingent aesthetic attraction to computer systems is not politically important. My own feelings on the matter are that the entire digital social structure ought to be abolished. The pragmatism of controlling the centre of one's existence online is especially relevant, given the present instability of the platforms we might have once taken for granted. However, a website still needs to be connected to the web. An essential aspect of the project is pre-formatted syndication across social media platforms using a plugin system. Pieces of code can be added to the website that will allow for either scraping content from an external source (i.e. film reviews from Letterboxd), or posting content to social media automatically. The goal is to collect statistical data that will help me maximize an instrumental use of social media. This will not be enough to drive engagement absent my own meaningful participation in any online networks, but it's something to start with.
+The project that I have described has a political valence that need not be overstated. It is true that technical literacy is poor, especially relative to how popular technology is. It is non-trivial that the proletariat is exploited in virtue of its subjectively-gratifying relationship to technology; however, one artist combining their writing practise with a contingent aesthetic attraction to computer systems is not politically important. My own feelings on the matter are that the entire digital social structure ought to be abolished. The pragmatism of controlling the centre of one's existence online is especially relevant, given the present instability of the platforms we might have once taken for granted. However, a website still needs to be connected to the web. An essential aspect of the project is pre-formatted syndication across social media platforms using a plugin system. Pieces of code can be added to the website that will allow for either scraping content from an external source (i.e. film reviews from Letterboxd), or posting content to social media automatically. The goal is to collect statistical data that will help me maximize an instrumental use of social media. This will not be enough to drive engagement absent my own meaningful participation in any online networks, but it's something to start with.
 
 The second element of my outreach program is the newsletter. This database of email addresses will represent a direct line of communication with people who have double-consented to hearing from me. It is of great importance to the overall strategy, and represents a substantial technical and formal challenge. The rough idea is to use it to collect additions to the archive. Periodically I will send out an update of quotes, theses, links, images, aphorisms, and refactorings. The items are all grouped under categorical headings, with some brief commentary on their place in the overall system.
 
-## The Origins of Art Criticism
-
-1. Paris in the 19th century
-
-2. New York
-
-## White Boy's Literary Canon
-
-# What Kind of Painting is a Website?
+# What Kind of Painting is a Website? {.heading}
 
 The published form of the archive functions as a single corpus, added to and refined over time. The writing lives as an ongoing process, an accretion of citations, quotes, hyperlinks, and cross-references. Notes become essays, grouped under sections around a topic. Topics are themselves categorized at the top level, an index tracing where my interests are grouped. HTML document structure, CSS, the algorithms of the website generator, the version control system, and the writing environment itself are a synthesis of archive (literary content) and new media (technical implementation). It makes possible a form of writing that is appropriate to the digital culture of new media. Articles and essays are all well and good, but they don't take advantage of what is made possible in the presentation of text online. (This website is itself in an early stage of development, but it has its shape.)
 
@@ -60,7 +54,7 @@ The structure and contents of the proposed website, the published face of the pr
 
 [^2]: "'Here we have a man whose job it is to gather the day’s refuse in the capital. Everything that the big city has thrown away, everything it has lost, everything it has scorned, everything it has crushed underfoot he catalogues and collects. He collates the annals of intemperance, the capharnaum of waste. He sorts things out and selects judiciously: he collects like a miser like a miser guarding a treasure, refuse which will assume the shape of useful or gratifying objects between the jaws of the goddess of Industry.' This description is one extended metaphor for the poetic method, as Baudelaire practiced it. Ragpicker and poet: both are concerned with refuse." [@benjamin1938, 48]
 
-## Aesthetic Elements of the Hypertext Object
+## Aesthetic Elements of Hypertext {.heading}
 
 1. URL Schema
 
@@ -80,9 +74,11 @@ One of the classic things that hypertext theorists love to talk about is linking
 
 Like the URL, metadata is another aesthetic element of the website as an artwork. We want to think up metadata categories that can be used to genuinely reflect the stages in the production of a work. Of course, this demands an intimate knowledge of one's own process.
 
-# This Website is my Corpse
+# My Living Corpse {.heading}
 
-# To do
+Blah blah blah.
+
+# To do {.heading}
 
 * Blog page
 	* Modified time for posts
@@ -117,7 +113,7 @@ Like the URL, metadata is another aesthetic element of the website as an artwork
 * Style for code (inline and block)
 * Author-date citation format, but style the quotes so they're less disruptive to the text flow?
 
-## Proposed Research Topics
+## Research Topics {.heading}
 
 See this list as a cloud of keywords and tags that represent things I am interested in, and which I hope to explore in greater depth somewhere down the line.
 
@@ -182,3 +178,4 @@ See this list as a cloud of keywords and tags that represent things I am interes
 	* Existentialism and Men
 	* Corresponding Toxicities in Nietzsche and Kierkegaard
 
+# References {.heading}

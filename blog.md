@@ -35,16 +35,16 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 
 {% assign postsByYear = site.blog | sort | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear reversed %}
-<section id="{{ year.name }}">
-<h1 id="{{ year.name }}"><a href="/blog#{{ year.name }}">{{ year.name }}</a></h1>
+<section id="{{ year.name }}" class="level1">
+<h1 class="heading" id="{{ year.name }}"><a href="/blog#{{ year.name }}">{{ year.name }}</a></h1>
 {% assign postsByMonth = year.items | sort | group_by_exp:"post", "post.date | date: '%B'" %}
 {% for month in postsByMonth reversed %}
-<section id="{{ year.name }}-{{ month.name | date: '%m' }}">
-<h2 id="{{ year.name }}-{{ month.name | date: '%m' }}">
+<section id="{{ year.name }}-{{ month.name | date: '%m' }}" class="level2">
+<h2 class="heading" id="{{ year.name }}-{{ month.name | date: '%m' }}">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a>
 </h2>
 {% for post in month.items reversed %}
-<section class="blog-post e-content" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/blog#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+<section class="blog-post e-content level3" id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/blog#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
 <div class="blog-post-header">
 <h3 id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" class="blog-post-date">
 	<a href="#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
@@ -60,6 +60,8 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 <span itemprop="articleBody">
 {{ post.content }}
 </span>
+
+{% if post.last_modified_at %}<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>{% endif %}
 
 </section>
 {% endfor %}

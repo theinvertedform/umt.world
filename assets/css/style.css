@@ -117,19 +117,16 @@ p + p {
 	margin-top: 0;
 }
 
-section h1 {
-	border-bottom: 1px dotted;
+h1.index-heading {
+	border-bottom: 1px solid #888;
 	margin: 1.125em 0 0 0;
 	font-size: 1.5em;
 	line-height: 1.125;
 	text-align: left;
 	padding: 0;
 	letter-spacing: -0.75px;
+	font-variant-caps: small-caps;
 }
-
-h1.heading {
-	text-align: right;
-	}
 
 section > :first-child > a {
 	border-bottom: none;
@@ -251,7 +248,6 @@ span.page-status {
 
 .blog-post {
 	padding: 1.5em 0;
-	border-bottom: 1px solid black;
 }
 
 .blog-post-header {
@@ -270,6 +266,21 @@ span.page-status {
 	font-style: normal;
 	font-weight: bold;
     color: #111;
+    text-decoration: none;
+}
+
+.blog-post-modified-date {
+	display: inline;
+	font-style: italic;
+	}
+
+.blog-post-modified-date::before {
+	content: "(";
+    text-decoration: none;
+}
+
+.blog-post-modified-date::after {
+	content: ".)";
     text-decoration: none;
 }
 
@@ -394,7 +405,7 @@ figure {
 	text-align: center;
 	}
 
-h1 {
+h1.title {
 	margin: 0.75em 0;
 	text-align: center;
 	font-variant: small-caps;
@@ -402,25 +413,71 @@ h1 {
 	line-height: 1.15;
 	font-weight: 700;
 	letter-spacing: -1px;
+	border-bottom: none;
 }
 
-h2.heading {
+#markdownBody h1.heading {
+	border-bottom: 1px solid #888;
+	margin: 1.125em 0 1.125em 0;
+	font-size: 2em;
+	font-weight: 600;
+	font-variant-caps: small-caps;
+	line-height: 1.125;
+	text-align: right;
+	padding: 0;
+	letter-spacing: -0.75px;
+	position: relative;
+	}
+
+#markdownBody section > h1 a::after {
+		right: unset;
+		left: 0;
+}
+
+h1 a::after {
+	content: "\00B6";
+	font-size: 0.75em;
+	position: absolute;
+	opacity: 0.5;
+    color: #888;
+    text-decoration: none;
+	bottom: 0.15em;
+}
+
+h1 a {
+	border-bottom: none;
+	}
+
+
+section.level2 > .heading {
 	margin: 0.75em 0;
+	text-transform: uppercase;
 	text-align: left;
 	font-variant: small-caps;
-	font-size: 1.25em;
+	font-size: 1.4em;
 	line-height: 1.15;
 	font-weight: 600;
 	position: relative;
 	border-bottom: 1px dotted #888;
 }
 
-h2 a {
-	border: none;
+h2 a::before {
+	content: "\00B6";
+	font-size: 0.75em;
+	position: absolute;
+	opacity: 0.5;
+    color: #888;
+    text-decoration: none;
+	right: 0;
 }
 
-h3 {
-    font-size: 1.125em;
+h2 a {
+	border-bottom: none;
+}
+
+h3.heading {
+    font-size: 1.35em;
+	text-transform: capitalize;
 	margin: 1.25em 0 0.5em -0.75rem;
 	font-weight: bold;
 	position: relative;
