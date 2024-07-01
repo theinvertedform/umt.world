@@ -9,7 +9,7 @@ status: ongoing
 {% assign postsByYear = site.documents | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in postsByYear reversed %}
-<section id="{{ year.name }}">
+<section id="{{ year.name }}" class="level1">
   <h1 class="heading" id="{{ year.name }}">
   <a href="#{{ year.name }}">{{ year.name }}</a>
   </h1>
@@ -17,7 +17,7 @@ status: ongoing
 {% assign postsByMonth = year.items | sort:"date" | group_by_exp:"post", "post.date | date: '%B'" %}
 
 {% for month in postsByMonth reversed %}
-<section id="{{ year.name }}-{{ month.name | date: '%m' }}">
+<section id="{{ year.name }}-{{ month.name | date: '%m' }}" class="level2">
   <h2 class="heading" id="{{ year.name }}-{{ month.name | date: '%m' }}">
   <a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a> </h2>
 
