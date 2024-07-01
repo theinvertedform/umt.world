@@ -1,5 +1,5 @@
 ---
-title: Chapter 1
+title: Up to October 7
 date: 2024-06-30
 ---
 

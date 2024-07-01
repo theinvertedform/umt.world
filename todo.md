@@ -8,14 +8,13 @@ title: Website to-do
 - "Last revised" parenthetical on diary entries with link to commit history
 
 # Changelog
-- Style the changelog page so that it's actually informative and useful
-	- Group items together under a category
+- Group items together under a single category entry
 
 # Posts
 - Side-notes and margin-notes
 - Backlinks section for posts, including diary entries
 - Section headers on posts should be a link to their anchor
-- Lightbox for selected images
+- Lightbox for some images
 - Image slideshows
 - Images that stretch to fill all usable margin space
 - Style image borders

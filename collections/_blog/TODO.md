@@ -6,11 +6,11 @@ published: false
 
 # Design and Structure
 
-The literary structure of the diary has so far been informed by the technical structure of the blog. With the concept for this diary moving more towards the fictional, the design and architecture for this page has changed.
+The literary structure of the diary has so far been informed by the technical structure of the blog. As this diary is trying more to resemble fiction, the design and architecture for this page has changed.
 
-The page will now be edited into chapters. The chapters will appear in the table of contents in ascending chronological order. The page is intended to be read top-down. This is a significant change, since it's the opposite of the page's current direction.
+Now, instead of a rolling list of posts, entries are edited into chapters. The chapters will appear in the table of contents in ascending chronological order. This is significant, since it is literally the opposite direction of typical blog pages.
 
-The chapters will have titles, but the numbering and order is expected to change. They will have a preamble, which is a hyperlinked sub-TOC, as in *Blood Meridian* a centred paragraph block. Each entry will be a subsection whose title is the day of the week of the post (a style taken from Gombrowicz's *Diaries*). Centred, italics; their URL structure will be the same as it currently is, but we will add a URL format for the chapters. We also need some kind of graphic to finish sections, so the transition isn't so harsh.
+The chapters will have titles, but their order is expected to change. They will have a preamble, which is a hyperlinked sub-TOC, as in *Blood Meridian* a centred paragraph block. Each entry will be a subsection whose title is the day of the week of the post (a style taken from Gombrowicz's *Diaries*). Centred, italics; their URL structure will be the same as it currently is, but we will add a URL format for the chapters. We also need some kind of graphic to finish sections, so the transition isn't so harsh.
 
 # Content
 
