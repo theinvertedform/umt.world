@@ -1,6 +1,7 @@
 ---
 title: Chapter 1
 date: 2024-06-30
+published: false
 ---
 
 Chapter 1 covers the events in the month leading up to October 7.
