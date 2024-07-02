@@ -1,6 +1,6 @@
 # Site settings
 title: umt.world
-description: The website of Uriah Marc Todoroff, a writer interested in contemporary life. Combines hypertext design and experimental writing.
+description: A hypertext project by Uriah Marc Todoroff.
 author:
   name: Uriah Marc Todoroff
   email: um.todoroff@gmail.com
@@ -13,6 +13,7 @@ url: "https://umt.world"
 permalink: /:title
 logo: /assets/images/logo.png
 iis_slider_array: []
+repository: theinvertedform/umt.world
 
 # Build settings
 plugins:
@@ -23,6 +24,7 @@ plugins:
   - jekyll-pandoc
   - jekyll-redirect-from
   - jekyll-last-modified-at
+  - jekyll-github-metadata
 
     #feed:
     #  categories:
