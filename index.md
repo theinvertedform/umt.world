@@ -128,7 +128,7 @@ layout: home
 
 <section id="podcast">
 {% assign episodes = site.podcast %}
-<h1 class="index-heading"><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
+<h1 class="index-heading" id="podcast"><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
 <ul class="section-link-list">
 {% for post in episodes reversed limit: 10 %}
 <li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
