@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
   #gem "jekyll-scholar"
   gem "jekyll-pandoc"
+  gem "jekyll-github-metadata"
   #gem "pandoc-ruby"
 end
 
