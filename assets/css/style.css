@@ -134,6 +134,7 @@ section > :first-child > a {
 
 #markdownBody .section-link-list {
 	padding: 0 0 0 1.375em;
+	margin: 1em 0;
 }
 
 #markdownBody .section-link-list li {
@@ -562,7 +563,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	#markdownBody .section-link-list {
-		margin: 1em 3em 0 0;
+		margin: 1em 0;
 		padding: 0 0 0 1.375em;
 	}
 

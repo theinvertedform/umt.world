@@ -34,10 +34,10 @@ layout: home
 </section>
 
 <section id="notable">
-<h1 class="index-heading"><a href="#notable" title="Writing and other media that I am most proud of, and which is most representative of my project.">Notable</a></h1>
+<h1 class="index-heading"><a href="#notable" title="Writing and other media that I am most proud of.">Notable</a></h1>
 <ul class="section-link-list">
 <li>
-<a href="/reviews/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
+<a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
 </li>
 <li>
 <a href="/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
@@ -49,7 +49,7 @@ layout: home
 <a href="/blog#2023-03-18">Return to Drones</a>
 </li>
 <li>
-<a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
+<a href="/reviews/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
 </li>
 <li>
 <a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
