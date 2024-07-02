@@ -6,19 +6,22 @@ title: Website to-do
 - Incorporate git log into the website changelog
 - Links to the page's commit history in page / post metadata
 - "Last revised" parenthetical on diary entries with link to commit history
+- Template for writing git commit messages automatically.
 
 # Changelog
-- Style the changelog page so that it's actually informative and useful
-	- Group items together under a category
+- Group items together under a category
+- Format abstracts, descriptions, word counts, dates. Add data for additions and deletions to each file.
 
 # Posts
 - Side-notes and margin-notes
 - Backlinks section for posts, including diary entries
 - Section headers on posts should be a link to their anchor
+- Increase transparency on section header icon
 - Lightbox for selected images
 - Image slideshows
 - Images that stretch to fill all usable margin space
 - Style image borders
+- Collapsible frames for certain sections.
 
 # Pandoc-related
 - All citations on a page should be included in a single bibliography, at the end of the page
@@ -33,6 +36,9 @@ title: Website to-do
 - Custom icons for lists with automatic alternation
 - We need a better emblem
 - Superscript icon to designate external links
+- Style for code (inline and block)
+- RSS Feeds
+	- Changelog, podcast, blog
 
 # Diaries
 - Re-structure the diary into chapters
@@ -45,3 +51,16 @@ title: Website to-do
 
 # About
 - Until we have a proper essay ready, this page would probably be better off as an annotated bibliography and a collection of visual inspiration
+
+# Podcast
+- Re-host the files somewhere.
+
+# ~~Tag and category pages.~~
+- Bug: tags from "meta" files (non-collections) not added to tag index.
+
+# Photo section
+- Subdomain linked in sidebar: photos.umt.world
+- Oriented around a general archive; galleries; and an ongoing photo project
+- A repository for visual media generally, not just photos
+- Commenting
+- AI-generated tagging
