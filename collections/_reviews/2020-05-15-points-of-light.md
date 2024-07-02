@@ -1,6 +1,6 @@
 ---
 title: Points of Light
-description: Video art by Hito Steyerl and Jean-Luc Godard at the MAC.
+description: Video art by Hito Steyerl and Jean-Luc Godard.
 author: Uriah Marc Todoroff
 redirect_to: https://journal.fyi/pointsoflight
 ---

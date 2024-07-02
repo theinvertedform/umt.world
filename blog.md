@@ -61,7 +61,7 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 {{ post.content }}
 </span>
 
-{% if post.last_modified_at %}<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>{% endif %}
+{% if post.last_modified_at %}<span class="blog-post-modified-date">Last edited <a href="{{ site.github.repository_url }}/blob/main/collections/_blog/{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}.md">{{ post.last_modified_at | date: date_format }}</a></span>{% endif %}
 
 </section>
 {% endfor %}
