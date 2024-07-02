@@ -4,8 +4,10 @@ title: Website to-do
 
 # Git-related
 - Incorporate git log into the website changelog
-- Links to the page's commit history in page / post metadata
-- "Last revised" parenthetical on diary entries with link to commit history
+- Links to the page's commit history
+	- ~~Link to latest commit on 'main' brainch~~
+	- Link to earliest commit
+- ~~"Last revised" parenthetical on diary entries with link to commit history~~
 - Template for writing git commit messages automatically.
 
 # Changelog
