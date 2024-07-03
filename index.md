@@ -40,16 +40,16 @@ layout: home
 <a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
 </li>
 <li>
-<a href="/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
+<a href="/interviews/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
 </li>
 <li>
-<a href="/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
+<a href="/interviews/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
 </li>
 <li>
 <a href="/blog#2023-03-18">Return to Drones</a>
 </li>
 <li>
-<a href="/reviews/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
+<a href="/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
 </li>
 <li>
 <a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
