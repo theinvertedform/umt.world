@@ -47,7 +47,7 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 
 {% if post.last_modified_at %}<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>{% endif %}
 
-</section>
 {% endfor %}
+</section>
 
 {% assign date_format = "%b %d %Y" %}

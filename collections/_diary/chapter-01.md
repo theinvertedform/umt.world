@@ -162,8 +162,6 @@ date: 2023-10-08
 title: Windows Closed, Dust Inside
 ---
 
-# Sunday
-
 Put off seeing M--. Woke up around 10 with a heavily congested nose. Windows closed, dust inside. Dozed for another hour....then went to M. One coffee not enough. Beauty everywhere. Fuck it.
 
 For the University of Western Ontario, I'm supposed to submit two academic essays. The first can be the last one I wrote for the hauntology class, on the uncanny and the phantasmagoria: it will need to be significantly revised, which will feel good to do, since there's something good there. I know I can make it much better. The challenge will be to integrate more Hegel in a way appropriate to an academic context, but at the same time, to make sure he stays in the background. It's not an essay on Hegel, after all.
