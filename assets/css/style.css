@@ -6,49 +6,59 @@
 }
 
 html {
-    background-color: #fff;
     line-height: 1.60;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	font-family: Source Pro;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    color: #333;
-	margin: 0 15px;
+	padding: 0 20px;
+	max-width: 935px;
+	margin: 0 auto;
 }
 
 main {
-	min-height: 100vh;
-	display: flex;
-	flex-flow: column;
+	position: relative;
 }
 
-nav#sidebar {
+#sidebar {
 	display: flex;
     justify-content: center;
-	margin: 0.75em 0 0.5em 0;
 }
 
 #sidebar a#logo {
     border: none;
-	margin: 0.5em;
 	max-width: 75px;
 	min-width: 75px;
+	margin: 1px 2px;
 }
 
-#sidebar div#sidebar-links {
+#sidebar #sidebar-links {
+	flex: 1 1 100%;
 	display: flex;
 	flex-flow: row wrap;
+	align-items: center;
 }
 
-#sidebar div#sidebar-links a {
-	border: 1px dotted;
-	padding: 0.5em 0.5em;
-	text-align: center;
-	margin: 1px;
-	flex: 1 1 25%;
+#sidebar #sidebar-links a {
+	flex: 1 1 auto;
+	padding: 0.25em 0.75em;
 }
+
+#sidebar a {
+	display: block;
+	border: 1px dotted;
+	text-align: center;
+	margin: 1px 0 1px 2px;
+	font-variant: small-caps;
+}
+
+article {
+	margin-top: 1.75rem;
+	}
 
 /*article {
 	display: grid;
@@ -162,7 +172,7 @@ footer {
 .end-ornament {
 	max-width: 250px;
 	min-width: 75px;
-	grid-row: 1/2;
+	grid-row: 2/2;
 	padding-bottom: 1.25em;
 	}
 
@@ -174,7 +184,7 @@ footer {
 
 #page-metadata {
 	line-height: 1.5;
-	margin: 0 0 2rem 0;
+	margin: 0 0 2.25rem 0;
 	font-family: sans-serif;
 	text-align: center;
 }
@@ -201,8 +211,8 @@ span.page-status {
 	background-color: #f8f8f8;
 	z-index: 11;
 	line-height: 1.25;
-	padding: 0.5em 0.5em 0.5em 0.625em;
-	margin: 2em auto;
+	padding: 0.655em 0.75em 0.75em 0.75em;
+	position: relative;
 	font-size: 1rem;
 	font-family: sans-serif;
 	box-shadow: -1rem 0 0 0 #fff, 2.25rem 0 0 0 #fff;
@@ -245,10 +255,6 @@ span.page-status {
 
 .section-nav a {
 	border: none;
-}
-
-.blog-post {
-	padding: 1.5em 0;
 }
 
 .blog-post-header {
@@ -318,6 +324,7 @@ div.blog-post-header p {
 	}
 
 /* misc elements*/
+
 blockquote {
 	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
@@ -417,69 +424,75 @@ h1.title {
 	border-bottom: none;
 }
 
-#markdownBody h1.heading {
+.post section {
+	margin-top: 2.75em;
+	}
+
+section.level1 > h1 {
 	border-bottom: 1px solid #888;
-	margin: 1.125em 0 1.125em 0;
 	font-size: 2em;
 	font-weight: 600;
 	font-variant-caps: small-caps;
 	line-height: 1.125;
 	text-align: right;
 	padding: 0;
+	margin-bottom: 1em;
 	letter-spacing: -0.75px;
 	position: relative;
 	}
-
-#markdownBody section > h1 a::after {
-		right: unset;
-		left: 0;
-}
 
 h1 a::after {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-	opacity: 0.5;
     color: #888;
     text-decoration: none;
 	bottom: 0.15em;
+	right: 0;
+	opacity: 0.5;
+}
+
+h1 a::after {
+		right: unset;
+		left: 0;
 }
 
 h1 a {
 	border-bottom: none;
 	}
 
-
-section.level2 > .heading {
-	margin: 0.75em 0;
+section.level2 > h2 {
 	text-transform: uppercase;
+	font-size: 1.4em;
+	border-bottom: 1px dotted #888;
 	text-align: left;
 	font-variant: small-caps;
-	font-size: 1.4em;
 	line-height: 1.15;
 	font-weight: 600;
 	position: relative;
-	border-bottom: 1px dotted #888;
+	padding: 0;
+	margin: 0;
 }
 
-h2 a::before {
+h2 a::after {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-	opacity: 0.5;
     color: #888;
     text-decoration: none;
+	bottom: 0.15em;
 	right: 0;
+	opacity: 0.5;
 }
+
 
 h2 a {
 	border-bottom: none;
 }
 
-h3.heading {
+h3 {
     font-size: 1.35em;
 	text-transform: capitalize;
-	margin: 1.25em 0 0.5em -0.75rem;
 	font-weight: bold;
 	position: relative;
 	font-variant: small-caps;
@@ -515,36 +528,66 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 
+@media (max-width: 649px) {
+	
+	html {
+		font-size: 18px;
+	}
+	
+	#sidebar {
+		margin-top: 1em;
+	}
+
+	#sidebar #sidebar-links a {
+		font-variant-caps: small-caps;
+	}
+
+	#sidebar a#logo {
+		padding: 0.5em 0.375em;
+	}
+}
+
 @media all and (min-width: 650px) {
-	body {
-		margin: 0 auto;
-		padding: 0 75px 0 5px;
-		max-width: 1000px;
-	}
-
-	header {
-		margin-left: 100px;
-	}
-
-    nav#sidebar {
-		position: absolute;
-        width: 100px;
-		display: block;
-		padding: 0 40px 0 10px;
-    }
-
-	#sidebar div#sidebar-links a {
-		border: none;
-		text-align: left;
-	}
-
-	#sidebar-links a {
-		font-variant: small-caps;
+		
+	main {
+		min-height: 100vh;
+		display: flex;
+		flex-flow: column;
 	}
 
 	article {
-		margin-left: 155px;
-		padding-top: 15px;
+		flex: 1 1 auto;
+	}
+
+	header {
+		padding: 0 2em;
+		margin-top: 2.125rem;
+	}
+	
+	#sidebar {
+		margin-top: 0.5em;
+	}
+
+	#sidebar #sidebar-links a {
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	#sidebar a {
+		color: #888;
+	}
+
+	#sidebar a:hover {
+		color: #ccc;
+	}
+}
+
+@media (min-width: 901px) {
+	body {
+		margin: 0 auto;
+	}
+
+	article {
 		max-width: 1000px; /* figure out where the width goes; how to grow space on left side of screen. */
 	}
 
@@ -559,9 +602,6 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 		grid-row-gap: 0.5em;
 	}
 
-	.markdownBody p {
-	}
-
 	#markdownBody .section-link-list {
 		margin: 1em 0;
 		padding: 0 0 0 1.375em;
@@ -570,7 +610,6 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	#TOC {
 		max-width: 285px;
 		margin: 0 2.5rem 1.5rem 0;
-		padding: 0.5em 0.5em 0.75em 0.75em;
 		position: relative;
 		float: left;
 	}
@@ -613,12 +652,6 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	article {
-		margin-left: 155px;
-		padding-top: 15px;
 		width: 1250px;
-	}
-
-	article.post {
-		max-width: 75ch;
 	}
 }

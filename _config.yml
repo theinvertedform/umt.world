@@ -88,7 +88,6 @@ defaults:
       layout: "default"
   - scope:
       path: ""
-        #type: "documents"
     values:
       layout: "post"
 

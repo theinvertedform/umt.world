@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post h-feed" itemscope itemtype="http://schema.org/Blog">
-		<h1 class="p-name title" itemprop="name">{{ page.title | markdownify }}</h1>
+		<header><h1 class="p-name title" itemprop="name">{{ page.title | markdownify }}</h1></header>
 	<div id="page-metadata">
 		<div class="p-summary" id="page-description" itemprop="description">
 			{{ page.description | markdownify }}
@@ -44,6 +44,7 @@ layout: default
 			</aside>
 		{% endif %}
 		{{ content }}
+      {% include anchor_headings.html html=content headerAttrs="class='heading'" generateId="true" %}
   </div>
 
 	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
