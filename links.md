@@ -15,7 +15,7 @@ Thinkpad X230, whistling into a payphone to get free calls, vim, flip-phones; th
 
 How do you get to know a man? The abstract of this page describes my academic research page. The introduction paints a picture of my aesthetic. This page includes a biographical summary, a list of work experience, surveys on my politics, personality, and philosophical worldview; it includes astrological readings, data on my listening, viewing, and reading habits; a rundown of my lifestyle, and many photos...but is it adequate to understand who I am?
 
-# [Biographical Summary](#biographical-summary) {.heading}
+# [Biographical Summary](#biographical-summary)
 
 The author was born on November 17, 1990 at 457 Main Street, in Toronto, Ontario, and given the name Uriah Marc Todoroff. My maternal grandfather was descended from a long line of French colonists; my grandmother was Franco-Manitoban. On my father's side, my grandmother was a Scottish immigrant who I met only once. My grandfather, a Bulgarian immigrant named Petar Todorov, died long before I was born.
 
@@ -37,13 +37,13 @@ At some point in the first half of 2016, I applied to Concordia in the Philosoph
 
 ![Ferme Glady, circa 2016.](assets/images/img514.jpg)
 
-# [Professional Experience](#professional-experience) {.heading}
+# [Professional Experience](#professional-experience)
 
 ![Marc's Flyer business card, designed by Olive Hine.](assets/images/marcsflyer.jpg)
 
 The following list of work experience does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
 
-## [Work Experience](#work-experience) {.heading}
+## [Work Experience](#work-experience)
 
 * Flyer delivery for friends of my parents (circa 1995--1999)
 * Helping my dad out on job sites (circa 1995--2003)
@@ -66,7 +66,7 @@ The following list of work experience does not include one-off, freelance, or vo
 * Darna Bistroquet (November 2023--*present*)
 * [Atelier--Galerie A. Piroir](https://piroir.com) (January 2024--*present*)
 
-## [Volunteer Experience](#volunteer-experience) {.heading}
+## [Volunteer Experience](#volunteer-experience)
 
 * SOPHIA Concordia
 * Sorting tax documents for the Church of Scientology
@@ -74,7 +74,7 @@ The following list of work experience does not include one-off, freelance, or vo
 * Fantasia
 * Festival du Nouveau Cinema
 
-# [Education](#education) {.heading}
+# [Education](#education)
 
 * [Secord Elementary](https://torontolife.com/city/toronto-is-failing-me-my-kids-school-is-a-disgrace/) (Toronto, circa 1993--1998, 1999)
 * General Crerar Primary (Toronto, circa 2001)
@@ -83,19 +83,19 @@ The following list of work experience does not include one-off, freelance, or vo
 * David & Mary Thompson Collegiate Institute (Toronto, circa 2007--2008)
 * Concordia University (Montréal, 2016--2019; 2021-2023)
 
-# [Personality](#personality) {.heading}
+# [Personality](#personality)
 
 Gass referred to the writing life as "a life in the chair." A desk chair, or an electric chair?
 
 ![Osaka trying to stretch.](/assets/images/osakastretch.gif)
 
-## [Astrological chart](#astrological-chart) {.heading}
+## [Astrological chart](#astrological-chart)
 
 ![Natal chart.](assets/images/chart.gif)
 
 Scorpio, rising Sagittarius. Full chart and reading forthcoming. Mars dominates my chart, but I have always preferred Pluto as a personal icon. I like astrology as a symbolic language, and a future project will be to analyze statistical correlations in certain readings. I like the materialism of astrological metaphysics...of course, I should admit as well that it has always been a useful tool for processing emotions. I have not studied astrophysics, I know barely anything about the history of astrology, and I am not even familiar with the signs, except for in a superficial way. Although my knowledge is superficial, my interest is genuine.
 
-## [Personality Tests](#personality-tests) {.heading}
+## [Personality Tests](#personality-tests)
 
 
 * [YourMorals.org Moral Foundations Questionnaire-2](/assets/documents/mfq2-2022.pdf) (2022)
@@ -103,7 +103,7 @@ Scorpio, rising Sagittarius. Full chart and reading forthcoming. Mars dominates 
 * 16Personalities: "Advocate" (INFJ-T)
 *Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.*
 
-# [Contact](#contact) {.heading}
+# [Contact](#contact)
 
 !["I am a part of all living things!"](/assets/images/robo.jpg)
 

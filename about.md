@@ -18,13 +18,15 @@ status: extremely rough
 date: 2022-09-11
 ---
 
-Screens and sensors are everywhere: when John Anderton goes on the lam in *Minority Report* (2002), he needs to undergo surgery to replace his eyeballs because of the omnipresent retinal scanner. The mediation of digital platforms is an *a priori* for those born into the Internet Age. Alienation leads to the numbing ether of *ataraxia*. A smoothness brought on by technical optimization of all aspects of daily life. Digital culture and all its social potential has been confined to a protocol strictly controlled by capital. Tech conglomerates and hardware manufacturers have more power than states, but without the hindrance of historical precedent.
+When John Anderton goes on the lam in *Minority Report*, he undergoes surgery to replace his eyes because of the omnipresent retinal scanner. A similar level of surveillance has been achieved, but it depends more on the mediation of digital platforms than on external scanners. Virtual life has become an *a priori* for those born in the Internet Age. 
+
+Alienation before the behemoth pushes Spirit down to the pre-unhappy position of Stoicism. There is mass desire for the ether of *ataraxia*. Technical optimization smoothes so much of daily life. Digital culture and all its social potential has been confined to a protocol strictly controlled by capital. Tech conglomerates and hardware manufacturers have more power than states, but without the hindrance of historical precedent.
 
 ![Wipe Cycle](/assets/images/wipe_cycle.jpg)
 
 And yet---life has always been mediated by technology. The record of civilization going back to the first cave paintings in 35,000 BCE is the unfolding of the process of society's relationship to technology. How do we evaluate our present dependence without falling into the trap of thinking that the past was somehow better? Are we on a natural path to cyborg transhumanism? Is Spirit doomed to self-alienation? No matter what, we should not convict the fallacy that Hume identified so well: *correlation does not equal causation* [@hume1995]. The fact of technology does not mean that all technologies are good.
 
-# Origins of Language and the Graphic Arts {.heading}
+# Origins of Language and the Graphic Arts
 
 The thing is attached to society like a parasite. The fact that technology has always existed in some form, everywhere, is a strong argument for its necessary relation to society. However, this tells us nothing about the forms of technology we live with today. For those for whom the Digital Age is *a posteriori*, it may be easy to see it is just another product sold to the proletariat against its own interests. But how do we remain progressive, while acknowledging decline?
 
@@ -36,7 +38,7 @@ I do not claim more than a minimum degree of technical literacy acquired through
 
 [^1]: “Vim - the Ubiquitous Text Editor.” welcome home : vim online. Accessed June 3, 2024. https://www.vim.org/.
 
-# Writing on the Internet {.heading}
+# Writing on the Internet
 
 My writing practise includes critical writing, research, and fiction. The genre of fiction that I am most interested in is "experimental biography." The writing that will be published on this website are original essays that relate directly to the topic of hypertext and hypermedia; the diaries themselves; and it will also be an archive of the newsletter, changelog, and writing published elsewhere.
 
@@ -46,7 +48,7 @@ I'm interested in self-published writing online as a form of outsider art, but I
 
 The rough idea for the [newsletter](/news) is to use it to collect additions to a notes archive. Notes in the note-taking system are always based on a primary source, have commentary, and are already grouped under category headings. Periodically send out an update with quotes, ideas, links, images, aphorisms, and edit summaries. The introductory paragraph is just something that summarizes what the collection of notes represents.
 
-# The Design of Online Writing {.heading}
+# The Design of Online Writing
 
 The writing lives as an ongoing process, a constantly-refined collection of citations, quotes, hyperlinks, and cross-references. The structure of pages changes and morphs, breaking open the borders of the website. Notes become essays, grouped under sections around a topic. HTML document structure, CSS, the algorithms of the website generator, the version control system, the writing environment, and finally the content of the words and where it stands in relation to the centre. These elements of literary content and new media combine to make the website an original work of art, a hybrid between the literary and the visual.
 
@@ -54,7 +56,7 @@ The structure and contents of the proposed website, the published face of the pr
 
 [^2]: "'Here we have a man whose job it is to gather the day’s refuse in the capital. Everything that the big city has thrown away, everything it has lost, everything it has scorned, everything it has crushed underfoot he catalogues and collects. He collates the annals of intemperance, the capharnaum of waste. He sorts things out and selects judiciously: he collects like a miser like a miser guarding a treasure, refuse which will assume the shape of useful or gratifying objects between the jaws of the goddess of Industry.' This description is one extended metaphor for the poetic method, as Baudelaire practiced it. Ragpicker and poet: both are concerned with refuse." [@benjamin1938, 48]
 
-## Aesthetic Elements of Hypertext {.heading}
+## Aesthetic Elements of Hypertext
 
 1. URL Schema
 
@@ -69,4 +71,4 @@ One of the classic things that hypertext theorists love to talk about is linking
 Like the URL, metadata is another element that is both aesthetic and technical, and which sits at the core of the website as a hypertext artwork. We want to think up metadata categories that can be used to represent the important aspects of a page. They will need to be standardized, somehow.
 
 
-# References {.heading}
+# References
