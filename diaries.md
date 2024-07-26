@@ -33,14 +33,12 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 
 {% assign date_format = "%b %d %Y" %}
 
-{% for post in site.diary reversed %}
+{% for post in site.diary %}
 <section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
-<div class="blog-post-header">
 <h1 class="heading" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
 	<a href="#{{ post.slug }}">{{ post.title }}</a>
 </h1>
 {% if post.description %}<span class="blog-post-description" itemprop="description">{{ post.description }}</span>{% endif %}
-</div>
 
 <span itemprop="articleBody">
 {{ post.content }}
