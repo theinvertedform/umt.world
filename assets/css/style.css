@@ -419,6 +419,16 @@ section.level1 > h1 {
 	position: relative;
 }
 
+#markdownBody h2.chapter-subsection {
+	text-align: center;
+	font-style: italic;
+}
+
+#markdownBody section > h1 a::after {
+		right: unset;
+		left: 0;
+}
+
 h1 a::after {
 	content: "\00B6";
 	font-size: 0.75em;

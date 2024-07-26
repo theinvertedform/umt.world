@@ -55,6 +55,8 @@ pandoc:
 
 # Collections
 collections:
+  diary:
+    permalink: "/diaries#:year-:month-:day"
   blog:
     permalink: "/blog#:year-:month-:day"
   podcast:

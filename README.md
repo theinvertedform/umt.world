@@ -1,1 +1,1 @@
-Fork of the smithohj project, adapted for my personal workflow and website umt.world. Design based heavily on gwern.net.
+This is the repository for the umt.world hypertext project. It tracks changes to the text as well as the code. It was originally a fork of smithohj, a web design project for a friend. This one is far more complex, and is constantly evolving as I add styling and develop the website concept.
