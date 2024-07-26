@@ -3,44 +3,44 @@ title: Website to-do
 ---
 
 # Git-related
-- Incorporate git log into the website changelog
-- Links to the page's commit history in page / post metadata
-- "Last revised" parenthetical on diary entries with link to commit history
+- ~~Add a link to page commit history in metadata~~
+- ~~"Last revised" parenthetical on diary entries with link to commit history~~
 
 # Changelog
-- Group items together under a single category entry
+- Group items together under a single list item per category of writing
+- Add an overall summary of changes to ongoing projects (like the diary)
+- Add a summary of changes per month: how many commits, changes in word count and LOC, new references
 
 # Posts
 - Side-notes and margin-notes
 - Backlinks section for posts, including diary entries
 - Section headers on posts should be a link to their anchor
-- Lightbox for some images
-- Image slideshows
-- Images that stretch to fill all usable margin space
-- Style image borders
+- Lightbox option for images
+- Slideshow option for images
+- Images that stretch to fill the screen
+- Style image borders, add shadows
 
 # Pandoc-related
-- All citations on a page should be included in a single bibliography, at the end of the page
 - Automatic section for bibliography
 
 # Index
-- Graphic to separate section clusters on index
+- Graphic to separate section clusters
+- Different list style type for different sections
 
 # Site-wide
-- Change sidebar to top-style navbar
-- Improve the typography, especially line height and word-spacing
-- Custom icons for lists with automatic alternation
+- ~~Change sidebar to top-style navbar~~
+- We need algorithmically-generated typography depending on the different viewport sizes
+- Custom icons for lists
 - We need a better emblem
 - Superscript icon to designate external links
 
 # Diaries
-- Re-structure the diary into chapters
-	- What order are they listed?
+- Re-structure the diary into chronological chapters
 	- How does the voice of the diaries relate to the voice used throughout the website?
-- Metadata about how many times a post has changed, and to what extent
+- Metadata about how many times a post has changed, and to what extent, with a link that preserves the full history of each unit of text
 - Automatically-generated tags 
-- Character index that is still anonymous
-- The pages should generally be more rich, dynamic, with more visual and audio material
+- Character index that is still anonymous (?)
+- The pages should generally be more rich, dynamic, with more multi-media
 
 # About
 - Until we have a proper essay ready, this page would probably be better off as an annotated bibliography and a collection of visual inspiration

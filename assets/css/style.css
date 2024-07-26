@@ -427,7 +427,12 @@ h1.title {
 	padding: 0;
 	letter-spacing: -0.75px;
 	position: relative;
-	}
+}
+
+#markdownBody h2.chapter-subsection {
+	text-align: center;
+	font-style: italic;
+}
 
 #markdownBody section > h1 a::after {
 		right: unset;

@@ -5,7 +5,7 @@ abstract: "In the ninth grade, my classmates were shocked by the excessive cando
 
 
 The writing on this page is influenced by New Narrative, online writing, diary writing, the autobiography, contemporary art and cinema, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
-toc: true
+toc: false
 status: ongoing
 date: 2020-07-31
 ---
@@ -31,23 +31,24 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 
 </blockquote>
 
+{% assign date_format = "%b %d %Y" %}
+
 {% for post in site.diary reversed %}
-<section class="blog-post e-content level1" id="{{ post.url }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/blog#{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+<section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
 <div class="blog-post-header">
-<h1 id="{{ post.slug }}" class="blog-post-date">
-	<a href="#{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}"> <span class="blog-post-title" itemprop="name">{{ post.title }}</span></a>
+<h1 class="heading" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+	<a href="#{{ post.slug }}">{{ post.title }}</a>
 </h1>
 {% if post.description %}<span class="blog-post-description" itemprop="description">{{ post.description }}</span>{% endif %}
-
 </div>
 
 <span itemprop="articleBody">
 {{ post.content }}
 </span>
 
-{% if post.last_modified_at %}<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>{% endif %}
+{% if post.last_modified_at %}
+<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
+{% endif %}
 
 {% endfor %}
 </section>
-
-{% assign date_format = "%b %d %Y" %}
