@@ -1,7 +1,7 @@
 ---
 title: About This Website
-description: An artistic manifesto. Theorization, technical implementation, and road-mapping. 
-abstract: "This website is conceived of as a hypermedia literary experiment. It begins with my writing environment and its technical implementation; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* involves literary forms that are themselves experimental. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine interface design, web design, and literary form to create a new kind of book, at once memoir and socially-committed cultural critique."
+description: An artistic manifesto. Theorization, technical implementation, and plans for the future.
+abstract: "This website is conceived of as an experiment in outsider literary hypertext. It begins with my writing and research environment; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* includes a narrative section based on autofiction and the history of online writing. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine web design, information systems architecture, and literary form to create a new kind of book. At once memoir and socially-committed cultural critique."
 toc: true
 tags:
   - outsider art
@@ -12,13 +12,13 @@ tags:
   - graphic design
   - typography
   - experimental literature
-  - archival systems
-  - library sciences
+  - knowledge management
+  - information architecture
 status: extremely rough
 date: 2022-09-11
 ---
 
-When John Anderton goes on the lam in *Minority Report*, he undergoes surgery to replace his eyes because of the omnipresent retinal scanner. A similar level of surveillance has been achieved, but it depends more on the mediation of digital platforms than on external scanners. Virtual life has become an *a priori* for those born in the Internet Age. 
+When John Anderton goes on the lam in *Minority Report*, he employs a black-market surgeon to replace his eyes so that he can evade the omnipresent retinal scanners. A similar level of surveillance has been achieved, but using a more efficient, panoptic model. Instead of an external inspector, the subject is motivated to participate in their own surveillance. Virtual life has become an *a priori* for those born in the Internet Age. 
 
 Alienation before the behemoth pushes Spirit down to the pre-unhappy position of Stoicism. There is mass desire for the ether of *ataraxia*. Technical optimization smoothes so much of daily life. Digital culture and all its social potential has been confined to a protocol strictly controlled by capital. Tech conglomerates and hardware manufacturers have more power than states, but without the hindrance of historical precedent.
 
