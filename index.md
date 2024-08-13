@@ -3,7 +3,7 @@ title: Index
 abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website is an experiment in hypertext design and experimental writing.
 
 
-For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/index#reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/blog)."
+For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/index#reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
 layout: home
 ---
 {%- assign date_format =  "%b %d %Y" -%}
@@ -57,10 +57,10 @@ layout: home
 </ul>
 </section>
 
-<section id="blog">
-<h1 class="index-heading"><a href="/blog" title="A fictionalized diary.">Diaries</a></h1>
+<section id="diaries">
+<h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
-{% assign sortedPosts = site.blog | sort: 'date' | reverse %}
+{% assign sortedPosts = site.diary | sort: 'date' %}
 {% for post in sortedPosts limit: 10 %}
 <li>{% if post.title %}<a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.title }}</a>{% endif %}
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
