@@ -43,7 +43,7 @@ layout: default
 				<blockquote itemprop="abstract">{{ page.abstract | markdownify }}</blockquote>
 			</aside>
 		{% endif %}
-      {% include anchor_headings.html html=content headerAttrs="class='heading'" generateId="true" %}
+	  {{ content }}
   </div>
 
 	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

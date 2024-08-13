@@ -31,14 +31,25 @@ You adulterate the truth as you write. There isn't any pretense that you try to 
 
 </blockquote>
 
+<blockquote class="epigraph" itemprop="citation">
+When she can't sleep at night, she tries to remember the details of all the rooms where she has slept...The objects that appear are always linked to gestures and singular facts...In those rooms, she never sees herself with the clarity of photos, but blurred as in a film on an encrypted TV channel...She doesn't know what she wants from these inventories, except maybe through the accumulation of memories of objects, to again become the person she was at such and such a time.
+
+She would like to assemble these multiple images of herself, separate and discordant, thread them together with the story of her existence, starting with her birth during World War II up until the present day. Therefore, an existence that is singular but also merged with the movements of a generation. Each time she begins, she meets the same obstacles: how to represent the passage of historical time, the changing of things, ideas, and manners, and the private life of this woman? How to make the fresco of forty-five years coincide with the search for a self outside of History, the self of suspended moments transformed into the poems she wrote at twenty ("Solitude," etc.)? Her main concern is the choice between "I" and "she." There is something too permanent about "I," something shrunken and stifling, whereas "she" is too exterior and remote. The image she has of her book in its nonexistent form, of the impression it should leave, is...an image of light and shadow streaming over faces. But she hasn't yet discovered how to do this. She awaits if not a revelation, then a sign, a happenstance, as the madeleine dipped in tea was for Marcel Proust.
+
+Even more than this book, the future is the next man who will make her dream, buy new clothes, and wait: for a letter, a phone call, a message on the answering machine.
+
+--- Annie Ernaux, *The Years*, translated by Alison L. Strayer
+
+</blockquote>
+
 {% assign date_format = "%b %d %Y" %}
 
 {% for post in site.diary %}
 <section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
-<h1 class="heading" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+<h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
 	<a href="#{{ post.slug }}">{{ post.title }}</a>
 </h1>
-{% if post.description %}<span class="blog-post-description" itemprop="description">{{ post.description }}</span>{% endif %}
+<hr>
 
 <span itemprop="articleBody">
 {{ post.content }}

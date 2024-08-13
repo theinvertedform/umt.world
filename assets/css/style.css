@@ -392,7 +392,6 @@ li {
 	font-weight: normal;
 }
 
-
 /* typography */
 
 h1.title {
@@ -419,17 +418,69 @@ section.level1 > h1 {
 	position: relative;
 }
 
+section.level1 > h1.diary {
+	text-align: center;
+	border: none;
+	margin-bottom: 0.5em;
+}
+
+section.level1 hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+	margin: 0.5em 0 0 0;
+	padding: 0;
+}
+
+section.level1 hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section.level2 hr {
+	border-style: none;
+	border-width: 0;
+	border-radius: 0;
+	margin: 0.5em 0 0 0;
+	padding: 0;
+}
+
+section.level2 hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "\01F7BB \01F7BE \01F7BB";
+	text-align: center;
+	height: 0;
+	margin-top: 0;
+	border-style: none;
+	border-color: none;
+	border-width: 0;
+	border-radius: 0;
+}
+
 #markdownBody h2.chapter-subsection {
 	text-align: center;
 	font-style: italic;
+	text-transform: capitalize;
+	font-variant: normal;
+	border: none;
+	margin-bottom: 0.75em;
 }
 
 #markdownBody section > h1 a::after {
-		right: unset;
-		left: 0;
+	right: unset;
+	left: 0;
 }
 
-h1 a::after {
+h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
@@ -441,8 +492,8 @@ h1 a::after {
 }
 
 h1 a::after {
-		right: unset;
-		left: 0;
+	right: unset;
+	left: 0;
 }
 
 h1 a {
@@ -483,7 +534,6 @@ h3 {
 	font-weight: bold;
 	position: relative;
 	font-variant: small-caps;
-	text-transform: uppercase;
 }
 
 div.csl-entry {
