@@ -7,7 +7,7 @@ abstract: "In the ninth grade, my classmates were shocked by the excessive cando
 The writing on this page is influenced by New Narrative, online writing, diary writing, the autobiography, contemporary art and cinema, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
 toc: false
 status: ongoing
-date: 2020-07-31
+date: 2023-09-01
 ---
 
 <blockquote class="epigraph" itemprop="citation">
