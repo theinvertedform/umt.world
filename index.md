@@ -46,7 +46,7 @@ layout: home
 <a href="/interviews/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
 </li>
 <li>
-<a href="/blog#2023-03-18">Return to Drones</a>
+<a href="/reviews/return-to-drones">Return to Drones</a>
 </li>
 <li>
 <a href="/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
