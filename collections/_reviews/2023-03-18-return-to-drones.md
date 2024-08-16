@@ -1,5 +1,5 @@
 ---
-title: Return to Drones Club
+title: Return to Drones
 description: A Montréal after-hours that was once the centre of my universe.
 date: 2023-03-18
 ---
@@ -18,4 +18,4 @@ Every single relationship I have ever had with a woman that has been in any way 
 
 I left Luke's party absolutely elated. I left the rave in a similar recognition that I had had an experience of great personal significance, even though, objectively, nothing special happened: spent the evening reading, poisoned myself with beer in silence, walked alone to a rave where I danced by myself for 6 hours before leaving without having spoken to anyone. Bummed a cigarette from someone so frazzled by the sensory overload that I had moved on before she processed what I had said. Walked home as the sun was coming up. The sunrise on a hard night is more beautiful than anything.
 
-![The author on his way home.](assets/images/IMG_20230312_064832_807.jpg)
+![The author on his way home.](/assets/images/IMG_20230312_064832_807.jpg)
