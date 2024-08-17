@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website is an experiment in hypertext design and experimental writing.
+abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website is a work combining hypertext design and experimental writing.
 
 
 For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/index#reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
