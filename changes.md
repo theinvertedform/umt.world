@@ -1,7 +1,7 @@
 ---
 title: Changelog
 description: Rolling list of updates posted to umt.world.
-abstract: Changes posted to the umt.world website. This is a complicated page that I hope to one day be much more useful in terms of keeping track of my productive output. I am not close to figuring it out. I would like it to even include a summary of updates to the website's code, design, features.
+abstract: This is a list of pages on this website, listed in chronological order of their addition. I hope to one day develop this page to be a much more useful and complete log of my productive output. I am not close to figuring it out. The [commit log](https://github.com/theinvertedform/umt.world/activity) represents a partial history of changes to the website code.
 toc: true
 status: ongoing
 date: 2022-09-11
