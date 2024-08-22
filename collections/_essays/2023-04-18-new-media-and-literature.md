@@ -15,7 +15,7 @@ toc: true
 published: false
 ---
 
-Graphic design is as old as the written word. The first stone tablets were illustrated. When the first obelisks were unveiled in ancient Mesopotamia, their surfaces covered with the bird-like scratches of cuneiform, technological mediation marked the beginning of recorded history.
+Graphic design is as old as the written word. When the first obelisks were unveiled in ancient Mesopotamia, their surfaces covered with the bird-like scratches of cuneiform, it was through technological mediation that man inscribed the beginning of history.
 
 !["Cave paintings are the origin of graphic design. They represent a "technology" in the sense that they are accomplished by means of a tool to join two separate things. Tablets are especially important in the history of art-as-technology, in my view, because they represent the invention of a new medium of art through the synthesis of two previously separate entities" [@meggs2012, 11].](/assets/images/blau.png)
 
