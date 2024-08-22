@@ -54,6 +54,11 @@ layout: home
 <li>
 <a href="/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
 </li>
+<ul>
+<li>
+<a href="/commentary-on-light">*Commentary*</a>
+</li>
+</ul>
 <li>
 <a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
 </li>
