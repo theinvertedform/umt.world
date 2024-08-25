@@ -1,72 +1,58 @@
 ---
-title: "Beneath Language"
+title: "September 19-- 2023"
 description: "Writing prompts from Erin Manning's course on writing in Fall 2023."
 tags:
   - "ASEM 2023"
 published: no
 ---
 
-Basic concept: follow a body through various phases. Narrative of a body in different atmospheric environments. Connection between past and present.
+# Tuesday
 
-1. *Description, adjacent* Begin from a disembodied perspective. Contrast adjacent forms of the body, specifically the economic. Narrow in on the individual in the world. A form of disembodiment that comes from economic alienation. Atmosphere of regret and disconnect between one's history and present.
+Sometimes you get so drawn up in the pleasures of daily sensation that you fall into forgetfulness. The world waits for these moments of forgetfulness to remind you of your facticity. The gaze of an all-seeing eye comes back around and the present crashes into you like a projectile hurled from the centre of Being. Following your post-lapsarian logic, it is in virtue of your past self that you have the privilege of floating through the present, with all the pleasures of daily sensation.
 
-2. *Description, alongside* Another atmosphere of disembodiment, this time coming from social alienation. In the context of a classroom, where the man is taken out of his body. 
+The clock turns, summer becomes autumn and one year becomes another. There is a presence hovering over your shoulder. If you look at it directly---and it does not shy away from your gaze---you will notice that this hovering presence bears your likeness; more, that the thing is connected to you as though by some ectoplasmic umbilical cord. Your existence nourishes this uncanny Being, but it feeds off your most vulgar, material self. Your second body is made up of legal relations, debt, all the oaths and prayers others swear in your name. If you fail to repay your debts, it becomes the burdensome duty of the World to discipline you, to pull you from the bliss of forgetfulness by sticking pins through the joints of the presence that hovers over your shoulder. 
 
-3. *Dialogue* Third atmosphere of disembodiment, this time sexual. Sex is as powerful a mode of embodiment as any other.
+The connection between you and your doppelganger is two-way, and the police know exactly how to massage your second body in order to cause you the most pain. It's only sometimes that the pleasure of your body pulls you out of the Now. Otherwise, we are attached to a history of facts. Weighed and measured on a Great Ledger in the sky...or, on a computer disk. Or in the memory of the one we want to hear from least. No bucket of water was ever so cold as the reminder of our economic body, dumped on the unsuspecting head of the one who presumes to forget. 
 
-4. *Beyond Critique* Nothing is beyond critique, except for walking through the world. Palestine rally.
-
-# Description, adjacent
-
-Sometimes one is so drawn up in the pleasures of daily sensation that they fall into idyll; in these moments of blissful forgetfulness, the world will find the time to remind us of our facticity. The gaze of an all-seeing eye comes back around, and the imaginary present---an impossible moment that floats between past and future, is brought crashing back down into a concrete being. By some postlapsarian corollary, it is in virtue of one's past self that we are given the privilege of floating in the present of daily sensation.
-
-In the course of a life, each of us will by means necessary sew an idol that comes to stand in for us. A second body representing the past, made up of legal relation, debt, scars, and whatever material we find in the course of a life. If we fail to repay those debts, it becomes the burdensome duty of the world to discipline us; pull us down from idyll by sticking pins through the stuffing of our joints. Bolts of pain come screaming out of the blue light. We are not just a body that lives in the pleasure of the Now, but we are attached to a history of facts. Weighed and measured on a Great Ledger somewhere in the sky. Or, on a computer disk...or in the memory of the one we want to hear from least. No bucket of water was ever so cold as the reminder of our economic body, dumped on the unsuspecting head of the one who presumes to forget. 
-
-We might try to set fire to our paper-selves as though it were a pagan icon, but money is made out of plastic these days and doesn't burn easily. The idol is a tether to the past, but---let's be honest: who can claim to have changed? Aren't we still the same desperate one, scrabbling for survival, borrowing money without a plan for how to pay it back? She's still there, out of sight and by the power of forgetting, more and more out of mind. Yet she still walks the same earth as you.
+You might try to destroy your other self, to exorcise this haunting presence. Maybe you try to set fire to the thing, thinking it will burn easily---but money is made from plastic these days and doesn't really burn. Your doppelganger is a tether to the past, a reminder of everything you have left behind. But who can claim to have changed? Aren't we still the same desperate phylum, scrabbling for survival, borrowing without knowing how we can repay our debts? She's still there, out of sight and, in the pleasure of forgetting, more and more out of mind. But she still walks the same earth as you.
 
 *hello*
 
-# Description, alongside
+# Thursday
 
-The blue light of the interface shines out from the dim orange glow behind the bar. A quiet moment at work, just long enough for him to check his messages and slip unexpectedly out of the present and into memory. This is why we are not allowed to check our phones at work. It defies the clock to connect to the outside. The clock extinguishes all life, a death that is a respite. The safety of an imposed identity. She's not even his dog anymore: the news shouldn't affect him, but instead, the corners of his eyes prick painfully. The bathroom stinks of piss, and it's too small to be safe. "I'm taking five." A brisk walk out of view becomes a panicked run around the block. Panting turns into hyperventilation. Heart pounding turns into heart racing.
+Blue light from the screen shines against the orange glow of the bar. A quiet moment at work---just long enough to check my messages. We are not allowed to check our phones at work because the clock wants to extinguish life, and when you connect to the outside world, you are defying capital's thanatotic logic. Death is comforting, giving us the easy identity of a corpse. *The dog's teeth need to be pulled. You need to pay me back.* She's not even my dog anymore: the news shouldn't affect me, and yet my eyes prick painfully. The bathroom stinks of piss. "I'm taking five." A brisk walk out of view turns into a panicked run around the block. Panting turns into hyperventilation. Heart pounding turns into heart racing.
 
-"Are you okay?" A girl asks like it's her job. She keeps her distance from the guy sitting on the curb, face wet, wringing his hair like in a Caravaggio.
+"Are you okay?" A girl asks me like it's her job. She keeps her distance from me, the guy sitting on the curb, face wet and wringing his hair.
 
-"I'm fine." It's the only thing he learned to say when he was being taught how to be a man. *No, I'm not okay, do you want to stop and talk about it for a really long time? I'm just dying to unload my pain on someone. How about a kiss? That would make me feel better. Want to be my girlfriend? I'm just dying to fall in love.* There is nothing more impersonally adjacent than the impassive contact between two souls peering at each other through a window in the Great Wall of Public Sociality.
+"I'm fine." That's what they taught me to say. They taught me not to say, for example: *No, I'm not okay, do you want to stop and talk about it for a really long time? I'm just dying to unload my pain on someone. A kiss would make me feel better. Maybe we could go out sometime and fall in love?* There is no adjacency more impersonal than between two souls peering at each other through a window in the Great Wall of Public Sociality.
 
-"Thanks for asking," he adds. He couldn't ask this unless the whole thing were an act. She's not even his dog anymore. So what if she needs to get all her teeth pulled out because she has a genetic disease that they didn't catch when she was young. So what if he owes \$4000 to someone who is now a stranger. The guy on the curb doesn't get to make excuses, unless he is willing to sacrifice a pivotal aspect of his identity. A bucket of cold water dumped on his head, and the whole structure washes away.
+"Thanks for asking," I add. Is that addition a sign that the whole episode is just an act? *She's not even your dog anymore.* So what if she needs to get all her teeth pulled because she has a genetic disease that we didn't catch when she was young. So what if I owe \$4000 to someone whose name triggers a cutscene of Lucifer and the renegade angels falling through darkness, into that infernal pit?
 
-Instead, he returns to the orange glow of the bar; retreats back into the safety of a false identity. After a drink and a few false starts, he manages to get it out to the other sensitive boys he works with. *It's us versus them.* Some French-from-France (FFF) fucker interrupts by standing entitledly by the door. We emerge like a platoon out of the back of the house, crawl over the top of the bar, and meet them in the no-man's-land of the dining room. He is first to fall under a storm of steely entitlement.
+Work becomes an out-of-body experience. The car on autopilot, but self-driving cars are a work-in-progress and it's only a matter of time before I crash. There's something between us. If it's not a bar, it's the page you're holding. A membrane that marks the parasocial. A membrane is a two-way window. It permits ingress and egress. In those moments when an errant personality chooses to defy the channels of monotonous Being, it brings me crashing back into my body like a pleasant surprise. The membrane suffuses the city. It permeates bars, cafes, classrooms; the streets themselves are doused in it. We are all immersed in the amniotic fluid of the economy, but the police know how to massage that body and send bolts of pain screaming through blue light.
 
-The adjacency of service is like an out-of-body experience. A car on autopilot: the technology is not all there, and it's only a matter of time before he crashes. At work, he is alongside his co-workers. We move our bodies in a precise, improvised choreography around each other. Little eye contact; jokes in passing; debriefs on problem clients; sharing the blessing of a good one: taking care of each other.
+# Friday
 
-People take their bodies seriously, whether they know it or not. They take his body even more seriously than their own. Men change their stance on his approach, assume a defensive posture; often, they tend towards aggression. Women keep their masks up. He doesn't know how to see through them. They don't realize how little he cares. A golem, mask hanging with crooked carelessness. He doesn't have an identity here, other than "guy who brings you to your seat." *Move along, sir.* A different kind of institution, a different kind of spotlight, but just as mindful a Creditor as one could possibly imagine.
+The first mark of dialogue was her wave. Anyone can wave, but even from a block away I could tell it bore extra significance. It caused the air to ripple. Was there a clue that brought me to judge its significance, or did I make it up in my head? Was it her body language, the way she shifted on the curb towards him; or was it the history of prior waves leading up to that one fateful salute? All these signs and more: relation is a quantum physics, each variable yielding to an infinite regression of quarks and slight smiles.
 
-There is a bar between us all: a great bar in the sky. A membrane that marks the parasocial---but membranes permit passage. They can be punctured with a well-timed jab. In the rare moment that an errant personality chooses to puncture the routine of monotonous being, it brings him crashing back into his body---a warm, golden mist, rather than a rude bucket of cold water. The membrane suffuses the city. It permeates bars, cafes, classrooms; even the streets themselves are suffused with it. We are all of us immersed in the embryonic substance of the economic.
-
-# Dialogue (that grows the personality of the encounter, not the individual)
-
-The first mark of dialogue was her wave. Anyone can wave, but even from a block away, hers had extra significance. It rippled through the air, radiating alertness to its target. For the invisible one, this recognition is enough of a punctum to stand out. What clue allowed him to make that judgement? Was it her body language, the way she shifted on the curb towards him; or was it the history of prior waves leading up to that one fateful salute? What made that day's gesture land more heavily than the others? What made all the host of clues come together to form this particular set of meaning?
-
-On his way in, he sees a girl sitting out front of the hairdresser's next door. They have met before; like everyone from the salon, she's a regular. She waves from a distance and he stops by.
+On my way in, I see her sitting out front of the hairdresser's next door. We met before; like everyone from the salon, she's a regular at the bar next door, where I work. She waves from a distance and I pull to a stop.
 
 "Remind me what your name is?"
 
-"Milly," she says. "Emily-Rose, but everyone calls me Milly. And you're...David, right?"
+"M--," she says. "E-R, but everyone calls me M--. And you're...David, right?"
 
-"David?" he says, laughing. "Me, David? No, not a king, just one of his mighty men. Uriah."
+"David?" I say. "Me, David? No, I'm not a king, but one of his elite soldiers."
 
 "What's going to happen tonight?"
 
 "Nothing special, I don't think."
 
-"Maybe I'll stop by for a drink?"
+"Maybe I'll stop by?"
 
-She stops by for a drink. Sips from a shot glass of tequila at the end of the bar. He takes the opportunity to polish every fork in the house to keep the chat going. The others pick up the slack, but none of it matters, so he doesn't feel bad. No-one bothers him because, clearly, he's busy. They are with him in the joy of flirtation, the openness of possibility.
+She stops by and sips from a shot glass at the end of the bar. I take the time to polish every fork in the house, in order to keep the chat going. The others pick up my slack, but none of it matters so I don't feel bad.
 
 "Do you have Instagram?"
 
-This is a crucial moment that has failed him before. Through the long experience of trial and error, he has uncovered the esoteric secret that *girls like Instagram*. The veil of sociality cuts the harshness of the blue light of the interface; it takes pressure off the individual by embedding communication into a network. *A place for friends.* It's easier because it's less personal. He prefers SMS in principle because it's an open protocol. No-one is incentivized to develop the SMS interface. The things that won't change are the most reliable.
+This is a crucial moment that has failed me before. Through extensive research,I discovered the arcane secret that *girls like Instagram*. The veil of sociality cuts through the harshness of the blue light of the interface; it takes pressure off the individual by embedding communication into a network. *A place for friends.* It's easier because it's less personal. He prefers SMS in principle because it's an open protocol. No-one is incentivized to develop the SMS interface. The things that won't change are the most reliable.
 
 "I don't, I never learned how to use it."
 
@@ -74,7 +60,7 @@ This is a crucial moment that has failed him before. Through the long experience
 
 "It's hard to make new friends. I have to ask them for their numbers directly. It's usually worth it. It makes things more special."
 
-# Grammars of time
+# Sunday
 
 Life begins in the East, which is yellow, and autumn. Fall is the season of birth, symbolized in its death. Winter comes next, to the North, and it's blue-white, the most fearsome wind of them all. We must make it through the winter to reach the Spring, the West, red: the creative destruction of the Great Conflagration. South is summer, black as ash and hot night. Green sits in the middle, the basic palette that shades all the others.
 
@@ -82,7 +68,7 @@ All these shades that mark the passage of time have become dim in the modern era
 
 The pendulum swings; time passes; things change, but everything remains the same. The spiral tightens. Each new turn of the screw is more punishing than the last.
 
-# Beyond Critique
+# Tuesday
 
 The only time he ever called an MP was in 2021, when the Israeli bombardment of Palestine flared up to a new height and was again making international headlines. At the time, he was living in North Vancouver, but his primary residence was still listed as Montréal. He took the opportunity to call the representatives for both ridings; only the office of the Vancouverite called him back, presumably because his suburban constituency had less to worry about. An aide immediately launched into how Hamas started the conflict by bombarding the force-field that covers Israel with their glorified firecrackers.
 
