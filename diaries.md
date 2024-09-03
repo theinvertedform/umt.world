@@ -1,6 +1,6 @@
 ---
 title: Diaries
-description: "Selections from a diary. Patterns, ideas, gossip, writing notes, shopping lists, daydreams and fantasies."
+description: "Selections from a diary. Patterns, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
 abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality.
 
 
