@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 BLAST OF SILENCE is a comic-book film made in 1961, predating the

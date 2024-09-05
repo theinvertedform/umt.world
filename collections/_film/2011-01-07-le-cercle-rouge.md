@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 LE CERCLE ROUGE / JEAN-PIERRE MELVILLE / 1970

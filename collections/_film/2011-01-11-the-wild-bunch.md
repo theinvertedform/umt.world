@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 Peckinpah's existence is a mysterious one: how did he come to make

@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 HUSBANDS & WIVES (1992) 

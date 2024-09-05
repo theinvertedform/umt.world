@@ -10,6 +10,7 @@ tags:
 watched_Date:
 layout: film
 poster: /assets/images/the-lady-vanishes.jpg
+category: film
 ---
 
 *This review was originally written in 2009 for a blog I kept called Total Cinema.*

@@ -8,6 +8,7 @@ tags:
   - conceptual art
   - photography
 status: submitted
+category: art
 ---
 
 "An incident occurred," the facilitator told us in a lecture before our class visit to Concordia University's Leonard & Bina Ellen Gallery. We were being prepared to go see *Thinking Again and Supposing. Trajectory of an Exhibition*, a joint show by Concordia professors and artists Sarah Greig and Therese Mastroiacovo. Described as an act of vandalism, the "incident" had been repeated to the class in tragic tones by various representatives of the Montréal artworld. As in our classroom, no natural light reaches this deep inside the institution.

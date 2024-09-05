@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 William Friedkin started out as an art-house filmmaker in the mid-60s,

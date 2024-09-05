@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 How hard can it be to make a Bob Dylan biopic? Todd Haynes doesn't try

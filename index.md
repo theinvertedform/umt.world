@@ -3,7 +3,7 @@ title: Index
 abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website combines hypertext design and experimental writing.
 
 
-For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/index#reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
+For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
 layout: home
 ---
 {%- assign date_format =  "%b %d %Y" -%}
@@ -100,7 +100,7 @@ layout: home
 </section>
 
 <section id="reviews">
-<h1 class="index-heading" id="reviews"><a href="/index#reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
+<h1 class="index-heading" id="reviews"><a href="/reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
 <ul class="section-link-list">
 {% for post in site.reviews reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>

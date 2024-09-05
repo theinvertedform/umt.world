@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 Previously in this series, I spoke about how fantastic George Roy Hill's [THE STING](http://wellimean.com/totalcinema/the-sting/) was. Prior to this marvellous example of Hollywood

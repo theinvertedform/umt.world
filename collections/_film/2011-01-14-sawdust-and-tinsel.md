@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 I just watched CRIES AND WHISPERS (1972) recently, another Bergman film,
