@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 DAYS OF HEAVEN is another film touted by many as brilliant, evidence of

@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date: 2009-10-01
 layout: post
+category: film
 ---
 
 *This review was originally written in 2009 for a blog I kept called Total Cinema.*

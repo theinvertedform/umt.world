@@ -9,6 +9,7 @@ review:
 tags:
 watched_Date:
 layout: post
+category: film
 ---
 
 Once, a year or so ago, a friend of mine lent me a book called "The
