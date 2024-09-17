@@ -1,5 +1,5 @@
 ---
-title: "September 19-- 2023"
+title: "September 19 2023"
 description: "Writing prompts from Erin Manning's course on writing in Fall 2023."
 tags:
   - "ASEM 2023"
