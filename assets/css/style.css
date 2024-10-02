@@ -1,5 +1,9 @@
 /* base features */
 
+* {
+	box-sizing: border-box;
+}
+
 @font-face {
 	font-family: "Source Sans", sans-serif;
 	src: url("../assets/fonts/SourceSans3-Regular");
@@ -9,13 +13,13 @@ html {
     line-height: 1.60;
 	font-size: 20px;
 	font-weight: 400;
-	font-family: Source Pro;
+	font-family: "Source Pro";
 	padding: 0;
 	margin: 0;
 }
 
 body {
-	padding: 0 20px;
+	padding: 0 1em;
 	max-width: 935px;
 	margin: 0 auto;
 }
@@ -34,10 +38,10 @@ p {
 	margin: 0;
 }
 
-p + p {
-	text-indent: 1.75em;
-	margin-top: 0;
-}
+	p + p {
+		text-indent: 1.75em;
+		margin-top: 0;
+	}
 
 #sidebar {
 	display: flex;
@@ -46,14 +50,14 @@ p + p {
 
 	#sidebar a#logo {
 	    border: none;
-		max-width: 75px;
-		min-width: 75px;
-		margin: 1px 2px;
+		max-width: 5em;
+		min-width: 5em;
+		margin: 1em 1em 0 0;
 	}
 
 	#sidebar-links {
-		flex: 1 1 100%;
 		display: flex;
+		flex: 1 1 100%;
 		flex-flow: row wrap;
 		align-items: center;
 	}
@@ -62,67 +66,68 @@ p + p {
 		flex: 1 1 auto;
 		padding: 0.25em 0.75em;
 	}
+
+	#sidebar-links a:hover {
+		color: #999;
+	}
+
 	
 	#sidebar a {
-		display: block;
 		border: 1px dotted;
 		text-align: center;
-		margin: 1px 0 1px 2px;
+		margin: 0.25em;
 		font-variant: small-caps;
 	}
 
 article {
-	margin-top: 1.75rem;
 }
 
 #markdownBody {
-	line-height: 1.45;
-	overflow-wrap: break-word;
+	line-height: 1.45em;
 }
+
+	#markdownBody .section-link-list {
+		padding: 0 0 0 1.25em;
+		margin: 1em 0;
+	}
+	
+		#markdownBody .section-link-list li {
+			line-height: 1.65em;
+			padding: 0.1em;
+		}
+	
+	#markdownBody #diaries .section-link-list li {
+		list-style-type: square;
+	}
 
 	#markdownBody a:hover {
 		color: #999;
 	}
 
-	#markdownBody .section-link-list {
-		padding: 0 0 0 1.375em;
-		margin: 1em 0;
-	}
-	
-	#markdownBody .section-link-list li {
-		line-height: 1.65;
-		padding: 1px 0;
-		margin: 2px 0 0 0;
-	}
-	
-	#markdownBody #blog .section-link-list li {
-		list-style-type: square;
+	.markdownBody a {
+		color: #111;
+		font-variant-numeric: lining-nums;
 	}
 
-.markdownBody a {
-	color: #111;
-	font-variant-numeric: lining-nums;
-}
-
-.markdownBody a:hover {
-	color: #999;
-}
+	.markdownBody a:hover {
+		color: #999;
+	}
 
 a.footnote-ref {
 	vertical-align: super;
-	line-height: 0.3;
+	line-height: 0.25em;
 	position: relative;
-	top: 0.05em;
-	padding: 0 0.05em;
-	margin-left: 0.125em;
+	top: 0.1em;
+	padding: 0 0.1em;
+	margin-left: 0.25em;
 	font-variant-numeric: lining-nums;
 	font-weight: 600;
 	z-index: 1;
 }
 
 .footnote-back {
-	padding: 0 0.05em;
-	margin-left: 0.125em;
+	padding: 0 0.1em;
+	margin-left: 0.1em;
 	font-weight: 600;
 }
 
@@ -130,7 +135,7 @@ h1.index-heading {
 	border-bottom: 1px solid #888;
 	margin: 1.125em 0 0 0;
 	font-size: 1.5em;
-	line-height: 1.125;
+	line-height: 1.125em;
 	text-align: left;
 	padding: 0;
 	letter-spacing: -0.75px;
@@ -154,8 +159,8 @@ footer {
 }
 
 .end-ornament {
-	max-width: 250px;
-	min-width: 75px;
+	width: 15em;
+	width: 15em;
 	grid-row: 2/2;
 	padding-bottom: 1.25em;
 }
@@ -167,7 +172,7 @@ footer {
 	}
 
 #page-metadata {
-	line-height: 1.5;
+	line-height: 1.5em;
 	margin: 0 0 2.25rem 0;
 	font-family: sans-serif;
 	text-align: center;
@@ -177,7 +182,7 @@ footer {
 	margin: 0 auto 1em auto;
 	font-style: italic;
 	text-align: center;
-	font-family: Source Serif;
+	font-family: serif;
 }
 
 div#link-tags {
@@ -194,8 +199,8 @@ span.page-status {
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
 	z-index: 11;
-	line-height: 1.25;
-	padding: 0.655em 0.75em 0.75em 0.75em;
+	line-height: 1em;
+	padding: 0.5em;
 	position: relative;
 	font-size: 1rem;
 	font-family: sans-serif;
@@ -206,9 +211,14 @@ span.page-status {
 	border: none;
 }
 
+.section-nav a:hover {
+	background-color: darkgrey;
+}
+
+/*
 .blog-post-header {
 	padding-bottom: 1em;
-	}
+}
 
 .blog-post-date {
     line-height: 1.60;
@@ -267,6 +277,7 @@ span.page-status {
 		font-size: 18px;
 		font-weight: 700;
 	}
+*/
 
 /* blockquotes */
 
@@ -281,11 +292,9 @@ blockquote {
 
 .abstract blockquote {
 	margin: 0 0 1.5em 0;
-	padding-top: 0.9em;
+	padding-top: 1em;
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
-	overflow: hidden;
-	font-style: normal;
 	font-family: sans-serif;
 }
 
@@ -302,7 +311,7 @@ blockquote {
 	.epigraph p:last-child:not(:only-child) {
 		margin: 0.5em 0 0 0;
 		text-align: right;
-		font-size: 0.875em;
+		font-size: 0.75em;
 		font-style: normal;
 	}
 
@@ -312,8 +321,6 @@ blockquote {
 		font-size: 2.5em;
 		content: "\201C";
 		left: -0.05em;
-		top: -0.05em;
-		font-style: normal;
 	}
 
 	.epigraph::after {
@@ -323,7 +330,6 @@ blockquote {
 		content: "\201D";
 		right: -0.05em;
 		bottom: -0.05em;
-		font-style: normal;
 	}
 
 /* images */
@@ -331,14 +337,13 @@ blockquote {
 figcaption {
 	font-style: italic;
 	text-align: center;
+	font-size: 0.75em;
+	border-bottom: 1px solid black;
 }
 
 img {
-    max-width: 100%;
-}
-
-figure {
-	text-align: center;
+    width: 100%;
+	padding-bottom: 1em;
 }
 
 /* lists */
@@ -360,7 +365,7 @@ li {
 #TOC > ul {
 	column-count: 2;
 	margin: 0;
-	column-gap: 1.25em;
+	column-gap: 2em;
 	list-style-type: none;
 	padding: 0;
 }
@@ -375,9 +380,8 @@ li {
 	padding: 0;
 	overflow: unset;
 	list-style-type: none;
-	padding-left: 0.7em;
+	padding-left: 0.5em;
 	padding-top: 0.25em;
-	margin-top: 0.1em;
 }
 
 .section-nav li {
@@ -399,7 +403,7 @@ h1.title {
 	text-align: center;
 	font-variant: small-caps;
 	font-size: 2em;
-	line-height: 1.15;
+	line-height: 1.5em;
 	font-weight: 700;
 	letter-spacing: -1px;
 	border-bottom: none;
@@ -502,7 +506,7 @@ h1 a {
 
 section.level2 > h2 {
 	text-transform: uppercase;
-	font-size: 1.4em;
+	font-size: 1.25em;
 	border-bottom: 1px dotted #888;
 	text-align: left;
 	font-variant: small-caps;
@@ -529,7 +533,7 @@ h2 a {
 }
 
 h3 {
-    font-size: 1.35em;
+    font-size: 1.25em;
 	text-transform: capitalize;
 	font-weight: bold;
 	position: relative;
@@ -578,14 +582,9 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	#sidebar #sidebar-links a {
 		font-variant-caps: small-caps;
 	}
-
-	#sidebar a#logo {
-		padding: 0.5em 0.375em;
-	}
 }
 
 @media all and (min-width: 650px) {
-		
 	main {
 		min-height: 100vh;
 		display: flex;
@@ -641,11 +640,11 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 	#markdownBody .section-link-list {
 		margin: 1em 0;
-		padding: 0 0 0 1.375em;
+		padding: 0 0 0 1.5em;
 	}
 
 	#TOC {
-		max-width: 285px;
+		max-width: 25em;
 		margin: 0 2.5rem 1.5rem 0;
 		position: relative;
 		float: left;
@@ -661,9 +660,9 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 
 	.section-nav ul {
-		margin-top: 0.2em;
+		margin-top: 0.25em;
 		text-indent: 0;
-		padding-left: 0.7em;
+		padding-left: 0.75em;
 		padding-top: 0.25em;
 	}
 
@@ -676,7 +675,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	footer {
-		margin: 3em 0 3em 100px;
+		margin: 3em 0 3em 10em;
 	}
 }
 
