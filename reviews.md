@@ -15,7 +15,7 @@ There's a lot that remains to be done with this page.
 
 3. How do we keep the page from getting too long? I can't simply integrate every review I've posted on Letterboxd---there are hundreds, and it would render the TOC unusable, the page unnavigable."
 tags:
-  - review
+  - reviews
   - criticism
 status: ongoing
 toc: true
@@ -27,7 +27,7 @@ toc: true
 <h1 id="{{ category | slugify }}">{{ category | capitalize }}</h1>
 {% for post in site.documents %}
 {% if post.category contains category %}
-<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+<h2 id="{{ post.title | slugify }}"><a href="#{{ post.title | slugify }}">{{ post.title }}</a></h2>
 {% if post.abstract %}
 {{ post.abstract }}
 {% else %}
