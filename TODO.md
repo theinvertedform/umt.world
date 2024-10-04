@@ -48,6 +48,7 @@ title: Website to-do
 - Drop caps
 - Style for code blocks
 - Responsive text size
+- Typographic style + links for all references
 
 # Diaries
 - ~~Re-structure the diary into chronological chapters~~
