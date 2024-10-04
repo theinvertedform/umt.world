@@ -10,8 +10,8 @@
 }
 
 html {
-    line-height: 1.60;
-	font-size: 20px;
+    line-height: 1.60em;
+	font-size: calc(16px + 0.390625vw);
 	font-weight: 400;
 	font-family: "Source Pro";
 	padding: 0;
@@ -200,7 +200,7 @@ span.page-status {
 	background-color: #f8f8f8;
 	z-index: 11;
 	line-height: 1em;
-	padding: 0.5em;
+	padding: 1em;
 	position: relative;
 	font-size: 1rem;
 	font-family: sans-serif;
@@ -334,16 +334,19 @@ blockquote {
 
 /* images */
 
+figure {
+	border-bottom: 1px solid black;
+	margin: 1em 0;
+}
+
 figcaption {
 	font-style: italic;
 	text-align: center;
 	font-size: 0.75em;
-	border-bottom: 1px solid black;
 }
 
 img {
     width: 100%;
-	padding-bottom: 1em;
 }
 
 /* lists */
@@ -596,8 +599,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	header {
-		padding: 0 2em;
-		margin-top: 2.125rem;
+		margin-top: 2em;
 	}
 	
 	#sidebar {
