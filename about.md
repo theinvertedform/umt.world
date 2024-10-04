@@ -36,7 +36,7 @@ But hasn't life always been mediated by technology? The historical record is a t
 
 Graphic design is part of the history of the written word. When the first obelisks were unveiled in ancient Mesopotamia, their surfaces covered with the bird-like scratches of cuneiform, image and word were arranged to co-constitutive elements of the message.
 
-!["Cave paintings are the origin of graphic design. They represent a "technology" in the sense that they are accomplished by means of a tool to join two separate things. Tablets are especially important in the history of art-as-technology, in my view, because they represent the invention of a new medium of art through the synthesis of two previously separate entities" [@meggs2012, 11].](/assets/images/blau.png)
+!["Cave paintings are the origin of graphic design. They represent a 'technology' in the sense that they are accomplished by means of a tool to join two separate things. Tablets are especially important in the history of art-as-technology, in my view, because they represent the invention of a new medium of art through the synthesis of two previously separate entities" [@meggs2012, 11].](/assets/images/blau.png)
 
 Up until the height of the European medieval manuscript, graphic design developed as an aspect of the fine arts tradition. The most technically-advanced manuscript on record, the "*Tres Riches Heures* du Duc de Berry," resembles the Gothic art of its time. However, it becomes an element of mass culture earlier than other visual media, following from the printing press, the first technology of automatic reproduction. The technique and visual culture associated with a specifically mass form of media could then begin to detach from the artisanal culture of the fine arts.[^2a]
 
