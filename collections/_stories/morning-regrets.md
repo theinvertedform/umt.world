@@ -34,7 +34,7 @@ The hoodie she wears most weeks is patterned with hunting camo, a trend you like
 
 The book begins with "Sense-Certainty," the knowledge that comes immediately at the first moment of consciousness. The moment of awakening is a moment of *sheer being*; when we pass to the second moment, that point of immediacy becomes an object for consciousness. We notice our movement along the temporal axis. E-- calls these two moments the "mature" and "immature" stages of sense-certainty. 
 
-"The chapter progresses between two stages, but that movement doesn't happen through mediation because sense-certainty is immediate. When consciousness looks at the 'This,' it moves between these two stages based on a linguistic operation. That's the best I can make of it."
+"The chapter progresses between two stages," he says, "but that movement doesn't happen through mediation because sense-certainty is immediate. When consciousness looks at the 'This,' it moves between these two stages based on a linguistic operation. That's the best I can make of it."
 
 His soft brown leather pencil case lies on the desk between you. He uses a thin and new-looking silver Macbook. Your long hair is dissimilar to his shaved pate. All his designer accoutrement belie the modesty of his speech. The class is filled with powerful characters, a potent concentration of youthful sincerity that you know is rare when diluted among the general population.
 
@@ -81,7 +81,3 @@ You press the message icon.
 Did she ever notice your dark mood, or the attention you paid towards her?
 
 You press send and straighten your back. After the long dark winter, the sun is a powerful enticement to rise. Like God, reliable, governed by immutable laws. A girl's love is a poor substitute for the divine, but it'll do today.
-
-***
-
-2683 words
