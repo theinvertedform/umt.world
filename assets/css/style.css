@@ -1,7 +1,16 @@
 /* base features */
 
+:root {
+	--primary: #FFFFF8;
+	--secondary: #111111;
+	--light: #eeeeee;
+	--dark: #888888;
+}
+
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 @font-face {
@@ -14,34 +23,18 @@ html {
 	font-size: calc(16px + 0.390625vw);
 	font-weight: 400;
 	font-family: "Source Pro";
-	padding: 0;
-	margin: 0;
 }
 
 body {
 	padding: 0 1em;
 	max-width: 935px;
-	margin: 0 auto;
-}
-
-main {
-	position: relative;
 }
 
 a {
-    color: #111;
+    color: var(--secondary);
     text-decoration: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid var(--dark);
 }
-
-p {
-	margin: 0;
-}
-
-	p + p {
-		text-indent: 1.75em;
-		margin-top: 0;
-	}
 
 #sidebar {
 	display: flex;
@@ -68,7 +61,7 @@ p {
 	}
 
 	#sidebar-links a:hover {
-		color: #999;
+		color: var(--dark);
 	}
 
 	
@@ -78,9 +71,6 @@ p {
 		margin: 0.25em;
 		font-variant: small-caps;
 	}
-
-article {
-}
 
 #markdownBody {
 	line-height: 1.45em;
@@ -101,16 +91,16 @@ article {
 	}
 
 	#markdownBody a:hover {
-		color: #999;
+		color: var(--dark);
 	}
 
 	.markdownBody a {
-		color: #111;
+		color: var(--secondary);
 		font-variant-numeric: lining-nums;
 	}
 
 	.markdownBody a:hover {
-		color: #999;
+		color: var(--dark);
 	}
 
 a.footnote-ref {
@@ -132,7 +122,7 @@ a.footnote-ref {
 }
 
 h1.index-heading {
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid var(--dark);
 	margin: 1.125em 0 0 0;
 	font-size: 1.5em;
 	line-height: 1.125em;
@@ -212,7 +202,7 @@ span.page-status {
 }
 
 .section-nav a:hover {
-	background-color: darkgrey;
+	background-color: var(--light);
 }
 
 /*
@@ -300,7 +290,7 @@ blockquote {
 
 .epigraph {
 	padding: 0.75em 2.5em;
-	background-color: #fff;
+	background-color: var(--primary);
 	border: none;
 }
 
@@ -413,7 +403,7 @@ h1.title {
 }
 
 section.level1 > h1 {
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid var(--dark);
 	font-size: 2em;
 	font-weight: 600;
 	font-variant-caps: small-caps;
@@ -491,7 +481,7 @@ h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: #888;
+    color: var(--dark);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -556,7 +546,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--dark);
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -567,7 +557,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--dark);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -612,7 +602,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	#sidebar a {
-		color: #888;
+		color: var(--dark);
 	}
 
 	#sidebar a:hover {

@@ -5,27 +5,10 @@
         <meta name="viewport" content="width=device-width">
 		<title>{{ page.title | markdownify | strip_html }} - umt.world</title>
 
-		<!-- Twitter cards -->
-		<meta name="twitter:site"    content="@{{ site.twitter_username }}">
-		<meta name="twitter:creator" content="{{ site.author.name }}">
-		<meta name="twitter:title"   content="{{ page.title }}">
-		
-		{% if page.summary %}
-		<meta name="twitter:description" content="{{ page.description }}">
-		{% else %}
-		<meta name="twitter:description" content="{{ site.description }}">
-		{% endif %}
-		
-		{% if page.image %}
-		<meta name="twitter:card"  content="summary_large_image">
-		<meta name="twitter:image" content="https://umt.world/assets/images/twitter-card.png">
-		{% else %}
-		<meta name="twitter:card"  content="summary">
-		<meta name="twitter:image" content="https://umt.world/assets/images/twitter-card.png">
-		{% endif %}
-
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/typography.css" | relative_url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/colours.css" | relative_url }}">
 		<link rel="shortcut icon" type="image/svg" href="/favicon.svg">
 
 {% if page.image_sliders or layout.image_sliders or page.image_sliders_load_all -%}
