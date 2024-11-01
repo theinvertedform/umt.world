@@ -5,6 +5,8 @@
 	--secondary: #111111;
 	--light: #eeeeee;
 	--dark: #888888;
+	--secondaryForeground: ;
+	--secondaryBackground: ;
 }
 
 * {
@@ -26,8 +28,13 @@ html {
 }
 
 body {
-	padding: 0 1em;
-	max-width: 935px;
+	margin: 0 auto;
+	padding: 0.5em;
+}
+
+main {
+	position: relative;
+	margin: 0 auto;
 }
 
 a {
@@ -38,42 +45,54 @@ a {
 
 #sidebar {
 	display: flex;
-    justify-content: center;
 }
 
 	#sidebar a#logo {
 	    border: none;
-		max-width: 5em;
-		min-width: 5em;
-		margin: 1em 1em 0 0;
+		border: 1px dotted var(--dark);
+		margin: 1px;
+		padding: 0.25rem 0.75rem;
+		align-content: center;
 	}
 
-	#sidebar-links {
-		display: flex;
+	#logo img {
+		min-width: 2em;
 		flex: 1 1 100%;
+	}
+
+	.sidebar-links {
+		flex: 1 1 100%;
+		display: flex;
 		flex-flow: row wrap;
-		align-items: center;
 	}
 
-	#sidebar-links a {
-		flex: 1 1 auto;
-		padding: 0.25em 0.75em;
+	#sidebar .sidebar-links a {
+		flex: 1 1 33%;
+		padding: 0.25rem 0.75rem;
+		align-content: center;
 	}
 
-	#sidebar-links a:hover {
+	.sidebar-links a:hover {
 		color: var(--dark);
 	}
-
 	
 	#sidebar a {
-		border: 1px dotted;
+		display: block;
 		text-align: center;
-		margin: 0.25em;
 		font-variant: small-caps;
+		border: 1px dotted var(--dark);
+		margin: 1px 0 1px 2px;
 	}
+
+aside.index.abstract {
+	text-align: justify;
+}
 
 #markdownBody {
 	line-height: 1.45em;
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 1em;
 }
 
 	#markdownBody .section-link-list {
@@ -103,6 +122,19 @@ a {
 		color: var(--dark);
 	}
 
+section {
+	width: 100%;
+}
+
+p {
+	margin: 0;
+}
+
+	p + p {
+		text-indent: 1.75em;
+		margin-top: 0;
+	}
+
 a.footnote-ref {
 	vertical-align: super;
 	line-height: 0.25em;
@@ -124,11 +156,11 @@ a.footnote-ref {
 h1.index-heading {
 	border-bottom: 1px solid var(--dark);
 	margin: 1.125em 0 0 0;
-	font-size: 1.5em;
-	line-height: 1.125em;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
 	text-align: left;
 	padding: 0;
-	letter-spacing: -0.75px;
+	letter-spacing: -0.05rem;
 	font-variant-caps: small-caps;
 }
 
@@ -136,23 +168,26 @@ section > :first-child > a {
 	border-bottom: none;
 }
 
-.section-link-list-post-title {
-	font-variant: small-caps;
-}
-
 footer {
 	text-align: center;
 	margin: 3em 0;
-	display: grid;
 	align-items: center;
-	justify-items: center;
+	display: flex;
+	flex-flow: column;
+}
+
+.feedback a:hover {
+	color: var(--dark);
 }
 
 .end-ornament {
-	width: 15em;
-	width: 15em;
-	grid-row: 2/2;
+	max-width: 75%;
 	padding-bottom: 1.25em;
+}
+
+.epitaph {
+	max-width: 75ch;
+	font-style: italic;
 }
 
 /* post layout */
@@ -562,30 +597,17 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 
-@media (max-width: 649px) {
-	
-	html {
-		font-size: 18px;
-	}
-	
-	#sidebar {
-		margin-top: 1em;
-	}
-
-	#sidebar #sidebar-links a {
-		font-variant-caps: small-caps;
-	}
-}
-
-@media all and (min-width: 650px) {
+@media (min-width: 650px) {
 	main {
-		min-height: 100vh;
+		/*min-height: 100vh;
 		display: flex;
-		flex-flow: column;
+		flex-flow: column;*/
 	}
+
+	/* introduce column-count: 2; sections around 1k pixels */
 
 	article {
-		flex: 1 1 auto;
+		/*flex: 1 1 auto;*/
 	}
 
 	header {
@@ -593,12 +615,12 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 	
 	#sidebar {
-		margin-top: 0.5em;
 	}
 
-	#sidebar #sidebar-links a {
+	#sidebar .sidebar-links a {
 		text-transform: uppercase;
 		font-weight: 600;
+		flex: 1 1 auto;
 	}
 
 	#sidebar a {
@@ -610,29 +632,9 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 }
 
-@media (min-width: 901px) {
-	body {
-		margin: 0 auto;
-	}
-
-	article {
-		max-width: 1000px; /* figure out where the width goes; how to grow space on left side of screen. */
-	}
-
-	#markdownBody {
-		padding-top: 0;
-	}
-
-	.markdownBody {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 2em;
-		grid-row-gap: 0.5em;
-	}
-
-	#markdownBody .section-link-list {
-		margin: 1em 0;
-		padding: 0 0 0 1.5em;
+@media (min-width: 961px) {
+	aside.index.abstract {
+		max-width: 935px;
 	}
 
 	#TOC {
@@ -650,7 +652,6 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 		padding: 0;
 	}
 
-
 	.section-nav ul {
 		margin-top: 0.25em;
 		text-indent: 0;
@@ -659,27 +660,70 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	aside.abstract {
-		grid-column-start: 1;
-		grid-column-end: -1;
+		/*grid-column-start: 1;
+		grid-column-end: -1;*/
 		margin: 0;
 		padding: 0;
 		overflow-wrap: break-word;
 	}
-
-	footer {
-		margin: 3em 0 3em 10em;
-	}
 }
 
-@media all and (min-width: 1770px ) {
-	.markdownBody {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-column-gap: 2em;
-		grid-row-gap: 0.5em;
+@media (min-width: 1041px) {
+	main {
+	}
+
+	#sidebar {
+	}
+
+	#logo {
+	}
+
+	.sidebar-links {
 	}
 
 	article {
-		width: 1250px;
+	}
+	aside.index.abstract {
+		grid-column: 1 / -1;
+		justify-self: center;
+	}
+
+	#markdownBody {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+	}
+
+	footer { 
+		grid-row: 3;
+		grid-column: 1 / 4;
+	}
+}
+
+@media (min-width: 1180px) {
+	#sidebar a#logo {
+		border: none;
+		/*margin: 0 0.75em 0 0;*/
+	}
+
+	#sidebar #logo img {
+		width: 5em;
+	}
+}
+
+@media (min-width: 1770px ) {
+	#sidebar {
+		margin: 0 auto;
+	}
+
+	aside.index.abstract {
+		margin: 0 auto;
+	}
+
+	#markdownBody {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 2em;
+		grid-row-gap: 0.5em;
+		position: relative;
 	}
 }

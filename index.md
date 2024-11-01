@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. The website combines hypertext design and experimental writing.
+abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to writing published on this website, as well as elsewhere online and in print. This website is an ongoing experiment in hypertext design, knowledge management, and experimental narrative.
 
 
 For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
@@ -10,7 +10,7 @@ layout: home
 
 <article>
 <div class="markdownBody" id="markdownBody">
-<aside class="abstract">{{ page.abstract | markdownify }}</aside>
+<aside class="index abstract">{{ page.abstract | markdownify }}</aside>
 
 <section id="new">
 <h1 class="index-heading"><a href="/changes" title="Reverse chronological list of additions to my published canon.">Newest</a></h1>

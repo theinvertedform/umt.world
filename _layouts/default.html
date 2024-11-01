@@ -7,8 +7,6 @@
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-		<link rel="stylesheet" href="{{ "/assets/css/typography.css" | relative_url }}">
-		<link rel="stylesheet" href="{{ "/assets/css/colours.css" | relative_url }}">
 		<link rel="shortcut icon" type="image/svg" href="/favicon.svg">
 
 {% if page.image_sliders or layout.image_sliders or page.image_sliders_load_all -%}
@@ -46,8 +44,8 @@
     <body itemscope itemtype="http://schema.org/WebPage">
 		<main>
         <nav id="sidebar">
-			<a id="logo" href="/index"><img src="/assets/images/logo.png" title="umt.world logo, taken from a photo of the first test of an atom bomb at Trinity, NM."/></a>
-			<div id="sidebar-links">
+			<a id="logo" href="/index"><img src="/assets/images/logo-caslon.svg" title="umt.world logo, taken from a photo of the first test of an atom bomb at Trinity, NM."/></a>
+			<div class="sidebar-links">
             	<a href="/about" title="Philosophy, design, and aspirations of this website.">Website</a>
             	<a href="/links" title="Biography, personality, tastes, interests, where I can be found online, contact.">Author</a>
             	<a href="/changes" title="All changes, additions, and modifications to the website text and sourcecode.">Changes</a>
@@ -62,8 +60,9 @@
 		{{ content }}
 
 		<footer>
-		<a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Feedback</a>
-		<img class="end-ornament" src="/assets/images/ornaments/end.png">
+		<img class="end-ornament" src="/assets/images/arabesque.svg">
+		<blockquote class="epitaph">You write because you have to.</blockquote>
+		<span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Anonymous Feedback</a></span>
 		</footer>
 
 		</main>
