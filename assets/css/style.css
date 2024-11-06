@@ -1,12 +1,15 @@
 /* base features */
 
 :root {
-	--primary: #FFFFF8;
-	--secondary: #111111;
-	--light: #eeeeee;
-	--dark: #888888;
-	--secondaryForeground: ;
-	--secondaryBackground: ;
+	--background-colour: #FFFFF8;
+	--text-colour: #2A2A29;
+	--link-colour: #555553;
+	--link-hover-colour: #80807c;
+	--border-colour: #555553;
+	--secondary-background-colour: #F8F8FF;
+	--secondary-text-colour: #4a4a4c;
+	--secondary-hover-colour: #dfdfe5;
+	--secondary-border-colour: #c6c6cc;
 }
 
 * {
@@ -28,36 +31,42 @@ html {
 }
 
 body {
+	max-width: 75ch;
+	--body-width: 75ch;
 	margin: 0 auto;
 	padding: 0.5em;
+	background-color: var(--background-colour);
+	color: var(--text-colour);
 }
 
 main {
 	position: relative;
-	margin: 0 auto;
 }
 
 a {
-    color: var(--secondary);
+    color: var(--link-colour);
     text-decoration: none;
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--border-colour);
 }
 
 #sidebar {
 	display: flex;
+	justify-content: center;
 }
 
 	#sidebar a#logo {
 	    border: none;
-		border: 1px dotted var(--dark);
+		border: 1px dotted var(--link-hover-colour);
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
 	}
 
 	#logo img {
-		min-width: 2em;
+		min-width: 3em;
 		flex: 1 1 100%;
+		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--text-colour) */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--background-colour) */
 	}
 
 	.sidebar-links {
@@ -73,26 +82,39 @@ a {
 	}
 
 	.sidebar-links a:hover {
-		color: var(--dark);
+		color: var(--link-hover-colour);
 	}
 	
 	#sidebar a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted var(--dark);
+		border: 1px dotted var(--link-hover-colour);
 		margin: 1px 0 1px 2px;
 	}
 
+	#sidebar a.patreon {
+		display: block;
+		text-align: center;
+		font-variant: small-caps;
+		border: 1px dotted red;
+		margin: 1px 0 1px 2px;
+	}
+
+article {
+}
+
 aside.index.abstract {
 	text-align: justify;
+	margin: 0 auto;
 }
 
 #markdownBody {
 	line-height: 1.45em;
-	display: flex;
-	flex-flow: row wrap;
-	margin-top: 1em;
+/*	display: flex;
+	flex-flow: row wrap;*/
+	margin: 1em auto;
+	max-width: 75ch;
 }
 
 	#markdownBody .section-link-list {
@@ -110,25 +132,17 @@ aside.index.abstract {
 	}
 
 	#markdownBody a:hover {
-		color: var(--dark);
+		color: var(--link-hover-colour);
 	}
 
 	.markdownBody a {
-		color: var(--secondary);
+		color: var(--text-colour);
 		font-variant-numeric: lining-nums;
 	}
 
 	.markdownBody a:hover {
-		color: var(--dark);
+		color: var(--link-hover-colour);
 	}
-
-section {
-	width: 100%;
-}
-
-p {
-	margin: 0;
-}
 
 	p + p {
 		text-indent: 1.75em;
@@ -154,7 +168,7 @@ a.footnote-ref {
 }
 
 h1.index-heading {
-	border-bottom: 1px solid var(--dark);
+	border-bottom: 1px solid var(--link-hover-colour);
 	margin: 1.125em 0 0 0;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
@@ -164,9 +178,29 @@ h1.index-heading {
 	font-variant-caps: small-caps;
 }
 
-section > :first-child > a {
-	border-bottom: none;
+hr.index-section-ornament {
+	order: 4;
+	border: 0;
+	display: flex;
+	margin: 0;
+	width: 100%;
 }
+
+hr.index-section-ornament::after {
+	content: "";
+	margin: auto;
+	width: 2.5em;
+	height: 2.5em;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+	background-size: 2.5em;
+	background-image: url('/assets/images/caslon-section-ornament.svg');
+}
+
+/*section > :first-child > a {
+	border-bottom: none;
+}*/
 
 footer {
 	text-align: center;
@@ -177,7 +211,7 @@ footer {
 }
 
 .feedback a:hover {
-	color: var(--dark);
+	color: var(--link-hover-colour);
 }
 
 .end-ornament {
@@ -221,9 +255,9 @@ span.page-status {
 }
 
 #TOC {
-	border: 1px solid #ccc;
-	background-color: #f8f8f8;
-	z-index: 11;
+	border: 1px solid var(--secondary-border-colour);
+	background-color: var(--secondary-background-colour);
+	z-index: 20;
 	line-height: 1em;
 	padding: 1em;
 	position: relative;
@@ -234,10 +268,11 @@ span.page-status {
 
 .section-nav a {
 	border: none;
+	color: var(--secondary-text-colour);
 }
 
 .section-nav a:hover {
-	background-color: var(--light);
+	background-color: var(--secondary-hover-colour);
 }
 
 /*
@@ -309,8 +344,8 @@ span.page-status {
 blockquote {
 	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
-	border: 1px solid #ccc;
-	background-color: #f8f8f8;
+	border: 1px solid var(--secondary-border-colour);
+	background-color: var(--secondary-background-colour);
 	overflow: hidden;
 	position: relative;
 }	
@@ -318,14 +353,14 @@ blockquote {
 .abstract blockquote {
 	margin: 0 0 1.5em 0;
 	padding-top: 1em;
-	border: 1px solid #ccc;
-	background-color: #f8f8f8;
+	border: 1px solid var(--secondary-border-colour);
+	background-color: var(--secondary-background-colour);
 	font-family: sans-serif;
 }
 
 .epigraph {
 	padding: 0.75em 2.5em;
-	background-color: var(--primary);
+	background-color: var(--background-colour);
 	border: none;
 }
 
@@ -360,7 +395,7 @@ blockquote {
 /* images */
 
 figure {
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 	margin: 1em 0;
 }
 
@@ -438,7 +473,7 @@ h1.title {
 }
 
 section.level1 > h1 {
-	border-bottom: 1px solid var(--dark);
+	border-bottom: 1px solid var(--link-hover-colour);
 	font-size: 2em;
 	font-weight: 600;
 	font-variant-caps: small-caps;
@@ -516,7 +551,7 @@ h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: var(--dark);
+    color: var(--link-hover-colour);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -535,7 +570,7 @@ h1 a {
 section.level2 > h2 {
 	text-transform: uppercase;
 	font-size: 1.25em;
-	border-bottom: 1px dotted #888;
+	border-bottom: 1px dotted var(--border-colour);
 	text-align: left;
 	font-variant: small-caps;
 	line-height: 1.15;
@@ -549,7 +584,7 @@ h2 a::after {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: #888;
+    color: var(--text-colour);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -581,7 +616,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: var(--dark);
+    border-color: var(--link-hover-colour);
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -592,53 +627,66 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: var(--dark);
+    border-color: var(--link-hover-colour);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
 
 @media (min-width: 650px) {
-	main {
-		/*min-height: 100vh;
-		display: flex;
-		flex-flow: column;*/
-	}
-
 	/* introduce column-count: 2; sections around 1k pixels */
 
+	main {
+		min-height: 100vh;
+		display: flex;
+		flex-flow: column;
+	}
+
 	article {
-		/*flex: 1 1 auto;*/
+		flex: 1 1 auto;
 	}
 
 	header {
-		margin-top: 2em;
-	}
-	
-	#sidebar {
+		padding: 0 2em;
+		margin: 2.125rem 0 1.75rem 0;
 	}
 
 	#sidebar .sidebar-links a {
 		text-transform: uppercase;
 		font-weight: 600;
 		flex: 1 1 auto;
-	}
-
-	#sidebar a {
-		color: var(--dark);
+		color: var(--link-hover-colour);
 	}
 
 	#sidebar a:hover {
 		color: #ccc;
 	}
+
+	.markdownBody {
+		position: relative;
+	}
 }
 
-@media (min-width: 961px) {
-	aside.index.abstract {
-		max-width: 935px;
+@media (min-width: 901px) {
+
+	body.page-index #markdownBody {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2em;
+		grid-row-gap: 0.5em;
+	}
+
+	article.post {
+		max-width: 75ch;
+		margin: 0 auto;
+	}
+
+	hr.index-section-ornament {
+		grid-column: 1 / -1;
+		order: unset;
 	}
 
 	#TOC {
-		max-width: 25em;
+		max-width: 285px;
 		margin: 0 2.5rem 1.5rem 0;
 		position: relative;
 		float: left;
@@ -660,11 +708,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	aside.abstract {
-		/*grid-column-start: 1;
-		grid-column-end: -1;*/
-		margin: 0;
-		padding: 0;
-		overflow-wrap: break-word;
+		grid-column: 1 / -1;
 	}
 }
 
@@ -683,7 +727,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 	article {
 	}
-	aside.index.abstract {
+	/*aside.index.abstract {
 		grid-column: 1 / -1;
 		justify-self: center;
 	}
@@ -692,18 +736,20 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 2em;
+	}*/
+
+	/*#markdownBody section {
+		width: 37ch;
 	}
 
-	footer { 
-		grid-row: 3;
-		grid-column: 1 / 4;
-	}
+	#markdownBody section:nth-child(even) {
+		margin: 0 1ch 0 0;
+	}*/
 }
 
 @media (min-width: 1180px) {
 	#sidebar a#logo {
 		border: none;
-		/*margin: 0 0.75em 0 0;*/
 	}
 
 	#sidebar #logo img {
@@ -711,19 +757,34 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 }
 
-@media (min-width: 1770px ) {
-	#sidebar {
-		margin: 0 auto;
+@media (min-width: 1761px ) {
+
+	body.page-index #markdownBody {
+		grid-template-columns: 35ch 35ch 35ch;
+		margin-left: -20ch;
 	}
 
-	aside.index.abstract {
-		margin: 0 auto;
-	}
+	/*#markdownBody section:nth-last-child(-n+2) {
+		margin-left: auto;
+	}*/
 
-	#markdownBody {
+	/*#markdownBody {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-column-gap: 2em;
 		grid-row-gap: 0.5em;
 		position: relative;
 	}
+
+	#markdownBody > * {
+		display: grid;
+		grid: subgrid / subgrid;
+		grid-template-rows: subgrid;
+		grid-template-columns: subgrid;*/
+
+	aside.index.abstract {
+		margin-left: 30.5ch;
+		--margin-left: 30.5ch;
+		max-width: 62.5ch;
+	}
+
 }

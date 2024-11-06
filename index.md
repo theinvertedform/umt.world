@@ -1,9 +1,9 @@
 ---
 title: Index
-abstract: "This is the personal website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to writing published on this website, as well as elsewhere online and in print. This website is an ongoing experiment in hypertext design, knowledge management, and experimental narrative.
+abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to writing published here and elsewhere, online & in print. This website is an ongoing experiment that combines hypertext design, knowledge management, and experimental narrative.
 
 
-For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. The index below includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
+For more about the philosophy of the website, visit the [*About*](/about) page; for more about me and my contact information, visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) for updates. This index includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
 layout: home
 ---
 {%- assign date_format =  "%b %d %Y" -%}
@@ -76,6 +76,8 @@ layout: home
 {% endfor %}
 </ul>
 </section>
+
+<hr class="index-section-ornament" >
 
 <section id="film">
 <h1 class="index-heading" id="film"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
