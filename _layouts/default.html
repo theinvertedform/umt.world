@@ -41,17 +41,21 @@
 		{% include analytics.html %}
 		{% endif %}
     </head>
+	{% if page.title == 'Index' %} 
+    <body class="page-index" itemscope itemtype="http://schema.org/WebPage">
+	{% else %}
     <body itemscope itemtype="http://schema.org/WebPage">
+	{% endif %}
 		<main>
         <nav id="sidebar">
-			<a id="logo" href="/index"><img src="/assets/images/logo-caslon.svg" title="umt.world logo, taken from a photo of the first test of an atom bomb at Trinity, NM."/></a>
+			<a id="logo" href="/index"><img src="/assets/images/logo-american_typewriter.svg" title="umt.world logo, taken from a photo of the first test of an atom bomb at Trinity, NM."/></a>
 			<div class="sidebar-links">
             	<a href="/about" title="Philosophy, design, and aspirations of this website.">Website</a>
             	<a href="/links" title="Biography, personality, tastes, interests, where I can be found online, contact.">Author</a>
             	<a href="/changes" title="All changes, additions, and modifications to the website text and sourcecode.">Changes</a>
             	<a href="https://umtworld.substack.com" title="An occasional newsletter summarizing developments since the previous.">News</a>
 				{% if page.title != 'Index' %}
-            	<a href="https://patreon.com/umtworld" title="If you are so enamoured of what you see here, you can donate money to make sure I keep working on it.">Patreon</a>
+            	<a class="patreon" href="https://patreon.com/umtworld" title="If you are so enamoured of what you see here, you can donate money to make sure I keep working on it.">Patreon</a>
 				{% endif %}
 				<!--<a href="/photos">Photos</a>--!>
 			</div>

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post h-feed" itemscope itemtype="http://schema.org/Blog">
+<article itemscope itemtype="http://schema.org/Blog">
 		<header><h1 class="p-name title" itemprop="name">{{ page.title | markdownify }}</h1></header>
 	<div id="page-metadata">
 		<div class="p-summary" id="page-description" itemprop="description">
@@ -32,12 +32,12 @@ layout: default
 	</div>
 
 		{% if page.toc %}
-			<aside id="TOC" itemtype="https://schema.org/SiteNavigationElement">
+			<aside id="TOC" class="TOC" itemtype="https://schema.org/SiteNavigationElement">
 				{{ content | toc_only }}
 			</aside>
 		{% endif %}
 
-	<div id="markdownBody" class="post-content h-entry">
+	<div class="markdownBody post-content h-entry">
 		{% if page.abstract %}
 			<aside class="abstract">
 				<blockquote itemprop="abstract">{{ page.abstract | markdownify }}</blockquote>
