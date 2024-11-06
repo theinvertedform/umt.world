@@ -11,6 +11,10 @@
 	--secondary-text-colour: #4a4a4c;
 	--secondary-hover-colour: #dfdfe5;
 	--secondary-border-colour: #c6c6cc;
+
+	--sans-serif: "Source Sans 3";
+	--serif: "Source Serif 4";
+	--monospace: "Source Code Pro";
 }
 
 * {
@@ -20,15 +24,28 @@
 }
 
 @font-face {
-	font-family: "Source Sans", sans-serif;
-	src: url("../assets/fonts/SourceSans3-Regular");
+	font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
+	src: local("Source Sans 3 Regular"), local("SourceSans3-Regular"), url("../fonts/SourceSans3-Regular");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Source Serif 4", "Times New Roman", serif;
+	src: local("Source Serif 4 Regular"), local("SourceSerif4-Regular"), url("../fonts/SourceSerif4-Regular");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Source Code Pro", "Courier New", monospace;
+	src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"), url("../fonts/SourceCodePro-Regular");
+	font-weight: 400;
 }
 
 html {
     line-height: 1.60em;
 	font-size: calc(16px + 0.390625vw);
 	font-weight: 400;
-	font-family: "Source Pro";
+	font-family: var(--serif);
 }
 
 body {
@@ -234,7 +251,7 @@ footer {
 #page-metadata {
 	line-height: 1.5em;
 	margin: 0 0 2.25rem 0;
-	font-family: sans-serif;
+	font-family: var(--sans-serif);
 	text-align: center;
 }
 
@@ -242,12 +259,12 @@ footer {
 	margin: 0 auto 1em auto;
 	font-style: italic;
 	text-align: center;
-	font-family: serif;
+	font-family: var(--serif);
 }
 
 div#link-tags {
 	margin: 0 auto 1em auto;
-	font-family: monospace;
+	font-family: var(--monospace);
 	text-align: center;
 }
 
@@ -263,8 +280,8 @@ span.page-status {
 	padding: 1em;
 	position: relative;
 	font-size: 1rem;
-	font-family: sans-serif;
-	box-shadow: -1rem 0 0 0 #fff, 2.25rem 0 0 0 #fff;
+	font-family: var(--sans-serif);
+	box-shadow: -1rem 0 0 0 var(--background-colour), 2.25rem 0 0 0 var(--background-colour);
 }
 
 .section-nav a {
@@ -356,7 +373,7 @@ blockquote {
 	padding-top: 1em;
 	border: 1px solid var(--secondary-border-colour);
 	background-color: var(--secondary-background-colour);
-	font-family: sans-serif;
+	font-family: var(--sans-serif);
 }
 
 .epigraph {
