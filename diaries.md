@@ -13,7 +13,7 @@ date: 2023-09-01
 <blockquote class="epigraph" itemprop="citation">
 I toss these pages in the faces of timid, furtive, respectable people and say: ‘There! that’s me! You may like it or lump it, but it’s true. And I challenge you to follow suit, to flash the searchlight of your self-consciousness into every remotest corner of your life and invite everybody’s inspection. Be candid, be honest, break down the partitions of your cubicle, come out of your burrow, little worm.’ As we are all such worms we should at least be honest worms.
 
-[W.N.P Barbellion](https://en.wikipedia.org/wiki/W._N._P._Barbellion),_ [*Journal of a Disappointed Man*](https://www.pseudopodium.org/barbellionblog/books.html)
+--- [W.N.P Barbellion](https://en.wikipedia.org/wiki/W._N._P._Barbellion), [*Journal of a Disappointed Man*](https://www.pseudopodium.org/barbellionblog/books.html)
 
 </blockquote>
 
