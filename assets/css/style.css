@@ -4,16 +4,18 @@
 	--background-colour: #FFFFF8;
 	--text-colour: #2A2A29;
 	--link-colour: #555553;
-	--link-hover-colour: #80807c;
+	--hover-colour: #80807c;
 	--border-colour: #555553;
-	--highlight-colour: #ad1c42;
 	--secondary-background-colour: #F8F8FF;
 	--secondary-text-colour: #4a4a4c;
 	--secondary-hover-colour: #dfdfe5;
 	--secondary-border-colour: #c6c6cc;
+	--highlight-colour: #ad1c42;
 
 	--sans-serif: "Source Sans 3";
+	/*--serif: "Caslon 224";*/
 	--serif: "Source Serif 4";
+	/*--serif: "Adobe Jenson Pro";*/
 	--monospace: "Source Code Pro";
 }
 
@@ -26,6 +28,18 @@
 @font-face {
 	font-family: "Source Serif 4", "Times New Roman", serif;
 	src: local("Source Serif 4 Regular"), local("SourceSerif4-Regular"), url("../fonts/SourceSerif4-Regular");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Adobe Jenson Pro", "Times New Roman", "Source Serif 4", serif;
+	src: local("Adobe Jenson Pro Regular"), local("AJensonPro-Regular"), url("../fonts/AJensonPro-Regular");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Caslon 224", "Times New Roman", "Source Serif 4", serif;
+	src: local("Caslon 224 Regular"), local("Caslon224Std-Regular"), url("../fonts/Caslon224Std-Regular");
 	font-weight: 400;
 }
 
@@ -75,7 +89,7 @@ a {
 
 	#sidebar a#logo {
 	    border: none;
-		border: 1px dotted var(--link-hover-colour);
+		border: 1px dotted var(--hover-colour);
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
@@ -101,14 +115,14 @@ a {
 	}
 
 	.sidebar-links a:hover {
-		color: var(--link-hover-colour);
+		color: var(--hover-colour);
 	}
 	
 	#sidebar a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted var(--link-hover-colour);
+		border: 1px dotted var(--hover-colour);
 		margin: 1px 0 1px 2px;
 	}
 
@@ -151,7 +165,7 @@ aside.index.abstract {
 	}
 
 	#markdownBody a:hover {
-		color: var(--link-hover-colour);
+		color: var(--hover-colour);
 	}
 
 	.markdownBody a {
@@ -160,7 +174,7 @@ aside.index.abstract {
 	}
 
 	.markdownBody a:hover {
-		color: var(--link-hover-colour);
+		color: var(--hover-colour);
 	}
 
 	p + p {
@@ -187,7 +201,7 @@ a.footnote-ref {
 }
 
 h1.index-heading {
-	border-bottom: 1px solid var(--link-hover-colour);
+	border-bottom: 1px solid var(--hover-colour);
 	margin: 1.125em 0 0 0;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
@@ -230,7 +244,7 @@ footer {
 }
 
 .feedback a:hover {
-	color: var(--link-hover-colour);
+	color: var(--hover-colour);
 }
 
 .end-ornament {
@@ -493,7 +507,7 @@ h1.title {
 }
 
 section.level1 > h1 {
-	border-bottom: 1px solid var(--link-hover-colour);
+	border-bottom: 1px solid var(--hover-colour);
 	font-size: 2em;
 	font-weight: 600;
 	font-variant-caps: small-caps;
@@ -571,7 +585,7 @@ h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: var(--link-hover-colour);
+    color: var(--hover-colour);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -636,7 +650,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: var(--link-hover-colour);
+    border-color: var(--hover-colour);
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -647,7 +661,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: var(--link-hover-colour);
+    border-color: var(--hover-colour);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -674,7 +688,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 		text-transform: uppercase;
 		font-weight: 600;
 		flex: 1 1 auto;
-		color: var(--link-hover-colour);
+		color: var(--hover-colour);
 	}
 
 	#sidebar a:hover {
