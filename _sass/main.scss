@@ -854,6 +854,10 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 }
 
 @media (min-width: 1180px) {
+
+    #sidebar {
+    }
+
 	#sidebar a#logo {
 		border: none;
 	}
