@@ -1,14 +1,17 @@
 /* base features */
 
-$body-font: "ITC Caslon 224 Std Book", serif;
+/*$body-font: "ITC Caslon 224 Std Book", serif;*/
+$body-font: "ACaslon Regular", serif;
+$body-font-bold: "ACaslon Bold", serif;
+$display: "ITC Cheltenham Std", serif;
+$sans-serif: "Neutraface 2 Text", sans-serif;
+$monospace: "Courier Std", monospace;
+$caption: "ITC Cheltenham Std Light";
+$super: "ACaslonExp Regular";
+
 $font-bold: 700;
 $font-semibold: 600;
-$body-bold-font: "ITC Caslon 224 Std Bold";
-$body-italic-font: "ITC Caslon 224 Std Book Italic";
-$body-bolditalic-font: "ITC Caslon 224 Std BoldItalic";
-$sans-serif: "Neutraface 2 Text";
-$monospace: "Courier Std";
-$display: "ITC Cheltenham Std", serif;
+/*$display: "Cheltenhm BdHd BT", serif;*/
 
 :root {
 	--background-colour: #FFFFF8;
@@ -80,6 +83,19 @@ $display: "ITC Cheltenham Std", serif;
 	margin: 0;
 	padding: 0;
 }
+
+strong {
+  font-family: $body-font-bold;
+  font-weight: normal;
+}
+
+sup {
+  font-family: $super;
+}
+
+/*em {
+  font-family: $body-font-italic;
+}*/
 
 html {
     line-height: 1.60em;
@@ -458,7 +474,6 @@ blockquote {
 		font-size: 2.5em;
 		content: "\201D";
 		right: -0.01em;
-		bottom: -0.01em;
 	}
 
 /* images */
@@ -472,10 +487,21 @@ figcaption {
 	font-style: italic;
 	text-align: center;
 	font-size: 0.75em;
+    font-family: $caption;
+    line-height: 1em;
+    padding: 0.5rem;
 }
 
 img {
     width: 100%;
+}
+
+figure img {
+    border: 1px solid var(--border-colour);
+    box-shadow: 0 0 10px 0 var(--border-colour);
+}
+
+img:hover {
 }
 
 /* lists */
