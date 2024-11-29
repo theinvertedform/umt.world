@@ -16,6 +16,7 @@ group :jekyll_plugins do
   #gem "jekyll-scholar"
   gem "jekyll-pandoc"
   gem "jekyll-github-metadata"
+  gem 'jekyll-sass-converter'
   #gem "pandoc-ruby"
 end
 

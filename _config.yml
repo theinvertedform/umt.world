@@ -96,6 +96,8 @@ defaults:
 # Google analytics
 google_analytics: G-5NHX2XP9H3
 
+# sass
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
