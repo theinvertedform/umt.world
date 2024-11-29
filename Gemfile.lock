@@ -110,6 +110,7 @@ DEPENDENCIES
   jekyll-last-modified-at
   jekyll-pandoc
   jekyll-redirect-from
+  jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-toc

@@ -1,5 +1,15 @@
 /* base features */
 
+$body-font: "ITC Caslon 224 Std Book", serif;
+$font-bold: 700;
+$font-semibold: 600;
+$body-bold-font: "ITC Caslon 224 Std Bold";
+$body-italic-font: "ITC Caslon 224 Std Book Italic";
+$body-bolditalic-font: "ITC Caslon 224 Std BoldItalic";
+$sans-serif: "Neutraface 2 Text";
+$monospace: "Courier Std";
+$display: "ITC Cheltenham Std", serif;
+
 :root {
 	--background-colour: #FFFFF8;
 	--text-colour: #2A2A29;
@@ -12,11 +22,6 @@
 	--secondary-border-colour: #c6c6cc;
 	--highlight-colour: #ad1c42;
 
-	--sans-serif: "Source Sans 3";
-	/*--serif: "Caslon 224";*/
-	--serif: "Source Serif 4";
-	/*--serif: "Adobe Jenson Pro";*/
-	--monospace: "Source Code Pro";
 }
 
 @font-face {
@@ -26,29 +31,49 @@
 }
 
 @font-face {
-	font-family: "Source Serif 4", "Times New Roman", serif;
-	src: local("Source Serif 4 Regular"), local("SourceSerif4-Regular"), url("../fonts/SourceSerif4-Regular");
-	font-weight: 400;
+	font-family: "ITC Caslon 224 Std Book", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-Book.otf") format("otf");
+	font-style: normal;
+	font-weight: normal;
 }
 
 @font-face {
-	font-family: "Adobe Jenson Pro", "Times New Roman", "Source Serif 4", serif;
-	src: local("Adobe Jenson Pro Regular"), local("AJensonPro-Regular"), url("../fonts/AJensonPro-Regular");
-	font-weight: 400;
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-Bold.otf") format("otf");
+	font-style: normal;
+	font-weight: $font-bold;
 }
 
 @font-face {
-	font-family: "Caslon 224", "Times New Roman", "Source Serif 4", serif;
-	src: local("Caslon 224 Regular"), local("Caslon224Std-Regular"), url("../fonts/Caslon224Std-Regular");
-	font-weight: 400;
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-BookItalic.otf") format("otf");
+	font-style: italic;
+	font-weight: normal;
 }
 
 @font-face {
-	font-family: "Source Code Pro", "Courier New", monospace;
-	src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"), url("../fonts/SourceCodePro-Regular");
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-BoldItalic.otf") format("otf");
+	font-style: italic;
+	font-weight: $font-bold;
+}
+
+@font-face {
+	font-family: "ITC Cheltenham Std", "Times New Roman", serif;
+	src: url("../fonts/CheltenhamStd.otf") format("otf");
+}
+
+@font-face {
+	font-family: "Courier Std", "Source Code Pro", monospace;
+	src: local("Courier Std"), local("CourierStd"), url("../fonts/CourierStd.otf");
 	font-weight: 400;
 }
 
+/*@font-face {
+	font-family: ;
+	src: ;
+	font-weight: ;
+}*/
 
 * {
 	box-sizing: border-box;
@@ -59,8 +84,7 @@
 html {
     line-height: 1.60em;
 	font-size: calc(16px + 0.390625vw);
-	font-weight: 400;
-	font-family: var(--serif);
+	font-family: $body-font;
 }
 
 body {
@@ -85,6 +109,7 @@ a {
 #sidebar {
 	display: flex;
 	justify-content: center;
+    font-family: $display;
 }
 
 	#sidebar a#logo {
@@ -190,14 +215,14 @@ a.footnote-ref {
 	padding: 0 0.1em;
 	margin-left: 0.25em;
 	font-variant-numeric: lining-nums;
-	font-weight: 600;
+	font-weight: $font-semibold;
 	z-index: 1;
 }
 
 .footnote-back {
 	padding: 0 0.1em;
 	margin-left: 0.1em;
-	font-weight: 600;
+	font-weight: $font-semibold;
 }
 
 h1.index-heading {
@@ -207,8 +232,8 @@ h1.index-heading {
 	line-height: 1.5rem;
 	text-align: left;
 	padding: 0;
-	letter-spacing: -0.05rem;
 	font-variant-caps: small-caps;
+    font-family: $display;
 }
 
 hr.index-section-ornament {
@@ -266,7 +291,7 @@ footer {
 #page-metadata {
 	line-height: 1.5em;
 	margin: 0 0 2.25rem 0;
-	font-family: var(--sans-serif);
+	font-family: $sans-serif;
 	text-align: center;
 }
 
@@ -274,12 +299,12 @@ footer {
 	margin: 0 auto 1em auto;
 	font-style: italic;
 	text-align: center;
-	font-family: var(--serif);
+	font-family: $body-font;
 }
 
 div#link-tags {
 	margin: 0 auto 1em auto;
-	font-family: var(--monospace);
+	font-family: $sans-serif;
 	text-align: center;
 }
 
@@ -293,10 +318,8 @@ span.page-status {
 	z-index: 20;
 	line-height: 1em;
 	padding: 1em;
-	position: relative;
 	font-size: 1rem;
-	font-family: var(--sans-serif);
-	box-shadow: -1rem 0 0 0 var(--background-colour), 2.25rem 0 0 0 var(--background-colour);
+	font-family: $sans-serif;
 }
 
 .section-nav a {
@@ -379,8 +402,8 @@ blockquote {
 	padding: 1rem 1.25rem 1rem 1.25rem;
 	border: 1px solid var(--secondary-border-colour);
 	background-color: var(--secondary-background-colour);
-	overflow: hidden;
-	position: relative;
+	/*overflow: hidden;*/
+    display: flow-root;
 }	
 
 .abstract blockquote {
@@ -388,7 +411,7 @@ blockquote {
 	padding-top: 1em;
 	border: 1px solid var(--secondary-border-colour);
 	background-color: var(--secondary-background-colour);
-	font-family: var(--sans-serif);
+	font-family: $sans-serif;
 }
 
 .epigraph {
@@ -482,7 +505,7 @@ li {
 }
 
 .section-nav li {
-	font-weight: bold;
+	font-weight: $font-bold;
 	margin: 0 0 0.5em 0;
 	position: relative;
 	overflow-wrap: break-word;
@@ -495,21 +518,32 @@ li {
 
 /* typography */
 
+h1 {
+  font-family: $display;
+  font-weight: $font-bold;
+}
+
+h2 {
+  font-family: $display;
+  font-weight: $font-semibold;
+}
+
 h1.title {
 	margin: 0.75em 0;
 	text-align: center;
 	font-variant: small-caps;
-	font-size: 2em;
+	font-size: 2.5em;
 	line-height: 1.5em;
-	font-weight: 700;
+	font-weight: normal;
 	letter-spacing: -1px;
 	border-bottom: none;
+    font-family: $display;
 }
 
 section.level1 > h1 {
 	border-bottom: 1px solid var(--hover-colour);
 	font-size: 2em;
-	font-weight: 600;
+	font-weight: $font-bold;
 	font-variant-caps: small-caps;
 	line-height: 1.125;
 	text-align: right;
@@ -608,7 +642,7 @@ section.level2 > h2 {
 	text-align: left;
 	font-variant: small-caps;
 	line-height: 1.15;
-	font-weight: 600;
+	font-weight: $font-semibold;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -686,7 +720,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 	#sidebar .sidebar-links a {
 		text-transform: uppercase;
-		font-weight: 600;
+		font-weight: $font-semibold;
 		flex: 1 1 auto;
 		color: var(--hover-colour);
 	}
@@ -696,7 +730,6 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 	}
 
 	.markdownBody {
-		position: relative;
 	}
 }
 
@@ -721,9 +754,10 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 
 	#TOC {
 		max-width: 285px;
-		margin: 0 2.5rem 1.5rem 0;
-		position: relative;
+		margin: 0 1.5rem 0 0;
 		float: left;
+        position: relative;
+        box-shadow: -1rem 0 0 0 var(--background-colour), 1.5rem 0 0 0 var(--background-colour);
 	}
 
 	#TOC > ul {
@@ -741,8 +775,8 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
 		padding-top: 0.25em;
 	}
 
-	aside.abstract {
-		grid-column: 1 / -1;
+	aside.index.abstract {
+      grid-column: 1 / -1;
 	}
 }
 
