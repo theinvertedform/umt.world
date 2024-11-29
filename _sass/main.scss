@@ -262,7 +262,7 @@ hr.index-section-ornament::after {
 
 footer {
 	text-align: center;
-	margin: 3em 0;
+	margin: 3em 0 1.5em 0;
 	align-items: center;
 	display: flex;
 	flex-flow: column;
@@ -280,6 +280,18 @@ footer {
 .epitaph {
 	max-width: 75ch;
 	font-style: italic;
+}
+
+#footer-logo {
+	    border: none;
+		margin: 3em 0 0 0;
+		align-content: center;
+	}
+
+	#footer-logo img {
+		min-width: 3em;
+		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--text-colour) */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--background-colour) */
 }
 
 /* post layout */

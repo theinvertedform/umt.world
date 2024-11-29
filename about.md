@@ -1,6 +1,6 @@
 ---
 title: About This Website
-description: An artistic manifesto. Theorization, technical implementation, and plans for the future.
+description: An artistic manifesto. Aesthetic and technical theory, implementation details, & plans for the future.
 abstract: "This website is conceived of as an experiment in outsider literary hypertext. It begins with my writing and research environment; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* includes a narrative section based on autofiction and the history of online writing. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine web design, information systems architecture, and literary form to create a new kind of book. At once memoir and socially-committed cultural critique."
 toc: true
 tags:
@@ -20,7 +20,9 @@ date: 2022-09-11
 
 ![[@gillette1969]](/assets/images/wipe_cycle.jpg)
 
-When John Anderton goes on the lam in *Minority Report*, he employs a black-market surgeon to replace his eyes to evade the omnipresent retinal scanners. A similar level of surveillance has been achieved today, but with channels of power following the more economic model of the Panopticon.[^1a] Instead of an external authority, the subject participates in their own surveillance.[^1] Willful subjection to corporate control is a near-universal feature of the post-Internet Age.
+When John Anderton goes on the lam in *[Minority Report](https://letterboxd.com/theinvertedform/film/minority-report/reviews/)*, he employs a black-market surgeon to replace his eyes.[^1b] to evade the omnipresent retinal scanners. A similar level of surveillance has been achieved today, but with channels of power following the more economic model of the Panopticon.[^1a] Instead of an external authority, the subject participates in their own surveillance.[^1] Willful subjection to corporate control is a near-universal feature of the post-Internet Age.
+
+[^1b]: Peter Stormare's representation of the doctor seems to access an archetypical image of the medicine-man as crusty drug-addict. Equal parts Peter Berling as the Doctor in *Sátántangó*, and Doctor Nick from *The Simpsons*.
 
 [^1a]: "The true objective of the reform movement, even in its most general formulations, was not so much to establish a new right to punish based on more equitable principles, as to set up a new 'economy' of the power to punish, to assure its better distribution, so that it should be neither too concentrated at certain privileged points, nor too divided between opposing authorities; so that it should be distributed in homogeneous circuits capable of operating everywhere, in a continuous way, down to the finest grain of the social body." [@foucault1995, 80]
 
