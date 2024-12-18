@@ -20,7 +20,7 @@ date: 2022-09-11
 
 ![[@gillette1969]](/assets/images/wipe_cycle.jpg)
 
-When John Anderton goes on the lam in *[Minority Report](https://letterboxd.com/theinvertedform/film/minority-report/reviews/)*, he employs a black-market surgeon to replace his eyes.[^1b] to evade the omnipresent retinal scanners. A similar level of surveillance has been achieved today, but with channels of power following the more economic model of the Panopticon.[^1a] Instead of an external authority, the subject participates in their own surveillance.[^1] Willful subjection to corporate control is a near-universal feature of the post-Internet Age.
+When John Anderton goes on the lam in *[Minority Report](https://letterboxd.com/theinvertedform/film/minority-report/reviews/)*, he employs a black-market surgeon to replace his eyes.[^1b] The boomer Spielberg only imagines a cyberpunk Panopticon as a social concept rather than a technological one. His omnipresent retinal scanners are as anachronistic as the payphones in *Neuromancer*. It's close, but misses the mark. In Foucault's terms, "power" is economizing; it is easier to simply subjectivate people into voluntary reporting their activity through myriad smartphone apps, than to impose them to a matrix of external scanning devices.[^1a] The contemporary subject participates in their own surveillance.[^1] The concept of a cyber *punk* is just as anachronistic: the technological regime is a product of the liberal order, and conceals its dystopian nature.
 
 [^1b]: Peter Stormare's representation of the doctor seems to access an archetypical image of the medicine-man as crusty drug-addict. Equal parts Peter Berling as the Doctor in *Sátántangó*, and Doctor Nick from *The Simpsons*.
 

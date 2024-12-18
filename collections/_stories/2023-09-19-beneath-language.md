@@ -8,15 +8,19 @@ published: no
 
 # Tuesday
 
-The first principle of our physics is that the world comes after the Fall. Sometimes you get so drawn up in the pleasures of the city that you forget. The gaze of an all-seeing eye lights on you. It is not through your current virtue, but by that of your past self that you are privileged to the entertainments of the city. All privilege comes with a price. 
+The first principle of our physics is that the world comes after the Fall. Sometimes you get so drawn up in the pleasures of the city that you forget. The gaze of an all-seeing eye falls on you. It is not through your current virtue, but by that of your past self that you are privileged to the entertainments of the city. All privilege comes with a price. 
 
-As dusk comes on, you find yourself passing along a twisted cobblestone street, eyes alert to movement in air grey like heather. Buildings crowd in on your narrow margin of the road. Nothing breaks the silence, but something looms behind you. You turn to look at the huddling shape before you, and remark in the gloaming that the shadow bears your likeness. A knobby umbilical cord ties you together. It's feeding off you, body made up of the most vulgar substances. Legal relations, fiduciary obligations, all the oaths sworn in and against your name. Suddenly, you remember the past self that first surveyed this part of the city. You look in your twin's uncomprehending eyes and say a prayer: *it is by Your grace that I today walk along this twisted passage, and even though these burdens afflict me I thank You.*
+As dusk comes on, you find yourself passing along a twisted cobblestone street, eyes alert to movement in air grey like heather. Buildings crowd in on your narrow margin of the road. Nothing breaks the silence, and you make your careful way through the cottony half-light. Something looms behind you. You turn to see the huddling shape, and remark in the gloaming that the shadow bears your likeness. A knobby umbilical cord ties you together. It's feeding off you, body made up of the most vulgar substances. Legal relations, fiduciary obligations---all the oaths sworn in your name. You look in your twin's uncomprehending eyes and say a prayer: *it is by Your grace that I walk along this twisted passage, and though the darkness bears on me I thank You.*
 
-These creatures become attached to you from the first moment you talk to anyone in the city. It might grow fat with years, less willing to move. The connection between you is unbreakable by any mortal means. Your albatross might refuse to budge at all, so that if you want to get anything done, you must learn to carry its weight. With such a burden, the post-lapsarian pleasures of the city draw us more arduously into forgetting. Most of us can manage it at least once or twice, while we're young. 
+These creatures become attached to you from the first moment you talk to anyone in the city. It might grow fat with years, less willing to move. The connection between you is unbreakable by any mortal means. Your albatross might refuse to budge at all, so that if you want to get anything done you must learn to carry its weight. With such a burden, the post-lapsarian pleasures of the city draw us more arduously into forgetting. Most of us can manage it at least once or twice, while we're young. 
 
-Life in the city comes with a life sentence constrained to this body of facts. One afternoon, you heat your smallest cast iron over a coil element, greasing it with salted butter. The white of one cracked egg comes to your garret loose enough to cover the black metal. You select a slice of bread from the freezer and toast it. As you enjoy this bounty, the thing behind you grows tremulous. Congealed ectoplasm sits sluggish in the flaccid tube hanging between you. Your own emaciated face looks back at you without cognition. Skin pulls against an indissoluble skeletal structure. Feet pound in the stairwell.
+Life in the city comes with a life sentence constrained to this body of facts. One afternoon, you heat your smallest cast iron over a coil element, greasing it with salted butter. The white of one cracked egg comes to your garret loose enough to cover the black metal. You select a slice of bread from the freezer and toast it. As you mop up the spilled milk, the thing behind you grows tremulous. Congealed ectoplasm sits sluggish in the flaccid tube hanging between you. Your own emaciated face looks back at you without cognition. Skin pulls against an indissoluble skeletal structure. Feet pound in the stairwell.
 
-The pounding reaches your door. It flies open with little resistance. The jackbooted handler forces his way in. He is made out of square stone, a minimalist face carved in straight lines and right angles.
+The pounding reaches your door and the thin panel bursts asunder with little resistance. The jackbooted handler forces his way in. He is built of square stone, a modern face carved with straight lines and right angles. His impassive mouth runs parallel to the badge on his chest; a quarter drops in the middle as his voice comes out.
+
+"This is the Royal Inquisition. You have been called to account."
+
+Its voice is like a radio transmission coming through a broken amplifier, the sound loud enough to leave your ears ringing. 
 
 Weighed and measured on a Great Ledger in the sky. A disk in a server farm. Or in the memory of the one we want to hear from least.
 
@@ -24,7 +28,9 @@ If you neglect to feed and care for your new body, a jackbooted handler marches 
 
 # Thursday
 
-Blue light from the screen shines against the orange glow of the room. There is a quiet moment in your indentured servitude. work---just long enough to check my messages. We are not allowed to check our phones at work because the clock wants to extinguish life, and when you connect to the outside world, you are defying capital's thanatotic logic. Death is comforting, giving us the easy identity of a corpse. *The dog's teeth need to be pulled. You need to pay me back.* She's not even my dog anymore: the news shouldn't affect me, and yet my eyes prick painfully. The bathroom stinks of piss. "I'm taking five." A brisk walk out of view turns into a panicked run around the block. Panting turns into hyperventilation. Heart pounding turns into heart racing.
+Blue light from the screen hits the orange glow of the room. There is a quiet moment---long enough to check my messages. We are not allowed to check our phones at work because the clock wants to extinguish life. When you connect to the outside world, you are defying capital's thanatotic logic. Death is comforting, giving us the easy identity of a corpse. 
+
+*The dog's teeth need to be pulled. You need to pay me back.* She's not even my dog anymore: the news shouldn't affect me, and yet my eyes prick painfully. The bathroom stinks of piss. "I'm taking five." A brisk walk out of view turns into a panicked run around the block. Panting turns into hyperventilation. Heart pounding turns into heart racing.
 
 "Are you okay?" A girl asks me like it's her job. She keeps her distance from me, the guy sitting on the curb, face wet and wringing his hair.
 
