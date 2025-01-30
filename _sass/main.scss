@@ -10,6 +10,7 @@ $sans-serif: "Neutraface 2 Text", sans-serif;
 $monospace: "Courier Std", monospace;
 $caption: "ACaslon Regular", serif;
 $super: "ACaslonExp Regular";
+$logotype: "Flyerfonts Release";
 
 $font-bold: 700;
 $font-semibold: 600;
@@ -132,6 +133,11 @@ a {
 		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--text-colour) */
 		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--background-colour) */
 	}
+
+    #sidebar span#logotype {
+        font-family: $logotype;
+		font-size: 2em;
+      }
 
 	.sidebar-links {
 		flex: 1 1 100%;
