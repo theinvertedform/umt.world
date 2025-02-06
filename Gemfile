@@ -17,6 +17,9 @@ group :jekyll_plugins do
   gem "jekyll-pandoc"
   gem "jekyll-github-metadata"
   gem 'jekyll-sass-converter'
+  gem 'csv'
+  gem 'base64'
+  gem 'bigdecimal'
   #gem "pandoc-ruby"
 end
 
