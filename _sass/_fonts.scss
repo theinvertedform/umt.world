@@ -1,0 +1,156 @@
+// _sass/_fonts.scss
+
+// Define generic font families for fallbacks
+$source-sans: "Source Sans 3", sans-serif;
+$source-serif: "Source Serif 4", serif;
+$source-code: "Source Code Pro", monospace;
+
+// ACaslon (Corrected and complete)
+@font-face {
+  font-family: "ACaslon Regular";
+  src: url("../fonts/Adobe%20Caslon%20Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Bold";
+  src: url("../fonts/Adobe%20Caslon%20Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Italic";
+  src: url("../fonts/Adobe%20Caslon%20Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Bold Italic";
+  src: url("../fonts/Adobe%20Caslon%20Bold.ttf") format("truetype"); // Use the Bold file for Bold Italic too
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Expert"; // Or a better name if you prefer
+  src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
+  font-weight: 400; // Or whatever weight is appropriate
+  font-style: normal;
+  font-display: swap;
+}
+
+
+// Irvin Heading (Corrected)
+@font-face {
+  font-family: "Irvin Heading";
+  src: url("../fonts/Irvin-Heading.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Courier Std (Corrected and complete)
+@font-face {
+  font-family: "Courier Std";
+  src: url("../fonts/CourierStd.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Courier Std Bold"; // Or "Courier Bold"
+  src: url("../fonts/CourierStd-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Flyerfonts Release
+@font-face {
+  font-family: "Flyerfonts Release";
+  src: url("../fonts/Flyerfonts-Release.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Flyerfonts Malfunction
+@font-face {
+  font-family: "Flyerfonts Release";
+  src: url("../fonts/Flyerfonts-Malfunction.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// American Typewriter
+@font-face {
+  font-family: "American Typerwriter";
+  src: url("../fonts/AmericanTypewriterStd-Bold.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+//Neutraface 2 text
+@font-face {
+  font-family: "Neutraface 2 Text";
+  src: url("../fonts/Neutra2Text-Book.otf") format("opentype"); // Replace with the actual filename
+  font-weight: 400; // Or define different weights as needed
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*@font-face {
+	font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
+	src: local("Source Sans 3 Regular"), local("SourceSans3-Regular"), url("../fonts/SourceSans3-Regular");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "ITC Caslon 224 Std Book", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-Book.otf") format("otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-Bold.otf") format("otf");
+	font-style: normal;
+	font-weight: $font-bold;
+}
+
+@font-face {
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-BookItalic.otf") format("otf");
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
+	src: url("../fonts/Caslon224Std-BoldItalic.otf") format("otf");
+	font-style: italic;
+	font-weight: $font-bold;
+}
+
+@font-face {
+	font-family: "ITC Cheltenham Std", "Times New Roman", serif;
+	src: url("../fonts/CheltenhamStd.otf") format("otf");
+}
+
+@font-face {
+	font-family: "Courier Std", "Source Code Pro", monospace;
+	src: local("Courier Std"), local("CourierStd"), url("../fonts/CourierStd.otf");
+	font-weight: 400;
+}*/
