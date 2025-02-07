@@ -76,9 +76,9 @@ collections:
   reviews:
     output: true
     permalink: "/reviews/:title"
-  newsletter:
-    output: true
-    permalink: "/newsletter/:year#:month"
+ # newsletter:
+ #   output: true
+ #   permalink: "/newsletter/:year#:month"
 collections_dir: "collections/"
 #   tags:
 #     name: true
