@@ -5,10 +5,9 @@
 /* base features */
 
 /*$body-font: "ITC Caslon 224 Std Book", serif;*/
-$body-font: "ACaslon Regular", serif;
-$body-font-bold: "ACaslon Bold", serif;
-/*$body-font-italic: "ACaslon SwashItalic", serif;*/
-/*$display: "Neutraface 2 Display Titling", serif;*/
+$body-font: "Kings Caslon Regular", serif;
+$body-font-bold: "Kings Caslon Bold", serif;
+$body-font-italic: "Kings Caslon Italic", serif;
 $display: "Irvin Heading", serif;
 $sans-serif: "Neutraface 2 Text", sans-serif;
 $monospace: "Courier Std", monospace;
@@ -573,9 +572,9 @@ sup {
   font-family: $super;
 }
 
-/*em {
+em {
   font-family: $body-font-italic;
-}*/
+}
 
 h1 {
   font-family: $display;
