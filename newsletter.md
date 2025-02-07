@@ -4,6 +4,7 @@ description: "[Sign up to receive the umt.world newsletter in your inbox.](https
 abstract: Look at a prolific writer like Henry James, George Eliot, or Thomas Mann, and you will find that oftentimes their unpublished writing is as large as their published corpus. Much of the concept of umt.world as a unique literary form relates to notions of (self-)publishing. Additionally---all of my writing, for better or for worse, is part of my oeuvre. The newsletter, then, collects snippets from my Diary, from my camera, from the websites that I post reviews and other writings. It also represents a direct link between me and you.
 toc:  true
 date: 2025-01-31
+published: false
 ---
 
 {% assign postsByYear = site.newsletter | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}
