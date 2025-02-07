@@ -25,7 +25,7 @@ published: false
   <ul>
 {% for post in month.items reversed %}
   <li id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
-  <a href="/{{ post.collection }}">vol. {{ post.volume | capitalize }}</a>, <a href="{{ post.year.name }}#no-{{ post.number }}">no. {{ post.number }}</a> {% if post.description %} &mdash; <span class="post-description">{{ post.description }}</span>{% endif %}
+  <a href="/{{ post.collection }}">vol. {{ post.volume | capitalize }}</a>, <a href="{{ year.name }}#no-{{ post.number }}">no. {{ post.number }}</a> {% if post.description %} &mdash; <span class="post-description">{{ post.description }}</span>{% endif %}
 </li>
 {% if post.abstract %}<aside class="abstract"><blockquote>{{ post.abstract }}</blockquote></aside>{% endif %}
 {% endfor %}
