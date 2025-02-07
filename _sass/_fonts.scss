@@ -1,30 +1,28 @@
-// _sass/_fonts.scss
-
 // Define generic font families for fallbacks
 $source-sans: "Source Sans 3", sans-serif;
 $source-serif: "Source Serif 4", serif;
 $source-code: "Source Code Pro", monospace;
 
-// ACaslon (Corrected and complete)
+// Kings Caslon
 @font-face {
-  font-family: "ACaslon Regular";
-  src: url("../fonts/Adobe%20Caslon%20Regular.ttf") format("truetype");
+  font-family: "Kings Caslon Regular";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdRg.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "ACaslon Bold";
-  src: url("../fonts/Adobe%20Caslon%20Bold.ttf") format("truetype");
+  font-family: "Kings Caslon Bold";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBd.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "ACaslon Italic";
-  src: url("../fonts/Adobe%20Caslon%20Italic.ttf") format("truetype");
+  font-family: "Kings Caslon Italic";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdIt.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -32,22 +30,22 @@ $source-code: "Source Code Pro", monospace;
 
 @font-face {
   font-family: "ACaslon Bold Italic";
-  src: url("../fonts/Adobe%20Caslon%20Bold.ttf") format("truetype"); // Use the Bold file for Bold Italic too
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBdIt.ttf") format("truetype"); // Use the Bold file for Bold Italic too
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 
-@font-face {
+/*@font-face {
   font-family: "ACaslon Expert"; // Or a better name if you prefer
   src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
   font-weight: 400; // Or whatever weight is appropriate
   font-style: normal;
   font-display: swap;
-}
+}*/
 
 
-// Irvin Heading (Corrected)
+// Irvin Heading
 @font-face {
   font-family: "Irvin Heading";
   src: url("../fonts/Irvin-Heading.otf") format("opentype");
@@ -56,7 +54,7 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-// Courier Std (Corrected and complete)
+// Courier Std
 @font-face {
   font-family: "Courier Std";
   src: url("../fonts/CourierStd.otf") format("opentype");
