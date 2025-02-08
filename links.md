@@ -13,7 +13,7 @@ Thinkpad X230, vim, flip-phones; the technologism of *Vampyr* and *Nosferatu*; [
 
 ![Private Property](/assets/images/propprive1.jpg)
 
-How do you get to know a man? The abstract of this page describes my academic research page. The introduction paints a picture of my aesthetic. This page includes a biographical summary, a list of work experience, surveys on my politics, personality, and philosophical worldview; it includes astrological readings, data on my listening, viewing, and reading habits; a rundown of my lifestyle, and many photos...but is it adequate to understand who I am?
+What's your favourite way to get to know someone? The abstract of this page describes my academic research page. The introduction paints a picture of my aesthetic. This page includes a biographical summary, a list of work experience, surveys on my politics, personality, and philosophical worldview; it includes astrological readings, data on my listening, viewing, and reading habits; a rundown of my lifestyle, and many photos...but is it adequate to understand who I am?
 
 # [Biographical Summary](#biographical-summary)
 
