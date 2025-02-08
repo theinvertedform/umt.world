@@ -14,7 +14,7 @@ published: false
 #linestretch: 2
 ---
 
-# \centering{Saturday}
+# Saturday
 
 I have been dreaming of that square kilometre so frequently that I have lost track of which image comes from me, and which was given by the city. In my dream, I walked down a broken alley and into a ruined industrial building. There I wandered wide, wood planked corridors until I found my way into a cavernous loft. The detritus of industry gave access to something foreclosed to those of us born after the End of History. Exposed pipes become a signifier of Authenticity, even if no-one was paying for heating. The sun was setting through poorly-insulated windows. Wood and white t-shirts glow in the golden hour. You must remember something similar: the sense of taking part in a secret gathering, hidden inside the ruins of the ordinary. Forgetting is an active power: at some point I chose to blur the origin of this memory and thereby turn dream into myth. What better souvenir than a simulacrum for we Contemporaries, living on the unfulfilled cusp? 
 
