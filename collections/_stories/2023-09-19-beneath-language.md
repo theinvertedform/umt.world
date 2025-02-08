@@ -6,25 +6,32 @@ tags:
 published: no
 ---
 
-# Tuesday
+## Tuesday
 
-The first principle of our physics is that the world comes after the Fall. Sometimes you get so drawn up in the pleasures of the city that you forget. The gaze of an all-seeing eye falls on you. It is not through your current virtue, but by that of your past self that you are privileged to the entertainments of the city. All privilege comes with a price. 
+The first principle of our physics is that the world comes after the Fall. You may be so drawn up in the pleasures of the city that you forget. The gaze of an all-seeing eye falls on you. It is not through your present virtue, but through that of your past self that you are privileged to enjoy these diversions: and all privilege comes with a price. 
 
-As dusk comes on, you find yourself passing along a twisted cobblestone street, eyes alert to movement in air grey like heather. Buildings crowd in on your narrow margin of the road. Nothing breaks the silence, and you make your careful way through the cottony half-light. Something looms behind you. You turn to see the huddling shape, and remark in the gloaming that the shadow bears your likeness. A knobby umbilical cord ties you together. It's feeding off you, body made up of the most vulgar substances. Legal relations, fiduciary obligations---all the oaths sworn in your name. You look in your twin's uncomprehending eyes and say a prayer: *it is by Your grace that I walk along this twisted passage, and though the darkness bears on me I thank You.*
+As dusk comes on, you find yourself passing over the cobbles of a twisted street, eyes alert to movement in air grey like heather. Buildings crowd in on your narrow margin of the road. Nothing breaks the silence, and you make your careful way through the cottony half-light. Something looms behind you. You turn to see a huddling shape, and remark in the gloaming that this shadow bears your likeness. A knobby umbilical cord ties you together. The thing is feeding off you, body made up of the most vulgar substances: legal relations, fiduciary obligations---all the oaths sworn in your name. You look in your twin's uncomprehending eyes and say a prayer: *it is by Your grace that I walk along this twisted passage, and though the darkness bears on me I thank You.* 
 
-These creatures become attached to you from the first moment you talk to anyone in the city. It might grow fat with years, less willing to move. The connection between you is unbreakable by any mortal means. Your albatross might refuse to budge at all, so that if you want to get anything done you must learn to carry its weight. With such a burden, the post-lapsarian pleasures of the city draw us more arduously into forgetting. Most of us can manage it at least once or twice, while we're young. 
+Such leech-like creature attach themselves to us from the first moment we cross that invisible threshold drawn in the sand: the line our people used to sketch the borders of the city. The connection between you cannot be broken. The thing might grow fat with years, less willing to move. It might eventually refuse to budge at all, so that if you want to get anything done you must learn to carry its weight. Thus encumbered, the post-lapsarian pleasures of the city draw us more arduously into forgetting. Most of us can manage it at least once or twice while we're still young. 
 
-Life in the city comes with a life sentence constrained to this body of facts. One afternoon, you heat your smallest cast iron over a coil element, greasing it with salted butter. The white of one cracked egg comes to your garret loose enough to cover the black metal. You select a slice of bread from the freezer and toast it. As you mop up the spilled milk, the thing behind you grows tremulous. Congealed ectoplasm sits sluggish in the flaccid tube hanging between you. Your own emaciated face looks back at you without cognition. Skin pulls against an indissoluble skeletal structure. Feet pound in the stairwell.
+Life in the city comes with a life sentence constrained to a body of facts that follows you everywhere. In the afternoon, you heat your smallest iron pan over a wire coil, greasing it with salted butter. The white of one cracked egg comes to your garret loose enough to cover the black metal. You select a slice of grill it until the spiral char appears like a brand. As you lick up the spilled yolk, the thing behind you grows tremulous. Congealed ectoplasm sits sluggish in the flaccid tube that hangs between you. Your own emaciated face looks back at you without cognition. Skin pulls against an indissoluble skeletal structure. Feet pound in the stairwell. 
 
-The pounding reaches your door and the thin panel bursts asunder with little resistance. The jackbooted handler forces his way in. He is built of square stone, a modern face carved with straight lines and right angles. His impassive mouth runs parallel to the badge on his chest; a quarter drops in the middle as his voice comes out.
+The pounding reaches your door. The thin panel bursts into splinters with little resistance. A jackbooted handler forces its way in. The sexless golem is built of square stone, modernist face carved with straight lines and right angles. An impassive mouth runs parallel to the badge pinned to its wide chest; the gash of its mouth does not move when the voice emerges. 
 
-"This is the Royal Inquisition. You have been called to account."
+--- *YOU HAVE BEEN CALLED TO ACCOUNT. I AM YOUR ACCOUNTANT.* 
 
-Its voice is like a radio transmission coming through a broken amplifier, the sound loud enough to leave your ears ringing. 
+The voice is the sound of gravel passing through a hydraulic sieve, broken by static, an amplified discharge loud enough to obliterate thought and leave your ears ringing. The golem's arm extends, sheathed in a leather greave, pinning you painfully against the wall. From your vantage point, you can see through the window, down into the street. A woman cradles her own parasitic double body, thin arms looped around her neck like a child. She perceives your gaze with cat-like intuition, stops suddenly and looks around. 
 
-Weighed and measured on a Great Ledger in the sky. A disk in a server farm. Or in the memory of the one we want to hear from least.
+--- *YOUR OBLIGATION WASTES WHILE YOU GORGE ON ANIMAL PROTEINS. HOW DO YOU ACCOUNT FOR YOUR DERELICTION?* 
 
-If you neglect to feed and care for your new body, a jackbooted handler marches up to discipline you. Before he takes out his iron truncheon, he will torture you by sticking pins through the wretched thing's joints.
+“I didn't know,” you say. No-one explained the rules: this burden simply appeared out of the night. 
+
+We are each of us weighed and measured on a Great Ledger in the sky. A disk in a server farm. The memory of the one we want to hear from least. 
+
+As a last resort, the golem will take out its iron truncheon and rain blows on your yielding ribs. This is your first offence, and so the golem tortures you by sticking pins through your wretched double's joints. The pins are contained in a case attached to a cowhide belt, each one six inches of oiled steel. The golem drives them through the double's bone with such force that they nail it to the porous floor. Your second body emits a high-pitched whine, agonized but without understanding. 
+
+\clearpage
+
 
 # Thursday
 
