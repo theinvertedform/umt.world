@@ -1,0 +1,33 @@
+@mixin link-style($link-color: $link-colour, $border-color: $border-colour, $hover-color: $hover-colour) {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid $border-color;
+}
+
+@mixin link-hover-style($hover-color: $hover-colour) {
+    &:hover {
+        color: $hover-color;
+    }
+}
+
+@mixin link-border-style($border-color: $border-colour, $border-style: solid) {
+    border-bottom: 1px $border-style $border-color;
+}
+
+@mixin typography(
+    $font-family: $body-font,
+    $font-weight: normal,
+    $font-size: calc(#{$base-font-size} + 0.390625vw),
+    $line-height: 1.60em,
+    $font-style: normal,
+    $text-transform: none,
+    $font-variant-caps: normal
+) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-style: $font-style;
+    text-transform: $text-transform;
+    font-variant-caps: $font-variant-caps;
+}
