@@ -5,7 +5,8 @@ year: 1983
 letterboxd_uri: "https://boxd.it/2xxDFr"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2022-01-31
 ---
 

@@ -5,7 +5,8 @@ year: 2000
 letterboxd_uri: "https://boxd.it/2yc7EX"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2022-02-04
 ---
 

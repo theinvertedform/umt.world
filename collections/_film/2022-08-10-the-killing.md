@@ -5,7 +5,8 @@ year: 1956
 letterboxd_uri: "https://boxd.it/37fekr"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-08-09
 ---
 

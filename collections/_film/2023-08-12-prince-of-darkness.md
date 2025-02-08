@@ -5,7 +5,8 @@ year: 1987
 letterboxd_uri: "https://boxd.it/4GdFf3"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-08-10
 ---
 

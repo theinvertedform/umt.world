@@ -5,7 +5,8 @@ year: 2014
 letterboxd_uri: "https://boxd.it/2zPZgd"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-02-13
 ---
 

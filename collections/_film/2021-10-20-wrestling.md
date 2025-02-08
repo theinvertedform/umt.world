@@ -5,7 +5,7 @@ year: 1961
 letterboxd_uri: "https://boxd.it/2dJRnl"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-10-19
 ---
 

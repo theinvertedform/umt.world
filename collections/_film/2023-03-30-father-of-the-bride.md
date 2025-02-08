@@ -5,7 +5,8 @@ year: 1991
 letterboxd_uri: "https://boxd.it/43724H"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-03-26
 ---
 

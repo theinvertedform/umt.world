@@ -5,7 +5,8 @@ year: 2008
 letterboxd_uri: "https://boxd.it/2HiINb"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-03-25
 ---
 

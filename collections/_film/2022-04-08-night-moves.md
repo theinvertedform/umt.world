@@ -5,7 +5,8 @@ year: 1975
 letterboxd_uri: "https://boxd.it/2JDuZH"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-07
 ---
 

@@ -5,7 +5,8 @@ year: 1995
 letterboxd_uri: "https://boxd.it/2Cu7ex"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-02-27
 ---
 

@@ -5,7 +5,8 @@ year: 2002
 letterboxd_uri: "https://boxd.it/2uJDHT"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-01-17
 ---
 

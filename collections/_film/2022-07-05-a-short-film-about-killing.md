@@ -5,7 +5,8 @@ year: 1988
 letterboxd_uri: "https://boxd.it/2ZoZGP"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-07-03
 ---
 

@@ -5,7 +5,8 @@ year: 1961
 letterboxd_uri: "https://boxd.it/400O3V"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2023-03-17
 ---
 

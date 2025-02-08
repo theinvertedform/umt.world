@@ -5,7 +5,9 @@ year: 1956
 letterboxd_uri: "https://boxd.it/30AzMb"
 rating: 
 rewatch: 
-tags: "laptop, desk"
+tags:
+  - laptop
+  - desk
 watched_date: 2022-07-10
 ---
 

@@ -5,7 +5,9 @@ year: 2001
 letterboxd_uri: "https://boxd.it/2KtRy9"
 rating: 
 rewatch: Yes
-tags: "de seve, fmst 203"
+tags:
+  - de seve
+  - fmst 203
 watched_date: 2022-04-12
 ---
 

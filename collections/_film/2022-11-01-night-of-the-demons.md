@@ -5,7 +5,9 @@ year: 1988
 letterboxd_uri: "https://boxd.it/3nKGfZ"
 rating: 
 rewatch: 
-tags: "laptop, miketober iii"
+tags:
+  - laptop
+  - miketober iii
 watched_date: 2022-10-30
 ---
 

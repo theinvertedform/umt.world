@@ -5,7 +5,7 @@ year: 1976
 letterboxd_uri: "https://boxd.it/5FduVh"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2024-01-21
 ---
 

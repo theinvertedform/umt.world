@@ -5,7 +5,7 @@ year: 1938
 letterboxd_uri: "https://boxd.it/1qlLb5"
 rating: 4
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2020-10-25
 ---
 

@@ -5,7 +5,8 @@ year: 2004
 letterboxd_uri: "https://boxd.it/3j496P"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-10-08
 ---
 

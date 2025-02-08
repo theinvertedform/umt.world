@@ -5,7 +5,8 @@ year: 1991
 letterboxd_uri: "https://boxd.it/3y9EQz"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-12-18
 ---
 

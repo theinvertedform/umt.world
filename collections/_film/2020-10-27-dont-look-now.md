@@ -5,7 +5,7 @@ year: 1973
 letterboxd_uri: "https://boxd.it/1qyiTD"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-10-26
 ---
 

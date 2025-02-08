@@ -5,7 +5,8 @@ year: 1979
 letterboxd_uri: "https://boxd.it/48uiYx"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-04-16
 ---
 

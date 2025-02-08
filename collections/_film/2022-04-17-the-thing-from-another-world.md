@@ -5,7 +5,8 @@ year: 1951
 letterboxd_uri: "https://boxd.it/2L6stL"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-16
 ---
 

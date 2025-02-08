@@ -5,7 +5,9 @@ year: 1991
 letterboxd_uri: "https://boxd.it/2wcj8V"
 rating: 
 rewatch: 
-tags: "fmst 203, desk"
+tags:
+  - fmst 203
+  - desk
 watched_date: 2022-01-24
 ---
 

@@ -5,7 +5,7 @@ year: 1988
 letterboxd_uri: "https://boxd.it/1wEp4j"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-12-21
 ---
 

@@ -5,7 +5,8 @@ year: 2000
 letterboxd_uri: "https://boxd.it/49rfa3"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-04-20
 ---
 

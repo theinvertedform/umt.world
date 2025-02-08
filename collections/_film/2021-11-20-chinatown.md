@@ -5,7 +5,7 @@ year: 1974
 letterboxd_uri: "https://boxd.it/2iyw2T"
 rating: 
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2021-11-18
 ---
 

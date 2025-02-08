@@ -5,7 +5,7 @@ year: 1982
 letterboxd_uri: "https://boxd.it/1rPqcl"
 rating: 3.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-11-06
 ---
 

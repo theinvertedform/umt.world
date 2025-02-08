@@ -5,7 +5,8 @@ year: 2023
 letterboxd_uri: "https://boxd.it/400tgz"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-03-17
 ---
 

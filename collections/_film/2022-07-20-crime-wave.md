@@ -5,7 +5,8 @@ year: 1953
 letterboxd_uri: "https://boxd.it/32q0T5"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2022-07-18
 ---
 

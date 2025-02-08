@@ -5,7 +5,9 @@ year: 2023
 letterboxd_uri: "https://boxd.it/4CL32n"
 rating: 
 rewatch: 
-tags: "fantasia, de seve"
+tags:
+  - fantasia
+  - de seve
 watched_date: 2023-07-31
 ---
 

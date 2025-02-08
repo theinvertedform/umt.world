@@ -5,7 +5,9 @@ year: 1983
 letterboxd_uri: "https://boxd.it/2Ei1HR"
 rating: 
 rewatch: 
-tags: "vcr, fmst 398"
+tags:
+  - vcr
+  - fmst 398
 watched_date: 2022-03-07
 ---
 

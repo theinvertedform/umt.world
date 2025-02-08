@@ -5,7 +5,9 @@ year: 1972
 letterboxd_uri: "https://boxd.it/3XywA9"
 rating: 
 rewatch: 
-tags: "va, fmst 315"
+tags:
+  - va
+  - fmst 315
 watched_date: 2023-03-06
 ---
 

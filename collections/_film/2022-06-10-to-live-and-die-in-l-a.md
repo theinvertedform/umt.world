@@ -5,7 +5,8 @@ year: 1985
 letterboxd_uri: "https://boxd.it/2UJt4r"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-06-08
 ---
 

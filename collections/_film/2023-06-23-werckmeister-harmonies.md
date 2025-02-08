@@ -5,7 +5,8 @@ year: 2000
 letterboxd_uri: "https://boxd.it/4pAeqr"
 rating: 
 rewatch: 
-tags: "cinéma moderne"
+tags:
+  - cinéma moderne
 watched_date: 2023-06-14
 ---
 

@@ -5,7 +5,8 @@ year: 2017
 letterboxd_uri: "https://boxd.it/3eKNgJ"
 rating: 
 rewatch: 
-tags: "musée d'art contemporain"
+tags:
+  - musée d'art contemporain
 watched_date: 2022-09-16
 ---
 

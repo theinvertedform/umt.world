@@ -5,7 +5,8 @@ year: 2003
 letterboxd_uri: "https://boxd.it/2Ax82l"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-02-16
 ---
 

@@ -5,7 +5,8 @@ year: 2003
 letterboxd_uri: "https://boxd.it/3AYma1"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-12-27
 ---
 

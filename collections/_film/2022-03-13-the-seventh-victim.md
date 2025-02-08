@@ -5,7 +5,8 @@ year: 1943
 letterboxd_uri: "https://boxd.it/2ESeDZ"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-03-12
 ---
 

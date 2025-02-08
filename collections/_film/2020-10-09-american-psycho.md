@@ -5,7 +5,7 @@ year: 2000
 letterboxd_uri: "https://boxd.it/1oxguh"
 rating: 2.5
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2020-10-08
 ---
 

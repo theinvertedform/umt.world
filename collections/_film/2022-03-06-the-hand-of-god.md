@@ -5,7 +5,8 @@ year: 2021
 letterboxd_uri: "https://boxd.it/2DpDX9"
 rating: 
 rewatch: 
-tags: "dollar cinema"
+tags:
+  - dollar cinema
 watched_date: 2022-03-04
 ---
 

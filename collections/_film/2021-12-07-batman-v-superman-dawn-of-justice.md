@@ -5,7 +5,7 @@ year: 2016
 letterboxd_uri: "https://boxd.it/2ld6Vj"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-12-06
 ---
 

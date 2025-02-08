@@ -5,7 +5,8 @@ year: 1946
 letterboxd_uri: "https://boxd.it/39dDS3"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-08-16
 ---
 

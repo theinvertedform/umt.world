@@ -5,7 +5,8 @@ year: 1983
 letterboxd_uri: "https://boxd.it/3fCUMZ"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-09-22
 ---
 

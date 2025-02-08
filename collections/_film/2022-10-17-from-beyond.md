@@ -5,7 +5,8 @@ year: 1986
 letterboxd_uri: "https://boxd.it/3kyOUF"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-10-15
 ---
 

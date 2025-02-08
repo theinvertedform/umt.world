@@ -5,7 +5,8 @@ year: 1957
 letterboxd_uri: "https://boxd.it/2Nx2al"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-27
 ---
 

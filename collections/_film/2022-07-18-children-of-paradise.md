@@ -5,7 +5,8 @@ year: 1945
 letterboxd_uri: "https://boxd.it/320qVp"
 rating: 
 rewatch: 
-tags: "cinémathèque québécoise"
+tags:
+  - cinémathèque québécoise
 watched_date: 2022-07-12
 ---
 

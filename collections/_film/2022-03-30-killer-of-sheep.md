@@ -5,7 +5,8 @@ year: 1978
 letterboxd_uri: "https://boxd.it/2HX4hh"
 rating: 
 rewatch: Yes
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2022-03-28
 ---
 

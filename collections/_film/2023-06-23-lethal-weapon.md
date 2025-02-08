@@ -5,7 +5,8 @@ year: 1987
 letterboxd_uri: "https://boxd.it/4pAeJt"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-06-16
 ---
 

@@ -5,7 +5,7 @@ year: 2017
 letterboxd_uri: "https://boxd.it/1pY7VV"
 rating: 0.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 
 ---
 

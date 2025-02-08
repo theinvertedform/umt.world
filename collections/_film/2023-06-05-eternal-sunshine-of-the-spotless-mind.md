@@ -5,7 +5,8 @@ year: 2004
 letterboxd_uri: "https://boxd.it/4kN3RR"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-06-04
 ---
 

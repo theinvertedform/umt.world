@@ -5,7 +5,8 @@ year: 1957
 letterboxd_uri: "https://boxd.it/2Y8P5X"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-06-25
 ---
 

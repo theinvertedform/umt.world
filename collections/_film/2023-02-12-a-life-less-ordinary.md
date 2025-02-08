@@ -5,7 +5,8 @@ year: 1997
 letterboxd_uri: "https://boxd.it/3QoJZX"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-02-09
 ---
 

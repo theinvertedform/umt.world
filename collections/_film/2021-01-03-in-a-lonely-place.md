@@ -5,7 +5,7 @@ year: 1950
 letterboxd_uri: "https://boxd.it/1yKKGt"
 rating: 3
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-01-02
 ---
 

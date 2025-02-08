@@ -5,7 +5,8 @@ year: 1998
 letterboxd_uri: "https://boxd.it/2MYeK1"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-25
 ---
 

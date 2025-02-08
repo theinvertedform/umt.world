@@ -5,7 +5,8 @@ year: 1944
 letterboxd_uri: "https://boxd.it/3L8uqB"
 rating: 
 rewatch: Yes
-tags: "fmst 315"
+tags:
+  - fmst 315
 watched_date: 2023-01-23
 ---
 

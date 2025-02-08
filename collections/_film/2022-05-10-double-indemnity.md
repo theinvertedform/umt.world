@@ -5,7 +5,8 @@ year: 1944
 letterboxd_uri: "https://boxd.it/2Ph8pd"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-05-08
 ---
 

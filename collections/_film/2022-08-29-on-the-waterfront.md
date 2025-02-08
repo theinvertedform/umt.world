@@ -5,7 +5,8 @@ year: 1954
 letterboxd_uri: "https://boxd.it/3aRgL3"
 rating: 
 rewatch: 
-tags: "cinémathèque québécoise"
+tags:
+  - cinémathèque québécoise
 watched_date: 2022-08-20
 ---
 

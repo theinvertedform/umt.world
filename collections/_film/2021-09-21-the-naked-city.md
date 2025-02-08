@@ -5,7 +5,7 @@ year: 1948
 letterboxd_uri: "https://boxd.it/29qh8P"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-09-19
 ---
 

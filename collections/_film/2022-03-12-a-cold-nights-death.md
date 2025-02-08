@@ -5,7 +5,8 @@ year: 1973
 letterboxd_uri: "https://boxd.it/2EvRZJ"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-03-11
 ---
 

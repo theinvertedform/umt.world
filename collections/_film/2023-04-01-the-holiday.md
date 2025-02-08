@@ -5,7 +5,8 @@ year: 2006
 letterboxd_uri: "https://boxd.it/43Ej5t"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-03-30
 ---
 

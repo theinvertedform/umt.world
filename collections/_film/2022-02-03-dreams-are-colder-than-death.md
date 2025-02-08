@@ -5,7 +5,8 @@ year: 2014
 letterboxd_uri: "https://boxd.it/2xRweD"
 rating: 
 rewatch: 
-tags: "desk"
+tags:
+  - desk
 watched_date: 2022-02-02
 ---
 

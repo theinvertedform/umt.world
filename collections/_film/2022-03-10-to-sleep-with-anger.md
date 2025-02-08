@@ -5,7 +5,9 @@ year: 1990
 letterboxd_uri: "https://boxd.it/2EhSqH"
 rating: 
 rewatch: 
-tags: "vcr, fmst 398"
+tags:
+  - vcr
+  - fmst 398
 watched_date: 2022-03-07
 ---
 

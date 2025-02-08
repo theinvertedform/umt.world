@@ -5,7 +5,7 @@ year: 1968
 letterboxd_uri: "https://boxd.it/2giau7"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 
 ---
 

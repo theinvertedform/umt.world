@@ -5,7 +5,8 @@ year: 2017
 letterboxd_uri: "https://boxd.it/3O1C89"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-01-31
 ---
 

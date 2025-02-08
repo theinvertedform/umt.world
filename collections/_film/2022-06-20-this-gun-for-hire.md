@@ -5,7 +5,8 @@ year: 1942
 letterboxd_uri: "https://boxd.it/2WEv4L"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-06-18
 ---
 

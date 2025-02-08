@@ -5,7 +5,8 @@ year: 1922
 letterboxd_uri: "https://boxd.it/45cy1D"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-04-05
 ---
 

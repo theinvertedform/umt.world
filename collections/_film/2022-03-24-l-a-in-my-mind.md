@@ -5,7 +5,8 @@ year: 2006
 letterboxd_uri: "https://boxd.it/2GR4xN"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2022-03-21
 ---
 

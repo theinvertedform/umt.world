@@ -5,7 +5,8 @@ year: 1984
 letterboxd_uri: "https://boxd.it/3iNRgb"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-10-07
 ---
 

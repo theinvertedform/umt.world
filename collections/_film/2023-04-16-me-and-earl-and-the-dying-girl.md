@@ -5,7 +5,8 @@ year: 2015
 letterboxd_uri: "https://boxd.it/47Hx6n"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-04-13
 ---
 

@@ -5,7 +5,8 @@ year: 1969
 letterboxd_uri: "https://boxd.it/4aaQPd"
 rating: 
 rewatch: 
-tags: "diving bell"
+tags:
+  - diving bell
 watched_date: 2023-04-23
 ---
 

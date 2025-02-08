@@ -5,7 +5,8 @@ year: 2017
 letterboxd_uri: "https://boxd.it/3cZRgF"
 rating: 
 rewatch: 
-tags: "va"
+tags:
+  - va
 watched_date: 2022-09-07
 ---
 
