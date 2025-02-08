@@ -5,7 +5,8 @@ year: 1973
 letterboxd_uri: "https://boxd.it/2MoSJZ"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-04-22
 ---
 

@@ -5,7 +5,8 @@ year: 2011
 letterboxd_uri: "https://boxd.it/3lDplf"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-10-20
 ---
 

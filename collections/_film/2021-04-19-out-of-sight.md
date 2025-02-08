@@ -5,7 +5,7 @@ year: 1998
 letterboxd_uri: "https://boxd.it/1NYWkd"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-04-18
 ---
 

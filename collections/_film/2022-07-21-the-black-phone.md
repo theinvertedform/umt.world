@@ -5,7 +5,8 @@ year: 2021
 letterboxd_uri: "https://boxd.it/32H9v1"
 rating: 
 rewatch: 
-tags: "cinéma banque scotia"
+tags:
+  - cinéma banque scotia
 watched_date: 2022-07-19
 ---
 

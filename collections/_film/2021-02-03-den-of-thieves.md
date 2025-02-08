@@ -5,7 +5,7 @@ year: 2018
 letterboxd_uri: "https://boxd.it/1Drnx1"
 rating: 2
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-02-02
 ---
 

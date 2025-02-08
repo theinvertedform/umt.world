@@ -5,7 +5,7 @@ year: 1991
 letterboxd_uri: "https://boxd.it/1wF9UF"
 rating: 2
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-12-21
 ---
 

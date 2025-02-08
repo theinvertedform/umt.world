@@ -5,7 +5,7 @@ year: 1934
 letterboxd_uri: "https://boxd.it/2puhCd"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-12-28
 ---
 

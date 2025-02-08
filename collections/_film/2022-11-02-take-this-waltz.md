@@ -5,7 +5,8 @@ year: 2011
 letterboxd_uri: "https://boxd.it/3o1L7F"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-10-31
 ---
 

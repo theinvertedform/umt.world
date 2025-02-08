@@ -5,7 +5,7 @@ year: 1981
 letterboxd_uri: "https://boxd.it/2aVSvH"
 rating: 
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2021-10-01
 ---
 

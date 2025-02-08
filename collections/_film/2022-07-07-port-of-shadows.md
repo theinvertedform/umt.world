@@ -5,7 +5,8 @@ year: 1938
 letterboxd_uri: "https://boxd.it/2ZLWyT"
 rating: 
 rewatch: 
-tags: "cinémathèque québécoise"
+tags:
+  - cinémathèque québécoise
 watched_date: 2022-07-05
 ---
 

@@ -5,7 +5,8 @@ year: 2006
 letterboxd_uri: "https://boxd.it/2LjYKZ"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-17
 ---
 

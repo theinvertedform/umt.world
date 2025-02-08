@@ -5,7 +5,9 @@ year: 1989
 letterboxd_uri: "https://boxd.it/2GRcZ1"
 rating: 
 rewatch: Yes
-tags: "de seve, fmst 203"
+tags:
+  - de seve
+  - fmst 203
 watched_date: 2022-03-22
 ---
 

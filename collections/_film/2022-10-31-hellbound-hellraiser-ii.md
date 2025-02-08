@@ -5,7 +5,8 @@ year: 1988
 letterboxd_uri: "https://boxd.it/3nvvZd"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-10-29
 ---
 

@@ -5,7 +5,8 @@ year: 1946
 letterboxd_uri: "https://boxd.it/320BkT"
 rating: 
 rewatch: Yes
-tags: "cinémathèque québécoise"
+tags:
+  - cinémathèque québécoise
 watched_date: 2022-07-16
 ---
 

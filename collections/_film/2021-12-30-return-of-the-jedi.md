@@ -5,7 +5,8 @@ year: 1983
 letterboxd_uri: "https://boxd.it/2pDfwP"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2021-12-29
 ---
 

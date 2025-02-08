@@ -5,7 +5,8 @@ year: 1992
 letterboxd_uri: "https://boxd.it/2u046t"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-01-14
 ---
 

@@ -5,7 +5,8 @@ year: 2007
 letterboxd_uri: "https://boxd.it/3ZBTQX"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-03-15
 ---
 

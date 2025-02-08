@@ -5,7 +5,8 @@ year: 2004
 letterboxd_uri: "https://boxd.it/402dOp"
 rating: 
 rewatch: 
-tags: "vcr"
+tags:
+  - vcr
 watched_date: 2023-03-17
 ---
 

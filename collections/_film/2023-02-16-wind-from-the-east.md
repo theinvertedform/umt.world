@@ -5,7 +5,8 @@ year: 1970
 letterboxd_uri: "https://boxd.it/3RoVA5"
 rating: 
 rewatch: 
-tags: "cinémathèque québécoise"
+tags:
+  - cinémathèque québécoise
 watched_date: 2023-02-14
 ---
 

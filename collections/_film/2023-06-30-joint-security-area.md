@@ -5,7 +5,8 @@ year: 2000
 letterboxd_uri: "https://boxd.it/4rJZGn"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-06-25
 ---
 

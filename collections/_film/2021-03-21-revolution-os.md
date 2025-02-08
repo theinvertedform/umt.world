@@ -5,7 +5,7 @@ year: 2001
 letterboxd_uri: "https://boxd.it/1JMZXx"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 
 ---
 

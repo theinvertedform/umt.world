@@ -5,7 +5,8 @@ year: 1971
 letterboxd_uri: "https://boxd.it/2yD7ep"
 rating: 
 rewatch: 
-tags: "desk"
+tags:
+  - desk
 watched_date: 2022-02-06
 ---
 

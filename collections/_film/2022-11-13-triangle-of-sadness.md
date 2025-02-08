@@ -5,7 +5,8 @@ year: 2022
 letterboxd_uri: "https://boxd.it/3qiSQf"
 rating: 
 rewatch: 
-tags: "cinéma cineplex forum"
+tags:
+  - cinéma cineplex forum
 watched_date: 2022-11-08
 ---
 

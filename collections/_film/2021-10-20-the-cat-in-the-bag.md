@@ -5,7 +5,7 @@ year: 1964
 letterboxd_uri: "https://boxd.it/2dJQkb"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-10-19
 ---
 

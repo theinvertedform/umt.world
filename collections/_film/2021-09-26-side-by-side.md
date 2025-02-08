@@ -5,7 +5,7 @@ year: 2012
 letterboxd_uri: "https://boxd.it/2a4dgb"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-09-24
 ---
 

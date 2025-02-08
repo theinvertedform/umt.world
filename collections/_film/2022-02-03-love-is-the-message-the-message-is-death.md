@@ -5,7 +5,8 @@ year: 2016
 letterboxd_uri: "https://boxd.it/2xOdFT"
 rating: 
 rewatch: Yes
-tags: "desk"
+tags:
+  - desk
 watched_date: 2022-02-01
 ---
 

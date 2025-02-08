@@ -5,7 +5,8 @@ year: 1938
 letterboxd_uri: "https://boxd.it/2L01dz"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-14
 ---
 

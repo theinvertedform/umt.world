@@ -5,7 +5,8 @@ year: 1982
 letterboxd_uri: "https://boxd.it/3HWHMf"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-01-15
 ---
 

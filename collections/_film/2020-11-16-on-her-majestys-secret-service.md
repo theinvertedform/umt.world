@@ -5,7 +5,7 @@ year: 1969
 letterboxd_uri: "https://boxd.it/1sH0CZ"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-11-15
 ---
 

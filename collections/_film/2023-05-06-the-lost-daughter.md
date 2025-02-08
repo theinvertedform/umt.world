@@ -5,7 +5,8 @@ year: 2021
 letterboxd_uri: "https://boxd.it/4d4Ofx"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-05-04
 ---
 

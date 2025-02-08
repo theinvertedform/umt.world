@@ -5,7 +5,9 @@ year: 2022
 letterboxd_uri: "https://boxd.it/3jGiC7"
 rating: 
 rewatch: Yes
-tags: "cinéma du musée, fnc 2022"
+tags:
+  - cinéma du musée
+  - fnc 2022
 watched_date: 2022-10-10
 ---
 

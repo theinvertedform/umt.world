@@ -5,7 +5,7 @@ year: 1955
 letterboxd_uri: "https://boxd.it/1wFSax"
 rating: 3
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-12-21
 ---
 

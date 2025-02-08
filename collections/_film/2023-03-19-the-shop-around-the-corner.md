@@ -5,7 +5,8 @@ year: 1940
 letterboxd_uri: "https://boxd.it/4010Bv"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-03-17
 ---
 

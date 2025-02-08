@@ -5,7 +5,7 @@ year: 1971
 letterboxd_uri: "https://boxd.it/2kE8pT"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-12-03
 ---
 

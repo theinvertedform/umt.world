@@ -5,7 +5,8 @@ year: 1985
 letterboxd_uri: "https://boxd.it/3Syue1"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-02-18
 ---
 

@@ -5,7 +5,8 @@ year: 2003
 letterboxd_uri: "https://boxd.it/40Ug3J"
 rating: 
 rewatch: 
-tags: "desk"
+tags:
+  - desk
 watched_date: 2023-03-19
 ---
 

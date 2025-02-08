@@ -5,7 +5,7 @@ year: 2019
 letterboxd_uri: "https://boxd.it/1oZuiP"
 rating: 1
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-10-10
 ---
 

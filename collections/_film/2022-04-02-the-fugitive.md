@@ -5,7 +5,8 @@ year: 1993
 letterboxd_uri: "https://boxd.it/2IvN5D"
 rating: 
 rewatch: Yes
-tags: "desk"
+tags:
+  - desk
 watched_date: 2022-04-01
 ---
 

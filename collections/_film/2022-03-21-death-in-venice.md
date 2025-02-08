@@ -5,7 +5,8 @@ year: 1971
 letterboxd_uri: "https://boxd.it/2GilfL"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-03-19
 ---
 

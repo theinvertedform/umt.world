@@ -5,7 +5,8 @@ year: 2010
 letterboxd_uri: "https://boxd.it/2JyFOP"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-04-06
 ---
 

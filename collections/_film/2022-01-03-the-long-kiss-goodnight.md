@@ -5,7 +5,8 @@ year: 1996
 letterboxd_uri: "https://boxd.it/2qDSad"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-01-01
 ---
 

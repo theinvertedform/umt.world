@@ -5,7 +5,7 @@ year: 1990
 letterboxd_uri: "https://boxd.it/1BRbsR"
 rating: 3
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2021-01-22
 ---
 

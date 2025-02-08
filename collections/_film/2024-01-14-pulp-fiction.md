@@ -5,7 +5,8 @@ year: 1994
 letterboxd_uri: "https://boxd.it/5AlCwl"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2024-01-09
 ---
 

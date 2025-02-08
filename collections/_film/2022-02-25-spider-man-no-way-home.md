@@ -5,7 +5,8 @@ year: 2021
 letterboxd_uri: "https://boxd.it/2BWu0v"
 rating: 
 rewatch: 
-tags: "amc forum"
+tags:
+  - amc forum
 watched_date: 2022-02-24
 ---
 

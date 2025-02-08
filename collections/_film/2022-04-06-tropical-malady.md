@@ -5,7 +5,9 @@ year: 2004
 letterboxd_uri: "https://boxd.it/2JhkHp"
 rating: 
 rewatch: Yes
-tags: "fmst 203, vcr"
+tags:
+  - fmst 203
+  - vcr
 watched_date: 2022-04-05
 ---
 

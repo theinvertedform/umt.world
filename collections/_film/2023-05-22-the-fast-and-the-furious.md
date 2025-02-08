@@ -5,7 +5,8 @@ year: 2001
 letterboxd_uri: "https://boxd.it/4h26mh"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-05-21
 ---
 

@@ -5,7 +5,7 @@ year: 1963
 letterboxd_uri: "https://boxd.it/1nEsE9"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 
 ---
 

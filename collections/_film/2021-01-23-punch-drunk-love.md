@@ -5,7 +5,7 @@ year: 2002
 letterboxd_uri: "https://boxd.it/1BOh9b"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-01-22
 ---
 

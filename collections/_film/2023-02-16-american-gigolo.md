@@ -5,7 +5,8 @@ year: 1980
 letterboxd_uri: "https://boxd.it/3RoV3P"
 rating: 
 rewatch: 
-tags: "va"
+tags:
+  - va
 watched_date: 2023-02-13
 ---
 

@@ -5,7 +5,8 @@ year: 1947
 letterboxd_uri: "https://boxd.it/2TWSRb"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-06-04
 ---
 

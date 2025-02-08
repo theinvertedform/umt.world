@@ -5,7 +5,7 @@ year: 2021
 letterboxd_uri: "https://boxd.it/27RZpr"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-09-07
 ---
 

@@ -5,7 +5,7 @@ year: 1996
 letterboxd_uri: "https://boxd.it/1nEnxn"
 rating: 2
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-09-30
 ---
 

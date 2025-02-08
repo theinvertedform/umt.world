@@ -5,7 +5,7 @@ year: 2004
 letterboxd_uri: "https://boxd.it/1Rxryb"
 rating: 
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2021-05-14
 ---
 

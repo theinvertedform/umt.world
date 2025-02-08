@@ -5,7 +5,8 @@ year: 2019
 letterboxd_uri: "https://boxd.it/4bZ5Qz"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-04-30
 ---
 

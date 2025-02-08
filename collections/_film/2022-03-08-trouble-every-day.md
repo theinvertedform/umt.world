@@ -5,7 +5,8 @@ year: 2001
 letterboxd_uri: "https://boxd.it/2DQCWj"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-03-06
 ---
 

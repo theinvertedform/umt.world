@@ -5,7 +5,8 @@ year: 2023
 letterboxd_uri: "https://boxd.it/5Vjki1"
 rating: 
 rewatch: 
-tags: "cinéma beaubien"
+tags:
+  - cinéma beaubien
 watched_date: 2024-02-25
 ---
 

@@ -5,7 +5,9 @@ year: 2022
 letterboxd_uri: "https://boxd.it/3kkJM9"
 rating: 
 rewatch: 
-tags: "fnc 2022, cinéma impérial"
+tags:
+  - fnc 2022
+  - cinéma impérial
 watched_date: 2022-10-14
 ---
 

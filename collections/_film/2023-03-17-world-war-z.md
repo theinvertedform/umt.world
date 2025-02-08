@@ -5,7 +5,8 @@ year: 2013
 letterboxd_uri: "https://boxd.it/3ZBXXX"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-03-15
 ---
 

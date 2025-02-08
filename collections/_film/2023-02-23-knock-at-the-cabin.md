@@ -5,7 +5,8 @@ year: 2023
 letterboxd_uri: "https://boxd.it/3Tzzm1"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-02-21
 ---
 

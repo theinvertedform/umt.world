@@ -5,7 +5,8 @@ year: 2023
 letterboxd_uri: "https://boxd.it/4aEymn"
 rating: 
 rewatch: 
-tags: "cinéma du parc"
+tags:
+  - cinéma du parc
 watched_date: 2023-04-25
 ---
 

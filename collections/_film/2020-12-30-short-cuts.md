@@ -5,7 +5,7 @@ year: 1993
 letterboxd_uri: "https://boxd.it/1xYHLJ"
 rating: 4
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-12-29
 ---
 

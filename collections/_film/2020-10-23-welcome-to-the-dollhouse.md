@@ -5,7 +5,7 @@ year: 1995
 letterboxd_uri: "https://boxd.it/1pY38F"
 rating: 4
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2020-10-21
 ---
 

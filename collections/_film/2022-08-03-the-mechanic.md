@@ -5,7 +5,8 @@ year: 1972
 letterboxd_uri: "https://boxd.it/35B7jd"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-08-01
 ---
 

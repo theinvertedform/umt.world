@@ -5,7 +5,7 @@ year: 1932
 letterboxd_uri: "https://boxd.it/1JDNVL"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-03-19
 ---
 

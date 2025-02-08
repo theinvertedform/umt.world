@@ -5,7 +5,7 @@ year: 1970
 letterboxd_uri: "https://boxd.it/1DbQYD"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-02-01
 ---
 

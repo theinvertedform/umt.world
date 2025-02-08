@@ -5,7 +5,9 @@ year: 2015
 letterboxd_uri: "https://boxd.it/2xeoVV"
 rating: 
 rewatch: 
-tags: "tv, fmst 203"
+tags:
+  - tv
+  - fmst 203
 watched_date: 2022-01-29
 ---
 

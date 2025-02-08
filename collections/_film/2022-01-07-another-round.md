@@ -5,7 +5,8 @@ year: 2020
 letterboxd_uri: "https://boxd.it/2rJLFJ"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-01-05
 ---
 

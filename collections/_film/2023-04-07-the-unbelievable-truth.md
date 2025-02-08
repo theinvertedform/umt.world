@@ -5,7 +5,8 @@ year: 1989
 letterboxd_uri: "https://boxd.it/45f8lj"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-04-01
 ---
 

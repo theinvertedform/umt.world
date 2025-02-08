@@ -5,7 +5,8 @@ year: 1992
 letterboxd_uri: "https://boxd.it/2DxN2t"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-03-05
 ---
 

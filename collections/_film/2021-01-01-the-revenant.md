@@ -5,7 +5,7 @@ year: 2015
 letterboxd_uri: "https://boxd.it/1yj9Th"
 rating: 2.5
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-01-01
 ---
 

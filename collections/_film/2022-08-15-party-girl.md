@@ -5,7 +5,8 @@ year: 1958
 letterboxd_uri: "https://boxd.it/38cwLD"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-08-13
 ---
 

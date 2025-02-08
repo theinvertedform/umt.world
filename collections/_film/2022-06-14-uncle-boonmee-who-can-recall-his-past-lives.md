@@ -5,7 +5,8 @@ year: 2010
 letterboxd_uri: "https://boxd.it/2VuImz"
 rating: 
 rewatch: 
-tags: "cinéma moderne"
+tags:
+  - cinéma moderne
 watched_date: 2022-06-11
 ---
 

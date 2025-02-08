@@ -5,7 +5,8 @@ year: 1986
 letterboxd_uri: "https://boxd.it/2uhAqf"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-01-15
 ---
 

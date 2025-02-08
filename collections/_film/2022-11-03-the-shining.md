@@ -5,7 +5,8 @@ year: 1980
 letterboxd_uri: "https://boxd.it/3odFqF"
 rating: 
 rewatch: Yes
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-11-01
 ---
 

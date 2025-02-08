@@ -5,7 +5,8 @@ year: 2014
 letterboxd_uri: "https://boxd.it/4kj6CP"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2023-06-01
 ---
 

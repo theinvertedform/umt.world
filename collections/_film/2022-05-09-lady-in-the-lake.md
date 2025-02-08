@@ -5,7 +5,8 @@ year: 1946
 letterboxd_uri: "https://boxd.it/2Pb9Hl"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-05-08
 ---
 

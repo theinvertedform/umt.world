@@ -5,7 +5,8 @@ year: 2012
 letterboxd_uri: "https://boxd.it/4L8aBn"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2023-08-26
 ---
 

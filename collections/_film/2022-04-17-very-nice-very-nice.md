@@ -5,7 +5,8 @@ year: 1961
 letterboxd_uri: "https://boxd.it/2L9pGj"
 rating: 
 rewatch: 
-tags: "desk"
+tags:
+  - desk
 watched_date: 2022-04-16
 ---
 

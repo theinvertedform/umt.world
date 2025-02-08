@@ -5,7 +5,8 @@ year: 1999
 letterboxd_uri: "https://boxd.it/2CRWcX"
 rating: 
 rewatch: Yes
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-03-01
 ---
 

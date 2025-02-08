@@ -5,7 +5,7 @@ year: 2023
 letterboxd_uri: "https://boxd.it/4MUvTd"
 rating: 
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2023-09-01
 ---
 

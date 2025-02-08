@@ -5,7 +5,8 @@ year: 1990
 letterboxd_uri: "https://boxd.it/2H7VzT"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-03-24
 ---
 

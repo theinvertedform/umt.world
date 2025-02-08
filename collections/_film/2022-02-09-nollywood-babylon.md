@@ -5,7 +5,9 @@ year: 2009
 letterboxd_uri: "https://boxd.it/2z0kxP"
 rating: 
 rewatch: 
-tags: "fmst 203, de seve"
+tags:
+  - fmst 203
+  - de seve
 watched_date: 2022-02-08
 ---
 

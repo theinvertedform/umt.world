@@ -5,7 +5,8 @@ year: 1962
 letterboxd_uri: "https://boxd.it/42ihAV"
 rating: 
 rewatch: Yes
-tags: "desk"
+tags:
+  - desk
 watched_date: 2023-03-26
 ---
 

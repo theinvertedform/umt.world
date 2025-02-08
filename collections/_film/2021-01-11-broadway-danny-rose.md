@@ -5,7 +5,7 @@ year: 1984
 letterboxd_uri: "https://boxd.it/1A24np"
 rating: 3
 rewatch: Yes
-tags: ""
+tags: []
 watched_date: 2021-01-10
 ---
 

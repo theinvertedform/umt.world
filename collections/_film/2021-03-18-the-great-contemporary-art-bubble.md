@@ -5,7 +5,7 @@ year: 2009
 letterboxd_uri: "https://boxd.it/1Jn7EL"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-03-16
 ---
 

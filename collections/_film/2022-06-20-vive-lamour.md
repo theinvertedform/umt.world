@@ -5,7 +5,8 @@ year: 1994
 letterboxd_uri: "https://boxd.it/2WEMn1"
 rating: 
 rewatch: 
-tags: "cinéma moderne"
+tags:
+  - cinéma moderne
 watched_date: 2022-06-18
 ---
 

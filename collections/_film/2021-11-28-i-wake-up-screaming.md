@@ -5,7 +5,7 @@ year: 1941
 letterboxd_uri: "https://boxd.it/2jKmYV"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-11-26
 ---
 

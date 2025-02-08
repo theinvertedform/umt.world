@@ -5,7 +5,9 @@ year: 2015
 letterboxd_uri: "https://boxd.it/2Ei65D"
 rating: 
 rewatch: 
-tags: "de seve, fmst 203"
+tags:
+  - de seve
+  - fmst 203
 watched_date: 2022-03-08
 ---
 

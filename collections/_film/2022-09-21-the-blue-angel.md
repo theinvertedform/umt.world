@@ -5,7 +5,8 @@ year: 1930
 letterboxd_uri: "https://boxd.it/3faWy5"
 rating: 
 rewatch: 
-tags: "laptop"
+tags:
+  - laptop
 watched_date: 2022-09-19
 ---
 

@@ -5,7 +5,8 @@ year: 2018
 letterboxd_uri: "https://boxd.it/2Tb0Pr"
 rating: 
 rewatch: 
-tags: "tv"
+tags:
+  - tv
 watched_date: 2022-05-29
 ---
 

@@ -5,7 +5,7 @@ year: 1975
 letterboxd_uri: "https://boxd.it/2hmdFf"
 rating: 
 rewatch: 
-tags: ""
+tags: []
 watched_date: 2021-11-11
 ---
 
