@@ -20,6 +20,7 @@ layout: home
 {% unless collection.label == "film" %}
 {% assign all_documents = all_documents | concat: collection.docs %}
 {% endunless %}
+{% endunless %}
 {% endfor %}
 {% assign sorted = all_documents | sort: 'date' | reverse | slice: 0, 10 %}
 {% for post in sorted %}
