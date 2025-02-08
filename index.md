@@ -17,6 +17,7 @@ layout: home
 <ul class="section-link-list">
 {% for collection in site.collections %}
 {% unless collection.label == "blog" %}
+{% unless collection.label == "film" %}
 {% assign all_documents = all_documents | concat: collection.docs %}
 {% endunless %}
 {% endfor %}
