@@ -30,9 +30,6 @@ We are each of us weighed and measured on a Great Ledger in the sky. A disk in a
 
 As a last resort, the golem will take out its iron truncheon and rain blows on your yielding ribs. This is your first offence, and so the golem tortures you by sticking pins through your wretched double's joints. The pins are contained in a case attached to a cowhide belt, each one six inches of oiled steel. The golem drives them through the double's bone with such force that they nail it to the porous floor. Your second body emits a high-pitched whine, agonized but without understanding. 
 
-\clearpage
-
-
 # Thursday
 
 Blue light from the screen hits the orange glow of the room. There is a quiet moment---long enough to check my messages. We are not allowed to check our phones at work because the clock wants to extinguish life. When you connect to the outside world, you are defying capital's thanatotic logic. Death is comforting, giving us the easy identity of a corpse. 
