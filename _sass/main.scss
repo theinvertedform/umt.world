@@ -1,10 +1,10 @@
 /* import */
 
 @import "fonts";
+@import "colours";
 
 /* base features */
 
-/*$body-font: "ITC Caslon 224 Std Book", serif;*/
 $body-font: "Kings Caslon Regular", serif;
 $body-font-bold: "Kings Caslon Bold", serif;
 $body-font-italic: "Kings Caslon Italic", serif;
@@ -12,77 +12,10 @@ $display: "Irvin Heading", serif;
 $sans-serif: "Neutraface 2 Text", sans-serif;
 $monospace: "Courier Std", monospace;
 $caption: "ACaslon Regular", serif;
-$super: "ACaslonExp Regular";
-$logotype: "American Typewriter";
-
+$super: "ACaslonExp Regular", serif;
+$logotype: "American Typewriter", monospace;
 $font-bold: 700;
 $font-semibold: 600;
-/*$display: "Cheltenhm BdHd BT", serif;*/
-
-:root {
-	--background-colour: #FFFFF8;
-	--text-colour: #2A2A29;
-	--link-colour: #555553;
-	--hover-colour: #80807c;
-	--border-colour: #555553;
-	--secondary-background-colour: #F8F8FF;
-	--secondary-text-colour: #4a4a4c;
-	--secondary-hover-colour: #dfdfe5;
-	--secondary-border-colour: #c6c6cc;
-	--highlight-colour: #ad1c42;
-
-}
-
-@font-face {
-	font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
-	src: local("Source Sans 3 Regular"), local("SourceSans3-Regular"), url("../fonts/SourceSans3-Regular");
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: "ITC Caslon 224 Std Book", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-Book.otf") format("otf");
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-Bold.otf") format("otf");
-	font-style: normal;
-	font-weight: $font-bold;
-}
-
-@font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-BookItalic.otf") format("otf");
-	font-style: italic;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-BoldItalic.otf") format("otf");
-	font-style: italic;
-	font-weight: $font-bold;
-}
-
-@font-face {
-	font-family: "ITC Cheltenham Std", "Times New Roman", serif;
-	src: url("../fonts/CheltenhamStd.otf") format("otf");
-}
-
-@font-face {
-	font-family: "Courier Std", "Source Code Pro", monospace;
-	src: local("Courier Std"), local("CourierStd"), url("../fonts/CourierStd.otf");
-	font-weight: 400;
-}
-
-/*@font-face {
-	font-family: ;
-	src: ;
-	font-weight: ;
-}*/
 
 * {
 	box-sizing: border-box;
@@ -101,8 +34,8 @@ body {
 	--body-width: 75ch;
 	margin: 0 auto;
 	padding: 0.5em;
-	background-color: var(--background-colour);
-	color: var(--text-colour);
+	background-color: $background-colour;
+	color: $text-colour;
 }
 
 main {
@@ -111,9 +44,9 @@ main {
 }
 
 a {
-    color: var(--link-colour);
+    color: $link-colour;
     text-decoration: none;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid $border-colour;
 }
 
 #sidebar {
@@ -124,7 +57,7 @@ a {
 
 	#sidebar a#logo {
 	    border: none;
-		border: 1px dotted var(--hover-colour);
+		border: 1px dotted $hover-colour;
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
@@ -133,8 +66,8 @@ a {
 	#logo img {
 		min-width: 3em;
 		flex: 1 1 100%;
-		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--text-colour) */
-		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--background-colour) */
+		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* $background-colour */
 	}
 
     #sidebar span#logotype {
@@ -155,14 +88,14 @@ a {
 	}
 
 	.sidebar-links a:hover {
-		color: var(--hover-colour);
+		color: $hover-colour;
 	}
 	
 	#sidebar a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted var(--hover-colour);
+		border: 1px dotted $hover-colour;
 		margin: 1px 0 1px 2px;
 	}
 
@@ -170,7 +103,7 @@ a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted var(--highlight-colour);
+		border: 1px dotted $highlight-colour;
 		margin: 1px 0 1px 2px;
 	}
 
@@ -206,16 +139,16 @@ aside.index.abstract {
 	}
 
 	#markdownBody a:hover {
-		color: var(--hover-colour);
+		color: $hover-colour;
 	}
 
 	.markdownBody a {
-		color: var(--text-colour);
+		color: $text-colour;
 		font-variant-numeric: lining-nums;
 	}
 
 	.markdownBody a:hover {
-		color: var(--hover-colour);
+		color: $hover-colour;
 	}
 
     .markdownBody li {
@@ -246,7 +179,7 @@ a.footnote-ref {
 }
 
 h1.index-heading {
-	border-bottom: 1px solid var(--hover-colour);
+	border-bottom: 1px solid $hover-colour;
 	margin: 1.125em 0 0 0;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
@@ -289,7 +222,7 @@ footer {
 }
 
 .feedback a:hover {
-	color: var(--hover-colour);
+	color: $hover-colour;
 }
 
 .end-ornament {
@@ -310,8 +243,8 @@ footer {
 
 	#footer-logo img {
 		min-width: 3em;
-		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--text-colour) */
-		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--background-colour) */
+		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* $background-colour */
 }
 
 /* post layout */
@@ -345,8 +278,8 @@ span.page-status {
 }
 
 #TOC {
-	border: 1px solid var(--secondary-border-colour);
-	background-color: var(--secondary-background-colour);
+	border: 1px solid $secondary-border-colour;
+	background-color: $secondary-background-colour;
 	z-index: 20;
 	line-height: 1em;
 	padding: 1em;
@@ -356,11 +289,11 @@ span.page-status {
 
 .section-nav a {
 	border: none;
-	color: var(--secondary-text-colour);
+	color: $secondary-text-colour;
 }
 
 .section-nav a:hover {
-	background-color: var(--secondary-hover-colour);
+	background-color: $secondary-hover-colour;
 }
 
 /*
@@ -432,8 +365,8 @@ span.page-status {
 blockquote {
 	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
-	border: 1px solid var(--secondary-border-colour);
-	background-color: var(--secondary-background-colour);
+	border: 1px solid $secondary-border-colour;
+	background-color: $secondary-background-colour;
 	/*overflow: hidden;*/
     display: flow-root;
 }	
@@ -441,14 +374,14 @@ blockquote {
 .abstract blockquote {
 	margin: 0 0 1.5em 0;
 	padding-top: 1em;
-	border: 1px solid var(--secondary-border-colour);
-	background-color: var(--secondary-background-colour);
+	border: 1px solid $secondary-border-colour;
+	background-color: $secondary-background-colour;
 	font-family: $sans-serif;
 }
 
 .epigraph {
 	padding: 0.75em 2.5em;
-	background-color: var(--background-colour);
+	background-color: $background-colour;
 	border: none;
 	font-family: "Source Serif 4";
 }
@@ -505,8 +438,8 @@ img {
 }
 
 figure img {
-    border: 1px solid var(--border-colour);
-    box-shadow: 0 0 10px 0 var(--border-colour); }
+    border: 1px solid $border-colour;
+    box-shadow: 0 0 10px 0 $border-colour; }
 
 img:hover {
 }
@@ -599,7 +532,7 @@ h1.title {
 }
 
 section.level1 > h1 {
-	border-bottom: 1px solid var(--hover-colour);
+	border-bottom: 1px solid $hover-colour;
 	font-size: 1.375rem;
 	font-weight: $font-bold;
 	font-variant-caps: small-caps;
@@ -677,7 +610,7 @@ h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: var(--hover-colour);
+    color: $hover-colour;
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -696,7 +629,7 @@ h1 a {
 section.level2 > h2 {
 	text-transform: uppercase;
 	font-size: 1.15em;
-	border-bottom: 1px dotted var(--border-colour);
+	border-bottom: 1px dotted $border-colour;
 	text-align: left;
 	font-variant: small-caps;
 	line-height: 1.15;
@@ -710,7 +643,7 @@ h2 a::after {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: var(--text-colour);
+    color: $text-colour;
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -742,7 +675,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: var(--hover-colour);
+    border-color: $hover-colour;
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -753,7 +686,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: var(--hover-colour);
+    border-color: $hover-colour;
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -784,7 +717,7 @@ section#footnotes li {
 		text-transform: uppercase;
 		font-weight: $font-semibold;
 		flex: 1 1 auto;
-		color: var(--hover-colour);
+		color: $hover-colour;
 	}
 
 	#sidebar a:hover {
@@ -819,7 +752,7 @@ section#footnotes li {
 		margin: 0 1.5rem 0 0;
 		float: left;
         position: relative;
-        box-shadow: -1rem 0 0 0 var(--background-colour), 1.5rem 0 0 0 var(--background-colour);
+        box-shadow: -1rem 0 0 0 $background-colour, 1.5rem 0 0 0 $background-colour;
 	}
 
 	#TOC > ul {
@@ -1003,9 +936,9 @@ section#footnotes li {
 #markdownBody .sidenote.targeted,
 #markdownBody .sidenote.displaced,
 #markdownBody .sidenote.highlighted {
-    background-color: var(--background-colour);
+    background-color: $background-colour;
     opacity: 1.0;
-    box-shadow: 0 0 0 16px var(--background-colour);
+    box-shadow: 0 0 0 16px $background-colour;
 }
 #markdownBody .sidenote.targeted {
     z-index: 1;
@@ -1032,20 +965,20 @@ section#footnotes li {
 #markdownBody .sidenote.targeted::after,
 #markdownBody .sidenote.displaced::after,
 #markdownBody .sidenote.highlighted::after {
-    border: 3px double var(--border-colour);
+    border: 3px double $border-colour;
 }
 
 #markdownBody .sidenote.cut-off::before {
     content: "…";
     position: absolute;
-    border: 1px dotted var(--border-colour);
+    border: 1px dotted $border-colour;
     top: calc(100% - 1px);
     left: 0;
     right: 0;
     margin: auto;
     width: fit-content;
     z-index: 2;
-    background-color: var(--background-colour);
+    background-color: $background-colour;
     padding: 0.125em 0.5em 0.5em 0.5em;
     font-size: 1.25em;
     font-weight: 600;
@@ -1071,7 +1004,7 @@ section#footnotes li {
     position: relative;
     z-index: 1;
     border-style: dotted;
-    border-color: var(--border-colour);
+    border-color: $border-colour;
     border-width: 1px 0;
 }
 #markdownBody .sidenote:hover .sidenote-outer-wrapper,
@@ -1096,7 +1029,7 @@ section#footnotes li {
     background-image: var(--GW-checkerboard-scrollbar-background-image);
     background-size: 2px;
     box-shadow:
-        0 0 0 2px var(--background-colour) inset;
+        0 0 0 2px $background-colour inset;
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb:hover {
     background-image: var(--GW-checkerboard-scrollbar-hover-background-image);
@@ -1105,10 +1038,10 @@ section#footnotes li {
 /*  Scroll bar styles (for Firefox).
     */
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) var(--background-colour);
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) $background-colour;
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper:hover {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) var(--background-colour);
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) $background-colour;
 }
 
 /*  Inner wrapper (does not scroll; stretches to height of content).
@@ -1160,7 +1093,7 @@ section#footnotes li {
     top: -1px;
     background-image: none;
     border-style: dotted;
-    border-color: var(--border-colour);
+    border-color: $border-colour;
     border-width: 1px 1px 0px 1px;
     width: 2em;
     height: 2em;
@@ -1199,7 +1132,7 @@ section#footnotes li {
     bottom: -3px;
     width: calc(50vw - (935px / 2 + 96px) + 10px);
     max-width: 550px;
-    border-bottom: 3px double var(--border-colour);
+    border-bottom: 3px double $border-colour;
 }
 #markdownBody #sidenote-column-left .sidenote.targeted > .sidenote-self-link::before,
 #markdownBody #sidenote-column-left .sidenote > .sidenote-self-link:hover::before {
