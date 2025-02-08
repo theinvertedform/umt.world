@@ -2,8 +2,9 @@
 
 @import "fonts";
 @import "colours";
+@import "mixins";
 
-/* base features */
+/* variables */
 
 $body-font: "Kings Caslon Regular", serif;
 $body-font-bold: "Kings Caslon Bold", serif;
@@ -16,6 +17,9 @@ $super: "ACaslonExp Regular", serif;
 $logotype: "American Typewriter", monospace;
 $font-bold: 700;
 $font-semibold: 600;
+$base-font-size: 16px;
+
+/* base features */
 
 * {
 	box-sizing: border-box;
@@ -25,7 +29,7 @@ $font-semibold: 600;
 
 html {
     line-height: 1.60em;
-	font-size: calc(16px + 0.390625vw);
+	font-size: calc(#{$base-font-size} + 0.390625vw);
 	font-family: $body-font;
 }
 
@@ -44,23 +48,23 @@ main {
 }
 
 a {
-    color: $link-colour;
-    text-decoration: none;
-    border-bottom: 1px solid $border-colour;
+    @include link-style;
+    @include link-hover-style;
 }
 
 #sidebar {
 	display: flex;
 	justify-content: center;
-    font-family: $display;
+    @include typography($display);
 }
 
 	#sidebar a#logo {
-	    border: none;
-		border: 1px dotted $hover-colour;
+        @include link-style;
+        @include link-border-style($border-color: $hover-colour, $border-style: dotted);
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
+        @include link-hover-style;
 	}
 
 	#logo img {
@@ -71,8 +75,7 @@ a {
 	}
 
     #sidebar span#logotype {
-        font-family: $logotype;
-		font-size: 2em;
+        @include typography($logotype, normal, 2em);
       }
 
 	.sidebar-links {
@@ -80,31 +83,28 @@ a {
 		display: flex;
 		flex-flow: row wrap;
 	}
-
-	#sidebar .sidebar-links a {
-		flex: 1 1 33%;
-		padding: 0.25rem 0.75rem;
-		align-content: center;
-	}
-
-	.sidebar-links a:hover {
-		color: $hover-colour;
-	}
 	
 	#sidebar a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted $hover-colour;
-		margin: 1px 0 1px 2px;
+        @include link-style($border-color: $hover-colour, $link-color: inherit);
+        @include link-hover-style;
+	}
+
+	#sidebar .sidebar-links a {
+		flex: 1 1 33%;
+		padding: 0.25rem 0.75rem;
+		align-content: center;
+        @include link-style($border-color: transparent);
 	}
 
 	#sidebar a.patreon {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-		border: 1px dotted $highlight-colour;
-		margin: 1px 0 1px 2px;
+        @include link-style($border-color: $highlight-colour, $link-color: inherit);
+        @include link-hover-style;
 	}
 
 article {
@@ -138,17 +138,11 @@ aside.index.abstract {
 		list-style-type: square;
 	}
 
-	#markdownBody a:hover {
-		color: $hover-colour;
-	}
-
 	.markdownBody a {
-		color: $text-colour;
+        @include link-style($link-color: $text-colour);
+        @include link-hover-style;
+		/*color: $text-colour;*/
 		font-variant-numeric: lining-nums;
-	}
-
-	.markdownBody a:hover {
-		color: $hover-colour;
 	}
 
     .markdownBody li {
@@ -181,12 +175,9 @@ a.footnote-ref {
 h1.index-heading {
 	border-bottom: 1px solid $hover-colour;
 	margin: 1.125em 0 0 0;
-	font-size: 1.5rem;
-	line-height: 1.5rem;
 	text-align: left;
 	padding: 0;
-	font-variant-caps: small-caps;
-    font-family: $display;
+    @include typography($display, normal, 1.5rem, 1.5rem, normal, none, small-caps);
 }
 
 hr.index-section-ornament {
@@ -221,8 +212,9 @@ footer {
 	flex-flow: column;
 }
 
-.feedback a:hover {
-	color: $hover-colour;
+.feedback a {
+    @include link-style;
+    @include link-hover-style;
 }
 
 .end-ornament {
@@ -236,9 +228,11 @@ footer {
 }
 
 #footer-logo {
-	    border: none;
+        @include link-style;
+        @include link-border-style($border-color: none);
 		margin: 3em 0 0 0;
 		align-content: center;
+        @include link-hover-style;
 	}
 
 	#footer-logo img {
@@ -254,23 +248,22 @@ footer {
 	}
 
 #page-metadata {
-	line-height: 1.5em;
 	margin: 0 0 2.25rem 0;
-	font-family: $sans-serif;
 	text-align: center;
+    @include typography($sans-serif, normal, null, 1.5em);
 }
 
 #page-description {
 	margin: 0 auto 1em auto;
 	font-style: italic;
 	text-align: center;
-	font-family: $body-font;
+    @include typography($body-font);
 }
 
 div#link-tags {
 	margin: 0 auto 1em auto;
-	font-family: $sans-serif;
 	text-align: center;
+    @include typography($sans-serif);
 }
 
 span.page-status {
@@ -281,19 +274,12 @@ span.page-status {
 	border: 1px solid $secondary-border-colour;
 	background-color: $secondary-background-colour;
 	z-index: 20;
-	line-height: 1em;
 	padding: 1em;
-	font-size: 1rem;
-	font-family: $sans-serif;
+    @include typography($sans-serif, normal, 1rem, 1em);
 }
 
 .section-nav a {
-	border: none;
-	color: $secondary-text-colour;
-}
-
-.section-nav a:hover {
-	background-color: $secondary-hover-colour;
+    @include link-style($border-color: none, $link-color: $secondary-text-colour, $hover-color: $secondary-hover-colour);
 }
 
 /*
@@ -497,51 +483,41 @@ li {
 /* typography */
 
 strong {
-  font-family: $body-font-bold;
-  font-weight: normal;
+  @include typography($body-font-bold);
 }
 
 sup {
-  font-family: $super;
+  @include typography($super);
 }
 
 em {
-  font-family: $body-font-italic;
+  @include typography($body-font-italic);
 }
 
 h1 {
-  font-family: $display;
-  font-weight: $font-bold;
+  @include typography($display, $font-bold);
 }
 
 h2 {
-  font-family: $display;
-  font-weight: $font-semibold;
+  @include typography($display, $font-semibold);
 }
 
 h1.title {
 	margin: 0.75em 0;
 	text-align: center;
-	font-variant: small-caps;
-	font-size: 2.5em;
-	line-height: 1.5em;
-	font-weight: normal;
 	letter-spacing: -1px;
 	border-bottom: none;
-    font-family: $display;
+    @include typography($display, normal, 2.5em, 1.5em, normal, none, small-caps);
 }
 
 section.level1 > h1 {
 	border-bottom: 1px solid $hover-colour;
-	font-size: 1.375rem;
-	font-weight: $font-bold;
-	font-variant-caps: small-caps;
-	line-height: 1.15;
 	text-align: right;
 	padding: 0;
 	margin-bottom: 1em;
 	letter-spacing: -0.75px;
 	position: relative;
+    @include typography($display, $font-bold, 1.375rem, 1.15, normal, none, small-caps);
 }
 
 section.level1 > h1.diary {
@@ -622,21 +598,17 @@ h1 a::after {
 	left: 0;
 }
 
-h1 a {
-	border-bottom: none;
+h1 a, h2 a {
+    @include link-style($border-color: none);
 	}
 
 section.level2 > h2 {
-	text-transform: uppercase;
-	font-size: 1.15em;
 	border-bottom: 1px dotted $border-colour;
 	text-align: left;
-	font-variant: small-caps;
-	line-height: 1.15;
-	font-weight: $font-semibold;
 	position: relative;
 	padding: 0;
 	margin: 0;
+    @include typography($display, $font-semibold, 1.15em, 1.15, normal, uppercase, small-caps);
 }
 
 h2 a::after {
@@ -650,16 +622,9 @@ h2 a::after {
 	opacity: 0.5;
 }
 
-h2 a {
-	border-bottom: none;
-}
-
 h3 {
-    font-size: 1.25em;
-	text-transform: capitalize;
-	font-weight: bold;
 	position: relative;
-	font-variant: small-caps;
+    @include typography($display, bold, 1.25em, null, normal, capitalize, small-caps);
 }
 
 div.csl-entry {
@@ -717,14 +682,8 @@ section#footnotes li {
 		text-transform: uppercase;
 		font-weight: $font-semibold;
 		flex: 1 1 auto;
-		color: $hover-colour;
-	}
-
-	#sidebar a:hover {
-		color: #ccc;
-	}
-
-	.markdownBody {
+        @include link-style($link-color: $hover-colour);
+        @include link-hover-style($hover-color: $secondary-hover-colour);
 	}
 }
 
