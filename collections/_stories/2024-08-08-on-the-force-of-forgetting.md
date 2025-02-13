@@ -4,14 +4,14 @@ author: Uriah Marc Todoroff
 #date: \today
 description: The Spirit of Gravity weighs me down to the past.
 published: false
-#fontsize: 12pt
-#geometry: margin=1in
-#header-includes:
-#	- \usepackage{setspace}
-#	- \usepackage{fontspec}
-#mainfont: Caslon224Std-Medium
-#indent: true
-#linestretch: 2
+fontsize: 12pt
+geometry: margin=1in
+header-includes:
+	- \usepackage{setspace}
+	- \usepackage{fontspec}
+mainfont: Caslon224Std-Medium
+indent: true
+linestretch: 2
 ---
 
 # Saturday
@@ -24,6 +24,6 @@ Once that square kilometre had a purpose. Quarantined by railroads to North, Sou
 
 In that square kilometre, an entire generation of the City vainly sought to bring History back to life by piecing together what it could remember. We could not achieve the weightiness we remembered, and now we are left to harvest our crop of chrysanthemums and radishes. They push up through the broken alley. Pebbles dig into the palm of my hand as I lean back, one night in that square kilometre. A crowd buzzes and smokes, white t-shirts glowing under halogen street lights. This was once the centre of my universe.[^2] 
 
-[^2]: Todoroff, Uriah Marc. *Return to Drones*. Published online. https://umt.world/reviews/drones. Accessed August 29, 2024.
-
 The ceaseless crest of this onrushing present has us trapped at the moment of disintegration. Lines of flight Appear to point in every direction, but they are all controlled by the enemy and bring us back to the same point: the ever-disintegrating, eternally-cresting, never-breaking, onrushing *Now*. We would be better off writing all our wisdom down in a Book, retreating from society, and laboriously teaching the next generations to live outside of time. Recollection has mass and is therefore weighed down by the Spirit of Gravity, while the force of forgetting flies weightlessly through cloudless skies. I chase that vivid perspective of my dream until the image of reality and Appearance blur together, and I live by that first commandment: *Never change!*
+
+[^2]: Todoroff, Uriah Marc. *Return to Drones*. Published online. https://umt.world/reviews/drones. Accessed August 29, 2024.
