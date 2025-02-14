@@ -1,8 +1,33 @@
-@mixin link-style($link-color: $link-colour, $border-color: $border-colour, $hover-color: $hover-colour) {
-  color: $link-color;
-  text-decoration: none;
-  border-bottom: 1px solid $border-color;
-}
+@mixin link-style(
+    $link-color: $link-colour,
+    $border-width: null,
+    $border-style: null,
+    $border-color: null,
+    $border-top-width: null,
+    $border-top-style: null,
+    $border-top-color: null,
+    $border-right-width: null,
+    $border-right-style: null,
+    $border-right-color: null,
+    $border-bottom-width: null,
+    $border-bottom-style: null,
+    $border-bottom-color: null,
+    $border-left-width: null,
+    $border-left-style: null,
+    $border-left-color: null
+) {
+    color: $link-color;
+    text-decoration: none;
+
+    @if $border-width {
+        border: $border-width $border-style $border-color;
+    } @else {
+        border-top: $border-top-width $border-top-style $border-top-color;
+        border-right: $border-right-width $border-right-style $border-right-color;
+        border-bottom: $border-bottom-width $border-bottom-style $border-bottom-color;
+        border-left: $border-left-width $border-left-style $border-left-color;
+    }
+} // <--- Closing brace for the link-style mixin.  This was missing.
 
 @mixin link-hover-style($hover-color: $hover-colour) {
     &:hover {

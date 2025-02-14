@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-GB">
     <head>
-		<script src="{{ "/assets/js/sidenotes.js" }}"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+		<script src="{{ "/assets/js/sidenotes.js" }}"></script>
+		<!--<script src="{{ "/assets/js/Hyphenopoly_Loader.js" }}"></script>
+		<script>
+        Hyphenopoly.config({
+            require: {
+                "en-gb": "Supercalifragilisticexpialidocious"
+            },
+            setup: {
+                selectors: {
+                    ".container": {}
+                }
+            }
+        });
+        </script> -->
 		<title>{{ page.title | markdownify | strip_html }} - umt.world</title>
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-		<link rel="shortcut icon" type="image/svg" href="/favicon.svg">
-
-{% if page.image_sliders or layout.image_sliders or page.image_sliders_load_all -%}
-		<!-- Slider CSS -->
-		<link rel="stylesheet" href="{{ "/assets/css/slider/ideal-image-slider.css" | relative_url }}">
-		<link rel="stylesheet" href="{{ "/assets/css/slider/themes/default.css" | relative_url }}">
-{% endif %}
-
-{% if page.iis_slider_active %}
-		<!-- Slider -->
-		<script src="{{ "/assets/js/slider/ideal-image-slider.min.js" }}"></script>
-		<script src="{{ "/assets/js/slider/extensions/iis-bullet-nav.js" }}"></script>
-		<script src="{{ "/assets/js/slider/extensions/iis-captions.js" }}"></script>
-		<!-- Sliders on pages -->
-		{% for script in page.iis_slider_scripts %}
-			{{ script }}
-		{% endfor %}
-  <!-- Sliders on indexes -->
-  {% for post in paginator.posts %}
-    {% for script in post.iis_slider_scripts %}
-      {{ script }}
-    {% endfor %}
-  {% endfor %}
-{% endif %}
+		<link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
 
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">

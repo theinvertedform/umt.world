@@ -136,81 +136,89 @@ function setHashWithoutScrolling(newHash) {
 function ridiculousWorkaroundsForBrowsersFromBizarroWorld() {
     GWLog("ridiculousWorkaroundsForBrowsersFromBizarroWorld");
 
-    GW.isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-    if (!GW.isFirefox) {
-        GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: 176ch)`;
-        GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: 65ch)`;
-    } else {
-        /*  This should match the "max-width" property of the "body" element.
-            */
-        GW.maxBodyWidthInCharacterUnits = 75;
+    document.addEventListener('DOMContentLoaded', function() { // add event listener
+        GW.isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+        if (!GW.isFirefox) {
+            GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: 176ch)`;
+            GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: 65ch)`;
+        } else { // Correctly nested else block
+            /*  This should match the "max-width" property of the "body" element.
+                    */
+            GW.maxBodyWidthInCharacterUnits = 75;
 
-        /*  This should be some property/value pair that only Firefox supports.
-            */
-        GW.firefoxTargetingSelector = "@supports (-moz-user-focus: normal)";
+            /*  This should be some property/value pair that only Firefox supports.
+                    */
+            GW.firefoxTargetingSelector = "@supports (-moz-user-focus: normal)";
 
-        let widthOfCharacterUnit = parseInt(getComputedStyle(document.body).maxWidth) / GW.maxBodyWidthInCharacterUnits;
-        let viewportWidthBreakpointInPixels = 176 * widthOfCharacterUnit;
-        GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: ${viewportWidthBreakpointInPixels}px)`;
-        let mobileViewportWidthBreakpointInPixels = 65 * widthOfCharacterUnit;
-        GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: ${mobileViewportWidthBreakpointInPixels}px)`;
+            let widthOfCharacterUnit = parseInt(getComputedStyle(document.body).maxWidth) / GW.maxBodyWidthInCharacterUnits;
+            let viewportWidthBreakpointInPixels = 176 * widthOfCharacterUnit;
+            GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: ${viewportWidthBreakpointInPixels}px)`;
+            let mobileViewportWidthBreakpointInPixels = 65 * widthOfCharacterUnit;
+            GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: ${mobileViewportWidthBreakpointInPixels}px)`;
 
-        var sidenotesBrowserWorkaroundStyleBlock = document.querySelector("style#sidenotes-browser-workaround");
-        if (!sidenotesBrowserWorkaroundStyleBlock) {
-            sidenotesBrowserWorkaroundStyleBlock = document.createElement("style");
-            sidenotesBrowserWorkaroundStyleBlock.id = "sidenotes-browser-workaround";
-            document.querySelector("body").appendChild(sidenotesBrowserWorkaroundStyleBlock);
-        }
-        sidenotesBrowserWorkaroundStyleBlock.innerHTML = `
-            ${GW.firefoxTargetingSelector} {
-                @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
-                    #sidenote-column-left,
-                    #sidenote-column-right {
-                        display: none;
-                    }
-                }
-                @media only screen and (min-width: ${viewportWidthBreakpointInPixels + 1}px) {
-                    main {
-                        position: relative;
-                        right: 4ch;
-                    }
-                    #markdownBody {
-                        position: relative;
-                    }
-                }
-                @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
-                    .footnote-ref:target {
-                        background-color: inherit;
-                        box-shadow: none;
-                    }
-                }
+            var sidenotesBrowserWorkaroundStyleBlock = document.querySelector("style#sidenotes-browser-workaround");
+            if (!sidenotesBrowserWorkaroundStyleBlock) {
+                sidenotesBrowserWorkaroundStyleBlock = document.createElement("style");
+                sidenotesBrowserWorkaroundStyleBlock.id = "sidenotes-browser-workaround";
+                document.querySelector("body").appendChild(sidenotesBrowserWorkaroundStyleBlock);
             }
-        `;
-    }
 
-    /*  Create media query objects (for checking and attaching listeners).
-        */
-    GW.sidenotes.mediaQueries = {
-        viewportWidthBreakpoint: matchMedia(GW.sidenotes.viewportWidthBreakpointMediaQueryString),
-        mobileViewportWidthBreakpoint: matchMedia(GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString),
-        hover: matchMedia("only screen and (hover: hover) and (pointer: fine)")
-    };
+            let minWidthBreakpoint = viewportWidthBreakpointInPixels + 1; // Calculate here!
 
-    /*  Listen for changes to whether the viewport width media query is matched;
-        if such a change occurs (i.e., if the viewport becomes, or stops being,
-        wide enough to support sidenotes), switch modes from footnote popups to
-        sidenotes or vice/versa, as appropriate.
-        (This listener may also be fired if the dev tools pane is opened, etc.)
-        */
-    GW.sidenotes.mediaQueries.viewportWidthBreakpoint.addListener(GW.sidenotes.viewportWidthBreakpointChanged = () => {
-        GWLog("GW.sidenotes.viewportWidthBreakpointChanged");
+            sidenotesBrowserWorkaroundStyleBlock.innerHTML = `
+                ${GW.firefoxTargetingSelector} {
+                    @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
+                        #sidenote-column-left,
+                        #sidenote-column-right {
+                            display: none;
+                        }
+                    }
+                    @media only screen and (min-width: ${minWidthBreakpoint}px) { /* Use the variable */
+                        #sidenote-column-left,
+                        #sidenote-column-right {
+                            display: block;
+                        }
+                        main {
+                            position: relative;
+                            right: 4ch;
+                        }
+                        #markdownBody {
+                            position: relative;
+                        }
+                    }
+                    @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
+                        .footnote-ref:target {
+                            background-color: inherit;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            `;
+        } // Closing brace for the if (!GW.isFirefox) block
 
-        updateFootnoteEventListeners();
-        GW.sidenotes.footnotesObserver.disconnect();
-        updateFootnoteReferenceLinks();
-    });
+        /*  Create media query objects (for checking and attaching listeners).
+            */
+        GW.sidenotes.mediaQueries = {
+            viewportWidthBreakpoint: matchMedia(GW.sidenotes.viewportWidthBreakpointMediaQueryString),
+            mobileViewportWidthBreakpoint: matchMedia(GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString),
+            hover: matchMedia("only screen and (hover: hover) and (pointer: fine)")
+        };
+
+        /*  Listen for changes to whether the viewport width media query is matched;
+            if such a change occurs (i.e., if the viewport becomes, or stops being,
+            wide enough to support sidenotes), switch modes from footnote popups to
+            sidenotes or vice/versa, as appropriate.
+            (This listener may also be fired if the dev tools pane is opened, etc.)
+            */
+        GW.sidenotes.mediaQueries.viewportWidthBreakpoint.addListener(GW.sidenotes.viewportWidthBreakpointChanged = () => {
+            GWLog("GW.sidenotes.viewportWidthBreakpointChanged");
+
+            updateFootnoteEventListeners();
+            GW.sidenotes.footnotesObserver.disconnect();
+            updateFootnoteReferenceLinks();
+        });
+    }); // Closing brace for the DOMContentLoaded event listener
 }
-
 /*  Returns true if the string begins with the given prefix.
     */
 String.prototype.hasPrefix = function (prefix) {
@@ -876,6 +884,8 @@ function sidenotesSetup() {
             GW.sidenotes.footnotesObserver.disconnect();
         }
     });
+
+
     GW.sidenotes.footnotesObserver.observe(document.body, { attributes: true, childList: true, subtree: true });
 
     /*  If the page was loaded with a hash that points to a footnote, but
