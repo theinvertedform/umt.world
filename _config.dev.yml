@@ -117,3 +117,4 @@ exclude:
   - collections/_films/reviews.csv
   - bower.json
   - bower_components/
+  - collections/_film/*.md

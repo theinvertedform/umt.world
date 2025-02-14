@@ -2,6 +2,7 @@
 
 @import "fonts";
 @import "colours";
+@import "line-heights";
 @import "mixins";
 
 /* variables */
@@ -9,12 +10,16 @@
 $body-font: "Kings Caslon Regular", serif;
 $body-font-bold: "Kings Caslon Bold", serif;
 $body-font-italic: "Kings Caslon Italic", serif;
+$body-font-bdit: "Kings Caslon Bold Italic", serif;
 $display: "Irvin Heading", serif;
-$sans-serif: "Neutraface 2 Text", sans-serif;
+$sans-serif: "Neutra Text Book", sans-serif;
+$sans-serif-italic: "Neutra Text Book Italic", sans-serif;
+$toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
-$caption: "ACaslon Regular", serif;
+$caption: "Kings Caslon Italic", serif;
 $super: "ACaslonExp Regular", serif;
 $logotype: "American Typewriter", monospace;
+
 $font-bold: 700;
 $font-semibold: 600;
 $base-font-size: 16px;
@@ -28,7 +33,7 @@ $base-font-size: 16px;
 }
 
 html {
-    line-height: 1.60em;
+    line-height: fluid-line-height('body');
 	font-size: calc(#{$base-font-size} + 0.390625vw);
 	font-family: $body-font;
 }
@@ -96,7 +101,7 @@ a {
 		flex: 1 1 33%;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
-        @include link-style($border-color: transparent);
+        @include link-style($border-color: $text-colour);
 	}
 
 	#sidebar a.patreon {
@@ -116,7 +121,7 @@ aside.index.abstract {
 }
 
 #markdownBody {
-	line-height: 1.45em;
+	line-height: fluid-line-height('article');
 /*	display: flex;
 	flex-flow: row wrap;*/
 	margin: 1em auto;
@@ -129,7 +134,7 @@ aside.index.abstract {
 	}
 	
 		#markdownBody .section-link-list li {
-			line-height: 1.65em;
+			line-height: fluid-line-height('list');
 			padding: 0.1em;
             list-style-position: outside;
 		}
@@ -177,7 +182,10 @@ h1.index-heading {
 	margin: 1.125em 0 0 0;
 	text-align: left;
 	padding: 0;
-    @include typography($display, normal, 1.5rem, 1.5rem, normal, none, small-caps);
+    @include typography($display, normal, 1.5rem, display, normal, none, small-caps);
+    a {
+      border-bottom: none;
+    }
 }
 
 hr.index-section-ornament {
@@ -275,7 +283,7 @@ span.page-status {
 	background-color: $secondary-background-colour;
 	z-index: 20;
 	padding: 1em;
-    @include typography($sans-serif, normal, 1rem, 1em);
+    @include typography($toc, normal, 1rem, 1em);
 }
 
 .section-nav a {
@@ -363,6 +371,13 @@ blockquote {
 	border: 1px solid $secondary-border-colour;
 	background-color: $secondary-background-colour;
 	font-family: $sans-serif;
+    em {
+      font-family: $sans-serif-italic;
+    }
+    strong {
+      font-family: $sans-serif;
+      font-weight: $font-bold;
+    }
 }
 
 .epigraph {
@@ -411,8 +426,13 @@ figcaption {
 	text-align: center;
 	font-size: 0.85em;
     font-family: $caption;
-    line-height: calc(1.3 / 0.85);
+    line-height: scale-line-height('body', 0.85em);
     padding: 0.5rem;
+    em {
+      font-size: inherit;
+      font-style: inherit;
+      line-height: inherit;
+    }
 }
 
 span.citation {
@@ -446,12 +466,24 @@ li {
 	padding: 0 0 0.65em 0;
 }
 
+/* TOC */
+
 #TOC > ul {
 	column-count: 2;
 	margin: 0;
 	column-gap: 2em;
 	list-style-type: none;
 	padding: 0;
+}
+
+#TOC a {
+  @include link-style($link-color: $secondary-text-colour);
+  border-bottom: none;
+
+  &:hover {
+    color: $secondary-hover-colour;
+    background-color: $secondary-background-colour;
+  }
 }
 
 .section-nav > ul {
@@ -487,7 +519,7 @@ strong {
 }
 
 sup {
-  @include typography($super);
+  @include typography($super, normal, null, article);
 }
 
 em {
@@ -507,7 +539,7 @@ h1.title {
 	text-align: center;
 	letter-spacing: -1px;
 	border-bottom: none;
-    @include typography($display, normal, 2.5em, 1.5em, normal, none, small-caps);
+    @include typography($display, normal, 2.5em, display, normal, none, small-caps);
 }
 
 section.level1 > h1 {
@@ -517,7 +549,7 @@ section.level1 > h1 {
 	margin-bottom: 1em;
 	letter-spacing: -0.75px;
 	position: relative;
-    @include typography($display, $font-bold, 1.375rem, 1.15, normal, none, small-caps);
+    @include typography($display, $font-bold, 1.375rem, display, normal, none, small-caps);
 }
 
 section.level1 > h1.diary {
