@@ -10,3 +10,4 @@ collections/_film/*.csv
 *.swo
 *~
 *.json
+node_modules/
