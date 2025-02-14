@@ -437,7 +437,7 @@ figcaption {
 	text-align: center;
 	font-size: 0.85em;
     font-family: $caption;
-    line-height: scale-line-height('body', 0.85em);
+    line-height: scale-line-height('list', 1.25);
     padding: 0.5rem;
     em {
       font-family: inherit;
