@@ -1,0 +1,16 @@
+$line-heights: (
+  'display': 1.15,
+  'article': 1.45,
+  'body': 1.60,
+  'list': 1.65
+);
+
+@function fluid-line-height($height-key, $scale: 0.13) {
+  $base: map-get($line-heights, $height-key);
+  @return calc(#{$base}em + #{$scale}vw);
+}
+
+@function scale-line-height($height-key, $font-size) {
+  $base: map-get($line-heights, $height-key);
+  @return calc(#{$base}em / #{$font-size});
+}

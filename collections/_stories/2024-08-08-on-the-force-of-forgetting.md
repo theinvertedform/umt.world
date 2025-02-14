@@ -1,17 +1,17 @@
 ---
 title: Beneath Language
 author: Uriah Marc Todoroff
-#date: \today
 description: The Spirit of Gravity weighs me down to the past.
 published: false
-fontsize: 12pt
-geometry: margin=1in
-header-includes:
-	- \usepackage{setspace}
-	- \usepackage{fontspec}
-mainfont: Caslon224Std-Medium
-indent: true
-linestretch: 2
+#date: \today
+#fontsize: 12pt
+#geometry: margin=1in
+#header-includes:
+#	- \usepackage{setspace}
+#	- \usepackage{fontspec}
+#mainfont: Caslon224Std-Medium
+#indent: true
+#linestretch: 2
 ---
 
 # Saturday

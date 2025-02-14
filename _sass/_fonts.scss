@@ -29,21 +29,61 @@ $source-code: "Source Code Pro", monospace;
 }
 
 @font-face {
-  font-family: "ACaslon Bold Italic";
+  font-family: "Kings Caslon Bold Italic";
   src: url("../fonts/Kings%20Caslon/KingsCaslonStdBdIt.ttf") format("truetype"); // Use the Bold file for Bold Italic too
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 
-/*@font-face {
-  font-family: "ACaslon Expert"; // Or a better name if you prefer
-  src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
-  font-weight: 400; // Or whatever weight is appropriate
+@font-face {
+  font-family: "Kings Caslon Display Regular";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdRg.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
-}*/
+}
 
+@font-face {
+  font-family: "Kings Caslon Display Italic";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdIt.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Expert";
+  src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Founders Caslon (incomplete)
+@font-face {
+  font-family: "FCaslon Twelve Std";
+  src: url("../fonts/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Twelve Std Italic";
+  src: url("../fonts/FCaslonTwelveITCStd-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Twelve Std Bold";
+  src: url("../fonts/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 // Irvin Heading
 @font-face {
@@ -98,57 +138,35 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-//Neutraface 2 text
+//Neutraface
 @font-face {
-  font-family: "Neutraface 2 Text";
-  src: url("../fonts/Neutra2Text-Book.otf") format("opentype"); // Replace with the actual filename
-  font-weight: 400; // Or define different weights as needed
+  font-family: "NeutraTextBook";
+  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-
-/*@font-face {
-	font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
-	src: local("Source Sans 3 Regular"), local("SourceSans3-Regular"), url("../fonts/SourceSans3-Regular");
-	font-weight: 400;
+@font-face {
+  font-family: "Neutra Text Book";
+  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "ITC Caslon 224 Std Book", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-Book.otf") format("otf");
-	font-style: normal;
-	font-weight: normal;
+  font-family: "Neutra Text Book Italic";
+  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBookItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-Bold.otf") format("otf");
-	font-style: normal;
-	font-weight: $font-bold;
+  font-family: "Neutra Text Bold";
+  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBold.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-BookItalic.otf") format("otf");
-	font-style: italic;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "ITC Caslon 224 Std", "Times New Roman", serif;
-	src: url("../fonts/Caslon224Std-BoldItalic.otf") format("otf");
-	font-style: italic;
-	font-weight: $font-bold;
-}
-
-@font-face {
-	font-family: "ITC Cheltenham Std", "Times New Roman", serif;
-	src: url("../fonts/CheltenhamStd.otf") format("otf");
-}
-
-@font-face {
-	font-family: "Courier Std", "Source Code Pro", monospace;
-	src: local("Courier Std"), local("CourierStd"), url("../fonts/CourierStd.otf");
-	font-weight: 400;
-}*/
