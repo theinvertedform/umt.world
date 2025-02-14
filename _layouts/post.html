@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/Blog">
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
 		<header><h1 class="p-name title" itemprop="name">{{ page.title | markdownify }}</h1></header>
 	<div id="page-metadata">
 		<div class="p-summary" id="page-description" itemprop="description">
@@ -10,25 +11,29 @@ layout: default
 		</div>
 	{% if page.tags.size > 0 %}
 		<div id="link-tags">
-	{% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}" itemprop="keywords">{{ tag }}</a>
+	{% for tag in page.tags %}
+	<a href="/tags#{{ tag | slugify }}" itemprop="keywords">{{ tag }}</a>
 		{% unless forloop.last %}&nbsp;{% endunless %}
 	{% endfor %}
 		</div>
 			{% endif %}
 		<div id="page-metadata-block">
-      		<time class="dt-published" datetime="{{ page.date }}" itemprop="dateCreated">
+      		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         		{%- assign date_format = "%b %-d, %Y" -%}
 				{{ page.date | date: date_format }}
 			</time>
 			{% if page.last_modified_at %} &ndash; 
       		<time class="dt-modified" datetime="{{ page.last_modified_at }}" itemprop="dateModified">
-			<a href="{{ site.github.repository_url }}/blob/main{{ page.url }}.md">{{ page.last_modified_at | date: date_format }}</a>
+			<a href="{{ site.github.repository_url }}/blob/main{{ page.url }}.md" title="Date of last significant revision.">{{ page.last_modified_at | date: date_format }}</a>
 			</time>
 			{% endif %}
 			{% if page.status %} &bull; Status: 
 			<span class="page-status" itemprop="creativeWorkStatus">{{ page.status }}</span> 
 			{% endif %}
 		</div>
+			<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    		<meta itemprop="name" content="Uriah Marc Todoroff">
+			</div>
 	</div>
 
 		{% if page.toc %}
@@ -37,7 +42,7 @@ layout: default
 			</aside>
 		{% endif %}
 
-	<div id="markdownBody" class="markdownBody post-content h-entry">
+	<div id="markdownBody" class="markdownBody post-content" itemprop="articleBody">
 		{% if page.abstract %}
 			<aside class="abstract">
 				<blockquote itemprop="abstract">{{ page.abstract | markdownify }}</blockquote>
@@ -45,6 +50,4 @@ layout: default
 		{% endif %}
 	  {{ content }}
   </div>
-
-	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

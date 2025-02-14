@@ -140,14 +140,6 @@ $source-code: "Source Code Pro", monospace;
 
 //Neutraface
 @font-face {
-  font-family: "NeutraTextBook";
-  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Neutra Text Book";
   src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
   font-weight: 400;
@@ -170,3 +162,12 @@ $source-code: "Source Code Pro", monospace;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Neutra Text Light Italic";
+  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLightItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+

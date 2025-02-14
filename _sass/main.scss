@@ -16,7 +16,7 @@ $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
-$caption: "Kings Caslon Italic", serif;
+$caption: "Neutra Text Light Italic", serif;
 $super: "ACaslonExp Regular", serif;
 $logotype: "American Typewriter", monospace;
 
@@ -53,8 +53,12 @@ main {
 }
 
 a {
-    @include link-style;
-    @include link-hover-style;
+  @include link-style(
+    $border-bottom-width: 1px,
+    $border-bottom-style: solid,
+    $border-bottom-color: $border-colour
+    );
+  @include link-hover-style;
 }
 
 #sidebar {
@@ -64,7 +68,12 @@ a {
 }
 
 	#sidebar a#logo {
-        @include link-style;
+        @include link-style(
+          $border-width: 1px,
+          $border-style: dotted,
+          $border-color: $border-colour,
+          $link-color: inherit 
+          );
         @include link-border-style($border-color: $hover-colour, $border-style: dotted);
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
@@ -101,7 +110,12 @@ a {
 		flex: 1 1 33%;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
-        @include link-style($border-color: $text-colour);
+        @include link-style(
+          $border-width: 1px,
+          $border-style: dotted,
+          $border-color: $border-colour,
+          $link-color: inherit
+    );
 	}
 
 	#sidebar a.patreon {
@@ -111,9 +125,6 @@ a {
         @include link-style($border-color: $highlight-colour, $link-color: inherit);
         @include link-hover-style;
 	}
-
-article {
-}
 
 aside.index.abstract {
 	text-align: justify;
@@ -137,6 +148,7 @@ aside.index.abstract {
 			line-height: fluid-line-height('list');
 			padding: 0.1em;
             list-style-position: outside;
+            margin: 0;
 		}
 	
 	#markdownBody #diaries .section-link-list li {
@@ -151,17 +163,17 @@ aside.index.abstract {
 	}
 
     .markdownBody li {
-        list-style-position: inside;
+        list-style-position: outside;
     }
 
 	p + p {
-		text-indent: 1.75em;
+		text-indent: 2.25em;
 		margin-top: 0;
 	}
 
 a.footnote-ref {
 	vertical-align: super;
-	line-height: 0.25em;
+	line-height: 1;
 	position: relative;
 	top: 0.1em;
 	padding: 0 0.1em;
@@ -236,8 +248,7 @@ footer {
 }
 
 #footer-logo {
-        @include link-style;
-        @include link-border-style($border-color: none);
+        @include link-style($border-width: none);
 		margin: 3em 0 0 0;
 		align-content: center;
         @include link-hover-style;
@@ -283,11 +294,12 @@ span.page-status {
 	background-color: $secondary-background-colour;
 	z-index: 20;
 	padding: 1em;
-    @include typography($toc, normal, 1rem, 1em);
+    @include typography($toc, normal, 1rem, 'display');
 }
 
 .section-nav a {
-    @include link-style($border-color: none, $link-color: $secondary-text-colour, $hover-color: $secondary-hover-colour);
+    @include link-style($border-color: none, $link-color: $secondary-text-colour);
+    @include link-hover-style($hover-color: $secondary-hover-colour);
 }
 
 /*
@@ -422,13 +434,13 @@ figure {
 }
 
 figcaption {
-	/*font-style: italic;*/
 	text-align: center;
 	font-size: 0.85em;
     font-family: $caption;
     line-height: scale-line-height('body', 0.85em);
     padding: 0.5rem;
     em {
+      font-family: inherit;
       font-size: inherit;
       font-style: inherit;
       line-height: inherit;
@@ -464,6 +476,7 @@ ol {
 li {
 	counter-increment: count;
 	padding: 0 0 0.65em 0;
+    margin-left: 2.25em;
 }
 
 /* TOC */
@@ -502,14 +515,15 @@ li {
 
 .section-nav li {
 	font-weight: $font-bold;
-	margin: 0 0 0.5em 0;
 	position: relative;
 	overflow-wrap: break-word;
 	font-size: 0.9em;
+    margin: 0;
 }
 
 .section-nav li li {
 	font-weight: normal;
+    padding: 0;
 }
 
 /* typography */
@@ -520,6 +534,7 @@ strong {
 
 sup {
   @include typography($super, normal, null, article);
+  line-height: 1;
 }
 
 em {
@@ -758,7 +773,7 @@ section#footnotes li {
 		margin-top: 0.25em;
 		text-indent: 0;
 		padding-left: 0.75em;
-		padding-top: 0.25em;
+		padding-top: 0;
 	}
 
 	aside.index.abstract {

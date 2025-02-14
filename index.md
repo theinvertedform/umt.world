@@ -8,11 +8,11 @@ layout: home
 ---
 {%- assign date_format =  "%b %d %Y" -%}
 
-<article>
-<div class="markdownBody" id="markdownBody">
-<aside class="index abstract">{{ page.abstract | markdownify }}</aside>
+<article itemscope itemtype="http://schema.org/WebPage">
+<div class="markdownBody" id="markdownBody" itemprop="mainContentOfPage">
+<aside class="index abstract" itemprop="description">{{ page.abstract | markdownify }}</aside>
 
-<section id="new">
+<section id="new" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/changes" title="Reverse chronological list of additions to my published canon.">Newest</a></h1>
 <ul class="section-link-list">
 {% for collection in site.collections %}
@@ -26,7 +26,7 @@ layout: home
 {% for post in sorted %}
 <li>
 {% if post.url %}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>
 {% else %}
 <a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
 {% endif %}
@@ -35,7 +35,7 @@ layout: home
 </ul>
 </section>
 
-<section id="notable">
+<section id="notable" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="#notable" title="Writing and other media that I am most proud of.">Notable</a></h1>
 <ul class="section-link-list">
 <li>
@@ -67,13 +67,15 @@ layout: home
 </ul>
 </section>
 
-<section id="diaries">
+<section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
 {% assign sortedPosts = site.diary | sort: 'date' %}
 {% for post in sortedPosts limit: 10 %}
-<li>{% if post.title %}<a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: date_format }}">{{ post.title }}</a>{% endif %}
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
 </li>
 {% endfor %}
 </ul>
@@ -81,45 +83,66 @@ layout: home
 
 <hr class="index-section-ornament" >
 
-<section id="film">
-<h1 class="index-heading" id="film"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
+<section id="film" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
 <ul class="section-link-list">
 {% for post in site.film reversed limit: 20 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, watched {{ post.watched_Date | date: "%m/%d/%y" }}. Review published {{ post.date | date: "%m/%d/%y" }}.">{{ post.name }}</a> ({{ post.year }})
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.name }}</span> ({{ post.year }})
+</a>
 </li>
 {% endfor %}
 </ul>
 </section>
 
-<section id="essays">
-<h1 class="index-heading" id="essays"><a href="/index#essays" title="Essays are more concerned with a topic than a specific object.">Essays</a></h1>
+<section id="film" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
+<ul class="section-link-list">
+{% for post in site.film reversed limit: 20 %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.name }}</span> ({{ post.year }})
+</a>
+</li>
+{% endfor %}
+</ul>
+</section>
+
+<section id="essays" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/index#essays" title="Essays are more concerned with a topic than a specific object.">Essays</a></h1>
 <ul class="section-link-list">
 {% for post in site.essays reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
 </li>
 {% endfor %}
 </ul>
 </section>
 
-<section id="reviews">
-<h1 class="index-heading" id="reviews"><a href="/reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
+<section id="reviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
 <ul class="section-link-list">
 {% for post in site.reviews reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
 </li>
 {% endfor %}
 </ul>
 </section>
 
-<section id="interviews">
-<h1 class="index-heading" id="interviews"><a href="/index#interviews" title="Interviews conducted by me, and of me.">Interviews</a></h1>
+<section id="interviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/index#interviews" title="Interviews conducted by me, and of me.">Interviews</a></h1>
 <ul class="section-link-list">
 {% for post in site.interviews reversed limit: 10 %}
-<li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
 </li>
 {% endfor %}
 </ul>
@@ -138,13 +161,15 @@ layout: home
 </section>
 -->
 
-<section id="podcast">
+<section id="podcast" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 {% assign episodes = site.podcast %}
-<h1 class="index-heading" id="podcast"><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
+<h1 class="index-heading"><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
 <ul class="section-link-list">
 {% for post in episodes reversed limit: 10 %}
-<li><a href="podcast#{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}">{{ post.title }}</a>
-{% if post.description %}<em>{{ post.description }}</em>{% endif %}
+<li>
+<a href="podcast#{{ post.slug }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
 </li>
 {% endfor %}
 </ul>
