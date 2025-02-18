@@ -61,15 +61,15 @@ It was a foggy morning. The sun shone wet into their pile of blankets. Nigel lif
 
 "Alisha, I think it's time to get up," he mumbled, wiping his eyes.
 
-She stretched, yawned, and cracked a few joints before sitting up. She wore her brown yak wool sweater; he was wearing his black pullover hoodie; their limbs were sore from their makeshift bed, from long hours sitting behind the wheel; they stretched in the fog, and were quickly restored.
+She stretched, yawned, popped her joints before sitting up. She wore her brown yak wool sweater; he was wearing his black pullover hoodie; their limbs were sore from the makeshift bed, from long hours sitting behind the wheel; they stretched in the fog, and their young bodies were quickly restored.
 
-Nigel took out a small green canvas satchel from the footwell where he was keeping his toiletries. Alisha, brushing her teeth, watched him as he wet a small washcloth with a splash of water from their bottle, and scrubbed his face.
+Nigel took out a small green canvas satchel from the footwell where he was keeping his toiletries. Alisha, brushing her teeth, watched him as he wet a small washcloth with a splash of water from their bottle and scrubbed his face.
 
-"It's important to wash the face when you're in hobo-mode," he said. "An unwashed face that's just woken up is quite obvious. People can always tell. It goes a long way towards disguising your appearance."
+"It's important to wash the face when you're in hobo-mode," he said. "An unwashed face that's just woken up is very obvious. People can always tell. Washing your face goes a long way towards disguising your appearance."
 
-"Oh," she said, and proceeded to scrub the sleep from her eyes.
+"Oh," she said, "they must think I'm normal," and proceeded to scrub the sleep from her eyes with her own washcloth.
 
-She sat behind the wheel, and he sat in the passenger seat. While they waited a moment for the engine to warm, he took out his notebook and a map.
+She resumed her place behind the wheel, she in the passenger seat. While they waited a moment for the engine to warm, he took out his notebook and a map.
 
 "The ferry leaves at 11:45 am. It's just over three hours, approximately, from Truro to North Sydney. That gives us some leeway, but not too much. Let's make a quick stop at the first cafe, but there's a beach here, about halfway. Let's take a break there."
 
