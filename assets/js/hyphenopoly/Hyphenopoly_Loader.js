@@ -1,6 +1,5 @@
 /**
- * @license MIT
- * Hyphenopoly_Loader 6.0.0 - client side hyphenation
+ * @license Hyphenopoly_Loader 6.0.0 - client side hyphenation
  * ©2024  Mathias Nater, Güttingen (mathiasnater at gmail dot com)
  * https://github.com/mnater/Hyphenopoly
  *
@@ -16,7 +15,7 @@ window.Hyphenopoly = {};
     /**
      * Shortcut for new Map
      * @param {any} init - initialiser for new Map
-     * @returns {Map} - empty map
+     * @returns {Map}
      */
     const mp = (init) => {
         return new Map(init);
@@ -43,7 +42,7 @@ window.Hyphenopoly = {};
          *
          * From http://lea.verou.me/2016/12/resolve-promises-externally-with-
          * this-one-weird-trick/
-         * @returns {Promise} - deferred promise
+         * @return {promise}
          */
         const defProm = () => {
             let res = null;
@@ -72,20 +71,24 @@ window.Hyphenopoly = {};
          * each selected element (mode == 1) or
          * text of each selected element (mode == 2) or
          * nothing (mode == -1)
-         * @param {number} state - State
-         * @param {number} mode  - Mode
+         * @param {integer} state - State
+         * @param {integer} mode  - Mode
          */
         H.hide = (state, mode) => {
             if (state) {
-                const vis = (mode === 2)
-                ? "{color:transparent!important}"
-                : "{visibility:hidden!important}";
-                const myStyle = (mode === 0)
-                    ? "html" + vis
-                    : (mode !== -1)
-                        ? o.keys(H.s.selectors).join(vis) + vis
-                        : "";
+                let vis = "{visibility:hidden!important}";
                 stylesNode = d[shortcuts.ce]("style");
+                let myStyle = "";
+                if (mode === 0) {
+                    myStyle = "html" + vis;
+                } else if (mode !== -1) {
+                    if (mode === 2) {
+                        vis = "{color:transparent!important}";
+                    }
+                    o.keys(H.s.selectors).forEach((sel) => {
+                        myStyle += sel + vis;
+                    });
+                }
                 stylesNode[shortcuts.ac](d[shortcuts.ct](myStyle));
                 d.head[shortcuts.ac](stylesNode);
             } else if (stylesNode) {
@@ -99,7 +102,7 @@ window.Hyphenopoly = {};
 
                 /**
                  * Append fakeBody with tests to document
-                 * @returns {object|null} The body element or null, if no tests
+                 * @returns {Object|null} The body element or null, if no tests
                  */
                 "ap": () => {
                     if (fakeBody) {
@@ -143,8 +146,8 @@ window.Hyphenopoly = {};
 
         /**
          * Checks if hyphens (ev.prefixed) is set to auto for the element.
-         * @param {object} elmStyle - the element
-         * @returns {boolean} result of the check
+         * @param {Object} elm - the element
+         * @returns {Boolean} result of the check
          */
         const checkCSSHyphensSupport = (elmStyle) => {
             const h = elmStyle.hyphens ||
@@ -190,7 +193,7 @@ window.Hyphenopoly = {};
         });
         const testContainer = tester.ap();
         if (testContainer) {
-            testContainer.childNodes.forEach((n) => {
+            testContainer.querySelectorAll("div").forEach((n) => {
                 if (checkCSSHyphensSupport(n.style) && n.offsetHeight > 12) {
                     H.cf.langs.set(n.lang, "CSS");
                 } else {
@@ -250,21 +253,9 @@ window.Hyphenopoly = {};
             });
             H.hy6ors.set("HTML", defProm());
             H.hyphenators = new Proxy(H.hy6ors, {
-
-                /**
-                 * Proxy getter
-                 * @param {Map} target - the hy6ors map
-                 * @param {string} key - the language
-                 * @returns {Promise} - Promise for a hyphenator
-                 */
                 "get": (target, key) => {
                     return target.get(key);
                 },
-
-                /**
-                 * Proxy setter, inhibits setting of hyphenators
-                 * @returns {boolean} - allways true
-                 */
                 "set": () => {
                     // Inhibit setting of hyphenators
                     return true;
@@ -295,16 +286,12 @@ window.Hyphenopoly = {};
         })();
     });
 
-    /**
-     * API exposed config
-     * @param {object} c - the user supplied configuration
-     */
     H.config = (c) => {
         /**
          * Sets default properties for an Object
          * @param {object} obj - The object to set defaults to
          * @param {object} defaults - The defaults to set
-         * @returns {object} the settings in obj complemented with defaults
+         * @returns {object}
          */
         const setDefaults = (obj, defaults) => {
             if (obj) {

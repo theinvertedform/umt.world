@@ -36,6 +36,8 @@ html {
     line-height: fluid-line-height('body');
 	font-size: calc(#{$base-font-size} + 0.390625vw);
 	font-family: $body-font;
+    hyphens: auto;
+    text-align: justify;
 }
 
 body {
@@ -72,7 +74,7 @@ a {
           $border-width: 1px,
           $border-style: dotted,
           $border-color: $border-colour,
-          $link-color: inherit 
+          $link-color: inherit
           );
         @include link-border-style($border-color: $hover-colour, $border-style: dotted);
 		margin: 1px;
@@ -97,7 +99,7 @@ a {
 		display: flex;
 		flex-flow: row wrap;
 	}
-	
+
 	#sidebar a {
 		display: block;
 		text-align: center;
@@ -127,7 +129,6 @@ a {
 	}
 
 aside.index.abstract {
-	text-align: justify;
 	margin: 0 auto;
 }
 
@@ -143,14 +144,14 @@ aside.index.abstract {
 		padding: 0 0 0 1.25em;
 		margin: 1em 0;
 	}
-	
+
 		#markdownBody .section-link-list li {
 			line-height: fluid-line-height('list');
 			padding: 0.1em;
             list-style-position: outside;
             margin: 0;
 		}
-	
+
 	#markdownBody #diaries .section-link-list li {
 		list-style-type: square;
 	}
@@ -295,6 +296,7 @@ span.page-status {
 	z-index: 20;
 	padding: 1em;
     @include typography($toc, normal, 1rem, 'display');
+    text-align: left;
 }
 
 .section-nav a {
@@ -375,7 +377,7 @@ blockquote {
 	background-color: $secondary-background-colour;
 	/*overflow: hidden;*/
     display: flow-root;
-}	
+}
 
 .abstract blockquote {
 	margin: 0 0 1.5em 0;
