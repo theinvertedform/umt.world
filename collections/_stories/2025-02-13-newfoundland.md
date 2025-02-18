@@ -4,8 +4,8 @@ author: Uriah Marc Todoroff
 published: false
 ---
 
-* Camping in the cemetery
-* Driving by Peggy's Cove to the ferry
+* Camping by the sports centre
+* Driving by the beach to the ferry
 * Exploring the ferry (it's empty)
 * Camping by the side of the road; nothing around; fucking; slow \& steady wins the race
 * Pausing at the bar to send edits. Old-timer talks about his weed, the island out in the river that he was born on.
@@ -19,7 +19,7 @@ He is a writer, unsure if he loves her. She is a musician, uses the camera he ga
 
 ***
 
-The white line dividing the two-lane road glowed in the light of the SUV's beams.
+The white line dividing the two-lane road glowed in the light of the SUV's high-beams.
 
 "I don't want to go too much further," he said.
 
@@ -31,25 +31,25 @@ The white line dividing the two-lane road glowed in the light of the SUV's beams
 
 "But look, we don't have to go further anyway. Take the next right here."
 
-She turned the wheel, and they passed through the gates into a large parking lot. They were on the grounds of a school, with an adjoining sporting complex big enough to serve the entire region.
+She turned the wheel, and they passed through the gates into an empty parking lot. They were on the grounds of a school, with an adjoining sporting complex big enough to serve the entire region.
 
 "Are you sure?"
 
 "Why not---it's Saturday tomorrow. We'll be gone early. Just pull over there, by those trees. It'll give us a bit of cover."
 
-She turned the wheel again, and they rode gingerly across the green, around the bleachers lining the soccer pitch to a copse of trees that lined the edge of the terrain.
+She turned the wheel again, and they rode gingerly across the lawn, around the bleachers lining the soccer pitch to a copse of trees that marked the edge of the terrain.
 
 "Does it seem level here? It's important that we sleep on level ground, otherwise the blood will pool and our hearts might rupture."
 
-"Oh no! Our hearts! I think we'll be okay. We'll be gone early, after all," she said, and turned off the ignition.
+"Our hearts! I think we'll be okay. We'll be gone early, after all," she said, and turned off the ignition.
 
-"What have we got to eat?" He opened the passenger door, stepped out into the damp chill, then re-entered the vehicle through the back doors. The two seats were folded down to create a flat surface, covered with pillows and blankets. Their bags were stowed in the foot-well, pressed up against the front seats. She clambered over the backseat and met him there.
+"What have we got to eat?" He opened the passenger door, stepped out into the damp chill, then re-entered the vehicle through the back doors. The two seats were folded down to create a flat surface piled high with pillows and blankets. Their bags were stowed in the foot-well, pressed up against the front seats. She clambered over the backseat and met him there.
 
 "Hey, keep that door closed! It's chilly out there."
 
 "Okay, okay, but no shoes in bed." He sat awkwardly, legs elevated, and kicked off his leather sneakers. She untied her canvas trainers and did the same. The light from the front seat turned off automatically, but the light from the school was bright enough to illuminate the interior of the car.
 
-"Now---" she pulled up the canvas tote they kept their food in. "We don't have much. A cucumber, some cheese, some bread and hummus. I'll make us sandwiches."
+"Now---" she pulled up the canvas tote they kept their food in. "We don't have much. A cucumber, some cheese, some bread and hummus. Sandwiches!"
 
 He took out a kitchen knife for her to cut the cucumber, a spoon to spread the hummus, along with two white napkins edged with blue embroidery that they used as plates. There was nothing she could use as a cutting board, so she drew the knife through the dark green skin and pale white flesh, stopping the blade against her thumb.
 
