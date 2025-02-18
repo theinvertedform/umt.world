@@ -71,22 +71,22 @@ Nigel took out a small green canvas satchel from the footwell where he was keepi
 
 She resumed her place behind the wheel, she in the passenger seat. While they waited a moment for the engine to warm, he took out his notebook and a map.
 
-"The ferry leaves at 11:45 am. It's just over three hours, approximately, from Truro to North Sydney. That gives us some leeway, but not too much. Let's make a quick stop at the first cafe, but there's a beach here, about halfway. Let's take a break there."
+"The ferry leaves at 11:45 am. It's just over three hours, approximately, from Truro to North Sydney. That gives us some leeway, but not too much. We'll make a quick stop at the first cafe we see for our morning toilet. There's a beach about halfway where we can take a break."
 
-He looked at her; she looked back at him, evidently not paying attention to anything he had said.
+He looked at her; she looked back at him with a pleasant smile on her face.
 
 "Say Truro again."
 
 "Truro?" He had been enunciating it carefully, hitting each rhotic syllable in order to emphasize the word's internal consonance.
 
-"The way your lips move---" she bared her teeth at him. "It's just too much---" and she stood up to straddle him. "Say it again," she whispered in his ear, and he said it again: *Tru-ro*. When he kissed her, he was delighted to find her mouth wet, tongue hard and probing him aggressively; but when he gripped her, she yielded with a sigh and the seal broke.
+"The way your lips move---" she bared her teeth at him. "It's so cute---" and she stood up to straddle him. "Say it again," she whispered in his ear, and he said it again: *Tru-ro*. When he kissed her, he was delighted to find her mouth wet, tongue hard and aggressive; but when he took hold of her, she yielded with a sigh.
 
 ***
 
-She drove them along the foggy winding two-lane road, traffic flowing in both directions. Occasionally the forest of pines would break and they could see through to the sea, but it wasn't until they stopped at the beach that they got to taste the salt-spray air. Everything was grey, but they could see the wooden houses on stilts, brightly painted and shining in the cloudbank that submerged them. Smooth stones covered in moss, tangled netting and lobster traps. They continued on their way until they reached the ferry and joined the line of cars waiting to embark. The ferry was massive---as big as the *Titanic*, but they were only a dozen cars.
+She drove them along the foggy two-lane road, winding and filled with traffic even this early. Occasionally the forest of pines would break and they could see through to the sea, but it wasn't until they stopped at the beach that they got to taste the salt-spray air. Everything was grey, but they could see the wooden houses on stilts. Their bright paint shone in the cloudbank that submerged the world. Smooth stones covered in moss, tangled netting and lobster traps. They continued on their way until they reached the ferry and joined the line of cars waiting to embark. The ferry was massive---as big as the *Titanic*, but they were only a dozen cars.
 
 "How long is it, anyway?" he asked. He had neglected this piece of information.
 
 "I think it's like seven hours," she said.
 
-"Seven hours! We might as well set sail for the continent, then!"
+"Seven hours! We might as well set sail for Norway!"
