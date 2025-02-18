@@ -1,9 +1,9 @@
 /**
- * @license MIT
- * Hyphenopoly 6.0.0 - client side hyphenation for webbrowsers
+ * @license Hyphenopoly 6.0.0 - client side hyphenation for webbrowsers
  * ©2024  Mathias Nater, Güttingen (mathiasnater at gmail dot com)
  * https://github.com/mnater/Hyphenopoly
  *
+ * Released under the MIT license
  * http://mnater.github.io/Hyphenopoly/LICENSE
  */
 
@@ -41,15 +41,8 @@
             });
         }
         return {
-
-            /**
-             * Fires the event
-             * @param {string} eventName - id of the event
-             * @param {object} eventData - data that comes with the event
-             */
             "fire": ((eventName, eventData = {}) => {
                 eventData.runDefault = true;
-                // eslint-disable-next-line jsdoc/require-jsdoc
                 eventData.preventDefault = () => {
                     eventData.runDefault = false;
                 };
@@ -62,7 +55,7 @@
 
     /**
      * Register copy event on element
-     * @param {object} el The element
+     * @param {Object} el The element
      * @returns {undefined}
      */
     function registerOnCopy(el) {
@@ -83,13 +76,13 @@
     /**
      * Convert settings from H.setup-Object to Map
      * This is a IIFE to keep complexity low.
-     * @param {object} H Hyphenopoly shortcut
      */
     ((H) => {
         /**
          * Create a Map with a default Map behind the scenes. This mimics
          * kind of a prototype chain of an object, but without the object-
          * injection security risk.
+         *
          * @param {Map} defaultsMap - A Map with default values
          * @returns {Proxy} - A Proxy for the Map (dot-notation or get/set)
          */
@@ -98,8 +91,8 @@
 
             /**
              * The get-trap: get the value from userMap or else from defaults
-             * @param {string} key - The key to retrieve the value for
-             * @returns {*} - value
+             * @param {Sring} key - The key to retrieve the value for
+             * @returns {*}
              */
             function get(key) {
                 return (userMap.has(key))
@@ -109,14 +102,14 @@
 
             /**
              * The set-trap: set the value to userMap and don't touch defaults
-             * @param {string} key - The key for the value
+             * @param {Sring} key - The key for the value
              * @param {*} value - The value
+             * @returns {*}
              */
             function set(key, value) {
                 userMap.set(key, value);
             }
             return new Proxy(defaultsMap, {
-                // eslint-disable-next-line jsdoc/require-jsdoc
                 "get": (_target, prop) => {
                     if (prop === "set") {
                         return set;
@@ -126,7 +119,6 @@
                     }
                     return get(prop);
                 },
-                // eslint-disable-next-line jsdoc/require-jsdoc
                 "ownKeys": () => {
                     return [
                         ...new Set(
@@ -224,7 +216,7 @@
 
         /**
          * Factory for elements
-         * @returns {object} elements-object
+         * @returns {Object} elements-object
          */
         function makeElementCollection() {
             const list = new Map();
@@ -240,7 +232,7 @@
              * @param {object} el The element
              * @param {string} lang The language of the element
              * @param {string} sel The selector of the element
-             * @returns {object} An element-object
+             * @returns {Object} An element-object
              */
             function add(el, lang, sel) {
                 const elo = {
@@ -284,7 +276,7 @@
 
         /**
          * Get language of element by searching its parents or fallback
-         * @param {object} el The element
+         * @param {Object} el The element
          * @param {string} parentLang Lang of parent if available
          * @param {boolean} fallback Will falback to mainlanguage
          * @returns {string|null} The language or null
@@ -306,9 +298,9 @@
         /**
          * Collect elements that have a selector defined in C.selectors
          * and add them to elements.
-         * @param {object} parent The start point element
-         * @param {string} selector The selector matching the parent
-         * @returns {object} elements-object
+         * @param {Object} [parent = null] The start point element
+         * @param {string} [selector = null] The selector matching the parent
+         * @returns {Object} elements-object
          */
         function collectElements(parent = null, selector = null) {
             const elements = makeElementCollection();
@@ -327,7 +319,7 @@
             /**
              * Recursively walk all elements in el, lending lang and selName
              * add them to elements if necessary.
-             * @param {object} el The element to scan
+             * @param {Object} el The element to scan
              * @param {string} pLang The language of the parent element
              * @param {string} sel The selector of the parent element
              * @param {boolean} isChild If el is a child element
@@ -386,10 +378,10 @@
 
         /**
          * Factory for hyphenatorFunctions for a specific language and selector
-         * @param {object} lo Language-Object
+         * @param {Object} lo Language-Object
          * @param {string} lang The language
          * @param {string} sel The selector
-         * @returns {Function} The hyphenate function
+         * @returns {function} The hyphenate function
          */
         function createWordHyphenator(lo, lang, sel) {
             const poolKey = lang + "-" + sel;
@@ -489,7 +481,7 @@
         /**
          * Factory for function that handles orphans
          * @param {string} sel The selector
-         * @returns {Function} The function created
+         * @returns {function} The function created
          */
         function createOrphanController(sel) {
             if (orphanControllerPool.has(sel)) {
@@ -618,8 +610,7 @@
 
         /**
          * Creates a language-specific string hyphenator
-         * @param {string} lang - The language this hyphenator hyphenates
-         * @returns {Function} hyphenator for strings in the given language
+         * @param {String} lang - The language this hyphenator hyphenates
          */
         function createStringHyphenator(lang) {
             return ((entity, sel = ".hyphenate") => {
@@ -635,7 +626,6 @@
 
         /**
          * Creates a polyglot HTML hyphenator
-         * @returns {Function} hyphenator for DOM elements
          */
         function createDOMHyphenator() {
             return ((entity, sel = ".hyphenate") => {
@@ -648,10 +638,6 @@
             });
         }
 
-        /**
-         * Remove hyphenation
-         * @returns {Promise} List of unhyphenated elements
-         */
         H.unhyphenate = () => {
             H.res.els.list.forEach((els) => {
                 els.forEach((elo) => {
@@ -668,7 +654,8 @@
         /**
          * Hyphenate all elements with a given language
          * @param {string} lang The language
-         * @param {Array} elements Array of elements
+         * @param {Array} elArr Array of elements
+         * @returns {undefined}
          */
         function hyphenateLangElements(lang, elements) {
             const elArr = elements.list.get(lang);
@@ -695,7 +682,7 @@
         /**
          * Convert the exceptions from user input to Map
          * @param {string} lang - The language for which the Map is created
-         * @returns {Map} - Exceptions map for given language
+         * @return {Map}
          */
         function createExceptionMap(lang) {
             let exc = "";
@@ -720,10 +707,10 @@
         /**
          * Setup lo
          * @param {string} lang The language
-         * @param {Function} hyphenateFunction The hyphenateFunction
+         * @param {function} hyphenateFunction The hyphenateFunction
          * @param {string} alphabet List of used characters
-         * @param {number} patternLeftmin leftmin
-         * @param {number} patternRightmin rightmin
+         * @param {number} leftmin leftmin
+         * @param {number} rightmin rightmin
          * @returns {undefined}
          */
         function prepareLanguagesObj(
@@ -780,8 +767,8 @@
         /**
          * Setup env for hyphenateFunction
          * @param {ArrayBuffer} buf Memory buffer
-         * @param {Function} hyphenateFunc hyphenateFunction
-         * @returns {Function} hyphenateFunction with closured environment
+         * @param {function} hyphenateFunc hyphenateFunction
+         * @returns {function} hyphenateFunction with closured environment
          */
         function encloseHyphenateFunction(buf, hyphenateFunc) {
             const wordStore = new Uint16Array(buf, 0, 64);
@@ -804,7 +791,6 @@
 
         /**
          * Instantiate Wasm Engine
-         * @param {Promise} heProm Promised hyphenEngine
          * @param {string} lang The language
          * @returns {undefined}
          */
@@ -815,7 +801,6 @@
              * Register character substitutions in the .wasm-hyphenEngine
              * @param {number} alphalen - The length of the alphabet
              * @param {object} exp - Export-object of the hyphenEngine
-             * @returns {number} - The new length of the alphabet
              */
             function registerSubstitutions(alphalen, exp) {
                 if (C.substitute.has(lang)) {
@@ -875,7 +860,6 @@
             });
         }
 
-        // eslint-disable-next-line jsdoc/require-jsdoc
         H.main = () => {
             H.res.DOM.then(() => {
                 mainLanguage = getLang(w.document.documentElement, "", false);

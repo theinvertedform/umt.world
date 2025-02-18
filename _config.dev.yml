@@ -70,9 +70,9 @@ collections:
   essays:
     output: true
     permalink: ":title"
-  film:
-    output: false
-    permalink: "/reviews/:title"
+#  film:
+#    output: false
+#    permalink: "/reviews/:title"
   reviews:
     output: true
     permalink: "/reviews/:title"
@@ -114,7 +114,6 @@ exclude:
   - vendor/ruby/
   - README.md
   - TODO.md
-  - collections/_films/reviews.csv
   - bower.json
   - bower_components/
   - collections/_film/
