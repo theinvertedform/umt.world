@@ -93,4 +93,14 @@ A man in an orange safety vest brought them to their parking spot, clustered tog
 
 ***
 
-They moved through the cafeteria, looking at everything together.
+They moved through the cafeteria, a frozen vestige of the 80s. Everything was from a different era. All the restaurants save one was closed: the generic cafeteria operated by the ferry company, selling reheated portions of food unpacked from a Sysco box. Pastries wrapped tightly in plastic, bright green salads piled lightly on Styrofoam plates. There were enough chairs on this deck to seat hundreds more people than the scant dozen that stood in line for their frozen French fries. They observed what the cafeteria had to offer without even a modicum of interest, knowing that the larder he carried in the canvas tote under his arm contained everything they could want.
+
+They sat for a while in the seats arranged off to the side, across from a Chinese couple whose fleeces and hardshells looked brand new. She looked out over the water, land by now gone from sight, watching carefully to see if she could spot a whale. He continued to survey the dining deck and its occupants. The family they had seen before came into view, and joined the line at the cafeteria. The children, a boy and a girl, solemnly studied the menu.
+
+"What should we do?" he asked. "Do you want to play chess?"
+
+She turned her head towards him, a faraway look in her eyes, and didn't respond. He remembered that he had not seen her in two months, and had little idea about what she had been doing during that time.
+
+"Do you want me to tell you a story?" he asked. When she didn't respond again, he gave up and fell into his own silence.
+
+The couple across from them whispered into each other's ear while they sat, alternately looking at the dining deck, and out at the frigid Atlantic. They had left the fog behind with the land, and out at sea the sky was populated with thick cloudbanks; the wind kept them moving, sun piercing through as they raced across its surface.
