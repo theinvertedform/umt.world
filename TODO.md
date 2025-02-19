@@ -50,7 +50,7 @@ description: My vision for the website.
 - ~~Footer, giving a better visual break from the page~~
 
 # Typography
-- Justified text
+- ~~Justified text with automatic hyphenation~~
 	- No more than two annotations in a row
 	- 3 characters before hyphen
 	- No rivers
