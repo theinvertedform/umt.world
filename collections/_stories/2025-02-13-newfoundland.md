@@ -85,8 +85,12 @@ He looked at her; she looked back at him with a pleasant smile on her face.
 
 She drove them along the foggy two-lane road, winding and filled with traffic even this early. Occasionally the forest of pines would break and they could see through to the sea, but it wasn't until they stopped at the beach that they got to taste the salt-spray air. Everything was grey, but they could see the wooden houses on stilts. Their bright paint shone in the cloudbank that submerged the world. Smooth stones covered in moss, tangled netting and lobster traps. They continued on their way until they reached the ferry and joined the line of cars waiting to embark. The ferry was massive---as big as the *Titanic*, but they were only a dozen cars.
 
-"How long is it, anyway?" he asked. He had neglected this piece of information.
+A man in an orange safety vest brought them to their parking spot, clustered together with the other passengers in the half-empty loading bay. She grabbed her bag, just a stiff rubber tube rolled at the top and buckled down, backpack straps sewn to one side. She locked the doors, and they stood on the deck as the ferry's engines took them out to sea. The chain separating them from the water was fifty feet, marking half the width of their vessel. Across the way a family stood, children suited in matching tweeds and parents gravely behind them.
 
-"I think it's like seven hours," she said.
+"I think we're out here for seven hours," he said.
 
-"Seven hours! We might as well set sail for Norway!"
+"They give us that long?" she said, and brought her arms together for him to shield her against the cold wind.
+
+***
+
+They moved through the cafeteria, looking at everything together.
