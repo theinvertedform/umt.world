@@ -96,19 +96,6 @@ layout: home
 </ul>
 </section>
 
-<section id="film" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
-<ul class="section-link-list">
-{% for post in site.film reversed limit: 20 %}
-<li>
-<a href="{{ post.url }}" itemprop="url">
-<span itemprop="name">{{ post.name }}</span> ({{ post.year }})
-</a>
-</li>
-{% endfor %}
-</ul>
-</section>
-
 <section id="essays" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/index#essays" title="Essays are more concerned with a topic than a specific object.">Essays</a></h1>
 <ul class="section-link-list">
