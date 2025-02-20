@@ -103,4 +103,42 @@ She turned her head towards him, a faraway look in her eyes, and didn't respond.
 
 "Do you want me to tell you a story?" he asked. When she didn't respond again, he gave up and fell into his own silence.
 
-The couple across from them whispered into each other's ear while they sat, alternately looking at the dining deck, and out at the frigid Atlantic. They had left the fog behind with the land, and out at sea the sky was populated with thick cloudbanks; the wind kept them moving, sun piercing through as they raced across its surface.
+The couple across from them whispered into each other's ear while they sat, alternately looking at the dining deck, and out at the frigid Atlantic. They had left the fog behind with the land, and out at sea the sky was smeared with thick cloudbanks. The wind kept them moving; the sun pierced through as they raced across its surface. There was no land in sight, just grey chop.
+
+The couple across from them had fallen silent. Alisha's head slowly descended until it lay on Nigel's shoulder; then, she started rubbing her head against his arm, leaving her scent marks on him, nuzzling deeper into his chest.
+
+"I love you," she whispered, looking up at him. It took a moment, but a small smile eventually broke through the hard line of his mouth.
+
+"Let's go explore."
+
+***
+
+All they found was an empty hotel, so big they could almost forget they were floating out at sea, but for the slow undulating rock of the deck. As they moved through the empty ballroom, they opened the closets, looked in every nook and cranny to see what they could find. All they found were cleaning supplies, boxes of individually-portioned peanut butter and jam. He added a few to their larder.
+
+They passed along one soft-carpeted corridor, peering through portholes into estate cabins. They were all empty, identical; they entered into one. An entire luxury suite at their disposal.
+
+"Does the water work?" she asked. He turned the faucet in the miniaturized tub, and hot water sprayed in a steady stream from the showerhead.
+
+"They even left towels for us!" she said, bouncing through the doorway with two big, fluffy white numbers cradled in her arms. Their previous lapse into moodiness was entirely gone from her face. His movements were still weighed down, clung to by a wooden encumbrance. Was she now overcompensating, to bring him out of their momentary fall back into the world they had left behind?
+
+"Come on, babe, let's take a shower." He glanced through the door of the bathroom, through the steam that issued forth, across the bed where they had left their bags, towards the door that led back into the corridor.
+
+"We can't lock it." She was already undressing, discarding her clothes where they fell. Two small moles stood out along the ribs under her left breast.
+
+"Don't worry, babe, no-one's going to come." She peeled off her panties, jumped into the tub, and peeked around the curtain. "Come on, babe, it's warm in here," she said. It was when she peered at him half-hidden and used her small voice that he could not contain himself. He bared his teeth at her, growled, and pulled off his shirt.
+
+***
+
+It was early evening when they disembarked on the island.
+
+"We're in it now," he said. They were past the spring equinox: days were getting longer, but they had no more than an hour of light left.
+
+"Are you scared?"
+
+"We don't know where we're going, and we don't have much light left. We're low on food. It seems cold out here. We don't know the terrain. I'm worried we're in over our head."
+
+"It's okay. We're just going to drive a little bit, until we find somewhere nice and quiet to camp. Then maybe we can build a fire!" She ended with this exclamation, excited by the prospect, even if he knew it was too late and they wouldn't have the energy.
+
+They drove through the village they had disembarked in. Low, prefab metal houses with yards studded the uneven hills; the dirt roads surged up and down and around bends. They didn't know where they were going, but knew that this was the main road: signs for Highway Number One oriented them in the one direction that remained open to them.
+
+"Hey, look, there's a dep!" He pointed at a building that looked like the houses, except its front was faced with glass vitrines. They could see through Venetian blinds into a light-up interior. A neon "open" sign glowed over the door. She pulled the car up to the porch, its construction of wooden planks ostentatious in the settlement built up entirely out of metal and other imported materials. Inside, the shelves were sparsely stocked with junk food and canned goods. Each item stood alone and resembled nothing more than a museum display.
