@@ -1,8 +1,12 @@
 ---
-title: Fields of Mars
+title:
+  - Fields of Mars
+  - The Upper Mantle
+  - Marsstone
 author: Uriah Marc Todoroff
 published: false
 ---
+
 
 The white line dividing the two-lane road glowed in the light of their high-beams.
 
