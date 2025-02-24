@@ -7,56 +7,55 @@ author: Uriah Marc Todoroff
 published: false
 ---
 
-
 The white line dividing the two-lane road glowed in the light of their high-beams.
 
-"I don't want to go too much further," he said.
+"We shouldn't go much further," he said.
 
 "Why not?" Her eyes were focused on the road.
 
 "Well---it's late, and you've been drinking."
 
-"Nigel, I had one glass of beer three hours ago."
+"Nigel, I had one glass of beer, three hours ago."
 
 "But look, we don't have to go further anyway. Take the next right here."
 
-She turned the wheel, and they passed through the gates into an empty parking lot. They were on the grounds of a school, with an adjoining sporting complex bigger than the school itself.
+She turned the wheel and brought them through a low gate, into the empty parking lot of a public school. It was a low building with a huge lot that could host a game day's traffic to the adjoining sports complex.
 
 "Are you sure?"
 
-"Why not---it's Saturday tomorrow. We'll be gone early. Just pull over there, by those trees. It'll give us a bit of cover."
+"Tomorrow's Saturday, and we'll be gone early. Just pull over there, by those trees. It'll give us a bit of cover."
 
-She turned the wheel again, and they rode gingerly across the lawn, around the bleachers lining the soccer pitch to a copse of trees that marked the edge of the terrain.
+She turned the wheel again, and they rode gingerly across the lawn, around the bleachers lining the soccer pitch to to where the darkness of a forest at night marked the edge of the terrain.
 
-"Does it seem level here? It's important that we sleep on level ground, you know, otherwise the blood will pool and our hearts might rupture."
+"Does it seem level here? We have sleep on level ground, Alisha, otherwise the blood will pool and our hearts might rupture."
 
-"Our hearts! I think we'll be okay. We'll be gone early, after all," she said, and turned off the ignition.
+"No! But I think we'll be okay. We'll be gone early, after all," she said, and turned off the ignition.
 
-"What have we got to eat?" He opened the passenger door, stepped into the damp night, then re-entered the vehicle through the back doors. The two seats were folded down to create a flat surface that they had piled high with pillows and blankets. Their bags were stowed in the foot-well, pressed up against the front seats. She clambered over the backseat and met him there.
+"What have we got to eat?" He opened the passenger door, stepped into the damp night, then re-entered the vehicle through the back doors. The two seats were folded down to create a flat bed piled high with pillows and blankets. Under the foot-well they kept their bags, pressed up against the front seats. She clambered into the back and met him there.
 
-"Hey, keep that door closed! It's chilly out there."
+"Hey, keep that door closed! It's chilly."
 
-"Okay, okay, but no shoes in bed." He sat awkwardly, legs elevated, and kicked off his leather sneakers. She untied her canvas trainers and did the same. The light above the rear-view mirror turned off automatically, but the light from the school was bright enough to illuminate the interior of the car.
+"Okay, okay, but no shoes in bed." He sat awkwardly, legs elevated, and kicked off his leather sneakers. She unlaced her canvas trainers and did the same. The light above the rear-view mirror turned off automatically, but the light from the school was bright enough to illuminate the interior of the car.
 
-"Now---" she pulled up the canvas tote they kept their food in. "We don't have much. A cucumber, some cheese, some bread and hummus. I'll make us sandwiches!"
+"Now---" she pulled up the canvas tote they kept their food in. "We don't have much. A cucumber, some cheese, some bread and hummus. I'll make us sandwiches."
 
-He took out a kitchen knife for her to cut the cucumber, a spoon to spread the hummus, along with two white napkins edged with blue embroidery that they used as plates. She drew the knife through the dark green skin, the pale white flesh, stopping the blade against her thumb.
+He took out a kitchen knife for her to cut the cucumber, a spoon to spread the hummus, along with two white napkins edged with blue embroidery that they used as plates. The knife cut through the dark green skin, the pale white flesh; she stopped the blade against her thumb.
 
-"Here you are, m'lord," she said, handing him his sandwich.
+"Here you are, sir," she said, handing him his portion.
 
-"*Merci*, m'lady." A slice of cucumber fell onto his napkin as he bit into the bread. The fatty texture of cheese and hummus sparked with the watery acid of the cucumber. He had never tasted anything like it.
+"*Merci*, lady." A slice of cucumber fell onto his napkin as he bit into the bread. The fatty texture of the hummus combined with the cheese into an opulent texture, sparked with the watery acid of the cucumber. Both remarked that they had never tasted something so delicious.
 
 ***
 
-The morning sun glowed white through a fog too thick to pierce. Nigel lifted his head from their pile of blankets. A groundskeeper drove by in his cart, ignoring or not seeing the beige SUV parked under the trees, its windows covered in steam. It was just before seven.
+The morning sun glowed somewhere behind a fog it was unable to pierce. Nigel lifted his head from their pile of blankets. A groundskeeper drove by in his cart, ignoring or not seeing the beige SUV parked under the trees wit the steamed-out windows. The analogue clock on the dash read just before seven.
 
-"Alisha, I think it's time to get up," Nigel mumbled, wiping his eyes.
+"I think it's time to get up," Nigel mumbled, pulling himself from the warmth they had breathed under the cocoon of blankets.
 
 She stretched, yawned, sat up and rolled her shoulders, joints popping.
 
 "I had such a dream," she said, blankets pooled around her waist. Her hair was tousled, face lined with sleep. "I was back in Ukraine. Back on the farm on the side of the hill. You were there, and we had a baby. His legs didn't work. We didn't have a wheelchair for him, but he didn't need one. He would drag himself around. He helped me with the goats. He would reach up and touch the bottom of their little beards, and they would just go on chewing." He sat beside her, hand on her shoulder as she spoke. She looked up at him through long lashes. "Can we get a goat?"
 
-They put on their shoes and stood by the flanks of the SUV. Her hair was held down under the mock neck of her yak wool sweater. The hood of his black pullover sweatshirt was up, similarly to keep his hair in place, but pushed back to frame his face. Their bodies were sore from the makeshift bed, from long hours spent sitting; they saluted the sun, hands in the wet grass, and their young bodies were restored.
+They put on their shoes and stood by the flanks of the SUV. Her hair was held down under the mock neck of her yak-wool sweater. The hood of his black pullover sweatshirt was up, similarly pinning his hair in place, pushed back to frame his face. Their bodies were sore from the makeshift bed, from long hours spent sitting; they saluted the sun, hands in the wet grass, and their young bodies were restored.
 
 Nigel took out a small green canvas satchel from the footwell, wherein he kept a frayed washcloth and a small bottle of Castille soap. Alisha, brushing her teeth, watched him as he wet a small washcloth with a splash of water from their bottle, applied the soap and scrubbed his face.
 
