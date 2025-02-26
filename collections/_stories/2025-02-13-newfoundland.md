@@ -215,6 +215,24 @@ Ray looked up from his papers, came over to help. "A plug?" He yanked on a thin 
 
 Nigel closed the last comment, scrolled to the top of the document, and added another set of the initials "NC" to the string at the end of the filename. He sent it with a single line in the body of the email and was done.
 
-"Should we just call it for the day?" he asked her. "Now that I have a charge, we could watch a movie if we wanted."
+"Should we just call it for the day?" he asked her. "Now that I have a charge, we could watch a movie."
 
 "Yeah!" she said, eyes glowing.
+
+Before they left, Ray insisted that they smoke some of the weed that he was growing in his closet.
+
+"If you're looking for somewhere to camp, just go down there." He pointed past his house, to where a path led down towards the river. Nigel took a huge toke from the massive joint. "No-one ever goes down there. You'll be alone all night."
+
+They drove down the hill and she stopped in the car in the middle of the riverbed there. The sky was enormous overhead, settling into pink and peach streaks over the river. They could see the island Ray had grown up on. Nigel still could not believe it was big enough to consider inhabited: it looked like little more than a strip of dirt in the fat water. It was moving more quickly than it appeared.
+
+They made sandwiches again, but instead of bread used Ryvita. He handed her a napkin to eat over.
+
+"We're gonna get crums in bed," he said.
+
+"Oh no, crumbies!"
+
+He put on *Casablanca*. All the films he had stored on his laptop were old; this one seemed most appropriate, and although slightly cliché, she had never seen it and didn't know. Afterwards they screwed vigorously, pushing outwards against the inside of the SUV. Pushing against the ceiling, against the walls, against the cushions they had used to form a bed.
+
+***
+
+
