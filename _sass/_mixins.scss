@@ -27,7 +27,7 @@
         border-bottom: $border-bottom-width $border-bottom-style $border-bottom-color;
         border-left: $border-left-width $border-left-style $border-left-color;
     }
-} // <--- Closing brace for the link-style mixin.  This was missing.
+}
 
 @mixin link-hover-style($hover-color: $hover-colour) {
     &:hover {
@@ -46,7 +46,7 @@
     $height-key: 'body',
     $font-style: normal,
     $text-transform: none,
-    $font-variant-caps: normal
+    $font-variant-caps: normal,
 ) {
     font-family: $font-family;
     font-weight: $font-weight;
