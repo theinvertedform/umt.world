@@ -1,5 +1,6 @@
 ---
 title:
+  - Gros Morne
   - Fields of Mars
   - The Upper Mantle
   - Marsstone
@@ -145,53 +146,49 @@ When he turned the faucet, hot water sprayed in a steady stream from the showerh
 
 "We don't have much light left, and we don't know where we're going."
 
-"We can build a fire." She was excited by the prospect.
+"We can build a fire." She said it like a child, delighted by some prospect.
 
-They drove through the village they had disembarked in. Prefab houses studded the uneven hills; the dirt roads eventually brought them to the highway heading north. On their second night, they parked the SUV on a hollow beach and made a fire.
+The village where they had disembarked was a motley assortment of prefab houses that studded the uneven hills, criss-crossed with dirt roads that eventually brought them to the highway heading north. On their second night, they parked in the hollow of a beach and made a fire.
 
-The road would sweep in undulating curves around the perimeter of cliffs; looking west they saw nothing in the direction of the mainland. Now they were four days on the road. Their bag of coffee was holding out. They marvelled at the price of the wilted vegetables that had come in on double-linked shipping containers. They opted for bread and fats.
+The road would sweep in undulating curves around the perimeter of cliffs; looking west they saw nothing in the direction of the mainland. Now they were four days on the road. They marvelled at the price of the wilted vegetables that had come in on double-linked shipping containers. They opted for bread and fats.
 
-Nigel opened his backpack, checked the laptop there. The battery was low. "I've got to get it done today. Just two or three hours."
+Nigel opened his backpack, checked his laptop. The battery was low. "I've got to get it done today. Just two or three hours."
 
-"We'll find you a spot." She put her hand on his tense chest. "I'll make sure of it."
+"Don't worry, babe. I'll find you a spot." She put her hand on his chest. "I promise."
 
-They crawled through the next settlement. A dozen thin buildings were connected by regular roads; a few benches on a hill, built using state-approved form and materials. On the edge of town, a low, white building, its windows boarded up with whitewashed planks. The strip of gravel in front was empty. A red sign glowed *open* above the white-handled door. The river spread fat down the hill out back.
-
-"What could this be?" Nigel asked.
+They crawled through the next settlement. A dozen thin buildings were connected by regular roads; a few benches on a hill, built with state-approved materials and state-approved design. On the edge of town was spread a low, white building, its windows boarded up with whitewashed plywood. The strip of gravel in front was empty. A red sign glowed *open* above the white-handled door. The river spread fat down the hill out back.
 
 "Let's try it!" she said.
 
 ***
 
-Inside was dark. When they opened the door, Nigel's contracted pupils only caught the outlines of a few cheap tables waiting in the shadows for someone to come. Their dilating perception was pulled to the only light in the room.
+Inside was dark. When they opened the door, Nigel's contracted pupils caught a brief outline of scattered chairs waiting for someone to sit in them. Their dilating perception was pulled to the only light in the room.
 
-"Who's there? I mean---hello," a man said. He stood up from the pile of papers strewn around the surface of the bar where he sat.
+"Who's there? I mean---hello," a man said. He stood up from the corner of the bar nearest the door, where papers were strewn everywhere.
 
 "Are you open?" Alisha asked, stepping forward.
 
-"Open! Of course I'm open!" The man was affronted. Nigel recognized the rasp that came with unused vocal cords.
+"Open! Of course I'm open!" The man was affronted. Nigel recognized the rasp an atrophied larynx.
 
 "My name's Ray and if the sign's on, I'm open. Don't get too many visitors around here. What's your name? What can I get for you?"
 
 "I'm Alisha, and this is Nigel. He needs to use the internet and do some computer work. It'll only take a few hours. Do you have wireless internet here?"
 
-"Do I?" He paused from his efforts to order the documents and tools and pieces of scrap that had spread over most of the bar. He stared at her. "Do I have---? Why, of course I do!"
+"Do I?" He paused in his efforts to sweep together the documents and tools and pieces of scrap that had spread across the bar. He stared at her. "Do I have---? Why, of course I do!"
 
-Behind the plywood bar Ray had hung a shelf that held a dozen glasses, a mini-fridge, a bottle of Jameson. He disappeared through a door behind the bar and returned immediately with another stack of papers. Ray was heavier than Nigel, taller than them both. His hair was gathered in a greasy ponytail; he moved with vigour, unrestrained by the paunch that had slipped into the second half of his life. There was nothing to it.
+Behind the plywood bar hung a shelf that held half a dozen glasses and a mickey of Jameson; underneath it was a mini-fridge. He disappeared through a door behind the bar and returned immediately with still more papers. Ray was heavier than Nigel, powerfully built and tall. His grey hair was gathered in a ponytail; he moved with vigour, unrestrained by the paunch that had slipped into the second half of his life. There was nothing to it.
 
-Nigel took his seat at the other end of the bar, took out his ThinkPad and charger.
+Nigel took his seat at the far end of the bar, took out his ThinkPad and the charging cable.
 
 "Can I plug this in somewhere?"
 
-"What's that?" Ray barely looked up from his papers. Nigel bent over the bar, trying to see if there was a plug he could reach.
+"What's that?" Ray looked up, then came over to help. "A plug?" He yanked on a thin white extension cord until it stretched into range of Nigel's taught cable.
 
-Ray came over to help. "A plug?" He yanked on a thin white extension cord until it stretched into range of Nigel's taught cable.
-
-"Now what can I get you? Are you just out on a drive?" Ray looked from Nigel to Alisha. His worry for them let Nigel see that the man would not be a threat, but as the man spoke he gained a new suspicion. "Not a drive, I mean a---whaddyacallem, road trip?"
+"Now what can I get you? Are you just out on a drive?" Ray looked from Nigel to Alisha. His concern for their comfort let Nigel see that the man would not be a threat; but as he spoke, he gained a new suspicion: Ray would not allow him to get his work done. "Not a drive, I mean a---whaddyacallem, road trip?"
 
 "I just need to make sure that I can get online."
 
-"Oh, yes!" Ray resumed rustling, until he pulled out a small paper calendar with pictures of cats and dogs for each month. In the month of September a few years back, Ray had written a string of characters and digits that Nigel entered into the terminal of his laptop.
+"Oh, yes!" Ray produced a small paper calendar, pictures of cats and dogs for each month. In the month of September a few years back, Ray had written a string of characters and digits that Nigel entered into the black terminal of his laptop.
 
 "Okay," he said, glancing at Alisha, who leaned on his shoulder and watched his screen with fascination. He showed her a document with comments in the margins. "I just need to go through the editor's comments and deal with them, then send it back."
 
@@ -203,57 +200,71 @@ Ray came over to help. "A plug?" He yanked on a thin white extension cord until 
 
 "But for values instead of people."
 
-"Now what can I get you?" Ray asked. He seemed worried about them.
+"Now what can I get you?" Ray asked.
 
-"We'll take two beers, Ray." Alisha said. After Ray took two bottles of ale from the minifridge, she detached herself from Nigel and went down to the other end of the bar to engage the proprietor, who was not about to leave them in peace.
+"We'll take two beers, Ray." Alisha said. After Ray took two bottles of ale from the minifridge, she detached herself from Nigel and went down to the other end of the bar.
 
-"Where are you headed?"
+"Where are you headed?" He tried to address both of them, while Alisha fought to focus his attention.
 
-Nigel glanced regretfully down the bar, where she sat and Ray stood behind the passage, then look back at his screen. She crossed one knee over the other, arched her ankle and touched her hair. He took a pull from the bottle. Ray continued to address both of them; Nigel could only do his best to ignore, while Alisha tried to contain him.
+Nigel looked down the bar, lingering on her. She sat perched on her stool, back arched. Ray stood near her behind the bar. Nigel looked back at his screen. She crossed one knee over the other, pointed her foot coquettishly and touched her hair. Nigel took a pull from the bottle.
 
-"The northern ferry?" Ray was surprised. "What are you doing up there? There's nothing up there. It's dangerous up there, you know. What kind of truck you got?"
+"The north ferry?" Ray was surprised. "It's dangerous up there. Make sure you have extra batteries for your radio. How many spare tires do you have? What---no radio? A donut? Not even a proper spare?"
 
-*The integral nature of faith as a concluding statement represents a significant development in Kierkegaard's conceptual canon compared to that of Nietzsche. For the anti-Christian philosopher, questions of faith are subsumed within the concept of the over-man.
+*The integral nature of _faith_ as a concluding statement represents a significant development in Kierkegaard's conceptual canon compared to that of Nietzsche. For the anti-Christian philosopher, several of the issues that the concept of faith responds to are instead accounted for by other concepts, most significantly that of the _over-man_.*
 
-"I was born out on that island," Ray insisted. Sliding glass doors opened onto a plywood deck, where steps had been cut into the steep declension that led down to the forested riverbank. The water swept up pink and peach gold against the frame of the sliding doors. The thin black line of the far shore cut the river from the sky. A narrow brown smudge sat in the middle-distance.
+"I was born out on that island," Ray said. Sliding glass doors opened onto a patch of flat grass; Nigel could see the first in a series of steps cut into the steep declension that led down to the forested riverbank. The water swept up pink and peach gold, framed by the sliding doors. The thin black line of the far shore cut the river from the sky. A narrow brown smudge sat in the middle-distance.
 
 "There were houses out there?" Nigel asked, incredulous.
 
-"Houses? Yes, about...five houses! The one I was born in is still standing. Last one. No-one lives there. Ruined. They're all dead."
+"Houses? Yes, about...five houses! The one I was born in is still standing. Last one. No-one lives there. Ruined. They're all dead. Just me and ma left."
 
 Nigel closed the last comment and added another set of his initials "NC" to the sequence at the end of the filename. He sent it to his editor with a single line in the body of the email.
 
-"Should we just call it for the day?" he asked her. "Now that I have a charge, we could watch a movie."
+"It's getting late," he commented. "Now that I have a charge, we could watch a movie."
 
-"Yeah!" she said, eyes glowing.
+"Okay!" she said, eyes glowing.
 
-"If you're looking for somewhere to camp, just go over there." He pointed past his house, to where a path led down towards the river. Nigel took a huge toke from the massive joint. "No-one ever goes down there. There's a big plateau You'll be alone all night."
+"Go down there," Ray said. He pointed past his house, to where the road led down towards the river. Nigel took a toke from the joint Ray had lit. "There's a big plateau. No-one goes down there. I grew this myself."
 
-They drove down the hill and she stopped in the car in the middle of the riverbed there. The sky was enormous overhead, settling into pink and peach streaks over the river. They could see the island Ray had grown up on. Nigel still could not believe it was big enough to consider inhabited: it looked like little more than a strip of dirt in the fat water. It was moving more quickly than it appeared.
+They drove down the hill and she stopped the car in the middle of a grass field. The sky was enormous overhead. They could see the island Ray had grown up on more clearly.
 
-They made sandwiches again, but instead of bread used Ryvita. He handed her a napkin to eat over.
+They ate Ryvita and yellow cheese, pushing the cushions into a headboard they could sit up against. He put on *Casablanca* and handed her a napkin.
 
-"We're gonna get crums in bed," he said.
+"We're gonna get crumbs in bed," he said.
 
-"No!" They laughed. "Crumbs!"
+"No!"
 
-He put on *Casablanca*. All the films he had stored on his laptop were old; this one seemed most appropriate, and although slightly cliché, she had never seen it and didn't know. Afterwards they screwed vigorously, pushing outwards against the inside of the SUV. Pushing against the ceiling, against the walls, against the cushions they had used to form a bed.
+When she wanted to touch him, he realized that the weed had made him shy and self-conscious. He explored the outline of her hipbones without speaking, and entered her slowly from behind. They lay on their sides, laptop discarded. His shyness left him. The sun would not set: all around them, long grasses blew in an invisible wind. They pushed outwards against the inside of the SUV, against the roof, against the windows; pushed down into the cushions of their bed.
 
 ***
 
-They were in one of the most ancient and unique places in the world. Two tectonic plates collided over millions of years, the mantle of one of the land masses came out on top. The surface of the mantle was visible here, rolling fields and buttes of rock so rich in iron life was unable to propagate, except violet-green plants that looked like a species from the ocean floor, which emerged out of the crevice of broken, pale orange stone.
+Tectonic plates collide slowly over millions of years. By the end of this unstable eon, the mantle of one of those land masses comes out on top. This process of obduction leaves rolling highland fields and ancient mountain ranges of desolate pale-orange rock, whose texture and quality is unseen anywhere else on the surface of the earth. The exposed mantle is so rich in iron that life cannot propagate here, excepting certain purple-green plants with long roots that look like a species from the ocean floor. They emerge from the crevice of broken stones, as though they themselves had split them; when Nigel bent to examine one more closely, he could see them swarming with insect life.
 
-Alisha allowed Nigel to drive. "The left pedal is for the gas, the right pedal is for the brake. This is your signal: use it. That's the cruise control. Don't go over 90." The stretches of highway were so long, the curves gentle and the traffic so sparse that he became confident behind the wheel, and she would let him spend an hour or more driving.
+***
 
-She consulted the map. "We're coming up on the turn into the terminal. Slow down." They were on a straight stretch, no cars in either direction. An exit cut through the grass meridian separating the four lanes, where a road led off to the terminal. He pressed the brakes.
+"The left pedal is for the gas, the right pedal is for the brake. This is your turning signal: use it every time you change lanes. That's the cruise control. Don't go over 90." The stretches of highway were so long, the curves gentle and the traffic so sparse that he became confident behind the wheel, and she would let him spend an hour or more driving while she consulted the map.
 
-"Slow down, Nigel." They were up to the exit; he needed to turn the wheel. "Slow down!" The beige SUV skidded around the corner. He waited a moment, then pumped the brakes. They came to a stop halfway in the ditch.
+"We're coming up on the exit for the terminal. Slow down." They were on a straight stretch, no cars in either direction. The exit was through the grass meridian separating the highway in two directions. He pressed the brakes.
+
+"Slow down, Nigel." They were up to the exit; he needed to turn the wheel. "Slow down!" The beige SUV skidded around the corner. He waited for it to level out, then pumped the brakes. They came to a stop halfway in the ditch.
 
 "You almost killed us!"
 
 "What do you mean? We're fine."
 
-"If we had been in a smaller car, we would have flipped. Thank god this thing's so heavy."
+"If this was a normal car, we would have flipped! Didn't you hear me say slow down?"
+
+"I did slow down." He felt perfectly calm: she was the one over-reacting.
+
+"Get out of the car! No more driving for you." He closed the door quietly while she slammed hers. The beige SUV was tilted halfway into the ditch. She was panting, and he was astonished to see tears standing out on her face.
+
+"You almost killed us!"
+
+"It was an accident."
+
+"An accident? How could you be so careless? It wasn't my fault either, Nigel. I didn't want it to happen. It just did."
+
+"What are you talking about?"
 
 ***
 
