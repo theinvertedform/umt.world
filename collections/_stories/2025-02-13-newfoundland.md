@@ -3,7 +3,6 @@ title:
   - Gros Morne
   - Fields of Mars
   - The Upper Mantle
-  - Marsstone
 author: Uriah Marc Todoroff
 published: false
 ---
@@ -262,67 +261,59 @@ Tectonic plates collide slowly over millions of years. By the end of this unstab
 
 "It was an accident."
 
-"An accident? How could you be so careless? It wasn't my fault either, Nigel. I didn't want it to happen. It just did."
+"I told you to slow down, and you didn't listen. I tried to tell you. I tried to stop it from happening. It just happened."
 
-"What are you talking about?"
+"I was in control."
 
-***
-
-The northern ferry was only three hours, and was half as big as the southern. There was no cafeteria, no cabin they could sneak into. They watched icebergs float by from the observation deck. The sun shone weak from a clear sky. Nigel had never seen this colour before.
-
-They disembarked at the most far northern point of the mainland. Nothing but gravel roads from here on it.
-
-"Now we're in it," Alisha said.
-
-Highway 1 continued. It took them only a minute to reach the edge of the trailers scattered in community around the disembarkement zone. There were hours of light left, although Nigel couldn't be sure because of how far north they were.
-
-They found the Red Robin gas station on the edge of town. It was also the grocery store. On the large sign, just under the painted price of gas, the sign read "Next gas 500KM." The station was closed.
-
-"Should we continue?" Nigel asked from the passenger seat.
-
-"We've got a bit over half a tank. We could probably make it, but it's not worth it."
-
-"Slow and steady."
+"You weren't in control. We're in the ditch now." She looked past the tin-roofed terminal, out over the bay.
 
 ***
 
-They found a hill to set up camp on. It looked out over a wild, unsymmetrical forest. Night came on quick and complete. They sat on basted cushions laid out in the dark grass.
+Returning to the mainland did not take a full two hours. The *Qajaq W.* had no cabins they could see. They watched icebergs float by from the observation deck. The sun shone from a new sky that none of us have ever seen before.
+
+They disembarked at the most far northern point of the mainland. Up above them the top of the forest silhouette, up above it unearthly colours.
+
+"We're in it now," Alisha said.
+
+Highway 1 continued. It took them only a minute to reach the edge of the trailers scattered near the disembarkement zone. There were hours of light left, although Nigel couldn't be sure because of how far north they were.
+
+They found the Red Robin gas station on the edge of town. On the large sign, just under the painted price of gas, read the letters "next stop 500KM." The station was closed.
+
+"Over half a tank---can we make it?" Nigel asked from the passenger seat.
+
+"We could make it, but is it worth it?" She was uncertain.
+
+"Slow and steady." He put his hand on her shoulder. "That's how we're going to do it." She looked at him; her brows uncreased, and the line of her mouth bent into a bow.
+
+***
+
+They found a hill to set up camp on. It looked out over a wild, unsymmetrical forest. Night came on quick and cold. They sat on basted cushions in dark grass with one of their quilts wrapped around the edge of their two shoulders.
 
 "Are we going to see the northern lights?" she asked.
 
 "I hope so."
 
-After filling the SUV's tank with gasoline, she sat behind the wheel again. "I want to know what the road's like before I let you drive again," she said. The road was unpaved gravel, straight, surrounded by forest. "Okay, you can drive. Here, put it on cruise control and keep it at 60, no more. These stones could destroy the tires. We have a donut, but it's fragile. It might not last long enough to get us anywhere."
+She started driving to get the lay of the land, which became immediately apparent: it was just a straight gravel road that continued on through the uncultivated forest around them. The sight of its ungodliness threatened to overwhelm him.
 
-He kept them on cruise control. Somewhere in the middle of nowhere, they pulled over to have sex. A truck that had disembarked with them from the ferry stopped, peered in the window to make sure everything was okay. Nigel gave them a thumbsup and a smile from the backseat; his other hand was deep inside Alisha.
+She let him drive again. "Put it on cruise control and keep it at 60. We could definitely get a flat. The donut won't get us far."
 
-***
-
-They kept driving and driving. Around one bend, they startled a group of animals: a hawk flew off; a fox ran into the forest while a rabbit ran in the other direction; a caribou stood and glared at them, unafraid. Alisha played with the radio, moving from one static band to another. A faint voice emerged: *highway one---washed out---*
-
-"Uh-oh," Nigel said. They kept driving until they came to an off-road that led into a trailer park. Orange road safety signs indicated that the road ahead was closed. They had no choice but to steer their way to the convenience store that served as the community's only grocery store.
-
-"Any idea what's happening up ahead?" Nigel asked the teenage boy behind the counter.
-
-"Beaver made a dam, washed out the road," he said, looking up at them in open-mouthed amazement. Nigel and Alisha were both clad all in black. "Should be clear soon, but I'm not sure."
-
-They loitered for a few minutes, looking at the energy drinks and bags of chips that lined the fully-stocked shelves. A couple kids rode up on dirtbikes, stared at them, bought sodas and left.
-
-"What do we do?"
-
-"We should just continue on," Alisha said. "If it's not cleared yet, we'll find out soon enough. I'll drive."
-
-Further down the road, they passed the road crew, who leaned by their equipment in neon safety gear and watched them roll slowly by.
+They were in an endless aisle of aspens, long trunks with wild bush on top. The sun filtered through at a low angle that it held for hours on end. They were on the side of the road. The black pickup from the ferry stopped to see if they were okay. There was no-one else out here, after all. Nigel gave them a thumbs-up and a wave from the backseat. She trembled at the depth of him.
 
 ***
 
-The roads worsened the further south they got. They were high up in the mountains now. The only traffic they passed were construction vehicles, huge tractors or trucks or other SUVs, dirty from moving from one construction site to another. The dirt road went up and down and wound around bends. Nigel felt out of his element behind the wheel, with an unprotected drop on one side and roaring cement trucks constantly passing on the other side of the narrow road. He gripped the wheel tight but didn't wake Alisha. He came around one bend, and had to turn the wheel quickly to give a tractor pulling a load of timber logs enough space to pass without crushing them.
+"What's that!" They had come up on the crest of a clearing in the forest. Nigel pumped the brakes, but they had already made their interruption. A hawk flew off; a fox ran into the forest; a rabbit ran in the other direction. The caribou came up to them, huffing indignant and stern. He trotted next to the SUV while the two sat frozen inside. Nigel kept them inching forward, his foot light to the pedal. They held their breath. It cantered around to examine Alisha more closely with its brown eye. Nigel saw that the spirit might huff, but he did not blame them; he was only now checking them out, and would allow them to continue on their way so that he could return to the forest.
 
-Alisha woke up as they were cresting a mountain.
+***
 
-"What's that?" she asked. There was a humongous series of concrete arches embedded in the side of the mountain, at the base of a river.
+The roads worsened the further south they got. They were high up in the mountains now. The only traffic they passed were construction vehicles, huge tractors or trucks or other SUVs, dirty from moving from one construction site to another. The dirt road went up and down and wound around bends. Nigel felt out of his element behind the wheel, with an unprotected drop on one side and roaring cement trucks constantly passing on the other. He gripped the wheel tight but didn't wake Alisha. He came around one bend, and had to turn the wheel quickly to give a tractor pulling a load of timber logs enough space to pass without crushing them.
 
-"That's our sign," he said. "That's a sign that it's going to be okay. That's our sign to keep on fighting."
+Alisha woke up as they were cresting a mountain. She lay back in her seat for a moment, blinking, before she raised herself to look out at the valley spread with forest out the window to her right. Dark green and pale yellow.
+
+"Wait---what *is* that?" she asked.
+
+"I have no idea. I've been watching it get closer for hours now. It's absolutely massive.
+
+"It's our sign," he said. "They put it there for us."
 
 ***
 
