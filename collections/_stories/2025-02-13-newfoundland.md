@@ -105,19 +105,17 @@ They were buoyed by a south wind that blowing cold fresh life across the deck. A
 
 ***
 
-The cafeteria sold bread wrapped in plastic. A teenager tipped French fries frozen from a plastic bag into the deep fryer while an unfazed woman took orders. Along the perimeter of the common deck winged banks of seats ready for so many more than the scant dozens buzzing with society.
+Along the perimeter of the common deck winged banks of empty blue vinyl seats. Alisha looked out the porthole over the sea to the east. A crepuscular ray dappled her eye, a moment of illumination that Nigel saw pass over her in a flash before it came upon him. "I'm looking to see if I can spot a whale." She was a sparkling outline in his overwhelmed vision.
 
-They found seats across from a couple lounging in fleeces and hardshells, chattering in another language. Alisha looked out the porthole over the sea to the east. A crepuscular ray dappled her eye, a moment of illumination that Nigel saw pass over her in a flash before it came upon him. "I'm looking to see if I can spot a whale," she said, a sparkling outline in his overwhelmed vision.
+"I thought about you every minute I was gone."
 
-"Not an hour passed where I didn't think about you. Did you think about me?" she asked.
+"Nothing moved while you were gone. I was holding my breath."
 
-"Always. The city was completely still while you were gone. Nothing moved. I was holding my breath."
-
-"I wouldn't blame you if you had moved on, Nigel." Her gaze broke.
+"Maybe you should have moved on." Her eyes broke.
 
 "It was just two months. Why wouldn't I wait?"
 
-Alisha laid her head on Nigel's shoulder; she rubbed her head against him, leaving scent marks where she burrowed into his armpit. He had no choice but to stretch his arms over her.
+Alisha laid her head on Nigel's shoulder; she rubbed against him, leaving scent marks where she burrowed into his armpit. He had no choice but to put his arm around her.
 
 "I never stopped thinking about you," she said, looking up at him.
 
@@ -131,47 +129,49 @@ When he turned the faucet, hot water sprayed in a steady stream from the showerh
 
 "They even left towels for us!" she said, bouncing through the doorway with two of them cradled in her arms, big and white and fluffy.
 
-"Come on, babe, let's take a shower." He glanced through the door of the bathroom, through the steam that issued forth, across the bed where they had left their bags, towards the door that led back into the corridor.
+"Come on, babe, let's take a shower." He glanced through the door of the bathroom, through the steam that issued forth, across the bed where they had left their bags, towards the hatch that connected the corridor.
 
-"We can lock it." She was already undressing, discarding her clothes where they fell. Two had two small moles under her right breast.
+"Lock the door." She was already undressing, discarding her clothes where they fell.
 
-"Don't worry, no-one's going to come." She peeled off her clothes, jumped into the tub, and peeked around the edge of the shower's plastic shell. "It's warm in here," she said. It was when she peered at him half-hidden that he couldn't help himself. He bared his teeth at her, growled, and pulled off his shirt.
+"Don't worry, no-one's going to come." She whipped off her clothes, jumped into the tub, peeked around the edge of the shower's plastic shell. "It's warm in here," she said. When she peered at him half-hidden, he couldn't help himself. He bared his teeth, growled with a savage grin, and tore himself naked.
 
 ***
 
-"We're in it now," he said when they disembarked. They were past the spring equinox: days were getting longer, but the day was already drawing into evening. They were in unfamiliar terrain and didn't know where they were going.
+"We're in it now," he said when they disembarked. Days were getting longer, but this one was already drawing into evening. They were in unfamiliar terrain without a plan of where to go.
 
 "Are you scared?"
 
-"We don't have much light left, and we don't know where we're going."
+"There's not much light left. We don't know where we're going."
 
-"We can build a fire." She said it like a child, delighted by some prospect.
+"Let's build a fire!" She was the one who brought forth the possibility. If they could find their mantle here, they could find it anywhere.
 
 The village where they had disembarked was a motley assortment of prefab houses that studded the uneven hills, criss-crossed with dirt roads that eventually brought them to the highway heading north. On their second night, they parked in the hollow of a beach and made a fire.
 
-The road would sweep in undulating curves around the perimeter of cliffs; looking west they saw nothing in the direction of the mainland. Now they were four days on the road. They marvelled at the price of the wilted vegetables that had come in on double-linked shipping containers. They opted for bread and fats.
+The road would sweep in undulating curves around the perimeter of cliffs; looking west they saw nothing in the direction of the mainland. Now they were four days on the road. They marvelled at the price of the wilted vegetables that came from double-linked shipping containers. They opted for bread and fats.
 
-Nigel opened his backpack, checked his laptop. The battery was low. "I've got to get it done today. Just two or three hours."
+***
 
-"Don't worry, babe. I'll find you a spot." She put her hand on his chest. "I promise."
+Nigel opened his backpack, checked his laptop. The battery was low. "I'm down to the wire. I just need a few hours."
 
-They crawled through the next settlement. A dozen thin buildings were connected by regular roads; a few benches on a hill, built with state-approved materials and state-approved design. On the edge of town was spread a low, white building, its windows boarded up with whitewashed plywood. The strip of gravel in front was empty. A red sign glowed *open* above the white-handled door. The river spread fat down the hill out back.
+"Don't worry, babe. I'll find you a spot." She put her hand in his to reassure them of their connection. "I promise."
+
+The sun already hung mid-afternoon when they found themselves trawling a dozen thin buildings joined by unpainted roads, searching around in vain for somewhere they could post up. Down the road three hours the next town wouldn't be different, and it would be dark. On their way they found a low, white building, its windows boarded up with whitewashed plywood. A red sign glowed *open* above the white-handled door. The river spread fat down the hill out back.
 
 "Let's try it!" she said.
 
 ***
 
-Inside was dark. When they opened the door, Nigel's contracted pupils caught a brief outline of scattered chairs waiting for someone to sit in them. Their dilating perception was pulled to the only light in the room.
+Nigel's contracted pupils caught a brief outline of scattered chairs waiting for someone to sit in them. Their dilating perception was pulled to the only light in the room.
 
 "Who's there? I mean---hello," a man said. He stood up from the corner of the bar nearest the door, where papers were strewn everywhere.
 
 "Are you open?" Alisha asked, stepping forward.
 
-"Open! Of course I'm open!" The man was affronted. Nigel recognized the rasp an atrophied larynx.
+"Open! Of course I'm open!" Despite his affront, Nigel could recognize the rasp a voice unused to talking.
 
-"My name's Ray and if the sign's on, I'm open. Don't get too many visitors around here. What's your name? What can I get for you?"
+"My name's Ray. If the sign's on, I'm open. Don't get too many visitors around here. What's your name? What can I get for you?"
 
-"I'm Alisha, and this is Nigel. He needs to use the internet and do some computer work. It'll only take a few hours. Do you have wireless internet here?"
+"I'm Alisha. This is Nigel. He needs to use the internet and do some computer work. It'll only take a few hours. Do you have wireless internet here?"
 
 "Do I?" He paused in his efforts to sweep together the documents and tools and pieces of scrap that had spread across the bar. He stared at her. "Do I have---? Why, of course I do!"
 
