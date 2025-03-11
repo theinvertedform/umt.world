@@ -87,7 +87,7 @@ The engine block turned slowly, warming in its groove. His notebook had a page w
 
 "The ferry leaves at 11:45 am. It's a bit over three hours from Truro to North Sydney. We've got time."
 
-Alisha's looked at him, her eyes half-lidded. She was watching his mouth with a coy expression.
+Alisha looked at him, her eyes half-lidded. She was watching his mouth with a coy expression.
 
 "Say Truro again."
 
@@ -113,43 +113,47 @@ They were buoyed by a south wind blowing cold fresh life across the deck. Alisha
 
 ***
 
-Along the perimeter of the common deck, empty blue vinyl seats were bolted in winged banks. Alisha looked out the porthole to the east. A crepuscular ray dappled her eye, a moment of illumination that Nigel saw pass over her in a flash before it fell upon him. "I'm looking to see if I can spot a whale." She was a silhouette whose edges sparkled.
+Along the perimeter of the common deck, empty blue vinyl seats were bolted in winged banks. Alisha looked out the porthole to the east. A crepuscular ray dappled her eye, a moment of illumination that Nigel saw pass over her in a flash before it fell upon him. "I'm looking to see if I can spot a whale." The edges of her silhouette sparkled.
 
-"I thought about you every minute I was gone," she said.
+"I held my breath the whole time you were away," he told her. She did not look away from the window.
 
-"I held my breath the whole time you were away."
+"Oh," she said after a moment.
 
-"Maybe you shouldn't have." Her gaze broke. "That's why I wanted to go alone. After everything that happened before I left, I wanted us to take time. I wanted both of us to be sure."
+"I believed in us, even after everything that happened. I still believe in us. It wasn't that big of a deal."
 
-"I am sure. That's why I waited. Everything that happened---it wasn't a big deal. Not enough for me to leave."
+"It was a big deal to me. I tried to tell you then, we weren't in control, but you just turned away and wouldn't listen."
+
+She kept looking out the window while he sank into a slump beside her.
+
+"Maybe you shouldn't have waited." She turned her head to look at him. "That's why I went on that trip alone. I wanted both of us to take time. I wanted both of us to be sure."
+
+"I am sure. Even if it seems impossible, I still believe."
 
 Alisha laid her head on Nigel's shoulder; she rubbed against him, leaving scent marks where she burrowed into his armpit. He had no choice but to put his arm around her.
 
-"I never stopped thinking about you," she said, looking up at him before looking back out over the ocean.
+"I thought about you every minute," she said, looking up at him.
 
 ***
 
-They moved through a hatch along a soft-carpeted corridor. Through each door lay identical, pristine, empty cabins.
-
-They entered one, locked the door behind them and deposited their bags by the bed. When he turned the faucet, hot water sprayed in a steady stream from the showerhead. "The water works."
+They moved through a hatch along a soft-carpeted corridor. Through each door lay identical, pristine, empty cabins. They found one hatch unlocked, slid the deadbolt into place behind behind them, and deposited their bags by the bed. When he turned the faucet, hot water sprayed in a steady stream from the showerhead. "The water works."
 
 "They even left towels for us!" she said, bouncing through the doorway with two of them cradled in her arms, big and white and fluffy. "Let's take a shower!"
 
-He glanced through the door of the bathroom, through the steam that was already filling the tiny room, towards the hatch that connected to the corridor. She was already undressing, discarding her clothes where they fell.
+He glanced through the door of the bathroom, through the steam that filled the tiny room, towards the hatch that connected to the corridor. She was already undressing, discarding her clothes where they fell.
 
 "Don't worry, babe, it's locked!" She jumped into the tub, peeked around the edge of the shower's plastic shell. "It's warm in here." When she peered at him half-hidden, he couldn't help himself. He bared his teeth, growled, and tore himself naked.
 
 ***
 
-"We're in it now," he said when they disembarked. The days were getting longer after a long winter, but this one had already descended into evening. They were in unfamiliar terrain without a plan of where to go.
+"We're in it now," he said when they disembarked. Winter was behind them; the days lengthened, but this one had already descended into evening. They were in unfamiliar terrain without a plan.
 
 "Are you scared?"
 
 "There's not much light left. We don't know where we're going."
 
-"Let's build a fire!" The thought had not occurred to him. She made her home in the world: he merely lived in it. They took the highway heading north. On their second night, they parked in the hollow of a beach and there they built a fire.
+"Let's build a fire!" The thought had not occurred to him. She made her home in the world: he merely lived in it. They took the highway heading north. On their second night, they parked in the hollow of a beach and built their first fire.
 
-The road swept in undulating curves around the perimeter of ancient cliffs, low stone hills waving with wet yellow grass. Looking west they saw nothing in the direction of the mainland. Now they were four days on the road. When they stopped for supplies, they marvelled at the price of the wilted vegetables that came from double-linked shipping containers. Most of what they ate were bread and fats.
+The road swept in undulating curves around the perimeter of ancient cliffs, low stone hills waving with wet yellow grass. Looking west they saw nothing in the direction of the mainland. Now they were four days on the road. When they stopped for supplies, they marvelled at the price of the wilted vegetables that came from double-linked shipping containers. They supped on bread and fats.
 
 ***
 
@@ -159,27 +163,27 @@ Nigel opened his backpack, checked his laptop. The battery was low. "I'm down to
 
 The sun already hung mid-afternoon when they found themselves trawling a dozen thin buildings joined by unpainted roads, searching in vain for somewhere they could post up. Down the road three hours the next village would be the same, and by then it would be dark. It wasn't until they had given up and were proceeding on their way that they found a low, white building, its windows boarded up with whitewashed plywood. A red sign glowed *open* above the white-handled door. The river spread fat down the hill out back.
 
-"Let's try it!" she said.
+"Let's go inside!" she said.
 
 ***
 
-Nigel's contracted pupils caught a brief outline of scattered chairs in the shaft of light they brought with them. When the door swung shut, their dilating perception was pulled to the only source of light in the windowless room.
+Nigel's contracted pupils caught a brief outline of scattered chairs in the shaft of brilliance that issued from the open door. When it swung shut behind them, their dilating perception drifted to the bar.
 
-"Who's there? I mean---hello," a man said. He stood up from the corner of the bar nearest the door. The surface of the bar was covered with papers and assorted miscellanea.
+"Who's there? I mean---hello," a man said. He stood up from his stool. The length of the bar was covered with papers, tools, assorted scrap.
 
 "Are you open?" Alisha asked, stepping forward.
 
-"Open! Of course I'm open!" Despite his affronted posture of perpetual receptivity, Nigel could recognize the rasp a voice unused to talking.
+"Open! Of course I'm open!" Despite his affronted posture, Nigel recognized the rasp of a voice unused to talking.
 
-"My name's Ray. If the sign's on, I'm open. Don't get too many visitors around here. What's your name? What can I get for you?"
+"My name's Ray. Don't get too many visitors around here. What's your name? What can I get for you?"
 
 "I'm Alisha. This is Nigel. He needs to use the internet and do some computer work. It'll only take a few hours. Do you have wireless internet here?"
 
-"Do I?" He paused in his efforts to sweep together the documents and tools and pieces of scrap. He stared at her. "Do I have---? Why, of course I do!"
+"Do I?" He paused in his efforts to sweep together papers and what looked like a disassembled motor. He stared at her. "Do I have---? Why, of course I do!"
 
-Behind the plywood bar hung a shelf that held a half-dozen glasses and a half-empty bottle of Jameson. Underneath it was a mini-fridge. Ray disappeared through a door behind the bar and returned immediately with still more papers. He was heavier than Nigel, powerfully built and tall. His grey hair was gathered in a ponytail and his skin pockmarked. He moved with vigour, unrestrained by the paunch that had slipped into the second half of his life.
+Behind the plywood bar hung a shelf that held a half-dozen glasses and a bottle of Jameson. Ray disappeared through a door behind the bar and returned immediately, holding still more papers. He was heavier than Nigel, powerfully built and taller than them both. His grey hair was gathered in a ponytail and his skin pockmarked. He moved with vigour, unrestrained by the paunch that had slipped into the second half of his life.
 
-Nigel took his seat at the far end of the bar, took out his ThinkPad and the charging cable.
+Nigel sat at the far end of the bar, his back to the view. He took out his ThinkPad and charging cable.
 
 "Can I plug this in somewhere?"
 
@@ -189,9 +193,9 @@ Nigel took his seat at the far end of the bar, took out his ThinkPad and the cha
 
 "I just need to make sure that I can get online."
 
-"Oh, right." He produced a small paper calendar, pictures of cats and dogs for each month. In the month of September two years back, he had written a string of characters and digits that Nigel entered into the black terminal of his laptop.
+"Oh---" His attention returned to the sheaf in his hand. He produced a small paper calendar, pictures of cats and dogs for each month. In the month of September two years back, he had written a string of characters and digits that Nigel entered into his terminal.
 
-"Okay," he said to Alisha, draped across his shoulder. She watched his screen with fascination. He showed her a document with comments in the margins. "I just need to go through my editor's comments, fix all the issues, then send it back."
+"Okay," he said to Alisha, who was draped over his shoulders. She watched the screen with fascination. He showed her a document with comments in the margins. "I just need to go through my editor's comments, fix all the issues, then send it back."
 
 "What does that one say?"
 
@@ -199,25 +203,25 @@ Nigel took his seat at the far end of the bar, took out his ThinkPad and the cha
 
 "Faith? I thought it was a review of a book about communism."
 
-"Faith is the main question of human existence. Communists tend to think they're above anything rooted in the individual, but it's time they get a reminder."
+"Faith is the main question of human existence. Communists tend to think they're above it because Marxism is scientific, but my goal is to bring together existentialism and socialism."
 
 "What can I get you?" Ray asked.
 
-"We'll take two beers, Ray." Alisha said. After Ray took two bottles of ale from the minifridge, she detached herself from Nigel and went down to the other end of the bar.
+"We'll take two beers, Ray." Alisha said. After Ray took two bottles of ale from the mini-fridge, she detached herself from Nigel and went down to the other end of the bar.
 
-"Where are you headed?" he asked. Alisha tried to focus his attention, but he continued to address both of them.
+"Where are you headed?" he asked. Alisha tried to focus his attention, but he wanted to address both of them.
 
-She was perched on her stool with her back arched. Ray stood on the other side. Nigel glanced back at his screen. She crossed one leg over the other, pointed her foot coquettishly and touched her hair. She didn't look at him. Nigel took a pull from his bottle.
+She was perched on her stool with her back arched. Ray stood behind the bar. Nigel glanced back at his screen. She crossed one leg over the other and didn't look at him, but pointed her foot coquettishly, touched her hair. Nigel took a pull from his bottle.
 
-"The north ferry?" Ray was surprised. "It's dangerous up there. Cold. Better have extra batteries for your radio. Just one spare tire? What---no radio? You don't even have a real spare?"
+"The north ferry?" Ray was surprised. "It's dangerous up there. Cold. Better have extra batteries for your radio. Just one spare tire? What---no radio? You don't have a spare, just a donut?" Now he seemed worried.
 
-*The question of faith is the central question of religion, and for Kierkegaard it is therefore the central question of human existence. The proposition is that God, an infinite being, takes on existence within a finite world. In logical terms, this is an _absurd_ proposition. Rational arguments and logical proofs for the existence of God miss the point: belief itself is out of the question. The point is to have faith.*
+*The question of faith is the central question of religion, and for Kierkegaard it is therefore the central question of human existence. God is an infinite being, yet He comes into being within a finite world (as Jesus Christ, in the form of visions or emissaries). In logical terms, this is an _absurd_ proposition. Rational arguments and logical proofs for the existence of God miss the point: belief itself is out of the question. The point of human existence is to reconcile oneself with the impossible.*
 
-"I was born out on that island," Ray said. Sliding glass doors opened onto a patch of flat grass; Nigel could see the first in a series of steps cut into the steep declension that led down to the forested riverbank. The water swept up blue and peach gold, framed by the sliding doors. The thin black line of the far shore cut the river from the sky. In the middle distance, a narrow brown smudge stuck out against the pastel water.
+"I was born out on that island," Ray said. The sliding glass doors opened onto a shaded patch of flat grass. The only light in the room came dim through this door. Nigel could see the first in a series of steps cut into the steep declension that led down to the forested riverbank. The water swept up blue and peach gold, framed by the sliding doors. The thin line of the far shore cut the river from the sky. A narrow brown smudge coloured the pastel water.
 
-"There are houses out there?" Nigel asked, incredulous.
+"There are houses out there?" Nigel asked.
 
-"Houses? Yes, about...five houses! The one I was born in is still standing. Last one. The rest are ruined. They're all dead. Just me and mum left."
+"Houses? Yes, there were about...five houses! The one I was born in is still standing. Last one. The rest are ruined. They're all dead. Just me and mum left."
 
 Nigel closed the last of the document's comment and added another set of the initials "NC" to the sequence at the end of the filename. He sent it to his editor with a single short paragraph in the body of the email.
 
@@ -227,13 +231,17 @@ Nigel closed the last of the document's comment and added another set of the ini
 
 "Go down there," Ray said. He pointed to where the road led down towards the river. Nigel took a toke from the joint he had lit. "There's a big plateau. No-one goes down there. I grew this myself. Let me show you."
 
-"We couldn't," they insisted; said goodbye instead and drove down the hill. She stopped the car in the middle of a wide empty field. The sky was enormous overhead, just beginning to darken. He put on *Casablanca* while she pushed the cushions into a headboard they could lean against. They ate Ryvita and yellow cheese while the darkening sky sank into the river.
-
-The weed had made him shy. He explored the outline of her hipbones without speaking. They lay on their sides, laptop discarded. His shyness left him as he pressed his body into her. The sun would not set. Long grasses blew in an invisible wind. They pushed outwards against the inside of the SUV, against the roof, against the windows; pushed down into the cushions of their bed.
+"We couldn't," Nigel insisted. Already he wanted to be back alone with her.
 
 ***
 
-Nothing in this world is fixed: not even the continents. They drift, buoyed along by invisible currents in the water and air. It's inevitable that one plate will collide with another. Gentle first, but over millions of years, these forces build. The collision shrouds the globe in tempest and strife. Storm clouds last eons. Plant species die out, animals teach their young to hide: but there is nowhere to hide from the lightning strikes, from the earthquakes and volcanoes erupting ash and molten lava. By the end of this unstable era, when the quaking has subsided and the sun shines through again, the mantle of one of these land masses comes out on top. Through arcane processes beyond the ken of man, the point of the spiral points to one peripheral zone of obduction: a distant island, there to throw up rolling highland fields and mournful mountain ranges of desolate pale-orange rock, whose texture is unseen anywhere else on the surface of the earth. The exposed mantle found here is so rich in iron that life cannot propagate, except for certain purple-green plants that look like a mutated species of a seed dredged up from the ocean floor. They emerge from the crevice of broken stones, as though their roots had split them.
+She stopped the car in the middle of a wide empty field. The sky was enormous overhead, just beginning to darken. He put on *Casablanca* while she pushed the cushions into a headboard they could lean against. They ate Ryvita and yellow cheese while the sky sank into the river.
+
+The weed had made him shy. He tickled the outline of her hipbones and although it made her laugh, he remained solemn. They lay on their sides, laptop discarded. His shyness left him as he pressed his body into her. The sun would not set. Long grasses blew in an invisible wind. They pushed outwards against the inside of the SUV, against the roof, against the windows; pushed down into the cushions of their bed.
+
+***
+
+The very earth is unfixed. Tectonic plates drift through the ocean, buoyed along by invisible currents. It's inevitable that one plate will come up against another. Over millions of years, the earth's understanding of what it must do grows, and force bulids slowly into a collision. The globe is shrouded in tempest and strife. Storm clouds last eons. Plant species die out, animals teach their young to hide: but there is nowhere to hide from the lightning strikes, from the earthquakes and erupting volcanoes. By the end of this unstable era, when the quaking has subsided and the sun shines through again, the mantle of one land mass comes out on top of the other. Through arcane processes beyond the ken of man, the point of the spiral points to one peripheral zone of obduction: a distant island, there to throw up barren highlands and mournful mountain ranges of desolate pale-orange rock. A substance whose texture is unseen anywhere else on the surface of the earth. A substance so rich in iron that the only life that can propagate are certain purple-green plants that look like a mutated species of a seed dredged up from the ocean floor. They emerge from the crevice of broken stones, as though their roots had split them.
 
 ***
 
@@ -243,7 +251,7 @@ The stretches of highway were so long, the curves gentle and the traffic so spar
 
 "We're coming up on the exit for the terminal. Slow down." They were on a straight stretch, no cars in either direction. The exit was on their left, a right angle through the grass meridian that split the highway in two directions. He pressed the brake.
 
-"Slow down." They were up to the exit; he needed to turn the wheel. "Slow down!" The beige SUV drifted around the corner. He heard a distant screeching, could make out a faint metal clattering. He waited for the car to level out before he pumped the brakes. They came to a stop halfway in the ditch.
+"Slow down." They were up on the exit; he needed to turn the wheel. "Slow down!" The beige SUV drifted around the corner. He heard a distant screeching, could make out a faint metal clattering. He waited for the car to level out before he pumped the brakes. They came to a stop halfway in the ditch.
 
 "You almost killed us!"
 
@@ -251,29 +259,31 @@ The stretches of highway were so long, the curves gentle and the traffic so spar
 
 "If this was a car, we would have rolled over! Didn't you hear me say slow down?"
 
-"I did slow down." He was calm. She was over-reacting.
+"I did slow down." He was calm: she was over-reacting.
 
-"Get out!" He closed the door quietly while she slammed hers. The beige SUV was tilted at a dramatic angle, only one of its tires touching concrete. She was panting, and he was astonished to see tears standing out on her cheeks.
+"Get out!" He closed the door quietly while she slammed hers. The beige SUV was tilted at an angle, only one of its tires touching concrete. She was panting, and he was surprised to see tears standing out on her cheeks.
 
-"Look at that!" She indicated the road behind them. He saw four long black streaks burned into the pavement. "You were skidding! Don't you know how dangerous that is?"
+"Look at that!" She gesticulated at the road behind them. He saw four long black streaks burned into the pavement. "You were skidding! Don't you know how dangerous that is?"
 
 "It was an accident."
 
 She was examining the car now. "Look at this!" She pointed at the rear passenger-side wheel. "We lost a hubcap, Nigel!"
 
-"Don't worry, I see it, it's just down there." He trotted down the road. Silence rang in his ears. The ferry terminal stood out low against the grey sea. It was scheduled to depart an hour from now. When he returned with the metal disc in hand, she was squatted by the SUV's driver's-side flank, her back leaning against it. She was crying now.
+"I see it, it's just down there." He trotted down the road. Silence rang in his ears. The ferry terminal stood out low against the grey sea. It was scheduled to depart an hour from now. When he returned with the metal disc in hand, she was squatted by the SUV's driver's-side flank, her back leaning against it. She was crying now.
 
-"I tried to stop it, but you didn't listen. I told you and you just wouldn't listen."
+"I got the hubcap back. There's no damage we can't fix."
 
-"I thought I was in control. Everything was fine."
+"That's not the point, Nigel. I tried to stop it, but you didn't listen. I told you and you just wouldn't listen."
+
+"I thought it was under control. Everything was fine."
 
 "You weren't in control. We're in the ditch now."
 
 ***
 
-Returning to the mainland did not take a full two hours. The *Qajaq W.* had no cabins, just an observation deck with a few vending machines. They watched icebergs float by and he thought about how cold the water must be.
+Returning to the mainland did not take a full two hours. The *Qajaq W.* had no cabins, just an observation deck with a few vending machines. Icebergs floated by. He thought about how cold the water must be.
 
-They disembarked in a coastal depression. Up above them rose the top of the forest silhouette; up above it swam unearthly colours in a new sky they had never seen before.
+They disembarked in a coastal depression. Up above them rose the dark outline of an impenetrable forest; further up swam unearthly colours in a new sky they had never seen before.
 
 "We're in it now," Alisha said.
 
@@ -281,49 +291,53 @@ Beneath the price of gas at the village station read the discrete warning: "next
 
 "Over half a tank---can we make it?" Nigel asked from the passenger seat.
 
-"We could make it. Maybe, barely. Is it worth it?" She was uncertain.
+"We could make it. Maybe, barely. Is it worth it? I'm not sure." She was uncertain.
 
-"Slow and steady." He put his hand on her shoulder, squeezed it, put his hand on the back of her neck. "That's how we'll get through this." She looked at him; her brows uncreased, the line of her mouth bent into a bow.
-
-***
-
-She started driving to get the lay of the land. It became immediately apparent: just a straight gravel road that continued on through uncultivated forest. Nigel was surprised to find that the landscape here threatened to overwhelm him. The exposed rockhills, the hardy trees in all their variety held a deep terror for him. The world was savage and lonely and cruel. Their loneliness was made more pronounced by the thin contrast of the gravel road. She wanted to make a fire, to find a bower and line it with flowers. He felt the unhomeliness of the world pressing against the thin membrane that separated them from the night.
-
-"Put it on cruise control and keep it at 60. These stones could puncture a tire. They could do worse than that. Try to avoid any big ones. If we get a flat, the donut won't get us far."
+"Slow and steady." He put his hand on her shoulder, squeezed it, put his hand on the back of her neck. "That's how we'll get through this." She looked at him; her brows uncreased, the line of her mouth pointed up in a bow.
 
 ***
 
-They were in an endless aisle of aspens, wild bushes growing at the top of long trunks. The sun filtered through at the same low angle where it hovered without moving for fifteen straight hours. They had pulled over to the side of the road, barely wide enough for two vehicles to pass. The black pickup with whom they had disembarked stopped to see if they were okay. There was no-one else out there, and therefore all must help each other. Nigel gave them a thumbs-up and a wave from the backseat. She trembled beneath him, soft pants around her knees. All he could see of her face was a single red cheek framed by her dark hair, the other half pressed into the pillow. He watched a bead stand still for a moment before running down, unable to tell if it was sweat or tears. She cried out.
+She started driving to get the lay of the land. It became immediately apparent: just a straight gravel road that continued on through uncultivated forest. Nigel was surprised to find that the landscape here threatened to overwhelm him. The exposed rockhills, the hardy trees in all their variety held a deep terror for him. This place was savage and lonely and cruel. It didn't care if he washed his face. The thin contrast of the gravel road pronounced their isolation. She wanted to make a fire, to find a bower and line it with flowers. He felt the unhomeliness of the world pressing against the thin membrane that separated them from the night.
+
+"Put it on cruise control and keep it at 60. These stones could puncture a tire. They could do worse than that. Try to avoid any big ones. If we get a flat, the donut won't get us far. We don't have a radio, and we have to get back."
 
 ***
 
-"What's that!" They had come up on the crest of a clearing in the forest. Nigel pumped the brakes, but they had already made their interruption. A hawk flew off over the trees. A fox ran into the forest, and a rabbit ran in the other direction. The caribou came up to them, indignant and stern. He trotted next to the SUV while the two sat frozen inside. Nigel kept them inching forward, his foot light to the pedal. They held their breath. It cantered around the SUV to examine Alisha more closely with its brown eye. Nigel saw that although the spirit huffed, he was not angry. He was only checking them out, and would allow them to continue on their way while he returned to the forest.
+They were in an endless aisle of aspens, wild bushes growing at the top of long trunks. The sun filtered through at the same low angle where it hovered without moving for fifteen straight hours. They had pulled over to the side of the road, barely wide enough for two vehicles to pass. The black pickup with whom they had disembarked stopped to see if they were okay. There was no-one else out there, and therefore all must help each other. Nigel gave them a thumbs-up and a wave from the backseat. She trembled beneath him, soft pants around her knees. All he could see of her face was a single red cheek framed by her dark hair, the other half pressed into the pillow. He watched a bead stand still for a moment before running down, couldn't tell if it was sweat or a tear. She cried out.
 
 ***
 
-The had passed the zenith of their voyage, and the roads worsened the further south they moved. They were high up in the mountains. The only traffic they passed were construction vehicles, huge tractors or pickup trucks or other SUVs, grimy from the construction site. The dirt road went up and down and wound around hairpin bends. Nigel felt out of his element behind the wheel, with an unprotected drop on one side and cement trucks constantly roaring past on the other. He gripped the wheel tight but didn't wake Alisha. As he came around one bend, he had to turn the wheel quickly to give a semi-truck pulling a load of timber logs enough space to pass without crushing them. His heart skipped a beat.
+"What's that!" They had come up on the crest of a clearing in the forest. Nigel pumped the brakes, but they had already made their interruption. A hawk flew off over the trees. A fox ran into the forest, and a rabbit bounded in the other direction. The caribou came up to them, indignant and stern. He trotted next to the SUV while the two sat frozen inside. They inched forward, Nigel's foot light to the pedal. They held their breath. The caribou cantered around the SUV to examine Alisha more closely with its brown eye. Nigel saw that although the spirit huffed, he was not angry. He was only checking them out, and would allow them to continue on their way while he followed his friends into the forest.
+
+***
+
+They had passed the zenith of their voyage. The roads worsened the further south they moved, brought them high up in the mountains. The only traffic on the road were construction vehicles, huge tractors or pickup trucks or other SUVs covered in grime. The dirt road went up and down and wound around hairpin bends. Nigel felt out of his element behind the wheel, with an unprotected drop on one side and cement trucks constantly roaring past on the other. He gripped the wheel tight but didn't wake Alisha. As he came around one bend, he had to turn the wheel quickly to give a semi-truck pulling a load of timber logs enough space to pass without crushing them. His heart skipped a beat.
 
 Alisha woke as they were cresting a mountain. She lay back in her seat for a moment, blinking, before she raised herself to look out at the valley spread with forest out the window to her right. Dark green and pale yellow.
 
 "Wait---what *is* that?" she asked.
 
-"I have no idea. I've been watching it get closer for hours now. It's absolutely massive.
+"I have no idea. I've been watching it get closer for hours now."
 
-"It's our sign," he said. "It's our sign to keep building."
+"It must be absolutely massive. I had no idea this was out here."
+
+"It's a sign," he said. "It's a sign to keep building."
 
 ***
 
-They were now distinctly hurrying. Only two days left before they were scheduled at work. Just before the cities started, they were looking around on a bright morning when the sun was hot, the air finally warm again.
+They were now distinctly in a hurry. It was a bright morning, sun hot, the air finally warm again in the lowlands.
 
-"We have to go for a swim," she insisted. "We have to jump in the river."
+"We have to go for a swim," she insisted. "We have to jump in the river. I can't believe it's already over."
 
-They were on a conventional four-lane highway. Signs of civilization were still spread out, but they had unmistakeably returned to the straight world. She pulled off the highway; they drove down a long access road until they saw somewhere to stop. The water was clear here, down a short embankment to a beach of jagged rocks. They stripped down to their underwear, took their towels and clambered down to the water. It was freezing cold: cold enough to take the breath away. They both hissed and gasped and sputtered.
+"Don't worry. It's not over yet. We'll find somewhere. I promise."
 
-"There's something I have to tell you," she said.
+The dirt road had become a four-lane highway. They had unmistakeably returned to the straight world. She pulled off the highway; they drove down a long access road until they saw somewhere to stop. The water was clear blue, down a short embankment to a beach of jagged rocks. They stripped down to their underwear and clambered down barefoot. It was freezing cold: cold enough to take the breath away. They both gasped and sputtered.
 
-"No matter how impossible it is, I'll never stop believing."
+"There's something I need to tell you," she said.
 
-He was standing there, bracing in the wind and the sun, water streaming off his body. She sat on a stone and looked up at him, squinting.
+"No matter what you tell me, I'll never stop believing. Even if it's impossible, I'll never stop believing."
+
+He was standing up to his ankles in the river, water streaming off his body. She sat on a stone and looked up at him, squinting. The sun was in her eye: he was just a sparkling silhouette.
 
 "I feel young," he said.
 
