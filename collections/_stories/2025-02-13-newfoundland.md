@@ -13,9 +13,9 @@ published: false
 
 The white line dividing the road glowed in the light of their high-beams.
 
-"I don't want to go much further," Nigel said.
+"We need to stop soon," Nigel said.
 
-"Why not?" Alisha's eyes were focused on the road.
+"I'm fine to keep driving for a while." Alisha didn't take her eyes from the road.
 
 "Well---it's late, and you've been drinking."
 
@@ -23,7 +23,7 @@ The white line dividing the road glowed in the light of their high-beams.
 
 "I do trust you---"
 
-"I'm a good driver. My dad was a race car driver. He taught me how to roll. You don't have to worry."
+"My dad was a race car driver. He taught me how to roll. You don't have to worry."
 
 "Let's go in there," he said, indicating the sign that cut off the semi-rural road.
 
@@ -31,7 +31,7 @@ The white line dividing the road glowed in the light of their high-beams.
 
 "Trust me."
 
-She turned the wheel and brought them through a low gate. The school was a low building lit with a single spotlight; the oversized lot was built to host traffic to the adjoining sports complex.
+She turned the wheel and brought them through a low gate. The school was a low building lit with a single spotlight; the oversized lot was built to host game day traffic to the adjoining sports complex.
 
 "Are you sure?" In the headlights, they could see the aluminum outline of a pitch, the patch of forest darkness beyond.
 
@@ -39,25 +39,25 @@ She turned the wheel and brought them through a low gate. The school was a low b
 
 They rode gingerly across the lawn, around the bleachers to where the terrain came to an end. She turned off the ignition.
 
-"What have we got to eat?" He opened the passenger door, stepped into the damp night, then re-entered through the back doors. The two seats of the SUV were folded down to create a flat bed that they had piled high with pillows and blankets. Under the foot-well their bags were pressed up against the front seats. She clambered into the back and met him there.
+"What have we got to eat?" The two seats of the SUV were folded down to create a flat bed piled high with pillows and blankets. She clambered into the back while he opened and shut the door.
 
 "Are you still hungry, dear? Hey, keep that door closed! It's chilly."
 
-"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and sat them in the driver's seat. She watched him in silent awe. The bulb above the rear-view mirror switched off, leaving the interior of the car cast in an elusive illumination from the distant spotlight.
+"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and set them in the driver's seat. She watched him in awe. The bulb above the rear-view mirror switched off, leaving the interior of the car in elusive illumination from the distant spotlight.
 
-"Now---" she pulled up the canvas tote they kept their food in. "We've got a cucumber, some cheese. I'll make us sandwiches, like we had on the farm. We had lots of cheese, but it was goat cheese. And we had lots of cucumbers, too, but they were always pickled. A pickle or some sauerkraut every day for almost an entire month. Then I had another pickle when I got to Berlin. It wasn't as good, but it was just from a stall at 4am."
+"Now---" she pulled up the canvas tote they kept their food in. "We've got a cucumber, some cheese. I'll make us sandwiches. One the farm, we ate a lot of goat cheese. We had lots of cucumbers, too, always pickled. A pickle or some sauerkraut every day for almost an entire month. Then I had another pickle when I got to Berlin. It wasn't as good, but it was just from a stall at 4am."
 
-He took out a kitchen knife for her to cut the cucumber, along with two white napkins edged with blue embroidery that they used as plates. She drew the blade through the vegetable's dark green skin, its pale white flesh, and stopped it against her thumb.
+He took out a kitchen knife for her to cut the cucumber, along with two blue napkins that they used as plates.
 
-"With my compliments, sir," she said, handing him his portion.
+"What were you doing out at 4am?"
 
-"*Merci, mademoiselle*." A piece of cucumber fell onto his napkin as he bit into the bread. The fatty texture of hummus and cheese combined into an opulent texture, sparked with the watery acid of the vegetable.
+She drew the blade through the vegetable's dark green skin until it stopped against her thumb. "Partying. You've been to Berlin. You know how it is."
 
-"It was a bit reckless to go out for dinner without having somewhere to stay," he said.
+"It was a bit reckless to go out for dinner without having somewhere to stay." A piece of cucumber fell onto his napkin.
 
-"But I wanted to celebrate our reunion. We were apart for two months. I missed you. I wanted candlelight and wine."
+"But we were apart for two months. I missed you. I wanted candlelight and wine."
 
-"Nothing's going to come between us again."
+"I don't want to be apart from you for that long again."
 
 ***
 
