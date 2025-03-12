@@ -11,3 +11,4 @@ collections/_film/*.csv
 *~
 *.json
 node_modules/
+.bundle/
