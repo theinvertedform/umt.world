@@ -43,7 +43,7 @@ They rode gingerly across the lawn, around the bleachers to where the terrain ca
 
 "Are you still hungry, dear? Hey, keep that door closed! It's chilly."
 
-"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and set them in the driver's seat. She watched him in awe. The bulb above the rear-view mirror switched off, leaving the interior of the car in elusive illumination from the distant spotlight.
+"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and set them in the driver's seat. She watched him in awe. The bulb above the rearview mirror switched off, leaving the interior of the car in elusive illumination from the distant spotlight.
 
 "Now---" she pulled up the canvas tote they kept their food in. "We've got a cucumber, some cheese. I'll make us sandwiches. One the farm, we ate a lot of goat cheese. We had lots of cucumbers, too, always pickled. A pickle or some sauerkraut every day for almost an entire month. Then I had another pickle when I got to Berlin. It wasn't as good, but it was just from a stall at 4am."
 
@@ -73,7 +73,7 @@ She stretched, yawned, sat up and rolled her shoulders, joints popping.
 
 His hand was on her shoulder as she spoke. She looked up at him. "Can we get a goat?"
 
-They stood by the flanks of the SUV in the wet grass and bent the stiffness from their limbs. Nigel took out a frayed washcloth and a small bottle of Castille soap. Alisha, brushing her teeth, watched him as he wet the square of fabric with a splash of water from their bottle, apply a few drops of soap and scrub his face.
+They stood by the flanks of the SUV in the wet grass and bent the stiffness from their limbs. Nigel took out a frayed washcloth and a small bottle of Castile soap. Alisha, brushing her teeth, watched him as he wet the square of fabric with a splash of water from their bottle, apply a few drops of soap and scrub his face.
 
 "We wash our face in the morning to show respect for the world we are about to encounter."
 
@@ -93,7 +93,7 @@ Alisha looked at him, her eyes half-lidded. She was watching his mouth with a co
 
 "Truro?" He enunciated it carefully, hitting each rhotic syllable to emphasize the word's internal consonance.
 
-"The way your lips move---" she bared her teeth at him. "It's so cute---" and she stood up to straddle him. "Say it again," she whispered in his ear, and he said it again: *Tru-ro*. When she kissed him, he was delighted to find her mouth wet, tongue hard and probing. He took hold of her and she yielded with a sigh.
+"The way your lips move---" she bared her teeth at him. "It's so cute---" and she stood up to straddle him. "Say it again," she whispered in his ear, and he said it again: *Tru-ro*. When she kissed him, he was delighted to find her mouth wet, tongue hard and probing. He took hold of her, and she yielded with a sigh.
 
 ***
 
@@ -103,7 +103,7 @@ Alisha grabbed her bag, a stiff rubber tube with backpack straps sewn to one sid
 
 "I am locking the car doors," she announced with solemn deliberation. The SUV honked when she pressed the button. "I am now putting the keys in my pocket," and she showed him where. When she pulled her hand back out, he took it, kissed it, breathed onto her white fingers.
 
-Vibrations from the engine came through through the soles of Nigel's shoes. They churned the sea to a huge expanse of white froth in their wake. The peninsula disappeared in a round wall of fog. Beams broke through the cloudbank.
+Vibrations from the engine came through the soles of Nigel's shoes. They churned the sea to a huge expanse of white froth in their wake. The peninsula disappeared in a round wall of fog. Beams broke through the cloud bank.
 
 "We're out here for seven hours," he said.
 
@@ -135,7 +135,7 @@ Alisha laid her head on Nigel's shoulder; she rubbed against him, leaving scent 
 
 ***
 
-They moved through a hatch along a soft-carpeted corridor. Through each door lay identical, pristine, empty cabins. They found one hatch unlocked, slid the deadbolt into place behind behind them, and deposited their bags by the bed. When he turned the faucet, hot water sprayed in a steady stream from the showerhead. "The water works."
+They moved through a hatch along a soft-carpeted corridor. Through each door lay identical, pristine, empty cabins. They found one hatch unlocked, slid the deadbolt into place behind them, and deposited their bags by the bed. When he turned the faucet, hot water sprayed in a steady stream from the shower head. "The water works."
 
 "They even left towels for us!" she said, bouncing through the doorway with two of them cradled in her arms, big and white and fluffy. "Let's take a shower!"
 
@@ -241,7 +241,7 @@ The weed had made him shy. He tickled the outline of her hipbones and although i
 
 ***
 
-The very earth is unfixed. Tectonic plates drift through the ocean, buoyed along by invisible currents. It's inevitable that one plate will come up against another. Over millions of years, the earth's understanding of what it must do grows, and force bulids slowly into a collision. The globe is shrouded in tempest and strife. Storm clouds last eons. Plant species die out, animals teach their young to hide: but there is nowhere to hide from the lightning strikes, from the earthquakes and erupting volcanoes. By the end of this unstable era, when the quaking has subsided and the sun shines through again, the mantle of one land mass comes out on top of the other. Through arcane processes beyond the ken of man, the point of the spiral points to one peripheral zone of obduction: a distant island, there to throw up barren highlands and mournful mountain ranges of desolate pale-orange rock. A substance whose texture is unseen anywhere else on the surface of the earth. A substance so rich in iron that the only life that can propagate are certain purple-green plants that look like a mutated species of a seed dredged up from the ocean floor. They emerge from the crevice of broken stones, as though their roots had split them.
+The earth is unfixed. Tectonic plates drift through the ocean, buoyed along by invisible currents. It's inevitable that one plate will come up against another. Over millions of years, the earth's understanding of what it must do grows, and force bulids slowly into a collision. The globe is shrouded in tempest and strife. Storm clouds last eons. Plant species die out, animals teach their young to hide: but there is nowhere to hide from the lightning strikes, from the earthquakes and erupting volcanoes. By the end of this unstable era, when the quaking has subsided and the sun shines through again, the mantle of one land mass comes out on top of the other. Through arcane processes beyond the ken of man, the point of the spiral points to one peripheral zone of obduction: a distant island, there to throw up barren highlands and mournful mountain ranges of desolate pale-orange rock. A substance whose texture is unseen anywhere else on the surface of the earth. A substance so rich in iron that the only life that can propagate are certain purple-green plants that look like a mutated species of a seed dredged up from the ocean floor. They emerge from the crevice of broken stones, as though their roots had split them.
 
 ***
 
@@ -273,7 +273,7 @@ She was examining the car now. "Look at this!" She pointed at the rear passenger
 
 "I got the hubcap back. There's no damage we can't fix."
 
-"That's not the point, Nigel. I tried to stop it, but you didn't listen. I told you and you just wouldn't listen."
+"That's not the point, Nigel. I tried to stop it, but you didn't listen. I told you, and you just wouldn't listen."
 
 "I thought it was under control. Everything was fine."
 
@@ -297,7 +297,7 @@ Beneath the price of gas at the village station read the discrete warning: "next
 
 ***
 
-She started driving to get the lay of the land. It became immediately apparent: just a straight gravel road that continued on through uncultivated forest. Nigel was surprised to find that the landscape here threatened to overwhelm him. The exposed rockhills, the hardy trees in all their variety held a deep terror for him. This place was savage and lonely and cruel. It didn't care if he washed his face. The thin contrast of the gravel road pronounced their isolation. She wanted to make a fire, to find a bower and line it with flowers. He felt the unhomeliness of the world pressing against the thin membrane that separated them from the night.
+She started driving to get the lay of the land. It became immediately apparent: just a straight gravel road that continued on through uncultivated forest. Nigel was surprised to find that the landscape here threatened to overwhelm him. The exposed rock hills, the hardy trees in all their variety held a deep terror for him. This place was savage and lonely and cruel. It didn't care if he washed his face. The thin contrast of the gravel road pronounced their isolation. She wanted to make a fire, to find a bower and line it with flowers. He felt the unhomeliness of the world pressing against the thin membrane that separated them from the night.
 
 "Put it on cruise control and keep it at 60. These stones could puncture a tire. They could do worse than that. Try to avoid any big ones. If we get a flat, the donut won't get us far. We don't have a radio, and we have to get back."
 
