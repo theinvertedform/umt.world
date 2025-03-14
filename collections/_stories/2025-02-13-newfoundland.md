@@ -43,7 +43,7 @@ They rode gingerly across the lawn, around the bleachers to where the terrain ca
 
 "Are you still hungry, dear? Hey, keep that door closed! It's chilly."
 
-"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and set them in the driver's seat. She watched him in awe. The bulb above the rearview mirror switched off, leaving the interior of the vehicle cast in the elusive illumination from the distant spotlight.
+"No shoes in bed." He kicked off his leather sneakers, then he unlaced her canvas trainers and set them in the driver's seat. She watched him quietly, eyes round and lips parted. The bulb above the rearview mirror switched off, leaving the interior of the vehicle cast in the elusive illumination from the distant spotlight.
 
 "Now---" she pulled up the canvas tote they kept their food in. "We've got a cucumber, some cheese. I'll make us sandwiches. On the farm, we ate a lot of goat cheese. We had lots of cucumbers, too, always pickled. A pickle or some sauerkraut every day for almost an entire month. Then I had another pickle when I got to Berlin. It wasn't as good, but it was just from a stall at 4am."
 
