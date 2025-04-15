@@ -945,8 +945,8 @@ section#footnotes li {
     width: 100%;
     opacity: 0.85;
     padding: 2em 0 0 0;
-    font-size: 0.85em;
-    line-height: calc(1.3 / 0.85);
+    @include typography($body-font, normal, calc(#{$base-font-size} * 0.85 + 0.331vw), 'body');
+    line-height: fluid-line-height('article');
     transition:
         opacity 0.25s ease-in,
         transform 0.25s ease-in;
@@ -1018,6 +1018,14 @@ section#footnotes li {
 #markdownBody .sidenote.cut-off.hide-more-indicator::before {
     visibility: hidden;
 }
+
+#markdownBody .sidenote em, span.citation {
+  @include typography($body-font-italic, normal, inherit, inherit, italic);
+  }
+
+#markdownBody .sidenote strong {
+    @include typography($body-font-bold, $font-bold, inherit, inherit);
+  }
 
 /*=-------------------=*/
 /*= Sidenote wrappers =*/

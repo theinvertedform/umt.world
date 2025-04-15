@@ -117,3 +117,10 @@ exclude:
   - bower.json
   - bower_components/
   - collections/_film/
+  - collections/archive
+  - collections/pdfs
+  - collections/notes
+  - collections/.gitignore
+  - collections/.git
+  - collections/_novels
+  - collections/publications
