@@ -1,0 +1,87 @@
+// _sass/_backlinks.scss
+// Compatible with your existing SASS structure
+
+.backlinks-container {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid $border-colour;
+  border-radius: 4px;
+  background-color: $secondary-background-colour;
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: $text-colour;
+  }
+
+  details {
+    summary {
+      cursor: pointer;
+      color: $hover-colour;
+      font-weight: 600; // Using direct value instead of variable
+      margin-bottom: 0.5rem;
+
+      &:hover {
+        color: $text-colour;
+      }
+    }
+  }
+
+  .backlinks-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .backlink-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted $border-colour;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .backlink-source {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600; // Using direct value instead of variable
+
+    &, &:visited {
+      color: $text-colour;
+      text-decoration: none;
+      border-bottom: 1px solid $border-colour;
+    }
+
+    &:hover {
+      color: $hover-colour;
+    }
+  }
+
+  .backlink-context {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border-left: 3px solid $secondary-border-colour;
+    background-color: $background-colour;
+
+    // Style for highlighted link text within context
+    em {
+      font-style: normal;
+      font-weight: 600; // Using direct value instead of variable
+      background-color: rgba($hover-colour, 0.1);
+      padding: 0 0.2rem;
+    }
+  }
+}
+
+.no-backlinks {
+  display: none; // Hide when there are no backlinks
+  // Alternatively, show a message:
+  // color: $secondary-text-colour;
+  // font-style: italic;
+}
