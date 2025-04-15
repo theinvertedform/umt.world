@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem 'csv'
   gem 'base64'
   gem 'bigdecimal'
+  gem 'nokogiri'
   #gem "pandoc-ruby"
 end
 

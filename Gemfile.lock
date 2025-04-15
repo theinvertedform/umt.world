@@ -125,10 +125,11 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-toc
+  nokogiri
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.5.11
+   2.6.7
