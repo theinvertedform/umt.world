@@ -48,7 +48,7 @@ pandoc:
   format: html5
   extensions:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
-    - bibliography: "assets/bibliography.bib"
+    - bibliography: "collections/bibliography.bib"
     - citeproc
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
