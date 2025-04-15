@@ -38,6 +38,23 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |item|
   # Skip if not HTML
   next unless item.output_ext == ".html"
 
+  # Get the excluded pages and elements from config
+  site_config = item.site.config
+  excluded_pages = site_config.dig('backlinks', 'excluded_pages') || []
+  excluded_elements = site_config.dig('backlinks', 'excluded_elements') || []
+
+  # Skip processing if the page is in the excluded list
+  file_name = File.basename(item.path)
+  if excluded_pages.include?(file_name)
+    Jekyll.logger.debug "LinkHooks:", "Skipping excluded page: #{item.path}"
+    next
+  end
+
+  if excluded_pages.include?(file_name)
+    Jekyll.logger.debug "LinkHooks:", "Excluding page: #{item.path} (filename: #{file_name})"
+    next
+  end
+
   begin
     # Use Nokogiri to parse and modify HTML
     doc = Nokogiri::HTML(item.output)
@@ -46,6 +63,36 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |item|
     doc.css('a[href^="/"]').each do |link|
       # Skip if link already has an ID
       next if link['id']
+
+      # Skip if the link is in an excluded element
+      skip_link = false
+      excluded_elements.each do |excluded|
+        if excluded.start_with?('#')
+          # ID selector
+          element_id = excluded[1..]
+          element = doc.at_css("##{element_id}")
+          if element && element.css('a').include?(link)
+            skip_link = true
+            break
+          end
+        elsif excluded.start_with?('.')
+          # Class selector
+          class_name = excluded[1..]
+          elements = doc.css(".#{class_name}")
+          if elements.any? { |el| el.css('a').include?(link) }
+            skip_link = true
+            break
+          end
+        else
+          # Element selector
+          elements = doc.css(excluded)
+          if elements.any? { |el| el.css('a').include?(link) }
+            skip_link = true
+            break
+          end
+        end
+      end
+      next if skip_link
 
       # Generate an ID based on the link target
       href = link['href']

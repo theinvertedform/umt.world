@@ -101,6 +101,21 @@ google_analytics: G-5NHX2XP9H3
 
 # sass
 
+# backlinks
+backlinks:
+  excluded_pages:
+    - "index.html"
+    - "changes.html"
+    - "tags.html"
+    - "404.html"
+
+  excluded_elements:
+    - "#sidebar a"           # All links in elements with ID "sidebar"
+    - "footer a"             # All links in footer elements
+    - ".sidebar-links a"     # All links in elements with class "sidebar-links"
+    - "nav a"                # All links in navigation elements
+    - ".post-backlinks a"    # Don't create backlinks from backlinks
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

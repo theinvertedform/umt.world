@@ -14,7 +14,7 @@ class BacklinksConfig
     @output_dir = options[:output_dir] || File.join(@site_root, "_data", "backlinks")
     @site_url = options[:site_url] || "https://umt.world"
     @context_chars = options[:context_chars] || 200
-    @exclude_paths = options[:exclude_paths] || ["404.html", "feed.xml", "sitemap.xml", "robots.txt", "assets/"]
+    @exclude_paths = options[:exclude_paths] || ["404.html", "feed.xml", "sitemap.xml", "robots.txt", "index.html", "changes.html", "assets/"]
     @ignored_classes = options[:ignored_classes] || ["backlink-not", "no-backlink"]
     @debug = options[:debug] || false
   end
