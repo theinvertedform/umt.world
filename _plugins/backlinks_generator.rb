@@ -327,7 +327,7 @@ class BacklinksGenerator
 
     html = <<~HTML
       <div class="backlinks-container">
-        <h3>Pages linking to #{target_path}</h3>
+        <h3>Backlinks</h3>
         <details>
           <summary>#{links.size} Backlinks</summary>
           <ul class="backlinks-list">

@@ -120,6 +120,7 @@ backlinks:
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - .bundle/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
@@ -128,15 +129,13 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - README.md
-  - TODO.md
-  - collections/_films/reviews.csv
   - bower.json
   - bower_components/
   - collections/archive
   - collections/pdfs
   - collections/notes
+  - collections/publications
+  - collections/_novels
   - collections/.gitignore
   - collections/.git
-  - collections/_novels
-  - collections/publications
+  - collections/_films/reviews.csv
