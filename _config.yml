@@ -102,9 +102,7 @@ google_analytics: G-5NHX2XP9H3
 
 # sass
 
-# Backlinks configuration
 backlinks:
-  # Pages that should have IDs on links but won't generate backlinks
   excluded_backlink_pages:
     - "index.html"
     - "changes.html"

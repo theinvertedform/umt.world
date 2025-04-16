@@ -26,5 +26,5 @@ exclude:
   - collections/.gitignore
   - collections/.git
   - collections/_films/reviews.csv
-  - collections/_film/
-  - collections/_podcast
+  - _film/
+  - _podcast
