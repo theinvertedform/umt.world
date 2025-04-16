@@ -50,7 +50,7 @@ pandoc:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
     - bibliography: "collections/bibliography.bib"
     - citeproc
-    - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
+    #- lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
 
@@ -102,20 +102,24 @@ google_analytics: G-5NHX2XP9H3
 
 # sass
 
-# backlinks
+# Backlinks configuration
 backlinks:
-  excluded_pages:
+  # Pages that should have IDs on links but won't generate backlinks
+  excluded_backlink_pages:
     - "index.html"
     - "changes.html"
-    - "tags.html"
     - "404.html"
-
-  excluded_elements:
-    - "#sidebar a"           # All links in elements with ID "sidebar"
-    - "footer a"             # All links in footer elements
-    - ".sidebar-links a"     # All links in elements with class "sidebar-links"
-    - "nav a"                # All links in navigation elements
-    - ".post-backlinks a"    # Don't create backlinks from backlinks
+    - "feed.xml"
+    - "sitemap.xml"
+    - "robots.txt"
+  excluded_id_elements:
+    - "#sidebar"
+    - ".sidebar-links"
+  context:
+    chars_before: 100
+    chars_after: 100
+  output_dir: "_data/backlinks"
+  debug: true
 
 exclude:
   - .sass-cache/

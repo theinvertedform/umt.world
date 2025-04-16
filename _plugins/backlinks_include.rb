@@ -1,6 +1,4 @@
 # _plugins/backlinks_include.rb
-# This plugin provides a Liquid tag to include backlinks in your pages
-
 module Jekyll
   class BacklinksIncludeTag < Liquid::Tag
     def initialize(tag_name, params, tokens)
@@ -10,26 +8,30 @@ module Jekyll
 
     def render(context)
       site = context.registers[:site]
-      page_path = context['page']['url'].gsub(/\/$/, '')
+      page = context['page']
 
-      # Default to current page if no path specified
+      # Get the current page path or specified path
       if @params.empty?
-        path = page_path
+        path = page['url']
       else
         path = @params
       end
 
-      # Create filename for the backlinks snippet
-      filename = path.gsub(/^\//, '').gsub(/\//, '_')
-      filename = filename.empty? ? 'index' : filename
-      snippet_path = File.join(site.source, '_data', 'backlinks', 'snippets', "#{filename}.html")
+      # Normalize path
+      path = path.split('#')[0].split('?')[0]
 
-      # Check if the backlinks snippet exists
+      # Create snippet filename
+      filename = path.gsub(/^\//, '').gsub(/\//, '_')
+      filename = "index" if filename.empty?
+
+      # Check if snippet exists
+      snippet_path = File.join(site.source, site.config.dig('backlinks', 'output_dir') || '_data/backlinks', 'snippets', "#{filename}.html")
+
       if File.exist?(snippet_path)
         content = File.read(snippet_path)
         return content
       else
-        return "<div class='no-backlinks'>No backlinks found</div>"
+        return ""
       end
     end
   end

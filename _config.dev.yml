@@ -1,9 +1,30 @@
-collection:
+collections:
   film:
-    outpute: false
+    output: false
   podcast:
     output: false
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .bundle/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bower.json
+  - bower_components/
+  - collections/archive
+  - collections/pdfs
+  - collections/notes
+  - collections/publications
+  - collections/_novels
+  - collections/.gitignore
+  - collections/.git
+  - collections/_films/reviews.csv
   - collections/_film/
   - collections/_podcast

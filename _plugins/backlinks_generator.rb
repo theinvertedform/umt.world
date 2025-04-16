@@ -1,378 +1,191 @@
-#!/usr/bin/env ruby
-# _plugins/backlinks_generator.rb - Generate context-aware backlinks for your Jekyll website
+# _plugins/backlinks_generator.rb
 require 'nokogiri'
 require 'fileutils'
-require 'yaml'
 require 'json'
 
-class BacklinksConfig
-  attr_reader :site_root, :output_dir, :html_dir, :site_url, :context_chars, :debug
+module Jekyll
+  class BacklinksGenerator < Jekyll::Generator
+    safe true
+    priority :lowest # Run after all other generators
 
-  def initialize(options = {})
-    @site_root = options[:site_root] || File.expand_path("~/dev/umtworld") # Changed to your actual site root
-    @html_dir = options[:html_dir] || File.join(@site_root, "_site")
-    @output_dir = options[:output_dir] || File.join(@site_root, "_data", "backlinks")
-    @site_url = options[:site_url] || "https://umt.world"
-    @context_chars = options[:context_chars] || 200
-    @exclude_paths = options[:exclude_paths] || ["404.html", "feed.xml", "sitemap.xml", "robots.txt", "index.html", "changes.html", "assets/"]
-    @ignored_classes = options[:ignored_classes] || ["backlink-not", "no-backlink", "sidebar-links"]
-    @debug = options[:debug] || false
-  end
+    def generate(site)
+      # Skip during watch mode/incremental builds
+      return if site.config['watch']
 
-  def excluded?(path)
-    @exclude_paths.any? { |excluded| path.include?(excluded) }
-  end
+      @site = site
+      @config = site.config.dig('backlinks') || {}
+      @excluded_backlink_pages = @config['excluded_backlink_pages'] || []
+      @output_dir = File.join(site.source, @config['output_dir'] || '_data/backlinks')
+      @debug = @config['debug'] || false
 
-  def ignored_class?(classes)
-    return false unless classes
-    classes.split.any? { |cls| @ignored_classes.include?(cls) }
-  end
-end
+      # Create output directory
+      FileUtils.mkdir_p(@output_dir)
+      FileUtils.mkdir_p(File.join(@output_dir, 'snippets'))
 
-class Link
-  attr_reader :source_path, :source_url, :target_path, :target_url, :link_id, :context, :title
+      # Extract and organize backlinks
+      @all_backlinks = extract_backlinks
+      generate_backlink_files
+    end
 
-  def initialize(source_path, source_url, target_path, target_url, link_id, context, title)
-    @source_path = source_path
-    @source_url = source_url
-    @target_path = target_path
-    @target_url = target_url
-    @link_id = link_id
-    @context = context
-    @title = title
-  end
+    def extract_backlinks
+      backlinks = {}
 
-  def to_h
-    {
-      'source_path' => @source_path,
-      'source_url' => @source_url,
-      'target_path' => @target_path,
-      'target_url' => @target_url,
-      'link_id' => @link_id,
-      'context' => @context,
-      'title' => @title
-    }
-  end
-end
-
-class BacklinksGenerator
-  def initialize(options = {})
-    @config = BacklinksConfig.new(options)
-    @links = []
-    @backlinks = {}
-    FileUtils.mkdir_p(@config.output_dir)
-    FileUtils.mkdir_p(File.join(@config.output_dir, 'snippets'))
-
-    puts "Using HTML directory: #{@config.html_dir}"
-    puts "Using output directory: #{@config.output_dir}"
-  end
-
-  def extract_links
-    puts "Extracting links from HTML files..."
-
-    files_checked = 0
-    links_found = 0
-
-    Dir.glob(File.join(@config.html_dir, "**", "*.html")).each do |file|
-      rel_path = file.sub(@config.html_dir + '/', '')
-
-      if @config.excluded?(rel_path)
-        puts "  Skipping excluded file: #{rel_path}" if @config.debug
-        next
+      @site.documents.each do |doc|
+        process_backlinks(doc, backlinks)
       end
 
-      files_checked += 1
+      @site.pages.each do |page|
+        process_backlinks(page, backlinks)
+      end
+
+      return backlinks
+    end
+
+    def process_backlinks(item, backlinks)
+      # Skip if not HTML
+      return unless item.output_ext == ".html"
+
+      # Skip excluded pages for backlink generation
+      file_name = File.basename(item.path)
+      if @excluded_backlink_pages.include?(file_name)
+        Jekyll.logger.debug "Backlinks:", "Skipping backlinks for excluded page: #{file_name}" if @debug
+        return
+      end
 
       begin
-        doc = File.open(file) { |f| Nokogiri::HTML(f) }
-        source_url = rel_path.gsub(/index\.html$/, '').gsub(/\.html$/, '')
-        source_url = '/' + source_url unless source_url.start_with?('/')
+        # Parse the document
+        doc = Nokogiri::HTML(item.output)
+        source_url = item.url
 
         # Get page title
         title = doc.at_css('title')&.text || source_url
-        title = title.sub(' - umt.world', '') # Remove site name from title
+        title = title.sub(' - umt.world', '') # Remove site name
 
-        # Debug info
-        if @config.debug
-          puts "  Checking file: #{rel_path}"
-          puts "    Source URL: #{source_url}"
-          puts "    Title: #{title}"
+        # Find all internal links with IDs
+        doc.css('a[href^="/"][id]').each do |link|
+          target_url = link['href'].split('#')[0].split('?')[0]
 
-          # Check for any links first
-          any_links = doc.css('a[href^="/"]').size
-          puts "    Found #{any_links} internal links total"
+          # Extract context
+          context = extract_context(link)
 
-          # Check for links with IDs
-          links_with_ids = doc.css('a[id][href^="/"]').size
-          puts "    Found #{links_with_ids} internal links with IDs"
-
-          # List actual link_hooks.rb generated IDs for inspection
-          puts "    Sample of link IDs found:"
-          doc.css('a[id][href^="/"]').each_with_index do |link, index|
-            break if index >= 5 # Only show first 5 examples
-            puts "      #{link['id']} -> #{link['href']}"
-          end
-        end
-
-        # Process all links with IDs
-        doc.css('a[id][href^="/"]').each do |link|
-          if @config.ignored_class?(link['class'])
-            puts "    Skipping link with ignored class: #{link['href']}" if @config.debug
-            next
-          end
-
-          link_id = link['id']
-          target_url = link['href']
-
-          # Split the URL into path and fragment
-          target_path, fragment = target_url.include?('#') ? target_url.split('#', 2) : [target_url, nil]
-
-          # Extract context - get the parent paragraph or nearest block element
-          context_node = find_context_node(link)
-          context = extract_context_text(context_node, link, @config.context_chars)
-
-          # Add to links collection
-          @links << Link.new(
-            rel_path,
-            source_url,
-            target_path.sub(/\/$/, ''),
-            target_url,
-            link_id,
-            context,
-            title
-          )
-
-          links_found += 1
-          puts "    Added link: #{link_id} (#{target_url})" if @config.debug
+          # Add to backlinks collection
+          backlinks[target_url] ||= []
+          backlinks[target_url] << {
+            'source_url' => source_url,
+            'target_url' => target_url,
+            'link_id' => link['id'],
+            'context' => context,
+            'title' => title
+          }
         end
       rescue => e
-        puts "Error processing #{file}: #{e.message}"
-        puts e.backtrace.join("\n") if @config.debug
+        Jekyll.logger.error "Backlinks:", "Error processing #{item.path}: #{e.message}"
       end
     end
 
-    puts "Checked #{files_checked} files and found #{links_found} links with IDs"
+    def extract_context(link)
+      # Find the containing paragraph or block
+      container = find_context_container(link)
+      return link.text unless container
 
-    # Let's try to diagnose the issue if no links were found
-    if links_found == 0
-      puts "\nNo links found. Let's diagnose the issue:"
+      # Get the text
+      text = container.text.strip.gsub(/\s+/, ' ')
 
-      # Check if any HTML files were found
-      html_files = Dir.glob(File.join(@config.html_dir, "**", "*.html")).reject { |f| @config.excluded?(f.sub(@config.html_dir + '/', '')) }
-      puts "  Found #{html_files.size} HTML files (excluding filtered ones)"
+      # If text is short enough, use all of it
+      chars_context = @config.dig('context', 'chars_before').to_i + @config.dig('context', 'chars_after').to_i
+      chars_context = 200 if chars_context <= 0
 
-      if html_files.empty?
-        puts "  ❌ No HTML files found. Check if your site is built and the html_dir path is correct."
-        puts "  Current html_dir: #{@config.html_dir}"
+      return text if text.length <= chars_context
+
+      # Find the position of the link text
+      link_text = link.text.strip
+      link_position = text.index(link_text)
+
+      if link_position
+        # Calculate extract positions
+        chars_before = @config.dig('context', 'chars_before') || 100
+        chars_after = @config.dig('context', 'chars_after') || 100
+
+        start_pos = [link_position - chars_before, 0].max
+        end_pos = [link_position + link_text.length + chars_after, text.length].min
+
+        # Extract text with ellipses if needed
+        extract = text[start_pos...end_pos]
+        extract = "..." + extract if start_pos > 0
+        extract = extract + "..." if end_pos < text.length
+
+        return extract
       else
-        # Sample a few files to check if they have any internal links
-        sample_file = html_files.first
-        puts "  Checking sample file: #{sample_file}"
+        # Fallback if link text not found
+        return text[0...chars_context] + "..."
+      end
+    end
 
-        begin
-          doc = File.open(sample_file) { |f| Nokogiri::HTML(f) }
-
-          # Check for any links
-          internal_links = doc.css('a[href^="/"]').size
-          puts "    Found #{internal_links} internal links"
-
-          if internal_links > 0
-            # There are internal links, but no IDs - check if link_hooks.rb is working
-            puts "    ❓ Your HTML has internal links but none have IDs."
-            puts "    Check if your link_hooks.rb plugin is working correctly."
-
-            # Show a sample of links without IDs
-            puts "    Sample of links without IDs:"
-            doc.css('a[href^="/"]').each_with_index do |link, index|
-              break if index >= 5
-              puts "      #{link['href']} (ID: #{link['id'] || 'none'})"
-            end
-          else
-            puts "    ❌ No internal links found in the sample file."
-          end
-        rescue => e
-          puts "    Error examining sample file: #{e.message}"
-        end
+    def find_context_container(link)
+      # Look for appropriate container elements
+      ['p', 'li', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].each do |tag|
+        container = link.ancestors(tag).first
+        return container if container
       end
 
-      puts "\nPossible solutions:"
-      puts "  1. Make sure your site is built before running this script (jekyll build)"
-      puts "  2. Check if link_hooks.rb is loaded and working correctly"
-      puts "  3. Try modifying the script to match your actual HTML structure"
-      puts "  4. Run the script with full debug output: ruby _plugins/backlinks_generator.rb --debug"
+      # Fallback to parent
+      return link.parent
     end
 
-    puts "Extracted #{@links.size} links from HTML files."
-  end
+    def generate_backlink_files
+      # Generate JSON data and HTML snippets
+      @all_backlinks.each do |target_url, links|
+        # Skip if no backlinks
+        next if links.empty?
 
-  def find_context_node(link)
-    # Try to find the closest parent that provides good context
-    node = link
+        # Create filename
+        filename = target_url.gsub(/^\//, '').gsub(/\//, '_')
+        filename = "index" if filename.empty?
 
-    # Look for parent paragraph, blockquote, list item, etc.
-    context_elements = ['p', 'blockquote', 'li', 'div.markdownBody', 'section', 'article']
+        # Write JSON data
+        json_path = File.join(@output_dir, "#{filename}.json")
+        File.write(json_path, JSON.pretty_generate(links))
 
-    context_elements.each do |selector|
-      ancestor = link.ancestors(selector).first
-      return ancestor if ancestor
+        # Write HTML snippet
+        snippet_path = File.join(@output_dir, 'snippets', "#{filename}.html")
+        File.write(snippet_path, generate_html_snippet(links))
+      end
+
+      # Write index file
+      index_path = File.join(@output_dir, "all_backlinks.json")
+      File.write(index_path, JSON.pretty_generate(@all_backlinks))
+
+      Jekyll.logger.info "Backlinks:", "Generated backlinks for #{@all_backlinks.size} pages"
     end
 
-    # If we didn't find a good context element, just use the parent
-    return link.parent
-  end
+    def generate_html_snippet(links)
+      # Sort links by title
+      links.sort_by! { |link| link['title'].downcase }
 
-  def extract_context_text(node, link, max_chars)
-    return '' unless node
-
-    # Get the text content
-    text = node.text.strip.gsub(/\s+/, ' ')
-
-    # If the text is short enough, use it all
-    return text if text.length <= max_chars
-
-    # Try to find the position of the link text within the context
-    link_text = link.text.strip
-    link_position = text.index(link_text)
-
-    if link_position
-      # Calculate start and end positions for the extract
-      half_length = max_chars / 2
-      start_pos = [link_position - half_length, 0].max
-      end_pos = [link_position + link_text.length + half_length, text.length].min
-
-      # Extract the relevant portion
-      extract = text[start_pos...end_pos]
-
-      # Add ellipsis if needed
-      extract = "..." + extract if start_pos > 0
-      extract = extract + "..." if end_pos < text.length
-
-      return extract
-    else
-      # If we can't find the link text, just take the first part of the context
-      return text[0...max_chars] + "..."
-    end
-  end
-
-  def organize_backlinks
-    puts "Organizing backlinks..."
-
-    # Group links by target URL
-    @links.each do |link|
-      target_key = link.target_path
-      @backlinks[target_key] ||= []
-      @backlinks[target_key] << link
-    end
-
-    puts "Organized backlinks for #{@backlinks.size} target URLs."
-  end
-
-  def generate_backlinks_data
-    puts "Generating backlink data files..."
-
-    # Create JSON files for each target
-    @backlinks.each do |target_path, links|
-      # Create a sanitized filename
-      filename = target_path.gsub(/^\//, '').gsub(/\//, '_')
-      filename = filename.empty? ? 'index' : filename
-      filename = "#{filename}.json"
-
-      # Convert links to hashes
-      links_data = links.map(&:to_h)
-
-      # Write to JSON file
-      output_path = File.join(@config.output_dir, filename)
-      File.write(output_path, JSON.pretty_generate(links_data))
-    end
-
-    # Create an index file with all backlinks
-    index_path = File.join(@config.output_dir, 'all_backlinks.json')
-    all_backlinks = {}
-
-    @backlinks.each do |target_path, links|
-      all_backlinks[target_path] = links.map(&:to_h)
-    end
-
-    File.write(index_path, JSON.pretty_generate(all_backlinks))
-
-    puts "Generated #{@backlinks.size + 1} backlink data files."
-  end
-
-  def generate_html_snippets
-    puts "Generating HTML snippets for backlinks..."
-
-    snippets_dir = File.join(@config.output_dir, 'snippets')
-    FileUtils.mkdir_p(snippets_dir)
-
-    @backlinks.each do |target_path, links|
-      # Create a sanitized filename
-      filename = target_path.gsub(/^\//, '').gsub(/\//, '_')
-      filename = filename.empty? ? 'index' : filename
-      filename = "#{filename}.html"
-
-      # Generate HTML content
-      html = generate_backlinks_html(target_path, links)
-
-      # Write to file
-      output_path = File.join(snippets_dir, filename)
-      File.write(output_path, html)
-    end
-
-    puts "Generated #{@backlinks.size} HTML snippet files."
-  end
-
-  def generate_backlinks_html(target_path, links)
-    # Sort links by source title for easier reading
-    links = links.sort_by { |link| link.title.downcase }
-
-    html = <<~HTML
-      <div class="backlinks-container">
-        <h3>Backlinks</h3>
-        <details>
-          <summary>#{links.size} Backlinks</summary>
-          <ul class="backlinks-list">
-    HTML
-
-    links.each do |link|
-      html += <<~HTML
-        <li class="backlink-item">
-          <a href="#{link.source_url}" class="backlink-source">#{link.title}</a>
-          <blockquote class="backlink-context">
-            #{link.context}
-          </blockquote>
-        </li>
+      html = <<~HTML
+        <div class="backlinks-container">
+          <h2>Backlinks</h2>
+          <details>
+            <summary>#{links.size} page#{links.size == 1 ? '' : 's'} link#{links.size == 1 ? 's' : ''} to this page</summary>
+            <ul class="backlinks-list">
       HTML
+
+      links.each do |link|
+        html += <<~HTML
+              <li class="backlink-item">
+                <a href="#{link['source_url']}" class="backlink-source">#{link['title']}</a>
+                <blockquote class="backlink-context">#{link['context']}</blockquote>
+              </li>
+        HTML
+      end
+
+      html += <<~HTML
+            </ul>
+          </details>
+        </div>
+      HTML
+
+      return html
     end
-
-    html += <<~HTML
-          </ul>
-        </details>
-      </div>
-    HTML
-
-    return html
   end
-
-  def run
-    puts "Starting backlinks generation..."
-    extract_links
-    organize_backlinks
-    generate_backlinks_data
-    generate_html_snippets
-    puts "Backlinks generation complete!"
-  end
-end
-
-# Parse command line arguments
-if ARGV.include?('--debug')
-  debug = true
-  ARGV.delete('--debug')
-else
-  debug = false
-end
-
-# If this file is being executed directly, run the generator
-if __FILE__ == $PROGRAM_NAME
-  generator = BacklinksGenerator.new({debug: debug})
-  generator.run
 end
