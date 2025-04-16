@@ -105,11 +105,16 @@ google_analytics: G-5NHX2XP9H3
 backlinks:
   excluded_backlink_pages:
     - "index.html"
+    - "index"
+    - "/index"
     - "changes.html"
     - "404.html"
     - "feed.xml"
     - "sitemap.xml"
     - "robots.txt"
+    - "tags.html"
+    - "tags"
+    - "/tags"
   excluded_id_elements:
     - "#sidebar"
     - ".sidebar-links"

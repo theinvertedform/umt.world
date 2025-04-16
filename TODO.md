@@ -1,94 +1,122 @@
 ---
-title: To do
-description: My vision for the website.
+title: umt.world Development Plan
+description: A never-ending roadmap to success.
+published: true
+toc: true
+permalink: to-do
 ---
 
-# Git-related
-- ~~Add a link to page commit history in metadata~~
-	* Currently quite hacky; should be a Jekyll datatype
-- ~~"Last revised" parenthetical on diary entries with link to commit history~~
+# High Priority
 
-# Changelog
-- Group items together under a single list item per category
-- Add a summary of changes to ongoing projects: "Diary: +400 words, -200 words, 23% different."
-- Add a summary of changes per month: how many commits, changes in word count and LOC, new references added to the bibliography
-- Create a better visual system to organize categories
+## Core Functionality
 
-# Posts
-- ~~Sidenotes~~
-- Margin notes
-- Backlinks section for posts and sections (including diary entries)
-	- A hook is used to give all links an ID
-		- Exceptions are identified by page or by html element
-	- Plugin searches pages for links with IDs (preceding sentence, sentence in which the link appears, subsequent sentence)
-		- Skips pages in exclusion list ?
-		- Skips elements in exclusion list ?
-	- Generates database of backlinks
-- ~~Section headers should link to their anchor~~
-	- Paragraph/section icon is solid for the section clicked, otherwise appears on hover
+- Backlinks
+	- Each section within a page should get its own backlinks section
+	- A page only gets a backlinks section if there is a link to that page's base URL
+	- We currently have the issue of a page appearing as a backlink when it contains a link to itself
+		- A link on a page should only appear as a backlink for the base URL within the subsection it links to
+	- Context should be the surrounding paragraph up to a max of 250 words, at which point it should cut off at the nearest sentence
+	- Context should preserve formatting, including links
+	- Format should be as a list, with the Title of the page as a hyperlink, and an optional (full context) parenthetical linking to the sub-section
+	- The content of the backlink should appear in a blockquote
+	- Skip adding backlinks to binaries or links that are not contained on the root domain
+	- The plugin is also generating the section in the HTML even if there are no items to populate it
+- Bibliography, Footnotes, Backlinks sections linked to in TOC
+	- Only if the items exist
+	- Automatically included in the TOC
+- Tagging system
+	- A tag can be applied to a post, a diary entry, a document, or a link
+	- Individual tag posts
+
+## Content Organization
+
+- We need a better structure and organization method for the Film section
+	- https://umt.world/films
+		- https://umt.world/films/flight-risk-2025/ - Every film in the database gets its own landing page, where we can group metadata, my reviews, log entries, bibentries that reference it, and backlinks to any other references to it
+		- https://umt.world/films#favourites - Top Four front-and-centre
+		- https://umt.world/films#criticism - Section that highlights long-form film writing
+		- https://umt.world/films#lists / https://umt.world/films/lists - Section that highlights Lists
+		- https://umt.world/films#diary / https://umt.world/films/diary - Film Diary entries (logged films), along with Reviews if applicable
+		- https://umt.world/films/all (?) - Database of all films
+
+## Design Improvements
+
+* Consistent use of the paragraph sign for headers; only shows on hover; stays when section is clicked (JS solution?)
+- Unique list style types
+- Auto / light / dark mode
+
+# Medium Priority
+
+## Visual Enhancements
+
+- Typographic style + links for all references
 - Lightbox option for images
 - Slideshow option for images
-- ~~Style image borders, add shadows~~
-- Reference, Footnote, Backlinks, and Similar Links sections generated for each page
-	- Only if the section exists
-	- Automatically included in the TOC
+- More multi-media in *Diaries* for more of a scrapbook design
+- Create a better visual system to organize categories
+- Better visual system for items in the Bibliography section
+- Modify the CSL so that each reference points to an item included
 
-# Pandoc-related
-- Bibliography section linked to in TOC
-- Better formatting for bibliography items
-- Each reference should link to a self-hosted pdf
+## Navigation Improvements
 
-# Index
-- ~~Graphic to separate section clusters~~
-- Different list style type for different sections
-
-# Site-wide
-- ~~Change sidebar to top-style navbar~~
-- Custom icons for lists
-- ~~New logo~~
 - Link annotations
 	- Favicons for external website
 	- Annotations for different filetypes
 	- Annotations for newly-updated internal links
+- Return to Top button
+- "Similar Posts" section linked to in TOC
+	- Similar Links based on tagging
+- Title of *Diary* entry should link to its anchor
+
+# Long-term
+
+## Content Enrichment
+
+- "Blogroll" section on the bottom of each page that selects a quote, pdf, link, or whatever for each day
+- Group items together under a single list item per category
+- Changelog summary for ongoing projects: "Diary: +400 words, -200 words, 23% different."
+- Changelog summary of changes per month: how many commits, changes in word count and LOC, new references, links, etc added
+
+## Design Improvements
+
+- Margin notes
+- Drop caps
+- Style code blocks
+	- Custom syntax highlighting based on umt.world colourscheme
 - Set of ornaments
 	- End mark
 	- Section mark
 	- Manicule
 	- Fleurons
-- ~~Footer, giving a better visual break from the page~~
-- "Blogroll" section on the bottom of each page that selects a quote, pdf, link, or whatever for each day
-- Auto / light / dark mode
-- Return to Top button
-- "Similar posts" section
 
-# Typography
-- ~~Justified text with automatic hyphenation~~
-	- No more than two annotations in a row
-	- 3 characters before hyphen
-	- No rivers
-- Drop caps
-- Style for code blocks
-- ~~Responsive text size~~
-- Typographic style + links for all references
-
-# Diaries
-- ~~Re-structure the diary into chronological chapters~~
-	- How does the voice of the *Diaries* relate to the voice used throughout the website?
-- Metadata about how many times a post has changed \& to what extent, with a link that preserves the full history of each unit of text
-- A tagging system
-- *Dramatis personae* section, still anonymous (?)
-- Some kind of mapping system
-- More metadata content in the margins
-- Integrate the Film Diary into the Diaries (?)
-- Title should link to entry permalink
-- More images, more of a scrapbook vibe
-
-# About
-- Until we have a proper essay ready, this page would probably be better off as an annotated bibliography and a collection of visual inspiration
-- Integrate text from the README into the About page
-
-# Photos
+## Photos
 - A new style of page organized around single photos and photo galleries
 - Design system based on Instagram
 - Tagging and linking system for photos
 - Pieces of visual culture, in addition to original photos
+
+## Diaries
+
+- Since the project is psychogeographical, it could use a mapping system
+- Git history and complete evolution of every unit of text
+- More metadata content in the margins
+
+# Completed Tasks
+- ~~Re-structure the diary into chronological chapters~~
+	- How does the voice of the *Diaries* relate to the voice used throughout the website?
+- ~~Add a link to page commit history in metadata~~
+	* Doesn't add anything since putting collections in a submodule; there should still be some way to see the history of published files on github
+- ~~"Last revised" parenthetical on diary entries with link to commit history~~
+- ~~Sidenotes~~
+	* Currently has some bugs relating to re-drawing sn to fn when resizing the viewport
+- ~~Section headers should link to their anchor~~
+- ~~Style image borders, add shadows~~
+- ~~Graphic to separate section clusters~~
+- ~~Change sidebar to top-style navbar~~
+- ~~New logo~~
+- ~~Footer, giving a better visual break from the page~~
+- ~~Justified text with automatic hyphenation~~
+	- No more than two annotations in a row
+	- 3 characters before hyphen
+	- No rivers
+- ~~Responsive text size~~

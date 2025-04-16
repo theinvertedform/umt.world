@@ -21,8 +21,9 @@ module Jekyll
       return unless item.output_ext == ".html"
 
       begin
-        # Parse the document
-        doc = Nokogiri::HTML(item.output)
+        # Use a fragment parser instead of full document parser
+        # This preserves existing HTML structure better
+        doc = Nokogiri::HTML.fragment(item.output)
 
         # Find all internal links and add IDs
         modified = false
