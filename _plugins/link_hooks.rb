@@ -56,11 +56,15 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |item|
   end
 
   begin
-    # Use Nokogiri to parse and modify HTML
-    doc = Nokogiri::HTML(item.output)
+    # Use Nokogiri in XML mode with HTML fragment parsing to preserve structure
+    doc = Nokogiri::HTML::DocumentFragment.parse(item.output)
+
+    # Create a full document to work with
+    full_doc = Nokogiri::HTML::Document.new
+    full_doc.root = doc
 
     # Find all internal links
-    doc.css('a[href^="/"]').each do |link|
+    full_doc.css('a[href^="/"]').each do |link|
       # Skip if link already has an ID
       next if link['id']
 
@@ -99,8 +103,9 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |item|
       link['id'] = LinkIdHelpers.generate_link_id(href)
     end
 
-    # Save the modified HTML back to the page
-    item.output = doc.to_html
+    # Save the modified HTML back to the page, using to_html with options
+    # that preserve the original formatting more closely
+    item.output = doc.to_html(save_with: Nokogiri::XML::Node::SaveOptions::AS_HTML)
   rescue => e
     # Log any errors but don't crash the build
     Jekyll.logger.error "LinkHooks:", "Error processing #{item.path}: #{e.message}"

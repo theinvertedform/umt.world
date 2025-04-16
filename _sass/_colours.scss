@@ -1,3 +1,5 @@
+// light mode
+
 $background-colour: #FFFFF8;
 $text-colour: #2A2A29;
 $link-colour: #555553;
@@ -9,3 +11,18 @@ $secondary-hover-colour: #dfdfe5;
 $secondary-border-colour: #c6c6cc;
 $highlight-colour: #ad1c42;
 $highlight-colour-secondary: #8e3b51;
+
+// dark mode
+
+$dark-background-colour: #2A2A29;
+$dark-text-colour: #FFFFF8;
+$dark-link-colour: #80807c;
+$dark-hover-colour: #555553;
+
+$dark-border-colour: #555553;
+$dark-secondary-background-colour: #4a4a4c;
+$dark-secondary-text-colour: #F8F8FF;
+$dark-secondary-hover-colour: #dfdfe5;
+$dark-secondary-border-colour: #c6c6cc;
+$dark-highlight-colour: #ad1c42;
+$dark-highlight-colour-secondary: #8e3b51;
