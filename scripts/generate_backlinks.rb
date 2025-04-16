@@ -173,39 +173,95 @@ class BacklinksGenerator
     container = find_context_container(link)
     return link.text unless container
 
-    # Get the text
-    text = container.text.strip.gsub(/\s+/, ' ')
+    # Get the HTML content to preserve formatting
+    html_content = container.inner_html.strip
+    plain_text = container.text.strip.gsub(/\s+/, ' ')
 
-    # If text is short enough, use all of it
-    chars_before = @config.dig('backlinks', 'context', 'chars_before') || 100
-    chars_after = @config.dig('backlinks', 'context', 'chars_after') || 100
-    chars_context = chars_before + chars_after
+    # Maximum word count for context
+    max_words = 250
 
-    return text if text.length <= chars_context
-
-    # Find the position of the link text
-    link_text = link.text.strip
-    link_position = text.index(link_text)
+    # Find the position of the link in the HTML
+    link_html = link.to_html
+    link_position = html_content.index(link_html)
 
     if link_position
-      # Calculate extract positions
-      start_pos = [link_position - chars_before, 0].max
-      end_pos = [link_position + link_text.length + chars_after, text.length].min
+      # Split the HTML at the link position
+      before_html = html_content[0...link_position]
+      after_html = html_content[link_position + link_html.length..-1]
 
-      # Extract text with ellipses if needed
-      extract = text[start_pos...end_pos]
-      extract = "..." + extract if start_pos > 0
-      extract = extract + "..." if end_pos < text.length
+      # Get the paragraph text from the beginning
+      start_pos = 0
 
-      return extract
+      # Count words in the combined text
+      combined_text = plain_text
+      word_count = combined_text.split.size
+
+      if word_count > max_words
+        # We need to truncate, prioritizing text after the link
+
+        # Get words after the link
+        after_text = Nokogiri::HTML(after_html).text.strip
+        after_words = after_text.split
+
+        # If after-text is short enough, include all of it
+        if after_words.length < max_words
+          # Use remaining word count for before-text
+          remaining_words = max_words - after_words.length
+
+          # Get words before the link
+          before_text = Nokogiri::HTML(before_html).text.strip
+          before_words = before_text.split
+
+          if before_words.length > remaining_words
+            # Need to truncate before-text at word boundary
+            before_text = before_words.last(remaining_words).join(' ')
+            # Add ellipsis at the beginning
+            before_html = "..." + before_html.split(/\s+/).last(remaining_words).join(' ')
+          end
+        else
+          # After-text needs truncation
+          # Find a sentence boundary within the word limit
+          after_text_truncated = after_words.first(max_words).join(' ')
+
+          # Try to end at a sentence boundary
+          sentence_end = after_text_truncated.rindex(/[.!?]\s/)
+          if sentence_end && sentence_end > (after_text_truncated.length / 2)
+            after_text_truncated = after_text_truncated[0..sentence_end+1]
+          end
+
+          # Replace after_html with truncated version + ellipsis
+          after_html = after_text_truncated + "..."
+          before_html = "" # No space for before-text in this case
+        end
+      end
+
+      # Combine the HTML parts
+      result_html = before_html + link_html + after_html
+
+      # Convert HTML back to text, but preserve basic formatting
+      result = Nokogiri::HTML(result_html).text.strip
+
+      return result
     else
-      # Fallback if link text not found
-      return text[0...chars_context] + "..."
+      # Fallback if link not found in HTML
+      words = plain_text.split
+      if words.length > max_words
+        # Truncate at sentence boundary if possible
+        truncated = words.first(max_words).join(' ')
+        sentence_end = truncated.rindex(/[.!?]\s/)
+        if sentence_end && sentence_end > (truncated.length / 2)
+          return truncated[0..sentence_end+1] + "..."
+        else
+          return truncated + "..."
+        end
+      else
+        return plain_text
+      end
     end
   end
 
   def find_context_container(link)
-    # Look for appropriate container elements
+    # Look for appropriate container elements, prioritizing paragraphs
     ['p', 'li', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'section'].each do |tag|
       container = link.ancestors(tag).first
       return container if container

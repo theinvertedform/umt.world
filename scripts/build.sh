@@ -5,10 +5,6 @@ set -e
 echo "Installing gems..."
 bundle install
 
-# Install Nokogiri (needed for generate_backlinks.rb)
-echo "Installing Nokogiri..."
-gem install nokogiri
-
 # Build the site
 echo "Building Jekyll site..."
 JEKYLL_ENV=production bundle exec jekyll build
