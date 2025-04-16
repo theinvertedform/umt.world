@@ -73,7 +73,7 @@ collections:
     permalink: ":title"
   film:
     output: true
-    permalink: "/reviews/:title"
+    permalink: "/films/:title-:year"
   reviews:
     output: true
     permalink: "/reviews/:title"
