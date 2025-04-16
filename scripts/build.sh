@@ -5,16 +5,24 @@ set -e
 echo "Installing gems..."
 bundle install
 
+# Install Nokogiri (needed for generate_backlinks.rb)
+echo "Installing Nokogiri..."
+gem install nokogiri
+
 # Build the site
 echo "Building Jekyll site..."
 JEKYLL_ENV=production bundle exec jekyll build
 
-# Generate backlinks
-echo "Generating backlinks..."
-ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks
+# Generate backlinks (only if the script exists)
+if [ -f "scripts/generate_backlinks.rb" ]; then
+  echo "Generating backlinks..."
+  ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks
 
-# Rebuild the site to include the backlinks data
-echo "Rebuilding Jekyll site with backlinks..."
-JEKYLL_ENV=production bundle exec jekyll build
+  # Rebuild the site to include the backlinks data
+  echo "Rebuilding Jekyll site with backlinks..."
+  JEKYLL_ENV=production bundle exec jekyll build
+else
+  echo "Skipping backlinks generation (script not found)"
+fi
 
 echo "Build completed successfully!"
