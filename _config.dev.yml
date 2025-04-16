@@ -48,8 +48,9 @@ pandoc:
   format: html5
   extensions:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
-    - bibliography: "assets/bibliography.bib"
+    - bibliography: "collections/bibliography.bib"
     - citeproc
+    - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
 
@@ -115,6 +116,7 @@ backlinks:
     - ".sidebar-links a"     # All links in elements with class "sidebar-links"
     - "nav a"                # All links in navigation elements
     - ".post-backlinks a"    # Don't create backlinks from backlinks
+    - "logo"
 
 exclude:
   - .sass-cache/

@@ -15,7 +15,7 @@ class BacklinksConfig
     @site_url = options[:site_url] || "https://umt.world"
     @context_chars = options[:context_chars] || 200
     @exclude_paths = options[:exclude_paths] || ["404.html", "feed.xml", "sitemap.xml", "robots.txt", "index.html", "changes.html", "assets/"]
-    @ignored_classes = options[:ignored_classes] || ["backlink-not", "no-backlink"]
+    @ignored_classes = options[:ignored_classes] || ["backlink-not", "no-backlink", "sidebar-links"]
     @debug = options[:debug] || false
   end
 

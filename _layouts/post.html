@@ -48,7 +48,7 @@ layout: default
 				<blockquote itemprop="abstract">{{ page.abstract | markdownify }}</blockquote>
 			</aside>
 		{% endif %}
-	  {{ content }}
+	  {% include anchor_headings.html html=content anchorBody="" beforeHeading=false generateId=true %}
   </div>
 
   <section id="backlinks" class="post-backlinks">

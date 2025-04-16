@@ -72,4 +72,3 @@ One of the classic things that hypertext theorists love to talk about is linking
 
 Like the URL, metadata is another element that is both aesthetic and technical, and which sits at the core of the website as a hypertext artwork. We want to think up metadata categories that can be used to represent the important aspects of a page. They will need to be standardized, somehow.
 
-# References

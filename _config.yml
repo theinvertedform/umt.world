@@ -50,6 +50,7 @@ pandoc:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
     - bibliography: "collections/bibliography.bib"
     - citeproc
+    - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
 

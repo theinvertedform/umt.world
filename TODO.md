@@ -18,11 +18,20 @@ description: My vision for the website.
 - ~~Sidenotes~~
 - Margin notes
 - Backlinks section for posts, including diary entries
+	- A hook is used to give all links an ID
+		- Exceptions are identified by page or by html element
+	- Plugin searches pages for links with IDs (preceding sentence, sentence in which the link appears, subsequent sentence)
+		- Skips pages in exclusion list ?
+		- Skips elements in exclusion list ?
+	- Generates database of backlinks
 - Section headers should link to their anchor
 	- Paragraph/section icon is solid for the section clicked, otherwise appears on hover
 - Lightbox option for images
 - Slideshow option for images
 - ~~Style image borders, add shadows~~
+- Reference, Footnote, Backlinks, and Similar Links sections generated for each page
+	- Only if the section exists
+	- Automatically included in the TOC
 
 # Pandoc-related
 - Bibliography section linked to in TOC

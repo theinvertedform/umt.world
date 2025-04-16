@@ -13,7 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-toc"
   gem 'jekyll-redirect-from'
   gem 'jekyll-last-modified-at'
-  #gem "jekyll-scholar"
   gem "jekyll-pandoc"
   gem "jekyll-github-metadata"
   gem 'jekyll-sass-converter'
@@ -21,7 +20,6 @@ group :jekyll_plugins do
   gem 'base64'
   gem 'bigdecimal'
   gem 'nokogiri'
-  #gem "pandoc-ruby"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
