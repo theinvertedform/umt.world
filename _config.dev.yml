@@ -6,8 +6,4 @@ collection:
 
 exclude:
   - collections/_film/
-  - collections/.gitignore
-  - collections/.git
-  - collections/_novels
-  - collections/publications
   - collections/_podcast
