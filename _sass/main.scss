@@ -8,11 +8,15 @@
 
 /* variables */
 
-$body-font: "Kings Caslon Regular", serif;
-$body-font-bold: "Kings Caslon Bold", serif;
-$body-font-italic: "Kings Caslon Italic", serif;
+//$body-font: "Kings Caslon Regular", serif;
+//$body-font-italic: "Kings Caslon Italic", serif;
+//$body-font-bold: "Kings Caslon Bold", serif;
+$body-font: "FCaslon Twelve Std", serif;
+$body-font-bold: "FCaslon Twelve Std Bold", serif;
+$body-font-italic: "FCaslon Twelve Std Italic", serif;
 $body-font-bdit: "Kings Caslon Bold Italic", serif;
-$display: "Irvin Heading", serif;
+//$display: "Irvin Heading", serif;
+$display: "FCaslon Poster ITC Std", serif;
 $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
@@ -410,7 +414,7 @@ code {
 	padding: 0.75em 2.5em;
 	background-color: $background-colour;
 	border: none;
-	font-family: "Source Serif 4";
+	font-family: $body-font;
 }
 
 	.epigraph p {

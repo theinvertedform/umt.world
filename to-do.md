@@ -42,7 +42,7 @@ permalink: to-do
 
 ## Design Improvements
 
-* Section headers
+- Section headers
 	- Consistent use of the paragraph symbol for all levels
 	- Shows on hover with some opacity
 	- Stays when section is clicked with zero opacity
@@ -62,27 +62,28 @@ permalink: to-do
 - Slideshow option for images
 - More multi-media in *Diaries* for more of a scrapbook design
 - Create a better visual system to organize categories
-- Visual system for Bibliography section
 - Graphic divider for the Footnotes section
 
 ## Navigation Improvements
 
 - Link annotations
-	- Favicons for external website
 	- Annotations for different filetypes
 	- Annotations for newly-updated internal links
+- CSS icons
+	- Favicons for external website
 - Return to Top button
-- "Similar Posts" section linked to in TOC
+- "Similar Links" section
 	- Similar Links based on tagging
 - Title of *Diary* entry should link to its anchor
 - Bibliographic items should automatically have a link to the archived item
+	- We will eventually need to just come up with our own CSL.
 
 # Long-term
 
 ## Content Enrichment
 
-- "Blogroll" section on the bottom of each page that selects a quote, pdf, link, or whatever for each day
-- Group items together under a single list item per category
+- "Blogroll" section on the bottom of each page that selects a quote, pdf, link, image (?) for each day
+- Group items in the Changelog under a single list item per category
 - Changelog summary for ongoing projects: "Diary: +400 words, -200 words, 23% different."
 - Changelog summary of changes per month: how many commits, changes in word count and LOC, new references, links, etc added
 - Modify the CSL so that each reference points to an item included

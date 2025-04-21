@@ -60,10 +60,10 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-// Founders Caslon (incomplete)
+// Founders Caslon
 @font-face {
   font-family: "FCaslon Twelve Std";
-  src: url("../fonts/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -71,7 +71,7 @@ $source-code: "Source Code Pro", monospace;
 
 @font-face {
   font-family: "FCaslon Twelve Std Italic";
-  src: url("../fonts/FCaslonTwelveITCStd-Italic.otf") format("opentype");
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -79,7 +79,15 @@ $source-code: "Source Code Pro", monospace;
 
 @font-face {
   font-family: "FCaslon Twelve Std Bold";
-  src: url("../fonts/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Poster ITC Std";
+  src: url("../fonts/FCaslon/FCaslonPosterITCStd-Roman.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -94,10 +102,19 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
+// Grotesque No 9
+@font-face {
+  font-family: "GrotesqueNo9W05-Regular";
+  src: url("../fonts/GrotesqueNo9%20W05%20Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 // Courier Std
 @font-face {
   font-family: "Courier Std";
-  src: url("../fonts/CourierStd.otf") format("opentype");
+  src: url("../fonts/Courier%20Std/CourierStd.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -105,7 +122,7 @@ $source-code: "Source Code Pro", monospace;
 
 @font-face {
   font-family: "Courier Std Bold"; // Or "Courier Bold"
-  src: url("../fonts/CourierStd-Bold.otf") format("opentype");
+  src: url("../fonts/Courier%20Std/CourierStd-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -132,7 +149,7 @@ $source-code: "Source Code Pro", monospace;
 // American Typewriter
 @font-face {
   font-family: "American Typewriter";
-  src: url("../fonts/AmericanTypewriterStd-Med.otf") format("opentype");
+  src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Med.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
