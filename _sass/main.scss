@@ -16,7 +16,8 @@ $body-font-bold: "FCaslon Twelve Std Bold", serif;
 $body-font-italic: "FCaslon Twelve Std Italic", serif;
 $body-font-bdit: "Kings Caslon Bold Italic", serif;
 //$display: "Irvin Heading", serif;
-$display: "FCaslon Poster ITC Std", serif;
+//$display: "FCaslon Poster ITC Std", serif;
+$display: "Mrs Eaves OT Roman", serif;
 $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
@@ -584,7 +585,8 @@ section.level1 > h1 {
 	margin-bottom: 1em;
 	letter-spacing: -0.75px;
 	position: relative;
-    @include typography($display, $font-bold, 1.375rem, display, normal, none, small-caps);
+    font-variant-ligatures: discretionary-ligatures;
+    @include typography($display, $font-bold, 1.375rem, display, normal, none, null);
     a {
       border-bottom: none;
     }

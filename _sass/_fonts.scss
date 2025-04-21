@@ -111,6 +111,32 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
+// Mrs Eaves
+@font-face {
+  font-family: "Mrs Eaves Petite Caps OT";
+  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20All%20Petite%20Caps%20OT.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mrs Eaves Lining OT";
+  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20Lining%20OT.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-variant-ligatures: common-ligatures;
+}
+
+@font-face {
+  font-family: "Mrs Eaves OT Roman";
+  src: url("../fonts/Mrs%20Eaves/MrsEavesOT-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 // Courier Std
 @font-face {
   font-family: "Courier Std";
