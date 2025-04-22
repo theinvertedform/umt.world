@@ -1,0 +1,87 @@
+---
+title: Font Ligature Testing
+permalink: fonts
+---
+
+<div class="markdownBody" id="markdownBody" itemprop="mainContentOfPage">
+
+  <section class="level1">
+    <h1>Writing Google Aardvark History</h1>
+    <p>Testing the "oo" ligature in a heading</p>
+  </section>
+
+  <div class="ligature-test">
+    <p>Common words with potential Mrs Eaves ligatures:</p>
+    <p>flood office coffee effort football</p>
+    <p>gOOgle goggles AArdvark</p>
+    <p>first final affluent flair flask</p>
+    <p>aesthetics encyclopaedia archaeology</p>
+    <p>The quick brown fox jumps over the lazy dog.</p>
+  </div>
+
+  <section class="font-test">
+    <h3>Font Feature Testing</h3>
+
+    <div>
+      <h4>Standard Text (No Special Settings)</h4>
+      <p style="font-family: 'Mrs Eaves OT Roman', serif; font-size: 1.5rem;">
+        flood office coffee Google History
+      </p>
+    </div>
+
+    <div>
+      <h4>With font-variant-ligatures</h4>
+      <p style="font-family: 'Mrs Eaves OT Roman', serif; font-size: 1.5rem; font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;">
+        flood office coffee Google History
+      </p>
+    </div>
+
+    <div>
+      <h4>With font-feature-settings</h4>
+      <p style="font-family: 'Mrs Eaves OT Roman', serif; font-size: 1.5rem; font-feature-settings: 'liga' 1, 'dlig' 1, 'hlig' 1, 'calt' 1;">
+        flood office coffee Google History
+      </p>
+    </div>
+
+    <div>
+      <h4>Standard text in FCaslon Twelve Std (for comparison)</h4>
+      <p style="font-family: 'FCaslon Twelve Std', serif; font-size: 1.5rem; font-feature-settings: 'liga' 1, 'dlig' 1, 'hlig' 1, 'calt' 1;">
+        flood office coffee Google History
+      </p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="troubleshooting">
+    <h3>Troubleshooting Information</h3>
+
+    <div id="font-info">
+      <p>Checking if Mrs Eaves is properly loaded...</p>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const testElement = document.createElement('span');
+          testElement.style.fontFamily = "'Mrs Eaves OT Roman', serif";
+          testElement.style.visibility = 'hidden';
+          testElement.textContent = 'test';
+          document.body.appendChild(testElement);
+
+          const fontInfo = document.getElementById('font-info');
+
+          // Check if the font is loaded
+          const computedFont = window.getComputedStyle(testElement).fontFamily;
+          fontInfo.innerHTML += `<p>Computed font: ${computedFont}</p>`;
+
+          // Test for OpenType feature support
+          const hasFeatureSettings = 'fontFeatureSettings' in document.documentElement.style;
+          fontInfo.innerHTML += `<p>Browser supports font-feature-settings: ${hasFeatureSettings}</p>`;
+
+          const hasVariantLigatures = 'fontVariantLigatures' in document.documentElement.style;
+          fontInfo.innerHTML += `<p>Browser supports font-variant-ligatures: ${hasVariantLigatures}</p>`;
+
+          document.body.removeChild(testElement);
+        });
+      </script>
+    </div>
+  </section>
+</div>

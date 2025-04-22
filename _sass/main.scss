@@ -12,9 +12,9 @@
 //$body-font-italic: "Kings Caslon Italic", serif;
 //$body-font-bold: "Kings Caslon Bold", serif;
 $body-font: "FCaslon Twelve Std", serif;
-$body-font-bold: "FCaslon Twelve Std Bold", serif;
+$body-font-bold: "FCaslon Twelve Std", serif;
 $body-font-italic: "FCaslon Twelve Std Italic", serif;
-$body-font-bdit: "Kings Caslon Bold Italic", serif;
+$body-font-bdit: "FCaslon Twelve Std Italic", serif;
 //$display: "Irvin Heading", serif;
 //$display: "FCaslon Poster ITC Std", serif;
 $display: "Mrs Eaves OT Roman", serif;
@@ -23,7 +23,7 @@ $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
 $caption: "Neutra Text Light Italic", serif;
-$super: "ACaslonExp Regular", serif;
+$super: "FCaslon Twelve Std", serif;
 $logotype: "American Typewriter", monospace;
 
 $font-bold: 700;
@@ -97,7 +97,7 @@ a {
 	}
 
     #sidebar span#logotype {
-        @include typography($logotype, normal, 2em);
+        @include typography($logotype, normal, 2em, body, normal, null);
       }
 
 	.sidebar-links {
@@ -124,6 +124,7 @@ a {
           $border-color: $border-colour,
           $link-color: inherit
     );
+        @include typography($display, normal, null, body, normal, uppercase);
 	}
 
 	#sidebar .sidebar-links a.patreon {
@@ -550,7 +551,7 @@ li {
 /* typography */
 
 strong {
-  @include typography($body-font-bold);
+  @include typography($body-font-bold, $font-bold);
 }
 
 sup {
@@ -575,7 +576,16 @@ h1.title {
 	text-align: center;
 	letter-spacing: -1px;
 	border-bottom: none;
-    @include typography($display, normal, 2.5em, display, normal, none, small-caps);
+    @include typography($display, normal, 2.5em, display, normal, uppercase, small-caps);
+    /* Comprehensive OpenType feature access */
+    font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
+
+    em {
+      @include typography($display normal, 2.5em, display, normal, uppercase, small-caps);
+    }
 }
 
 section.level1 > h1 {
@@ -583,10 +593,15 @@ section.level1 > h1 {
 	text-align: right;
 	padding: 0;
 	margin-bottom: 1em;
-	letter-spacing: -0.75px;
+	//letter-spacing: -0.75px;
 	position: relative;
-    font-variant-ligatures: discretionary-ligatures;
-    @include typography($display, $font-bold, 1.375rem, display, normal, none, null);
+    @include typography($display, $font-bold, 1.5rem, display, normal, none, null);
+    /* Comprehensive OpenType feature access */
+    font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
+
     a {
       border-bottom: none;
     }
@@ -680,7 +695,12 @@ section.level2 > h2 {
 	position: relative;
 	padding: 0;
 	margin: 0;
-    @include typography($display, $font-semibold, 1.15em, 1.15, normal, uppercase, small-caps);
+    @include typography($display, $font-semibold, 1.25em, display, normal, uppercase, small-caps);
+    /* Comprehensive OpenType feature access */
+    font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
+    font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
     a {
       border-bottom: none;
     }
