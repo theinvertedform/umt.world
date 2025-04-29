@@ -3,6 +3,14 @@ title: "https://umt.world"
 description: This repository is part of the umt.world hypertext project. It includes the code of the website, but also tracks changes to pieces of writing kept therein.
 ---
 
+# Components
+
+- writecontrol.vim --- System for logging and analyzing writing
+- imgen --- Script to automatically generate social images for each post
+- ~/doc --- Version-controlled archive of documents
+- umt --- Build script that analyzes \& archives logs, generates commit messages, syncs submodule and pushes repos
+- mkpdf --- Script that uses defaults.yaml and headers.yaml to generate pdfs of markdown files
+
 # What is umt.world?
 
 umt.world is the personal publishing platform of Uriah Marc Todoroff. It functions as an index of work written for other publications, online or in print, presented alongside self-published works. The complete project is a work of "hypermedia" that combines visual and textual elements: development environment, web design, literary \& historical research, and a constant writing practise.
