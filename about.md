@@ -36,7 +36,7 @@ Yes, but really the conglomerates are just character-masks for the inevitable lo
 
 But hasn't life always been mediated by technology? The historical record is a trace of society's evolving relationship to technology. How do we evaluate our present addiction to smoothness without falling into the trap of thinking that the past was somehow better? Would we be better off if technology had stopped developing in 1910, or 1998, or are we on a natural path to cyborg transhumanism? The *fact* of technology does not mean that all technologies are good.
 
-# Writing Google History
+# Writing History
 
 Graphic design is part of the history of the written word. When the first obelisks were unveiled in ancient Mesopotamia, their surfaces covered with the bird-like scratches of cuneiform, image and word were arranged to co-constitutive elements of the message.
 
