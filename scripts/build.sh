@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+# Install nokogiri dependencies
+echo "Installing nokogiri dependencies..."
+apt-get update && apt-get install -y build-essential libxml2-dev libxslt-dev
+
 # Install required gems
 echo "Installing gems..."
 bundle install
