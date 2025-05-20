@@ -1,10 +1,6 @@
 #!/bin/bash
 set -e
 
-# Install nokogiri dependencies
-echo "Installing nokogiri dependencies..."
-apt-get update && apt-get install -y build-essential libxml2-dev libxslt-dev
-
 # Install required gems
 echo "Installing gems..."
 bundle install
@@ -13,14 +9,19 @@ bundle install
 echo "Building Jekyll site..."
 JEKYLL_ENV=production bundle exec jekyll build
 
-# Generate backlinks (only if the script exists)
+# Generate backlinks (only if the script exists and works)
 if [ -f "scripts/generate_backlinks.rb" ]; then
-  echo "Generating backlinks..."
-  ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks
+  echo "Attempting to generate backlinks..."
+  if ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks; then
+    echo "Backlinks generated successfully"
 
-  # Rebuild the site to include the backlinks data
-  echo "Rebuilding Jekyll site with backlinks..."
-  JEKYLL_ENV=production bundle exec jekyll build
+    # Rebuild the site to include the backlinks data
+    echo "Rebuilding Jekyll site with backlinks..."
+    JEKYLL_ENV=production bundle exec jekyll build
+  else
+    echo "Backlinks generation failed, but continuing with build"
+    # We don't want to fail the entire build just because backlinks generation failed
+  fi
 else
   echo "Skipping backlinks generation (script not found)"
 fi
