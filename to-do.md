@@ -140,18 +140,23 @@ permalink: to-do
 
 # Marketing
 
-* UTM Links
+* UTA Links
 * Custom analytics metrics
 * More prominent CTAs for people coming from external sources
 * Visual system for OpenGraph images
 
 # Technical Infrastructure
-* news.umt.world --- listmonk hosted on EC2 instance
-	* Sending through SES
-	* SNS subscriptions to track delivery
+* ~~news.umt.world --- listmonk hosted on EC2 instance~~
+	* Finalize SES setup
+	* SNS subscriptions
+		* ~~Bounce & complaint~~
+			* Verify that Listmojo auto-unsubscribes
+		* Delivery
+		* ???
 * umt.world --- migrate from Netlify to S3 bucket
-	* CloudFlare CDN & DDOS, DNS
-	* Route 53 for domain registration
+	* CloudFlare CDN, DDoS protection
+	* Migrate DNS to CloudFlare
+	* Move domain registration to Route 53
 
 ## Newsletter
 * Email templates and pages with styling to match umt.world
