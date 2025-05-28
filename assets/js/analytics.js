@@ -1,6 +1,6 @@
 // Import analytics from global npm installation
-import Analytics from '/home/umt/.local/share/npm/lib64/node_modules/analytics/lib/analytics.browser.es.js'
-import googleAnalytics from '/home/umt/.local/share/npm/lib64/node_modules/@analytics/google-analytics/lib/browser.js'
+import Analytics from '{{ "/assets/js/analytics.min.js" | relative_url }}'
+import googleAnalytics from '{{ "/assets/js/google-analytics.min.js" | relative_url }}'
 
 // Initialize analytics with your existing GA measurement ID
 const analytics = Analytics({
