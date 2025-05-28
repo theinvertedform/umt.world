@@ -3,7 +3,7 @@ const analytics = _analytics.init({
  app: 'umt-world',
  debug: true, // Set to true during development
  plugins: [
-   GoogleAnalyticsPlugin({
+   analyticsGa({
      measurementIds: ['G-5NHX2XP9H3']
    })
  ]
