@@ -1,14 +1,10 @@
-// Import analytics from global npm installation
-import Analytics from '{{ "/assets/js/analytics.min.js" | relative_url }}'
-import googleAnalytics from '{{ "/assets/js/google-analytics.min.js" | relative_url }}'
-
 // Initialize analytics with your existing GA measurement ID
 const analytics = Analytics({
  app: 'umt-world',
- debug: false, // Set to true during development
+ debug: true, // Set to true during development
  plugins: [
    googleAnalytics({
-     measurementIds: ['{{ site.google_analytics }}']
+     measurementIds: ['G-5NHX2XP9H3']
    })
  ]
 })
