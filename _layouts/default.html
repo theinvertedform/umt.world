@@ -34,7 +34,7 @@
 
 		<!-- Google Analytics --!>
 		{% if site.google_analytics and jekyll.environment == 'production' %}
-		{% include analytics.html %}
+		<script type="module" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
 		{% endif %}
     </head>
 	{% if page.title == 'Index' %}
