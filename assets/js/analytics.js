@@ -1,5 +1,5 @@
 // Initialize analytics with your existing GA measurement ID
-const analytics = Analytics({
+const analytics = _analytics.init({
  app: 'umt-world',
  debug: true, // Set to true during development
  plugins: [
