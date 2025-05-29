@@ -1,5 +1,5 @@
-import Analytics from './analytics.es.js'
-import googleAnalytics from './google-analytics.js'
+import Analytics from './node_modules/analytics/lib/analytics.es.js'
+import googleAnalytics from './node_modules/@analytics/google-analytics/lib/browser.js'
 
 /* Initialize analytics */
 const analytics = Analytics({
