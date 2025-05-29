@@ -31,13 +31,6 @@
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
         <meta name="description" content="Personal website of Uriah Marc Todoroff.">
-
-		<!-- Google Analytics --!>
-		{% if site.google_analytics and jekyll.environment == 'production' %}
-		<script src="{{ '/assets/js/analytics.min.js' | relative_url }}"></script>
-		<script src="{{ '/assets/js/google-analytics.min.js' | relative_url }}"></script>
-		<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
-		{% endif %}
     </head>
 	{% if page.title == 'Index' %}
     <body class="page-index" itemscope itemtype="http://schema.org/WebPage">
@@ -72,5 +65,12 @@
 		</main>
 
 		<script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+
+		<!-- Google Analytics --!>
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		<script src="{{ '/assets/js/analytics.min.js' | relative_url }}"></script>
+		<script src="{{ '/assets/js/google-analytics.min.js' | relative_url }}"></script>
+		<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+		{% endif %}
     </body>
 </html>
