@@ -34,9 +34,7 @@
 
 		<!-- Google Analytics --!>
 		{% if site.google_analytics and jekyll.environment == 'production' %}
-		<script src="{{ '/assets/js/analytics.min.js' | relative_url }}"></script>
-		<script src="{{ '/assets/js/google-analytics.min.js' | relative_url }}"></script>
-		<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+		<script type="module" src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
 		{% endif %}
     </head>
 	{% if page.title == 'Index' %}
@@ -52,7 +50,7 @@
             	<a href="/about" title="Philosophy, design, and aspirations of this website.">Website</a>
             	<a href="/links" title="Biography, personality, tastes, interests, where I can be found online, contact.">Author</a>
             	<a href="/changes" title="All changes, additions, and modifications to the website text and sourcecode.">Changes</a>
-            	<a href="https://umtworld.substack.com" title="An occasional newsletter summarizing developments since the previous.">News</a>
+            	<a href="https://news.umt.world" title="An occasional newsletter summarizing developments since the previous.">News</a>
 				{% if page.title != 'Index' %}
             	<a class="patreon" href="https://patreon.com/umtworld" title="If you are so enamoured of what you see here, you can donate money to make sure I keep working on it.">Patreon</a>
 				{% endif %}

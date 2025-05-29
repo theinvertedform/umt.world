@@ -16,3 +16,6 @@ collections/notes
 collections/archive
 collections/pdfs
 collections/publications
+node_modules/
+package.json
+package-lock.json
