@@ -124,6 +124,9 @@ backlinks:
   output_dir: "_data/backlinks"
   debug: true
 
+include:
+  - node_modules
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
