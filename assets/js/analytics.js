@@ -1,11 +1,8 @@
-import Analytics from './analytics.es.js'
-import googleAnalytics from './google-analytics.js'
-
-/* Initialize analytics */
-const analytics = Analytics({
+const analytics = _analytics.init({
   app: 'umt-world',
   plugins: [
-    googleAnalytics({
+    // Check what global name the GA plugin actually exports
+    GoogleAnalyticsPlugin({
       measurementIds: ['G-5NHX2XP9H3']
     })
   ]
