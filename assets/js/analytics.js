@@ -2,7 +2,7 @@ const analytics = _analytics.init({
   app: 'umt-world',
   plugins: [
     // Check what global name the GA plugin actually exports
-    analyticsGa({
+    analyticsGa.default({
       measurementIds: ['G-5NHX2XP9H3']
     })
   ]
