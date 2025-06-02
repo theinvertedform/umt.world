@@ -69,6 +69,10 @@ permalink: to-do
 	* Favicons for external website
 * Return to Top button
 * Title of *Diary* entry should link to its anchor
+* ~~Change Newsletter to Subscribe~~
+* Navbar subscribe item should fade-in on scrollback
+* Colour pop for Subscribe
+*
 
 # Visual Design & Typography
 

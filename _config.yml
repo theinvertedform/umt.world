@@ -72,8 +72,8 @@ collections:
     output: true
     permalink: ":title"
   film:
-    output: true
-    permalink: "/films/:year/:month/:day/:title"
+    output: false
+    permalink: "/films#:year-:month-:day"
   reviews:
     output: true
     permalink: "/reviews/:title"
