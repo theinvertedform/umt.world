@@ -1,9 +1,9 @@
 # Site settings
 title: umt.world
-description: A hypertext project by Uriah Marc Todoroff.
+description: A hypertext project by Uriah Marc Todoroff
 author:
   name: Uriah Marc Todoroff
-  email: um.todoroff@gmail.com
+  email: umt@umt.world
 twitter:
   username: theinvertedform
   card: summary
@@ -12,7 +12,6 @@ baseurl: ""
 url: "https://umt.world"
 permalink: /:title
 logo: /assets/images/logo.png
-iis_slider_array: []
 repository: theinvertedform/umt.world
 
 # Build settings
@@ -25,16 +24,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
   - jekyll-github-metadata
-
-    #feed:
-    #  categories:
-    #    newsletter:
-    #      path: "/newsletter.atom"
-    #posts_limit: 20
-    #
-
-    #last-modified-at:
-    #  date-format: "%b %e, %Y"
 
 toc:
   ordered_list: false
@@ -55,11 +44,10 @@ pandoc:
     - section_divs
 
 # Collections
+collections_dir: "collections/"
 collections:
   diary:
     permalink: "/diaries#:year-:month-:day"
- # blog:
- #   permalink: "/blog#:year-:month-:day"
   podcast:
     permalink: "/podcast#:title"
   stories:
@@ -77,15 +65,6 @@ collections:
   reviews:
     output: true
     permalink: "/reviews/:title"
- # newsletter:
- #   output: true
- #   permalink: "/newsletter/:year#:month"
-collections_dir: "collections/"
-#   tags:
-#     name: true
-#  authors:
-#    output: false
-#    permalink: authors#/:short_name
 
 defaults:
   - scope:
@@ -97,10 +76,7 @@ defaults:
     values:
       layout: "post"
 
-# Google analytics
 google_analytics: G-5NHX2XP9H3
-
-# sass
 
 backlinks:
   excluded_backlink_pages:
@@ -146,6 +122,7 @@ exclude:
   - collections/notes
   - collections/publications
   - collections/_novels
+  - collections/_tales
   - collections/.gitignore
   - collections/.git
-  - collections/_films/reviews.csv
+  - collections/_films/lb

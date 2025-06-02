@@ -1,11 +1,12 @@
 ---
 title: About the Author
-description: "My life story, work and academic experience; psychological profiles, political profiles, and philosophical worldview; data representing my tastes and media consumption."
-abstract: "I am a communist writer, philosopher, and critic. My research into visual culture has focused on the modern era, with an interest in periodizing the contemporary. I am interested in media institutions, digital life, and philosophies of technology. My reading in philosophy has always been oriented around Karl Marx, and tends German overall. The Lonely Dane and the Crazy German are the philosophers who have most touched my heart. These studies are the basis of my literary practise, which brings together many different disciplines to create a panoramic view of the Contemporary. I include *the use of computers* as an element of my creative practise, meaning web and typographic design, as well as the software that comprises one's digital writing environment (for more on this, see the [*About the Website*](/about) page). Some of my questions include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to historical precedents? What is the relation between the modes of production, and the aesthetic and social lives of a given period?"
+description: "Pertinent biographic details, work and academic experience; psychological profiles, political profiles, and philosophical worldview; data representing my tastes and media consumption."
+abstract: "I am a communist writer, philosopher, and critic. I am interested in the visual culture of the modern era and the relationship between technology and media. My historical research is directed towards a periodization of the contemporary; my reading in philosophy tends German. These studies are the basis of my literary practise, which brings together many different disciplines to create a panoramic view of the Contemporary. Digital technologies are an element of my creative practise, from web development, typography and graphic design, to the software that I use to develop it (see the [*About the Website*](/about) page). Questions that are important to me include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to historical precedents? What is the relation between the modes of production, and the aesthetic and social lives of a given period?"
 toc: true
 tags:
   - biography
-  - contact
+  - literature
+  - aesthetics
 date: 2022-11-04
 ---
 
@@ -13,68 +14,35 @@ Thinkpad X230, vim, flip-phones --- modernity in *Vampyr* and *Nosferatu*; [the 
 
 ![Private Property](/assets/images/propprive1.jpg)
 
-# [Fiction and memoir](#fiction-and-memoir)
+# Fiction and Memoir
 
-On this website, I have published excerpts from my Diary, which I describe as an "autofictional practise of narrative construction." I have written many stories that are taken from my life, with characters based on people I know. What kind of relation does any of this have to the Truth? The goal of fiction is to represent the Truth, and therefore it ought to involve an element of the author's experience. However, we cannot seriously make an equation between a literary effect and a real person.
+On this website, I have edited together a selection of excerpts from my [Diary](/diaries). I describe this ongoing project as an "autofictional practise of narrative construction." It has been instructive as a process of creating an emotional and psychological reality through description. It has also given me practise shaping a larger body of text into something structured.
 
-# [Biographical Summary](#biographical-summary)
+The narratives in my fiction are usually taken from experience. Either things that transpired directly to me, or to people I know. What kind of relation does any of this have to the Truth? Fiction shares the same obligation as philosophy: to represent the truth. For a work to claim epistemological certainty, it needs to be derived from experience.
 
-The author was born on November 17, 1990 at 457 Main Street, in Toronto, Ontario, and given the name Uriah Marc Todoroff. My maternal grandfather was descended from a long line of French colonists; my grandmother was Franco-Manitoban. On my father's side, my grandmother was a Scottish immigrant who I met only once. My grandfather, a Bulgarian immigrant, died long before I was born.
+If we look at the history of art and literature, we will see that it's common for the life of an artist to parallel the content of their work work. And why should we expect it to be any other way? How can we expect a truth of life to be revealed through the fabricated content of the machine of literature?
 
-![The author circa 1995.](assets/images/me/babyme.jpg)
+It's even normal to have debate on the topic...but for whatever reason, we Contemporaries can't help but worry about whether the story happened to the author or not. It's why we can only read writing in the first person. To be fair, the reader has a right to expect Truth from their fiction. But the answer is not to return to pretending that the author is anything less than *dead*. We should not revert to psychologizing the author. It's disrespectful! The fiction is only a fiction: it's a completely different type of Being than a real, living human.
 
-At fourteen, I moved to Montréal. I lived with my aunt and started attending a small, ["alternative" high school](https://en.wikipedia.org/wiki/MIND_High_School). I moved between schools in Montréal and Toronto, before eventually dropping out altogether circa 2007, age 16.
+The *Diaries* intentionally trade on this ambiguity. Take it for what it is.
 
-I moved around a lot, tried many different types of work. After I read *Thus Spoke Zarathustra* and *On the Road* back-to-back, I convinced myself that the "mountain-top" Zarathustra spoke about would involve a hobo sojourn. I was on the road for a year.
+# Biographical Summary
 
-![Me and a couple friends in Ecuador.](assets/images/me/2014-03-31 00.36.24.jpeg)
+![Always the life of the party.](assets/images/me/passed_out.jpg)
 
-I didn't find myself. The days were driftless and I was constantly on the outside. No home: nowhere to enter into; all I saw were faces. It's exhausting. I needed to relax. I needed to feel like I actually lived somewhere. It was Montréal, the only place I had ever felt settled. I needed to return home and make it my home.
+The author was born on November 17, 1990 in Toronto, Ontario. My father named me Uriah, and my mother named me Marc. I moved to Montréal at 14 (2005), and have lived here (mostly) since then. I do manual labour to support myself, usually working in restaurants. I went to school at age 25 and in 2023 graduated with a Bachelor of Fine Arts, double major in Philosophy and Art History & Film Studies.
 
-![Ghost Architectural Laboratory, Nova Scotia.](/assets/images/img445.jpg)
+# The Quantified Self
 
-At some point in the first half of 2016, I applied to Concordia for an undergraduate degree in philosophy. I took another month off to go to Halifax. Hitching home, I was stopped off at this dairy farm when I got the news that I had been accepted.
+I could never pull the degree of quantification that some people go for. It's not just because of the energy it takes, but it's just a hideous way to live.
 
-![Ferme Glady, circa 2016.](assets/images/img514.jpg)
-
-# [Professional Experience](#professional-experience)
+## The Institutionalized Self
 
 ![Marc's Flyer business card, designed by Oliver Hine.](assets/images/marcsflyer.jpg)
 
-The following list of work experience does not include one-off, freelance, or volunteer positions. A "job" is loosely defined as anything that reoccurred over at least two pay periods. This list is not comprehensive.
+Don't we all love to have a job? Aside from a brief moment self-employed as a junk mail delivery man, I have preferred to work for others so as to reserve my energy for this website. It's not worth listing them.
 
-## [Work Experience](#work-experience)
-
-* Flyer delivery for friends of my parents (circa 1995--1999)
-* Helping my dad out on job sites (circa 1995--2003)
-* Shovelling neighbours' walks (circa 1997--2003)
-* Working for other bricklayers, including Edmund Yee, Shane Oake, Clint Turnbull (circa 2001--2021)
-* T-Bones on Eglinton (2007--2008)
-* The Bowl on Yonge near Wellesley (2007--2008)
-* Oxford Cafe on Ste-Catherines
-* M-Burger
-* Bofinger's, downtown Montréal
-* Folding boxes for a startup
-* Delivering flyers in Thorn Hill for a real estate agent
-* Melanie's Bistro
-* Lawrence / Larrys (2014--2020)
-* Cafe Guerrero (2021)
-* Cafe Lucy (?) on Bernard for about 3 weeks
-* Bar Bara (June--July 2022)
-* McKiernan's (June--September 2022)
-* Reservoir (June 2023--October 2023)
-* Darna Bistroquet (November 2023--*present*)
-* [Atelier--Galerie A. Piroir](https://piroir.com) (January 2024--*present*)
-
-## [Volunteer Experience](#volunteer-experience)
-
-* SOPHIA Concordia
-* Sorting tax documents for the Church of Scientology
-* The Sophia Review
-* Fantasia
-* Festival du Nouveau Cinema
-
-# [Education](#education)
+And what's better than having a job? Why, it could only be going to school. Here are the ones that I attended:
 
 * [Secord Elementary](https://torontolife.com/city/toronto-is-failing-me-my-kids-school-is-a-disgrace/) (Toronto, circa 1993--1998, 1999)
 * General Crerar Primary (Toronto, circa 2001)
@@ -83,37 +51,33 @@ The following list of work experience does not include one-off, freelance, or vo
 * David & Mary Thompson Collegiate Institute (Toronto, circa 2007--2008)
 * Concordia University (Montréal, 2016--2019; 2021-2023)
 
-# [Personality](#personality)
-
 Gass referred to the writing life as "a life in the chair." A desk chair, or an electric chair?
 
 ![Osaka trying to stretch.](/assets/images/osakastretch.gif)
 
-## [Astrological chart](#astrological-chart)
+## Astrological chart
 
 ![Natal chart.](assets/images/chart.gif)
 
-Scorpio, rising Sagittarius. Full chart and reading forthcoming. Mars dominates my chart, but I have always preferred Pluto as a personal icon. I like astrology as a symbolic language, and a future project will be to analyze statistical correlations in certain readings. I like the materialism of astrological metaphysics...of course, I should admit as well that it has always been a useful tool for processing emotions. I have not studied astrophysics, I know barely anything about the history of astrology, and I am not even familiar with the signs, except for in a superficial way. Although my knowledge is superficial, my interest is genuine.
+Scorpio Sun, rising Sagittarius.
 
-## [Personality Tests](#personality-tests)
-
+## Personality Tests
 
 * [YourMorals.org Moral Foundations Questionnaire-2](/assets/documents/mfq2-2022.pdf) (2022)
 * [Relationship Survey](/assets/documents/relationship-survey-2022.pdf) (2022)
 * 16Personalities: "Advocate" (INFJ-T)
 *Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.*
 
-# [Contact](#contact)
+# Contact
 
 !["I am a part of all living things!"](/assets/images/robo.jpg)
 
-Here are links to the social media accounts that I am active on. I can be reached through direct message on any of these platforms. It brings me great joy to hear feedback from people on anything that I have produced. Please get in touch. If you prefer, you can [email me](mailto:um.todoroff@gmail.com) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform).
-
-My username is theinvertedform. The inverted form and the inverted world both recur throughout Hegel and Marx. I like "theinvertedform," especially as it's set.
+Please follow and reach out on any of these platforms. Feedback is important: if you've made it this far, I want to know what you think. Any questions? Anything to share? Get in touch. If you prefer, you can [email me]({{ site.author.email }}) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform).
 
 1. [Twitter](https://twitter.com/theinvertedform)
 4. [Substack](https://umtworld.substack.com)
 2. [Letterboxd](https://letterboxd.com/theinvertedform)
+3. [Instagram](https://instagram.com/theinvertedform)
 4. [Goodreads](https://www.goodreads.com/user/show/122256622)
 4. [Patreon](https://patreon.com/umtworld)
 3. [Last.fm](https://www.last.fm/user/aeymxq)
