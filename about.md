@@ -28,7 +28,7 @@ I would take Paris in the 19th century, I would take New York in the 20th. I wou
 
 We were both already born into this slipstream moment. *Let's go on*.[^beckett] I'm going to try to figure out what exactly is going on in the world, if not just so that I can get my bearings.
 
-[^beckett]:
+[^beckett]: Must go on. Can't go on. I'll go on.
 
 # Outsider Art, Hypertext, Kitsch
 
