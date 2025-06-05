@@ -46,25 +46,30 @@ pandoc:
 # Collections
 collections_dir: "collections/"
 collections:
-  diary:
-    permalink: "/diaries#:year-:month-:day"
-  podcast:
-    permalink: "/podcast#:title"
-  stories:
+  books:
+    output: false
+    permalink: "/books/:title"
+  criticism:
     output: true
-    permalink: "/:title"
+    permalink: "/criticism/:title"
+  culture:
+    output: true
+    permalink: "/culture/:title"
+  fiction:
+    output: true
+    permalink: "/fiction/:title"
   interviews:
     output: true
     permalink: "/interviews/:title"
-  essays:
-    output: true
-    permalink: ":title"
-  film:
-    output: true
-    permalink: "/films#:year-:month-:day"
-  reviews:
-    output: true
-    permalink: "/reviews/:title"
+  personal:
+    output: false
+    permalink: "/diaries#:year-:month-:day"
+  podcast:
+    output: false
+    permalink: "/podcast#:title"
+  newsletter:
+    output: false
+    permalink: "/newsletter#:title"
 
 defaults:
   - scope:

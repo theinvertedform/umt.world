@@ -5,7 +5,6 @@ _site/
 Gemfile.lock
 _assets/audio/
 vendor/
-collections/_film/*.csv
 *.swp
 *.swo
 *~
@@ -16,6 +15,7 @@ collections/notes
 collections/archive
 collections/pdfs
 collections/publications
+collections/_fiction
 node_modules/
 package.json
 package-lock.json
