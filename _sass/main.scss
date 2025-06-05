@@ -198,6 +198,10 @@ a.footnote-ref {
 	font-weight: $font-semibold;
 }
 
+form p {
+    text-indent: 0;
+  }
+
 h1.index-heading {
 	border-bottom: 1px solid $hover-colour;
 	margin: 1.125em 0 0 0;

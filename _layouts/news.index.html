@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Newsletter - umt.world</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="shortcut icon" type="image/svg" href="https://umt.world/assets/images/favicon.svg">
+        <meta name="keywords" content="Uriah Marc Todoroff, writing, film, newsletter">
+        <meta name="description" content="Subscribe to the umt.world newsletter.">
+    </head>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        <main>
+        <nav id="sidebar">
+			<!--<a id="logo" href="/index"><img src="/assets/images/logo-american_typewriter.svg" title="umt.world logotype (American Typewriter)."/></a>--!>
+			<a id="logo" href="/index"><span id="logotype">umt</span></a>
+			<div class="sidebar-links">
+            	<a href="/about" title="Philosophy, design, and aspirations of this website.">Website</a>
+            	<a href="/links" title="Biography, personality, interests, contact.">Author</a>
+            	<a href="/changes" title="Chronological log of alterations and additions to the website.">Changes</a>
+            	<a class="subscribe" href="https://news.umt.world" title="The culture diary of an artworld outsider.">Subscribe</a>
+				{% if page.title != 'Index' %}
+            	<a class="patreon" href="https://patreon.com/umtworld" title="If you like this website, you can pay to keep it running.">Patreon</a>
+				{% endif %}
+				<!--<a href="/photos">Photos</a>--!>
+			</div>
+        </nav>
+
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+                <header>
+                    <h1 class="p-name title" itemprop="name">Updates in Your Inbox</h1>
+                </header>
+
+                <div id="page-metadata">
+                    <div class="p-summary" id="page-description" itemprop="description">
+                        The culture diary of an artworld outsider.
+                    </div>
+                </div>
+
+                <div id="markdownBody" class="markdownBody post-content"
+itemprop="articleBody">
+                    <aside class="abstract">
+                        <blockquote itemprop="abstract">
+                            The newsletter collects writing on cinema, architecture, literature and travel. New writing is presented alongside links from around the web, visual media, and archival selections.
+                        </blockquote>
+                    </aside>
+
+                        <form method="post" action="https://news.umt.world/subscription/form" class="listmonk-form">
+					<div>
+					<h3>Subscribe</h3>
+					<input type="hidden" name="none" />
+
+					<p><input type="email" name="email" required placeholder="E-mail" /></p>
+					<p><input type="text" name="name" placeholder="Name (optional)" /></p>
+
+
+                    <p>
+						<input id="ccc90" type="checkbox" name="l" checked value="ccc90a84-c1eb-44be-b379-7a4a29b750c5" />
+						<label for="ccc90">umt.world newsletter</label>
+					</p>
+					<input type="submit" value="Subscribe "/>
+					</div>
+						</form>
+                </div>
+            </article>
+
+            <footer>
+                <img class="end-ornament" src="https://umt.world/assets/images/arabesque.svg">
+                <blockquote class="epitaph">You write because you have to.</blockquote>
+                <span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Anonymous Feedback</a></span>
+                <a id="footer-logo" href="https://umt.world/index"><img src="https://umt.world/assets/images/logo-american_typewriter.svg" title="umt.world logotype (American Typewriter)."/></a>
+            </footer>
+        </main>
+
+        <script>
+            document.getElementById('subscription-form').addEventListener('submit', async function(e) {
+                e.preventDefault();
+
+                const email = document.getElementById('email').value;
+                const name = document.getElementById('name').value;
+                const messageDiv = document.getElementById('message');
+
+                messageDiv.style.display = 'none';
+
+                try {
+                    const response = await fetch('/api/public/subscription', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            email: email,
+                            name: name,
+                            lists: [1]
+                        })
+                    });
+
+                    const result = await response.json();
+
+                    if (response.ok) {
+                        messageDiv.style.backgroundColor = '#d4edda';
+                        messageDiv.style.color = '#155724';
+                        messageDiv.style.border = '1px solid #c3e6cb';
+                        messageDiv.textContent = 'Successfully subscribed! Please check your email to confirm.';
+                        document.getElementById('subscription-form').reset();
+                    } else {
+                        messageDiv.style.backgroundColor = '#f8d7da';
+                        messageDiv.style.color = '#721c24';
+                        messageDiv.style.border = '1px solid #f5c6cb';
+                        messageDiv.textContent = result.message || 'Subscription failed. Please try again.';
+                    }
+                } catch (error) {
+                    messageDiv.style.backgroundColor = '#f8d7da';
+                    messageDiv.style.color = '#721c24';
+                    messageDiv.style.border = '1px solid #f5c6cb';
+                    messageDiv.textContent = 'Network error. Please try again.';
+                }
+
+                messageDiv.style.display = 'block';
+            });
+        </script>
+    </body>
+</html>
