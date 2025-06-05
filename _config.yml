@@ -60,7 +60,7 @@ collections:
     output: true
     permalink: ":title"
   film:
-    output: false
+    output: true
     permalink: "/films#:year-:month-:day"
   reviews:
     output: true
