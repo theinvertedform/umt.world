@@ -9,6 +9,14 @@ tags:
 toc: true
 ---
 
+<p>Debug: Total film posts: {{ site.film | size }}</p>
+<p>Debug: All film categories:</p>
+<ul>
+{% for post in site.film %}
+  <li>{{ post.title }} - Category: "{{ post.category }}"</li>
+{% endfor %}
+</ul>
+
 {% assign total_cinema_posts = site.film | where: "category", "total cinema" %}
 {% assign date_format = "%b %d %Y" %}
 
