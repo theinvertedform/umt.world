@@ -16,6 +16,7 @@ collections/archive
 collections/pdfs
 collections/publications
 collections/_fiction
+collections/_culture/film-diary
 node_modules/
 package.json
 package-lock.json
