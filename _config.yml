@@ -129,4 +129,4 @@ exclude:
   - collections/_fiction/
   - collections/.gitignore
   - collections/.git
-  - collections/_culture/film-diary/
+  - _culture/film-diary/
