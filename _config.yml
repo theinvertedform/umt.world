@@ -55,9 +55,9 @@ collections:
   culture:
     output: true
     permalink: "/culture/:title"
-  fiction:
-    output: true
-    permalink: "/fiction/:title"
+  #fiction:
+  #  output: false
+  #  permalink: "/fiction/:title"
   interviews:
     output: true
     permalink: "/interviews/:title"
@@ -126,8 +126,7 @@ exclude:
   - collections/pdfs
   - collections/notes
   - collections/publications
-  - collections/_novels
-  - collections/_tales
+  - collections/_fiction/
   - collections/.gitignore
   - collections/.git
-  - collections/_films/lb
+  - collections/_culture/film-diary/

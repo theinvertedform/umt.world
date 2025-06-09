@@ -70,7 +70,7 @@ layout: home
 <section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
-{% assign sortedPosts = site.diary | sort: 'date' %}
+{% assign sortedPosts = site.categories.diaries | sort: 'date' %}
 {% for post in sortedPosts limit: 10 %}
 <li>
 <a href="{{ post.url }}" itemprop="url">

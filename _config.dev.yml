@@ -22,9 +22,6 @@ exclude:
   - collections/pdfs
   - collections/notes
   - collections/publications
-  - collections/_novels
   - collections/.gitignore
   - collections/.git
-  - collections/_films/reviews.csv
-  - _film/
-  - _podcast
+  - _podcast/
