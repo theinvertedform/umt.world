@@ -10,6 +10,7 @@ toc: true
 ---
 
 {% for post in site.podcast reversed %}
+{% if post.category contains "Footnotes to Endnotes" %}
 <h1 id="{{ post.title | slugify }}"><a href="{{ post.url }}" title="{{ post.title }}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a></h1>
 {% if post.tags.size > 0 %}
 <div class="link-tags">{% for tag in post.tags %}<a href="/tags#{{ tag | slugify }}">{{ tag }}</a>
@@ -23,5 +24,5 @@ toc: true
 
 {{ post.content }}
 
+{% endif %}
 {% endfor %}
-

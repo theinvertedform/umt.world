@@ -47,7 +47,7 @@ pandoc:
 collections_dir: "collections/"
 collections:
   books:
-    output: false
+    output: true
     permalink: "/books/:title"
   criticism:
     output: true
@@ -61,15 +61,15 @@ collections:
   interviews:
     output: true
     permalink: "/interviews/:title"
+  newsletter:
+    output: true
+    permalink: "/newsletter/:year/:month/:day"
   personal:
-    output: false
+    output: true
     permalink: "/diaries#:year-:month-:day"
   podcast:
     output: false
     permalink: "/podcast#:title"
-  newsletter:
-    output: false
-    permalink: "/newsletter#:title"
 
 defaults:
   - scope:

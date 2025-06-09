@@ -1,8 +1,4 @@
 collections:
-  film:
-    output: false
-  podcast:
-    output: false
 
 exclude:
   - .sass-cache/

@@ -44,7 +44,8 @@ Even more than this book, the future is the next man who will make her dream, bu
 
 {% assign date_format = "%b %d %Y" %}
 
-{% for post in site.diary %}
+{% for post in site.personal %}
+{% if post.category contains "diaries" %}
 <section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
 <h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
 	<a href="#{{ post.slug }}">{{ post.title }}</a>
@@ -59,5 +60,6 @@ Even more than this book, the future is the next man who will make her dream, bu
 <span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
 {% endif %}
 
+{% endif %}
 {% endfor %}
 </section>

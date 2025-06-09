@@ -174,11 +174,54 @@ $source-code: "Source Code Pro", monospace;
 
 // American Typewriter
 @font-face {
-  font-family: "American Typewriter";
-  src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Med.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+ font-family: "American Typewriter Light";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Light.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Med.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Bold";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Bold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Condensed Light";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-LtCnd.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Condensed";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-Cond.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Condensed Bold";
+ src: url("../fonts/American%20Typewriter/AmericanTypewriterStd-BdCnd.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
 }
 
 //Neutraface

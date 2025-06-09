@@ -17,12 +17,13 @@ $body-font-italic: "FCaslon Twelve Std Italic", serif;
 $body-font-bdit: "FCaslon Twelve Std Italic", serif;
 //$display: "Irvin Heading", serif;
 $display: "American Typewriter", serif;
-//$display: "Mrs Eaves OT Roman", serif;
+$display-index: "American Typewriter Bold", serif;
 $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
-$caption: "Neutra Text Light Italic", serif;
+//$caption: "Neutra Text Light Italic", serif;
+$caption: "American Typewriter Condensed Light", serif;
 $super: "FCaslon Twelve Std", serif;
 $logotype: "American Typewriter", monospace;
 
@@ -207,7 +208,7 @@ h1.index-heading {
 	margin: 1.125em 0 0 0;
 	text-align: left;
 	padding: 0;
-    @include typography($display, normal, 1.5rem, display, normal, none, small-caps);
+    @include typography($display-index, normal, 1.5rem, display, normal, none, small-caps);
     a {
       border-bottom: none;
     }
@@ -501,7 +502,7 @@ ol {
 
 li {
 	counter-increment: count;
-	padding: 0 0 0.65em 0;
+	padding: 0.65em 0 0.65em 0;
     margin-left: 2.25em;
 }
 
@@ -596,7 +597,7 @@ section.level1 > h1 {
 	border-bottom: 1px solid $hover-colour;
 	text-align: right;
 	padding: 0;
-	margin-bottom: 1em;
+	margin: 1em 0em;
 	//letter-spacing: -0.75px;
 	position: relative;
     @include typography($display, $font-bold, 1.5rem, display, normal, none, null);
@@ -698,7 +699,7 @@ section.level2 > h2 {
 	text-align: left;
 	position: relative;
 	padding: 0;
-	margin: 0;
+	margin: 1em 0em;
     @include typography($display, $font-semibold, 1.25em, display, normal, uppercase, small-caps);
     /* Comprehensive OpenType feature access */
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;

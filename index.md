@@ -6,6 +6,7 @@ abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interes
 For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) to receive updates in your inbox. This index includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
 layout: home
 ---
+
 {%- assign date_format =  "%b %d %Y" -%}
 
 <article itemscope itemtype="http://schema.org/WebPage">
@@ -13,13 +14,11 @@ layout: home
 <aside class="index abstract" itemprop="description">{{ page.abstract | markdownify }}</aside>
 
 <section id="new" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/changes" title="Reverse chronological list of additions to my published canon.">Newest</a></h1>
+<h1 class="index-heading"><a href="/changes" title="Reverse chronological list of additions to the website.">Newest</a></h1>
 <ul class="section-link-list">
 {% for collection in site.collections %}
-{% unless collection.label == "blog" %}
 {% unless collection.label == "film" %}
 {% assign all_documents = all_documents | concat: collection.docs %}
-{% endunless %}
 {% endunless %}
 {% endfor %}
 {% assign sorted = all_documents | sort: 'date' | reverse | slice: 0, 10 %}
@@ -36,7 +35,7 @@ layout: home
 </section>
 
 <section id="notable" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="#notable" title="Writing and other media that I am most proud of.">Notable</a></h1>
+<h1 class="index-heading"><a href="#notable" title="All the work that I am most proud of.">Notable</a></h1>
 <ul class="section-link-list">
 <li>
 <a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
@@ -70,36 +69,24 @@ layout: home
 <section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
-{% assign sortedPosts = site.categories.diaries | sort: 'date' %}
-{% for post in sortedPosts limit: 10 %}
+{% for post in site.personal %}
+{% if post.category contains 'diaries' %}
 <li>
 <a href="{{ post.url }}" itemprop="url">
 <span itemprop="name">{{ post.title }}</span>
 </a>
 </li>
+{% endif %}
 {% endfor %}
 </ul>
 </section>
 
 <hr class="index-section-ornament" >
 
-<section id="film" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="https://letterboxd.com/theinvertedform/films/diary" title="Film diary, including column reviews and letterboxd posts.">My Life in Movies</a></h1>
+<section id="books" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">The Author in the Library</a></h1>
 <ul class="section-link-list">
-{% for post in site.film reversed limit: 20 %}
-<li>
-<a href="{{ post.url }}" itemprop="url">
-<span itemprop="name">{{ post.name }}</span> ({{ post.year }})
-</a>
-</li>
-{% endfor %}
-</ul>
-</section>
-
-<section id="essays" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#essays" title="Essays are more concerned with a topic than a specific object.">Essays</a></h1>
-<ul class="section-link-list">
-{% for post in site.essays reversed limit: 10 %}
+{% for post in site.books reversed limit: 10 %}
 <li>
 <a href="{{ post.url }}" itemprop="url">
 <span itemprop="name">{{ post.title }}</span>
@@ -109,10 +96,29 @@ layout: home
 </ul>
 </section>
 
-<section id="reviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/reviews" title="Reviews tend to be focused on one object or event, or a set of related objects or events.">Reviews</a></h1>
+<section id="culture" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/index#culture" title="Writing on culture.">Culture From Outside</a></h1>
 <ul class="section-link-list">
-{% for post in site.reviews reversed limit: 10 %}
+{% for post in site.culture reversed %}
+{% unless post.categories contains "total cinema" %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
+</li>
+{% endunless %}
+{% endfor %}
+<li>
+<a href=/total-cinema>Total Cinema (2008--2010)</a>
+</li>
+</ul>
+</section>
+
+{% if site.criticism.size > 0 %}
+<section id="criticism" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/reviews" title="Criticism deals with more abstract and theoretical issues.">Critique of Now</a></h1>
+<ul class="section-link-list">
+{% for post in site.criticism reversed limit: 10 %}
 <li>
 <a href="{{ post.url }}" itemprop="url">
 <span itemprop="name">{{ post.title }}</span>
@@ -121,6 +127,7 @@ layout: home
 {% endfor %}
 </ul>
 </section>
+{% endif %}
 
 <section id="interviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/index#interviews" title="Interviews conducted by me, and of me.">Interviews</a></h1>
@@ -149,12 +156,26 @@ layout: home
 -->
 
 <section id="podcast" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-{% assign episodes = site.podcast %}
-<h1 class="index-heading"><a href="/podcast" title="The podcast was a pandemic project.">Podcast</a></h1>
+<h1 class="index-heading"><a href="/podcast" title="A podcast from when we all got into left communism during the pandemic.">Podcast</a></h1>
 <ul class="section-link-list">
-{% for post in episodes reversed limit: 10 %}
+{% for post in site.podcast reversed limit: 10 %}
+{% if post.category contains 'Footnotes to Endnotes' %}
 <li>
 <a href="podcast#{{ post.slug }}" itemprop="url">
+<span itemprop="name">{{ post.title }}</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+</section>
+
+<section id="newsletter" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<h1 class="index-heading"><a href="/newsletter" title="The culture diary of an artworld outsider.">Newsletter Archives</a></h1>
+<ul class="section-link-list">
+{% for post in site.newsletter reversed limit: 10 %}
+<li>
+<a href="{{ post.url }}" itemprop="url">
 <span itemprop="name">{{ post.title }}</span>
 </a>
 </li>
