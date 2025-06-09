@@ -1,5 +1,3 @@
-collections:
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -21,3 +19,4 @@ exclude:
   - collections/.gitignore
   - collections/.git
   - _podcast/
+  - _culture/film-diary
