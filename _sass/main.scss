@@ -512,7 +512,7 @@ figcaption {
 span.citation {
   font-style: italic;
   em {
-    font-family: inherit;
+    font-family: $caption-italic;
     text-transform: lowercase;
     font-variant: small-caps;
   }
