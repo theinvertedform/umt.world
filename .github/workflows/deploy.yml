@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: production  # Add this line
+    environment: production
     steps:
     - name: Checkout
       uses: actions/checkout@v3
@@ -17,6 +17,11 @@ jobs:
       with:
         ruby-version: '3.4.2'
         bundler-cache: true
+
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
 
     - name: Build Jekyll
       run: bundle exec jekyll build
