@@ -1,0 +1,30 @@
+name: Deploy Jekyll to S3
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production  # Add this line
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+
+    - name: Build Jekyll
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+
+    - name: Deploy to S3
+      run: aws s3 sync _site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --delete
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: ca-central-1

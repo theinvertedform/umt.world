@@ -132,10 +132,46 @@ a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
+        color: $emerald;
+        @include link-style($border-color: $emerald, $link-color: $emerald);
+        @include link-hover-style($emerald-secondary);
+	}
+
+	#sidebar .sidebar-links a.subscribe {
+		display: block;
+		text-align: center;
+		font-variant: small-caps;
         color: $highlight-colour;
         @include link-style($border-color: $highlight-colour, $link-color: $highlight-colour);
         @include link-hover-style($highlight-colour-secondary);
 	}
+
+	//#sidebar .sidebar-links a.author {
+	//	display: block;
+	//	text-align: center;
+	//	font-variant: small-caps;
+    //    color: $violet;
+    //    @include link-style($border-color: $violet, $link-color: $violet);
+    //    @include link-hover-style($violet-secondary);
+	//}
+
+	//#sidebar .sidebar-links a.website {
+	//	display: block;
+	//	text-align: center;
+	//	font-variant: small-caps;
+    //    color: $sapphire;
+    //    @include link-style($border-color: $sapphire, $link-color: $sapphire);
+    //    @include link-hover-style($sapphire-secondary);
+	//}
+
+	//#sidebar .sidebar-links a.changelog {
+	//	display: block;
+	//	text-align: center;
+	//	font-variant: small-caps;
+    //    color: $amber;
+    //    @include link-style($border-color: $amber, $link-color: $amber);
+    //    @include link-hover-style($amber-secondary);
+	//}
 
 aside.index.abstract {
 	margin: 0 auto;
