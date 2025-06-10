@@ -8,13 +8,13 @@
 
 /* variables */
 
-//$body-font: "Kings Caslon Regular", serif;
-//$body-font-italic: "Kings Caslon Italic", serif;
-//$body-font-bold: "Kings Caslon Bold", serif;
-$body-font: "FCaslon Twelve Std", serif;
-$body-font-bold: "FCaslon Twelve Std", serif;
-$body-font-italic: "FCaslon Twelve Std Italic", serif;
-$body-font-bdit: "FCaslon Twelve Std Italic", serif;
+$body-font: "Kings Caslon Regular", serif;
+$body-font-italic: "Kings Caslon Italic", serif;
+$body-font-bold: "Kings Caslon Bold", serif;
+//$body-font: "FCaslon Twelve Std", serif;
+//$body-font-bold: "FCaslon Twelve Std", serif;
+//$body-font-italic: "FCaslon Twelve Std Italic", serif;
+//$body-font-bdit: "FCaslon Twelve Std Italic", serif;
 //$display: "Irvin Heading", serif;
 $display: "American Typewriter Condensed", serif;
 $display-index: "American Typewriter Condensed", serif;
@@ -25,7 +25,8 @@ $monospace: "Courier Std", monospace;
 //$caption: "Neutra Text Light Italic", serif;
 $caption: "American Typewriter Light", serif;
 $caption-italic: "American Typewriter Light Italic", serif;
-$super: "FCaslon Twelve Std", serif;
+//$super: "FCaslon Twelve Std", serif;
+$super: "Kings Caslon Regular", serif;
 $logotype: "American Typewriter", monospace;
 
 $font-bold: 700;
