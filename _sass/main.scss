@@ -17,13 +17,14 @@ $body-font-italic: "FCaslon Twelve Std Italic", serif;
 $body-font-bdit: "FCaslon Twelve Std Italic", serif;
 //$display: "Irvin Heading", serif;
 $display: "American Typewriter", serif;
-$display-index: "American Typewriter Bold", serif;
+$display-index: "American Typewriter Condensed", serif;
 $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
 $toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
 //$caption: "Neutra Text Light Italic", serif;
-$caption: "American Typewriter Condensed Light", serif;
+$caption: "American Typewriter Light", serif;
+$caption-italic: "American Typewriter Light Italic", serif;
 $super: "FCaslon Twelve Std", serif;
 $logotype: "American Typewriter", monospace;
 
@@ -1088,7 +1089,7 @@ section#footnotes li {
 }
 
 #markdownBody .sidenote em, span.citation {
-  @include typography($body-font-italic, normal, inherit, inherit, italic);
+  @include typography($caption-italic, normal, inherit, inherit, italic);
   }
 
 #markdownBody .sidenote strong {
