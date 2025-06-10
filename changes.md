@@ -5,6 +5,10 @@ abstract: Here are all the pages on this website, listed in chronological order.
 toc: true
 status: ongoing
 date: 2022-09-11
+tags:
+  - projects
+  - technology
+  - archives
 ---
 
 {% assign postsByYear = site.documents | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}

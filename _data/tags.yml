@@ -95,3 +95,6 @@ tags:
 
   - name: outsider
     description: "Art created outside institutional frameworks, self-taught practices, and alternative creative approaches"
+
+  - name: archives
+    description: "Collections, chronological listings, and organized repositories of past content"

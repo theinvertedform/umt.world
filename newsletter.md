@@ -5,6 +5,10 @@ abstract: Look at a prolific writer like Henry James, George Eliot, or Thomas Ma
 toc:  true
 date: 2025-01-31
 published: true
+tags:
+  - personal
+  - archives
+  - projects
 ---
 
 {% assign postsByYear = site.newsletter | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}

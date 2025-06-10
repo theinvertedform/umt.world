@@ -4,8 +4,9 @@ description: "I am going to run my mouth about some things I know nothing about.
 abstract:
 date:
 tags:
-  - film
-  - criticism
+  - films
+  - reviews
+  - archives
 toc: true
 ---
 
