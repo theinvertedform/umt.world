@@ -4,9 +4,11 @@ description: Footnotes to Endnotes is your communizer radio hour.
 abstract: A podcast collaboration between myself and Owen Gilbride. Most episodes, except the two interviews, are currently offline.
 status: on hiatus
 tags:
-  - communism
-  - podcast
-toc: true
+  - podcasts
+  - theory
+  - politics
+  - economics
+toc: false
 ---
 
 {% for post in site.podcast reversed %}
