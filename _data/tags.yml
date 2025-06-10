@@ -1,0 +1,97 @@
+# _data/tags.yml
+# Controlled vocabulary for blog post tags
+# Based on Karl Voit's tagging principles
+# https://karl-voit.at/2022/01/29/How-to-Use-Tags/
+#
+# - Use as few tags as possible
+# - Limit to a controlled vocabulary
+# - Tags must not overlap
+# - Tags in plural form
+# - Tags are lowercase
+# - Tags are single words
+# - Keep tags general
+# - Omit obvious tags
+# - Use one language (English)
+# - Explain your tags
+
+tags:
+  - name: books
+    description: "Reviews and discussions of novels, poetry, and other literary works"
+
+  - name: reviews
+    description: "Critical assessments of books, films, exhibitions, music, and other cultural works"
+
+  - name: montreal
+    description: "Content related to Montreal culture, places, events, and experiences"
+
+  - name: fiction
+    description: "Discussion of fictional works including novels and short stories"
+
+  - name: contemporary
+    description: "Modern and current cultural works, art movements, and ideas"
+
+  - name: literature
+    description: "Literary works, movements, and criticism"
+
+  - name: exhibitions
+    description: "Art gallery shows, museum displays, and cultural exhibitions"
+
+  - name: conceptual
+    description: "Conceptual art, ideas-based creative works, and theoretical approaches"
+
+  - name: films
+    description: "Cinema, movies, and moving image works"
+
+  - name: canadian
+    description: "Canadian culture, identity, politics, and artistic works"
+
+  - name: identity
+    description: "Questions of personal, cultural, and national identity"
+
+  - name: music
+    description: "Musical performances, genres, scenes, and cultural contexts"
+
+  - name: personal
+    description: "Personal experiences, reflections, and autobiographical content"
+
+  - name: nostalgia
+    description: "Reflective pieces on memory, past experiences, and temporal distance"
+
+  - name: essays
+    description: "Long-form analytical and philosophical writing"
+
+  - name: philosophy
+    description: "Philosophical ideas, theories, and cultural criticism"
+
+  - name: culture
+    description: "Broad cultural analysis, social phenomena, and contemporary issues"
+
+  - name: videos
+    description: "Video art, digital media, and moving image works"
+
+  - name: fitness
+    description: "Physical training, exercise routines, and athletic development"
+
+  - name: health
+    description: "Wellness, physical conditioning, and bodily well-being"
+
+  - name: schedules
+    description: "Programming, timing, routines, and structured approaches to activities"
+
+  - name: hypertext
+    description: "Digital text structures, linking systems, and web-based literary forms"
+
+  - name: technology
+    description: "Digital tools, software development, and technological culture"
+
+  - name: projects
+    description: "Creative endeavors, artistic works, and ongoing personal initiatives"
+
+  - name: biography
+    description: "Life history, personal background, and autobiographical content"
+
+  - name: education
+    description: "Academic experiences, institutional learning, and educational background"
+
+  - name: outsider
+    description: "Art created outside institutional frameworks, self-taught practices, and alternative creative approaches"

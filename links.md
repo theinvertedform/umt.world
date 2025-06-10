@@ -4,9 +4,10 @@ description: "Pertinent biographic details, work and academic experience; psycho
 abstract: "I am a communist writer, philosopher, and critic. I am interested in the visual culture of the modern era and the relationship between technology and media. My historical research is directed towards a periodization of the contemporary; my reading in philosophy tends German. These studies are the basis of my literary practise, which brings together many different disciplines to create a panoramic view of the Contemporary. Digital technologies are an element of my creative practise, from web development, typography and graphic design, to the software that I use to develop it (see the [*About the Website*](/about) page). Questions that are important to me include: how does media change, and what is its history? What is the relation between media and technology? What is the origin of the digital? How does digital life stand in relation to historical precedents? What is the relation between the modes of production, and the aesthetic and social lives of a given period?"
 toc: true
 tags:
+  - personal
   - biography
-  - literature
-  - aesthetics
+  - montreal
+  - education
 date: 2022-11-04
 ---
 

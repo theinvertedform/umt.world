@@ -4,10 +4,11 @@ description: On the content and background of this website.
 abstract: "This website is conceived of as an experiment in outsider art. The medium is hypertext. It begins with my writing and research environment; it includes the design and architecture of this website; and finally, the *website-as-a-work-of-art* includes a narrative section based on autofiction and the history of online writing. This page is 'meta-fictional' in the sense that it covers the technical and theoretical background informing the project. It also treats the political issues that motivate my interest in hypermedia and digital culture. Some of the relevant topics include: the avant-garde, outsider culture, and institutional critique. The ultimate objective of this website is to combine web design, information systems architecture, and literary form to create a new kind of book. At once memoir and socially-committed cultural critique."
 toc: true
 tags:
-  - outsider art
-  - kitsch
+  - personal
+  - outsider
   - hypertext
-  - information management
+  - technology
+  - projects
 status: extremely rough
 date: 2022-09-11
 ---
