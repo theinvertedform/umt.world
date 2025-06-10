@@ -27,7 +27,7 @@ jobs:
         pandoc-version: 'latest'
 
     - name: Build Jekyll
-      run: bundle exec jekyll build
+      run: ./build.sh
       env:
         JEKYLL_ENV: production
 
