@@ -101,3 +101,45 @@ tags:
 
   - name: relationships
     description: "Romantic connections, dating experiences, and interpersonal dynamics"
+
+  - name: podcasts
+    description: "Audio content, podcast episodes, and spoken discussions"
+
+  - name: theory
+    description: "Theoretical analysis, philosophical frameworks, and conceptual discussions"
+
+  - name: politics
+    description: "Political analysis, revolutionary thought, and social movements"
+
+  - name: economics
+    description: "Economic systems, capitalist analysis, and material conditions"
+
+  - name: utopias
+    description: "Utopian speculation, post-revolutionary scenarios, and social fiction"
+
+  - name: capitalism
+    description: "Capitalist systems, critiques of capital, and economic structures"
+
+  - name: psychology
+    description: "Psychological theories, group dynamics, and behavioral analysis"
+
+  - name: collectives
+    description: "Group processes, collective experiences, and organizational dynamics"
+
+  - name: history
+    description: "Historical analysis, past events, and temporal perspectives"
+
+  - name: urbanism
+    description: "Urban development, city planning, spatial organization, and metropolitan analysis"
+
+  - name: riots
+    description: "Uprisings, social unrest, protest movements, and collective action"
+
+  - name: interviews
+    description: "Guest discussions, conversations, and dialogues with other voices"
+
+  - name: gender
+    description: "Gender relations, feminist analysis, and reproductive labor"
+
+  - name: critique
+    description: "Critical interventions, polemical analysis, and theoretical criticism"
