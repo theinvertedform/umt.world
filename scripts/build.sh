@@ -12,7 +12,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 # Generate backlinks (only if the script exists and works)
 if [ -f "scripts/generate_backlinks.rb" ]; then
   echo "Attempting to generate backlinks..."
-  if ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks; then
+  if bundle exec ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks; then
     echo "Backlinks generated successfully"
 
     # Rebuild the site to include the backlinks data
