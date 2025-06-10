@@ -130,3 +130,5 @@ exclude:
   - collections/.gitignore
   - collections/.git
   - _culture/film-diary/
+  - package-lock.json
+  - package.json
