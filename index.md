@@ -84,7 +84,7 @@ layout: home
 <hr class="index-section-ornament" >
 
 <section id="books" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">The Author in the Library</a></h1>
+<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">The Mile End Review of Books</a></h1>
 <ul class="section-link-list">
 {% for post in site.books reversed limit: 10 %}
 <li>

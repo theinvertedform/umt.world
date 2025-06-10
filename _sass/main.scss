@@ -245,9 +245,12 @@ h1.index-heading {
 	margin: 1.125em 0 0 0;
 	text-align: left;
 	padding: 0;
-    @include typography($display-index, normal, 1.5rem, display, normal, none, small-caps);
+    @include typography($display-index, normal, 1.5rem, display, normal, lowercase, small-caps);
     a {
       border-bottom: none;
+    }
+    em {
+      @include typography($display-index, normal, 1.5rem, display, italic, lowercase, small-caps);
     }
 }
 
@@ -513,8 +516,8 @@ span.citation {
   font-style: italic;
   em {
     font-family: $caption-italic;
-    text-transform: lowercase;
-    font-variant: small-caps;
+    text-transform: uppercase;
+    //font-variant: small-caps;
   }
 }
 
@@ -623,15 +626,14 @@ h1.title {
 	text-align: center;
 	letter-spacing: -1px;
 	border-bottom: none;
-    @include typography($display, normal, 2.5em, display, normal, uppercase, small-caps);
+    @include typography($display, normal, 2.5em, display, normal, uppercase);
     /* Comprehensive OpenType feature access */
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
-
     em {
-      @include typography($display normal, 2.5em, display, normal, uppercase, small-caps);
+      @include typography($display, normal, inherit, display, italic, uppercase);
     }
 }
 
