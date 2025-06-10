@@ -16,7 +16,7 @@ $body-font-bold: "FCaslon Twelve Std", serif;
 $body-font-italic: "FCaslon Twelve Std Italic", serif;
 $body-font-bdit: "FCaslon Twelve Std Italic", serif;
 //$display: "Irvin Heading", serif;
-$display: "American Typewriter", serif;
+$display: "American Typewriter Condensed", serif;
 $display-index: "American Typewriter Condensed", serif;
 $sans-serif: "Neutra Text Book", sans-serif;
 $sans-serif-italic: "Neutra Text Book Italic", sans-serif;
@@ -510,7 +510,12 @@ figcaption {
 }
 
 span.citation {
-  font-style: italic ;
+  font-style: italic;
+  em {
+    font-family: inherit;
+    text-transform: lowercase;
+    font-variant: small-caps;
+  }
 }
 
 img {
