@@ -311,8 +311,8 @@ footer {
 	}
 
 	#footer-logo img {
-		min-width: 3em;
-		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
+        width: 75ch;
+		//filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
 		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* $background-colour */
 }
 
