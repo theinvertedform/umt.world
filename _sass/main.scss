@@ -8,26 +8,45 @@
 
 /* variables */
 
+/* body font */
 $body-font: "Kings Caslon Regular", serif;
 $body-font-italic: "Kings Caslon Italic", serif;
 $body-font-bold: "Kings Caslon Bold", serif;
+//$body-font: "Miller Text", serif;
+//$body-font-italic: "Miller Text Italic", serif;
+//$body-font-bold: "Miller Text Bold", serif;
 //$body-font: "FCaslon Twelve Std", serif;
 //$body-font-bold: "FCaslon Twelve Std", serif;
 //$body-font-italic: "FCaslon Twelve Std Italic", serif;
 //$body-font-bdit: "FCaslon Twelve Std Italic", serif;
+
+/* display font */
+$display: "LTC Remington Typewriter", serif;
+$display-index: "LTC Remington Typewriter", serif;
+$caption: "Kings Caslon Regular", serif;
+$caption-italic: "Kings Caslon Italic", serif;
 //$display: "Irvin Heading", serif;
-$display: "American Typewriter Condensed", serif;
-$display-index: "American Typewriter Condensed", serif;
-$sans-serif: "Neutra Text Book", sans-serif;
-$sans-serif-italic: "Neutra Text Book Italic", sans-serif;
-$toc: "Neutra Text Book", sans-serif;
+//$display: "American Typewriter Condensed", serif;
+//$display: "P22 Typewriter", serif;
+//$display-index: "P22 Typewriter", serif;
+
+/* sans-serif & monospace */
+$sans-serif: "Akzidenz Grotesk", sans-serif;
+$sans-serif-italic: "Akzidenz Grotesk Italic", sans-serif;
+$toc: "Akzidenz Grotesk", sans-serif;
+
+//$sans-serif: "Franklin Gothic URW Book", sans-serif;
+//$sans-serif-italic: "Franklin Gothic URW Book Italic", sans-serif;
+//$toc: "Franklin Gothic URW Book", sans-serif;
+
+//$sans-serif: "Neutra Text Book", sans-serif;
+//$sans-serif-italic: "Neutra Text Book Italic", sans-serif;
+//$toc: "Neutra Text Book", sans-serif;
 $monospace: "Courier Std", monospace;
-//$caption: "Neutra Text Light Italic", serif;
-$caption: "American Typewriter Light", serif;
-$caption-italic: "American Typewriter Light Italic", serif;
-//$super: "FCaslon Twelve Std", serif;
 $super: "Kings Caslon Regular", serif;
-$logotype: "American Typewriter", monospace;
+$logotype: "LTC Remington Typewriter", monospace;
+//$caption: "Neutra Text Light Italic", serif;
+//$super: "FCaslon Twelve Std", serif;
 
 $font-bold: 700;
 $font-semibold: 600;
@@ -754,6 +773,9 @@ section.level2 > h2 {
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
     a {
       border-bottom: none;
+    }
+    em {
+      font: inherit;
     }
 }
 

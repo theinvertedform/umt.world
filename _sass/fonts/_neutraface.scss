@@ -1,0 +1,1149 @@
+// Neutra Display
+@font-face {
+ font-family: "Neutra Display Thin";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayThin.otf") format("opentype");
+ font-weight: 100;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Thin Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayThinAlt.otf") format("opentype");
+ font-weight: 100;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Light";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayLight.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Light Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayLightAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayMedium.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayMediumAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Bold";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayBold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Bold Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayBoldAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Draft";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayDraft.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Draft Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayDraftAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Num";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayNum.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: lining-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Num Alt";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayNumAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: lining-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Display Titling";
+ src: url("../fonts/Neutraface/Neutra%20Display/NeutraDisplayTitling.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-caps: titling-caps;
+ font-display: swap;
+}
+
+// Neutra Condensed
+@font-face {
+ font-family: "Neutra Condensed Thin";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-Thin.otf") format("opentype");
+ font-weight: 100;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Thin Alt";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-ThinAlt.otf") format("opentype");
+ font-weight: 100;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Light";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-Light.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Light Alt";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-LightAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-Medium.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Alt";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-MediumAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Bold";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-Bold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Bold Alt";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-BoldAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Condensed Titling";
+ src: url("../fonts/Neutraface/Neutra%20Condensed/NeutraCond-Titling.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-variant-caps: titling-caps;
+ font-display: swap;
+}
+
+// Neutra Text Basic
+@font-face {
+ font-family: "Neutra Text Light";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLight.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLightAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLightItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLightItalicAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBookAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBookItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBookItalicAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextDemi.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextDemiAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextDemiItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextDemiItalicAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBoldAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBoldItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBoldItalicAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-display: swap;
+}
+
+// Neutra Text Extras
+@font-face {
+ font-family: "Neutra Text Light Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightFrac.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light Italic Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightItalicFrac.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookFrac.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book Italic Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookItalicFrac.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiFrac.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi Italic Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiItalicFrac.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldFrac.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold Italic Frac";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldItalicFrac.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: diagonal-fractions;
+ font-display: swap;
+}
+
+// Neutra Text Small Caps
+@font-face {
+ font-family: "Neutra Text Light SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightSC.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightSCAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightSCItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Light SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextLightSCItalicAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookSC.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookSCAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookSCItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Book SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBookSCItalicAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiSC.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiSCAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiSCItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Demi SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextDemiSCItalicAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldSC.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldSCAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldSCItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text Bold SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Extras/NeutraTextBoldSCItalicAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+// Neutra Text Tabular
+@font-face {
+ font-family: "Neutra Text TF Light";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFLight.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFLightAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFLightItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFLightItalicAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBook.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBookAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBookItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBookItalicAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFDemi.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFDemiAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFDemiItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFDemiItalicAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBoldAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBoldItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tabular/NeutraTextTFBoldItalicAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-display: swap;
+}
+
+// Neutra Text Tabular Small Caps
+@font-face {
+ font-family: "Neutra Text TF Light SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFLightSC.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFLightSCAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFLightSCItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFLightSCItaAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBookSC.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBookSCAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBookSCItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBookSCItaAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFDemSC.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFDemiSCAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFDemiSCItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFDemiSCItaAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBoldSC.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBoldSCAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBoldSCItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20Tab%20Extras/NeutraTextTFBoldSCItaAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: tabular-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+// Neutra Text (Text Figure) versions
+@font-face {
+ font-family: "Neutra Text TF Light";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-Light.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightItalicAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-Book.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookItalicAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-Demi.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiItalicAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-Bold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldItalicAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-display: swap;
+}
+
+// Text Figure Small Caps versions
+@font-face {
+ font-family: "Neutra Text TF Light SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightSC.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightSCAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightSCItalic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Light SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-LightSCItalicAlt.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookSC.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookSCAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookSCItalic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Book SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BookSCItaAlt.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemSC.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiSCAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiSCItalic.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Demi SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-DemiSCItaAlt.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldSC.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldSCAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Italic";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldSCItalic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Neutra Text TF Bold SC Italic Alt";
+ src: url("../fonts/Neutraface/Neutra%20Text%20(Text%20Figure)/NeutraTextTF-BoldSCItaAlt.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-variant-numeric: oldstyle-nums;
+ font-variant-caps: small-caps;
+ font-display: swap;
+}

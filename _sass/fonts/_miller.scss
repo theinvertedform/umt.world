@@ -1,0 +1,282 @@
+// Miller Banner
+@font-face {
+  font-family: "Miller Banner Light";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Light Italic";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Light%20Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Italic";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner SemiBold";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner SemiBold Italic";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20SemiBold%20Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Bold";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Bold Italic";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Bold%20Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Black";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Banner Black Italic";
+  src: url("../fonts/Miller/Miller%20Banner/Miller%20Banner%20Black%20Italic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+// Miller Display
+@font-face {
+  font-family: "Miller Display Light";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display Light Italic";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20Light%20Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display Italic";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display SemiBold";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display SemiBold Italic";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20SemiBold%20Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Display Bold";
+  src: url("../fonts/Miller/Miller%20Display/Miller%20Display%20Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+// Miller Headline
+@font-face {
+  font-family: "Miller Headline Light";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline Light Italic";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Light%20Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline Italic";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline SemiBold";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline SemiBold Italic";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20SemiBold%20Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline Bold";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Headline Bold Italic";
+  src: url("../fonts/Miller/Miller%20Headline/Miller%20Headline%20Bold%20Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+// Miller Text
+@font-face {
+  font-family: "Miller Text";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Text Italic";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Text SemiBold";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Text SemiBold Italic";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Semibold%20Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Text Bold";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+  font-family: "Miller Text Bold Italic";
+  src: url("../fonts/Miller/Miller%20Text/Miller%20Text%20Bold%20Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: "liga", "kern";
+}

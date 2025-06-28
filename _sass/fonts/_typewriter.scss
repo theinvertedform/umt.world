@@ -1,0 +1,75 @@
+// American Typewriter
+@font-face {
+ font-family: "American Typewriter Light";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Light Italic";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light%20Italic.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Medium.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Italic";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Medium%20Italic.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Bold";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Bold Italic";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold%20Italic.otf") format("opentype");
+ font-weight: 700;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Light Condensed";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light%20Condensed.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Condensed";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Condensed.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "American Typewriter Bold Condensed";
+ src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold%20Condensed.otf") format("opentype");
+ font-weight: 700;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}

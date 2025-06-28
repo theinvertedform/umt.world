@@ -1,0 +1,89 @@
+// Kings Caslon
+@font-face {
+  font-family: "Kings Caslon Regular";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdRg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kings Caslon Bold";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kings Caslon Italic";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdIt.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kings Caslon Bold Italic";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBdIt.ttf") format("truetype"); // Use the Bold file for Bold Italic too
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kings Caslon Display Regular";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdRg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kings Caslon Display Italic";
+  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdIt.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ACaslon Expert";
+  src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Founders Caslon
+@font-face {
+  font-family: "FCaslon Twelve Std";
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Twelve Std Italic";
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Twelve Std Bold";
+  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FCaslon Poster ITC Std";
+  src: url("../fonts/FCaslon/FCaslonPosterITCStd-Roman.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

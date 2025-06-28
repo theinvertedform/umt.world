@@ -1,97 +1,15 @@
+// Import font families
+//@import "fonts/miller";
+//@import "fonts/neutraface";
+@import "fonts/typewriter";
+@import "fonts/caslon";
+//@import "fonts/franklin";
+@import "fonts/akzidenz";
+
 // Define generic font families for fallbacks
 $source-sans: "Source Sans 3", sans-serif;
 $source-serif: "Source Serif 4", serif;
 $source-code: "Source Code Pro", monospace;
-
-// Kings Caslon
-@font-face {
-  font-family: "Kings Caslon Regular";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonStdRg.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Kings Caslon Bold";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBd.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Kings Caslon Italic";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonStdIt.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Kings Caslon Bold Italic";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonStdBdIt.ttf") format("truetype"); // Use the Bold file for Bold Italic too
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Kings Caslon Display Regular";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdRg.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Kings Caslon Display Italic";
-  src: url("../fonts/Kings%20Caslon/KingsCaslonDisplayStdIt.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "ACaslon Expert";
-  src: url("../fonts/Adobe%20Caslon%20Regular%20Expert.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-// Founders Caslon
-@font-face {
-  font-family: "FCaslon Twelve Std";
-  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "FCaslon Twelve Std Italic";
-  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "FCaslon Twelve Std Bold";
-  src: url("../fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "FCaslon Poster ITC Std";
-  src: url("../fonts/FCaslon/FCaslonPosterITCStd-Roman.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 
 // Irvin Heading
 @font-face {
@@ -154,7 +72,7 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-// Flyerfonts Release
+// Flyerfonts
 @font-face {
   font-family: "Flyerfonts Release";
   src: url("../fonts/Flyerfonts-Release.otf") format("opentype");
@@ -163,7 +81,6 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-// Flyerfonts Malfunction
 @font-face {
   font-family: "Flyerfonts Release";
   src: url("../fonts/Flyerfonts-Malfunction.otf") format("opentype");
@@ -172,113 +89,28 @@ $source-code: "Source Code Pro", monospace;
   font-display: swap;
 }
 
-// American Typewriter
+// P22 Typewriter
 @font-face {
- font-family: "American Typewriter Light";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light.otf") format("opentype");
- font-weight: 300;
- font-style: normal;
- font-display: swap;
+  font-family: "P22 Typewriter";
+  src: url("../fonts/p22-typewriter/P22%20Typewriter%20W05%20Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
+// LTC Remington Typewriter
 @font-face {
- font-family: "American Typewriter Light Italic";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light%20Italic.otf") format("opentype");
- font-weight: 300;
- font-style: italic;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Medium.otf") format("opentype");
- font-weight: 400;
- font-style: normal;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Italic";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Medium%20Italic.otf") format("opentype");
- font-weight: 400;
- font-style: italic;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Bold";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold.otf") format("opentype");
- font-weight: 700;
- font-style: normal;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Bold Italic";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold%20Italic.otf") format("opentype");
- font-weight: 700;
- font-style: italic;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Light Condensed";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Light%20Condensed.otf") format("opentype");
- font-weight: 300;
- font-style: normal;
- font-stretch: condensed;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Condensed";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Condensed.otf") format("opentype");
- font-weight: 400;
- font-style: normal;
- font-stretch: condensed;
- font-display: swap;
-}
-
-@font-face {
- font-family: "American Typewriter Bold Condensed";
- src: url("../fonts/ITC%20American%20Typewriter/American%20Typewriter%20ITC%20Pro%20Bold%20Condensed.otf") format("opentype");
- font-weight: 700;
- font-style: normal;
- font-stretch: condensed;
- font-display: swap;
-}
-
-
-//Neutraface
-@font-face {
-  font-family: "Neutra Text Book";
-  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBook.otf") format("opentype");
+  font-family: "LTC Remington Typewriter";
+  src: url("../fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Neutra Text Book Italic";
-  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBookItalic.otf") format("opentype");
+  font-family: "LTC Remington Typewriter Italic";
+  src: url("../fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
-
-@font-face {
-  font-family: "Neutra Text Bold";
-  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextBold.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Neutra Text Light Italic";
-  src: url("../fonts/Neutraface/Neutra%20Text%20Basic/NeutraTextLightItalic.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-

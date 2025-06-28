@@ -1,0 +1,191 @@
+// Franklin Gothic URW
+@font-face {
+ font-family: "Franklin Gothic URW Light";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-Lig.otf") format("opentype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Light Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-LigIta.otf") format("opentype");
+ font-weight: 300;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Book";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-Boo.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Book Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-BooIta.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Demi";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-Dem.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Demi Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-DemIta.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Medium";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-Med.otf") format("opentype");
+ font-weight: 600;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Medium Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-MedIta.otf") format("opentype");
+ font-weight: 600;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Heavy";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-Hea.otf") format("opentype");
+ font-weight: 800;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Heavy Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURW-HeaIta.otf") format("opentype");
+ font-weight: 800;
+ font-style: italic;
+ font-display: swap;
+}
+
+// Franklin Gothic URW Compressed
+@font-face {
+ font-family: "Franklin Gothic URW Compressed Book";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCom-Boo.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Compressed Book Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCom-BooIta.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Compressed Demi";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCom-Dem.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Compressed Demi Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCom-DemIta.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+// Franklin Gothic URW Condensed
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Book";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCond-Book.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Book Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCon-BooIta.otf") format("opentype");
+ font-weight: 400;
+ font-style: italic;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Demi";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCon-Dem.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Demi Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCon-DemIta.otf") format("opentype");
+ font-weight: 500;
+ font-style: italic;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Medium";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCond-Medium.otf") format("opentype");
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Condensed Medium Italic";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWCon-MedIta.otf") format("opentype");
+ font-weight: 600;
+ font-style: italic;
+ font-stretch: condensed;
+ font-display: swap;
+}
+
+// Franklin Gothic URW Extra Compressed
+@font-face {
+ font-family: "Franklin Gothic URW Extra Compressed Book";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWExtComD-Boo.otf") format("opentype");
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: extra-condensed;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Franklin Gothic URW Extra Compressed Demi";
+ src: url("../fonts/Franklin%20Gothic%20URW/FranklinGothicURWExtComD-Dem.otf") format("opentype");
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: extra-condensed;
+ font-display: swap;
+}
