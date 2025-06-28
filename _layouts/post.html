@@ -9,6 +9,15 @@ layout: default
 		<div class="p-summary" id="page-description" itemprop="description">
 			{{ page.description | markdownify }}
 		</div>
+
+	{% if page.cover %}
+		<figure class="cover">
+			<img src="{{ page.cover }}">
+			{% if page.cover_caption %}
+			<figcaption aria-hidden="true">{{ page.cover_caption }}</figcaption>
+			{% endif %}
+		</figure>
+	{% endif %}
 	{% if page.tags.size > 0 %}
 		<div id="link-tags">
 	{% for tag in page.tags %}
