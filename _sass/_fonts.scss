@@ -116,3 +116,68 @@ $source-code: "Source Code Pro", monospace;
   font-style: italic;
   font-display: swap;
 }
+
+// Chandler 42
+@font-face {
+ font-family: "Chandler 42 Lite";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20Lite.ttf") format("truetype");
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Lite Italic";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20LiteItalic.ttf") format("truetype");
+ font-weight: 300;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20Regular.ttf") format("truetype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Italic";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20Italic.ttf") format("truetype");
+ font-weight: 400;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Medium";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20Medium.ttf") format("truetype");
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Medium Italic";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20MediumItalic.ttf") format("truetype");
+ font-weight: 500;
+ font-style: italic;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Noir";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20Noir.ttf") format("truetype");
+ font-weight: 900;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Chandler 42 Noir Italic";
+ src: url("../fonts/chandler-42/Chandler_42%20W05%20NoirItalic.ttf") format("truetype");
+ font-weight: 900;
+ font-style: italic;
+ font-display: swap;
+}
