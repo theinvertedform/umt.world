@@ -1,9 +1,9 @@
 ---
 title: Index
-abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to writing published here and elsewhere, online & in print. This website is an ongoing experiment that combines hypertext design, information architecture, and experimental narrative.
+abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, which includes criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
 
 
-For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](umtworld.substack.com) to receive updates in your inbox. This index includes [critical writing](/reviews) on films and art; [essays](/index#essays) and [interviews](/index#interviews) on philosophy and politics; and a fictionalized [diary](/diaries)."
+For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](https://news.umt.world) to receive updates in your inbox. The index below contains [critical writing](/index#culture), [book reviews](/index#books) and craft essays, and [interviews](/index#interviews) on philosophy and politics. There is a secret narrative hidden in the [margins](/diaries)."
 layout: home
 ---
 
@@ -97,7 +97,7 @@ layout: home
 </section>
 
 <section id="culture" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#culture" title="Writing on all cultural objects that are not books.">The Margins of Culture</a></h1>
+<h1 class="index-heading"><a href="/index#culture" title="Writing on all cultural objects that are not books.">Margins of Culture</a></h1>
 <ul class="section-link-list">
 {% for post in site.culture reversed %}
 {% unless post.categories contains "total cinema" %}
@@ -144,7 +144,7 @@ layout: home
 
 <!--
 <section id="stories">
-<h1 class="index-heading" id="stories"><a href="/index#stories">Stories</a></h1>
+<h1 class="index-heading" id="stories"><a href="/index#stories">Tales of the Turbo Age</a></h1>
 <ul class="section-link-list">
 {% for post in site.stories reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
