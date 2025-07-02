@@ -1,7 +1,7 @@
 ---
 title: Changelog
 description: A chronological list of all additions to the website.
-abstract: Here are all the pages on this website, listed in chronological order. It's a bit simplistic and not that helpful in its current form, but it's a complex undertaking so please bear with me. The goal is to condense items, and also to include page descriptions. The [commit log](https://github.com/theinvertedform/umt.world/activity) represents a partial history of changes to the website code.
+abstract: Here are all the pages on this website, listed in chronological order. It's a bit simplistic and does not show the date things were actually added or updated. It's a complex undertaking so please bear with me. The [commit log](https://github.com/theinvertedform/umt.world/activity) represents a partial history of changes to the website code.
 toc: true
 status: ongoing
 date: 2022-09-11

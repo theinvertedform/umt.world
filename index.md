@@ -50,10 +50,10 @@ layout: home
 <a href="/interviews/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
 </li>
 <li>
-<a href="/reviews/drones">Return to Drones</a>
+<a href="/culture/drones">Return to Drones</a>
 </li>
 <li>
-<a href="/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
+<a href="/culture/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
 </li>
 <ul>
 <li>
@@ -97,7 +97,7 @@ layout: home
 </section>
 
 <section id="culture" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#culture" title="Writing on culture.">Culture From Outside</a></h1>
+<h1 class="index-heading"><a href="/index#culture" title="Writing on all cultural objects that are not books.">The Margins of Culture</a></h1>
 <ul class="section-link-list">
 {% for post in site.culture reversed %}
 {% unless post.categories contains "total cinema" %}
