@@ -130,7 +130,7 @@ layout: home
 {% endif %}
 
 <section id="interviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#interviews" title="Interviews conducted by me, and of me.">Interviews</a></h1>
+<h1 class="index-heading"><a href="/index#interviews" title="Interviews conducted by me, and of me.">In Conversation</a></h1>
 <ul class="section-link-list">
 {% for post in site.interviews reversed limit: 10 %}
 <li>
