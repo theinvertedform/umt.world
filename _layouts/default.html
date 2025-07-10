@@ -71,6 +71,16 @@
 		<script src="{{ '/assets/js/analytics.min.js' | relative_url }}"></script>
 		<script src="{{ '/assets/js/google-analytics.min.js' | relative_url }}"></script>
 		<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+		<script>
+			// Clean _gl parameter from URL after GA4 processes it
+			if (window.location.search.includes('_gl=')) {
+			  setTimeout(() => {
+			    const url = new URL(window.location);
+			    url.searchParams.delete('_gl');
+			    window.history.replaceState({}, '', url);
+			  }, 100);
+			}
+		</script>
 		{% endif %}
     </body>
 </html>
