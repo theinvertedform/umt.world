@@ -55,9 +55,9 @@ collections:
   culture:
     output: true
     permalink: "/culture/:title"
-  #fiction:
-  #  output: false
-  #  permalink: "/fiction/:title"
+  fiction:
+    output: true
+    permalink: "/fiction/:title"
   interviews:
     output: true
     permalink: "/interviews/:title"
