@@ -33,7 +33,7 @@ Andrew Getty, who died in 2015 at the age of 47, was the heir to the Getty Oil C
 
 It's possible that all outsider art is kitschy. This website is a hypertext artwork. Does that mean it's kitschy? It seems so. I don't want to make kitschy art, but I also don't want to wait in hope that an institution notices me and likes me. I'd rather see what I can build on my own.
 
-![Limbourg Brothers (Dutch, 1385 – 1416). April, 1412-1416. Illumination on vellum; 29 × 21 cm (11 2/5 × 8 3/10 in). Chantilly: Musée Condé.](/assets/images/avril.jpg)
+![Limbourg Brothers (Dutch, 1385 – 1416). Novembre, 1412-1416. Illumination on vellum; 29 × 21 cm (11 2/5 × 8 3/10 in). Chantilly: Musée Condé.](/assets/images/novembre.jpg)
 
 # My Vision for This Website
 
