@@ -14,48 +14,48 @@ $source-code: "Source Code Pro", monospace;
 /* misc fonts */
 
 // Irvin Heading
-@font-face {
-  font-family: "Irvin Heading";
-  src: url("../fonts/Irvin-Heading.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "Irvin Heading";
+//  src: url("../fonts/Irvin-Heading.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
 // Grotesque No 9
-@font-face {
-  font-family: "GrotesqueNo9W05-Regular";
-  src: url("../fonts/GrotesqueNo9%20W05%20Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "GrotesqueNo9W05-Regular";
+//  src: url("../fonts/GrotesqueNo9%20W05%20Regular.ttf");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
 // Mrs Eaves
-@font-face {
-  font-family: "Mrs Eaves Petite Caps OT";
-  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20All%20Petite%20Caps%20OT.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "Mrs Eaves Petite Caps OT";
+//  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20All%20Petite%20Caps%20OT.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
-@font-face {
-  font-family: "Mrs Eaves Lining OT";
-  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20Lining%20OT.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  font-variant-ligatures: common-ligatures;
-}
+//@font-face {
+//  font-family: "Mrs Eaves Lining OT";
+//  src: url("../fonts/Mrs%20Eaves/Mrs%20Eaves%20Lining%20OT.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//  font-variant-ligatures: common-ligatures;
+//}
 
-@font-face {
-  font-family: "Mrs Eaves OT Roman";
-  src: url("../fonts/Mrs%20Eaves/MrsEavesOT-Roman.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "Mrs Eaves OT Roman";
+//  src: url("../fonts/Mrs%20Eaves/MrsEavesOT-Roman.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
 // Courier Std
 @font-face {
@@ -75,30 +75,30 @@ $source-code: "Source Code Pro", monospace;
 }
 
 // Flyerfonts
-@font-face {
-  font-family: "Flyerfonts Release";
-  src: url("../fonts/Flyerfonts-Release.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "Flyerfonts Release";
+//  src: url("../fonts/Flyerfonts-Release.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
-@font-face {
-  font-family: "Flyerfonts Release";
-  src: url("../fonts/Flyerfonts-Malfunction.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "Flyerfonts Release";
+//  src: url("../fonts/Flyerfonts-Malfunction.otf") format("opentype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
 // P22 Typewriter
-@font-face {
-  font-family: "P22 Typewriter";
-  src: url("../fonts/p22-typewriter/P22%20Typewriter%20W05%20Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+//@font-face {
+//  font-family: "P22 Typewriter";
+//  src: url("../fonts/p22-typewriter/P22%20Typewriter%20W05%20Regular.ttf") format("truetype");
+//  font-weight: 400;
+//  font-style: normal;
+//  font-display: swap;
+//}
 
 // LTC Remington Typewriter
 @font-face {
@@ -106,7 +106,7 @@ $source-code: "Source Code Pro", monospace;
   src: url("../fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -114,7 +114,7 @@ $source-code: "Source Code Pro", monospace;
   src: url("../fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 // Chandler 42
@@ -123,7 +123,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20Lite.ttf") format("truetype");
  font-weight: 300;
  font-style: normal;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -131,7 +131,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20LiteItalic.ttf") format("truetype");
  font-weight: 300;
  font-style: italic;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -139,7 +139,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20Regular.ttf") format("truetype");
  font-weight: 400;
  font-style: normal;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -147,7 +147,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20Italic.ttf") format("truetype");
  font-weight: 400;
  font-style: italic;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -155,7 +155,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20Medium.ttf") format("truetype");
  font-weight: 500;
  font-style: normal;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -163,7 +163,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20MediumItalic.ttf") format("truetype");
  font-weight: 500;
  font-style: italic;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -171,7 +171,7 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20Noir.ttf") format("truetype");
  font-weight: 900;
  font-style: normal;
- font-display: swap;
+ font-display: block;
 }
 
 @font-face {
@@ -179,5 +179,5 @@ $source-code: "Source Code Pro", monospace;
  src: url("../fonts/chandler-42/Chandler_42%20W05%20NoirItalic.ttf") format("truetype");
  font-weight: 900;
  font-style: italic;
- font-display: swap;
+ font-display: block;
 }

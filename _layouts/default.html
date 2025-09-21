@@ -28,6 +28,35 @@
 		<link rel="stylesheet" href="{{ "/assets/css/lightbox.css" | relative_url }}">
 		<link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
 
+		<!-- Preload fonts -->
+
+		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf" as="font" type="font/otf" crossorigin>
+		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf" as="font" type="font/otf" crossorigin>
+		<link rel="preload" href="/assets/fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro.otf" as="font" type="font/otf" crossorigin>
+		<link rel="preload" href="/assets/fonts/Akzidenz%20Grotesk/AkzidenzGrotesk-Regular.otf" as="font" type="font/otf" crossorigin>
+		<link rel="preload" href="/assets/fonts/Akzidenz%20Grotesk/AkzidenzGrotesk-Italic.otf" as="font" type="font/otf" crossorigin>
+		<link rel="preload" href="/assets/fonts/chandler-42/Chandler_42%20W05%20Lite.ttf" as="font" type="font/ttf" crossorigin>
+
+		<!-- Critical font declarations -->
+
+		<style>
+		html {
+		    font-family: "FCaslon Twelve Std", serif;
+		}
+		#sidebar {
+		    font-family: "LTC Remington Typewriter", serif;
+		}
+		#sidebar span#logotype {
+		    font-family: "Chandler 42 Lite", monospace;
+		}
+		h1, h2, h3 {
+		    font-family: "LTC Remington Typewriter", serif;
+		}
+		#page-metadata, #link-tags {
+		    font-family: "Akzidenz Grotesk", sans-serif;
+		}
+		</style>
+
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
         <meta name="description" content="Personal website of Uriah Marc Todoroff.">
