@@ -24,6 +24,9 @@ tags:
   - name: montreal
     description: "Content related to Montreal culture, places, events, and experiences"
 
+  - name: nyc
+    description: "Content related to New York City culture, places, events, and experiences"
+
   - name: fiction
     description: "Discussion of fictional works including novels and short stories"
 
