@@ -1,3 +1,13 @@
+pandoc:
+  format: html5
+  extensions:
+    - csl: "assets/csl/chicago-fullnote-bibliography.csl"
+    - bibliography: "collections/bibliography.bib"
+    - citeproc
+    #- lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
+    - from: "markdown+gfm_auto_identifiers"
+    - section_divs
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

@@ -44,13 +44,41 @@ Even more than this book, the future is the next man who will make her dream, bu
 
 {% assign date_format = "%b %d %Y" %}
 
-{% for post in site.personal %}
-{% if post.category contains "diaries" %}
 <section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
-<h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
-	<a href="#{{ post.slug }}">{{ post.title }}</a>
+<h1 class="heading diary" id="{{ post.title | slugify }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+	<a href="#{{ post.slug }}">The Beginning of a Longer Journey</a>
 </h1>
 <hr>
+{% assign start_date = "2023-09-01" | date: "%s" %}
+{% assign end_date = "2023-10-13" | date: "%s" %}
+{% for post in site.personal %}
+{% assign post_date = post.date | date: "%s" %}
+{% if post.category contains "diaries" and post_date >= start_date and post_date <= end_date %}
+
+<article id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
+<h2 itemprop="headline">{{ post.title }}</h2>
+<meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+<span itemprop="articleBody">
+{{ post.content }}
+</span>
+
+{% if post.last_modified_at %}
+<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
+{% endif %}
+{% endif %}
+{% endfor %}
+</article>
+
+<section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
+<h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+	<a href="#{{ post.slug }}">All the Interim is Like a Hideous Dream</a>
+</h1>
+<hr>
+{% assign start_date = "2023-10-14" | date: "%s" %}
+{% assign end_date = "2023-11-29" | date: "%s" %}
+{% for post in site.personal %}
+{% assign post_date = post.date | date: "%s" %}
+{% if post.category contains "diaries" and post_date >= start_date and post_date <= end_date %}
 
 <span itemprop="articleBody">
 {{ post.content }}
@@ -59,7 +87,50 @@ Even more than this book, the future is the next man who will make her dream, bu
 {% if post.last_modified_at %}
 <span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
 {% endif %}
+{% endif %}
+{% endfor %}
+</section>
 
+<section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
+<h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+	<a href="#{{ post.slug }}">All the Interim is Like a Hideous Dream</a>
+</h1>
+<hr>
+{% assign start_date = "2023-12-02" | date: "%s" %}
+{% assign end_date = "2024-02-19" | date: "%s" %}
+{% for post in site.personal %}
+{% assign post_date = post.date | date: "%s" %}
+{% if post.category contains "diaries" and post_date >= start_date and post_date <= end_date %}
+
+<span itemprop="articleBody">
+{{ post.content }}
+</span>
+
+{% if post.last_modified_at %}
+<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
+{% endif %}
+{% endif %}
+{% endfor %}
+</section>
+
+<section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
+<h1 class="heading diary" id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+	<a href="#{{ post.slug }}">All the Interim is Like a Hideous Dream</a>
+</h1>
+<hr>
+{% assign start_date = "2024-02-22" | date: "%s" %}
+{% assign end_date = "2024-03-18" | date: "%s" %}
+{% for post in site.personal %}
+{% assign post_date = post.date | date: "%s" %}
+{% if post.category contains "diaries" and post_date >= start_date and post_date <= end_date %}
+
+<span itemprop="articleBody">
+{{ post.content }}
+</span>
+
+{% if post.last_modified_at %}
+<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
+{% endif %}
 {% endif %}
 {% endfor %}
 </section>

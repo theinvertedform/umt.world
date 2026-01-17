@@ -2,6 +2,11 @@
 -- Filter that adds section headings for Footnotes, Backlinks, Similar Links, and Bibliography
 -- when these elements are present in the document
 
+-- Skip in development
+if os.getenv("JEKYLL_ENV") ~= "production" then
+  return {}
+end
+
 -- Track if we've seen these elements in the document
 local has_citations = false
 local has_footnotes = false
