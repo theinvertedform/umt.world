@@ -70,6 +70,9 @@ collections:
   podcast:
     output: false
     permalink: "/podcast#:title"
+  diaries:
+    output: false
+    permalink: "/diaries#:date"
 
 defaults:
   - scope:
@@ -80,6 +83,11 @@ defaults:
       path: ""
     values:
       layout: "post"
+  - scope:
+      path: "_personal/diary"
+      type: "personal"
+    values:
+      category: "diaries"
 
 google_analytics: G-5NHX2XP9H3
 

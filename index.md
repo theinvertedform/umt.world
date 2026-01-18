@@ -71,14 +71,13 @@ layout: home
 <section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
-{% for post in site.personal %}
-{% if post.category contains 'diaries' %}
+{% assign diaries = site.personal | where: "category", "diaries" %}
+{% for post in diaries limit: 10 %}
 <li>
 <a href="{{ post.url }}" itemprop="url">
 <span itemprop="name">{{ post.title }}</span>
 </a>
 </li>
-{% endif %}
 {% endfor %}
 </ul>
 </section>
