@@ -1,10 +1,7 @@
 ---
 title: Diaries
 description: "Selections from a diary. Patterns, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
-abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality.
-
-
-The writing on this page is influenced by New Narrative, online writing, diary writing, the autobiography, contemporary art and cinema, and cognitive behavioural therapy. *Here are the words that I have left on my page, and in them you will see---the very distance that lies between truth and fiction, between life and art!*"
+abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality."
 toc: true
 status: ongoing
 date: 2023-09-01
@@ -38,7 +35,7 @@ She would like to assemble these multiple images of herself, separate and discor
 
 Even more than this book, the future is the next man who will make her dream, buy new clothes, and wait: for a letter, a phone call, a message on the answering machine.
 
---- Annie Ernaux, *The Years*, translated by Alison L. Strayer
+--- [@ernaux]
 
 </blockquote>
 
@@ -55,15 +52,11 @@ Even more than this book, the future is the next man who will make her dream, bu
 {% if post.category == "diaries" and post_date >= start_date and post_date <= end_date %}
 
 <article class="level2" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">
-<h2 itemprop="headline">{{ post.date | date: "%b %d %Y" }}</h2>
+<h2 itemprop="headline">{{ post.date | date: "%A" }}</h2>
 <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
 <span itemprop="articleBody">
-{{ post.content }}
+{{ post.content }} {% if post.last_modified_at %}<span class="blog-post-modified-date">{{ post.last_modified_at | date: "%x" }}</span>{% endif %}
 </span>
-
-{% if post.last_modified_at %}
-<span class="blog-post-modified-date">Last edited {{ post.last_modified_at | date: date_format }}</span>
-{% endif %}
 </article>
 {% endif %}
 {% endfor %}

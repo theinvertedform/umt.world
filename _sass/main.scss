@@ -403,6 +403,7 @@ span.page-status {
 		font-size: 18px;
 		font-weight: 700;
 	}
+    */
 
 .blog-post-modified-date {
 	display: inline;
@@ -419,6 +420,7 @@ span.page-status {
 	    text-decoration: none;
 	}
 
+    /*
 .blog-post-description {
 	font-style: italic;
 }
@@ -528,6 +530,7 @@ span.citation {
   font-style: italic;
   em {
     font-family: $caption-italic;
+    font-size: inherit;
     //text-transform: uppercase;
     //font-variant: small-caps;
   }
