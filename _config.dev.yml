@@ -30,3 +30,4 @@ exclude:
   - collections/.git
   - _podcast/
   - _culture/film-diary
+  - notes/
