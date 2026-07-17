@@ -1,5 +1,9 @@
+@use "settings" as *;
+@use "line-heights" as *;
+@use "sass:map";
+
 @mixin link-style(
-    $link-color: $link-colour,
+    $link-color: var(--colour-link),
     $border-width: null,
     $border-style: null,
     $border-color: null,
@@ -29,30 +33,42 @@
     }
 }
 
-@mixin link-hover-style($hover-color: $hover-colour) {
+@mixin link-hover-style($hover-color: var(--colour-link-hover)) {
     &:hover {
         color: $hover-color;
     }
 }
 
-@mixin link-border-style($border-color: $border-colour, $border-style: solid) {
+@mixin link-border-style($border-color: var(--colour-outline), $border-style: solid) {
     border-bottom: 1px $border-style $border-color;
 }
 
-@mixin typography(
-    $font-family: $body-font,
-    $font-weight: normal,
-    $font-size: calc(#{$base-font-size} + 0.390625vw),
-    $height-key: 'body',
-    $font-style: normal,
-    $text-transform: none,
-    $font-variant-caps: normal,
-) {
-    font-family: $font-family;
-    font-weight: $font-weight;
-    font-size: $font-size;
-    line-height: fluid-line-height($height-key);
-    font-style: $font-style;
-    text-transform: $text-transform;
-    font-variant-caps: $font-variant-caps;
+//@mixin typography(
+//    $font-family: $body-font,
+//    $font-weight: normal,
+//    $font-size: calc(#{$base-font-size} + 0.390625vw),
+//    $height-key: 'body',
+//    $font-style: normal,
+//    $text-transform: none,
+//    $font-variant-caps: normal,
+//) {
+//    font-family: $font-family;
+//    font-weight: $font-weight;
+//    font-size: $font-size;
+//    line-height: fluid-line-height($height-key);
+//    font-style: $font-style;
+//    text-transform: $text-transform;
+//    font-variant-caps: $font-variant-caps;
+//}
+
+@mixin type($name) {
+  $style: map.get($type-styles, $name);
+  @if not $style { @error "unknown type style: #{$name}"; }
+  font-family: map.get($style, family);
+  @if map.get($style, weight) { font-weight: map.get($style, weight); }
+  @if map.get($style, size) { font-size: map.get($style, size); }
+  @if map.get($style, leading) { line-height: fluid-line-height(map.get($style, leading)); }
+  @if map.get($style, style) { font-style: map.get($style, style); }
+  @if map.get($style, transform) { text-transform: map.get($style, transform); }
+  @if map.get($style, caps) { font-variant-caps: map.get($style, caps); }
 }

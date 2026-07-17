@@ -1,0 +1,186 @@
+@use "sass:map";
+
+$palette: (
+  "grey": (
+    50: #FFFFF8,
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: #80807C,
+    600: null,
+    700: #555553,
+    800: null,
+    900: null,
+    950: #2A2A29,
+ ),
+  "blue-grey": (
+    50: #F8F8FF,
+    100: null,
+    200: #DFDFE5,
+    300: #C6C6CC,
+    400: null,
+    500: null,
+    600: null,
+    700: #4A4A4C,
+    800: null,
+    900: null,
+    950: null,
+ ),
+  "red": (
+    100: null,
+    200: null,
+    300: null,
+    400: #8E3B51,
+    500: #AD1C42,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "orange": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: #F1AE51,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "yellow": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: null,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "green": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: #42AD1C,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "blue": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: #1C42AD,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "indigo": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: null,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+  "violet": (
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: #871CAD,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+ ),
+);
+
+$colour-semantics: (
+  surface: var(--grey-50),
+  on-surface: var(--grey-950),
+  surface-variant: var(--blue-grey-50),
+  on-surface-variant: var(--blue-grey-700),
+  surface-variant-hover: var(--blue-grey-200),
+  outline: var(--grey-700),
+  outline-variant: var(--blue-grey-300),
+  link: var(--grey-700),
+  link-hover: var(--grey-500),
+  accent: var(--red-500),
+  accent-muted: var(--red-400),
+);
+
+$colour-semantics-dark: (
+);
+
+$font-stacks: (
+  logotype: ("Chandler 42", monospace),
+  display: ("LTC Remington Typewriter", monospace),
+  serif-text: ("FCaslon Twelve Std", Georgia, serif),
+  serif-display: ("FCaslon Poster Std", Georgia, serif),
+  sans: ("Akzidenz Grotesk", Helvetica, Arial, sans-serif),
+  mono: ("Courier Std", Courier, monospace),
+);
+
+$font-semantics: (
+  body: var(--font-stack-serif-text),
+  display: var(--font-stack-display),
+  ui: var(--font-stack-sans),
+  meta: var(--font-stack-sans),
+  headline: var(--font-stack-serif-display),
+  caption: var(--font-stack-sans),
+  code: var(--font-stack-mono),
+);
+
+$type-styles: (
+  "body": (family: var(--font-body), leading: 'body'),
+  "logotype": (family: var(--font-logotype), weight: 300, size: 2em, leading: 'body'),
+  "nav-link": (family: var(--font-display), leading: 'body', transform: uppercase),
+  "title": (family: var(--font-display), size: 2.5em, leading: 'display', transform: uppercase),
+  "heading-index": (family: var(--font-display), size: 1.5rem, leading: 'display', transform: lowercase, caps: small-caps),
+  "heading-section": (family: var(--font-display), weight: 700, size: 1.5rem, leading: 'display'),
+  "heading-sub": (family: var(--font-display), weight: 600, size: 1.25em, leading: 'display', transform: uppercase, caps: small-caps),
+  "heading-minor": (family: var(--font-display), weight: 700, size: 1.25em, transform: capitalize, caps: small-caps),
+  "meta": (family: var(--font-meta), weight: 300, leading: 'body'),
+  "toc": (family: var(--font-ui), size: 1rem, leading: 'display'),
+  "description": (family: var(--font-body), style: italic, leading: 'body'),
+  "superscript": (family: var(--font-body), leading: 'article'),
+  "caption": (family: var(--font-ui), leading: 'list'),
+);
+
+@mixin emit($prefix, $map) {
+  @each $key, $value in $map {
+    @if $value {
+      --#{$prefix}-#{$key}: #{$value};
+    }
+  }
+}
+
+@mixin emit-palette($palette) {
+  @each $hue, $stops in $palette {
+    @include emit($hue, $stops);
+  }
+}
+
+:root {
+  @include emit-palette($palette);
+  @include emit("colour", $colour-semantics);
+  @include emit("font-stack", $font-stacks);
+  @include emit("font", $font-semantics);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include emit("colour", $colour-semantics-dark);
+  }
+}

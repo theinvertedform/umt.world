@@ -1,3 +1,8 @@
+plugins:
+  - jekyll-toc
+  - jekyll-pandoc
+  - jekyll-redirect-from
+
 pandoc:
   format: html5
   extensions:

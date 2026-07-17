@@ -1,49 +1,12 @@
-/* import */
-
-@import "fonts";
-@import "colours";
-@import "line-heights";
-@import "mixins";
-@import "backlinks";
-
-/* variables */
-
-/* body font */
-//$body-font: "Kings Caslon Regular", serif;
-//$body-font-italic: "Kings Caslon Italic", serif;
-//$body-font-bold: "Kings Caslon Bold", serif;
-$body-font: "FCaslon Twelve Std", serif;
-$body-font-bold: "FCaslon Twelve Std", serif;
-$body-font-italic: "FCaslon Twelve Std Italic", serif;
-//$body-font-bdit: "FCaslon Twelve Std Italic", serif;
-
-/* display font */
-$display: "LTC Remington Typewriter", serif;
-$display-index: "LTC Remington Typewriter", serif;
-//$display: "Chandler 42", serif;
-//$display-index: "Chandler 42", serif;
-$caption: "FCaslon Twelve Std", serif;
-$caption-italic: "FCaslon Twelve Std Italic", serif;
-//$caption: "Kings Caslon Regular", serif;
-//$caption-italic: "Kings Caslon Italic", serif;
-//$display: "P22 Typewriter", serif;
-//$display-index: "P22 Typewriter", serif;
-
-/* sans-serif & monospace */
-$sans-serif: "Akzidenz Grotesk", sans-serif;
-$sans-serif-italic: "Akzidenz Grotesk Italic", sans-serif;
-$toc: "Akzidenz Grotesk", sans-serif;
-
-$super: "FCaslon Twelve Std", serif;
-$logotype: "Chandler 42 Lite", monospace;
-//$logotype: "LTC Remington Typewriter", monospace;
-$monospace: "Courier Std", monospace;
-
-$font-bold: 700;
-$font-semibold: 600;
-$base-font-size: 16px;
+@use "settings";
+@use "fonts";
+@use "mixins" as *;
+//@use "backlinks";
+//@use "components/sidenotes";
 
 /* base features */
+
+$base-font-size: 16px;
 
 * {
 	box-sizing: border-box;
@@ -54,7 +17,7 @@ $base-font-size: 16px;
 html {
     line-height: fluid-line-height('body');
 	font-size: calc(#{$base-font-size} + 0.390625vw);
-	font-family: $body-font;
+	font-family: var(--font-body);
     hyphens: auto;
     text-align: justify;
 }
@@ -64,8 +27,8 @@ body {
 	--body-width: 75ch;
 	margin: 0 auto;
 	padding: 0.5em;
-	background-color: $background-colour;
-	color: $text-colour;
+	background-color: var(--colour-surface);
+	color: var(--colour-on-surface);
 }
 
 main {
@@ -77,7 +40,7 @@ a {
   @include link-style(
     $border-bottom-width: 1px,
     $border-bottom-style: solid,
-    $border-bottom-color: $border-colour
+    $border-bottom-color: var(--colour-outline)
     );
   @include link-hover-style;
 }
@@ -85,17 +48,17 @@ a {
 #sidebar {
 	display: flex;
 	justify-content: center;
-    @include typography($display);
+    @include type("nav-link");
 }
 
 	#sidebar a#logo {
         @include link-style(
           $border-width: 1px,
           $border-style: dotted,
-          $border-color: $border-colour,
+          $border-color: var(--colour-outline),
           $link-color: inherit
           );
-        @include link-border-style($border-color: $hover-colour, $border-style: dotted);
+        @include link-border-style($border-color: var(--colour-outline), $border-style: dotted);
 		margin: 1px;
 		padding: 0.25rem 0.75rem;
 		align-content: center;
@@ -105,12 +68,12 @@ a {
 	#logo img {
 		min-width: 3em;
 		flex: 1 1 100%;
-		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
-		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* $background-colour */
+		filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
 	}
 
     #sidebar span#logotype {
-        @include typography($logotype, normal, 2em, body, normal, null);
+        @include type("logotype");
       }
 
 	.sidebar-links {
@@ -123,7 +86,7 @@ a {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-        @include link-style($border-color: $hover-colour, $link-color: inherit);
+        @include link-style($border-color: var(--colour-outline), $link-color: inherit);
         @include link-hover-style;
 	}
 
@@ -134,55 +97,55 @@ a {
         @include link-style(
           $border-width: 1px,
           $border-style: dotted,
-          $border-color: $border-colour,
+          $border-color: var(--colour-outline),
           $link-color: inherit
     );
-        @include typography($display, normal, null, body, normal, uppercase);
+        @include type("nav-link");
 	}
 
 	#sidebar .sidebar-links a.patreon {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-        color: $emerald;
-        @include link-style($border-color: $emerald, $link-color: $emerald);
-        @include link-hover-style($emerald-secondary);
+        color: var(--green-500);
+        @include link-style($border-color: var(--green-500), $link-color: var(--green-500));
+        @include link-hover-style(var(--green-300));
 	}
 
 	#sidebar .sidebar-links a.subscribe {
 		display: block;
 		text-align: center;
 		font-variant: small-caps;
-        color: $highlight-colour;
-        @include link-style($border-color: $highlight-colour, $link-color: $highlight-colour);
-        @include link-hover-style($highlight-colour-secondary);
+        color: var(--colour-accent);
+        @include link-style($border-color: var(--colour-accent), $link-color: var(--colour-accent));
+        @include link-hover-style(var(--colour-accent-muted));
 	}
 
 	//#sidebar .sidebar-links a.author {
 	//	display: block;
 	//	text-align: center;
 	//	font-variant: small-caps;
-    //    color: $violet;
-    //    @include link-style($border-color: $violet, $link-color: $violet);
-    //    @include link-hover-style($violet-secondary);
+    //    color: var(--violet-500);
+    //    @include link-style($border-color: var(--violet-500), $link-color: var(--violet-500));
+    //    @include link-hover-style(var(--violet-300));
 	//}
 
 	//#sidebar .sidebar-links a.website {
 	//	display: block;
 	//	text-align: center;
 	//	font-variant: small-caps;
-    //    color: $sapphire;
-    //    @include link-style($border-color: $sapphire, $link-color: $sapphire);
-    //    @include link-hover-style($sapphire-secondary);
+    //    color: var(--blue-500);
+    //    @include link-style($border-color: var(--blue-500), $link-color: var(--blue-500));
+    //    @include link-hover-style(var(--blue-300));
 	//}
 
 	//#sidebar .sidebar-links a.changelog {
 	//	display: block;
 	//	text-align: center;
 	//	font-variant: small-caps;
-    //    color: $amber;
-    //    @include link-style($border-color: $amber, $link-color: $amber);
-    //    @include link-hover-style($amber-secondary);
+    //    color: var(--orange-500);
+    //    @include link-style($border-color: var(--orange-500), $link-color: var(--orange-500));
+    //    @include link-hover-style(var(--orange-300));
 	//}
 
 aside.index.abstract {
@@ -214,9 +177,9 @@ aside.index.abstract {
 	//}
 
 	.markdownBody a {
-        @include link-style($link-color: $text-colour);
+        @include link-style($link-color: var(--colour-on-surface));
         @include link-hover-style;
-		/*color: $text-colour;*/
+		/*color: var(--colour-on-surface);*/
 		font-variant-numeric: lining-nums;
 	}
 
@@ -237,14 +200,14 @@ a.footnote-ref {
 	padding: 0 0.1em;
 	margin-left: 0.25em;
 	font-variant-numeric: lining-nums;
-	font-weight: $font-semibold;
+	font-weight: 600;
 	z-index: 1;
 }
 
 .footnote-back {
 	padding: 0 0.1em;
 	margin-left: 0.1em;
-	font-weight: $font-semibold;
+	font-weight: 600;
 }
 
 form p {
@@ -252,18 +215,13 @@ form p {
   }
 
 h1.index-heading {
-	border-bottom: 1px solid $hover-colour;
+	border-bottom: 1px solid var(--colour-outline);
 	margin: 1.125em 0 0 0;
 	text-align: left;
 	padding: 0;
-    @include typography($display-index, normal, 1.5rem, display, normal, lowercase, small-caps);
-    a {
-      border-bottom: none;
-      @include typography($display-index, normal, 1.5rem, display, normal, lowercase, small-caps);
-    }
-    em {
-      @include typography($display-index, normal, 1.5rem, display, italic, lowercase, small-caps);
-    }
+    @include type("heading-index");
+    a { border-bottom: none; }
+    em { font-style: italic; }
 }
 
 hr.index-section-ornament {
@@ -276,7 +234,7 @@ hr.index-section-ornament {
 
 hr.index-section-ornament::after {
 	content: "";
-	margin: auto;
+	argin: auto;
 	width: 100%;
 	height: 7.5em;
 	background-repeat: no-repeat;
@@ -322,8 +280,8 @@ footer {
 
 	#footer-logo img {
         width: 75ch;
-		//filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* $text-colour */
-		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* $background-colour */
+		//filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
+		/* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
 }
 
 /* post layout */
@@ -335,20 +293,20 @@ footer {
 #page-metadata {
 	margin: 0 0 2.25rem 0;
 	text-align: center;
-    @include typography($sans-serif, normal, null, 1.5em);
+    @include type("meta");
 }
 
 #page-description {
 	margin: 0 auto 1em auto;
 	// font-style: italic;
 	text-align: center;
-    @include typography($body-font, inherit, inherit, body, italic);
+    @include type("description");
 }
 
 div#link-tags {
 	margin: 0 auto 1em auto;
 	text-align: center;
-    @include typography($sans-serif);
+    @include type("meta");
 }
 
 span.page-status {
@@ -356,17 +314,17 @@ span.page-status {
 }
 
 #TOC {
-	border: 1px solid $secondary-border-colour;
-	background-color: $secondary-background-colour;
+	border: 1px solid var(--colour-outline-variant);
+	background-color: var(--colour-surface-variant);
 	z-index: 20;
 	padding: 1em;
-    @include typography($toc, normal, 1rem, 'display');
+    @include type("toc");
     text-align: left;
 }
 
 .section-nav a {
-    @include link-style($border-color: none, $link-color: $secondary-text-colour);
-    @include link-hover-style($hover-color: $secondary-hover-colour);
+    @include link-style($border-color: none, $link-color: var(--colour-on-surface-variant));
+    @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
 }
 
 /*
@@ -440,8 +398,8 @@ span.page-status {
 blockquote {
 	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
-	border: 1px solid $secondary-border-colour;
-	background-color: $secondary-background-colour;
+	border: 1px solid var(--colour-outline-variant);
+	background-color: var(--colour-surface-variant);
 	/*overflow: hidden;*/
     display: flow-root;
 }
@@ -449,8 +407,8 @@ blockquote {
 code {
 	margin: 1em 0 1.5em 0;
 	padding: 1rem 1.25rem 1rem 1.25rem;
-	border: 1px solid $secondary-border-colour;
-	background-color: $secondary-background-colour;
+	border: 1px solid var(--colour-outline-variant);
+	background-color: var(--colour-surface-variant);
 	/*overflow: hidden;*/
     display: flow-root;
     text-wrap: wrap;
@@ -459,23 +417,22 @@ code {
 .abstract blockquote {
 	margin: 0 0 1.5em 0;
 	padding-top: 1em;
-	border: 1px solid $secondary-border-colour;
-	background-color: $secondary-background-colour;
-	font-family: $sans-serif;
+	border: 1px solid var(--colour-outline-variant);
+	background-color: var(--colour-surface-variant);
+    @include type("meta");
     em {
-      font-family: $sans-serif-italic;
+      font-style: italic;
     }
     strong {
-      font-family: $sans-serif;
-      font-weight: $font-bold;
+      font-weight: 700;
     }
 }
 
 .epigraph {
 	padding: 0.75em 2.5em;
-	background-color: $background-colour;
+	background-color: var(--colour-surface);
 	border: none;
-	font-family: $body-font;
+	font-family: var(--font-body);
 }
 
 	.epigraph p {
@@ -515,7 +472,7 @@ figure {
 figcaption {
 	text-align: center;
 	font-size: 0.85em;
-    font-family: $caption;
+    @include type("caption");
     line-height: scale-line-height('list', 1.25);
     padding: 0.5rem;
     em {
@@ -527,12 +484,9 @@ figcaption {
 }
 
 span.citation {
-  font-style: italic;
   em {
-    font-family: $caption-italic;
+    font-style: italic;
     font-size: inherit;
-    //text-transform: uppercase;
-    //font-variant: small-caps;
   }
 }
 
@@ -543,8 +497,8 @@ img {
 }
 
 figure img {
-    border: 1px solid $border-colour;
-    box-shadow: 0 0 10px 0 $border-colour; }
+    border: 1px solid var(--colour-outline);
+    box-shadow: 0 0 10px 0 var(--colour-outline); }
 
 img:hover {
 }
@@ -598,12 +552,12 @@ ol {
 }
 
 #TOC a {
-  @include link-style($link-color: $secondary-text-colour);
+  @include link-style($link-color: var(--colour-on-surface-variant));
   border-bottom: none;
 
   &:hover {
-    color: $secondary-hover-colour;
-    background-color: $secondary-background-colour;
+    color: var(--colour-surface-variant-hover);
+    background-color: var(--colour-surface-variant);
   }
 }
 
@@ -622,7 +576,7 @@ ol {
 }
 
 .section-nav li {
-	font-weight: $font-bold;
+	font-weight: 700;
 	position: relative;
 	overflow-wrap: break-word;
 	font-size: 0.9em;
@@ -636,25 +590,16 @@ ol {
 
 /* typography */
 
-strong {
-  @include typography($body-font-bold, $font-bold);
-}
-
 sup {
-  @include typography($super, normal, null, article);
-  line-height: 1;
-}
-
-em {
-  @include typography($body-font-italic);
+  @include type("superscript");
 }
 
 h1 {
-  @include typography($display, $font-bold);
+  @include type("heading-section");
 }
 
 h2 {
-  @include typography($display, $font-semibold);
+  @include type("heading-sub");
 }
 
 h1.title {
@@ -662,25 +607,23 @@ h1.title {
 	text-align: center;
 	letter-spacing: -1px;
 	border-bottom: none;
-    @include typography($display, normal, 2.5em, display, normal, uppercase);
+    @include type("title");
     /* Comprehensive OpenType feature access */
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
-    em {
-      @include typography($display, normal, inherit, display, italic, uppercase);
-    }
+    em { font-style: italic; }
 }
 
 section.level1 > h1 {
-	border-bottom: 1px solid $hover-colour;
+	border-bottom: 1px solid var(--colour-outline);
 	text-align: right;
 	padding: 0;
 	margin: 1em 0em;
 	//letter-spacing: -0.75px;
 	position: relative;
-    @include typography($display, $font-bold, 1.5rem, display, normal, none, null);
+    @include type("heading-section");
     /* Comprehensive OpenType feature access */
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
@@ -693,23 +636,23 @@ section.level1 > h1 {
 }
 
 section.level1 hr {
-    overflow: visible; /* For IE */
+    overflow: visible;
     height: 30px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--colour-outline);
     border-width: 1px 0 0 0;
     border-radius: 20px;
 	margin: 0.5em 0 0 0;
 	padding: 0;
 }
 
-section.level1 hr:before { /* Not really supposed to work, but does */
+section.level1 hr:before {
     display: block;
     content: "";
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--colour-outline);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -745,7 +688,7 @@ h1 a::after:not(diary) {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: $hover-colour;
+    color: var(--colour-link-hover);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -763,12 +706,12 @@ h1 a, h2 a {
 
 section.level2 > h2,
 article.level2 > h2 {
-	border-bottom: 1px dotted $border-colour;
+	border-bottom: 1px dotted var(--colour-outline);
 	text-align: left;
 	position: relative;
 	padding: 0;
 	margin: 1em 0em;
-    @include typography($display, $font-semibold, 1.25em, display, normal, uppercase, small-caps);
+    @include type("heading-sub");
     /* Comprehensive OpenType feature access */
     font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
     -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "calt" 1;
@@ -786,7 +729,7 @@ h2 a::after {
 	content: "\00B6";
 	font-size: 0.75em;
 	position: absolute;
-    color: $text-colour;
+    color: var(--colour-on-surface);
     text-decoration: none;
 	bottom: 0.15em;
 	right: 0;
@@ -795,7 +738,7 @@ h2 a::after {
 
 h3 {
 	position: relative;
-    @include typography($display, bold, 1.25em, null, normal, capitalize, small-caps);
+    @include type("heading-minor");
 }
 
 div.csl-entry {
@@ -811,7 +754,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: $hover-colour;
+    border-color: var(--colour-outline);
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -822,7 +765,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: $hover-colour;
+    border-color: var(--colour-outline);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -851,10 +794,10 @@ section#footnotes li {
 
 	#sidebar .sidebar-links a {
 		text-transform: uppercase;
-		font-weight: $font-semibold;
+		font-weight: 600;
 		flex: 1 1 auto;
-        @include link-style($link-color: $hover-colour);
-        @include link-hover-style($hover-color: $secondary-hover-colour);
+        @include link-style($link-color: var(--colour-link-hover));
+        @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
 	}
 }
 
@@ -882,7 +825,7 @@ section#footnotes li {
 		margin: 0 1.5rem 0 0;
 		float: left;
         position: relative;
-        box-shadow: -1rem 0 0 0 $background-colour, 1.5rem 0 0 0 $background-colour;
+        box-shadow: -1rem 0 0 0 var(--colour-surface), 1.5rem 0 0 0 var(--colour-surface);
 	}
 
 	#TOC > ul {
@@ -995,288 +938,3 @@ section#footnotes li {
   }
 }
 
-/*************/
-/* SIDENOTES */
-/*************/
-
-.sidenote-layout-cell {
-    position: absolute;
-    width: 100%;
-    pointer-events: none;
-}
-.sidenote-layout-cell > * {
-    pointer-events: auto;
-}
-
-#sidenote-column-left,
-#sidenote-column-right,
-#hidden-sidenote-storage {
-    width: calc(50vw - (935px / 2 + 96px));
-    max-width: 935px;
-}
-
-#sidenote-column-left,
-#sidenote-column-right {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    z-index: 1;
-    /*pointer-events: none;*/
-}
-#sidenote-column-left {
-    right: calc(100% + 64px);
-}
-#sidenote-column-right {
-    left: calc(100% + 64px);
-}
-#sidenote-column-left:empty,
-#sidenote-column-right:empty {
-    display: none;
-}
-
-/*=-----------------=*/
-/*= Sidenote blocks =*/
-/*=-----------------=*/
-
-#markdownBody .sidenote {
-    --sidenote-padding: 10px;
-    --sidenote-border-width: 3px;
-    --text-indent: 1.75em;
-
-    position: absolute;
-    left: 0;
-    width: 100%;
-    opacity: 0.85;
-    padding: 2em 0 0 0;
-    @include typography($body-font, normal, calc(#{$base-font-size} * 0.85 + 0.331vw), 'body');
-    line-height: fluid-line-height('article');
-    transition:
-        opacity 0.25s ease-in,
-        transform 0.25s ease-in;
-}
-#markdownBody .sidenote.displaced {
-    transition:
-        opacity 0.25s ease-out,
-        transform 0.25s ease-out;
-}
-#markdownBody .sidenote.hidden {
-    display: none;
-}
-#markdownBody .sidenote:hover,
-#markdownBody .sidenote.targeted,
-#markdownBody .sidenote.displaced,
-#markdownBody .sidenote.highlighted {
-    background-color: $background-colour;
-    opacity: 1.0;
-    box-shadow: 0 0 0 16px $background-colour;
-}
-#markdownBody .sidenote.targeted {
-    z-index: 1;
-}
-#markdownBody .sidenote.displaced {
-    z-index: 2;
-}
-#markdownBody .sidenote.highlighted,
-#markdownBody .sidenote:hover {
-    z-index: 3;
-}
-
-/*  This provides a solid hover margin.
-    */
-#markdownBody .sidenote::after {
-    content: "";
-    position: absolute;
-    width: calc(100% + 2 * var(--sidenote-padding));
-    height: calc(100% + 2 * var(--sidenote-padding));
-    top: calc(-1 * (var(--sidenote-padding) + var(--sidenote-border-width)));
-    left: calc(-1 * (var(--sidenote-padding) + var(--sidenote-border-width)));
-}
-#markdownBody .sidenote:hover::after,
-#markdownBody .sidenote.targeted::after,
-#markdownBody .sidenote.displaced::after,
-#markdownBody .sidenote.highlighted::after {
-    border: 3px double $border-colour;
-}
-
-#markdownBody .sidenote.cut-off::before {
-    content: "…";
-    position: absolute;
-    border: 1px dotted $border-colour;
-    top: calc(100% - 1px);
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: fit-content;
-    z-index: 2;
-    background-color: $background-colour;
-    padding: 0.125em 0.5em 0.5em 0.5em;
-    font-size: 1.25em;
-    font-weight: 600;
-    line-height: 0.5;
-    pointer-events: none;
-}
-#markdownBody .sidenote.cut-off:hover::before {
-    visibility: hidden;
-}
-#markdownBody .sidenote.cut-off.hide-more-indicator::before {
-    visibility: hidden;
-}
-
-#markdownBody .sidenote em, span.citation {
-  @include typography($caption-italic, normal, inherit, inherit, italic);
-  }
-
-#markdownBody .sidenote strong {
-    @include typography($body-font-bold, $font-bold, inherit, inherit);
-  }
-
-/*=-------------------=*/
-/*= Sidenote wrappers =*/
-/*=-------------------=*/
-
-/*  Outer wrapper (scrolls).
-    */
-.sidenote-outer-wrapper {
-    max-height: 600px;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    border-style: dotted;
-    border-color: $border-colour;
-    border-width: 1px 0;
-}
-#markdownBody .sidenote:hover .sidenote-outer-wrapper,
-#markdownBody .sidenote.displaced .sidenote-outer-wrapper,
-#markdownBody .sidenote.highlighted .sidenote-outer-wrapper {
-    /*  1px for inner border; 1px for minimum distance from edge. */
-    max-height: calc(100vh - (2em + 2 * (var(--sidenote-padding) + var(--sidenote-border-width) + 1px + 1px)));
-}
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper {
-    overflow-y: scroll;
-    overscroll-behavior: none;
-    width: 100%;
-    padding: 0 0.5em 0 0;
-}
-
-/*  Scroll bar styles (for WebKit/Chromium).
-    */
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar {
-    width: 12px;
-}
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb {
-    background-image: var(--GW-checkerboard-scrollbar-background-image);
-    background-size: 2px;
-    box-shadow:
-        0 0 0 2px $background-colour inset;
-}
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb:hover {
-    background-image: var(--GW-checkerboard-scrollbar-hover-background-image);
-}
-
-/*  Scroll bar styles (for Firefox).
-    */
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) $background-colour;
-}
-#markdownBody .sidenote.cut-off .sidenote-outer-wrapper:hover {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) $background-colour;
-}
-
-/*  Inner wrapper (does not scroll; stretches to height of content).
-    */
-.sidenote-inner-wrapper {
-    position: relative;
-    margin: 0.5em 0;
-}
-
-/*  Ensure content is interactive.
-    */
-.sidenote-inner-wrapper > * {
-    position: relative;
-    z-index: 1;
-}
-
-/*=--------------------------------------=*/
-/*= Sidenote contents layout corrections =*/
-/*=--------------------------------------=*/
-
-#markdownBody .sidenote {
-    --base-block-spacing: 0.2em;
-}
-
-#markdownBody .sidenote .list {
-    --list-left-padding: 1.75em;
-}
-
-#markdownBody .sidenote li p {
-    text-align: left;
-}
-
-#markdownBody .sidenote .footnote-back {
-    vertical-align: text-top;
-}
-
-#markdownBody .sidenote blockquote > * {
-    line-height: calc(1.25 / (var(--blockquote-font-size-scaling-factor) * 0.85))
-}
-
-/*=-------------------------------=*/
-/*= Sidenote self-links (numbers) =*/
-/*=-------------------------------=*/
-
-#markdownBody .sidenote > .sidenote-self-link {
-    font-weight: $font-bold;
-    font-family: $super;
-    position: absolute;
-    top: -1px;
-    background-image: none;
-    border-style: dotted;
-    border-color: $border-colour;
-    border-width: 1px 1px 0px 1px;
-    width: 2em;
-    height: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-#markdownBody #sidenote-column-left .sidenote > .sidenote-self-link {
-    right: 0;
-}
-#markdownBody #sidenote-column-right .sidenote > .sidenote-self-link {
-    left: 0;
-}
-
-#markdownBody .sidenote.targeted > .sidenote-self-link,
-#markdownBody .sidenote > .sidenote-self-link:hover {
-    border-width: 3px;
-    border-style: double;
-    top: -3px;
-}
-#markdownBody #sidenote-column-left .sidenote.targeted > .sidenote-self-link,
-#markdownBody #sidenote-column-left .sidenote > .sidenote-self-link:hover {
-    right: -2px;
-}
-#markdownBody #sidenote-column-right .sidenote.targeted > .sidenote-self-link,
-#markdownBody #sidenote-column-right .sidenote > .sidenote-self-link:hover {
-    left: -2px;
-}
-
-#markdownBody .sidenote.targeted > .sidenote-self-link::before,
-#markdownBody .sidenote > .sidenote-self-link:hover::before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    width: calc(50vw - (935px / 2 + 96px) + 10px);
-    max-width: 550px;
-    border-bottom: 3px double $border-colour;
-}
-#markdownBody #sidenote-column-left .sidenote.targeted > .sidenote-self-link::before,
-#markdownBody #sidenote-column-left .sidenote > .sidenote-self-link:hover::before {
-    right: -1px;
-}
-#markdownBody #sidenote-column-right .sidenote.targeted > .sidenote-self-link::before,
-#markdownBody #sidenote-column-right .sidenote > .sidenote-self-link:hover::before {
-    left: -1px;
-}
