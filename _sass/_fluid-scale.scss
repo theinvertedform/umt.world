@@ -1,0 +1,7 @@
+@use "vendor/utopia" as utopia;
+@use "settings" as *;
+
+:root {
+  @include utopia.generateTypeScale($utopia-type);
+  @include utopia.generateSpaceScale($utopia-space);
+}

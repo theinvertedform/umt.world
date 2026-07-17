@@ -1,4 +1,23 @@
 @use "sass:map";
+@use "vendor/utopia" as utopia;
+
+$utopia-type: (
+  "minWidth": 320,
+  "maxWidth": 1240,          // or the derived content maxWidth
+  "minFontSize": 20,         // ← script output, FCaslon-calibrated
+  "maxFontSize": 22,         // ← script output
+  "minTypeScale": 1.2,
+  "maxTypeScale": 1.25,
+  "positiveSteps": 5,
+  "negativeSteps": 2,
+) !default;
+
+$utopia-space: (
+  "minWidth": 320, "maxWidth": 1240,
+  "minSize": 20, "maxSize": 22,   // mirror the font sizes — space derives from type
+  "positiveSteps": (1.5, 2, 3, 4, 6),
+  "negativeSteps": (0.75, 0.5, 0.25),
+) !default;
 
 $palette: (
   "grey": (
@@ -143,19 +162,20 @@ $font-semantics: (
 );
 
 $type-styles: (
-  "body": (family: var(--font-body), leading: 'body'),
-  "logotype": (family: var(--font-logotype), weight: 300, size: 2em, leading: 'body'),
-  "nav-link": (family: var(--font-display), leading: 'body', transform: uppercase),
-  "title": (family: var(--font-display), size: 2.5em, leading: 'display', transform: uppercase),
-  "heading-index": (family: var(--font-display), size: 1.5rem, leading: 'display', transform: lowercase, caps: small-caps),
-  "heading-section": (family: var(--font-display), weight: 700, size: 1.5rem, leading: 'display'),
-  "heading-sub": (family: var(--font-display), weight: 600, size: 1.25em, leading: 'display', transform: uppercase, caps: small-caps),
-  "heading-minor": (family: var(--font-display), weight: 700, size: 1.25em, transform: capitalize, caps: small-caps),
-  "meta": (family: var(--font-meta), weight: 300, leading: 'body'),
-  "toc": (family: var(--font-ui), size: 1rem, leading: 'display'),
-  "description": (family: var(--font-body), style: italic, leading: 'body'),
-  "superscript": (family: var(--font-body), leading: 'article'),
-  "caption": (family: var(--font-ui), leading: 'list'),
+  "body":            (family: var(--font-body), step: 0, leading: calc(1ex / 0.29)),
+  "logotype":        (family: var(--font-logotype), weight: 300, leading: 1,
+                      size: utopia.calculateClamp(("minWidth": 320, "maxWidth": 1240, "minSize": 28, "maxSize": 44))),
+  "nav-link":        (family: var(--font-display), leading: 1.35, transform: uppercase),
+  "title":           (family: var(--font-display), step: 4, leading: 1.1, transform: uppercase),
+  "heading-index":   (family: var(--font-display), step: 2, leading: 1.15, transform: lowercase, caps: small-caps),
+  "heading-section": (family: var(--font-display), weight: 700, step: 2, leading: 1.15),
+  "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: uppercase, caps: small-caps),
+  "heading-minor":   (family: var(--font-display), weight: 700, step: 1, transform: capitalize, caps: small-caps),
+  "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / 0.30), adjust: 0.4),
+  "toc":             (family: var(--font-ui), step: 0, leading: 1.2, adjust: 0.4),
+  "description":     (family: var(--font-body), style: italic, leading: calc(1ex / 0.29)),
+  "superscript":     (family: var(--font-body), leading: 1),
+  "caption":         (family: var(--font-ui), leading: 1.35, adjust: 0.4),
 );
 
 @mixin emit($prefix, $map) {
