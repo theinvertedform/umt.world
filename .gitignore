@@ -4,7 +4,7 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 _assets/audio/
-vendor/
+/vendor/
 *.swp
 *.swo
 *~
