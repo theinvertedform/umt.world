@@ -6,7 +6,7 @@ aside.index.abstract {
 
 h1.index-heading {
     border-bottom: 1px solid var(--colour-outline);
-    margin: 1.125em 0 0 0;
+    margin: var(--space-xs) 0 0 0;
     text-align: left;
     padding: 0;
     @include type("heading-index");
@@ -20,13 +20,14 @@ hr.index-section-ornament {
     display: flex;
     margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 hr.index-section-ornament::after {
     content: "";
     margin: auto;
     width: 100%;
-    height: 7.5em;
+    height: var(--space-xl);
     background-repeat: no-repeat;
     background-position: center;
     background-origin: content-box;
@@ -38,12 +39,29 @@ hr.index-section-ornament::after {
     border-bottom: none;
 }*/
 
-@media (min-width: 901px) {
+body.page-index #markdownBody {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(var(--measure-column), 100%), 1fr));
+  column-gap: var(--space-m);
+  row-gap: var(--space-3xs);
+}
+
+aside.index.abstract,
+hr.index-section-ornament {
+  grid-column: 1 / -1;
+}
+
+aside.index.abstract {
+  max-width: var(--measure-prose);
+  margin-inline: auto;
+}
+
+/*@media (min-width: 901px) {
     body.page-index #markdownBody {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2em;
-        grid-row-gap: 0.5em;
+        grid-column-gap: var(--space-m);
+        grid-row-gap: var(--space-3xs);
     }
 
     hr.index-section-ornament {
@@ -70,4 +88,4 @@ hr.index-section-ornament::after {
         margin-left: 33.25ch;
         max-width: 59.90ch;
     }
-}
+}*/

@@ -4,9 +4,9 @@
 
 $utopia-type: (
   "minWidth": 320,
-  "maxWidth": 1240,          // or the derived content maxWidth
-  "minFontSize": 20,         // ← script output, FCaslon-calibrated
-  "maxFontSize": 22,         // ← script output
+  "maxWidth": 1240,
+  "minFontSize": 20,
+  "maxFontSize": 22,
   "minTypeScale": 1.2,
   "maxTypeScale": 1.25,
   "positiveSteps": 5,
@@ -15,7 +15,7 @@ $utopia-type: (
 
 $utopia-space: (
   "minWidth": 320, "maxWidth": 1240,
-  "minSize": 20, "maxSize": 22,   // mirror the font sizes — space derives from type
+  "minSize": 20, "maxSize": 22,
   "positiveSteps": (1.5, 2, 3, 4, 6),
   "negativeSteps": (0.75, 0.5, 0.25),
 ) !default;
@@ -173,11 +173,16 @@ $type-styles: (
   "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: uppercase, caps: small-caps),
   "heading-minor":   (family: var(--font-display), weight: 700, step: 1, transform: capitalize, caps: small-caps),
   "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / 0.30), adjust: 0.4),
-  "toc":             (family: var(--font-ui), step: 0, leading: 1.2, adjust: 0.4),
+  "toc":             (family: var(--font-ui), step: -2, leading: 1.2, adjust: 0.4),
   "description":     (family: var(--font-body), style: italic, leading: calc(1ex / 0.29)),
   "superscript":     (family: var(--font-body), leading: 1),
   "caption":         (family: var(--font-ui), leading: 1.35, adjust: 0.4),
 );
+
+$layout: (
+  "prose": 33rem,
+  "column": calc(var(--measure-prose) / 2),
+  ) !default;
 
 @mixin emit($prefix, $map) {
   @each $key, $value in $map {
@@ -194,10 +199,13 @@ $type-styles: (
 }
 
 :root {
+  @include utopia.generateTypeScale(map.merge($utopia-type, (prefix: "step-")));
+  @include utopia.generateSpaceScale(map.merge($utopia-space, (prefix: "space")));
   @include emit-palette($palette);
   @include emit("colour", $colour-semantics);
   @include emit("font-stack", $font-stacks);
   @include emit("font", $font-semantics);
+  @include emit("measure", $layout);
 }
 
 @media (prefers-color-scheme: dark) {

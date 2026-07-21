@@ -3,6 +3,9 @@
 #sidebar {
     display: flex;
     justify-content: center;
+    width: min(var(--measure-prose), 100%);
+    margin-inline: auto;
+    position: relative;
     @include type("nav-link");
 }
 
@@ -15,13 +18,13 @@
           );
         @include link-border-style($border-color: var(--colour-outline), $border-style: dotted);
         margin: 1px;
-        padding: 0.25rem 0.75rem;
+        padding: var(--space-3xs) var(--space-2xs);
         align-content: center;
         @include link-hover-style;
     }
 
     #logo img {
-        min-width: 3em;
+        min-width: var(--space-s);
         flex: 1 1 100%;
         filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
         /* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
@@ -49,7 +52,7 @@
 
     #sidebar .sidebar-links a {
         flex: 1 1 33%;
-        padding: 0.25rem 0.75rem;
+        padding: var(--space-3xs) var(--space-2xs);
         align-content: center;
         @include link-style(
           $border-width: 1px,
@@ -79,22 +82,29 @@
     }
 
 @media (min-width: 650px) {
-    #sidebar .sidebar-links a {
-        text-transform: uppercase;
-        font-weight: 600;
-        flex: 1 1 auto;
-        @include link-style($link-color: var(--colour-link-hover));
-        @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
-    }
+  #sidebar {
+  }
+
+  #sidebar .sidebar-links a {
+      text-transform: uppercase;
+      font-weight: 600;
+      flex: 1 1 auto;
+      @include link-style($link-color: var(--colour-link-hover));
+      @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
+  }
 }
 
 @media (min-width: 1180px) {
     #sidebar a#logo {
         border: none;
+        position: absolute;
+        right: calc(100% + var(--space-3xs));
+        top: 0;
+        bottom: 0;
     }
 
     #sidebar #logo img {
-        width: 5em;
+        width: var(--space-l);
     }
 }
 

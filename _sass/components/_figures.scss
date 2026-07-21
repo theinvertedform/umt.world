@@ -1,7 +1,7 @@
 @use "../mixins" as *;
 
 figure {
-    margin: 1em auto;
+    margin: var(--space-xs) auto;
     width: 100%;
 }
 
@@ -9,7 +9,7 @@ figcaption {
     text-align: center;
     /*font-size: 0.85em;*/
     @include type("caption");
-    padding: 0.5rem;
+    padding: var(--space-3xs);
     em {
       font-family: inherit;
       font-style: inherit;
@@ -35,4 +35,3 @@ figure img {
 
 img:hover {
 }
-

@@ -1,9 +1,7 @@
 @use "../mixins" as *;
 
 h1.title {
-    margin: 0.75em 0;
     text-align: center;
-    letter-spacing: -1px;
     border-bottom: none;
     @include type("title");
     em { font-style: italic; }
@@ -13,7 +11,7 @@ section.level1 > h1 {
     border-bottom: 1px solid var(--colour-outline);
     text-align: right;
     padding: 0;
-    margin: 1em 0em;
+    margin: var(--space-xs) 0em;
     position: relative;
     @include type("heading-section");
       a { border-bottom: none; }
@@ -89,23 +87,19 @@ article.level2 > h2 {
     text-align: left;
     position: relative;
     padding: 0;
-    margin: 1em 0em;
+    margin: var(--space-xs) 0;
     @include type("heading-sub");
-    a {
-      border-bottom: none;
-    }
-    em {
-      font: inherit;
-    }
+    a { border-bottom: none; }
+    em { font: inherit; }
 }
 
 h2 a::after {
     content: "\00B6";
-    font-size: 0.75em;
+    @include type("heading-sub");
     position: absolute;
     color: var(--colour-on-surface);
     text-decoration: none;
-    bottom: 0.15em;
+    align-self: baseline;
     right: 0;
     opacity: 0.5;
 }
@@ -113,4 +107,3 @@ h2 a::after {
 h1 a, h2 a {
     @include link-style($border-color: none);
     }
-

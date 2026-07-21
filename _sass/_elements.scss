@@ -8,7 +8,6 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 0.5em;
     background-color: var(--colour-surface);
     color: var(--colour-on-surface);
 }
@@ -23,8 +22,8 @@ a {
 }
 
 blockquote {
-    margin: 1em 0 1.5em 0;
-    padding: 1rem 1.25rem 1rem 1.25rem;
+    margin: var(--space-s) 0;
+    padding: var(--space-s) var(--space-xs);
     border: 1px solid var(--colour-outline-variant);
     background-color: var(--colour-surface-variant);
     /*overflow: hidden;*/
@@ -32,8 +31,8 @@ blockquote {
 }
 
 code {
-    margin: 1em 0 1.5em 0;
-    padding: 1rem 1.25rem 1rem 1.25rem;
+    margin: var(--space-s) 0;
+    padding: var(--space-s) var(--space-xs);
     border: 1px solid var(--colour-outline-variant);
     background-color: var(--colour-surface-variant);
     /*overflow: hidden;*/

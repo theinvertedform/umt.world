@@ -3,19 +3,17 @@
 #markdownBody {
 /*  display: flex;
     flex-flow: row wrap;*/
-    margin: 1em auto;
-    max-width: 75ch;
+    margin: var(--space-xs) auto;
+    padding: 0 var(--space-2xs);
 }
 
     #markdownBody .section-link-list {
-        padding: 0 0 0 1.25em;
-        margin: 1em 0;
+        padding: 0 0 0 var(--space-xs);
     }
 
         #markdownBody .section-link-list li {
-            padding: 0.1em;
+            /*padding: var(--space-3xs);*/
             list-style-position: outside;
-            margin: 0;
         }
 
     //#markdownBody #diaries .section-link-list li {
@@ -38,15 +36,11 @@
     }
 
     p + p {
-        text-indent: 2.25em;
-        margin-top: 0;
+        text-indent: var(--space-m);
     }
 
 @media (min-width: 901px) {
     article.post {
-        max-width: 75ch;
         margin: 0 auto;
     }
-
 }
-
