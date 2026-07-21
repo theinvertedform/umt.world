@@ -1,0 +1,56 @@
+@use "../mixins" as *;
+
+sup {
+  @include type("superscript");
+}
+
+a.footnote-ref {
+    vertical-align: super;
+    position: relative;
+    top: 0.1em;
+    padding: 0 0.1em;
+    margin-left: 0.25em;
+    font-variant-numeric: lining-nums;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.footnote-back {
+    padding: 0 0.1em;
+    margin-left: 0.1em;
+    font-weight: 600;
+}
+
+div.csl-entry {
+    padding-top: 0.75em;
+    text-indent: 2.25em;
+    }
+
+section#footnotes {
+    margin-top: 3.5em;
+    }
+
+section#footnotes hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: var(--colour-outline);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+section#footnotes hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: var(--colour-outline);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section#footnotes li {
+}
+
+

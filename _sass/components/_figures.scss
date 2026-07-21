@@ -1,0 +1,38 @@
+@use "../mixins" as *;
+
+figure {
+    margin: 1em auto;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    /*font-size: 0.85em;*/
+    @include type("caption");
+    padding: 0.5rem;
+    em {
+      font-family: inherit;
+      font-style: inherit;
+      line-height: inherit;
+    }
+}
+
+span.citation {
+  em {
+    font-style: italic;
+  }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure img {
+    border: 1px solid var(--colour-outline);
+    box-shadow: 0 0 10px 0 var(--colour-outline); }
+
+img:hover {
+}
+

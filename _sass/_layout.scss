@@ -1,0 +1,32 @@
+@use "mixins" as *;
+
+body {
+    max-width: 75ch;
+    --body-width: 75ch;
+}
+
+main {
+    position: relative;
+}
+
+.post section {
+  margin-top: 2.75em;
+}
+
+@media (min-width: 650px) {
+    main {
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+    }
+
+    article {
+        flex: 1 1 auto;
+    }
+
+    header {
+        padding: 0 2em;
+        margin: 2.125rem 0 1.75rem 0;
+    }
+
+}

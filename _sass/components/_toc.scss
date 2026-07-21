@@ -1,0 +1,84 @@
+@use "../mixins" as *;
+
+#TOC {
+    border: 1px solid var(--colour-outline-variant);
+    background-color: var(--colour-surface-variant);
+    z-index: 20;
+    padding: 1em;
+    @include type("toc");
+    text-align: left;
+}
+
+#TOC > ul {
+    column-count: 2;
+    margin: 0;
+    column-gap: 2em;
+    list-style-type: none;
+    padding: 0;
+}
+
+#TOC a {
+  @include link-style($link-color: var(--colour-on-surface-variant));
+  border-bottom: none;
+
+  &:hover {
+    color: var(--colour-surface-variant-hover);
+    background-color: var(--colour-surface-variant);
+  }
+}
+
+.section-nav a {
+    @include link-style($border-color: none, $link-color: var(--colour-on-surface-variant));
+    @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
+}
+
+.section-nav > ul {
+    counter-reset: htoc_1;
+    list-style-type: none;
+}
+
+.section-nav ul {
+    text-indent: 0;
+    padding: 0;
+    overflow: unset;
+    list-style-type: none;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+}
+
+.section-nav li {
+    font-weight: 600;
+    position: relative;
+    overflow-wrap: break-word;
+    margin: 0;
+}
+
+.section-nav li li {
+    font-weight: normal;
+    padding: 0;
+}
+
+@media(min-width: 901px) {
+    #TOC {
+        max-width: 285px;
+        margin: 0 1.5rem 0 0;
+        float: left;
+        position: relative;
+        box-shadow: -1rem 0 0 0 var(--colour-surface), 1.5rem 0 0 0 var(--colour-surface);
+    }
+
+    #TOC > ul {
+        column-count: 1;
+    }
+
+    #TOC li {
+        padding: 0;
+    }
+
+    .section-nav ul {
+        margin-top: 0.25em;
+        text-indent: 0;
+        padding-left: 0.75em;
+        padding-top: 0;
+    }
+}

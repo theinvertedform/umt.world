@@ -1,0 +1,38 @@
+@use "../mixins" as *;
+
+#page-metadata {
+    margin: 0 0 2.25rem 0;
+    text-align: center;
+    @include type("meta");
+}
+
+#page-description {
+    margin: 0 auto 1em auto;
+    // font-style: italic;
+    text-align: center;
+    @include type("description");
+}
+
+div#link-tags {
+    margin: 0 auto 1em auto;
+    text-align: center;
+    @include type("meta");
+}
+
+span.page-status {
+    font-style: italic;
+}
+
+.abstract blockquote {
+    margin: 0 0 1.5em 0;
+    padding-top: 1em;
+    border: 1px solid var(--colour-outline-variant);
+    background-color: var(--colour-surface-variant);
+    @include type("meta");
+    em {
+      font-style: italic;
+    }
+    strong {
+      font-weight: 700;
+    }
+}

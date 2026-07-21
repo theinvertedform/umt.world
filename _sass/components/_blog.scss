@@ -1,0 +1,64 @@
+@use "../mixins" as *;
+
+/*
+.blog-post-header {
+    padding-bottom: 1em;
+}
+
+.blog-post-date {
+    line-height: 1.60;
+    font-weight: 700;
+    display: inline;
+}
+
+    .blog-post-date::before {
+        content: "§";
+        font-style: normal;
+        font-weight: bold;
+        color: #111;
+        text-decoration: none;
+    }
+
+.blog-post-title {
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+    .blog-post-title::before {
+        content: "—";
+        font-style: normal;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+    */
+
+.blog-post-modified-date {
+    display: inline;
+    font-style: italic;
+}
+
+    .blog-post-modified-date::before {
+        content: "(";
+        text-decoration: none;
+    }
+
+    .blog-post-modified-date::after {
+        content: ".)";
+        text-decoration: none;
+    }
+
+    /*
+.blog-post-description {
+    font-style: italic;
+}
+
+    .blog-post-description::before {
+        content: "—";
+        font-style: normal;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+*/
+

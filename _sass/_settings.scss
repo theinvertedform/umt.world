@@ -1,4 +1,5 @@
 @use "sass:map";
+@use "sass:meta";
 @use "vendor/utopia" as utopia;
 
 $utopia-type: (
@@ -152,6 +153,7 @@ $font-stacks: (
 );
 
 $font-semantics: (
+  logotype: var(--font-stack-logotype),
   body: var(--font-stack-serif-text),
   display: var(--font-stack-display),
   ui: var(--font-stack-sans),
@@ -163,8 +165,7 @@ $font-semantics: (
 
 $type-styles: (
   "body":            (family: var(--font-body), step: 0, leading: calc(1ex / 0.29)),
-  "logotype":        (family: var(--font-logotype), weight: 300, leading: 1,
-                      size: utopia.calculateClamp(("minWidth": 320, "maxWidth": 1240, "minSize": 28, "maxSize": 44))),
+  "logotype":        (family: var(--font-logotype), weight: 300, leading: 1),
   "nav-link":        (family: var(--font-display), leading: 1.35, transform: uppercase),
   "title":           (family: var(--font-display), step: 4, leading: 1.1, transform: uppercase),
   "heading-index":   (family: var(--font-display), step: 2, leading: 1.15, transform: lowercase, caps: small-caps),
@@ -202,5 +203,9 @@ $type-styles: (
 @media (prefers-color-scheme: dark) {
   :root {
     @include emit("colour", $colour-semantics-dark);
+
+    @each $name, $stack in $font-stacks {
+    --font-stack-#{$name}: #{meta.inspect($stack)};
+    }
   }
 }

@@ -50,6 +50,8 @@ $body-x-ratio: 0.42;
   font-family: map.get($style, family);
   @if map.get($style, step) != null {
     font-size: var(--step-#{map.get($style, step)});
+  } @else if map.get($style, size) {
+    font-size: #{map.get($style, size)};
   }
   @if map.get($style, leading) { line-height: map.get($style, leading); }
   @if map.get($style, adjust) { font-size-adjust: ex-height $body-x-ratio; }

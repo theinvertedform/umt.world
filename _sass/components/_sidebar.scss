@@ -1,0 +1,100 @@
+@use "../mixins" as *;
+
+#sidebar {
+    display: flex;
+    justify-content: center;
+    @include type("nav-link");
+}
+
+    #sidebar a#logo {
+        @include link-style(
+          $border-width: 1px,
+          $border-style: dotted,
+          $border-color: var(--colour-outline),
+          $link-color: inherit
+          );
+        @include link-border-style($border-color: var(--colour-outline), $border-style: dotted);
+        margin: 1px;
+        padding: 0.25rem 0.75rem;
+        align-content: center;
+        @include link-hover-style;
+    }
+
+    #logo img {
+        min-width: 3em;
+        flex: 1 1 100%;
+        filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
+        /* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
+    }
+
+    #sidebar span#logotype {
+        @include type("logotype");
+        text-transform: lowercase;
+        font-variant: none;
+      }
+
+    .sidebar-links {
+        flex: 1 1 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #sidebar a {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        @include link-style($border-color: var(--colour-outline), $link-color: inherit);
+        @include link-hover-style;
+    }
+
+    #sidebar .sidebar-links a {
+        flex: 1 1 33%;
+        padding: 0.25rem 0.75rem;
+        align-content: center;
+        @include link-style(
+          $border-width: 1px,
+          $border-style: dotted,
+          $border-color: var(--colour-outline),
+          $link-color: inherit
+    );
+        @include type("nav-link");
+    }
+
+    #sidebar .sidebar-links a.patreon {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        color: var(--green-500);
+        @include link-style($border-color: var(--green-500), $link-color: var(--green-500));
+        @include link-hover-style(var(--green-300));
+    }
+
+    #sidebar .sidebar-links a.subscribe {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        color: var(--red-500);
+        @include link-style($border-color: var(--colour-accent), $link-color: var(--colour-accent));
+        @include link-hover-style(var(--colour-accent-muted));
+    }
+
+@media (min-width: 650px) {
+    #sidebar .sidebar-links a {
+        text-transform: uppercase;
+        font-weight: 600;
+        flex: 1 1 auto;
+        @include link-style($link-color: var(--colour-link-hover));
+        @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
+    }
+}
+
+@media (min-width: 1180px) {
+    #sidebar a#logo {
+        border: none;
+    }
+
+    #sidebar #logo img {
+        width: 5em;
+    }
+}
+

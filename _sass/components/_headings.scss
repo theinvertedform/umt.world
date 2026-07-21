@@ -1,0 +1,116 @@
+@use "../mixins" as *;
+
+h1.title {
+    margin: 0.75em 0;
+    text-align: center;
+    letter-spacing: -1px;
+    border-bottom: none;
+    @include type("title");
+    em { font-style: italic; }
+}
+
+section.level1 > h1 {
+    border-bottom: 1px solid var(--colour-outline);
+    text-align: right;
+    padding: 0;
+    margin: 1em 0em;
+    position: relative;
+    @include type("heading-section");
+      a { border-bottom: none; }
+}
+
+section.level1 hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: var(--colour-outline);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin: 0.5em 0 0 0;
+    padding: 0;
+}
+
+section.level1 hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: var(--colour-outline);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section.level2 hr,
+article.level2 hr {
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+    margin: 0.5em 0 0 0;
+    padding: 0;
+}
+
+section.level2 hr:before,
+article.level2 hr:before {
+    display: block;
+    content: "\01F7BB \01F7BE \01F7BB";
+    text-align: center;
+    height: 0;
+    margin-top: 0;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+}
+
+#markdownBody section > h1 a::after {
+    right: unset;
+    left: 0;
+}
+
+h1 a::after:not(diary) {
+    content: "\00B6";
+    font-size: 0.75em;
+    position: absolute;
+    color: var(--colour-link-hover);
+    text-decoration: none;
+    bottom: 0.15em;
+    right: 0;
+    opacity: 0.5;
+}
+
+h1 a::after {
+    right: unset;
+    left: 0;
+}
+
+section.level2 > h2,
+article.level2 > h2 {
+    border-bottom: 1px dotted var(--colour-outline);
+    text-align: left;
+    position: relative;
+    padding: 0;
+    margin: 1em 0em;
+    @include type("heading-sub");
+    a {
+      border-bottom: none;
+    }
+    em {
+      font: inherit;
+    }
+}
+
+h2 a::after {
+    content: "\00B6";
+    font-size: 0.75em;
+    position: absolute;
+    color: var(--colour-on-surface);
+    text-decoration: none;
+    bottom: 0.15em;
+    right: 0;
+    opacity: 0.5;
+}
+
+h1 a, h2 a {
+    @include link-style($border-color: none);
+    }
+

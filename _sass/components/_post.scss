@@ -1,0 +1,52 @@
+@use "../mixins" as *;
+
+#markdownBody {
+/*  display: flex;
+    flex-flow: row wrap;*/
+    margin: 1em auto;
+    max-width: 75ch;
+}
+
+    #markdownBody .section-link-list {
+        padding: 0 0 0 1.25em;
+        margin: 1em 0;
+    }
+
+        #markdownBody .section-link-list li {
+            padding: 0.1em;
+            list-style-position: outside;
+            margin: 0;
+        }
+
+    //#markdownBody #diaries .section-link-list li {
+    //  list-style-type: square;
+    //}
+
+    .markdownBody a {
+        @include link-style($link-color: var(--colour-on-surface));
+        @include link-hover-style;
+        /*color: var(--colour-on-surface);*/
+        font-variant-numeric: lining-nums;
+    }
+
+    .markdownBody li {
+        list-style-position: outside;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+        text-indent: 2.25em;
+        margin-top: 0;
+    }
+
+@media (min-width: 901px) {
+    article.post {
+        max-width: 75ch;
+        margin: 0 auto;
+    }
+
+}
+

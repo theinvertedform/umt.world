@@ -1,0 +1,73 @@
+@use "../mixins" as *;
+
+aside.index.abstract {
+    margin: 0 auto;
+}
+
+h1.index-heading {
+    border-bottom: 1px solid var(--colour-outline);
+    margin: 1.125em 0 0 0;
+    text-align: left;
+    padding: 0;
+    @include type("heading-index");
+    a { border-bottom: none; }
+    em { font-style: italic; }
+}
+
+hr.index-section-ornament {
+    order: 4;
+    border: 0;
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+hr.index-section-ornament::after {
+    content: "";
+    margin: auto;
+    width: 100%;
+    height: 7.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-size: contain;
+    background-image: url('/assets/images/ornaments/floral_band.png');
+}
+
+/*section > :first-child > a {
+    border-bottom: none;
+}*/
+
+@media (min-width: 901px) {
+    body.page-index #markdownBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2em;
+        grid-row-gap: 0.5em;
+    }
+
+    hr.index-section-ornament {
+        grid-column: 1 / -1;
+        order: unset;
+    }
+
+    aside.index.abstract {
+      grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1761px ) {
+    body.page-index #markdownBody {
+        grid-template-columns: 35ch 35ch 35ch;
+        margin-left: -20ch;
+    }
+
+    #markdownBody {
+        position: relative;
+      }
+
+    aside.index.abstract {
+        margin-left: 33.25ch;
+        max-width: 59.90ch;
+    }
+}

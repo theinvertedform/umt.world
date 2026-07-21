@@ -25,13 +25,7 @@ layout: home
 {% endfor %}
 {% assign sorted = all_documents | sort: 'date' | reverse | slice: 0, 10 %}
 {% for post in sorted %}
-<li>
-{% if post.url %}
-<a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>
-{% else %}
-<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
-{% endif %}
-</li>
+<li>{% if post.url %}<a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>{% endif %}</li>
 {% endfor %}
 </ul>
 </section>

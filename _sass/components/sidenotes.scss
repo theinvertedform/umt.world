@@ -1,6 +1,11 @@
-/*************/
-/* SIDENOTES */
-/*************/
+@use "../mixins" as *;
+
+@media (max-width: 1760px ) {
+  #sidenote-column-left,
+  #sidenote-column-right {
+    display: none;
+  }
+}
 
 .sidenote-layout-cell {
     position: absolute;

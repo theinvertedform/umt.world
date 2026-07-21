@@ -1,0 +1,94 @@
+@use "mixins" as *;
+
+html {
+    @include type("body");
+    hyphens: auto;
+    text-align: justify;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0.5em;
+    background-color: var(--colour-surface);
+    color: var(--colour-on-surface);
+}
+
+a {
+  @include link-style(
+    $border-bottom-width: 1px,
+    $border-bottom-style: solid,
+    $border-bottom-color: var(--colour-outline)
+    );
+  @include link-hover-style;
+}
+
+blockquote {
+    margin: 1em 0 1.5em 0;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    border: 1px solid var(--colour-outline-variant);
+    background-color: var(--colour-surface-variant);
+    /*overflow: hidden;*/
+    display: flow-root;
+}
+
+code {
+    margin: 1em 0 1.5em 0;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    border: 1px solid var(--colour-outline-variant);
+    background-color: var(--colour-surface-variant);
+    /*overflow: hidden;*/
+    display: flow-root;
+    text-wrap: wrap;
+}
+
+li {
+    counter-increment: count;
+    //padding: 0.65em 0;
+    //margin-left: 2.25em;
+    position: relative;
+}
+
+ul > li {
+  //list-style-type: none;
+  position: relative;
+}
+
+ul > li::before {
+  //content: "";
+  //position: absolute;
+  //left: -1.5em;
+  //top: 0.35em;
+  //width: 0.75em;
+  //height: 1em;
+  //line-height: 1;
+  //background-image: url("/assets/images/ornaments/asterisk-regular.svg");
+  //background-size: contain;
+  //background-repeat: no-repeat;
+  //z-index: 1;
+  //opacity: var(--list-bullet-opacity);
+}
+
+ol {
+  counter-reset: count;
+  list-style-type: decimal;
+}
+  ol li::marker {
+    content: counters(count, ".", decimal) ". ";
+  }
+
+h1 {
+  @include type("heading-section");
+}
+
+h2 {
+  @include type("heading-sub");
+}
+
+h3 {
+    position: relative;
+    @include type("heading-minor");
+}
+
+form p {
+    text-indent: 0;
+  }
