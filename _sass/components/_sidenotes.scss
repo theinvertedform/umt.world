@@ -1,6 +1,6 @@
 @use "../mixins" as *;
 
-@media (max-width: 1760px ) {
+@media (max-width: 1520px ) {
   #sidenote-column-left,
   #sidenote-column-right {
     display: none;
@@ -19,8 +19,8 @@
 #sidenote-column-left,
 #sidenote-column-right,
 #hidden-sidenote-storage {
-    width: calc(50vw - (935px / 2 + 96px));
-    max-width: 935px;
+    width: calc(50vw - (var(--body-width, 75ch) / 2 + 96px));
+    max-width: 550px;
 }
 
 #sidenote-column-left,
@@ -56,8 +56,7 @@
     width: 100%;
     opacity: 0.85;
     padding: 2em 0 0 0;
-    @include typography($body-font, normal, calc(#{$base-font-size} * 0.85 + 0.331vw), 'body');
-    line-height: fluid-line-height('article');
+    @include type("sidenote");
     transition:
         opacity 0.25s ease-in,
         transform 0.25s ease-in;
@@ -74,9 +73,9 @@
 #markdownBody .sidenote.targeted,
 #markdownBody .sidenote.displaced,
 #markdownBody .sidenote.highlighted {
-    background-color: $background-colour;
+    background-color: var(--colour-surface);
     opacity: 1.0;
-    box-shadow: 0 0 0 16px $background-colour;
+    box-shadow: 0 0 0 16px var(--colour-surface);
 }
 #markdownBody .sidenote.targeted {
     z-index: 1;
@@ -103,20 +102,20 @@
 #markdownBody .sidenote.targeted::after,
 #markdownBody .sidenote.displaced::after,
 #markdownBody .sidenote.highlighted::after {
-    border: 3px double $border-colour;
+    border: 3px double var(--colour-outline);
 }
 
 #markdownBody .sidenote.cut-off::before {
     content: "…";
     position: absolute;
-    border: 1px dotted $border-colour;
+    border: 1px dotted var(--colour-outline);
     top: calc(100% - 1px);
     left: 0;
     right: 0;
     margin: auto;
     width: fit-content;
     z-index: 2;
-    background-color: $background-colour;
+    background-color: var(--colour-surface);
     padding: 0.125em 0.5em 0.5em 0.5em;
     font-size: 1.25em;
     font-weight: 600;
@@ -131,11 +130,13 @@
 }
 
 #markdownBody .sidenote em, span.citation {
-  @include typography($caption-italic, normal, inherit, inherit, italic);
+  @include type("sidenote");
+  font-style: italic;
   }
 
 #markdownBody .sidenote strong {
-    @include typography($body-font-bold, $font-bold, inherit, inherit);
+    @include type("sidenote");
+    font-weight: 700;
   }
 
 /*=-------------------=*/
@@ -150,7 +151,7 @@
     position: relative;
     z-index: 1;
     border-style: dotted;
-    border-color: $border-colour;
+    border-color: var(--colour-outline);
     border-width: 1px 0;
 }
 #markdownBody .sidenote:hover .sidenote-outer-wrapper,
@@ -175,7 +176,7 @@
     background-image: var(--GW-checkerboard-scrollbar-background-image);
     background-size: 2px;
     box-shadow:
-        0 0 0 2px $background-colour inset;
+        0 0 0 2px var(--colour-surface) inset;
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb:hover {
     background-image: var(--GW-checkerboard-scrollbar-hover-background-image);
@@ -184,10 +185,10 @@
 /*  Scroll bar styles (for Firefox).
     */
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) $background-colour;
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) var(--colour-surface);
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper:hover {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) $background-colour;
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) var(--colour-surface);
 }
 
 /*  Inner wrapper (does not scroll; stretches to height of content).
@@ -233,13 +234,13 @@
 /*=-------------------------------=*/
 
 #markdownBody .sidenote > .sidenote-self-link {
-    font-weight: $font-bold;
-    font-family: $super;
+    font-weight: 700;
+    @include type("sidenote");
     position: absolute;
     top: -1px;
     background-image: none;
     border-style: dotted;
-    border-color: $border-colour;
+    border-color: var(--colour-outline);
     border-width: 1px 1px 0px 1px;
     width: 2em;
     height: 2em;
@@ -278,7 +279,7 @@
     bottom: -3px;
     width: calc(50vw - (935px / 2 + 96px) + 10px);
     max-width: 550px;
-    border-bottom: 3px double $border-colour;
+    border-bottom: 3px double var(--colour-outline);
 }
 #markdownBody #sidenote-column-left .sidenote.targeted > .sidenote-self-link::before,
 #markdownBody #sidenote-column-left .sidenote > .sidenote-self-link:hover::before {

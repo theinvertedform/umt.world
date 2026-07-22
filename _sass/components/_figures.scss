@@ -5,6 +5,19 @@ figure {
     width: 100%;
 }
 
+#markdownBody figure.full-width {
+  width: auto;
+  margin-left: calc(50% - 50vw + var(--scrollbar-width, 0px) / 2);
+  margin-right: calc(50% - 50vw + var(--scrollbar-width, 0px) / 2);
+  margin-block: 2em;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 figcaption {
     text-align: center;
     /*font-size: 0.85em;*/

@@ -50,18 +50,15 @@ On this website, you will find drafts, fragments, notes, revisions, photographs,
 What I learned from studying Linux and understanding how filesystems work is similar to what Walter Benjamin was trying to do with the *Arcades* project. It's also similar to what Niklas Luhmann did with his Zettelkasten. I am trying to make art and critique out of the organization of information.
 
 1. URL Schema
-
 [Cosma's website](http://bactra.org/) has many pages, but the URLs are all quite schematic. To my mind, they clash with what we expect from websites nowadays. Incongruous URLs produce a certain effect, but I like Gwern's approach of single-word URLs. Social media was not a concern for older Web pioneers. Now we must prioritize short, stable, "cool" URLs.
 
 2. Page Structure
-
 One of the classic things that hypertext theorists love to talk about is linking. In many examples of early hypertextual works, made when monitors were much more primitive than today, pages were designed for a single viewport. In contrast to this, another version of the website is based on "long" pages, like a scroll. The idea is to create anchored sections that can be linked. Sub-sectioning can be challenging to pull off if the goal is "literary," but there is a precedent for it in works of Contemporary literature (like *A Thousand Plateaus*, by Gilles Deleuze and Felix Guattari; or *Flights* by Olga Tokarczuk). Linking makes the website a real work of art.
 
 3. Metadata
-
 Like the URL, metadata is another element that is both aesthetic and technical, and which sits at the core of the website as a hypertext artwork. We want to think up metadata categories that can be used to represent the important aspects of a page. They will need to be standardized, somehow.
 
-![[@steyerl2014]](/assets/images/steyerl2.jpg)
+![[@steyerl2014]](/assets/images/steyerl2.jpg){.full-width}
 
 # Our Cyberpunk Future
 

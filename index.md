@@ -166,7 +166,7 @@ layout: home
 </section>
 
 <section id="newsletter" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/newsletter" title="The culture diary of an artworld outsider.">Newsletter Archives</a></h1>
+<h1 class="index-heading"><a href="/newsletter" title="The culture diary of an artworld outsider.">Newsletter</a></h1>
 <ul class="section-link-list">
 {% for post in site.newsletter reversed limit: 10 %}
 <li>

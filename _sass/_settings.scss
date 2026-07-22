@@ -155,6 +155,7 @@ $font-stacks: (
 $font-semantics: (
   logotype: var(--font-stack-logotype),
   body: var(--font-stack-serif-text),
+  sidenote: var(--font-stack-serif-text),
   display: var(--font-stack-display),
   ui: var(--font-stack-sans),
   meta: var(--font-stack-sans),
@@ -165,6 +166,7 @@ $font-semantics: (
 
 $type-styles: (
   "body":            (family: var(--font-body), step: 0, leading: calc(1ex / 0.29)),
+  "sidenote":        (family: var(--font-body), step: -2, leading: calc(1ex / 0.35)),
   "logotype":        (family: var(--font-logotype), weight: 300, leading: 1),
   "nav-link":        (family: var(--font-display), leading: 1.35, transform: uppercase),
   "title":           (family: var(--font-display), step: 4, leading: 1.1, transform: uppercase),
@@ -176,7 +178,7 @@ $type-styles: (
   "toc":             (family: var(--font-ui), step: -2, leading: 1.2, adjust: 0.4),
   "description":     (family: var(--font-body), style: italic, leading: calc(1ex / 0.29)),
   "superscript":     (family: var(--font-body), leading: 1),
-  "caption":         (family: var(--font-ui), leading: 1.35, adjust: 0.4),
+  "caption":         (family: var(--font-ui), step: -2, leading: 1.35, adjust: 0.4),
 );
 
 $layout: (

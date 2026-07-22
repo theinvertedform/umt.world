@@ -138,64 +138,8 @@ function ridiculousWorkaroundsForBrowsersFromBizarroWorld() {
 
     document.addEventListener('DOMContentLoaded', function() { // add event listener
         GW.isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-        if (!GW.isFirefox) {
-            GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: 176ch)`;
-            GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: 65ch)`;
-        } else { // Correctly nested else block
-            /*  This should match the "max-width" property of the "body" element.
-                    */
-            GW.maxBodyWidthInCharacterUnits = 75;
-
-            /*  This should be some property/value pair that only Firefox supports.
-                    */
-            GW.firefoxTargetingSelector = "@supports (-moz-user-focus: normal)";
-
-            let widthOfCharacterUnit = parseInt(getComputedStyle(document.body).maxWidth) / GW.maxBodyWidthInCharacterUnits;
-            let viewportWidthBreakpointInPixels = 176 * widthOfCharacterUnit;
-            GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: ${viewportWidthBreakpointInPixels}px)`;
-            let mobileViewportWidthBreakpointInPixels = 65 * widthOfCharacterUnit;
-            GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: ${mobileViewportWidthBreakpointInPixels}px)`;
-
-            var sidenotesBrowserWorkaroundStyleBlock = document.querySelector("style#sidenotes-browser-workaround");
-            if (!sidenotesBrowserWorkaroundStyleBlock) {
-                sidenotesBrowserWorkaroundStyleBlock = document.createElement("style");
-                sidenotesBrowserWorkaroundStyleBlock.id = "sidenotes-browser-workaround";
-                document.querySelector("body").appendChild(sidenotesBrowserWorkaroundStyleBlock);
-            }
-
-            let minWidthBreakpoint = viewportWidthBreakpointInPixels + 1; // Calculate here!
-
-            sidenotesBrowserWorkaroundStyleBlock.innerHTML = `
-                ${GW.firefoxTargetingSelector} {
-                    @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
-                        #sidenote-column-left,
-                        #sidenote-column-right {
-                            display: none;
-                        }
-                    }
-                    @media only screen and (min-width: ${minWidthBreakpoint}px) { /* Use the variable */
-                        #sidenote-column-left,
-                        #sidenote-column-right {
-                            display: block;
-                        }
-                        main {
-                            position: relative;
-                            right: 4ch;
-                        }
-                        #markdownBody {
-                            position: relative;
-                        }
-                    }
-                    @media only screen and (max-width: ${viewportWidthBreakpointInPixels}px) {
-                        .footnote-ref:target {
-                            background-color: inherit;
-                            box-shadow: none;
-                        }
-                    }
-                }
-            `;
-        } // Closing brace for the if (!GW.isFirefox) block
-
+        GW.sidenotes.viewportWidthBreakpointMediaQueryString = `(max-width: 1520px)`;
+        GW.sidenotes.mobileViewportWidthBreakpointMediaQueryString = `(max-width: 1040px)`;
         /*  Create media query objects (for checking and attaching listeners).
             */
         GW.sidenotes.mediaQueries = {
@@ -213,9 +157,9 @@ function ridiculousWorkaroundsForBrowsersFromBizarroWorld() {
         GW.sidenotes.mediaQueries.viewportWidthBreakpoint.addListener(GW.sidenotes.viewportWidthBreakpointChanged = () => {
             GWLog("GW.sidenotes.viewportWidthBreakpointChanged");
 
+            updateFootnoteReferenceLinks();
             updateFootnoteEventListeners();
             GW.sidenotes.footnotesObserver.disconnect();
-            updateFootnoteReferenceLinks();
         });
     }); // Closing brace for the DOMContentLoaded event listener
 }
@@ -428,7 +372,7 @@ function updateFootnoteEventListeners() {
 
         if (window.Footnotes &&
             GW.sidenotes.mediaQueries.mobileViewportWidthBreakpoint.matches == false &&
-            GW.sidenotes.mediaQueries.hover == true) {
+            GW.sidenotes.mediaQueries.hover.matches == true) {
             //  Bind footnote events.
             Footnotes.setup();
         }
@@ -474,8 +418,8 @@ function updateSidenotePositions() {
             break;
         }
     }
-    let offset = firstFullWidthBlock.offsetTop || 0;
-    if (GW.sidenotes.sidenoteColumnLeft.offsetTop < firstFullWidthBlock.offsetTop) {
+		let offset = firstFullWidthBlock?.offsetTop ?? 0;
+		if (firstFullWidthBlock && GW.sidenotes.sidenoteColumnLeft.offsetTop < offset) {
         GW.sidenotes.sidenoteColumnLeft.style.top = offset + "px";
         GW.sidenotes.sidenoteColumnLeft.style.height = `calc(100% - ${offset}px)`;
     }
@@ -831,8 +775,6 @@ function sidenotesSetup() {
 
     //  Compensate for Firefox nonsense.
     ridiculousWorkaroundsForBrowsersFromBizarroWorld();
-    if (GW.isFirefox && document.readyState != "complete")
-        window.addEventListener("load", ridiculousWorkaroundsForBrowsersFromBizarroWorld);
 
     /*  Construct the sidenotes immediately, and also re-construct them as soon
         as the HTML content is fully loaded (if it isn't already).
