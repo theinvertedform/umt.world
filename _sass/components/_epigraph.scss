@@ -2,7 +2,7 @@
 
 .epigraph {
     padding: var(--space-3xs) var(--space-xs);
-    background-color: var(--colour-surface);
+    background-color: var(--bg-page);
     border: none;
     @include type("body");
     font-size: var(--step--1);

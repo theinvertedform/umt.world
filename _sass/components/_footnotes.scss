@@ -39,7 +39,7 @@ section#footnotes hr {
     overflow: visible; /* For IE */
     height: var(--space-3xs);
     border-style: solid;
-    border-color: var(--colour-outline);
+    border-color: var(--border-default);
     border-width: 1px 0 0 0;
     border-radius: var(--space-xs);
 }
@@ -50,7 +50,7 @@ section#footnotes hr:before { /* Not really supposed to work, but does */
     height: 20px;
     margin-top: -31px;
     border-style: solid;
-    border-color: var(--colour-outline);
+    border-color: var(--border-default);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }

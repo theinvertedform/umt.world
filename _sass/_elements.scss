@@ -8,15 +8,15 @@ html {
 
 body {
     margin: 0 auto;
-    background-color: var(--colour-surface);
-    color: var(--colour-on-surface);
+    background-color: var(--bg-page);
+    color: var(--text-primary);
 }
 
 a {
   @include link-style(
     $border-bottom-width: 1px,
     $border-bottom-style: solid,
-    $border-bottom-color: var(--colour-outline)
+    $border-bottom-color: var(--border-default)
     );
   @include link-hover-style;
 }
@@ -24,8 +24,9 @@ a {
 blockquote {
     margin: var(--space-s) 0;
     padding: var(--space-s) var(--space-xs);
-    border: 1px solid var(--colour-outline-variant);
-    background-color: var(--colour-surface-variant);
+    color: var(--text-secondary);
+    background-color: var(--bg-raised);
+    border: 1px solid var(--border-strong);
     /*overflow: hidden;*/
     display: flow-root;
 }
@@ -33,8 +34,8 @@ blockquote {
 code {
     margin: var(--space-s) 0;
     padding: var(--space-s) var(--space-xs);
-    border: 1px solid var(--colour-outline-variant);
-    background-color: var(--colour-surface-variant);
+    border: 1px solid var(--border-strong);
+    background-color: var(--bg-raised);
     /*overflow: hidden;*/
     display: flow-root;
     text-wrap: wrap;

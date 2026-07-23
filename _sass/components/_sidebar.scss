@@ -1,4 +1,5 @@
 @use "../mixins" as *;
+@use "../settings/light-mode" as *;
 
 #sidebar {
     display: flex;
@@ -13,10 +14,10 @@
         @include link-style(
           $border-width: 1px,
           $border-style: dotted,
-          $border-color: var(--colour-outline),
+          $border-color: var(--border-subtle),
           $link-color: inherit
           );
-        @include link-border-style($border-color: var(--colour-outline), $border-style: dotted);
+        @include link-border-style($border-color: var(--border-subtle), $border-style: dotted);
         margin: 1px;
         padding: var(--space-3xs) var(--space-2xs);
         align-content: center;
@@ -26,7 +27,6 @@
     #logo img {
         min-width: var(--space-s);
         flex: 1 1 100%;
-        filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
         /* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
     }
 
@@ -46,8 +46,6 @@
         display: block;
         text-align: center;
         font-variant: small-caps;
-        @include link-style($border-color: var(--colour-outline), $link-color: inherit);
-        @include link-hover-style;
     }
 
     #sidebar .sidebar-links a {
@@ -57,7 +55,7 @@
         @include link-style(
           $border-width: 1px,
           $border-style: dotted,
-          $border-color: var(--colour-outline),
+          $border-color: var(--border-default),
           $link-color: inherit
     );
         @include type("nav-link");
@@ -67,18 +65,40 @@
         display: block;
         text-align: center;
         font-variant: small-caps;
-        color: var(--green-500);
-        @include link-style($border-color: var(--green-500), $link-color: var(--green-500));
-        @include link-hover-style(var(--green-300));
+        @include focus-visible;
+        @include tinted("green");
     }
 
     #sidebar .sidebar-links a.subscribe {
         display: block;
         text-align: center;
         font-variant: small-caps;
-        color: var(--red-500);
-        @include link-style($border-color: var(--colour-accent), $link-color: var(--colour-accent));
-        @include link-hover-style(var(--colour-accent-muted));
+        @include focus-visible;
+        @include tinted("red");
+    }
+
+    #sidebar .sidebar-links a.website {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        @include focus-visible;
+        @include tinted("violet");
+    }
+
+    #sidebar .sidebar-links a.author {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        @include focus-visible;
+        @include tinted("indigo");
+    }
+
+    #sidebar .sidebar-links a.changelog {
+        display: block;
+        text-align: center;
+        font-variant: small-caps;
+        @include focus-visible;
+        @include tinted("yellow");
     }
 
 @media (min-width: 650px) {
@@ -89,8 +109,6 @@
       text-transform: uppercase;
       font-weight: 600;
       flex: 1 1 auto;
-      @include link-style($link-color: var(--colour-link-hover));
-      @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
   }
 }
 
@@ -107,4 +125,3 @@
         width: var(--space-l);
     }
 }
-

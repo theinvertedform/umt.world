@@ -20,7 +20,7 @@
 #sidenote-column-right,
 #hidden-sidenote-storage {
     width: calc(50vw - (var(--body-width, 75ch) / 2 + 96px));
-    max-width: 550px;
+    max-width: var(--measure-column);
 }
 
 #sidenote-column-left,
@@ -47,7 +47,7 @@
 /*=-----------------=*/
 
 #markdownBody .sidenote {
-    --sidenote-padding: 10px;
+    --sidenote-padding: var(--space-3xs);
     --sidenote-border-width: 3px;
     --text-indent: 1.75em;
 
@@ -73,9 +73,9 @@
 #markdownBody .sidenote.targeted,
 #markdownBody .sidenote.displaced,
 #markdownBody .sidenote.highlighted {
-    background-color: var(--colour-surface);
+    background-color: var(--bg-page);
     opacity: 1.0;
-    box-shadow: 0 0 0 16px var(--colour-surface);
+    box-shadow: 0 0 0 16px var(--bg-page);
 }
 #markdownBody .sidenote.targeted {
     z-index: 1;
@@ -102,20 +102,20 @@
 #markdownBody .sidenote.targeted::after,
 #markdownBody .sidenote.displaced::after,
 #markdownBody .sidenote.highlighted::after {
-    border: 3px double var(--colour-outline);
+    border: 3px double var(--border-default);
 }
 
 #markdownBody .sidenote.cut-off::before {
     content: "…";
     position: absolute;
-    border: 1px dotted var(--colour-outline);
+    border: 1px dotted var(--border-default);
     top: calc(100% - 1px);
     left: 0;
     right: 0;
     margin: auto;
     width: fit-content;
     z-index: 2;
-    background-color: var(--colour-surface);
+    background-color: var(--bg-page);
     padding: 0.125em 0.5em 0.5em 0.5em;
     font-size: 1.25em;
     font-weight: 600;
@@ -151,7 +151,7 @@
     position: relative;
     z-index: 1;
     border-style: dotted;
-    border-color: var(--colour-outline);
+    border-color: var(--border-default);
     border-width: 1px 0;
 }
 #markdownBody .sidenote:hover .sidenote-outer-wrapper,
@@ -176,7 +176,7 @@
     background-image: var(--GW-checkerboard-scrollbar-background-image);
     background-size: 2px;
     box-shadow:
-        0 0 0 2px var(--colour-surface) inset;
+        0 0 0 2px var(--bg-page) inset;
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb:hover {
     background-image: var(--GW-checkerboard-scrollbar-hover-background-image);
@@ -185,17 +185,17 @@
 /*  Scroll bar styles (for Firefox).
     */
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) var(--colour-surface);
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-color) var(--bg-page);
 }
 #markdownBody .sidenote.cut-off .sidenote-outer-wrapper:hover {
-    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) var(--colour-surface);
+    scrollbar-color: var(--GW-sidenote-scrollbar-thumb-hover-color) var(--bg-page);
 }
 
 /*  Inner wrapper (does not scroll; stretches to height of content).
     */
 .sidenote-inner-wrapper {
     position: relative;
-    margin: 0.5em 0;
+    margin: var(--space-2xs) 0;
 }
 
 /*  Ensure content is interactive.
@@ -240,10 +240,10 @@
     top: -1px;
     background-image: none;
     border-style: dotted;
-    border-color: var(--colour-outline);
+    border-color: var(--border-default);
     border-width: 1px 1px 0px 1px;
-    width: 2em;
-    height: 2em;
+    width: var(--space-xs);
+    height: var(--space-xs);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,9 +277,9 @@
     display: block;
     position: absolute;
     bottom: -3px;
-    width: calc(50vw - (935px / 2 + 96px) + 10px);
+    width: calc(50vw - (var(--body-width, 75ch) / 2 + 96px) + 10px);
     max-width: 550px;
-    border-bottom: 3px double var(--colour-outline);
+    border-bottom: 3px double var(--border-default);
 }
 #markdownBody #sidenote-column-left .sidenote.targeted > .sidenote-self-link::before,
 #markdownBody #sidenote-column-left .sidenote > .sidenote-self-link:hover::before {

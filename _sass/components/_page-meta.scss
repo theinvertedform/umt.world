@@ -26,8 +26,9 @@ span.page-status {
 .abstract blockquote {
     margin: 0 0 var(--space-xs) 0;
     padding-top: var(--space-xs);
-    border: 1px solid var(--colour-outline-variant);
-    background-color: var(--colour-surface-variant);
+    border: 1px solid var(--border-default);
+    background-color: var(--bg-raised);
+    color: var(--text-secondary);
     @include type("meta");
     em { font-style: italic; }
     strong { font-weight: 700; }

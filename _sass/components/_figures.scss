@@ -42,9 +42,11 @@ img {
     margin: 0 auto;
 }
 
-figure img {
-    border: 1px solid var(--colour-outline);
-    box-shadow: 0 0 10px 0 var(--colour-outline); }
+#markdownBody figure img {
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0 0 10px 0 var(--border-default);
+  }
 
-img:hover {
-}
+#markdownBody img:hover {
+    box-shadow: 0 0 10px 0 var(--border-subtle);
+  }

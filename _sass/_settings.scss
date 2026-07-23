@@ -174,7 +174,7 @@ $type-styles: (
   "heading-section": (family: var(--font-display), weight: 700, step: 2, leading: 1.15),
   "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: uppercase, caps: small-caps),
   "heading-minor":   (family: var(--font-display), weight: 700, step: 1, transform: capitalize, caps: small-caps),
-  "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / 0.30), adjust: 0.4),
+  "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / 0.35), adjust: 0.4),
   "toc":             (family: var(--font-ui), step: -2, leading: 1.2, adjust: 0.4),
   "description":     (family: var(--font-body), style: italic, leading: calc(1ex / 0.29)),
   "superscript":     (family: var(--font-body), leading: 1),

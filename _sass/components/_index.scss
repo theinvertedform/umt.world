@@ -5,7 +5,7 @@ aside.index.abstract {
 }
 
 h1.index-heading {
-    border-bottom: 1px solid var(--colour-outline);
+    border-bottom: 1px solid var(--border-subtle);
     margin: var(--space-xs) 0 0 0;
     text-align: left;
     padding: 0;
@@ -14,6 +14,7 @@ h1.index-heading {
     em { font-style: italic; }
 }
 
+/*
 hr.index-section-ornament {
     order: 4;
     border: 0;
@@ -34,6 +35,7 @@ hr.index-section-ornament::after {
     background-size: contain;
     background-image: url('/assets/images/ornaments/floral_band.png');
 }
+*/
 
 /*section > :first-child > a {
     border-bottom: none;
@@ -55,37 +57,3 @@ aside.index.abstract {
   max-width: var(--measure-prose);
   margin-inline: auto;
 }
-
-/*@media (min-width: 901px) {
-    body.page-index #markdownBody {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: var(--space-m);
-        grid-row-gap: var(--space-3xs);
-    }
-
-    hr.index-section-ornament {
-        grid-column: 1 / -1;
-        order: unset;
-    }
-
-    aside.index.abstract {
-      grid-column: 1 / -1;
-    }
-}
-
-@media (min-width: 1761px ) {
-    body.page-index #markdownBody {
-        grid-template-columns: 35ch 35ch 35ch;
-        margin-left: -20ch;
-    }
-
-    #markdownBody {
-        position: relative;
-      }
-
-    aside.index.abstract {
-        margin-left: 33.25ch;
-        max-width: 59.90ch;
-    }
-}*/

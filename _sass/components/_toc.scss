@@ -1,8 +1,9 @@
 @use "../mixins" as *;
 
 #TOC {
-    border: 1px solid var(--colour-outline-variant);
-    background-color: var(--colour-surface-variant);
+    border: 1px solid var(--border-default);
+    color: var(--text-secondary);
+    background-color: var(--bg-raised);
     z-index: 20;
     padding: var(--space-xs);
     @include type("toc");
@@ -18,12 +19,12 @@
 }
 
 #TOC a {
-  @include link-style($link-color: var(--colour-on-surface-variant));
+  @include link-style($link-color: var(--text-secondary));
   border-bottom: none;
 
   &:hover {
-    color: var(--colour-surface-variant-hover);
-    background-color: var(--colour-surface-variant);
+    color: var(--text-primary);
+    background-color: var(--bg-page);
   }
 }
 
@@ -64,7 +65,7 @@
         margin: 0 var(--space-m) 0 0;
         float: left;
         position: relative;
-        box-shadow: -1rem 0 0 0 var(--colour-surface), 1.5rem 0 0 0 var(--colour-surface);
+        box-shadow: -1rem 0 0 0 var(--bg-page), 1.5rem 0 0 0 var(--bg-page);
     }
 
     #TOC > ul {
