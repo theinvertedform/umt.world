@@ -1,6 +1,7 @@
 @use "../mixins" as *;
 
 @media (max-width: 1520px ) {
+  #markdownBody .marginnote,
   #sidenote-column-left,
   #sidenote-column-right {
     display: none;

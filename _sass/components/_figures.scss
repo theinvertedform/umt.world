@@ -6,9 +6,17 @@ figure {
 }
 
 #markdownBody figure.full-width {
-  width: auto;
-  margin-inline: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
   margin-block: 2em;
+
+  @media (min-width: 1521px) {
+    width: auto;
+    margin-inline: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
+  }
+
+  @media (max-width: 1520px) {
+    width: auto;
+    margin-inline: calc(50% - 50vw);
+  }
 
   img {
     width: 100%;
