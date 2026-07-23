@@ -46,6 +46,7 @@ layout: default
 	</div>
 
 	<div id="markdownBody" class="markdownBody post-content" itemprop="articleBody">
+		<div class="front-matter">
 		{% if page.toc %}
 			<aside id="TOC" itemtype="https://schema.org/SiteNavigationElement">
 				{{ content | toc_only }}
@@ -57,6 +58,8 @@ layout: default
 				<blockquote itemprop="abstract">{{ page.abstract | markdownify }}</blockquote>
 			</aside>
 		{% endif %}
+		</div>
+
 	  {% include anchor_headings.html html=content anchorBody="" beforeHeading=false generateId=true %}
   </div>
 

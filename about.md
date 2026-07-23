@@ -17,6 +17,7 @@ date: 2022-09-11
 
 # Outsider Art, Hypertext, Kitsch
 
+[What is this website?]{.marginnote}
 Computers are not here to stay. Neither are capitalism, war, poverty, and alienation. But computers will probably be around for long enough that it's worthwhile to learn how to use them. You might have an inclination that makes you good at coding. If you are really interested in computers and programming languages, I think it's worthwhile to learn how they [come into existence](https://www.goodreads.com/review/show/6980398475). You probably already know how to speak in images.
 
 Programming does have not have a direct impact on my writing. My study of the Linux filesystem, and learning how to use development software like vim and git, has been a lot more relevant. If "everything is a file,"[^unix] and if the visual system of the display is malleable, then any document can be transcluded anywhere.

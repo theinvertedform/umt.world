@@ -662,6 +662,10 @@ function constructSidenotes() {
     let markdownBody = document.querySelector("#markdownBody");
     if (!markdownBody) return;
 
+    //  Promote .full-width from pandoc's img attribute to the figure itself.
+    markdownBody.querySelectorAll("figure > img.full-width").forEach(img =>
+        img.closest("figure").classList.add("full-width"));
+
     /*  Add the sidenote columns (removing them first if they already exist).
         */
     if (GW.sidenotes.sidenoteColumnLeft) GW.sidenotes.sidenoteColumnLeft.remove();

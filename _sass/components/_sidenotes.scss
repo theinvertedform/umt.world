@@ -289,3 +289,13 @@
 #markdownBody #sidenote-column-right .sidenote > .sidenote-self-link:hover::before {
     left: -1px;
 }
+
+#markdownBody .marginnote {
+    float: left;
+    clear: left;
+    width: var(--sidenote-width);
+    margin-left: calc(-1 * (var(--sidenote-gap) + var(--sidenote-width)));
+    @include type("sidenote");
+    font-style: italic;
+    text-align: right;
+}

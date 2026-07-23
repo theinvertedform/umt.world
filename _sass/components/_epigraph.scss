@@ -6,6 +6,7 @@
     border: none;
     @include type("body");
     font-size: var(--step--1);
+    display: block;
 }
 
     .epigraph p {
@@ -15,23 +16,22 @@
     .epigraph p:last-child:not(:only-child) {
         margin: var(--space-3xs) 0 0 0;
         text-align: right;
-        /*font-size: 0.75em;*/
-        font-style: normal;
+        //font-style: normal;
     }
 
-    .epigraph::before {
-        display: block;
-        position: absolute;
+    .epigraph > p:first-child::before {
         font-size: var(--step-2);
         content: "\201c";
-        left: var(--space-3xs);
+        margin-right: var(--space-3xs);
+        vertical-align: -0.25em;
     }
 
-    .epigraph::after {
-        display: block;
-        position: absolute;
+    .epigraph > p:only-child::after,
+    .epigraph > p:nth-last-child(2)::after {
         font-size: var(--step-2);
         content: "\201D";
         right: var(--space-3xs);
+        vertical-align: -0.25em;
+        margin-left: var(--space-3xs);
     }
 

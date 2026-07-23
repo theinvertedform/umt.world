@@ -7,8 +7,7 @@ figure {
 
 #markdownBody figure.full-width {
   width: auto;
-  margin-left: calc(50% - 50vw + var(--scrollbar-width, 0px) / 2);
-  margin-right: calc(50% - 50vw + var(--scrollbar-width, 0px) / 2);
+  margin-inline: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
   margin-block: 2em;
 
   img {

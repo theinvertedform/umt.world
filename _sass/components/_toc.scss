@@ -61,11 +61,10 @@
 
 @media(min-width: 901px) {
     #TOC {
-        max-width: 285px;
-        margin: 0 var(--space-m) 0 0;
+        max-width: 25ch;
+        margin: 0 var(--space-s) var(--space-xs) 0;
         float: left;
-        position: relative;
-        box-shadow: -1rem 0 0 0 var(--bg-page), 1.5rem 0 0 0 var(--bg-page);
+        border: 1px solid var(--border-default);
     }
 
     #TOC > ul {

@@ -20,129 +20,6 @@ $utopia-space: (
   "negativeSteps": (0.75, 0.5, 0.25),
 ) !default;
 
-$palette: (
-  "grey": (
-    50: #FFFFF8,
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: #80807C,
-    600: null,
-    700: #555553,
-    800: null,
-    900: null,
-    950: #2A2A29,
- ),
-  "blue-grey": (
-    50: #F8F8FF,
-    100: null,
-    200: #DFDFE5,
-    300: #C6C6CC,
-    400: null,
-    500: null,
-    600: null,
-    700: #4A4A4C,
-    800: null,
-    900: null,
-    950: null,
- ),
-  "red": (
-    100: null,
-    200: null,
-    300: null,
-    400: #8E3B51,
-    500: #AD1C42,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "orange": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: #F1AE51,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "yellow": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: null,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "green": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: #42AD1C,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "blue": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: #1C42AD,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "indigo": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: null,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-  "violet": (
-    100: null,
-    200: null,
-    300: null,
-    400: null,
-    500: #871CAD,
-    600: null,
-    700: null,
-    800: null,
-    900: null,
- ),
-);
-
-$colour-semantics: (
-  surface: var(--grey-50),
-  on-surface: var(--grey-950),
-  surface-variant: var(--blue-grey-50),
-  on-surface-variant: var(--blue-grey-700),
-  surface-variant-hover: var(--blue-grey-200),
-  outline: var(--grey-700),
-  outline-variant: var(--blue-grey-300),
-  link: var(--grey-700),
-  link-hover: var(--grey-500),
-  accent: var(--red-500),
-  accent-muted: var(--red-400),
-);
-
-$colour-semantics-dark: (
-);
-
 $font-stacks: (
   logotype: ("Chandler 42", monospace),
   display: ("LTC Remington Typewriter", monospace),
@@ -167,9 +44,9 @@ $font-semantics: (
 $type-styles: (
   "body":            (family: var(--font-body), step: 0, leading: calc(1ex / 0.29)),
   "sidenote":        (family: var(--font-body), step: -2, leading: calc(1ex / 0.35)),
-  "logotype":        (family: var(--font-logotype), weight: 300, leading: 1),
-  "nav-link":        (family: var(--font-display), leading: 1.35, transform: uppercase),
-  "title":           (family: var(--font-display), step: 4, leading: 1.1, transform: uppercase),
+  "logotype":        (family: var(--font-logotype), step: 2, weight: 300, leading: 1),
+  "nav-link":        (family: var(--font-display), step: -2, leading: 1.35, transform: uppercase),
+  "title":           (family: var(--font-display), step: 3, leading: 1.1, transform: uppercase),
   "heading-index":   (family: var(--font-display), step: 2, leading: 1.15, transform: lowercase, caps: small-caps),
   "heading-section": (family: var(--font-display), weight: 700, step: 2, leading: 1.15),
   "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: uppercase, caps: small-caps),
@@ -194,26 +71,22 @@ $layout: (
   }
 }
 
-@mixin emit-palette($palette) {
-  @each $hue, $stops in $palette {
-    @include emit($hue, $stops);
-  }
-}
-
 :root {
   @include utopia.generateTypeScale(map.merge($utopia-type, (prefix: "step-")));
   @include utopia.generateSpaceScale(map.merge($utopia-space, (prefix: "space")));
-  @include emit-palette($palette);
-  @include emit("colour", $colour-semantics);
   @include emit("font-stack", $font-stacks);
   @include emit("font", $font-semantics);
   @include emit("measure", $layout);
+
+  --sidenote-gap: 64px;
+  --sidenote-width: min(
+    calc(50vw - (var(--body-width, 75ch) / 2 + 96px)),
+    var(--measure-column)
+  );
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    @include emit("colour", $colour-semantics-dark);
-
     @each $name, $stack in $font-stacks {
     --font-stack-#{$name}: #{meta.inspect($stack)};
     }

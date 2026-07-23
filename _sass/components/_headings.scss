@@ -7,6 +7,12 @@ h1.title {
     em { font-style: italic; }
 }
 
+section.level1 > h1,
+section.level2 > h2,
+article.level2 > h2 {
+    display: flow-root;
+}
+
 section.level1 > h1 {
     border-bottom: 1px solid var(--border-default);
     text-align: right;

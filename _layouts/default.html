@@ -25,11 +25,9 @@
 
         <!-- Stylesheets. -->
 		<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-		<link rel="stylesheet" href="{{ "/assets/css/lightbox.css" | relative_url }}">
 		<link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
 
 		<!-- Preload fonts -->
-
 		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf" as="font" type="font/otf" crossorigin>
 		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf" as="font" type="font/otf" crossorigin>
 		<link rel="preload" href="/assets/fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro.otf" as="font" type="font/otf" crossorigin>
@@ -48,17 +46,13 @@
 	{% endif %}
 		<main>
         <nav id="sidebar">
-			<!--<a id="logo" href="/index"><img src="/assets/images/logo-american_typewriter.svg" title="umt.world logotype (American Typewriter)."/></a>-->
-			<a id="logo" href="/index"><span id="logotype">umt</span></a>
+			<a id="logo" href="/index"><span id="logotype">umt.</span></a>
 			<div class="sidebar-links">
-            	<a class="website" href="/about" title="Philosophy, design, and aspirations of this website.">Website</a>
-            	<a class="author" href="/links" title="Biography, personality, interests, contact.">Author</a>
-            	<a class="changelog"  href="/changes" title="Chronological log of alterations and additions to the website.">Changes</a>
-            	<a class="subscribe" href="https://news.umt.world" title="The culture diary of an artworld outsider.">Subscribe</a>
-				{% if page.title != 'Index' %}
+            	<a class="website" href="/about" title="Philosophy, design, and aspirations of this website.">Site</a>
+            	<a class="author" href="/links" title="Biography, personality, interests, contact.">Me</a>
+            	<a class="changelog" href="/changes" title="Chronological log of alterations and additions to the website.">New</a>
             	<a class="patreon" href="https://patreon.com/umtworld" title="If you like this website, you can pay to keep it running.">Patreon</a>
-				{% endif %}
-				<!--<a href="/photos">Photos</a>-->
+            	<a class="subscribe" href="https://news.umt.world" title="The culture diary of an artworld outsider.">Newsletter</a>
 			</div>
         </nav>
 
@@ -67,13 +61,11 @@
 		<footer>
 		<img class="end-ornament" src="/assets/images/arabesque.svg">
 		<blockquote class="epitaph">You write because you have to.</blockquote>
-		<span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Anonymous Feedback</a></span>
+		<span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Feedback</a></span>
 		<a id="footer-logo" href="/index"><img src="/assets/images/logo-chandler_lite-reversed.svg" title="umt.world logotype (American Typewriter)."/></a>
 		</footer>
 
 		</main>
-
-		<script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 
 		<!-- Google Analytics -->
 		{% if site.google_analytics and jekyll.environment == 'production' %}

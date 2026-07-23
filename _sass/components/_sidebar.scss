@@ -11,17 +11,9 @@
 }
 
     #sidebar a#logo {
-        @include link-style(
-          $border-width: 1px,
-          $border-style: dotted,
-          $border-color: var(--border-subtle),
-          $link-color: inherit
-          );
-        @include link-border-style($border-color: var(--border-subtle), $border-style: dotted);
-        margin: 1px;
         padding: var(--space-3xs) var(--space-2xs);
         align-content: center;
-        @include link-hover-style;
+        border: none;
     }
 
     #logo img {
@@ -40,6 +32,8 @@
         flex: 1 1 100%;
         display: flex;
         flex-flow: row wrap;
+        align-content: flex-start;
+        align-items: flex-start;
     }
 
     #sidebar a {
@@ -51,7 +45,6 @@
     #sidebar .sidebar-links a {
         flex: 1 1 33%;
         padding: var(--space-3xs) var(--space-2xs);
-        align-content: center;
         @include link-style(
           $border-width: 1px,
           $border-style: dotted,
@@ -102,26 +95,37 @@
     }
 
 @media (min-width: 650px) {
-  #sidebar {
+  #sidebar a#logo {
+    border: none;
+    top: 0;
+    bottom: auto;
+    @include type("nav-link");
   }
 
+  #sidebar span#logotype {
+    display: inline;
+    line-height: 0;
+  }
   #sidebar .sidebar-links a {
-      text-transform: uppercase;
-      font-weight: 600;
-      flex: 1 1 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    flex: 1 1 auto;
   }
 }
 
 @media (min-width: 1180px) {
-    #sidebar a#logo {
-        border: none;
-        position: absolute;
-        right: calc(100% + var(--space-3xs));
-        top: 0;
-        bottom: 0;
-    }
+  #sidebar a#logo {
+    border: none;
+    position: absolute;
+    right: calc(100% + var(--space-3xs));
+    top: 0;
+    bottom: auto;
+    @include type("nav-link");
+    padding: var(--space-3xs) 0;
+  }
 
-    #sidebar #logo img {
-        width: var(--space-l);
-    }
+  #sidebar span#logotype {
+    display: inline;
+    line-height: 0;
+  }
 }

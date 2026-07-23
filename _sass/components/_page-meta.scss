@@ -23,13 +23,23 @@ span.page-status {
     font-style: italic;
 }
 
+.front-matter {
+  //display: flow-root;
+  color: var(--text-secondary);
+  //padding: var(--space-xs);
+  @include type("meta");
+}
+
 .abstract blockquote {
-    margin: 0 0 var(--space-xs) 0;
-    padding-top: var(--space-xs);
-    border: 1px solid var(--border-default);
-    background-color: var(--bg-raised);
-    color: var(--text-secondary);
-    @include type("meta");
-    em { font-style: italic; }
-    strong { font-weight: 700; }
+  display: block;
+  margin: 0;
+  padding: var(--space-xs);
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-default);
+  background-color: var(--bg-raised);
+  @include type("meta");
+  em { font-style: italic; }
+  strong { font-weight: 700; }
 }
