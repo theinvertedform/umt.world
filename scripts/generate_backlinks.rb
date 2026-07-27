@@ -106,16 +106,19 @@ class BacklinksGenerator
       source_url = '/' + source_url unless source_url.start_with?('/')
 
       # Get page title
-      title = doc.at_css('title')&.text || source_url
-      title = title.sub(' - umt.world', '') # Remove site name
+      title = (doc.at_css('title')&.text || source_url).gsub(/\s+/, ' ').strip
+      title = title.sub(/ - umt\.world\z/, '')
 
       # Find all internal links with IDs
-      doc.css('a[href^="/"][id]').each do |link|
+      doc.css('a[href^="/"][id^="link-"]').each do |link|
         # Skip if link is in an excluded element
         next if in_excluded_element?(link)
 
         # Get target URL (remove fragments and query params)
         target_url = link['href'].split('#')[0].split('?')[0]
+        next if target_url =~ /\.(pdf|jpe?g|png|gif|svg|webp|mp3|mp4|zip)$/i
+        next if @excluded_backlink_pages.include?(target_url)
+        next if target_url == source_url
 
         # Extract context
         context = extract_context(link)

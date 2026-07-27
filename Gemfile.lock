@@ -117,7 +117,6 @@ DEPENDENCIES
   base64
   bigdecimal
   csv
-  http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3)
   jekyll-feed (~> 0.12)
   jekyll-github-metadata
@@ -132,7 +131,6 @@ DEPENDENCIES
   rake (~> 13.2)
   tzinfo (~> 1.2)
   tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.8)
 
 BUNDLED WITH

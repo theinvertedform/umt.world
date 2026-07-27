@@ -13,7 +13,7 @@
     @include type("description");
 }
 
-div#link-tags {
+div#page-tags {
     margin: var(--space-3xs) 0;
     text-align: center;
     @include type("meta");
