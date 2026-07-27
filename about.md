@@ -51,7 +51,7 @@ On this website, you will find drafts, fragments, notes, revisions, photographs,
 What I learned from studying Linux and understanding how filesystems work is similar to what Walter Benjamin was trying to do with the *Arcades* project. It's also similar to what Niklas Luhmann did with his Zettelkasten. I am trying to make art and critique out of the organization of information.
 
 1. URL Schema
-[Cosma's website](http://bactra.org/) has many pages, but the URLs are all quite schematic. To my mind, they clash with what we expect from websites nowadays. Incongruous URLs produce a certain effect, but I like Gwern's approach of single-word URLs. Social media was not a concern for older Web pioneers. Now we must prioritize short, stable, "cool" URLs.
+	[Cosma's website](http://bactra.org/) has many pages, but the URLs are all quite schematic. To my mind, they clash with what we expect from websites nowadays. Incongruous URLs produce a certain effect, but I like Gwern's approach of single-word URLs. Social media was not a concern for older Web pioneers. Now we must prioritize short, stable, "cool" URLs.
 
 2. Page Structure
 One of the classic things that hypertext theorists love to talk about is linking. In many examples of early hypertextual works, made when monitors were much more primitive than today, pages were designed for a single viewport. In contrast to this, another version of the website is based on "long" pages, like a scroll. The idea is to create anchored sections that can be linked. Sub-sectioning can be challenging to pull off if the goal is "literary," but there is a precedent for it in works of Contemporary literature (like *A Thousand Plateaus*, by Gilles Deleuze and Felix Guattari; or *Flights* by Olga Tokarczuk). Linking makes the website a real work of art.
@@ -78,4 +78,3 @@ I would take Paris in the 19th century, I would take New York in the 20th. I wou
 We were both already born into this slipstream moment. *Let's go on*.[^beckett] I'm going to try to figure out what exactly is going on in the world, if not just so that I can get my bearings.
 
 [^beckett]: Must go on. Can't go on. I'll go on.
-

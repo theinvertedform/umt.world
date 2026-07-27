@@ -50,12 +50,12 @@ layout: home
 </li>
 <li>
 <a href="/culture/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
-</li>
 <ul>
 <li>
 <a href="/commentary-on-light">*Commentary*</a>
 </li>
 </ul>
+</li>
 <li>
 <a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
 </li>
@@ -79,7 +79,7 @@ layout: home
 <hr class="index-section-ornament" >
 
 <section id="books" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">The Mile End Review of Books</a></h1>
+<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">Mile End Review of Books</a></h1>
 <ul class="section-link-list">
 {% for post in site.books reversed limit: 10 %}
 <li>
@@ -139,7 +139,7 @@ layout: home
 
 <!--
 <section id="stories">
-<h1 class="index-heading" id="stories"><a href="/index#stories">Tales of the Turbo Age</a></h1>
+<h1 class="index-heading" id="stories"><a href="/index#stories" title="Fiction, although the distinction is not clean on this website.">Tales from Beneath Language</a></h1>
 <ul class="section-link-list">
 {% for post in site.stories reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
