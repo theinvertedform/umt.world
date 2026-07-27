@@ -1,6 +1,6 @@
 ---
 title: Index
-abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, which includes criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
+abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, including criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
 
 
 For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](https://news.umt.world) to receive updates in your inbox. The index below contains [critical writing](/index#culture), [book reviews](/index#books) and craft essays, and [interviews](/index#interviews) on philosophy and politics. There is a secret narrative hidden in the [margins](/diaries)."
