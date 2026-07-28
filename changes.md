@@ -14,42 +14,38 @@ tags:
 {% assign postsByYear = site.documents | sort:"date" | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 {% for year in postsByYear reversed %}
-<section id="{{ year.name }}" class="level1">
-  <h1 class="heading" id="{{ year.name }}">
+<section id="{{ year.name }}" class="level2">
+  <h2 class="heading">
   <a href="#{{ year.name }}">{{ year.name }}</a>
-  </h1>
-
+  </h2>
 {% assign postsByMonth = year.items | sort:"date" | group_by_exp:"post", "post.date | date: '%B'" %}
 
 {% for month in postsByMonth reversed %}
-<section id="{{ year.name }}-{{ month.name | date: '%m' }}" class="level2">
-  <h2 class="heading" id="{{ year.name }}-{{ month.name | date: '%m' }}">
-  <a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a> </h2>
-
+<section id="{{ year.name }}-{{ month.name | date: '%m' }}" class="level3">
+  <h3 class="heading">
+  <a href="#{{ year.name }}-{{ month.name | date: '%m' }}">{{ month.name | date: '%B' }}</a> </h3>
   <ul>
 {% for post in month.items reversed %}
 {% if post.collection == "diary" %}
-  <li id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+  <li id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}-{{ post.slug }}">
   <a href="/{{ post.collection }}">Diary</a> &mdash; <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} &mdash; <span class="post-description">{{ post.description }}</span> &mdash; {% endif %} Published on <time class="post-date" itemprop="datePublished">{{ post.date | date: "%A, %B %d, %Y" }}</time>{% if post.last_modified %}; last modified <time class="post-date" itemprop="dateModified">{{ post.last_modified | date: "%b %-d, %Y"}}</time>{% else %}.{% endif %}
   </li>
 {% else %}
-  <li id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}">
+  <li id="{{ year.name }}-{{ month.name | date: '%m' }}-{{ post.date | date: '%d' }}-{{ post.slug }}">
   <a href="/{{ post.collection }}">{{ post.collection | capitalize }}</a> &mdash; <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} &mdash; <span class="post-description">{{ post.description }}</span> &mdash; {% endif %} Published on <time class="post-date" itemprop="datePublished">{{ post.date | date: "%A, %B %d, %Y" }}</time>{% if post.modified %}; last modified <time class="post-date" itemprop="dateModified">{{ post.modified | date: "%b %-d, %Y"}}</time>.{% else %}.{% endif %}
+  </li>
 {% endif %}
-</li>
 {% endfor %}
   </ul>
-
 {% assign month_num = month.name | date: '%m' %}
 {% assign month_key = year.name | append: '-' | append: month_num %}
 {% if site.data.git_stats[month_key] %}
-<li class="git-summary">
+<p class="git-summary">
   {{ site.data.git_stats[month_key].commit_count }} commits,
   +{{ site.data.git_stats[month_key].insertions }} lines,
   -{{ site.data.git_stats[month_key].deletions }} lines.
-</li>
+</p>
 {% endif %}
-
 </section>
 {% endfor %}
 </section>

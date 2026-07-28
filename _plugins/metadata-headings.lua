@@ -4,19 +4,10 @@
 
 -- Track if we've seen these elements in the document
 local has_citations = false
-local has_footnotes = false
-local has_backlinks = false  -- Placeholder for future functionality
-local has_similar_links = false  -- Placeholder for future functionality
 
 -- Check for citations in the document
 function Cite(el)
   has_citations = true
-  return el
-end
-
--- Check for footnotes in the document
-function Note(el)
-  has_footnotes = true
   return el
 end
 
@@ -25,7 +16,6 @@ local function find_section_by_id(blocks, id)
   for i, block in ipairs(blocks) do
     -- Check for both Div and RawBlock for maximum compatibility
     if (block.t == "Div" and block.identifier == id) or
-       (block.t == "Section" and block.identifier == id) or
        (block.t == "RawBlock" and block.format == "html" and block.text:match('<section[^>]*id="' .. id .. '"[^>]*>')) then
       return i
     end
@@ -52,7 +42,6 @@ function Pandoc(doc)
   local section_positions = {}
 
   -- Find all the sections in the document
-  local footnotes_pos = find_section_by_id(doc.blocks, "footnotes")
   local refs_pos = find_section_by_id(doc.blocks, "refs")
   local level = min_header_level(doc.blocks)
 

@@ -38,6 +38,7 @@ pandoc:
     - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
+    - shift-heading-level-by: "1"
 
 # Collections
 collections_dir: "collections/"

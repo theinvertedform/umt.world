@@ -14,10 +14,10 @@ toc: true
 
 {% for post in site.culture reversed %}
 {% if post.category contains "total cinema" %}
-<section class="blog-post e-content level1" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/total-cinema#{{ post.slug }}">
-<h1 id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+<section class="blog-post e-content level2" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/total-cinema#{{ post.slug }}">
+<h2 id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
 	<a href="#{{ post.slug }}">{{ post.title }}</a>
-</h1>
+</h2>
 
 <span itemprop="articleBody">
 {{ post.content }}

@@ -2,15 +2,18 @@ plugins:
   - jekyll-pandoc
   - jekyll-redirect-from
 
+cache_dir: .jekyll-cache-dev
+
 pandoc:
   format: html5
   extensions:
-    - csl: "assets/csl/chicago-fullnote-bibliography.csl"
-    - bibliography: "collections/bibliography.bib"
-    - citeproc
-    - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
+   # - csl: "assets/csl/chicago-fullnote-bibliography.csl"
+   # - bibliography: "collections/bibliography.bib"
+   # - citeproc
+    - lua-filter: "_plugins/metadata-headings.lua"
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
+    - shift-heading-level-by: "1"
 
 exclude:
   - .sass-cache/

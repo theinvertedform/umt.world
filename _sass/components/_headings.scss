@@ -1,29 +1,17 @@
 @use "../mixins" as *;
 
-h1.title {
-    text-align: center;
-    border-bottom: none;
-    @include type("title");
-    em { font-style: italic; }
-}
-
-section.level1 > h1,
-section.level2 > h2,
-article.level2 > h2 {
+section.level2 > h2 {
     display: flow-root;
-}
-
-section.level1 > h1 {
     border-bottom: 1px solid var(--border-default);
     text-align: right;
     padding: 0;
     margin: var(--space-xs) 0em;
     position: relative;
     @include type("heading-section");
-      a { border-bottom: none; }
+    a { border-bottom: none; }
 }
 
-section.level1 hr {
+section.level2 > hr {
     overflow: visible;
     height: 30px;
     border-style: solid;
@@ -34,7 +22,7 @@ section.level1 hr {
     padding: 0;
 }
 
-section.level1 hr:before {
+section.level2 > hr:before {
     display: block;
     content: "";
     height: 30px;
@@ -45,50 +33,9 @@ section.level1 hr:before {
     border-radius: 20px;
 }
 
-section.level2 hr,
-article.level2 hr {
-    border-style: none;
-    border-width: 0;
-    border-radius: 0;
-    margin: 0.5em 0 0 0;
-    padding: 0;
-}
-
-section.level2 hr:before,
-article.level2 hr:before {
-    display: block;
-    content: "\01F7BB \01F7BE \01F7BB";
-    text-align: center;
-    height: 0;
-    margin-top: 0;
-    border-style: none;
-    border-width: 0;
-    border-radius: 0;
-}
-
-#markdownBody section > h1 a::after {
-    right: unset;
-    left: 0;
-}
-
-h1 a::after:not(diary) {
-    content: "\00B6";
-    font-size: 0.75em;
-    position: absolute;
-    color: var(--colour-link-hover);
-    text-decoration: none;
-    bottom: 0.15em;
-    right: 0;
-    opacity: 0.5;
-}
-
-h1 a::after {
-    right: unset;
-    left: 0;
-}
-
-section.level2 > h2,
-article.level2 > h2 {
+section.level3 > h3,
+article.level3 > h3 {
+    display: flow-root;
     border-bottom: 1px dotted var(--border-default);
     text-align: left;
     position: relative;
@@ -99,7 +46,28 @@ article.level2 > h2 {
     em { font: inherit; }
 }
 
-h2 a::after {
+section.level3 > hr,
+article.level3 > hr {
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+    margin: 0.5em 0 0 0;
+    padding: 0;
+}
+
+section.level3 > hr:before,
+article.level3 > hr:before {
+    display: block;
+    content: "\01F7BB \01F7BE \01F7BB";
+    text-align: center;
+    height: 0;
+    margin-top: 0;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0;
+}
+
+h3 a::after {
     content: "\00B6";
     @include type("heading-sub");
     position: absolute;
@@ -110,6 +78,6 @@ h2 a::after {
     opacity: 0.5;
 }
 
-h1 a, h2 a {
+h2 a, h3 a {
     @include link-style($border-color: none);
-    }
+}
