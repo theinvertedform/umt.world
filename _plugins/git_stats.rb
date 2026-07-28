@@ -4,7 +4,7 @@ module Jekyll
       site.data['git_stats'] = {}
 
       # Get commits by month with stats
-      commits = `git log --pretty=format:"%ad" --date=format:"%Y-%m" --shortstat`
+      commits = `git -C collections log --pretty=format:"%ad" --date=format:"%Y-%m" --no-merges --shortstat`
 
       current_month = nil
 

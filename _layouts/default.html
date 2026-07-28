@@ -37,7 +37,7 @@
 
         <!-- Metadata. -->
         <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
-        <meta name="description" content="Personal website of Uriah Marc Todoroff.">
+		<meta name="description" content="{{ page.description | default: site.description | markdownify | strip_html | strip_newlines }}">
 
     </head>
 	{% if page.title == 'Index' %}

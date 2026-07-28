@@ -49,7 +49,6 @@ layout: default
 		<div class="front-matter">
 		{% if page.toc %}
 			<aside id="TOC" itemtype="https://schema.org/SiteNavigationElement">
-				{{ content | toc_only }}
 			</aside>
 		{% endif %}
 
@@ -60,7 +59,8 @@ layout: default
 		{% endif %}
 		</div>
 
-	  {% include anchor_headings.html html=content anchorBody="" beforeHeading=false generateId=true %}
+		{{ content }}
+
   </div>
 
   <section id="backlinks" class="post-backlinks">

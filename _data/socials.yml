@@ -1,9 +1,6 @@
 - name: Instagram
   url: https://instagram.com/umt.world
   icon: instagram
-- name: Github
-  url: https://github.com/theinvertedform
-  icon: github
 - name: Xitter
   url: https://x.com/theinvertedform
   icon: x
@@ -13,12 +10,15 @@
 - name: Goodreads
   url: https://www.goodreads.com/user/show/122256622
   icon: goodreads
-- name: E-mail
-  url: mailto:umt@umt.world
-  icon: mail
+- name: Github
+  url: https://github.com/theinvertedform
+  icon: github
 - name: Reddit
   url: https://www.reddit.com/u/theinvertedform
   icon: reddit
 - name: Last.fm
   url: https://www.last.fm/user/aeymxq
   icon: lastdotfm
+- name: E-mail
+  url: mailto:umt@umt.world
+  icon: mail

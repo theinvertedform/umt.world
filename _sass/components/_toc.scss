@@ -33,7 +33,7 @@
     @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
 }
 
-.section-nav > ul {
+li > ul {
     counter-reset: htoc_1;
     list-style-type: none;
 }

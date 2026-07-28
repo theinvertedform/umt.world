@@ -2,11 +2,6 @@
 -- Filter that adds section headings for Footnotes, Backlinks, Similar Links, and Bibliography
 -- when these elements are present in the document
 
--- Skip in development
-if os.getenv("JEKYLL_ENV") ~= "production" then
-  return {}
-end
-
 -- Track if we've seen these elements in the document
 local has_citations = false
 local has_footnotes = false
@@ -38,6 +33,19 @@ local function find_section_by_id(blocks, id)
   return nil
 end
 
+-- Lowest heading level used in the document; 1 if there are none
+local function min_header_level(blocks)
+  local level = nil
+  for _, block in ipairs(blocks) do
+    if block.t == "Header" then
+      if level == nil or block.level < level then
+        level = block.level
+      end
+    end
+  end
+  return level or 1
+end
+
 -- Process the document after all other filters
 function Pandoc(doc)
   -- Keep track of which sections were found and where they are
@@ -46,22 +54,14 @@ function Pandoc(doc)
   -- Find all the sections in the document
   local footnotes_pos = find_section_by_id(doc.blocks, "footnotes")
   local refs_pos = find_section_by_id(doc.blocks, "refs")
-
-  -- Only proceed with sections that exist and need headers
-  if has_footnotes and footnotes_pos then
-    table.insert(section_positions, {
-      pos = footnotes_pos,
-      header = pandoc.Header(1, "Footnotes"),
-      id = "footnotes"
-    })
-  end
+  local level = min_header_level(doc.blocks)
 
   -- Placeholders for backlinks and similar links (for future implementation)
 
   if has_citations and refs_pos then
     table.insert(section_positions, {
       pos = refs_pos,
-      header = pandoc.Header(1, "Bibliography"),
+      header = pandoc.Header(level, "Bibliography"),
       id = "bibliography"
     })
   end

@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# ~/.local/share/bin/generate_backlinks.rb
 # A standalone script to generate backlinks for a Jekyll site
 
 require 'nokogiri'

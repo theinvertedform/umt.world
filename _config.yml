@@ -19,14 +19,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-toc
   - jekyll-pandoc
   - jekyll-redirect-from
   - jekyll-last-modified-at
   - jekyll-github-metadata
-
-toc:
-  ordered_list: false
 
 last-modified-at:
   date-format: "%b %-d, %Y"
@@ -78,10 +74,6 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
-  - scope:
-      path: ""
-    values:
       layout: "post"
   - scope:
       path: "_personal/diary"
@@ -94,15 +86,10 @@ google_analytics: G-5NHX2XP9H3
 backlinks:
   excluded_backlink_pages:
     - "index.html"
-    - "index"
     - "/index"
     - "changes.html"
     - "404.html"
-    - "feed.xml"
-    - "sitemap.xml"
-    - "robots.txt"
     - "tags.html"
-    - "tags"
     - "/tags"
   excluded_id_elements:
     - "#sidebar"
@@ -137,7 +124,7 @@ exclude:
   - collections/pdfs
   - collections/notes
   - collections/publications
-  - collections/_fiction/
+  - _fiction/
   - collections/.gitignore
   - collections/.git
   - _culture/film-diary/

@@ -7,7 +7,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-toc"
   gem 'jekyll-redirect-from'
   gem 'jekyll-last-modified-at'
   gem "jekyll-pandoc"
