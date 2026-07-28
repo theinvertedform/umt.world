@@ -17,11 +17,6 @@ group :jekyll_plugins do
   gem 'nokogiri'
 end
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
-
 gem "webrick", "~> 1.8"
 
 gem "rake", "~> 13.2"
