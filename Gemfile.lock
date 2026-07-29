@@ -59,8 +59,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
-    jekyll-seo-tag (2.8.0)
-      jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
@@ -121,7 +119,6 @@ DEPENDENCIES
   jekyll-pandoc
   jekyll-redirect-from
   jekyll-sass-converter (~> 3.0)
-  jekyll-seo-tag
   jekyll-sitemap
   nokogiri
   rake (~> 13.2)

@@ -3,7 +3,7 @@ title: Index
 abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, including criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
 
 
-For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](https://news.umt.world) to receive updates in your inbox. The index below contains [critical writing](/index#culture), [book reviews](/index#books) and craft essays, and [interviews](/index#interviews) on philosophy and politics. There is a secret narrative hidden in the [margins](/diaries)."
+For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](https://news.umt.world) to receive updates in your inbox. The index below contains [critical writing](/#culture), [book reviews](/#books) and craft essays, and [interviews](/#interviews) on philosophy and politics. There is a secret narrative hidden in the [margins](/diaries)."
 layout: home
 ---
 
@@ -79,7 +79,7 @@ layout: home
 <hr class="index-section-ornament" >
 
 <section id="books" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#books" title="The umt.world Review of Books">Mile End Review of Books</a></h1>
+<h1 class="index-heading"><a href="/#books" title="The umt.world Review of Books">Mile End Review of Books</a></h1>
 <ul class="section-link-list">
 {% for post in site.books reversed limit: 10 %}
 <li>
@@ -92,7 +92,7 @@ layout: home
 </section>
 
 <section id="culture" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#culture" title="Writing on all cultural objects that are not books.">Margins of Culture</a></h1>
+<h1 class="index-heading"><a href="/#culture" title="Writing on all cultural objects that are not books.">Margins of Culture</a></h1>
 <ul class="section-link-list">
 {% for post in site.culture reversed %}
 {% unless post.categories contains "total cinema" %}
@@ -125,7 +125,7 @@ layout: home
 {% endif %}
 
 <section id="interviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/index#interviews" title="Interviews conducted by me, and of me.">In Conversation</a></h1>
+<h1 class="index-heading"><a href="/#interviews" title="Interviews conducted by me, and of me.">In Conversation</a></h1>
 <ul class="section-link-list">
 {% for post in site.interviews reversed limit: 10 %}
 <li>
@@ -139,7 +139,7 @@ layout: home
 
 <!--
 <section id="stories">
-<h1 class="index-heading" id="stories"><a href="/index#stories" title="Fiction, although the distinction is not clean on this website.">Tales from Beneath Language</a></h1>
+<h1 class="index-heading" id="stories"><a href="/#stories" title="Fiction, although the distinction is not clean on this website.">Tales from Beneath Language</a></h1>
 <ul class="section-link-list">
 {% for post in site.stories reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>

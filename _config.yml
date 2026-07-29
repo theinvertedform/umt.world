@@ -18,7 +18,6 @@ repository: theinvertedform/umt.world
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-pandoc
   - jekyll-redirect-from
   - jekyll-last-modified-at
@@ -39,6 +38,7 @@ pandoc:
     - from: "markdown+gfm_auto_identifiers"
     - section_divs
     - shift-heading-level-by: "1"
+    - wrap: "none"
 
 # Collections
 collections_dir: "collections/"
@@ -104,9 +104,6 @@ backlinks:
   output_dir: "_data/backlinks"
   debug: true
 
-include:
-  - node_modules
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -114,7 +111,7 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - assets/node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

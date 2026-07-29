@@ -27,6 +27,11 @@
 		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.data.css.digest }}">
 		<link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
 
+		<!-- Canonical URL -->
+		{% assign canon = page.url %}
+		{% if canon == '/index.html' or canon == '/index' or canon == '/' %}{% assign canon = '/' %}{% endif %}
+		<link rel="canonical" href="{{ canon | absolute_url }}">
+
 		<!-- Preload fonts -->
 		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf" as="font" type="font/otf" crossorigin>
 		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf" as="font" type="font/otf" crossorigin>
@@ -48,7 +53,7 @@
 
 		<main>
         <nav id="sidebar">
-			<a id="logo" href="/index"><span id="logotype">umt.</span></a>
+			<a id="logo" href="/"><span id="logotype">umt.</span></a>
 			<div class="sidebar-links">
             	<a class="website" href="/about" title="Philosophy, design, and aspirations of this website.">Site</a>
             	<a class="author" href="/links" title="Biography, personality, interests, contact.">Me</a>
@@ -79,7 +84,7 @@
 		  </ul>
 		</nav>
 
-		<a id="footer-logo" href="/index"><img src="/assets/images/logo-chandler_lite-reversed.svg" title="umt.world logotype (American Typewriter)."/></a>
+		<a id="footer-logo" href="/"><img src="/assets/images/logo-chandler_lite-reversed.svg" title="umt.world logotype (American Typewriter)."/></a>
 		</footer>
 
 		</main>

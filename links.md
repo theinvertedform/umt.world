@@ -64,7 +64,7 @@ I was born on November 17, 1990 in Toronto, Ontario. My father named me Uriah, a
 
 !["I am a part of all living things!"](/assets/images/robo.jpg)
 
-You can [email me]({{ site.author.email }}) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform), or contact me on one of the platforms below (response time will vary).
+You can [email me](mailto:{{ site.author.email }}) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform), or contact me on one of the platforms below (response time will vary).
 
 1. [Twitter](https://twitter.com/theinvertedform)
 4. [Substack](https://umtworld.substack.com)
