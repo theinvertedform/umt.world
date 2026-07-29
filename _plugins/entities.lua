@@ -9,6 +9,7 @@ local PATHS = { agent = "/people#", venue = "/places#" }
 
 local entities = {}   -- key -> {kind, full, short, url}
 local seen     = {}   -- key -> true once mentioned in this document
+local alt_mode = false
 
 local function to_inlines(s)
   local out = {}
@@ -85,19 +86,6 @@ function Cite(elem)
   local e = entities[c.id]
   if not e then return nil end                  -- pass through to citeproc
 
-  local label = clean_suffix(c.suffix)
-  if #label == 0 then
-    label = to_inlines(seen[c.id] and e.short or e.full)
-  end
-  seen[c.id] = true
-
-  -- Print has no /people page to point at; render the name only.
-  if FORMAT:match("latex") or FORMAT:match("docx") then
-    return label
-  end
-
-  local alt_mode = false
-
   -- inside the Cite handler, replacing the label/seen block:
     local label = clean_suffix(c.suffix)
     if #label == 0 then
@@ -106,6 +94,11 @@ function Cite(elem)
     end
     if alt_mode then return label end        -- links in alt are meaningless
     seen[c.id] = true
+
+  -- Print has no /people page to point at; render the name only.
+  if FORMAT:match("latex") or FORMAT:match("docx") then
+    return label
+  end
 
   return pandoc.Link(
     label,
