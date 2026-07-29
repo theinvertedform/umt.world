@@ -33,6 +33,7 @@ pandoc:
   extensions:
     - csl: "assets/csl/chicago-fullnote-bibliography.csl"
     - bibliography: "collections/bibliography.bib"
+    - lua-filter: "_plugins/entities.lua" # this needs to come before citeproc
     - citeproc
     - lua-filter: "_plugins/metadata-headings.lua" # this needs to come after citeproc
     - from: "markdown+gfm_auto_identifiers"
