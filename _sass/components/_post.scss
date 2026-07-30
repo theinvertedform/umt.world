@@ -40,6 +40,10 @@
         text-indent: var(--space-m);
     }
 
+.smallcaps {
+  font-variant: small-caps;
+}
+
 @media (min-width: 901px) {
     article.post {
         margin: 0 auto;

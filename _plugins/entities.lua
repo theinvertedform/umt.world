@@ -23,7 +23,7 @@ local PATHS = { agent = "/people#", venue = "/places#" }
 
 -- Bare @key renders the title inline only for these entry types. Books and
 -- articles keep ordinary author-in-text citation behaviour.
-local WORK_TYPES = { artwork = true, video = true, movie = true, music = true }
+local WORK_TYPES = { artwork = true, video = true, movie = true, music = true, book = true, article = true, inbook = true, incollection = true, inproceedings = true, thesis = true }
 
 local entities    = {}   -- key -> {kind, full, short}
 local works       = {}   -- key -> {full, short}

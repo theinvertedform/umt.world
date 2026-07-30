@@ -18,7 +18,7 @@ date: 2022-09-11
 # Outsider Art, Hypertext, Kitsch
 
 [What is any of this?]{.marginnote}
-Computers are not here to stay. Neither are capitalism, war, poverty, and alienation. But computers will probably be around for long enough that it's worthwhile to learn how to use them. You might have an inclination that makes you good at coding. If you are really interested in computers and programming languages, I think it's worthwhile to learn how they [come into existence](https://www.goodreads.com/review/show/6980398475). You probably already know how to speak in images.
+[Computers are not here to stay]{.smallcaps}. Neither are capitalism, war, poverty, and alienation. But computers will probably be around for long enough that it's worthwhile to learn how to use them. You might have an inclination that makes you good at coding. If you are really interested in computers and programming languages, I think it's worthwhile to learn how they [come into existence](https://www.goodreads.com/review/show/6980398475). You probably already know how to speak in images.
 
 Programming does have not have a direct impact on my writing. My study of the Linux filesystem, and learning how to use development software like vim and git, has been a lot more relevant. If "everything is a file,"[^unix] and if the visual system of the display is malleable, then any document can be transcluded anywhere.
 
@@ -43,7 +43,7 @@ I am always working on this website, editing the text to make it sound better, a
 
 On this website, you will find drafts, fragments, notes, revisions, photographs, and assorted visual material: a collection of rags.[^3]
 
-[^3]: "'Here we have a man whose job it is to gather the day’s refuse in the capital. Everything that the big city has thrown away, everything it has lost, everything it has scorned, everything it has crushed underfoot he catalogues and collects. He collates the annals of intemperance, the capharnaum of waste. He sorts things out and selects judiciously: he collects like a miser like a miser guarding a treasure, refuse which will assume the shape of useful or gratifying objects between the jaws of the goddess of Industry.' This description is one extended metaphor for the poetic method, as Baudelaire practiced it. Ragpicker and poet: both are concerned with refuse." [@benjamin1938, 48]
+[^3]: "'Here we have a man whose job it is to gather the day’s refuse in the capital. Everything that the big city has thrown away, everything it has lost, everything it has scorned, everything it has crushed underfoot he catalogues and collects. He collates the annals of intemperance, the capharnaum of waste. He sorts things out and selects judiciously: he collects like a miser like a miser guarding a treasure, refuse which will assume the shape of useful or gratifying objects between the jaws of the goddess of Industry.' This description is one extended metaphor for the poetic method, as Baudelaire practiced it. Ragpicker and poet: both are concerned with refuse." @benjamin1938, 48
 
 ## Information, Hypertext, Aesthetics
 
@@ -77,6 +77,6 @@ When John Anderton goes on the lam in [@spielberg2002](https://letterboxd.com/th
 
 I would take Paris in the 19th century, I would take New York in the 20th. I would take a hut in a forest so long as there's a lake nearby. A babbling brook to piss into. Instead we get this life mediated by the digital. I'd take anything other than a life without the Internet. Analogue technology is okay: I'll take a computer the size of a room, operated by moving switches on a board. No programming languages. No digital technology.
 
-We were both already born into this slipstream moment. *Let's go on*.[^beckett] I'm going to try to figure out what exactly is going on in the world, if not just so that I can get my bearings.
+We were both already born into this slipstream moment. I'll go on. *Let's go on*.[^beckett] I'm going to try to figure out what exactly is going on in the world, if not just so that I can get my bearings.
 
-[^beckett]: Where now? Who now? When now? Unquestioning. I, say I. Unbelieving. Questions, hypotheses, call them that. Keep going, going on, call that going, call that on. @beckett1958
+[^beckett]: "Where now? Who now? When now? Unquestioning. I, say I. Unbelieving. Questions, hypotheses, call them that. Keep going, going on, call that going, call that on." @beckett1958
