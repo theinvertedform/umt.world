@@ -9,6 +9,8 @@
 -- Works (artwork, video, movie, music) — bibliography.bib, citeproc sees them:
 --   @steyerl2014            author-in-text -> italic title inline
 --   [@steyerl2014]          untouched -> ordinary footnote
+-- Consumed work keys are handed back to citeproc as `nocite` so they still
+-- appear in the bibliography.
 --
 -- Every entity mention carries data-entity for the JSON-LD mentions scan;
 -- only the first is an <a>, so each entity yields one backlink per page.
@@ -23,10 +25,13 @@ local PATHS = { agent = "/people#", venue = "/places#" }
 -- articles keep ordinary author-in-text citation behaviour.
 local WORK_TYPES = { artwork = true, video = true, movie = true, music = true }
 
-local entities = {}   -- key -> {kind, full, short}
-local works    = {}   -- key -> {full, short}
-local seen     = {}   -- key -> true once mentioned in this document
-local alt_mode = false
+local entities    = {}   -- key -> {kind, full, short}
+local works       = {}   -- key -> {full, short}
+local seen        = {}   -- key -> true once mentioned in this document
+local consumed    = {}   -- ordered work keys the filter removed from the AST
+local alt_mode    = false
+-- Entity pages don't exist yet. Set true once /people and /places ship.
+local LINK_ENTITIES = false
 
 local function to_inlines(s)
   local out = {}
@@ -98,12 +103,17 @@ local function load_works()
   local doc = pandoc.read(src, "biblatex")
   for _, ref in ipairs(doc.meta.references or {}) do
     local id = stringify(ref.id)
-    if WORK_TYPES[kinds[id]] and ref.title then
-      works[id] = {
-        full  = stringify(ref.title),
-        short = ref["title-short"] and stringify(ref["title-short"])
-                or stringify(ref.title),
-      }
+    if WORK_TYPES[kinds[id]] then
+      if ref.title then
+        works[id] = {
+          full  = stringify(ref.title),
+          short = ref["title-short"] and stringify(ref["title-short"])
+                  or stringify(ref.title),
+        }
+      else
+        io.stderr:write("entities.lua: " .. id ..
+          " is a work entry with no title field\n")
+      end
     end
   end
 end
@@ -141,8 +151,11 @@ function Cite(elem)
     -- Bracketed work citations belong to citeproc; only bare ones render here.
     local w = works[c.id]
     if not (w and c.mode == "AuthorInText") then return nil end
-    local label = label_for(c, w)
-    if not alt_mode then seen[c.id] = true end
+    local label, first = label_for(c, w)
+    if not alt_mode then
+      if first then consumed[#consumed + 1] = c.id end
+      seen[c.id] = true
+    end
     return pandoc.Emph(label)
   end
 
@@ -158,10 +171,35 @@ function Cite(elem)
   end
 
   local attr = pandoc.Attr("", {}, { ["data-entity"] = e.kind })
-  if first then
+  if first and LINK_ENTITIES then
     return pandoc.Link(label, PATHS[e.kind] .. c.id, "", attr)
   end
   return pandoc.Span(label, attr)
+end
+
+-- Works whose Cite nodes were replaced are invisible to citeproc, so declare
+-- them in nocite to keep them in the bibliography.
+local function add_nocite(doc)
+  if #consumed == 0 then return nil end
+
+  local inlines = {}
+  local existing = doc.meta.nocite
+  if existing then
+    for _, el in ipairs(existing) do inlines[#inlines + 1] = el end
+  end
+  for _, id in ipairs(consumed) do
+    if #inlines > 0 then
+      inlines[#inlines + 1] = pandoc.Str(",")
+      inlines[#inlines + 1] = pandoc.Space()
+    end
+    inlines[#inlines + 1] = pandoc.Cite(
+      { pandoc.Str("@" .. id) },
+      { pandoc.Citation(id, "NormalCitation") }
+    )
+  end
+
+  doc.meta.nocite = pandoc.MetaInlines(inlines)
+  return doc
 end
 
 return {
@@ -173,6 +211,7 @@ return {
       alt_mode = false
       return el, false
     end,
-    Cite = Cite,
+    Cite   = Cite,
+    Pandoc = add_nocite,
   }
 }
