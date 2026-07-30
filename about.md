@@ -47,7 +47,7 @@ On this website, you will find drafts, fragments, notes, revisions, photographs,
 
 ## Information, Hypertext, Aesthetics
 
-What I learned from studying Linux and understanding how filesystems work is similar to what @benjamin was trying to do with the @benjamin1999. It's also similar to what Niklas Luhmann did with his Zettelkasten. I am trying to make art and critique out of the organization of information.
+What I learned from studying Linux and understanding how filesystems work is similar to what @benjamin was trying to do with @benjamin1999. It's also similar to what Niklas Luhmann did with his Zettelkasten. I am trying to make art and critique out of the organization of information.
 
 1. URL Schema
 
@@ -55,7 +55,7 @@ What I learned from studying Linux and understanding how filesystems work is sim
 
 2. Page Structure
 
-	One of the classic things that hypertext theorists love to talk about is linking. In many examples of early hypertextual works, made when monitors were much more primitive than today, pages were designed for a single viewport. In contrast to this, another version of the website is based on "long" pages, like a scroll. The idea is to create anchored sections that can be linked. Sub-sectioning can be challenging to pull off if the goal is "literary," but there is a precedent for it in works of Contemporary literature (like *A Thousand Plateaus*, by Gilles Deleuze and Felix Guattari; or *Flights* by Olga Tokarczuk). Linking makes the website a real work of art.
+	One of the classic things that hypertext theorists love to talk about is linking. In many examples of early hypertextual works, made when monitors were much more primitive than today, pages were designed for a single viewport. In contrast to this, another version of the website is based on "long" pages, like a scroll. The idea is to create anchored sections that can be linked. Sub-sectioning can be challenging to pull off if the goal is "literary," but there is a precedent for it in works of Contemporary literature (like @deleuze1987, by @deleuze and @guattari; or @tokarczuk2017 by @tokarczuk). Linking makes the website a real work of art.
 
 3. Metadata
 
