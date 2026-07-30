@@ -31,7 +31,7 @@ markdown: Pandoc
 pandoc:
   format: html5
   extensions:
-    - csl: "assets/csl/chicago-fullnote-bibliography.csl"
+    - csl: "assets/csl/chicago-notes-bibliography.csl"
     - bibliography: "collections/bibliography.bib"
     - lua-filter: "_plugins/entities.lua" # this needs to come before citeproc
     - citeproc
