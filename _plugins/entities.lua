@@ -211,7 +211,7 @@ return {
       alt_mode = false
       return el, false
     end,
-    Cite   = Cite,
-    Pandoc = add_nocite,
-  }
+    Cite = Cite,
+  },
+  { Pandoc = add_nocite },
 }
