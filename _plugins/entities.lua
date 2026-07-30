@@ -1,20 +1,30 @@
--- entities.lua — resolve @agent / @venue citations to inward entity links.
+-- entities.lua — resolve entity and work citations before citeproc runs.
 -- MUST be placed before --citeproc in the extensions array, so citeproc
--- never sees these Cite nodes and they cannot enter the bibliography.
+-- never sees the entity Cite nodes and they cannot enter the bibliography.
 --
--- Syntax:
+-- Entities (agents, venues) — entities.bib, never passed to --bibliography:
 --   @greig                  first mention -> linked full name; later -> short
 --   [@greig, the artist]    suffix overrides the label
 --
--- Every mention carries data-entity for the JSON-LD mentions scan; only the
--- first is an <a>, so each entity yields one backlink per page.
+-- Works (artwork, video, movie, music) — bibliography.bib, citeproc sees them:
+--   @steyerl2014            author-in-text -> italic title inline
+--   [@steyerl2014]          untouched -> ordinary footnote
+--
+-- Every entity mention carries data-entity for the JSON-LD mentions scan;
+-- only the first is an <a>, so each entity yields one backlink per page.
 
 local stringify = pandoc.utils.stringify
 
 local BIB   = "collections/entities.bib"
+local BIBW  = "collections/bibliography.bib"
 local PATHS = { agent = "/people#", venue = "/places#" }
 
+-- Bare @key renders the title inline only for these entry types. Books and
+-- articles keep ordinary author-in-text citation behaviour.
+local WORK_TYPES = { artwork = true, video = true, movie = true, music = true }
+
 local entities = {}   -- key -> {kind, full, short}
+local works    = {}   -- key -> {full, short}
 local seen     = {}   -- key -> true once mentioned in this document
 local alt_mode = false
 
@@ -27,21 +37,31 @@ local function to_inlines(s)
   return out
 end
 
-local function load_entities()
-  local fh = io.open(BIB, "r")
+local function read_file(path)
+  local fh = io.open(path, "r")
   if not fh then
-    io.stderr:write("entities.lua: cannot read " .. BIB .. "\n")
-    return
+    io.stderr:write("entities.lua: cannot read " .. path .. "\n")
+    return nil
   end
   local src = fh:read("a")
   fh:close()
+  return src
+end
 
-  -- Entry type is discarded by the CSL layer (custom types return empty),
-  -- so read it off the raw source instead.
+-- Entry type is discarded by the CSL layer (custom types return empty),
+-- so read it off the raw source instead.
+local function entry_types(src)
   local kinds = {}
   for t, k in src:gmatch("@(%a+)%s*{%s*([^,%s]+)") do
     kinds[k] = t:lower()
   end
+  return kinds
+end
+
+local function load_entities()
+  local src = read_file(BIB)
+  if not src then return end
+  local kinds = entry_types(src)
 
   local doc = pandoc.read(src, "biblatex")
   for _, ref in ipairs(doc.meta.references or {}) do
@@ -53,8 +73,14 @@ local function load_entities()
         local a      = ref.author[1]
         local family = a.family and stringify(a.family) or ""
         local given  = a.given  and stringify(a.given)  or ""
-        full  = (given ~= "" and (given .. " " .. family)) or family
-        short = (family ~= "" and family) or full
+        if family == "" and given == "" then
+          io.stderr:write("entities.lua: " .. id ..
+            " has an unparsed name; check for double braces on author\n")
+          full, short = id, id
+        else
+          full  = (given ~= "" and (given .. " " .. family)) or family
+          short = (family ~= "" and family) or full
+        end
       else
         full  = ref.title and stringify(ref.title) or id
         short = ref["title-short"] and stringify(ref["title-short"]) or full
@@ -64,7 +90,26 @@ local function load_entities()
   end
 end
 
+local function load_works()
+  local src = read_file(BIBW)
+  if not src then return end
+  local kinds = entry_types(src)
+
+  local doc = pandoc.read(src, "biblatex")
+  for _, ref in ipairs(doc.meta.references or {}) do
+    local id = stringify(ref.id)
+    if WORK_TYPES[kinds[id]] and ref.title then
+      works[id] = {
+        full  = stringify(ref.title),
+        short = ref["title-short"] and stringify(ref["title-short"])
+                or stringify(ref.title),
+      }
+    end
+  end
+end
+
 load_entities()
+load_works()
 
 -- Pandoc hands back the suffix with its leading comma and space attached.
 local function clean_suffix(suffix)
@@ -78,17 +123,30 @@ local function clean_suffix(suffix)
   return out
 end
 
+local function label_for(c, rec)
+  local first = not seen[c.id]
+  local label = clean_suffix(c.suffix)
+  if #label == 0 then
+    label = to_inlines((first or alt_mode) and rec.full or rec.short)
+  end
+  return label, first
+end
+
 function Cite(elem)
   if #elem.citations ~= 1 then return nil end   -- [@a; @b] is a real citation
   local c = elem.citations[1]
   local e = entities[c.id]
-  if not e then return nil end                  -- pass through to citeproc
 
-  local first = not seen[c.id]
-  local label = clean_suffix(c.suffix)
-  if #label == 0 then
-    label = to_inlines((first or alt_mode) and e.full or e.short)
+  if not e then
+    -- Bracketed work citations belong to citeproc; only bare ones render here.
+    local w = works[c.id]
+    if not (w and c.mode == "AuthorInText") then return nil end
+    local label = label_for(c, w)
+    if not alt_mode then seen[c.id] = true end
+    return pandoc.Emph(label)
   end
+
+  local label, first = label_for(c, e)
 
   -- Alt text is plain and never advances first-mention state.
   if alt_mode then return label end
