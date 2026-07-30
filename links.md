@@ -28,7 +28,7 @@ I IX (*1914*)---In complete helplessness wrote barely 2 pages. I have retreated 
 <blockquote class="epigraph" itemprop="citation">
 You adulterate the truth as you write. There isn't any pretense that you try to arrive at the literal truth. And the only consolation when you confess to this flaw is that you are seeking to arrive at poetic truth, which can be reached only through fabrication, imagination, stylization. What I'm striving for is authenticity; none of it is real.
 
---- W. G. Sebald, quoted in [@shields2010, 62]
+--- W. G. Sebald, quoted in @shields2010, 62
 
 </blockquote>
 
@@ -39,7 +39,7 @@ She would like to assemble these multiple images of herself, separate and discor
 
 Even more than this book, the future is the next man who will make her dream, buy new clothes, and wait: for a letter, a phone call, a message on the answering machine.
 
---- Annie Ernaux, *The Years*, translated by Alison L. Strayer
+--- @ernaux2017
 
 </blockquote>
 
@@ -62,16 +62,6 @@ I was born on November 17, 1990 in Toronto, Ontario. My father named me Uriah, a
 
 # Contact
 
-!["I am a part of all living things!"](/assets/images/robo.jpg)
+!["I am a part of all living things!"](/assets/images/robo.jpg){.marginnote}
 
 You can [email me](mailto:{{ site.author.email }}) or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform), or contact me on one of the platforms below (response time will vary).
-
-1. [Twitter](https://twitter.com/theinvertedform)
-4. [Substack](https://umtworld.substack.com)
-2. [Letterboxd](https://letterboxd.com/theinvertedform)
-3. [Instagram](https://instagram.com/umt.world)
-4. [Goodreads](https://www.goodreads.com/user/show/122256622)
-4. [Patreon](https://patreon.com/umtworld)
-3. [Last.fm](https://www.last.fm/user/aeymxq)
-2. [Github](https://github.com/theinvertedform)
-3. [Reddit](https://reddit.com/u/theinvertedform)
