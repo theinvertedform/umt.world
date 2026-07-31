@@ -1,0 +1,59 @@
+@use "sass:map";
+@use "sass:math";
+@use "../settings" as *;
+@use "../mixins" as *;
+
+$dc: map.get($metrics, dropcap);
+$bd: map.get($metrics, body);
+$leading: math.div(map.get($bd, x), $leading-ratio);
+
+// Half-leading offset that puts the float box top on the glyph cap-top.
+$dc-offset: math.div(map.get($dc, cap) - (map.get($dc, asc) - map.get($dc, desc)), 2)
+            + map.get($dc, asc) - map.get($dc, cap);
+
+// Baseline from top of a body line box.
+$baseline: math.div($leading - (map.get($bd, asc) - map.get($bd, desc)), 2) + map.get($bd, asc);
+
+@mixin dropcap($lines: 3) {
+  $ink: ($lines - 1) * $leading + map.get($bd, cap);
+  $fd:  math.div($ink, map.get($dc, cap));
+
+  float: left;
+  font-family: "Chandler 42 Dropcap", var(--font-logotype);
+  font-weight: normal;
+  font-style: normal;
+  font-size: #{$fd}em;
+  line-height: map.get($dc, cap);
+  margin-top:    #{-1 * $dc-offset + math.div($baseline - map.get($bd, cap), $fd)}em;
+  margin-bottom: #{math.div($leading - $baseline, $fd)}em;
+  margin-right: 0.06em;   // optical sidebearing — hand-tuned, not derived
+  margin-left: 0;
+  color: var(--colour-ink, currentColor);
+  -webkit-font-smoothing: antialiased;
+}
+
+#markdownBody .dropcap {
+  @include dropcap(3);
+}
+
+// Optical left overhang. By eye.
+#markdownBody {
+  .dropcap-A, .dropcap-J, .dropcap-T,
+  .dropcap-V, .dropcap-W, .dropcap-Y { margin-left: -0.04em; }
+  .dropcap-O, .dropcap-C, .dropcap-G, .dropcap-Q { margin-left: -0.02em; }
+}
+
+// Never inside quoted or transcluded material.
+#markdownBody blockquote .dropcap,
+#markdownBody .transclusion .dropcap,
+#markdownBody figcaption .dropcap {
+  float: none; font: inherit; margin: 0; color: inherit;
+}
+
+// Below the sidenote breakpoint, stand down.
+@media (max-width: 40rem) {
+  #markdownBody .dropcap {
+    float: none; font: inherit; line-height: inherit;
+    margin: 0; color: inherit;
+  }
+}

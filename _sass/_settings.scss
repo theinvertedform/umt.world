@@ -41,9 +41,18 @@ $font-semantics: (
   code: var(--font-stack-mono),
 );
 
+$leading-ratio: 0.29 !default; // body
+$leading-ratio-ui: 0.35 !default; // meta, sidenote, caption
+
+// Font metrics, /1000 upem. Source: OS/2 + hhea.
+$metrics: (
+  dropcap: (cap: 0.774, asc:  1.407, desc: -0.336),
+  body:    (cap: 0.660, asc:  0.681, desc: -0.285, x: 0.405),
+);
+
 $type-styles: (
-  "body":            (family: var(--font-body), step: 0, leading: calc(1ex / 0.29)),
-  "sidenote":        (family: var(--font-body), step: -2, leading: calc(1ex / 0.35)),
+  "body":            (family: var(--font-body), step: 0, leading: calc(1ex / #{$leading-ratio})),
+  "sidenote":        (family: var(--font-body), step: -2, leading: calc(1ex / #{$leading-ratio-ui})),
   "logotype":        (family: var(--font-logotype), step: 2, weight: 300, leading: 1),
   "nav-link":        (family: var(--font-display), step: -2, leading: 1.35, transform: uppercase),
   "title":           (family: var(--font-display), step: 3, leading: 1.1, transform: uppercase),
@@ -51,9 +60,9 @@ $type-styles: (
   "heading-section": (family: var(--font-display), weight: 700, step: 2, leading: 1.15),
   "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: uppercase, caps: small-caps),
   "heading-minor":   (family: var(--font-display), weight: 700, step: 1, transform: capitalize, caps: small-caps),
-  "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / 0.35), adjust: 0.4),
+  "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / #{$leading-ratio-ui}), adjust: 0.4),
   "toc":             (family: var(--font-ui), step: -2, leading: 1.2, adjust: 0.4),
-  "description":     (family: var(--font-body), style: italic, leading: calc(1ex / 0.29)),
+  "description":     (family: var(--font-body), style: italic, leading: calc(1ex / #{$leading-ratio})),
   "superscript":     (family: var(--font-body), leading: 1),
   "caption":         (family: var(--font-ui), step: -2, leading: 1.35, adjust: 0.4),
 );
