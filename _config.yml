@@ -70,7 +70,7 @@ collections:
     permalink: "/podcast#:title"
   diaries:
     output: false
-    permalink: "/diaries#:date"
+    permalink: "/diaries"
 
 defaults:
   - scope:
