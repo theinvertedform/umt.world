@@ -3,8 +3,10 @@ title: Diaries
 description: "Selections from a diary. Patterns, ideas, gossip, writing notes, shopping lists, daydreams, fantasies."
 abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality."
 toc: true
+toc_max_level: 2
 status: ongoing
 date: 2023-09-01
+dropcap: section
 ---
 
 :::{.epigraph}
@@ -66,7 +68,7 @@ date: 2023-09-01
 <hr>
 {% assign start_date = "2023-12-02" | date: "%s" %}
 {% assign end_date = "2024-02-19" | date: "%s" %}
-{% for post in site.personal %}
+{% for post in site.diaries %}
 {% assign post_date = post.date | date: "%s" %}
 {% if post.category == "diaries" and post_date >= start_date and post_date <= end_date %}
 <article class="level3" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/diaries#{{ post.slug }}">

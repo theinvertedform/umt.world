@@ -23,6 +23,10 @@ module LinkHooks
   HEADINGS = %w[h1 h2 h3 h4 h5 h6].freeze
   HEADING_SELECTOR = HEADINGS.join(',').freeze
 
+  # --- TOC configuration ------------------------------------------------
+
+  TOC_DEFAULT_MAX_LEVEL = 6
+
   # --- dropcap configuration --------------------------------------------
 
   DROPCAP_MODES = %w[opener sections none].freeze
@@ -100,10 +104,11 @@ module LinkHooks
 
     modified = add_footnotes_heading(root, doc)
 
-    # Always walked: this is what mints heading self-links, which have no
-    # relation to the TOC. Returns the section tree for the list below.
-    max_level = (item.site.config.dig('toc', 'max_level') || 6).to_i
-    entries = walk(root, doc, 1, max_level, {})
+    # Always walked, and always to full depth: this is what mints heading
+    # self-links, which have no relation to the TOC. The depth cap belongs to
+    # the rendered list alone — a page that hides its subsections from the TOC
+    # still wants every heading addressable.
+    entries = walk(root, doc, {})
     modified = true unless entries.empty?
 
     container = doc.at_css('#TOC')
@@ -132,7 +137,7 @@ module LinkHooks
     if entries.empty?
       container.remove
     else
-      container.inner_html = render_list(entries, 1)
+      container.inner_html = render_list(entries, 1, toc_max_level(item))
     end
 
     true
@@ -155,9 +160,7 @@ module LinkHooks
 
   # Recursive descent. Pandoc nests <section> by heading level, so the DOM is
   # already the TOC tree — no h_num arithmetic, no flat-list reconstruction.
-  def self.walk(node, doc, depth, max_level, seen)
-    return [] if depth > max_level
-
+  def self.walk(node, doc, seen)
     node.element_children.each_with_object([]) do |el, out|
       next unless el.name == 'section'
       id = el['id']
@@ -183,7 +186,7 @@ module LinkHooks
       out << {
         id: id,
         label: label,
-        children: walk(el, doc, depth + 1, max_level, seen)
+        children: walk(el, doc, seen)
       }
     end
   end
@@ -200,9 +203,38 @@ module LinkHooks
     heading.add_child(a)
   end
 
-  def self.render_list(entries, depth)
+  # Depth cap on the rendered list. Resolution, in order:
+  #
+  #   page.toc_max_level  →  site.toc.max_level  →  TOC_DEFAULT_MAX_LEVEL
+  #
+  # The unit is *nesting depth of the section tree*, not heading level: walk
+  # counts descent, so this key survives a change to shift-heading-level-by.
+  # Same class of invariant as levelN — see ARCHITECTURE §4.5.
+  #
+  # Sibling key, not nested under `toc:`, which is a boolean gate read by
+  # post.html; a mapping there would cost a page the ability to say `false`.
+  def self.toc_max_level(item)
+    raw = item.data['toc_max_level']
+    raw = item.site.config.dig('toc', 'max_level') if raw.nil?
+    return TOC_DEFAULT_MAX_LEVEL if raw.nil?
+
+    level = raw.to_i
+    if level < 1
+      Jekyll.logger.warn "LinkHooks:", "invalid toc_max_level '#{raw}' in #{item.path} — using #{TOC_DEFAULT_MAX_LEVEL}"
+      return TOC_DEFAULT_MAX_LEVEL
+    end
+
+    level
+  end
+
+  def self.render_list(entries, depth, max_level)
     items = entries.map do |e|
-      sub = e[:children].empty? ? '' : render_list(e[:children], depth + 1)
+      sub =
+        if depth >= max_level || e[:children].empty?
+          ''
+        else
+          render_list(e[:children], depth + 1, max_level)
+        end
       %(<li class="toc-entry toc-level-#{depth}"><a href="##{e[:id]}">#{e[:label]}</a>#{sub}</li>)
     end
     cls = depth == 1 ? ' class="section-nav"' : ''
