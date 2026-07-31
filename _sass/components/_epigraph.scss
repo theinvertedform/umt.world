@@ -1,6 +1,6 @@
 @use "../mixins" as *;
 
-.epigraph {
+.epigraph > blockquote {
     padding: var(--space-3xs) var(--space-xs);
     background-color: var(--bg-page);
     border: none;
@@ -9,25 +9,25 @@
     display: block;
 }
 
-    .epigraph p {
+    .epigraph > blockquote p {
         font-style: italic;
     }
 
-    .epigraph p:last-child:not(:only-child) {
+    .epigraph > blockquote p:last-child:not(:only-child) {
         margin: var(--space-3xs) 0 0 0;
         text-align: right;
         //font-style: normal;
     }
 
-    .epigraph > p:first-child::before {
+    .epigraph > blockquote > p:first-child::before {
         font-size: var(--step-2);
         content: "\201c";
         margin-right: var(--space-3xs);
         vertical-align: -0.25em;
     }
 
-    .epigraph > p:only-child::after,
-    .epigraph > p:nth-last-child(2)::after {
+    .epigraph > blockquote > p:only-child::after,
+    .epigraph > blockquote > p:nth-last-child(2)::after {
         font-size: var(--step-2);
         content: "\201D";
         right: var(--space-3xs);
