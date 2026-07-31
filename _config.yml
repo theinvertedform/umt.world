@@ -40,6 +40,7 @@ pandoc:
     - section_divs
     - shift-heading-level-by: "1"
     - wrap: "none"
+    - lua-filter: "_plugins/diary-dates.lua"
 
 # Collections
 collections_dir: "collections/"

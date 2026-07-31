@@ -3,7 +3,7 @@ title: Diaries
 description: "The way to be transgressive is to confuse the boundaries between who you are and who you perform as."
 abstract: "In the ninth grade, my classmates were shocked by the excessive candour of my MySpace blog posts. I published the truth of how I felt without considering the consequences. The diary that I publish today is an ongoing experiment in autofictional narrativization---a story based in memoir; an aestheticized residue of a process of living. Nothing here should be taken as 'true,' but everything is based in reality."
 toc: true
-toc_max_level: 2
+toc_max_level: 1
 status: ongoing
 date: 2023-09-01
 dropcap: section
@@ -24,5 +24,3 @@ dropcap: section
 {{ chapter.content }}
 
 {% endfor %}
-
-
