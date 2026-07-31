@@ -11,6 +11,7 @@ tags:
   - projects
 status: extremely rough
 date: 2022-09-11
+dropcap: sections
 ---
 
 ![@gillette1969](/assets/images/wipe_cycle.jpg)

@@ -15,12 +15,4 @@ dropcap: section
 > [@barbellion1919](https://www.pseudopodium.org/barbellionblog/books.html)
 :::
 
-{% assign date_format = "%b %d %Y" %}
-
-{% assign chapters = site.diaries | sort: 'date' %}
-
-{% for chapter in chapters %}
-
-{{ chapter.content }}
-
-{% endfor %}
+{% concat_collection diaries %}

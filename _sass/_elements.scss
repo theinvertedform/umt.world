@@ -1,4 +1,5 @@
 @use "mixins" as *;
+@use "../settings/light-mode" as *;
 
 html {
     @include type("body");
@@ -19,6 +20,20 @@ a {
     $border-bottom-color: var(--border-default)
     );
   @include link-hover-style;
+  @include solid("blue");
+
+  &:hover {
+  @include tinted("blue");
+  }
+
+  &:active {
+  }
+
+  &:visited {
+  }
+
+  &:focus {
+  }
 }
 
 blockquote {
