@@ -3,7 +3,7 @@ title: Index
 abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, including criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
 
 
-For more about the philosophy of the website, visit the [*About the Website*](/about) page; for more about me and my [contact information](/links#contact), visit the [*About the Author*](/links) page. Subscribe to the [newsletter](https://news.umt.world) to receive updates in your inbox. The index below contains [critical writing](/#culture), [book reviews](/#books) and craft essays, and [interviews](/#interviews) on philosophy and politics. There is a secret narrative hidden in the [margins](/diaries)."
+To learn more about hypertext and the philosophy of this website, read [*About the Website*](/about); for more about me and my relationship to writing, read [*About the Author*](/links). Subscribe to the [newsletter](https://news.umt.world) to get updates sent to you. The index below contains [critical writing](/#culture) about art and film, [book reviews](/#books), fiction, and [interviews](/#interviews) with artists and philosophers. There is a secret narrative threaded through the [margins](/diaries)."
 layout: home
 ---
 
@@ -51,9 +51,6 @@ layout: home
 <li>
 <a href="/culture/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
 <ul>
-<li>
-<a href="/commentary-on-light">*Commentary*</a>
-</li>
 </ul>
 </li>
 <li>
@@ -65,11 +62,11 @@ layout: home
 <section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="/diaries" title="A fictionalized diary.">Diaries</a></h1>
 <ul class="section-link-list">
-{% assign diaries = site.diaries %}
-{% for post in diaries limit: 10 %}
+{% assign chapters = site.diaries | sort: 'date' %}
+{% for chapter in chapters limit: 10 %}
 <li>
-<a href="{{ post.url }}" itemprop="url">
-<span itemprop="name">{{ post.title }}</span>
+<a href="/diaries#{{ chapter.date | date: '%Y-%m-%d' }}ff" itemprop="url">
+<span itemprop="name">{{ chapter.title }}</span>
 </a>
 </li>
 {% endfor %}
