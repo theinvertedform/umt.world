@@ -8,6 +8,9 @@
     padding: var(--space-xs);
     @include type("toc");
     text-align: left;
+    a[href] {
+      --link-underline: none;
+    }
 }
 
 #TOC > ul {
@@ -16,21 +19,6 @@
     column-gap: var(--space-s);
     list-style-type: none;
     padding: 0;
-}
-
-#TOC a {
-  @include link-style($link-color: var(--text-secondary));
-  border-bottom: none;
-
-  &:hover {
-    color: var(--text-primary);
-    background-color: var(--bg-page);
-  }
-}
-
-.section-nav a {
-    @include link-style($border-color: none, $link-color: var(--colour-on-surface-variant));
-    @include link-hover-style($hover-color: var(--colour-surface-variant-hover));
 }
 
 li > ul {

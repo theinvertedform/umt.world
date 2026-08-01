@@ -1,8 +1,7 @@
 @use "../mixins" as *;
+@use "../settings/light-mode" as *;
 
 #markdownBody {
-/*  display: flex;
-    flex-flow: row wrap;*/
     margin: var(--space-xs) auto;
     padding: 0 var(--space-2xs);
     position: relative;
@@ -17,14 +16,7 @@
             list-style-position: outside;
         }
 
-    //#markdownBody #diaries .section-link-list li {
-    //  list-style-type: square;
-    //}
-
     .markdownBody a {
-        @include link-style($link-color: var(--colour-on-surface));
-        @include link-hover-style;
-        /*color: var(--colour-on-surface);*/
         font-variant-numeric: lining-nums;
     }
 

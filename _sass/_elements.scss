@@ -1,10 +1,8 @@
 @use "mixins" as *;
-@use "../settings/light-mode" as *;
+@use "settings/light-mode" as *;
 
 html {
     @include type("body");
-    hyphens: auto;
-    text-align: justify;
 }
 
 body {
@@ -13,28 +11,15 @@ body {
     color: var(--text-primary);
 }
 
-a {
-  @include link-style(
-    $border-bottom-width: 1px,
-    $border-bottom-style: solid,
-    $border-bottom-color: var(--border-default)
-    );
-  @include link-hover-style;
-  @include solid("blue");
-
-  &:hover {
-  @include tinted("blue");
-  }
-
-  &:active {
-  }
-
-  &:visited {
-  }
-
-  &:focus {
-  }
+.markdownBody {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
 }
+
+a[href] { @include link-base; }
+:root { @include link-hue("grey", "grey"); }
 
 blockquote {
     margin: var(--space-s) 0;
@@ -92,16 +77,12 @@ ol {
   }
 
 h1 {
-  @include type("heading-section");
 }
 
 h2 {
-  @include type("heading-sub");
 }
 
 h3 {
-    position: relative;
-    @include type("heading-minor");
 }
 
 form p {

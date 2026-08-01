@@ -1,5 +1,10 @@
 @use "../mixins" as *;
 
+h1.title {
+  @include type("title");
+  text-align: center;
+}
+
 section.level2 > h2 {
     display: flow-root;
     border-bottom: 1px solid var(--border-default);
@@ -79,5 +84,8 @@ h3 a::after {
 }
 
 h2 a, h3 a {
-    @include link-style($border-color: none);
+    //@include link-style($border-color: none);
+      --link-underline: none;
+      --link-wash-hover: none;
+      --link-wash-active: none;
 }

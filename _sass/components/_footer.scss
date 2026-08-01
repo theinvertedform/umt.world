@@ -1,4 +1,5 @@
 @use "../mixins" as *;
+@use "../settings/light-mode" as *;
 
 footer {
     text-align: center;
@@ -8,14 +9,9 @@ footer {
     flex-flow: column;
 }
 
-.feedback a {
-    @include link-style;
-    @include link-hover-style;
-}
-
 .end-ornament {
-    padding: var(--space-s) 0;
-    width: var(--measure-column);
+    padding: var(--space-m) 0;
+    width: var(--measure-prose);
 }
 
 .epitaph {
@@ -67,16 +63,13 @@ footer nav {
 }
 
 #footer-logo {
-        @include link-style($border-width: none);
-        margin: var(--space-m) 0;
+        margin: 0 0 var(--space-m) 0;
         align-content: center;
-        @include link-hover-style;
-    }
+        --link-underline: none;
+        --link-wash-hover: none;
+        --link-wash-active: none;
+      }
 
-    #footer-logo img {
-        width: 75ch;
-        //filter: invert(11%) sepia(6%) saturate(187%) hue-rotate(22deg) brightness(105%) contrast(87%); /* var(--colour-on-surface) */
-        /* filter: invert(98%) sepia(18%) saturate(553%) hue-rotate(346deg) brightness(111%) contrast(105%); */ /* var(--colour-surface) */
+#footer-logo img {
+    width: var(--measure-prose);
 }
-
-

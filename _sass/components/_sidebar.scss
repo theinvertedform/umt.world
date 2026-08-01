@@ -8,12 +8,17 @@
     margin-inline: auto;
     position: relative;
     @include type("nav-link");
+      a[href] {
+        --link-underline: none;
+        --link-wash-hover: none;
+        --link-wash-active: none;
+      }
 }
 
     #sidebar a#logo {
-        padding: var(--space-3xs) var(--space-2xs);
-        align-content: center;
-        border: none;
+      padding: var(--space-3xs) var(--space-2xs);
+      align-content: center;
+      border: none;
     }
 
     #logo img {
@@ -45,12 +50,6 @@
     #sidebar .sidebar-links a {
         flex: 1 1 33%;
         padding: var(--space-3xs) var(--space-2xs);
-        @include link-style(
-          $border-width: 1px,
-          $border-style: dotted,
-          $border-color: var(--border-default),
-          $link-color: inherit
-    );
         @include type("nav-link");
     }
 

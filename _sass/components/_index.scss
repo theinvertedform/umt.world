@@ -10,7 +10,12 @@ h1.index-heading {
     text-align: left;
     padding: 0;
     @include type("heading-index");
-    a { border-bottom: none; }
+    a[href] {
+      --link-underline: none;
+      --link-wash-hover: none;
+      --link-wash-active: none;
+    }
+
     em { font-style: italic; }
 }
 

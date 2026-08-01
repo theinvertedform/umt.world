@@ -1,9 +1,12 @@
 @use "../mixins" as *;
+@use "../settings/light-mode" as *;
 
 #page-metadata {
     margin: 0 0 var(--space-s) 0;
     text-align: center;
     @include type("meta");
+
+    a[href] { @include link-hue("red", "red"); }
 }
 
 #page-description {
