@@ -19,6 +19,7 @@ tags:
   - criticism
 status: ongoing
 toc: true
+published: false
 ---
 
 {% assign categories = site.documents | map: 'category' | uniq | sort_natural %}
@@ -50,7 +51,7 @@ toc: true
 {% endif %}
 <time itemprop="datePublished">
 {%- assign date_format =  "%b %-d, %Y" -%}
-{{ post.date | date: date_format }} {% if post.modified %} &mdash; {{ post.modified | date: date_format }} &mdash; {% endif %} 
+{{ post.date | date: date_format }} {% if post.modified %} &mdash; {{ post.modified | date: date_format }} &mdash; {% endif %}
 </time>
 {% if post.description %}
 <em>{{ post.description }}</em>
