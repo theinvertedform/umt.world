@@ -6,7 +6,7 @@ toc: true
 toc_max_level: 1
 status: ongoing
 date: 2023-09-01
-dropcap: section
+dropcaps: sections
 ---
 
 :::{.epigraph}

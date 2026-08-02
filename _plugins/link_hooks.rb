@@ -302,7 +302,15 @@ module LinkHooks
        .reject { |el| HEADINGS.include?(el.name) }
        .first(DROPCAP_PREAMBLE_LIMIT)
        .each do |el|
-         return el if el.name == 'p'
+         if el.name == 'p'
+           return el if dropcap_text_node(el)
+           next
+         end
+         if el.name == 'section'
+           found = section_opener(el)
+           return found if found
+           next
+         end
          next if skippable_preamble?(el)
          break
        end
