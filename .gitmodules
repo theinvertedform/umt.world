@@ -2,3 +2,6 @@
 	path = collections
 	url = git@github.com:theinvertedform/doc.git
 	branch = main
+[submodule "news"]
+	path = news
+	url = git@github.com:theinvertedform/news.umt.world
