@@ -1,50 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-		<script src="{{ "/assets/js/sidenotes.js" }}"></script>
-		<script src="{{ "/assets/js/hyphenopoly/Hyphenopoly_Loader.js" }}"></script>
-		<script>
-        Hyphenopoly.config({
-            require: {
-                "en-gb": "Supercalifragilisticexpialidocious"
-            },
-		paths: {
-    	  patterndir: "/assets/js/hyphenopoly/patterns/",
-    	  maindir: "/assets/js/hyphenopoly/"
-    	},
-            setup: {
-                selectors: {
-                    ".markdownBody": {}
-                }
-            }
-        });
-        </script>
-		<title>{{ page.title | markdownify | strip_html }} | umt.world</title>
 
-        <!-- Stylesheets. -->
-		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.data.css.digest }}">
-		<link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg">
+	{% include header.html %}
 
-		<!-- Canonical URL -->
-		{% assign canon = page.url %}
-		{% if canon == '/index.html' or canon == '/index' or canon == '/' %}{% assign canon = '/' %}{% endif %}
-		<link rel="canonical" href="{{ canon | absolute_url }}">
-
-		<!-- Preload fonts -->
-		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf" as="font" type="font/otf" crossorigin>
-		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Italic.otf" as="font" type="font/otf" crossorigin>
-		<link rel="preload" href="/assets/fonts/LTC%20Remington%20Typewriter/LTCRemingtonTypewriterPro.otf" as="font" type="font/otf" crossorigin>
-		<link rel="preload" href="/assets/fonts/Akzidenz%20Grotesk/AkzidenzGrotesk-Regular.otf" as="font" type="font/otf" crossorigin>
-		<link rel="preload" href="/assets/fonts/Akzidenz%20Grotesk/AkzidenzGrotesk-Italic.otf" as="font" type="font/otf" crossorigin>
-		<link rel="preload" href="/assets/fonts/chandler-42/Chandler_42%20W05%20Lite.ttf" as="font" type="font/ttf" crossorigin>
-
-        <!-- Metadata. -->
-        <meta name="keywords" content="Uriah Marc Todoroff, writing, blog, photography, art, criticism, philosophy, funny">
-		<meta name="description" content="{{ page.description | default: site.description | markdownify | strip_html | strip_newlines }}">
-
-    </head>
 	{% if page.title == 'Index' %}
     <body class="page-index" itemscope itemtype="https://schema.org/WebPage">
 	{% else %}
@@ -52,40 +10,12 @@
 	{% endif %}
 
 		<main>
-        <nav id="sidebar">
-			<a id="logo" href="/"><span id="logotype">umt.</span></a>
-			<div class="sidebar-links">
-            	<a class="website" href="/about" title="Philosophy, design, and aspirations of this website.">Site</a>
-            	<a class="author" href="/links" title="Biography, personality, interests, contact.">Me</a>
-            	<a class="changelog" href="/changes" title="Chronological log of alterations and additions to the website.">New</a>
-            	<a class="patreon" href="https://patreon.com/umtworld" title="If you like this website, you can pay to keep it running.">Patreon</a>
-            	<a class="subscribe" href="https://news.umt.world" title="The culture diary of an artworld outsider.">Newsletter</a>
-			</div>
-        </nav>
+
+			{% include nav.html %}
 
 		{{ content }}
 
-		<footer>
-		<img class="end-ornament" src="/assets/images/arabesque.svg">
-		<blockquote class="epitaph">You write because you have to.</blockquote>
-		<span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Feedback</a></span>
-
-		<nav aria-label="Social">
-		  <ul>
-			{% for s in site.data.socials %}
-			<li>
-			  <a rel="me" href="{{ s.url }}">
-			    {% capture icon %}icons/{{ s.icon }}.svg{% endcapture %}
-			    {% include {{ icon }} %}
-			    <span class="visually-hidden">{{ s.name }}</span>
-			  </a>
-			</li>
-			{% endfor %}
-		  </ul>
-		</nav>
-
-		<a id="footer-logo" href="/"><img src="/assets/images/logo-chandler_lite-reversed.svg" title="umt.world logotype (American Typewriter)."/></a>
-		</footer>
+		{% include footer.html %}
 
 		</main>
 

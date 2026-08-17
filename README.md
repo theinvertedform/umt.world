@@ -5,11 +5,11 @@ description: This repository is part of the umt.world hypertext project. It incl
 
 # Components
 
-- writecontrol.vim --- System for logging and analyzing writing
-- imgen --- Script to automatically generate social images for each post
-- ~/doc --- Version-controlled archive of documents
-- umt --- Build script that analyzes \& archives logs, generates commit messages, syncs submodule and pushes repos
-- mkpdf --- Script that uses defaults.yaml and headers.yaml to generate pdfs of markdown files
+- `writecontrol.vim` --- Plugin for logging, analyzing writing patterns, and generating meaningful commits
+- ~/doc --- Version-controlled writing corpus
+- `umt` --- Build script that analyzes \& archives logs, generates commit messages, syncs submodule and pushes repos
+- `mkpdf` --- Script that uses defaults.yaml and headers.yaml to generate pdfs of markdown files
+- `imgen` --- Script to automatically generate social images for each post
 
 # What is umt.world?
 

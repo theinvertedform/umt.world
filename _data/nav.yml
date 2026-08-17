@@ -1,0 +1,20 @@
+- name: Site
+  link: /about
+  hue: violet
+  description: "Philosophy, design, history, inspirations, and aspirations of this website."
+- name: Me
+  link: /links
+  hue: indigo
+  description: "Biography, personality, interests, photos of the author."
+- name: Changes
+  link: /changelog
+  hue: yellow
+  description: "Chronological list of changes to the website and the writing corpus."
+- name: Newsletter
+  link: https://news.umt.world
+  hue: green
+  description: "Occasional updates and dispatches."
+- name: Patreon
+  link: https://patreon.com/umtworld
+  hue: red
+  description: "If you like this website and my work, pitch in for server costs."

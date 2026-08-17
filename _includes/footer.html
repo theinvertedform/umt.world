@@ -1,1 +1,25 @@
-<hr />
+<footer>
+
+	<img class="end-ornament" src="/assets/images/arabesque.svg">
+
+	<blockquote class="epitaph">You write because you have to.</blockquote>
+	<span class="feedback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckpSDCKX3uNollW7CJmZF5V3zumIljoDAWsf8ftB6HTNJIKw/viewform?usp=sf_link">Feedback</a></span>
+
+	<nav aria-label="Social">
+		<ul>
+			{% for s in site.data.socials %}
+			<li>
+			<a rel="me" href="{{ s.url }}">
+				{% capture icon %}icons/{{ s.icon }}.svg{% endcapture %}
+		    	{% include {{ icon }} %}
+				<span class="visually-hidden">{{ s.name }}</span>
+			</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+
+
+	<a id="footer-logo" href="/"><img src="/assets/images/logo-chandler_lite-reversed.svg" title="umt.world logo, mirrored."/></a>
+
+</footer>

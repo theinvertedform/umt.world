@@ -1,9 +1,9 @@
 @use "settings";
+@use "vendor/normalize";
 @use "settings/light-mode";
 @use "fluid-scale";
 @use "fonts";
 @use "mixins" as *;
-@use "normalize";
 @use "elements";
 @use "layout";
 

@@ -1,0 +1,8 @@
+<nav id="sidebar">
+	<a id="logo" href="/"><span id="logotype">umt.</span></a>
+		<div class="sidebar-links">
+			{% for item in site.data.nav %}
+			<a class="tint-{{ item.hue }}" href="{{ item.link }}" title="{{ item.description }}">{{ item.name }}</a>
+			{% endfor %}
+		</div>
+</nav>

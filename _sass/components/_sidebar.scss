@@ -1,5 +1,6 @@
 @use "../mixins" as *;
 @use "../settings/light-mode" as *;
+@use "sass:map";
 
 #sidebar {
     display: flex;
@@ -51,46 +52,11 @@
         flex: 1 1 33%;
         padding: var(--space-3xs) var(--space-2xs);
         @include type("nav-link");
-    }
-
-    #sidebar .sidebar-links a.patreon {
-        display: block;
-        text-align: center;
-        font-variant: small-caps;
         @include focus-visible;
-        @include tinted("green");
-    }
 
-    #sidebar .sidebar-links a.subscribe {
-        display: block;
-        text-align: center;
-        font-variant: small-caps;
-        @include focus-visible;
-        @include tinted("red");
-    }
-
-    #sidebar .sidebar-links a.website {
-        display: block;
-        text-align: center;
-        font-variant: small-caps;
-        @include focus-visible;
-        @include tinted("violet");
-    }
-
-    #sidebar .sidebar-links a.author {
-        display: block;
-        text-align: center;
-        font-variant: small-caps;
-        @include focus-visible;
-        @include tinted("indigo");
-    }
-
-    #sidebar .sidebar-links a.changelog {
-        display: block;
-        text-align: center;
-        font-variant: small-caps;
-        @include focus-visible;
-        @include tinted("yellow");
+        @each $hue in map.keys($ramps) {
+          &.tint-#{$hue} { @include tinted($hue); }
+        }
     }
 
 @media (min-width: 650px) {
