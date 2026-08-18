@@ -1,0 +1,19 @@
+{% raw %}{{ define "header" }}{% endraw %}
+<!DOCTYPE html>
+<html lang="en-GB">
+{% include head.html %}
+<body>
+<main>
+{% include nav.html %}
+<article>
+<div id="markdownBody" class="markdownBody">
+{% raw %}{{ end }}
+
+{{ define "footer" }}{% endraw %}
+</div>
+</article>
+{% include footer.html %}
+</main>
+</body>
+</html>
+{% raw %}{{ end }}{% endraw %}

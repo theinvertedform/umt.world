@@ -101,7 +101,7 @@ backlinks:
   output_dir: "_data/backlinks"
   debug: true
 
-newsletter:
+listmonk:
   form_action: https://news.umt.world/subscription/form
   list_uuid: ccc90a84-c1eb-44be-b379-7a4a29b750c5
   list_name: umt.world
@@ -130,3 +130,4 @@ exclude:
   - _culture/film-diary/
   - package-lock.json
   - package.json
+  - news/

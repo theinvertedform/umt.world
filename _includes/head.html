@@ -1,6 +1,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+		{% unless page.minimal %}
 		<script src="{{ "/assets/js/sidenotes.js" }}"></script>
 		<script src="{{ "/assets/js/hyphenopoly/Hyphenopoly_Loader.js" }}"></script>
 		<script>
@@ -19,6 +20,7 @@
             }
         });
         </script>
+		{% endunless %}
 		<title>{{ page.title | markdownify | strip_html }} | umt.world</title>
 
         <!-- Stylesheets. -->
@@ -28,7 +30,9 @@
 		<!-- Canonical URL -->
 		{% assign canon = page.url %}
 		{% if canon == '/index.html' or canon == '/index' or canon == '/' %}{% assign canon = '/' %}{% endif %}
+		{% unless page.minimal %}
 		<link rel="canonical" href="{{ canon | absolute_url }}">
+		{% endunless %}
 
 		<!-- Preload fonts -->
 		<link rel="preload" href="/assets/fonts/FCaslon/FCaslonTwelveITCStd-Roman.otf" as="font" type="font/otf" crossorigin>

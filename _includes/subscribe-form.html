@@ -1,11 +1,11 @@
 {%- comment -%}
   Subscribe form. Params:
-    action  — form target. Defaults to site.newsletter.form_action
+    action  — form target. Defaults to site.listmonk.form_action
     heading — optional <h2> text. Omit for no heading
 {%- endcomment -%}
 <form class="subscribe-form"
       method="post"
-      action="{{ include.action | default: site.newsletter.form_action }}">
+      action="{{ include.action | default: site.listmonk.form_action }}">
   {%- if include.heading %}
   <h2 class="subscribe-form__heading">{{ include.heading }}</h2>
   {%- endif %}
@@ -18,8 +18,8 @@
   </div>
 
   <div class="subscribe-form__field subscribe-form__field--check">
-    <input class="subscribe-form__checkbox" id="subscribe-list" type="checkbox" name="l" checked value="{{ site.newsletter.list_uuid }}">
-    <label class="subscribe-form__label" for="subscribe-list">{{ site.newsletter.list_name | default: 'umt.world' }}</label>
+    <input class="subscribe-form__checkbox" id="subscribe-list" type="checkbox" name="l" checked value="{{ site.listmonk.list_uuid }}">
+    <label class="subscribe-form__label" for="subscribe-list">{{ site.listmonk.list_name | default: 'umt.world' }}</label>
   </div>
 
   <button class="subscribe-form__submit" type="submit">Subscribe</button>

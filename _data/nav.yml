@@ -7,7 +7,7 @@
   hue: indigo
   description: "Biography, personality, interests, photos of the author."
 - name: Changes
-  link: /changelog
+  link: /changes
   hue: yellow
   description: "Chronological list of changes to the website and the writing corpus."
 - name: Newsletter
