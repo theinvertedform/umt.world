@@ -2,8 +2,8 @@
 	<a id="logo" href="{{ include.base }}/"><span id="logotype">umt.</span></a>
 		<div class="sidebar-links">
 			{% for item in site.data.nav %}
-			{% assign href = item.link %}
-			{% unless href contains '://' %}{% assign href = include.base | append: item.link %}{% endunless %}
+			{%- assign href = item.link -%}
+			{%- unless href contains '://' -%}{%- assign href = include.base | append: item.link -%}{%- endunless -%}
 			<a class="tint-{{ item.hue }}" href="{{ href }}" title="{{ item.description }}">{{ item.name }}</a>
 			{% endfor %}
 		</div>

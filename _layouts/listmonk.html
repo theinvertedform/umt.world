@@ -4,7 +4,7 @@
 {% include head.html %}
 <body>
 <main>
-{% include nav.html %}
+{% include nav.html base=site.url %}
 <article>
 <div id="markdownBody" class="markdownBody">
 {% raw %}{{ end }}
@@ -12,7 +12,7 @@
 {{ define "footer" }}{% endraw %}
 </div>
 </article>
-{% include footer.html %}
+{% include footer.html base=site.url %}
 </main>
 </body>
 </html>
