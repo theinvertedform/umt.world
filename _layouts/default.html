@@ -11,11 +11,11 @@
 
 		<main>
 
-			{% include nav.html %}
+			{% include nav.html base=page.nav_base %}
 
 		{{ content }}
 
-		{% include footer.html %}
+		{% include footer.html base=page.nav_base %}
 
 		</main>
 
