@@ -130,4 +130,3 @@ exclude:
   - _culture/film-diary/
   - package-lock.json
   - package.json
-  - news/
