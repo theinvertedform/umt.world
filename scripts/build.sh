@@ -37,6 +37,8 @@ TPL="_site/listmonk/index.tpl"
 if [ -f "$TPL" ] && [ -d "$NEWS_DIR/.git" ]; then
   echo "Placing newsletter artifacts in $NEWS_DIR"
 
+  grep -q localhost "$TPL" && { echo "artifact contains localhost — stop jekyll serve" >&2; exit 1; }
+
   install -m 644 _site/news.html "$NEWS_DIR/signup.html"
   install -m 644 "$TPL" "$NEWS_DIR/static/public/templates/index.html"
   install -m 644 _site/assets/css/style.css "$NEWS_DIR/assets/css/style.css"
