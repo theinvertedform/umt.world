@@ -61,7 +61,11 @@ layout: default
 
   </div>
 
-  <section id="backlinks" class="post-backlinks">
-    {% backlinks %}
-  </section>
+
+	{% if site.data.backlinks.all_backlinks[page.url] %}
+	  <section id="backlinks" class="post-backlinks">
+	    {% backlinks %}
+	  </section>
+	{% endif %}
+
 </article>

@@ -95,6 +95,17 @@ check_site() {
     end
   ') || err "diary date scan failed"
   [[ -z "$dates" ]] || err "diary entries missing data-date:"$'\n'"$dates"
+
+  # error on backlinks
+  local bl
+  bl=$($RUBY -rjson -e '
+    f = "_data/backlinks/all_backlinks.json"
+    abort "missing" unless File.exist?(f)
+    d = JSON.parse(File.read(f))
+    n = d.values.sum(&:size)
+    puts "#{n} links across #{d.size} targets" if n.zero?
+  ') || err "backlink data unreadable"
+  [[ -z "$bl" ]] || err "backlinks empty: $bl"
 }
 
 case "${1-all}" in
