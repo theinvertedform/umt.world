@@ -23,7 +23,7 @@ check_env() {
 }
 
 check_site() {
-  [[ -d _site ]] || { err "_site absent — build first"; return; }
+  [[ -d _site ]] || { err "_site absent — build first"; }
 
   local dupes
   dupes=$(ruby -rnokogiri -e '
@@ -33,8 +33,21 @@ check_site() {
         puts "#{f}: #{id} → #{v.map(&:last).join(", ")}"
       end
     end
-  ') || { err "duplicate-id scan failed"; return; }
+  ') || { err "duplicate-id scan failed"; }
   [[ -z "$dupes" ]] || err "duplicate ids:"$'\n'"$dupes"
+
+  anchors=$(ruby -rnokogiri -e '
+    require "cgi"
+    Dir.glob("_site/**/*.html").sort.each do |f|
+      d   = Nokogiri::HTML(File.read(f))
+      toc = d.css("#TOC a[href^=\"#\"]")
+      next if toc.empty?
+      sec = d.css("section[id]").map { |s| s["id"] }
+      bad = toc.map { |a| CGI.unescape(a["href"][1..]) } - sec - ["backlinks"]
+      puts "#{f}: dangling → #{bad.join(", ")}" unless bad.empty?
+    end
+  ') || err "anchor scan failed"
+  [[ -z "$anchors" ]] || err "dangling TOC anchors:"$'\n'"$anchors"
 }
 
 case "${1-all}" in
