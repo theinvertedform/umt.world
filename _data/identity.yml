@@ -1,0 +1,12 @@
+# sameAs payload for the JSON-LD Person node. Identity assertions, not a
+# display list — socials.yml is the display list. Every URL here claims
+# "this is the same entity"; a wrong one degrades the whole set.
+sameAs:
+  - https://www.wikidata.org/wiki/Q140820359
+  - https://orcid.org/0009-0000-4124-777X
+  - https://scholar.google.com/citations?user=GYpjy1IAAAAJ
+  - https://thenewinquiry.com/author/uriah-marc-todoroff/
+  - https://platypus1917.org/category/platypus-review-authors/uriah-marc-todoroff/
+  - https://www.imdb.com/name/nm7983316/
+  - https://instagram.com/umt.world
+  - https://github.com/theinvertedform
