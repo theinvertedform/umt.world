@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+./scripts/check.sh env
+
 # Install required gems
 echo "Installing gems..."
 bundle install
@@ -25,6 +27,8 @@ if [ -f "scripts/generate_backlinks.rb" ]; then
 else
   echo "Skipping backlinks generation (script not found)"
 fi
+
+./scripts/check.sh site
 
 # --- newsletter artifacts ----------------------------------------------
 # _site/listmonk/index.tpl is listmonk's Go chrome, rendered from the
