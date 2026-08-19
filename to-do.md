@@ -8,7 +8,7 @@ permalink: to-do
 
 # Content System
 
-## Backlinks
+## Hypertext Backlinks
 * Each section within a page gets its own backlinks section
 * A page only gets a backlinks section if there is a link to that page's base URL
 	* Bug: pages appear in its own backlinks section when it contains a link to itself

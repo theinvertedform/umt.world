@@ -15,7 +15,7 @@ toc: true
 {% for post in site.culture reversed %}
 {% if post.category contains "total cinema" %}
 <section class="blog-post e-content level2" id="{{ post.slug }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemid="https://umt.world/total-cinema#{{ post.slug }}">
-<h2 id="{{ post.slug }}" title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
+<h2 title="'{{ post.title }}', posted on {{ post.date | date: "%b %e, %Y." }}">
 	<a href="#{{ post.slug }}">{{ post.title }}</a>
 </h2>
 

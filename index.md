@@ -135,10 +135,10 @@ layout: home
 </section>
 
 <!--
-<section id="stories">
-<h1 class="index-heading" id="stories"><a href="/#stories" title="Fiction, although the distinction is not clean on this website.">Tales from Beneath Language</a></h1>
+<section id="fiction">
+<h1 class="index-heading"><a href="/#fiction" title="Fiction, although the distinction is not clean on this website.">Tales from Beneath Language</a></h1>
 <ul class="section-link-list">
-{% for post in site.stories reversed limit: 10 %}
+{% for post in site.fiction reversed limit: 10 %}
 <li><a href="{{ post.url }}" title="{{ post.title}}, posted on {{ post.date | date: "%b %-d, %Y" }}">{{ post.title }}</a>
 {% if post.description %}<em>{{ post.description }}</em>{% endif %}
 </li>
