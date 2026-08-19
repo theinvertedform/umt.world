@@ -16,19 +16,15 @@ module PostRender
     HEADING_LEVEL = 'h2'.freeze
     LABEL = 'Footnotes'.freeze
 
-    # Reg. 67: at_css is singular, so on a page assembled from several
-    # documents only the FIRST section#footnotes is titled — wrong on
-    # podcast.html. Behaviour preserved verbatim here so the split can be
-    # verified by diffing _site. Changing `fn =` to `root.css(...)` and
-    # mapping `insert` over it is the whole fix, once that diff is clean.
     def self.call(doc, item)
       root = doc.at_css('#markdownBody')
       return false unless root
 
-      fn = root.at_css('> section#footnotes') || root.at_css('section#footnotes')
-      return false unless fn
+      sections = root.css('> section#footnotes')
+      sections = root.css('section#footnotes') if sections.empty?
+      return false unless sections.any?
 
-      insert(fn, doc)
+      sections.map { |fn| insert(fn, doc) }.any?
     end
 
     def self.insert(fn, doc)
