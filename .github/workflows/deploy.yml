@@ -21,10 +21,14 @@ jobs:
         ruby-version: '3.4.2'
         bundler-cache: true
 
+    - name: Read pandoc version
+      id: pandoc-version
+      run: echo "v=$(yq '.pandoc.version' _config.yml)" >> "$GITHUB_OUTPUT"
+
     - name: Setup Pandoc
       uses: r-lib/actions/setup-pandoc@v2
       with:
-        pandoc-version: 'latest'
+        pandoc-version: ${{ steps.pandoc-version.outputs.v }}
 
     - name: Build Jekyll
       run: scripts/build.sh
