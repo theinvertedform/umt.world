@@ -53,7 +53,7 @@ module PostRender
 
       if url.include?('#')
         fragment = url.split('#')[1].gsub(/[^\w\s-]/, '').gsub(/\s+/, '-')
-        id += "-#{fragment}" unless fragment.empty?
+        id += "--#{fragment}" unless fragment.empty?
       end
 
       id

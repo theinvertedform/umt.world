@@ -6,7 +6,6 @@ require 'fileutils'
 require 'json'
 require 'yaml'
 require 'optparse'
-require 'cgi'
 
 class BacklinksGenerator
   def initialize(options = {})
@@ -43,6 +42,7 @@ class BacklinksGenerator
     ]
 
     puts "Excluded pages: #{@excluded_backlink_pages.join(', ')}" if @debug
+    puts "Excluded elements: #{@excluded_id_elements.join(', ')}" if @debug
   end
 
   def run
@@ -105,6 +105,8 @@ class BacklinksGenerator
 
       # Find all internal links with IDs
       doc.css('a[href^="/"][id^="link-"]').each do |link|
+        # Skip if link is in an excluded element
+        next if in_excluded_element?(link)
 
         # Get target URL (remove fragments and query params)
         target_url = link['href'].split('#')[0].split('?')[0]
@@ -144,45 +146,115 @@ class BacklinksGenerator
     end
   end
 
-  # Inline elements kept in a snippet. Everything else is unwrapped to its
-  # text: block elements would break the <blockquote>, and unknown markup
-  # arrives unbalanced.
-  CONTEXT_TAGS = %w[em i strong b cite q code sup sub abbr span mark].freeze
-  MAX_WORDS = 250
-
-  # Returns an HTML fragment safe to interpolate: inline formatting kept,
-  # all attributes dropped, footnote refs removed. Over MAX_WORDS it
-  # degrades to escaped plain text — truncating a tree at a word boundary
-  # cannot be done on a string, and a container that long is rare.
-  def extract_context(link)
-    container = find_context_container(link)
-    return CGI.escapeHTML(link.text.strip) unless container
-
-    return truncated_text(container.text) if container.text.split.size > MAX_WORDS
-
-    frag = Nokogiri::HTML.fragment(container.inner_html)
-    frag.css('a.footnote-ref, .sidenote, .marginnote').remove
-    frag.css("a##{link['id']}").each { |a| a.name = 'mark' }
-    sanitize!(frag)
-    frag.to_html.gsub(/\s+/, ' ').strip
-  end
-
-  def sanitize!(frag)
-    frag.css('*').each do |el|
-      if CONTEXT_TAGS.include?(el.name)
-        el.attribute_nodes.each { |a| el.remove_attribute(a.name) }
+  def in_excluded_element?(link)
+    @excluded_id_elements.any? do |selector|
+      if selector.start_with?('#')
+        # ID selector
+        id = selector[1..]
+        link.ancestors.any? { |el| el['id'] == id }
+      elsif selector.start_with?('.')
+        # Class selector
+        cls = selector[1..]
+        link.ancestors.any? do |el|
+          el['class'] && el['class'].split.include?(cls)
+        end
       else
-        el.replace(el.children)
+        # Element selector
+        link.ancestors.any? { |el| el.name.downcase == selector.downcase }
       end
     end
   end
 
-  def truncated_text(text)
-    words = text.split
-    t = words.first(MAX_WORDS).join(' ')
-    cut = t.rindex(/[.!?]\s/)
-    t = t[0..cut + 1] if cut && cut > t.length / 2
-    CGI.escapeHTML(t.strip) + '…'
+  def extract_context(link)
+    # Find the containing paragraph or block
+    container = find_context_container(link)
+    return link.text unless container
+
+    # Get the HTML content to preserve formatting
+    html_content = container.inner_html.strip
+    plain_text = container.text.strip.gsub(/\s+/, ' ')
+
+    # Maximum word count for context
+    max_words = 250
+
+    # Find the position of the link in the HTML
+    link_html = link.to_html
+    link_position = html_content.index(link_html)
+
+    if link_position
+      # Split the HTML at the link position
+      before_html = html_content[0...link_position]
+      after_html = html_content[link_position + link_html.length..-1]
+
+      # Get the paragraph text from the beginning
+      start_pos = 0
+
+      # Count words in the combined text
+      combined_text = plain_text
+      word_count = combined_text.split.size
+
+      if word_count > max_words
+        # We need to truncate, prioritizing text after the link
+
+        # Get words after the link
+        after_text = Nokogiri::HTML(after_html).text.strip
+        after_words = after_text.split
+
+        # If after-text is short enough, include all of it
+        if after_words.length < max_words
+          # Use remaining word count for before-text
+          remaining_words = max_words - after_words.length
+
+          # Get words before the link
+          before_text = Nokogiri::HTML(before_html).text.strip
+          before_words = before_text.split
+
+          if before_words.length > remaining_words
+            # Need to truncate before-text at word boundary
+            before_text = before_words.last(remaining_words).join(' ')
+            # Add ellipsis at the beginning
+            before_html = "..." + before_html.split(/\s+/).last(remaining_words).join(' ')
+          end
+        else
+          # After-text needs truncation
+          # Find a sentence boundary within the word limit
+          after_text_truncated = after_words.first(max_words).join(' ')
+
+          # Try to end at a sentence boundary
+          sentence_end = after_text_truncated.rindex(/[.!?]\s/)
+          if sentence_end && sentence_end > (after_text_truncated.length / 2)
+            after_text_truncated = after_text_truncated[0..sentence_end+1]
+          end
+
+          # Replace after_html with truncated version + ellipsis
+          after_html = after_text_truncated + "..."
+          before_html = "" # No space for before-text in this case
+        end
+      end
+
+      # Combine the HTML parts
+      result_html = before_html + link_html + after_html
+
+      # Convert HTML back to text, but preserve basic formatting
+      result = Nokogiri::HTML(result_html).text.strip
+
+      return result
+    else
+      # Fallback if link not found in HTML
+      words = plain_text.split
+      if words.length > max_words
+        # Truncate at sentence boundary if possible
+        truncated = words.first(max_words).join(' ')
+        sentence_end = truncated.rindex(/[.!?]\s/)
+        if sentence_end && sentence_end > (truncated.length / 2)
+          return truncated[0..sentence_end+1] + "..."
+        else
+          return truncated + "..."
+        end
+      else
+        return plain_text
+      end
+    end
   end
 
   def find_context_container(link)
@@ -241,7 +313,7 @@ class BacklinksGenerator
     links.each do |link|
       html += <<~HTML
             <li class="backlink-item">
-              <a href="#{CGI.escapeHTML(link['source_url'])}" class="backlink-source">#{CGI.escapeHTML(link['title'])}</a>
+              <a href="#{link['source_url']}" class="backlink-source">#{link['title']}</a>
               <blockquote class="backlink-context">#{link['context']}</blockquote>
             </li>
       HTML
