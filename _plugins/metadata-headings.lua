@@ -33,7 +33,7 @@ local function min_header_level(blocks)
       end
     end
   end
-  return level or 1
+  return level or 2
 end
 
 -- Process the document after all other filters

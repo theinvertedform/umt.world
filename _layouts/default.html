@@ -9,15 +9,17 @@
     <body itemscope itemtype="https://schema.org/WebPage">
 	{% endif %}
 
-		<main>
+	<a href="#markdownBody" class="skip-link">Skip to content</a>
 
-			{% include nav.html base=page.nav_base %}
+	{% include nav.html base=page.nav_base %}
+
+		<main>
 
 		{{ content }}
 
-		{% include footer.html base=page.nav_base %}
-
 		</main>
+
+	{% include footer.html base=page.nav_base %}
 
 		<!-- Google Analytics -->
 		{% if site.google_analytics and jekyll.environment == 'production' %}

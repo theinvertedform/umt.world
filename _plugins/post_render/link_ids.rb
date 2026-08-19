@@ -10,14 +10,13 @@
 module PostRender
   module LinkIds
     def self.call(doc, item)
-      excluded = item.site.config.dig('backlinks', 'excluded_id_elements') || []
+      root = doc.at_css('#markdownBody')
+      return false unless root
+
       counts = Hash.new(0)
       modified = false
-
-      doc.css('a[href^="/"]').each do |link|
+      root.css('a[href^="/"]').each do |link|
         next if link['id']
-        next if in_excluded_element?(link, excluded)
-
         base = generate_link_id(link['href'])
         counts[base] += 1
         link['id'] = counts[base] == 1 ? base : "#{base}-#{counts[base]}"

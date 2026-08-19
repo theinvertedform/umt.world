@@ -5,7 +5,7 @@ set -e
 
 # Install required gems
 echo "Installing gems..."
-bundle install
+[[ -n "${CI:-}" ]] || bundle install
 
 # Build the site
 echo "Building Jekyll site..."

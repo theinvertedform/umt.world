@@ -83,24 +83,25 @@ defaults:
 google_analytics: G-5NHX2XP9H3
 
 backlinks:
+  output_dir: "_data/backlinks"
+  debug: false
   excluded_backlink_pages:
     - "index.html"
-    - "/index"
     - "changes.html"
     - "404.html"
     - "tags.html"
+    - "podcast.html"
+    - "newsletter.html"
+    - "/index"
     - "/tags"
-  excluded_id_elements:
-    - "#sidebar"
-    - ".sidebar-links"
-    - "footer"
-    - "#page-tags"
-    - "#backlinks"
-  context:
-    chars_before: 100
-    chars_after: 100
-  output_dir: "_data/backlinks"
-  debug: true
+    - "/podcast"
+    - "/diaries"
+    - "/culture"
+    - "/books"
+    - "/criticism"
+    - "/fiction"
+    - "/interviews"
+    - "/newsletter"
 
 listmonk:
   form_action: https://news.umt.world/subscription/form

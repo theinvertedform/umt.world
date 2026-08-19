@@ -62,3 +62,18 @@ aside.index.abstract {
   max-width: var(--measure-prose);
   margin-inline: auto;
 }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+
+  &:focus {
+    left: 0;
+    padding: var(--space-xs);
+    background-color: var(--bg-sunken);
+    color: var(--text-secondary);
+    outline: 2px solid var(--border-default);
+  }
+}

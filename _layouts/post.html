@@ -12,7 +12,7 @@ layout: default
 
 	{% if page.cover %}
 		<figure class="cover">
-			<img src="{{ page.cover }}">
+			<img src="{{ page.cover }}" alt="{{ page.cover_caption }}">
 			{% if page.cover_caption %}
 			<figcaption aria-hidden="true">{{ page.cover_caption }}</figcaption>
 			{% endif %}
