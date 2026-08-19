@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
-# A standalone script to generate backlinks for a Jekyll site
+# Scans _site for citing links minted by post_render/link_ids.rb and emits
+# _data/backlinks/. Pass 2 of the build inlines the result via {% backlinks %}.
+#
+# The scan needs no exclusion list: the injector is rooted at #markdownBody,
+# and #backlinks is a sibling of it, so rendered snippets can never be read
+# back as fresh citations. See ARCHITECTURE.md#backlinks.
 
 require 'nokogiri'
 require 'fileutils'
@@ -9,19 +14,23 @@ require 'optparse'
 require 'cgi'
 
 class BacklinksGenerator
+  # Inline elements kept in a snippet. Everything else is unwrapped to its
+  # text: block elements would break the <blockquote>, and unknown markup
+  # arrives unbalanced.
+  CONTEXT_TAGS = %w[em i strong b cite q code sup sub abbr span mark].freeze
+  MAX_WORDS = 250
+
   def initialize(options = {})
     @site_dir = options[:site_dir] || Dir.pwd
     @html_dir = options[:html_dir] || File.join(@site_dir, '_site')
     @config_file = options[:config_file] || File.join(@site_dir, '_config.yml')
     @debug = options[:debug] || false
+    @failures = 0
 
-    # Load configuration
     load_config
 
-    # Set up directories
-    @output_dir = options[:output_dir] || File.join(@site_dir, @config.dig('backlinks', 'output_dir') || '_data/backlinks')
-    FileUtils.mkdir_p(@output_dir)
-    FileUtils.mkdir_p(File.join(@output_dir, 'snippets'))
+    @output_dir = options[:output_dir] ||
+      File.join(@site_dir, @config.dig('backlinks', 'output_dir') || '_data/backlinks')
 
     puts "Site directory: #{@site_dir}" if @debug
     puts "HTML directory: #{@html_dir}" if @debug
@@ -37,105 +46,93 @@ class BacklinksGenerator
       puts "No configuration file found at #{@config_file}, using defaults" if @debug
     end
 
-    # Set up excluded pages
-    @excluded_backlink_pages = @config.dig('backlinks', 'excluded_backlink_pages') || [
-      "404.html", "feed.xml", "sitemap.xml", "robots.txt"
-    ]
-
+    # Two filters sharing one key, distinguished by form: extension-bearing
+    # entries filter sources, slash-leading entries filter targets.
+    @excluded_backlink_pages = @config.dig('backlinks', 'excluded_backlink_pages') || []
     puts "Excluded pages: #{@excluded_backlink_pages.join(', ')}" if @debug
   end
 
   def run
     puts "Starting backlinks generation..."
 
-    # First, check if the HTML directory exists
     unless Dir.exist?(@html_dir)
-      puts "Error: HTML directory not found at #{@html_dir}"
-      puts "Please run 'jekyll build' first to generate the site"
+      warn "Error: HTML directory not found at #{@html_dir}"
+      warn "Run 'jekyll build' first"
       return false
     end
 
-    # Process the site and extract backlinks
     backlinks = extract_backlinks
 
-    # Generate backlink files
-    generate_backlink_files(backlinks)
+    # Bail before writing. generate_backlink_files clears the output
+    # directory, so a partial run would destroy the last good data.
+    if @failures > 0
+      warn "#{@failures} file(s) failed; output left untouched"
+      return false
+    end
 
+    generate_backlink_files(backlinks)
     puts "Backlinks generation complete!"
-    return true
+    true
   end
 
   def extract_backlinks
     puts "Extracting backlinks from HTML files..." if @debug
     backlinks = {}
 
-    # Find all HTML files
     html_files = Dir.glob(File.join(@html_dir, "**", "*.html"))
     puts "Found #{html_files.size} HTML files" if @debug
 
-    html_files.each do |file|
-      process_file(file, backlinks)
-    end
+    html_files.each { |file| process_file(file, backlinks) }
 
     puts "Extracted backlinks for #{backlinks.keys.size} target pages" if @debug
-    return backlinks
+    backlinks
   end
 
   def process_file(file, backlinks)
-    # Get relative path from HTML directory
     rel_path = file.sub(@html_dir + '/', '')
 
-    # Skip excluded files
     if excluded_file?(rel_path)
       puts "Skipping excluded file: #{rel_path}" if @debug
       return
     end
 
     begin
-      # Parse the document
       doc = File.open(file) { |f| Nokogiri::HTML(f) }
 
-      # Get URL (remove index.html and .html extension)
       source_url = rel_path.gsub(/index\.html$/, '').gsub(/\.html$/, '')
       source_url = '/' + source_url unless source_url.start_with?('/')
 
-      # Get page title
+      # Collapse whitespace BEFORE stripping the suffix: markdownify leaves
+      # a newline inside <title>.
       title = (doc.at_css('title')&.text || source_url).gsub(/\s+/, ' ').strip
-      title = title.sub(/ - umt\.world\z/, '')
+      title = title.sub(/ [-|] umt\.world\z/, '')
 
-      # Find all internal links with IDs
       doc.css('a[href^="/"][id^="link-"]').each do |link|
-
-        # Get target URL (remove fragments and query params)
         target_url = link['href'].split('#')[0].split('?')[0]
         next if target_url =~ /\.(pdf|jpe?g|png|gif|svg|webp|mp3|mp4|zip)$/i
         next if @excluded_backlink_pages.include?(target_url)
         next if target_url == source_url
 
-        # Extract context
-        context = extract_context(link)
-
-        # Add to backlinks collection
         backlinks[target_url] ||= []
         backlinks[target_url] << {
           'source_url' => source_url,
           'target_url' => target_url,
-          'link_id' => link['id'],
-          'context' => context,
-          'title' => title
+          'link_id'    => link['id'],
+          'context'    => extract_context(link),
+          'title'      => title
         }
 
         puts "  Added backlink: #{source_url} -> #{target_url}" if @debug
       end
     rescue => e
-      puts "Error processing file #{file}: #{e.message}"
-      puts e.backtrace.join("\n") if @debug
+      @failures += 1
+      warn "Error processing file #{file}: #{e.message}"
+      warn e.backtrace.join("\n") if @debug
     end
   end
 
   def excluded_file?(path)
     @excluded_backlink_pages.any? do |excluded|
-      # Use exact match for specific files, substring match for directories
       if excluded.end_with?('/')
         path.start_with?(excluded)
       else
@@ -144,20 +141,14 @@ class BacklinksGenerator
     end
   end
 
-  # Inline elements kept in a snippet. Everything else is unwrapped to its
-  # text: block elements would break the <blockquote>, and unknown markup
-  # arrives unbalanced.
-  CONTEXT_TAGS = %w[em i strong b cite q code sup sub abbr span mark].freeze
-  MAX_WORDS = 250
-
   # Returns an HTML fragment safe to interpolate: inline formatting kept,
-  # all attributes dropped, footnote refs removed. Over MAX_WORDS it
-  # degrades to escaped plain text — truncating a tree at a word boundary
-  # cannot be done on a string, and a container that long is rare.
+  # all attributes dropped, footnote refs and sidenotes removed, the citing
+  # link renamed to <mark>. Over MAX_WORDS it degrades to escaped plain
+  # text — truncating a tree at a word boundary cannot be done on a string,
+  # and an unbalanced fragment is the one input Nokogiri does not survive.
   def extract_context(link)
     container = find_context_container(link)
     return CGI.escapeHTML(link.text.strip) unless container
-
     return truncated_text(container.text) if container.text.split.size > MAX_WORDS
 
     frag = Nokogiri::HTML.fragment(container.inner_html)
@@ -167,6 +158,9 @@ class BacklinksGenerator
     frag.to_html.gsub(/\s+/, ' ').strip
   end
 
+  # css('*') is document order, parents first, so unwrapping a parent leaves
+  # its children in the tree for their own iteration. <a> is deliberately
+  # absent from CONTEXT_TAGS: no link inside a link.
   def sanitize!(frag)
     frag.css('*').each do |el|
       if CONTEXT_TAGS.include?(el.name)
@@ -186,48 +180,49 @@ class BacklinksGenerator
   end
 
   def find_context_container(link)
-    # Look for appropriate container elements, prioritizing paragraphs
-    ['p', 'li', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'section'].each do |tag|
+    %w[p li blockquote h1 h2 h3 h4 h5 h6 div section].each do |tag|
       container = link.ancestors(tag).first
       return container if container
     end
-
-    # Fallback to parent
-    return link.parent
+    link.parent
   end
 
   def generate_backlink_files(backlinks)
     puts "Generating backlink files..."
 
-    # Generate JSON data and HTML snippets
+    # The directory is cleared so a target that stops being cited does not
+    # keep its file forever. Guarded because the path is config-derived.
+    unless File.basename(@output_dir) == 'backlinks'
+      warn "Refusing to clear #{@output_dir}: expected a directory named 'backlinks'"
+      return false
+    end
+    FileUtils.rm_rf(@output_dir)
+    FileUtils.mkdir_p(File.join(@output_dir, 'snippets'))
+
     backlinks.each do |target_url, links|
-      # Skip if no backlinks
       next if links.empty?
 
-      # Create filename
       filename = target_url.gsub(/^\//, '').gsub(/\//, '_')
       filename = "index" if filename.empty?
 
-      # Write JSON data
-      json_path = File.join(@output_dir, "#{filename}.json")
-      File.write(json_path, JSON.pretty_generate(links))
-
-      # Write HTML snippet
-      snippet_path = File.join(@output_dir, 'snippets', "#{filename}.html")
-      File.write(snippet_path, generate_html_snippet(links))
+      File.write(File.join(@output_dir, "#{filename}.json"),
+                 JSON.pretty_generate(links))
+      File.write(File.join(@output_dir, 'snippets', "#{filename}.html"),
+                 generate_html_snippet(links))
 
       puts "  Generated backlinks file for #{target_url}" if @debug
     end
 
-    # Write index file
-    index_path = File.join(@output_dir, "all_backlinks.json")
-    File.write(index_path, JSON.pretty_generate(backlinks))
+    File.write(File.join(@output_dir, "all_backlinks.json"),
+               JSON.pretty_generate(backlinks))
 
     puts "Generated backlinks for #{backlinks.size} pages"
+    true
   end
 
+  # 'context' is interpolated unescaped: extract_context guarantees it is
+  # either sanitized HTML or already-escaped text. Everything else escapes.
   def generate_html_snippet(links)
-    # Sort links by title
     links.sort_by! { |link| link['title'].downcase }
 
     html = <<~HTML
@@ -247,47 +242,23 @@ class BacklinksGenerator
       HTML
     end
 
-    html += <<~HTML
+    html + <<~HTML
           </ul>
         </details>
       </div>
     HTML
-
-    return html
   end
 end
 
-# Parse command line options
 options = {}
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby generate_backlinks.rb [options]"
-
-  opts.on("-s", "--site-dir DIR", "Site directory (default: current directory)") do |dir|
-    options[:site_dir] = dir
-  end
-
-  opts.on("-b", "--html-dir DIR", "Built HTML directory (default: _site)") do |dir|
-    options[:html_dir] = dir
-  end
-
-  opts.on("-c", "--config FILE", "Config file (default: _config.yml)") do |file|
-    options[:config_file] = file
-  end
-
-  opts.on("-o", "--output-dir DIR", "Output directory (default: _data/backlinks)") do |dir|
-    options[:output_dir] = dir
-  end
-
-  opts.on("-d", "--debug", "Enable debug output") do
-    options[:debug] = true
-  end
-
-  opts.on("-h", "--help", "Show this help message") do
-    puts opts
-    exit
-  end
+  opts.on("-s", "--site-dir DIR",   "Site directory (default: cwd)")        { |d| options[:site_dir] = d }
+  opts.on("-b", "--html-dir DIR",   "Built HTML directory (default: _site)") { |d| options[:html_dir] = d }
+  opts.on("-c", "--config FILE",    "Config file (default: _config.yml)")    { |f| options[:config_file] = f }
+  opts.on("-o", "--output-dir DIR", "Output directory")                      { |d| options[:output_dir] = d }
+  opts.on("-d", "--debug",          "Enable debug output")                   { options[:debug] = true }
+  opts.on("-h", "--help")                                                    { puts opts; exit }
 end.parse!
 
-# Run the generator
-generator = BacklinksGenerator.new(options)
-generator.run
+exit(BacklinksGenerator.new(options).run ? 0 : 1)

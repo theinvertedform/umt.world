@@ -11,21 +11,23 @@ echo "Installing gems..."
 echo "Building Jekyll site..."
 JEKYLL_ENV=production bundle exec jekyll build
 
-# Generate backlinks (only if the script exists and works)
+# Generate backlinks. A failure is tolerable locally — you still get a
+# previewable site — but in CI it means deploying a dead hypertext apparatus.
+BACKLINKS=skipped
 if [ -f "scripts/generate_backlinks.rb" ]; then
-  echo "Attempting to generate backlinks..."
+  echo "Generating backlinks..."
   if bundle exec ruby scripts/generate_backlinks.rb --site-dir . --html-dir _site --output-dir _data/backlinks; then
-    echo "Backlinks generated successfully"
-
-    # Rebuild the site to include the backlinks data
+    BACKLINKS=ok
     echo "Rebuilding Jekyll site with backlinks..."
     JEKYLL_ENV=production bundle exec jekyll build
   else
-    echo "Backlinks generation failed, but continuing with build"
-    # We don't want to fail the entire build just because backlinks generation failed
+    BACKLINKS=failed
+    if [ -n "${CI:-}" ] || [ "${JEKYLL_ENV:-}" = production ]; then
+      echo "FATAL: backlinks generation failed; refusing to deploy stale output" >&2
+      exit 1
+    fi
+    echo "WARNING: backlinks generation failed — _site holds pass-1 output" >&2
   fi
-else
-  echo "Skipping backlinks generation (script not found)"
 fi
 
 ./scripts/check.sh site
@@ -64,4 +66,8 @@ fi
 # Not a deliverable of this site, in any environment.
 rm -rf _site/listmonk
 
-echo "Build completed successfully! (backlinks: ${BL_STATUS:-ok})"
+if [ "$BACKLINKS" = failed ]; then
+  echo "Build completed with errors. (backlinks: failed)"
+else
+  echo "Build completed. (backlinks: $BACKLINKS)"
+fi
