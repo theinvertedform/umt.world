@@ -82,6 +82,19 @@ check_site() {
   host=$(grep -rlE 'localhost|127\.0\.0\.1' _site \
     --include='*.html' --include='*.xml' --include='*.json' --include='*.tpl' 2>/dev/null)
   [[ -z "$host" ]] || err "localhost in built output:"$'\n'"$host"
+
+  # diary-dates.lua fails silently: entries render as bare ISO dates instead
+  # of weekdays. A dated section id with no data-date means it did not run.
+  local dates
+  dates=$($RUBY -rnokogiri -e '
+    Dir.glob("_site/**/*.html").sort.each do |f|
+      bad = Nokogiri::HTML(File.read(f)).css("section[id]").select { |s|
+        s["id"] =~ /\A\d{4}-\d\d-\d\d\z/ && s["data-date"].nil?
+      }
+      puts "#{f}: #{bad.map { |s| s["id"] }.join(", ")}" unless bad.empty?
+    end
+  ') || err "diary date scan failed"
+  [[ -z "$dates" ]] || err "diary entries missing data-date:"$'\n'"$dates"
 }
 
 case "${1-all}" in
