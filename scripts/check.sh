@@ -106,6 +106,17 @@ check_site() {
     puts "#{n} links across #{d.size} targets" if n.zero?
   ') || err "backlink data unreadable"
   [[ -z "$bl" ]] || err "backlinks empty: $bl"
+
+  # check for alt text on images
+  local imgs
+  imgs=$($RUBY -rnokogiri -e '
+    Dir.glob("_site/**/*.html").sort.each do |f|
+      d = Nokogiri::HTML(File.read(f))
+      d.css("img:not([alt])").each { |i| puts "#{f}: img without alt: #{i["src"]}" }
+      d.css("[alt]:not(img):not(area):not(input)").each { |e| puts "#{f}: alt on <#{e.name}>" }
+    end
+  ') || err "image scan failed"
+  [[ -z "$imgs" ]] || err "image accessibility:"$'\n'"$imgs"
 }
 
 case "${1-all}" in
