@@ -299,4 +299,5 @@
     @include type("sidenote");
     font-style: italic;
     text-align: right;
+    em { font-style: normal; }
 }
