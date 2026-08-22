@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Courier Std';
-	src: url('../fonts/Courier Std/CourierStd.otf') format('opentype');
+	src: url('../fonts/Courier Std/CourierStd.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'Courier Std';
-	src: url('../fonts/Courier Std/CourierStd-Oblique.otf') format('opentype');
+	src: url('../fonts/Courier Std/CourierStd-Oblique.woff2') format('woff2');
 	font-weight: 400;
 	font-style: italic;
 	font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'Courier Std';
-	src: url('../fonts/Courier Std/CourierStd-Bold.otf') format('opentype');
+	src: url('../fonts/Courier Std/CourierStd-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
 	font-family: 'Courier Std';
-	src: url('../fonts/Courier Std/CourierStd-BoldOblique.otf') format('opentype');
+	src: url('../fonts/Courier Std/CourierStd-BoldOblique.woff2') format('woff2');
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
