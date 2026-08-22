@@ -2,8 +2,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 		{% unless page.minimal %}
-		<script src="{{ "/assets/js/sidenotes.js" }}"></script>
-		<script src="{{ "/assets/js/hyphenopoly/Hyphenopoly_Loader.js" }}"></script>
 		<script>
         Hyphenopoly.config({
             require: {
@@ -14,12 +12,16 @@
     	  maindir: "/assets/js/hyphenopoly/"
     	},
             setup: {
+				hide: "element",
+				timeout: "1001",
                 selectors: {
                     ".markdownBody": {}
                 }
             }
         });
         </script>
+		<script src="{{ "/assets/js/hyphenopoly/Hyphenopoly_Loader.js" }}"></script>
+		<script src="{{ "/assets/js/sidenotes.js" }}" defer></script>
 		{% endunless %}
 		<title>{{ page.title | markdownify | strip_html }} | umt.world</title>
 
