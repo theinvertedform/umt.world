@@ -50,17 +50,6 @@ I was born on a Saturday evening late in November 1990, in Toronto, Ontario. My 
 * 16Personalities: "Advocate" (INFJ-T)
 *Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.*
 
-### Cultic Backgrounds
-
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-#### Cthulhu fhtagn
-
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-
 # Contact
 
 !["I am a part of all living things!"](/assets/images/robo.jpg){.marginnote}

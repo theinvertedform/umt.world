@@ -6,7 +6,7 @@ h1.title {
   text-align: center;
 }
 
-section.level2 > h2 {
+section > h2 {
     display: flow-root;
     border-bottom: 1px solid var(--border-default);
     text-align: right;
@@ -16,29 +16,7 @@ section.level2 > h2 {
     @include type("heading-section");
 }
 
-section.level2 > hr {
-    overflow: visible;
-    height: 30px;
-    border-style: solid;
-    border-color: var(--border-default);
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    margin: 0.5em 0 0 0;
-    padding: 0;
-}
-
-section.level2 > hr:before {
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: var(--border-default);
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}
-
-section.level3 > h3 {
+section > h3 {
     display: flow-root;
     border-bottom: 1px dotted var(--border-default);
     text-align: left;
@@ -47,25 +25,6 @@ section.level3 > h3 {
     margin: var(--space-xs) 0;
     @include type("heading-sub");
     em { text-transform: none; }
-}
-
-section.level3 > hr {
-    border-style: none;
-    border-width: 0;
-    border-radius: 0;
-    margin: 0.5em 0 0 0;
-    padding: 0;
-}
-
-section.level3 > hr:before {
-    display: block;
-    content: "\01F7BB \01F7BE \01F7BB";
-    text-align: center;
-    height: 0;
-    margin-top: 0;
-    border-style: none;
-    border-width: 0;
-    border-radius: 0;
 }
 
 h2 > a.anchor::after,
@@ -126,9 +85,9 @@ h6 > a.anchor {
   --link-text-active:   var(--text-disabled);
 }
 
-section.level4 > h4,
-section.level5 > h5,
-section.level6 > h6 {
+section > h4,
+section > h5,
+section > h6 {
     display: flow-root;
     text-align: left;
     position: relative;
@@ -138,6 +97,6 @@ section.level6 > h6 {
     text-transform: capitalize;
     em { text-transform: none; }
 }
-section.level4 > h4 { font-size: calc(var(--step-1) * 0.82); }
-section.level5 > h5 { font-size: calc(var(--step-1) * 0.78); }
-section.level6 > h6 { font-size: calc(var(--step-1) * 0.74); }
+section > h4 { font-size: calc(var(--step-1) * 0.82); }
+section > h5 { font-size: calc(var(--step-1) * 0.78); }
+section > h6 { font-size: calc(var(--step-1) * 0.74); }
