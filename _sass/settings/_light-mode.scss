@@ -278,6 +278,7 @@ $steps: 1 2 3 4 5 6 7 8 9 10 11 12;
   --link-rule-hover:   currentColor;
   --link-wash-hover:   var(--#{$hue}-3);
   --link-wash-active:  var(--#{$hue}-5);
+  --link-wash-edge:    var(--#{$hue}-7);
 }
 
 @mixin link($hue: "grey", $visited: "grey") {

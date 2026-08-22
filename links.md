@@ -39,7 +39,7 @@ Thinkpad, vim, flip-phones --- modernity in *Vampyr* and *Nosferatu*; [*Garten d
 
 # Biographical Summary
 
-I was born on November 17, 1990 in Toronto, Ontario. My father named me Uriah, and my mother named me Marc. I moved to Montréal at 14 (2005), and have lived here (mostly) since then. In 2023 I graduated from Concordia University with a Bachelor of Fine Arts (Philosophy, Art History & Film Studies).
+I was born on a Saturday evening late in November 1990, in Toronto, Ontario. My father named me Uriah, and my mother named me Marc. I moved to Montréal at age 14 (2005), and have lived here (mostly) since then. In 2023 I graduated from Concordia University with a Bachelor of Fine Arts (double major Philosophy, Art History \& Film Studies).
 
 ![Marc's Flyer business card circa 2012/2013, designed by Oliver Hine.](assets/images/marcsflyer.jpg)
 
@@ -49,6 +49,17 @@ I was born on November 17, 1990 in Toronto, Ontario. My father named me Uriah, a
 * [Relationship Survey](/assets/documents/relationship-survey-2022.pdf) (2022)
 * 16Personalities: "Advocate" (INFJ-T)
 *Advocates are quiet visionaries, often serving as inspiring and tireless idealists. These rare types are open-minded and imaginative, applying care and creativity.*
+
+### Cultic Backgrounds
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+#### Cthulhu fhtagn
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
 
 # Contact
 

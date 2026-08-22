@@ -56,6 +56,7 @@ $body-x-ratio: 0.42;
   @if map.get($style, leading) { line-height: map.get($style, leading); }
   @if map.get($style, adjust) { font-size-adjust: ex-height $body-x-ratio; }
   @if map.get($style, weight) { font-weight: map.get($style, weight); }
+  @if map.get($style, tracking) { letter-spacing: map.get($style, tracking); }
   @if map.get($style, style) { font-style: map.get($style, style); }
   @if map.get($style, transform) { text-transform: map.get($style, transform); }
   @if map.get($style, caps) { font-variant-caps: map.get($style, caps); }

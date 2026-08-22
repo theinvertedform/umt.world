@@ -33,6 +33,7 @@ $font-semantics: (
   logotype: var(--font-stack-logotype),
   body: var(--font-stack-serif-text),
   sidenote: var(--font-stack-serif-text),
+  //display: var(--font-stack-serif-display),
   display: var(--font-stack-display),
   ui: var(--font-stack-sans),
   meta: var(--font-stack-sans),
@@ -52,23 +53,23 @@ $metrics: (
 
 $type-styles: (
   "body":            (family: var(--font-body), step: 0, leading: calc(1ex / #{$leading-ratio})),
-  "sidenote":        (family: var(--font-body), step: -2, leading: calc(1ex / #{$leading-ratio-ui})),
+  "sidenote":        (family: var(--font-body), step: -1, leading: calc(1ex / #{$leading-ratio-ui})),
   "logotype":        (family: var(--font-logotype), step: 2, weight: 300, leading: 1),
   "nav-link":        (family: var(--font-display), step: -2, leading: 1.35, transform: uppercase),
-  "title":           (family: var(--font-display), weight: 700, step: 4, leading: 1.1, transform: uppercase),
-  "heading-index":   (family: var(--font-display), step: 1, leading: 1.15, transform: uppercase),
-  "heading-section": (family: var(--font-display), weight: 700, step: 2, leading: 1.15, transform: capitalize),
-  "heading-sub":     (family: var(--font-display), weight: 600, step: 1, leading: 1.15, transform: lowercase),
+  "title":           (family: var(--font-display), weight: 400, step: 4, leading: 1.1, transform: uppercase),
+  "heading-section": (family: var(--font-display), weight: 400, step: 1, leading: 1.15, transform: uppercase, tracking: -0.02em),
+  "heading-sub":     (family: var(--font-display), weight: 400, size: calc(var(--step-1) * 0.88), leading: 1.2, transform: uppercase, tracking: -0.02em),
+  "heading-index":   (family: var(--font-display), weight: 400, step: 1, leading: 1.15, transform: uppercase),
   "heading-minor":   (family: var(--font-display), weight: 500, step: 1, transform: lowercase),
   "meta":            (family: var(--font-meta), weight: 300, leading: calc(1ex / #{$leading-ratio-ui}), adjust: 0.4),
-  "toc":             (family: var(--font-ui), step: -2, leading: 1.2, adjust: 0.4),
+  "toc":             (family: var(--font-ui), step: -1, leading: 1.2, adjust: 0.4),
   "description":     (family: var(--font-body), style: italic, leading: calc(1ex / #{$leading-ratio})),
   "superscript":     (family: var(--font-body), leading: 1),
   "caption":         (family: var(--font-ui), step: -2, leading: 1.35, adjust: 0.4),
 );
 
 $layout: (
-  "prose": 33rem,
+  "prose": 45rem,
   "column": calc(var(--measure-prose) / 2),
   ) !default;
 

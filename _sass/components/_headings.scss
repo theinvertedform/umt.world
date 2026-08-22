@@ -1,4 +1,5 @@
 @use "../mixins" as *;
+@use "../settings/light-mode" as *;
 
 h1.title {
   @include type("title");
@@ -10,7 +11,7 @@ section.level2 > h2 {
     border-bottom: 1px solid var(--border-default);
     text-align: right;
     padding: 0;
-    margin: var(--space-xs) 0em;
+    margin: var(--space-xs) 0;
     position: relative;
     @include type("heading-section");
     a { border-bottom: none; }
@@ -38,8 +39,7 @@ section.level2 > hr:before {
     border-radius: 20px;
 }
 
-section.level3 > h3,
-article.level3 > h3 {
+section.level3 > h3 {
     display: flow-root;
     border-bottom: 1px dotted var(--border-default);
     text-align: left;
@@ -51,8 +51,7 @@ article.level3 > h3 {
     em { font: inherit; }
 }
 
-section.level3 > hr,
-article.level3 > hr {
+section.level3 > hr {
     border-style: none;
     border-width: 0;
     border-radius: 0;
@@ -60,8 +59,7 @@ article.level3 > hr {
     padding: 0;
 }
 
-section.level3 > hr:before,
-article.level3 > hr:before {
+section.level3 > hr:before {
     display: block;
     content: "\01F7BB \01F7BE \01F7BB";
     text-align: center;
@@ -72,7 +70,7 @@ article.level3 > hr:before {
     border-radius: 0;
 }
 
-h3 a::after {
+h3 > a.anchor::after {
     content: "\00B6";
     @include type("heading-sub");
     position: absolute;
@@ -86,6 +84,6 @@ h3 a::after {
 h2 a, h3 a {
     //@include link-style($border-color: none);
       --link-underline: none;
-      --link-wash-hover: none;
+      --link-wash-hover: transparent;
       --link-wash-active: none;
 }
