@@ -14,7 +14,6 @@ section.level2 > h2 {
     margin: var(--space-xs) 0;
     position: relative;
     @include type("heading-section");
-    a { border-bottom: none; }
 }
 
 section.level2 > hr {
@@ -47,8 +46,7 @@ section.level3 > h3 {
     padding: 0;
     margin: var(--space-xs) 0;
     @include type("heading-sub");
-    a { border-bottom: none; }
-    em { font: inherit; }
+    em { text-transform: none; }
 }
 
 section.level3 > hr {
@@ -70,20 +68,76 @@ section.level3 > hr:before {
     border-radius: 0;
 }
 
+h2 > a.anchor::after,
 h3 > a.anchor::after {
-    content: "\00B6";
-    @include type("heading-sub");
-    position: absolute;
-    color: var(--border-default);
-    text-decoration: none;
-    align-self: baseline;
-    right: 0;
-    opacity: 0.5;
+  content: "\00B6";
+  position: absolute;
+  color: var(--text-disabled);
+  opacity: 0;
+  transition: opacity 80ms linear;
 }
 
-h2 a, h3 a {
-    //@include link-style($border-color: none);
-      --link-underline: none;
-      --link-wash-hover: transparent;
-      --link-wash-active: none;
+h2 > a.anchor::after,
+h3 > a.anchor::after,
+h4 > a.anchor::after,
+h5 > a.anchor::after,
+h6 > a.anchor::after {
+  content: "\00B6";
+  position: absolute;
+  color: var(--text-disabled);
+  opacity: 0;
+  transition: opacity 80ms linear;
 }
+h2 > a.anchor::after { left: 0; }
+h3 > a.anchor::after,
+h4 > a.anchor::after,
+h5 > a.anchor::after,
+h6 > a.anchor::after { right: 0; }
+
+h2 > a.anchor:hover::after,
+h2 > a.anchor:focus-visible::after,
+h3 > a.anchor:hover::after,
+h3 > a.anchor:focus-visible::after,
+h4 > a.anchor:hover::after,
+h4 > a.anchor:focus-visible::after,
+h5 > a.anchor:hover::after,
+h5 > a.anchor:focus-visible::after,
+h6 > a.anchor:hover::after,
+h6 > a.anchor:focus-visible::after,
+section:target > h2 > a.anchor::after,
+section:target > h3 > a.anchor::after,
+section:target > h4 > a.anchor::after,
+section:target > h5 > a.anchor::after,
+section:target > h6 > a.anchor::after {
+  opacity: 1;
+}
+
+h2 > a.anchor,
+h3 > a.anchor,
+h4 > a.anchor,
+h5 > a.anchor,
+h6 > a.anchor {
+  --link-underline:     none;
+  --link-wash-hover:    transparent;
+  --link-wash-active:   transparent;
+  --link-text:          var(--text-primary);
+  --link-text-visited:  var(--text-primary);
+  --link-text-hover:    var(--text-disabled);
+  --link-text-active:   var(--text-disabled);
+}
+
+section.level4 > h4,
+section.level5 > h5,
+section.level6 > h6 {
+    display: flow-root;
+    text-align: left;
+    position: relative;
+    padding: 0;
+    margin: var(--space-xs) 0;
+    @include type("heading-sub");
+    text-transform: capitalize;
+    em { text-transform: none; }
+}
+section.level4 > h4 { font-size: calc(var(--step-1) * 0.82); }
+section.level5 > h5 { font-size: calc(var(--step-1) * 0.78); }
+section.level6 > h6 { font-size: calc(var(--step-1) * 0.74); }
