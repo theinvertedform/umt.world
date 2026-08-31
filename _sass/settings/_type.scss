@@ -1,7 +1,3 @@
-@use "sass:map";
-@use "sass:meta";
-@use "vendor/utopia" as utopia;
-
 $utopia-type: (
   "minWidth": 320,
   "maxWidth": 1240,
@@ -11,13 +7,6 @@ $utopia-type: (
   "maxTypeScale": 1.25,
   "positiveSteps": 5,
   "negativeSteps": 2,
-) !default;
-
-$utopia-space: (
-  "minWidth": 320, "maxWidth": 1240,
-  "minSize": 20, "maxSize": 22,
-  "positiveSteps": (1.5, 2, 3, 4, 6),
-  "negativeSteps": (0.75, 0.5, 0.25),
 ) !default;
 
 $font-stacks: (
@@ -42,8 +31,8 @@ $font-semantics: (
   code: var(--font-stack-mono),
 );
 
-$leading-ratio: 0.29 !default; // body
-$leading-ratio-ui: 0.35 !default; // meta, sidenote, caption
+$leading-ratio: 0.29 !default;      // body
+$leading-ratio-ui: 0.35 !default;   // meta, sidenote, caption
 
 // Font metrics, /1000 upem. Source: OS/2 + hhea.
 $metrics: (
@@ -68,34 +57,3 @@ $type-styles: (
   "superscript":     (family: var(--font-body), leading: 1),
   "caption":         (family: var(--font-ui), step: -1, leading: 1.35, adjust: 0.4),
 );
-
-$layout: (
-  "prose": 45rem,
-  "column": calc(var(--measure-prose) / 2),
-  ) !default;
-
-@mixin emit($prefix, $map) {
-  @each $key, $value in $map {
-    @if $value {
-      --#{$prefix}-#{$key}: #{$value};
-    }
-  }
-}
-
-:root {
-  @include utopia.generateTypeScale(map.merge($utopia-type, (prefix: "step-")));
-  @include utopia.generateSpaceScale(map.merge($utopia-space, (prefix: "space")));
-  @include emit("font-stack", $font-stacks);
-  @include emit("font", $font-semantics);
-  @include emit("measure", $layout);
-
-  --sidenote-gap: 64px;
-  --sidenote-width: min(
-    calc(50vw - (var(--body-width, 75ch) / 2 + 96px)),
-    var(--measure-column)
-  );
-
-  @each $name, $stack in $font-stacks {
-  --font-stack-#{$name}: #{meta.inspect($stack)};
-  }
-}

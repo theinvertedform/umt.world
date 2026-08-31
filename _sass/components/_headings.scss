@@ -1,5 +1,4 @@
-@use "../mixins" as *;
-@use "../settings/light-mode" as *;
+@use "../index" as *;
 h1.title {
   @include type("title");
   text-align: center;

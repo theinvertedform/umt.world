@@ -1,0 +1,117 @@
+$accent: "violet" !default;
+$neutral: "grey" !default;
+
+$status: (
+  error:   "red",
+  warning: "yellow",
+  success: "green",
+  info:    "blue",
+) !default;
+
+$on-solid: (
+  "red": light, "orange": light, "yellow": dark,  "green": light,
+  "blue": light, "indigo": light, "violet": light, "grey": light,
+) !default;
+
+$on-solid-light: #FFFFFF !default;
+$on-solid-dark:  #000000 !default;
+
+$steps: 1 2 3 4 5 6 7 8 9 10 11 12;
+
+// Primitives — solid
+
+$ramps: (
+  "red": (
+    1: #FFFCFB, 2: #FFF6F5, 3: #FFE9E6, 4: #FFDED9, 5: #FFD1CB, 6: #FFC1BA,
+    7: #FF9389, 8: #FF8076, 9: #FF665E, 10: #F15C55, 11: #C9443F, 12: #6D2522,
+  ),
+  "orange": (
+    1: #FFFCFA, 2: #FFF6F3, 3: #FFEAE1, 4: #FFDFD1, 5: #FFD3C0, 6: #FFC3AC,
+    7: #FE9671, 8: #FF8456, 9: #FF6C2F, 10: #F16225, 11: #C84807, 12: #6D2809,
+  ),
+  "yellow": (
+    1: #FEFDF6, 2: #FBF9E9, 3: #F6F3D2, 4: #F1ECBB, 5: #EBE3A1, 6: #E2D783,
+    7: #C7B945, 8: #C1AF00, 9: #FFE800, 10: #F2DC00, 11: #827300, 12: #484100,
+  ),
+  "green": (
+    1: #F9FEFA, 2: #F0FCF3, 3: #DFF8E6, 4: #CFF4D9, 5: #BCEFCA, 6: #A6E6B9,
+    7: #78CB94, 8: #4ABF78, 9: #00A95C, 10: #009D55, 11: #007F41, 12: #034B26,
+  ),
+  "blue": (
+    1: #FBFDFF, 2: #F2F9FF, 3: #E5F3FF, 4: #D7ECFF, 5: #C3E5FF, 6: #ADDAFF,
+    7: #7FBCF1, 8: #53A5E8, 9: #0078BF, 10: #006DB0, 11: #005388, 12: #0B3B5D,
+  ),
+  "indigo": (
+    1: #FCFDFF, 2: #F5F9FF, 3: #E9F1FF, 4: #DEEAFF, 5: #CFE0FF, 6: #BFD5FF,
+    7: #97B6F2, 8: #789DE9, 9: #3255A4, 10: #2A4B97, 11: #163276, 12: #0F2045,
+  ),
+  "violet": (
+    1: #FDFCFF, 2: #FAF7FF, 3: #F3EDFF, 4: #EDE4FF, 5: #E6D8FF, 6: #DCCAFD,
+    7: #C0A8E8, 8: #B394E4, 9: #9D7AD2, 10: #9270C5, 11: #7658A3, 12: #483761,
+  ),
+  "grey": (
+    1: #FEFCFA, 2: #FAF8F5, 3: #F3F0ED, 4: #ECE8E5, 5: #E3DFDB, 6: #D8D3CE,
+    7: #BAB5AF, 8: #A9A49F, 9: #928D88, 10: #87837E, 11: #6D6864, 12: #43403C,
+  ),
+);
+
+// Primitives — alpha
+
+$ramps-alpha: (
+  "red": (
+    1: #FF400004, 2: #FF1A000A, 3: #FF1F0019, 4: #FF220026, 5: #FF1D0034, 6: #FF1A0045,
+    7: #FF160076, 8: #FF130089, 9: #FF0D00A1, 10: #EA0A00AA, 11: #B70700C0, 12: #570300DD,
+  ),
+  "orange": (
+    1: #FF660005, 2: #FF40000C, 3: #FF4C001E, 4: #FF4E002E, 5: #FF4D003F, 6: #FF470053,
+    7: #FD42008E, 8: #FF4500A9, 9: #FF4B00D0, 10: #EF4700DA, 11: #C64300F8, 12: #682000F6,
+  ),
+  "yellow": (
+    1: #E3C60009, 2: #D1B90016, 3: #CCBB002D, 4: #CAB80044, 5: #C9B3005E, 6: #C3AD007C,
+    7: #B29F00BA, 8: #C1AF00FF, 9: #FFE800FF, 10: #F2DC00FF, 11: #827300FF, 12: #484100FF,
+  ),
+  "green": (
+    1: #00D42A06, 2: #00CC330F, 3: #00C73820, 4: #00C53530, 5: #00C23543, 6: #00B73659,
+    7: #009D3587, 8: #00A541B5, 9: #00A95CFF, 10: #009D55FF, 11: #007F41FF, 12: #004923FC,
+  ),
+  "blue": (
+    1: #0080FF04, 2: #0089FF0D, 3: #0089FF1A, 4: #0086FF28, 5: #0090FF3C, 6: #008CFF52,
+    7: #007AE380, 8: #007ADDAC, 9: #0078BFFF, 10: #006DB0FF, 11: #005388FF, 12: #003256F4,
+  ),
+  "indigo": (
+    1: #0055FF03, 2: #0066FF0A, 3: #005DFF16, 4: #005DFF21, 5: #005AFF30, 6: #0058FF40,
+    7: #004CDF68, 8: #0046D587, 9: #002C8ECD, 10: #002882D5, 11: #001F69E9, 12: #001239F0,
+  ),
+  "violet": (
+    1: #5500FF03, 2: #6000FF08, 3: #5500FF12, 4: #5500FF1B, 5: #5C00FF27, 6: #5700F535,
+    7: #4600BC57, 8: #4A00BF6B, 9: #4300A985, 10: #3D00988F, 11: #2E0073A7, 12: #160036C8,
+  ),
+  "grey": (
+    1: #CC660005, 2: #804C000A, 3: #552A0012, 4: #451D001A, 5: #391C0024, 6: #341A0031,
+    7: #23130050, 8: #1B0D0060, 9: #150B0077, 10: #120A0081, 11: #0F07009B, 12: #090500C3,
+  ),
+);
+
+// ---------------------------------------------------------------------------
+// Usage
+//
+//   @use "../index" as *;
+//
+//   .card {
+//     background: var(--bg-raised);
+//     border: 1px solid var(--border-subtle);
+//     color: var(--text-primary);
+//   }
+//
+//   .button { @include action; @include focus-visible; }
+//   .tag    { @include solid("orange"); }
+//   .banner { @include tinted("blue"); }
+//
+//   // SCSS-side access when you need the literal:
+//   .chart-series-1 { fill: c("violet", 9); }
+//   .veil           { background: ca("grey", 5); }
+//
+// Status colour must never be the only signal. Error and success are red and
+// green, which converge under deuteranopia — pair every status with an icon
+// or a word.
+// ---------------------------------------------------------------------------

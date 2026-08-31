@@ -1,0 +1,78 @@
+@use '../index' as *;
+@use '../vendor/utopia' as utopia;
+@use 'sass:map';
+@use 'sass:meta';
+
+:root {
+  @include utopia.generateTypeScale($utopia-type);
+  @include utopia.generateSpaceScale($utopia-space);
+  @include emit("font", $font-semantics);
+  @include emit("measure", $layout);
+
+  --sidenote-gap: #{$sidenote-gap};
+  --sidenote-width: min(
+    calc(50vw - (var(--body-width, 75ch) / 2 + 96px)),
+    var(--measure-column)
+  );
+
+  @each $name, $stack in $font-stacks {
+    --font-stack-#{$name}: #{meta.inspect($stack)};
+  }
+
+  @each $hue, $ramp in $ramps {
+    @each $step in $steps {
+      --#{$hue}-#{$step}: #{map.get($ramp, $step)};
+    }
+    --#{$hue}-on-solid: #{on-solid($hue)};
+  }
+
+  @each $hue, $ramp in $ramps-alpha {
+    @each $step in $steps {
+      --#{$hue}-a#{$step}: #{map.get($ramp, $step)};
+    }
+  }
+
+  --bg-page:   var(--#{$neutral}-2);
+  --bg-raised: var(--#{$neutral}-1);
+  --bg-sunken: var(--#{$neutral}-3);
+
+  --fill-idle:   var(--#{$neutral}-3);
+  --fill-hover:  var(--#{$neutral}-4);
+  --fill-active: var(--#{$neutral}-5);
+
+  --border-subtle:  var(--#{$neutral}-6);
+  --border-default: var(--#{$neutral}-7);
+  --border-hover:   var(--#{$neutral}-8);
+  --border-strong:  var(--#{$neutral}-11);
+
+  --text-primary:   var(--#{$neutral}-12);
+  --text-secondary: var(--#{$neutral}-11);
+  --text-disabled:  var(--#{$neutral}-8);
+  --text-inverse:   var(--#{$neutral}-1);
+
+  @each $step in $steps {
+    --accent-#{$step}: var(--#{$accent}-#{$step});
+  }
+  --accent-fill:     var(--accent-3);
+  --accent-hover:    var(--accent-4);
+  --accent-active:   var(--accent-5);
+  --accent-border:   var(--accent-7);
+  --accent-solid:    var(--accent-9);
+  --accent-solid-hover: var(--accent-10);
+  --accent-text:     var(--accent-11);
+  --accent-on-solid: var(--#{$accent}-on-solid);
+
+  --focus-ring: var(--accent-11);
+
+  @each $name, $hue in $status {
+    --#{$name}-bg:       var(--#{$hue}-3);
+    --#{$name}-border:   var(--#{$hue}-7);
+    --#{$name}-solid:    var(--#{$hue}-9);
+    --#{$name}-text:     var(--#{$hue}-11);
+    --#{$name}-on-solid: var(--#{$hue}-on-solid);
+  }
+
+  --scrim: #{rgba(c($neutral, 12), 0.7)};
+  --shadow-color-weak:   #{rgba(c($neutral, 12), 0.08)};
+  --shadow-color-strong: #{rgba(c($neutral, 12), 0.16)};
+}

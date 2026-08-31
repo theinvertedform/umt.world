@@ -1,4 +1,5 @@
-@use "settings" as *;
+@use '../settings' as *;
+@use 'functions' as *;
 @use "sass:map";
 
 //@mixin link-style(
@@ -60,4 +61,90 @@ $body-x-ratio: 0.42;
   @if map.get($style, style) { font-style: map.get($style, style); }
   @if map.get($style, transform) { text-transform: map.get($style, transform); }
   @if map.get($style, caps) { font-variant-caps: map.get($style, caps); }
+}
+
+@mixin emit($prefix, $map) {
+  @each $key, $value in $map {
+    @if $value {
+      --#{$prefix}-#{$key}: #{$value};
+    }
+  }
+}
+
+@mixin solid($hue: $accent) {
+  $hue: hue($hue);
+  background: var(--#{$hue}-9);
+  color: var(--#{$hue}-on-solid);
+
+  &:hover { background: var(--#{$hue}-10); }
+}
+
+@mixin action($hue: $accent) {
+  $hue: hue($hue);
+  background: var(--#{$hue}-11);
+  color: $on-solid-light;
+
+  &:hover { background: var(--#{$hue}-12); }
+}
+
+@mixin tinted($hue: $accent) {
+  $hue: hue($hue);
+  background: var(--#{$hue}-3);
+  border: 1px solid var(--#{$hue}-7);
+  color: var(--#{$hue}-11);
+
+  &:hover  { background: var(--#{$hue}-4); }
+  &:active { background: var(--#{$hue}-5); }
+}
+
+@mixin focus-visible {
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+}
+
+@mixin link-base {
+  color: var(--link-text);
+  text-decoration-line: var(--link-underline, underline);
+  text-decoration-color: var(--link-rule);
+  text-decoration-thickness: var(--link-rule-weight, 0.06em);
+  text-underline-offset: 0.15em;
+  background-color: transparent;
+  transition:
+    color 80ms linear,
+    text-decoration-color 80ms linear,
+    background-color 80ms linear;
+
+  &:visited { color: var(--link-text-visited); }
+
+  &:hover {
+    color: var(--link-text-hover);
+    text-decoration-color: var(--link-rule-hover);
+    background-color: var(--link-wash-hover);
+  }
+
+  &:active {
+    color: var(--link-text-active);
+    background-color: var(--link-wash-active);
+  }
+
+  @include focus-visible;
+}
+
+@mixin link-hue($hue: "grey", $visited: "grey") {
+  --link-text:         var(--#{$hue}-11);
+  --link-text-visited: var(--#{$visited}-11);
+  --link-text-hover:   var(--#{$hue}-12);
+  --link-text-active:  var(--#{$hue}-12);
+  --link-rule:         var(--#{$hue}-7);
+  --link-rule-hover:   currentColor;
+  --link-wash-hover:   var(--#{$hue}-3);
+  --link-wash-active:  var(--#{$hue}-5);
+  --link-wash-edge:    var(--#{$hue}-7);
+}
+
+@mixin link($hue: "grey", $visited: "grey") {
+  @include link-hue($hue, $visited);
+  @include link-base;
 }

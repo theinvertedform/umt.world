@@ -1,7 +1,6 @@
+@use "../index" as *;
 @use "sass:map";
 @use "sass:math";
-@use "../settings" as *;
-@use "../mixins" as *;
 
 $dc: map.get($metrics, dropcap);
 $bd: map.get($metrics, body);

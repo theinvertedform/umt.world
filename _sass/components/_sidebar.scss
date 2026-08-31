@@ -1,5 +1,4 @@
-@use "../mixins" as *;
-@use "../settings/light-mode" as *;
+@use "../index" as *;
 @use "sass:map";
 
 #sidebar {

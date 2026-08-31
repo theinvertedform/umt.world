@@ -1,6 +1,5 @@
+@use "../index" as *;
 @use "sass:map";
-@use "../mixins" as *;
-@use "../settings/light-mode" as *;
 
 $ornament-path: "/assets/images/ornaments/";
 $diary-ornament: "fcaslon-yen";

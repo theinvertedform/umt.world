@@ -1,0 +1,45 @@
+@use "sass:map";
+@use "sass:meta";
+@use "../settings" as *;
+
+@function hue($hue) {
+  @if meta.type-of($hue) == color {
+    @error "Pass the hue as a quoted string, e.g. c(\"violet\", 9) — not c("violet", 9).";
+  }
+  @return $hue;
+}
+
+@function c($hue, $step) {
+  $hue: hue($hue);
+  $ramp: map.get($ramps, $hue);
+  @if $ramp == null {
+    @error "Unknown hue `#{$hue}`. Expected one of: #{map.keys($ramps)}.";
+  }
+  $value: map.get($ramp, $step);
+  @if $value == null {
+    @error "Step `#{$step}` is out of range. Expected 1 through 12.";
+  }
+  @return $value;
+}
+
+@function ca($hue, $step) {
+  $hue: hue($hue);
+  $ramp: map.get($ramps-alpha, $hue);
+  @if $ramp == null {
+    @error "Unknown hue `#{$hue}`. Expected one of: #{map.keys($ramps-alpha)}.";
+  }
+  $value: map.get($ramp, $step);
+  @if $value == null {
+    @error "Step `#{$step}` is out of range. Expected 1 through 12.";
+  }
+  @return $value;
+}
+
+@function on-solid($hue) {
+  $hue: hue($hue);
+  @if map.get($on-solid, $hue) == dark {
+    @return $on-solid-dark;
+  } @else {
+    @return $on-solid-light;
+  }
+}

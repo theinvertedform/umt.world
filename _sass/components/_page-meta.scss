@@ -1,5 +1,4 @@
-@use "../mixins" as *;
-@use "../settings/light-mode" as *;
+@use "../index" as *;
 
 #page-metadata {
     margin: 0 0 var(--space-s) 0;
