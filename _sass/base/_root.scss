@@ -40,6 +40,23 @@
   --fill-hover:  var(--#{$neutral}-4);
   --fill-active: var(--#{$neutral}-5);
 
+  /* -- rules -- */
+  --rule-hairline: 1px;
+  --rule-thin:     1.5px;
+  --rule-medium:   2px;
+  --rule-thick:    4px;
+  --rule-double:   calc(var(--rule-medium) * 3);
+
+  --rule-style-solid:  solid;
+  --rule-style-hint:   dotted;
+  --rule-style-figure: double;
+
+  --rule-default: var(--rule-hairline) var(--rule-style-solid)  var(--border-default);
+  --rule-subtle:  var(--rule-hairline) var(--rule-style-solid)  var(--border-subtle);
+  --rule-hint:    var(--rule-hairline) var(--rule-style-hint)   var(--border-default);
+  --rule-figure:  var(--rule-medium)   var(--rule-style-figure) var(--border-default);
+  --rule-focus:   var(--rule-medium)   var(--rule-style-solid)  var(--focus-ring);
+
   --border-subtle:  var(--#{$neutral}-6);
   --border-default: var(--#{$neutral}-7);
   --border-hover:   var(--#{$neutral}-8);

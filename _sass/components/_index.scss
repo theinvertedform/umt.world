@@ -5,7 +5,7 @@ aside.index.abstract {
 }
 
 h1.index-heading {
-    border-bottom: 1px solid var(--border-subtle);
+    border-bottom: var(--rule-subtle);
     margin: var(--space-xs) 0 0 0;
     text-align: left;
     padding: 0;
@@ -74,6 +74,6 @@ aside.index.abstract {
     padding: var(--space-xs);
     background-color: var(--bg-sunken);
     color: var(--text-secondary);
-    outline: 2px solid var(--border-default);
+    outline: var(--rule-focus);
   }
 }

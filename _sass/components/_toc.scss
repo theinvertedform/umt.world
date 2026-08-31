@@ -4,7 +4,7 @@
     @include link-hue("grey");
     --link-underline: none;
     --link-wash-hover: var(--grey-4);
-    border: 1px solid var(--border-default);
+    border:var(--rule-default);
     color: var(--text-secondary);
     background-color: var(--bg-raised);
     z-index: 20;
@@ -27,7 +27,7 @@
     column-count: 2;
     margin: 0;
     column-gap: var(--space-s);
-    column-rule: 1px solid var(--border-default);
+    column-rule: var(--rule-default);
     list-style-type: none;
     padding: 0;
 }
@@ -65,7 +65,7 @@
         max-width: 25ch;
         margin: 0 var(--space-s) var(--space-xs) 0;
         float: left;
-        border: 1px solid var(--border-default);
+        border: var(--rule-default);
     }
 
     #TOC a {

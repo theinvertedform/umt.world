@@ -3,15 +3,15 @@ $utopia-space: (
   "minSize": 20, "maxSize": 22,
   "positiveSteps": (1.5, 2, 3, 4, 6),
   "negativeSteps": (0.75, 0.5, 0.25),
-) !default;
+);
 
 $layout: (
   "prose": 45rem,
   "column": calc(var(--measure-prose) / 2),
-) !default;
+);
 
-$sidenote-gap: 64px !default;
-$sidenote-min-width: 1521px !default;
+$sidenote-gap: 64px;
+$sidenote-min-width: 1521px;
 
 //  --sidenote-gap: 64px;
 //  --sidenote-width: min(

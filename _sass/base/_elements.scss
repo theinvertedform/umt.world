@@ -26,7 +26,7 @@ blockquote {
     padding: var(--space-s) var(--space-xs);
     color: var(--text-secondary);
     background-color: var(--bg-raised);
-    border: 1px solid var(--border-strong);
+    border: var(--rule-default);
     /*overflow: hidden;*/
     display: flow-root;
 }
@@ -34,7 +34,7 @@ blockquote {
 code {
     margin: var(--space-s) 0;
     padding: var(--space-s) var(--space-xs);
-    border: 1px solid var(--border-strong);
+    border: var(--rule-default);
     background-color: var(--bg-raised);
     display: flow-root;
     text-wrap: wrap;

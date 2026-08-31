@@ -7,15 +7,10 @@ figure {
 
 #markdownBody figure.full-width {
   margin-block: 2em;
+  width: auto;
 
-  @media (min-width: 1521px) {
-    width: auto;
+  @include mq(sidenotes) {
     margin-inline: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
-  }
-
-  @media (max-width: 1520px) {
-    width: auto;
-    margin-inline: calc(50% - 50vw);
   }
 
   img {
@@ -50,7 +45,7 @@ img {
 }
 
 #markdownBody figure img {
-    border: 1px solid var(--border-subtle);
+    border: var(--rule-figure);
     box-shadow: 0 0 10px 0 var(--border-default);
   }
 

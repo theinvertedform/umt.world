@@ -36,10 +36,9 @@ span.page-status {
   display: block;
   margin: 0;
   padding: var(--space-xs);
-  border: none;
   background: none;
   color: var(--text-secondary);
-  border: 1px solid var(--border-default);
+  border: var(--rule-default);
   background-color: var(--bg-raised);
   @include type("meta");
   em { font-style: italic; }

@@ -5,7 +5,7 @@ h1.title {
 }
 section > h2 {
     display: flow-root;
-    border-bottom: 1px solid var(--border-default);
+    border-bottom: var(--rule-default);
     text-align: right;
     padding: 0;
     margin: var(--space-xs) 0;
@@ -14,7 +14,7 @@ section > h2 {
 }
 section > h3 {
     display: flow-root;
-    border-bottom: 1px dotted var(--border-default);
+    border-bottom: var(--rule-subtle);
     text-align: left;
     position: relative;
     padding: 0;
