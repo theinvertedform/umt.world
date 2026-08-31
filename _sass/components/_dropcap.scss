@@ -49,8 +49,7 @@ $baseline: math.div($leading - (map.get($bd, asc) - map.get($bd, desc)), 2) + ma
   float: none; font: inherit; margin: 0; color: inherit;
 }
 
-// Below the sidenote breakpoint, stand down.
-@media (max-width: 40rem) {
+@include mq(tablet, max) {
   #markdownBody .dropcap {
     float: none; font: inherit; line-height: inherit;
     margin: 0; color: inherit;

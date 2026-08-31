@@ -148,3 +148,10 @@ $body-x-ratio: 0.42;
   @include link-hue($hue, $visited);
   @include link-base;
 }
+
+@mixin mq($name, $dir: min) {
+  $bp: map.get($breakpoints, $name);
+  @if not $bp { @error "unknown breakpoint: #{$name}"; }
+  @if $dir == min { @media (min-width: $bp) { @content; } }
+  @else           { @media (max-width: $bp - 1px) { @content; } }
+}

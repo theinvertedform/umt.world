@@ -35,7 +35,7 @@
   font-variant: small-caps;
 }
 
-@media (min-width: 901px) {
+@include mq(desktop) {
     article.post {
         margin: 0 auto;
     }

@@ -60,7 +60,7 @@
     padding: 0;
 }
 
-@media(min-width: 901px) {
+@include mq(desktop) {
     #TOC {
         max-width: 25ch;
         margin: 0 var(--space-s) var(--space-xs) 0;
