@@ -1,11 +1,9 @@
 @use "../mixins" as *;
 @use "../settings/light-mode" as *;
-
 h1.title {
   @include type("title");
   text-align: center;
 }
-
 section > h2 {
     display: flow-root;
     border-bottom: 1px solid var(--border-default);
@@ -15,7 +13,6 @@ section > h2 {
     position: relative;
     @include type("heading-section");
 }
-
 section > h3 {
     display: flow-root;
     border-bottom: 1px dotted var(--border-default);
@@ -26,51 +23,59 @@ section > h3 {
     @include type("heading-sub");
     em { text-transform: none; }
 }
-
-h2 > a.anchor::after,
-h3 > a.anchor::after {
+h2 > a.anchor::before, h2 > a.anchor::after,
+h3 > a.anchor::before, h3 > a.anchor::after,
+h4 > a.anchor::before, h4 > a.anchor::after,
+h5 > a.anchor::before, h5 > a.anchor::after,
+h6 > a.anchor::before, h6 > a.anchor::after {
   content: "\00B6";
   position: absolute;
   color: var(--text-disabled);
   opacity: 0;
   transition: opacity 80ms linear;
 }
-
-h2 > a.anchor::after,
-h3 > a.anchor::after,
-h4 > a.anchor::after,
-h5 > a.anchor::after,
-h6 > a.anchor::after {
-  content: "\00B6";
-  position: absolute;
-  color: var(--text-disabled);
-  opacity: 0;
-  transition: opacity 80ms linear;
-}
+h2 > a.anchor::before,
+h3 > a.anchor::before,
+h4 > a.anchor::before,
+h5 > a.anchor::before,
+h6 > a.anchor::before { content: none; }
 h2 > a.anchor::after { left: 0; }
 h3 > a.anchor::after,
 h4 > a.anchor::after,
 h5 > a.anchor::after,
 h6 > a.anchor::after { right: 0; }
-
+h2 > a.anchor:hover::before,
 h2 > a.anchor:hover::after,
+h2 > a.anchor:focus-visible::before,
 h2 > a.anchor:focus-visible::after,
+h3 > a.anchor:hover::before,
 h3 > a.anchor:hover::after,
+h3 > a.anchor:focus-visible::before,
 h3 > a.anchor:focus-visible::after,
+h4 > a.anchor:hover::before,
 h4 > a.anchor:hover::after,
+h4 > a.anchor:focus-visible::before,
 h4 > a.anchor:focus-visible::after,
+h5 > a.anchor:hover::before,
 h5 > a.anchor:hover::after,
+h5 > a.anchor:focus-visible::before,
 h5 > a.anchor:focus-visible::after,
+h6 > a.anchor:hover::before,
 h6 > a.anchor:hover::after,
+h6 > a.anchor:focus-visible::before,
 h6 > a.anchor:focus-visible::after,
+section:target > h2 > a.anchor::before,
 section:target > h2 > a.anchor::after,
+section:target > h3 > a.anchor::before,
 section:target > h3 > a.anchor::after,
+section:target > h4 > a.anchor::before,
 section:target > h4 > a.anchor::after,
+section:target > h5 > a.anchor::before,
 section:target > h5 > a.anchor::after,
+section:target > h6 > a.anchor::before,
 section:target > h6 > a.anchor::after {
   opacity: 1;
 }
-
 h2 > a.anchor,
 h3 > a.anchor,
 h4 > a.anchor,
@@ -84,7 +89,6 @@ h6 > a.anchor {
   --link-text-hover:    var(--text-disabled);
   --link-text-active:   var(--text-disabled);
 }
-
 section > h4,
 section > h5,
 section > h6 {

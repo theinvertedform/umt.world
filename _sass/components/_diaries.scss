@@ -1,0 +1,87 @@
+@use "sass:map";
+@use "../mixins" as *;
+@use "../settings/light-mode" as *;
+
+$ornament-path: "/assets/images/ornaments/";
+$diary-ornament: "fcaslon-yen";
+$diary-ornament-size: var(--step-5);
+
+.diaries {
+  section > h2 {
+    @include type("heading-display");
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: calc(#{$diary-ornament-size} + var(--space-2xs));
+
+    > a.anchor {
+      display: block;
+
+      &::after {
+        content: "";
+        display: block;
+        width: $diary-ornament-size;
+        height: $diary-ornament-size;
+        margin: var(--space-2xs) auto 0;
+        position: static;
+        opacity: 1;
+        background-color: var(--link-text);
+        transition: background-color 80ms linear;
+        mask-image: url("#{$ornament-path}#{$diary-ornament}.svg");
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+      }
+
+      &:hover::after,
+      &:focus-visible::after { background-color: var(--link-text-hover); }
+      &:active::after        { background-color: var(--link-text-active); }
+    }
+  }
+
+  section > h3 {
+    display: inline;
+    float: left;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    > a.anchor {
+      display: inline;
+
+      --link-underline:     initial;
+      --link-text:          initial;
+      --link-text-visited:  initial;
+      --link-text-hover:    initial;
+      --link-text-active:   initial;
+      --link-wash-hover:    initial;
+      --link-wash-active:   initial;
+
+      &::after {
+        left: auto;
+        right: 100%;
+        margin-right: var(--space-2xs);
+      }
+    }
+
+    &::after {
+      content: "\2014";
+      color: var(--text-disabled);
+    }
+  }
+
+  section > h3 + p {
+    margin-top: 0;
+    text-indent: 0;
+  }
+
+  section.level2 {
+    margin-top: var(--space-s);
+  }
+
+  section.level3 {
+    margin-top: var(--space-s);
+  }
+
+}
+
