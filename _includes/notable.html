@@ -1,0 +1,10 @@
+<ul class="section-link-list">
+{% for item in site.data.notable %}
+<li>
+<a href="{{ item.url }}" itemprop="url">
+<span itemprop="name">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+</a>
+<!--{% if item.description %}<span class="index-description">{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% endif %}-->
+</li>
+{% endfor %}
+</ul>

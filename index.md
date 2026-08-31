@@ -1,9 +1,9 @@
 ---
 title: Index
-abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. Below you will find links to my writing, including criticism and narrative experiments. This website is an *outsider* project that combines design, information architecture, and literary craft.
+abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interested in contemporary life. I write about literature, film, the visual arts, and culture more generally. I also practice writing in a post-fictional mode. This website is an index of work published in various magazines, journals, and on other websites. It is also its own literary work. My only goal with this website is to systematically show what it means that we live as we do today.
 
 
-To learn more about hypertext and the philosophy of this website, read [*About the Website*](/about); for more about me and my relationship to writing, read [*About the Author*](/links). Subscribe to the [newsletter](https://news.umt.world) to get updates sent to you. The index below contains [critical writing](/#culture) about art and film, [book reviews](/#books), fiction, and [interviews](/#interviews) with artists and philosophers. There is a secret narrative threaded through the [margins](/diaries)."
+To learn more about new media and the design of this website, read [*About the Website*](/about). For more about me and my motivations, read [*About the Author*](/links). This website is constantly in development. The best way to stay updated is to subscribe to the [newsletter](https://news.umt.world), which I only send occasionally. The index below contains [critical writing](/#culture) about art and film, [book reviews](/#books), fiction, and [interviews](/#interviews) with artists and philosophers. The [*Diaries*](/diaries) develop a chronological narrative."
 layout: home
 ---
 
@@ -25,38 +25,22 @@ layout: home
 {% endfor %}
 {% assign sorted = all_documents | sort: 'date' | reverse | slice: 0, 10 %}
 {% for post in sorted %}
-<li>{% if post.url %}<a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>{% else %}<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>{% endif %}</li>
+<li>
+{% if post.collection == "diaries" %}
+<a href="/diaries#{{ post.date | date: '%Y-%m-%d' }}ff" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>
+{% elsif post.url %}
+<a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>
+{% else %}
+<a href="{{ post.slug }}" title="{{ post.title }}, posted on {{ post.date | date: site.date_format }}.">{{ post.title }}</a>
+{% endif %}
+</li>
 {% endfor %}
 </ul>
 </section>
 
 <section id="notable" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
 <h1 class="index-heading"><a href="#notable" title="All the work that I am most proud of.">Notable</a></h1>
-<ul class="section-link-list">
-<li>
-<a href="https://letterboxd.com/theinvertedform/list/my-personal-canon/">My Film Canon</a>
-</li>
-<li>
-<a href="https://www.goodreads.com/review/list/122256622-uriah-todoroff?shelf=favourites">My Favourite Books</a>
-</li>
-<li>
-<a href="/interviews/tending-the-revolutionary-garden">Tending the Revolutionary Garden</a>
-</li>
-<li>
-<a href="/interviews/a-cryptoeconomy-of-affect">A Cryptoeconomy of Affect</a>
-</li>
-<li>
-<a href="/culture/drones">Return to Drones</a>
-</li>
-<li>
-<a href="/culture/light-enough-to-burn-a-hole-in-the-sun">Light Enough to Burn a Hole in the Sun</a>
-<ul>
-</ul>
-</li>
-<li>
-<a href="https://letterboxd.com/theinvertedform/film/right-now-wrong-then/">Review of *Right Now, Wrong Then*</a>
-</li>
-</ul>
+{% include notable.html %}
 </section>
 
 <section id="diaries" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -76,7 +60,7 @@ layout: home
 <hr class="index-section-ornament" >
 
 <section id="books" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/#books" title="The umt.world Review of Books">Mile End Review of Books</a></h1>
+<h1 class="index-heading"><a href="#books" title="The umt.world Review of Books">Mile End Review of Books</a></h1>
 <ul class="section-link-list">
 {% for post in site.books reversed limit: 10 %}
 <li>
@@ -89,7 +73,7 @@ layout: home
 </section>
 
 <section id="culture" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/#culture" title="Writing on all cultural objects that are not books.">Margins of Culture</a></h1>
+<h1 class="index-heading"><a href="#culture" title="Writing on all cultural objects that are not books.">Margins of Culture</a></h1>
 <ul class="section-link-list">
 {% for post in site.culture reversed %}
 {% unless post.categories contains "total cinema" %}
@@ -122,7 +106,7 @@ layout: home
 {% endif %}
 
 <section id="interviews" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-<h1 class="index-heading"><a href="/#interviews" title="Interviews conducted by me, and of me.">In Conversation</a></h1>
+<h1 class="index-heading"><a href="#interviews" title="Interviews conducted by me, and of me.">In Conversation</a></h1>
 <ul class="section-link-list">
 {% for post in site.interviews reversed limit: 10 %}
 <li>

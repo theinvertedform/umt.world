@@ -65,7 +65,7 @@ $type-styles: (
   "toc":             (family: var(--font-ui), step: -1, leading: 1.2, adjust: 0.4),
   "description":     (family: var(--font-body), style: italic, leading: calc(1ex / #{$leading-ratio})),
   "superscript":     (family: var(--font-body), leading: 1),
-  "caption":         (family: var(--font-ui), step: -2, leading: 1.35, adjust: 0.4),
+  "caption":         (family: var(--font-ui), step: -1, leading: 1.35, adjust: 0.4),
 );
 
 $layout: (
