@@ -1,42 +1,53 @@
 @use "../index" as *;
 
+article {
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: var(--space-xs);
+}
+
+article > * {
+    grid-column: col 3 / col 11;
+}
+
 #markdownBody {
-    margin: var(--space-xs) auto;
-    padding: 0 var(--space-2xs);
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-auto-rows: min-content;
     position: relative;
 }
 
-    #markdownBody .section-link-list {
-        padding: 0 0 0 var(--space-xs);
-    }
+#markdownBody > * {
+    grid-column: col 3 / col 11;
+}
 
-        #markdownBody .section-link-list li {
-            /*padding: var(--space-3xs);*/
-            list-style-position: outside;
-        }
+#markdownBody .section-link-list {
+    padding: 0 0 0 var(--space-xs);
+}
 
-    .markdownBody a {
-        font-variant-numeric: lining-nums;
-    }
+#markdownBody .section-link-list li {
+    /*padding: var(--space-3xs);*/
+    list-style-position: outside;
+}
 
-    .markdownBody li {
-        list-style-position: outside;
-    }
+.markdownBody a {
+    font-variant-numeric: lining-nums;
+}
 
-    p {
-      margin: 0;
-    }
+.markdownBody li {
+    list-style-position: outside;
+}
 
-    p + p {
-        text-indent: var(--space-m);
-    }
+p {
+  margin: 0;
+}
+
+p + p {
+    text-indent: var(--space-m);
+}
 
 .smallcaps {
   font-variant: small-caps;
-}
-
-@include mq(desktop) {
-    article.post {
-        margin: 0 auto;
-    }
 }

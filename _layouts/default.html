@@ -3,11 +3,8 @@
 
 	{% include head.html %}
 
-	{% if page.title == 'Index' %}
-    <body class="page-index" itemscope itemtype="https://schema.org/WebPage">
-	{% else %}
-    <body itemscope itemtype="https://schema.org/WebPage">
-	{% endif %}
+	{% capture body_class %}{% if page.layout == 'home' %}page-index {% endif %}{% if page.hero %}has-hero{% endif %}{% endcapture %}
+    <body{% if body_class != '' %} class="{{ body_class | strip }}"{% endif %}>
 
 	<a href="#markdownBody" class="skip-link">Skip to content</a>
 
@@ -19,6 +16,7 @@
 			{% endif %}
 			<img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}">
 		</picture>
+		<figcaption>{{ page.hero_caption }}</figcaption>
 	</figure>
 	{% endif %}
 

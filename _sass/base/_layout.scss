@@ -1,58 +1,74 @@
 @use "../index" as *;
 
 body {
-    --body-width: var(--measure-prose);
-    --hero-height: calc(100svh - var(--nav-item-height) - var(--space-s));
-    --nav-item-height: calc(1 * var(--step-2) + 2 * var(--space-3xs));
+    --grid-gap: var(--space-xs);
+    --bleed-min: var(--space-xs);
+    --content-max: calc(3 * var(--measure-column) + 2 * var(--space-m));
+    --grid-col: calc((var(--content-max) - 11 * var(--grid-gap)) / 12);
+    --note-track: 0px;
+
+    --span-prose: content-start / content-end;
+
+    @include mq(tablet) {
+        --grid-gap: var(--space-s);
+    }
+
+    @include mq(desktop) {
+        --grid-gap: var(--space-m);
+        --span-prose: col 3 / col 11;
+    }
+
+    @include mq(sidenotes) {
+        --note-track: var(--sidenote-width);
+    }
 
     display: grid;
-    grid-template-columns: [full-start] minmax(0, 1fr) [full-end];
-    grid-template-rows:
-      [hero-start] auto
-      [hero-end nav-start] auto
-      [nav-end main-start] 1fr
-      [main-end footer-start] auto
-      [footer-end];
     min-height: 100svh;
-}
+    row-gap: var(--space-s);
 
-.hero {
-    grid-row: hero-start / hero-end;
-    grid-column: full-start / full-end;
-    margin: 0;
-    margin-block-end: var(--space-s);
+    grid-template-columns:
+        [full-start] minmax(var(--space-xs), 1fr)
+        [bleed-start note-start] var(--note-track)
+        [note-end content-start] repeat(12, [col] minmax(0, var(--grid-col)))
+        [content-end] var(--note-track)
+        [bleed-end] minmax(var(--space-xs), 1fr)
+        [full-end];
 
-    img {
-        display: block;
-        width: 100%;
-        height: var(--hero-height);
-        object-fit: cover;
+    column-gap: var(--grid-gap);
+
+    grid-template-rows:
+        [nav-start] auto
+        [nav-end main-start] 1fr
+        [main-end footer-start] auto
+        [footer-end];
+
+    @include mq(sidenotes) {
+        --note-track: var(--sidenote-width);
     }
 }
 
-.hero picture {
-  display: block;
-  height: 100%;
+body.has-hero {
+    grid-template-rows:
+        [hero-start] 1fr
+        [hero-end nav-start] auto
+        [nav-end main-start] auto
+        [main-end footer-start] auto
+        [footer-end];
 }
 
-#sidebar { grid-row: nav-start / nav-end; }
+#sidebar { grid-row: nav-start / nav-end; grid-column: content-start / content-end; }
 main     { grid-row: main-start / main-end; }
 footer   { grid-row: footer-start / footer-end; }
 
 main {
     position: relative;
-    width: 100%;
-    max-width: var(--body-width, 75ch);
-    margin: 0 auto;
-    justify-self: center;
-}
-
-body.page-index {
-  --body-width: calc(3 * var(--measure-column) + 2 * var(--space-m) + 2 * var(--space-s));
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template-columns: subgrid;
 }
 
 .post section {
-  margin-top: 2.75em;
+    margin-top: 2.75em;
 }
 
 @include mq(tablet) {
