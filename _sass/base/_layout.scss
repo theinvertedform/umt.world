@@ -2,12 +2,49 @@
 
 body {
     --body-width: var(--measure-prose);
+    --hero-height: calc(100svh - var(--nav-item-height) - var(--space-s));
+    --nav-item-height: calc(1 * var(--step-2) + 2 * var(--space-3xs));
+
+    display: grid;
+    grid-template-columns: [full-start] minmax(0, 1fr) [full-end];
+    grid-template-rows:
+      [hero-start] auto
+      [hero-end nav-start] auto
+      [nav-end main-start] 1fr
+      [main-end footer-start] auto
+      [footer-end];
+    min-height: 100svh;
 }
+
+.hero {
+    grid-row: hero-start / hero-end;
+    grid-column: full-start / full-end;
+    margin: 0;
+    margin-block-end: var(--space-s);
+
+    img {
+        display: block;
+        width: 100%;
+        height: var(--hero-height);
+        object-fit: cover;
+    }
+}
+
+.hero picture {
+  display: block;
+  height: 100%;
+}
+
+#sidebar { grid-row: nav-start / nav-end; }
+main     { grid-row: main-start / main-end; }
+footer   { grid-row: footer-start / footer-end; }
 
 main {
     position: relative;
+    width: 100%;
     max-width: var(--body-width, 75ch);
     margin: 0 auto;
+    justify-self: center;
 }
 
 body.page-index {
@@ -19,18 +56,7 @@ body.page-index {
 }
 
 @include mq(tablet) {
-    main {
-        min-height: 100vh;
-        display: flex;
-        flex-flow: column;
-    }
-
-    article {
-        flex: 1 1 auto;
-    }
-
     header {
         margin: var(--space-m) 0 var(--space-s) 0;
     }
-
 }

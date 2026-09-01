@@ -3,6 +3,7 @@
 
 #sidebar {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     width: min(var(--measure-prose), 100%);
     margin-inline: auto;
@@ -57,6 +58,12 @@
           &.tint-#{$hue} { @include tinted($hue); }
         }
     }
+
+#sidebar a#logo,
+#sidebar .sidebar-links a {
+    min-height: var(--nav-item-height);
+    align-content: center;
+}
 
 @include mq(tablet) {
   #sidebar span#logotype {

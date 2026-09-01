@@ -11,6 +11,17 @@
 
 	<a href="#markdownBody" class="skip-link">Skip to content</a>
 
+	{% if page.hero %}
+	<figure class="hero">
+		<picture>
+			{% if page.hero_portrait %}
+			<source media="(max-width: 901px)" srcset="{{ page.hero_portrait | relative_url }}">
+			{% endif %}
+			<img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}">
+		</picture>
+	</figure>
+	{% endif %}
+
 	{% include nav.html base=page.nav_base %}
 
 		<main>
