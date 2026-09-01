@@ -14,7 +14,10 @@
 			{% if page.hero_portrait %}
 			<source media="(max-width: 901px)" srcset="{{ page.hero_portrait | relative_url }}">
 			{% endif %}
-			<img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}">
+			{% if page.hero_landscape %}
+			<source media="(min-width: 1400px)" srcset="{{ page.hero_landscape | relative_url }}"">
+			{% endif %}
+			<img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt }}" {% if page.hero_focus %} style="--hero-focus: {{ page.hero_focus }}"{% endif %}>
 		</picture>
 		<figcaption>{{ page.hero_caption }}</figcaption>
 	</figure>

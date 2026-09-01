@@ -8,7 +8,7 @@ article {
 }
 
 article > * {
-    grid-column: col 3 / col 11;
+    grid-column: var(--span-prose);
 }
 
 #markdownBody {
@@ -20,7 +20,7 @@ article > * {
 }
 
 #markdownBody > * {
-    grid-column: col 3 / col 11;
+    grid-column: var(--span-prose);
 }
 
 #markdownBody .section-link-list {

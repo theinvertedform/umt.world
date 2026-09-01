@@ -1,6 +1,8 @@
 @use "../index" as *;
 
 footer {
+    grid-row: footer-start/ footer-end;
+    grid-column: var(--span-prose);
     text-align: center;
     margin: var(--space-m) 0;
     align-items: center;

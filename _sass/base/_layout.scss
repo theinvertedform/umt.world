@@ -1,13 +1,29 @@
 @use "../index" as *;
 
 body {
-    --grid-gap: var(--space-xs);
+    --grid-gap: 0;
     --bleed-min: var(--space-xs);
-    --content-max: calc(3 * var(--measure-column) + 2 * var(--space-m));
-    --grid-col: calc((var(--content-max) - 11 * var(--grid-gap)) / 12);
     --note-track: 0px;
 
     --span-prose: content-start / content-end;
+
+    display: grid;
+    min-height: 100svh;
+    row-gap: var(--space-s);
+    column-gap: var(--grid-gap);
+
+    grid-template-columns:
+        [full-start] var(--bleed-min)
+        [content-start col] minmax(0, 1fr)
+        [content-end] var(--bleed-min)
+        [full-end];
+
+
+    grid-template-rows:
+        [nav-start] auto
+        [nav-end main-start] 1fr
+        [main-end footer-start] auto
+        [footer-end];
 
     @include mq(tablet) {
         --grid-gap: var(--space-s);
@@ -15,32 +31,15 @@ body {
 
     @include mq(desktop) {
         --grid-gap: var(--space-m);
+        --grid-col: calc((var(--measure-column) - 3 * var(--grid-gap)) / 4);
         --span-prose: col 3 / col 11;
+
+        grid-template-columns:
+            [full-start] minmax(var(--space-xs), 1fr)
+            [content-start] repeat(12, [col] minmax(0, var(--grid-col)))
+            [content-end] minmax(var(--space-xs), 1fr)
+            [full-end];
     }
-
-    @include mq(sidenotes) {
-        --note-track: var(--sidenote-width);
-    }
-
-    display: grid;
-    min-height: 100svh;
-    row-gap: var(--space-s);
-
-    grid-template-columns:
-        [full-start] minmax(var(--space-xs), 1fr)
-        [bleed-start note-start] var(--note-track)
-        [note-end content-start] repeat(12, [col] minmax(0, var(--grid-col)))
-        [content-end] var(--note-track)
-        [bleed-end] minmax(var(--space-xs), 1fr)
-        [full-end];
-
-    column-gap: var(--grid-gap);
-
-    grid-template-rows:
-        [nav-start] auto
-        [nav-end main-start] 1fr
-        [main-end footer-start] auto
-        [footer-end];
 
     @include mq(sidenotes) {
         --note-track: var(--sidenote-width);
@@ -49,11 +48,22 @@ body {
 
 body.has-hero {
     grid-template-rows:
-        [hero-start] 1fr
+        [hero-start] 80svh
         [hero-end nav-start] auto
         [nav-end main-start] auto
         [main-end footer-start] auto
         [footer-end];
+    min-height: 100svh;
+
+    @include mq(desktop) {
+      grid-template-rows:
+          [hero-start] 93svh
+          [hero-end nav-start] auto
+          [nav-end main-start] auto
+          [main-end footer-start] auto
+          [footer-end];
+      min-height: 100svh;
+    }
 }
 
 #sidebar { grid-row: nav-start / nav-end; grid-column: content-start / content-end; }

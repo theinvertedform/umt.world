@@ -5,9 +5,9 @@ abstract: "This is the website of **Uriah Marc Todoroff**. I am a writer interes
 
 To learn more about new media and the design of this website, read [*About the Website*](/about). For more about me and my motivations, read [*About the Author*](/links). This website is constantly in development. The best way to stay updated is to subscribe to the [newsletter](https://news.umt.world), which I only send occasionally. The index below contains [critical writing](/#culture) about art and film, [book reviews](/#books), fiction, and [interviews](/#interviews) with artists and philosophers. The [*Diaries*](/diaries) develop a chronological narrative."
 layout: home
-hero: "/assets/images/20250825-1429-004.JPG"
-hero_portrait: "/assets/images/20250825-1429-004-5:8.JPG"
-hero_caption: "The guard told me to get off the grass."
+hero: "/assets/images/kubik2000/kubik2000.jpg"
+hero_focus: 50% 15%
+hero_caption: "Scenes From a Marriage, Tomáš Kubík, 2000."
 ---
 
 {%- assign date_format =  "%b %d %Y" -%}
